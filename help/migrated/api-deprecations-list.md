@@ -1,0 +1,149 @@
+---
+jcr-language: en_us
+title: Adobe Learning Manager에서 API 중단
+description: Adobe Learning Manager의 API가 발전함에 따라 API는 주기적으로 재구성되거나 업그레이드됩니다. API가 발전하면 이전 API는 더 이상 사용되지 않으며 결국 제거됩니다. 이 페이지에는 더 이상 사용되지 않는 API 버전에서 보다 안정적이고 새로운 API 버전으로 마이그레이션할 때 알아야 하는 정보가 포함되어 있습니다.
+contentowner: saghosh
+source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 0%
+
+---
+
+
+# Adobe Learning Manager에서 API 중단
+
+## Adobe Learning Manager 2024년 3월 릴리스의 API 중단
+
+### 환율 한도 변경
+
+Adobe Learning Manager의 다음 릴리스를 통해 새 계정에 대한 API 비율 제한을 재구성합니다. 기존 계정의 경우 관리자 API만 등급 제한됩니다. 90일(약 3개월) 이후에는 모든 API에 대한 요금 한도를 재구성하지만 기존 계정은 현재 사용량에 따라 화이트리스트에 추가됩니다. 기존 계정은 학습자 API 사용을 다시 방문해야 합니다.
+
+신규 계정의 경우, 요금 제한을 늘리려면 ALM 고객 성공 팀에 문의해야 합니다.
+
+#### 어떤 API가 등급 제한됨
+
+새 계정의 경우 모든 관리자, 학습자 및 검색 API에 대해 등급 제한이 있으며 일괄 적용됩니다.
+
+API 버스트 레이트 또는 버스트 제한은 제한된 시간 내에 짧은 버스트에서 API에 대해 수행될 수 있는 최대 요청 수를 의미한다.
+
+다음 표에는 API에 대한 속도 및 버스트 제한이 나열되어 있습니다.
+
+<table>
+    <tr>
+        <th>API</th>
+        <th>요청 수-RPM</th>
+        <th>버스트 요청 수</th>
+    </tr>
+    <tr>
+        <td>관리자</td>
+        <td>5</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>학습자</td>
+        <td>20</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>검색</td>
+        <td>50</td>
+        <td>5</td>
+    </tr>
+</table>
+
+### 오프셋 제한 변경 사항
+
+오프셋 값에 의해 검색되는 레코드가 많고 전체 성능이 저하되기 때문에 제한 사항을 적용합니다. **500** 기록. 다음 릴리스에서는 책임자와 학습자 모두 **GET 사용자** API에서 최대 값을 반환합니다. **500** 기록.
+
+가져올 레코드가 더 필요하면 **GET 작업** API.
+
+오프셋 한도의 변경은 모든 신규 고객에게 적용됩니다. 기존 고객의 경우 90일 규칙이 적용됩니다.
+
+### 패스 제외
+
+현재 Learning Manager API는 포함 항목을 통해 API 모델을 탐색하여 데이터를 가져올 수 있는 그래프 데이터 구조를 따릅니다. API를 최대 7개 레벨까지 트래버스할 수 있지만 단일 API 호출을 사용하여 데이터를 가져오는 것은 계산상 비용이 많이 듭니다.
+
+기존 및 신규 고객 모두 한 번의 큰 전화 대신 여러 번 작은 전화를 거는 것이 좋습니다. 이러한 접근 방식은 호출에 원하지 않는 데이터가 로드되는 것을 방지할 것이다.
+
+신규 계정에 대해 이러한 제한 사항을 적용하고 기존 계정의 화이트리스트를 유지하고자 합니다.
+
+#### 더 이상 사용되지 않는 경로
+
+다음 경로는 사용되지 않습니다.
+
+* /learningObject
+   * 사용되지 않는 경로:
+      * enrollment.loInstance.loResources.resources
+      * instances.loResources.resources
+   * 새 패스:
+      * enrollment.loInstance.loResources
+      * instances.loResources
+
+* /learningObject/{id}
+   * 사용되지 않는 경로:
+      * enrollment.instances.subLoInstances.learningObject
+   * 새 경로:
+      * enrollment.instances.subLoInstances
+
+* /등록
+   * 사용되지 않는 경로:
+      * loInstance.learningObject.enrollment
+   * 새 경로:
+      * loInstance.learningObject
+
+* /learningObject/{id}
+   * 사용되지 않는 경로:
+      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+   * 새 경로:
+      * instance.subLoInstances
+
+### 인스턴스 요약 수 변경 사항
+
+현재 LO 요약 엔드포인트에서 가능한 모든 인스턴스의 수를 가져옵니다. 예를 들어, 강의의 경우 응답의 등록 및 대기자 명단 수를 볼 수 있습니다 **GET /learningObjects/{loId}/instances/{loInstanceId}/summary**. 그런 다음 응답에서 completionCount 및 enrollmentCount를 볼 수 있습니다. 강의가 VC 또는 클래스룸인 경우 인원 제한 및 대기자 명단 제한을 볼 수도 있습니다.
+
+완료 및 등록 수를 검색하는 프로세스는 계산상 비용이 많이 들기 때문에 요청 시 계산을 수행합니다. 캐시에 데이터가 없으면 데이터가 다시 로드되어 계산이 많이 수행됩니다. 강의에 등록한 사용자가 많으면 그 수가 많기 때문에 CPU 성능에 영향을 미칩니다.
+
+Adobe Learning Manager의 다음 릴리스에서 LO 인스턴스 요약 엔드포인트에서 completionCount, enrollmentCount, seatLimit 및 waitlistCount가 캐시됩니다. 캐시된 정보는 등록 또는 등록 취소가 변경될 때까지 유지됩니다. 1000명을 초과하는 건수의 경우 예상 건수를 가정하고 모든 기존 및 신규 계정에 대한 결과를 무효화합니다.
+
+>[!NOTE]
+>
+>completionCount, enrollmentCount, seatLimit 및 waitlistCount가 1000을 초과하는 경우 캐시에서 검색되므로 정확한 수치보다는 추정치로 해석하는 것이 좋습니다.
+
+### 이름순으로 정렬
+
+Adobe Learning Manager의 다음 릴리스에서 name 및 -name은 다음 API의 정렬 필드에서 더 이상 사용되지 않습니다.
+
+* GET /userGroups/{userGroupId}/users
+* GET /users
+
+>[!NOTE]
+>
+>모든 기존 및 새 계정에 대해 이름 및 -name을 기준으로 정렬하는 것은 더 이상 사용되지 않습니다.
+
+
+## Adobe Learning Manager 2023년 11월 릴리스의 API 중단
+
+### 플래그 재정의
+
+Adobe Learning Manager의 2023년 11월 릴리스에서는 API에서 재정의 플래그를 중단했습니다. 재정의 플래그는 공개 API 사양의 일부가 아니며 백엔드 테스트용으로 제작되었습니다. 이제 학습자 API에 대한 플래그가 중단됩니다. 그러나 이 플래그는 관리자 API에 계속 유효합니다.
+
+학습자 API에 대한 플래그를 해제하려는 이유는 재정의 플래그가 학습자 API를 통해 대량의 데이터를 가져오는 중이었기 때문입니다.
+
+앞으로 다음 학습자 API는 재정의 플래그가 있으므로 작동을 멈춥니다.
+
+<code>https://captivateprime.adobe.com/primeapi/v2/users?page[오프셋]=0(&amp;p)[제한]=10&amp;sort=id&amp;override=TRUE</code>
+
+### 스킬 기반 새 권장 사항에 대한 API 변경 사항
+
+Adobe Learning Manager는 고객 및 파트너가 사용할 수 있는 계정에 대한 권장 사항을 개선합니다. 이와 같은 추천 알고리즘의 개선은 강좌, 학습 경로, 인증 등에 대한 순위 알고리즘의 변경으로 콘텐츠 발굴에 대한 더 나은 사용자 경험을 제공한다.
+
+알고리즘은 더 이상 피어 기반 추천을 허용하지 않을 것이다. 변경 사항은 기존 사용자에게 영향을 주지 않지만 산업 정렬 옵션은 계속 존재합니다. 사용자 정의 옵션의 경우, Adobe Learning Manager는 더 이상 사용자 정의 피어 기반 선택을 허용하지 않습니다.
+
+이제 피어 그룹이 계정이 되고 학습자는 그룹의 인기 주제를 표시하는 문자열을 볼 수 있습니다. 모든 권장 사항은 설명 가능합니다. 예를 들어, 피사체에서 강의 내용을 보는 경우, 스트립의 카드에 강의 이유가 표시됩니다.
+
+### 알림 공지 보고서의 변경 사항
+
+Adobe Learning Manager의 이전 릴리스에서는 알림 공지 보고서에 필터가 없습니다. Adobe Learning Manager가 계정의 모든 알림을 다운로드했습니다.
+
+2023년 11월 릴리스에는 지정된 기간 내에 알림을 다운로드할 수 있는 날짜 필터가 추가되었습니다.  단, 보고서는 지난 6개월 동안만 다운로드할 수 있습니다.
