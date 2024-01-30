@@ -2,9 +2,9 @@
 description: 기존 LMS를 Learning Manager LMS로 마이그레이션하려는 통합 책임자를 위한 참조 설명서
 jcr-language: en_us
 title: 마이그레이션 설명서
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+source-git-commit: 76eae1c8bc6f2afde9ea6c9433300e8af9cfdda8
 workflow-type: tm+mt
-source-wordcount: '3705'
+source-wordcount: '3641'
 ht-degree: 72%
 
 ---
@@ -419,11 +419,11 @@ Learning Manager는 UTF 8 및 32비트 형식으로만 날짜 및 시간 값을 
 
 마이그레이션 프로젝트 계획은 아주 중요합니다. 각 스프린트에서 마이그레이션할 내용을 쉽게 식별할 수 있도록 프로젝트를 여러 스프린트로 나누는 것이 좋습니다. 프로젝트가 끝난 후 한 번의 막대한 확인 단계를 거치는 대신 각 스프린트의 데이터가 제대로 마이그레이션되었는지 매번 확인하면 더욱더 좋습니다. 마이그레이션 프로젝트의 스프린트를 시작하기 전에, 데이터와 콘텐츠를 FTP 및 Box 서버에 각각 업로드해야 합니다. 사용자 정의 FTP 및 Box에 대한 계정이 없는 경우 만들 수 있습니다.
 
-**FTP 계정 생성**
+<!--**Create FTP account**-->
 
-**[!UICONTROL CSV FTP 폴더 요청]**&#x200B;을 클릭합니다. 전자 메일 ID를 입력하라는 팝업 대화 상자가 나타납니다. 온라인 지침을 따라 FTP 계정을 만듭니다. 계정을 만들면 즉시 FTP에서 마이그레이션 프로젝트 및 스프린트 프로젝트 폴더를 볼 수 있습니다.
+<!--Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
 
-아래에 있는 FTP의 프로젝트 파일 및 폴더 스냅샷 예시를 참조하십시오.
+A sample snapshot of project files and folder of FTP is shown below for your reference. -->
 
 <!--![](assets/exavault-migration-upload-folders.png)-->
 
