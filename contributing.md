@@ -2,7 +2,7 @@
 source-git-commit: 705de17630a5db7f43536f870e8760a4d22427e6
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 # 기여하는 중
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## 행동 수칙
 
-이 프로젝트는 Adobe을 준수합니다. [행동 수칙](code-of-conduct.md). 참여하면 이 코드를 유지해야 합니다. 허용되지 않는 행동을 다음 사용자에게 보고하십시오.
+이 프로젝트는 Adobe [수행 코드](code-of-conduct.md)를 준수합니다. 참여하면 이 코드를 유지해야 합니다. 허용되지 않는 행동을 다음 사용자에게 보고하십시오.
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## 컨텐츠 작가 가이드 설명서

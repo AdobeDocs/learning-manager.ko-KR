@@ -7,7 +7,7 @@ preview: true
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 0%
+ht-degree: 48%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 사용자 그룹의 사용자를 일괄 할당하는 중에는 역할을 분기할 수 없으며 이에 따라 모든 사용자에게 강사 역할이 할당됩니다.
 
-## 해결 방법
+## 솔루션
 
 세션에 할당된 사용자 역할을 필터링하는 사용자 정의 사용자 그룹을 만듭니다. 사용자 그룹에서 할당된 강사 역할을 제거하려면 다음 단계를 수행합니다.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    ![](assets/instructor-disable-all.png)
 
-1. 다음으로 이동: **사용자** > **사용자 그룹**. 다음을 수행합니다. **[!UICONTROL 추가]**.
+1. 다음으로 이동: **사용자** > **사용자 그룹**. **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
    ![](assets/instructor-usergroups.png)
 

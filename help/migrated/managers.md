@@ -7,7 +7,7 @@ preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 0%
+ht-degree: 91%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 기능 {#features}
 
-* [시작하기](managers/feature-summary/learning-objects.md#main-pars_header)
+* [시작](managers/feature-summary/learning-objects.md#main-pars_header)
 * [iPad 및 Android 태블릿 사용자](managers/feature-summary/ipad-android-tablet-users.md)
 * [보고서](managers/feature-summary/reports.md)
 * [설정](managers/feature-summary/settings.md)

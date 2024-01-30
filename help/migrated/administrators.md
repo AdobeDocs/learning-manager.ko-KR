@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: 관리자
-description: 관리자 역할과 관련된 Learning Manager 기능 및 자주 묻는 질문에 관해 알아보려면 계속 읽어보십시오.
+description: 관리자 역할과 관련된 Learning Manager 기능 및 자주 묻는 질문에 대해 알아보려면 계속 읽어보십시오.
 contentowner: manochan
 preview: true
 source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td><img src="assets/administrator2.png"></td> 
-   <td><p>관리자 역할과 관련된 Learning Manager 기능 및 자주 묻는 질문에 관해 알아보려면 계속 읽어보십시오. </p></td> 
+   <td><p>관리자 역할과 관련된 Learning Manager 기능 및 자주 묻는 질문에 대해 알아보려면 계속 읽어보십시오. </p></td> 
   </tr> 
  </tbody>
 </table>
 
-## 관리자를 위한 모범 사례 안내서 {#bestpracticesguideforadministrators}
+## 관리자를 위한 모범 사례 가이드 {#bestpracticesguideforadministrators}
 
 [Learning Manager 설정 및 시작을 준비하는 관리자를 위한 모범 사례 가이드](administrators/getting-started.md)
 
@@ -59,4 +59,4 @@ ht-degree: 0%
 
 ## 기술 참조 {#technicalreference}
 
-[여기에서 Adobe Learning Manager 기술 참조 가이드를 다운로드할 수 있습니다.](assets/technicaloverview.pdf)
+[여기서 Learning Manager 기술 참조 가이드를 다운로드할 수 있습니다.](assets/technicaloverview.pdf)

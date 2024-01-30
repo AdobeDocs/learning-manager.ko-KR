@@ -6,7 +6,7 @@ preview: true
 source-git-commit: 544c695a77c21dd9162b9b943b6119d27aa373dc
 workflow-type: tm+mt
 source-wordcount: '1757'
-ht-degree: 0%
+ht-degree: 51%
 
 ---
 
@@ -151,7 +151,7 @@ Learning Manager는 JSONAPI 사양을 구현했으므로 일부 데이터를 테
    <td><p>(20, 10)<br></p></td> 
   </tr> 
   <tr> 
-   <td><p>PATCH</p></td> 
+   <td><p>패치</p></td> 
    <td><p>(60, 20)</p></td> 
    <td><p>(15, 5) <br></p></td> 
   </tr> 

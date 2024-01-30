@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 관리자로 Learning Manager를 시작합니다.
 
-시작 페이지를 통해 애플리케이션의 주요 기능을 탐색할 수 있습니다.
+응용 프로그램의 주요 기능을 시작 페이지에서 알아볼 수 있습니다.
 
-관리자로 로그인하면 비디오 목록이 있는 팝업 창을 볼 수 있습니다.
+관리자 역할로 로그인하면 비디오 목록이 있는 팝업 창을 볼 수 있습니다.
 
 ## 샘플 비디오 보기 {#viewsamplevideos}
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 * 보고서 보기 - 보고서를 사용하여 팀 성과를 추적합니다.
 * 팀 관리 - 강의를 지명하고 승인하며 피드백을 제공합니다.
 
-또한 튜토리얼 비디오 시청, 도움말 콘텐츠 보기 및 다양한 역할 배우기를 선택하여 Learning Manager 응용 프로그램에 대해 자세히 알아볼 수 있습니다.
+또한 튜토리얼 비디오 시청, 도움말 콘텐츠 보기 및 다양한 역할 배우기를 선택하여 Learning Manager 응용 프로그램을 자세히 알아볼 수 있습니다.
 
 ![](assets/manager-experienceprime.png)
 

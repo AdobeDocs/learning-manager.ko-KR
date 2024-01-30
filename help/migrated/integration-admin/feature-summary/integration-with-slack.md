@@ -1,65 +1,65 @@
 ---
 jcr-language: en_us
-title: Learning Manager와 Slack 통합
-description: Learning Manager와 Slack 통합
+title: Slack과 통합된 Learning Manager
+description: Slack과 통합된 Learning Manager
 contentowner: dvenkate
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 44%
 
 ---
 
 
 
-# Learning Manager와 Slack 통합
+# Slack과 통합된 Learning Manager
 
 있습니다. **제거됨** **Slack** Learning Manager의 커넥터로 더 이상 Slack 커넥터에 액세스할 수 없습니다.
 
-Slack 사용자는 Adobe 앱 디렉터리에서 Slack 팀에 Slack Learning Manager 앱을 설치하고 Slack 내에서 바로 Learning Manager 콘텐츠를 탐색할 수 있습니다. Primebot과 상호 작용하여 새 강의를 검색하고, 권장 사항을 보고, 예정된 기한 알림을 받을 수 있습니다. 등록하고 Slack 내에서 바로 학습할 수도 있습니다.
+Slack 사용자는 사용 중인 Slack 팀의 Slack 앱 디렉터리에서 Adobe Learning Manager 앱을 설치한 뒤 Slack에서 바로 Learning Manager 콘텐츠를 탐색할 수 있습니다. Primebot과 상호 작용하여 새 강의를 검색하고, 권장 사항을 보고, 예정된 기한 알림을 받을 수 있습니다. Slack 내에서 학습에 등록하거나 학습으로 이동할 수도 있습니다.
 
 Slack을 위한 Learning Manager 앱은 Learning Manager의 Azure 인스턴스에서 지원되지 않습니다.
 
 ## Adobe Learning Manager 앱 설치 {#installingadobecaptivateprimeapp}
 
-학습자는 Slack 계정에 CP Prime 앱을 설치할 수 있습니다. 앱을 설치하려면 Slack 계정에서 앱 디렉터리를 열고 Learning Manager를 검색합니다. 앱을 다운로드하고 설치합니다. 계정에서 앱이 승인되지 않는 경우 통합 책임자에게 승인을 요청합니다. 이미 승인된 경우에는 로그인할 수 있습니다.
+학습자로서 귀하는 Slack 계정에 CP Prime 앱을 설치할 수 있습니다. 앱을 설치하려면 귀하의 Slack 계정에서 앱 디렉터리를 열고 Learning Manager를 검색합니다. 앱을 다운로드하고 설치합니다. 계정에서 앱이 승인되지 않는 경우 통합 책임자에게 승인을 요청합니다. 승인된 경우, 로그인할 수 있습니다.
 
 ## 통합 책임자로 학습자 로그인 승인 {#approvinglearnersigninasanintegrationadmin}
 
 통합 책임자는 학습자가 Slack 시 Prime 응용 프로그램을 사용할 수 있는 권한을 승인하려면 다음 단계를 따르십시오.
 
-1. 선택 **[!UICONTROL 응용 프로그램]** 왼쪽 창에서 **[!UICONTROL 추천 앱]** 탭.
+1. 왼쪽 창에서 **[!UICONTROL 응용 프로그램]**&#x200B;을 선택한 다음 **[!UICONTROL 피처드 앱]** 탭을 클릭합니다.
 
    ![](assets/featuredapps.jpg)
 
-1. 다음을 클릭합니다. **[!UICONTROL Slack]** 타일 > slack 통합 페이지가 열립니다. 다음을 수행합니다. **[!UICONTROL 승인]** 오른쪽 상단에서 응용 프로그램을 승인합니다.
+1. **[!UICONTROL Slack]** 타일을 클릭하면 Slack 통합 페이지가 열립니다. 다음을 수행합니다. **[!UICONTROL 승인]** 오른쪽 상단에서 응용 프로그램을 승인합니다.
 
    ![](assets/approval.png)
 
 1. 다음으로 돌아가기 **[!UICONTROL 응용 프로그램]** 페이지. 승인되면 Slack이 **[!UICONTROL 외부 앱]** 탭.
-1. 학습자는 이제 Slack을 사용하여 Prime 계정에 로그인할 수 있습니다.
+1. 이제 학습자는 Slack으로 Prime 계정에 로그인할 수 있습니다.
 
 ## Primebot 기능 {#primebotfunctionalities}
 
-이제 Primebot과 상호 작용을 시작할 수 있습니다. 다음은 봇의 기능입니다.
+이제 Primebot과 상호 작용을 시작할 수 있습니다. 봇의 기능은 다음과 같습니다.
 
 1 - 명령
 
 &#42;/prime&#42; Adobe Learning Manager 계정에 대한 일회성의 특정 쿼리에 사용할 수 있습니다.
 
-사용 가능한 하위 명령은 다음과 같습니다.
+사용 가능한 부 명령은 다음과 같습니다.
 
 /prime 찾기 `<query>` - 강의, 인증 등을 검색합니다.
 
-/prime recommendation - 권장 사항 표시
+/prime recommend - 추천 표시
 
-/prime deadlines - 지연된 마감 및 예정된 마감 표시
+/prime deadlines - 지났거나 예정된 기한 표시
 
-/prime 등록 - 등록 표시
+/prime enrollments - 등록 표시
 
-/prime skills - show skills
+/prime skills - 스킬 표시
 
-/prime 알림 - 알림 표시
+/prime notifications - 알림 표시
 
 /prime catalogs - 카탈로그 표시
 
@@ -67,9 +67,9 @@ Slack을 위한 Learning Manager 앱은 Learning Manager의 Azure 인스턴스�
 
 /prime profile- 프로필 표시
 
-/prime 로그아웃 - 이 Slack 팀의 Prime 계정에서 로그아웃
+/prime logout - 이 Slack 팀에서 Prime 계정 로그아웃
 
-/prime 도움말 - 도움말 메시지 표시
+/prime help - 도움말 메시지 표시
 
 2 - 권장
 

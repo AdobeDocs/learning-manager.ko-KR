@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Salesforce용 Learning Manager 앱
-description: Salesforce는 영업 및 마케팅 팀 중에서 가장 인기 있는 CRM 솔루션 중 하나입니다. Salesforce의 Adobe Learning Manager 앱을 사용하여 사용자가 Salesforce 인터페이스에서 학습 콘텐츠에 액세스하도록 허용할 수 있습니다. 사용자는 Salesforce 내에서 강의, 학습 프로그램, 작업 지원 등과 같이 할당된 학습 콘텐츠에 액세스할 수 있습니다. 사용자는 등록에 대한 알림 및 책임자의 공지를 받을 수도 있습니다.
+description: Salesforce는 영업 및 마케팅 팀 중에서 가장 인기 있는 CRM 솔루션 중 하나입니다. Salesforce의 Adobe Learning Manager 앱을 사용하여 사용자가 Salesforce 인터페이스에서 학습 콘텐츠에 액세스하도록 허용할 수 있습니다. 사용자는 Salesforce에서 강의, 학습 프로그램, 작업 지원 등 할당된 학습 콘텐트에 액세스할 수 있습니다. 사용자는 등록에 대한 알림 및 책임자의 공지를 받을 수도 있습니다.
 contentowner: jayakarr
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
@@ -16,26 +16,26 @@ ht-degree: 0%
 
 ## 개요 {#overview}
 
-Salesforce™은 영업 및 마케팅 팀 사이에서 가장 인기 있는 CRM 솔루션 중 하나입니다. Salesforce의 Adobe Learning Manager 앱을 사용하여 사용자가 Salesforce 인터페이스에서 학습 콘텐츠에 액세스하도록 허용할 수 있습니다. 사용자는 Salesforce 내에서 강의, 학습 프로그램, 작업 지원 등과 같이 할당된 학습 콘텐츠에 액세스할 수 있습니다. 사용자는 등록에 대한 알림 및 책임자의 공지를 받을 수도 있습니다.
+Salesforce™은 영업 및 마케팅 팀 사이에서 가장 인기 있는 CRM 솔루션 중 하나입니다. Salesforce의 Adobe Learning Manager 앱을 사용하여 사용자가 Salesforce 인터페이스에서 학습 콘텐츠에 액세스하도록 허용할 수 있습니다. 사용자는 Salesforce에서 강의, 학습 프로그램, 작업 지원 등 할당된 학습 콘텐트에 액세스할 수 있습니다. 사용자는 등록에 대한 알림 및 책임자의 공지를 받을 수도 있습니다.
 
-현재 Salesforce 앱 Exchange에서 승인이 보류 중이므로 Salesforce 앱을 사용할 수 없습니다. 앱 베타 버전 미리 보기에 관심이 있다면 계정 관리자 또는 Learning Manager 지원팀에 문의하십시오.
+현재 Salesforce 앱을 사용할 수 없습니다. Salesforce App Exchange에서 승인 보류 중입니다. 앱 베타 버전 미리 보기에 관심이 있다면 계정 관리자 또는 Learning Manager 지원팀에 문의하십시오.
 
 ## 설치 및 설정 {#installationandsetup}
 
-아래 단계에 따라 Learning Manager Salesforce 앱 설치 및 설정 방법을 알아보십시오.
+다음 단계를 따라서 Learning Manager Salesforce 앱 설치 및 설정 방법을 알아보십시오.
 
 ### 필수 구성 요소 {#prerequisites}
 
 1. 조직의 통합 책임자가 Salesforce 앱을 승인해야 합니다. 통합 책임자 역할을 위한 Learning Manager 응용 프로그램의 특별 응용 프로그램 섹션에서 이 앱을 찾을 수 있습니다.
-1. 앱을 설치해야 하는 조직의 Salesforce 계정에 액세스합니다. 일반적으로 조직의 Salesforce 책임자는 해당 앱을 설치하는 사람입니다. 귀하가 Learning Manager 통합 책임자이고 Salesforce 계정이 없는 경우 조직의 Salesforce 책임자에게 문의하십시오.
+1. 조직의 Salesforce 계정에 액세스합니다. 앱을 설치해야 합니다. 일반적으로 조직의 Salesforce 책임자는 해당 앱을 설치하는 사람입니다. 귀하가 Learning Manager 통합 책임자이며 Salesforce 계정이 없는 경우 조직의 Salesforce 책임자에게 문의하십시오.
 
 ### 설치 단계 {#installationsteps}
 
-1. 계정 관리자 또는 고객 성공 관리자에게 Learning Manager 계정 ID를 제공하여 귀하의 계정에서 이 앱을 사용할 수 있도록 활성화하도록 요청하십시오. 또한 설치 가능한 Salesforce용 Learning Manager 학습자 앱 패키지 CSM을 요청합니다.
+1. 계정 관리자 또는 고객 성공 관리자에게 Learning Manager 계정 ID를 제공하여 이 앱의 사용을 허용해 달라고 요청합니다. 또한 설치 가능한 Salesforce용 Learning Manager 학습자 앱 패키지 CSM을 요청합니다.
 
 1. 통합 책임자로 Learning Manager 계정에 로그인한 다음 계정에 Salesforce 앱이 활성화되었는지 확인합니다.
 
-1. Salesforce 계정에 Learning Manager 앱을 설치하려면 계정 관리자 또는 고객 성공 관리자가 제공한 설치 가능한 패키지를 사용하십시오. 이 앱을 설치할 때 Salesforce 계정에 대한 관리자 권한이 있어야 합니다.
+1. Salesforce 계정에 Learning Manager 앱을 설치하려면, 계정 관리자 또는 고객 성공 관리자로부터 제공받은 설치 가능한 패키지를 사용하십시오. 이 앱을 설치할 때 Salesforce 계정에 대한 관리자 권한이 있어야 합니다.
 
 1. 스냅샷에 나타난 대로 적절한 옵션을 선택하고 **[!UICONTROL 설치]**.
 
@@ -47,11 +47,11 @@ Salesforce™은 영업 및 마케팅 팀 사이에서 가장 인기 있는 CRM 
 
 1. 다음을 수행합니다. **[!UICONTROL 계속]** 클릭하여 서드파티 액세스를 확인합니다.
 
-   앱이 성공적으로 설치되었음을 확인하는 메시지가 나타납니다. 다음을 수행합니다. **완료**.
+   앱이 성공적으로 설치되었다는 확인 메시지가 나타납니다. **완료**&#x200B;를 클릭합니다.
 
-## 홈 페이지에 알림 구성 요소 추가 {#addnotificationcomponenttothehomepage}
+## 홈페이지에 알림 요소 추가 {#addnotificationcomponenttothehomepage}
 
-Learning Manager 팀은 Salesforce 책임자가 홈페이지 레이아웃에 Learning Manager 알림 요소를 추가할 것을 권장합니다. 이 구성 요소를 사용하면 Salesforce 사용자가 학습자 앱 컨텍스트에 있지 않을 때도 Learning Manager에서 할당에 대한 알림 및 기타 공지를 받을 수 있습니다.
+Learning Manager 팀은 Salesforce 책임자가 홈페이지 레이아웃에 Learning Manager 알림 요소를 추가할 것을 권장합니다. 해당 요소는 Salesforce 사용자가 사용자 앱의 컨텍스트에 있지 않을 때도 Learning Manager에서 할당에 대한 알림 및 기타 공지를 받을 수 있게 해줍니다.
 
 홈페이지 레이아웃에 Learning Manager 알림 요소를 추가하려면 다음 단계를 따르십시오.
 

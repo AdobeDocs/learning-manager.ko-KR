@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 0%
+ht-degree: 65%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Microsoft Windows 7, 8, 10 (64비트 버전만).
 
-## macOS {#macos}
+## MacOS {#macos}
 
 macOS X 10.12, 10.13, 10.14, 10.15
 
@@ -25,20 +25,20 @@ macOS X 10.12, 10.13, 10.14, 10.15
 
 8GB RAM.
 
-## 표시
+## 디스플레이
 
-지원되는 최소 해상도- 1024 x 720.
+지원 최소 해상도- 1024 x 720.
 
 ## 디스크 공간
 
-최소 5GB의 사용 가능한 하드 디스크 공간.
+최소 5GB의 하드 디스크 여유 공간.
 
-## 녹음 중
+## 레코딩
 
 * 오디오 레코딩에는 마이크가 필요합니다.
 * 비디오 레코딩에는 웹캠이 필요합니다.
 
-## 기타 사항
+## 기타
 
 응용 프로그램을 사용하려면 활성화된 인터넷 연결 및 Adobe Learning Manager 학습자 계정이 필요합니다.
 
@@ -52,12 +52,12 @@ macOS X 10.12, 10.13, 10.14, 10.15
 
 ## 이미지의 권장 크기 {#recommendedsizeofimages}
 
-* 발행인란: 1280 x 360픽셀.
+* 발행인란: 1280 x 360픽셀입니다.
 * 카탈로그 카드의 이미지: 280 x 100픽셀
 * 교육 카드의 크기: 300 x 240픽셀
-* 소셜 배너: 1600 x 240px
+* 소셜 배너: 1600 x 240픽셀
 
-## 데스크톱
+## 데스크탑
 
 ### 운영 체제
 
@@ -77,15 +77,15 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
 
 ### 디스크 공간
 
-최소 5GB의 사용 가능한 하드 디스크 공간.
+최소 5GB의 하드 디스크 여유 공간.
 
-### 녹음 중
+### 레코딩
 
 오디오 레코딩에는 마이크가 필요하고 비디오 레코딩에는 웹캠이 필요합니다.
 
 ## 모바일 앱
 
-### 디바이스
+### 장치
 
 * iOS: 마지막 두 가지 주요 버전.
 * Android: 마지막 두 가지 주요 버전.
@@ -115,13 +115,13 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
 >
 >Learning Manager 모바일 앱은 학습자 역할만 지원합니다.
 
-## 최대 콘텐츠 크기 {#maximumcontentsize}
+## 최소 콘텐츠 크기 {#maximumcontentsize}
 
 업로드할 수 있는 최대 파일 크기는 600MB입니다.
 
 >[!NOTE]
 >
->크기: *user.csv* 파일이 100MB를 초과합니다. 이 파일을 가져오면 브라우저가 예기치 않게 작동할 수 있습니다. 이 문제는 브라우저의 메모리가 부족하기 때문에 발생합니다.
+>*user.csv* 파일의 크기가 100MB를 초과하는 경우 이 파일을 가져올 때 브라우저에서 예상치 못한 동작이 발생할 수 있습니다. 이 문제는 브라우저의 메모리가 부족하기 때문에 발생하는 것입니다.
 
 큰 사이즈로 수입하시는 것이 좋습니다 *user.csv* 자동화된 Box/Exavault 워크플로를 사용하는 파일입니다. 자세한 내용은 다음을 참조하십시오. [파일 마이그레이션](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
@@ -136,7 +136,7 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
    <td>
     <p><b>콘텐츠 유형</b></p></td>
    <td>
-    <p><b>확장 프로그램</b></p></td>
+    <p><b>확장</b></p></td>
   </tr>
   <tr>
    <td>
@@ -164,13 +164,13 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
   </tr>
   <tr>
    <td>
-    <p>SCORM 04</p></td>
+    <p>SCORM 2004</p></td>
    <td>
     <p>"zip"</p></td>
   </tr>
   <tr>
    <td>
-    <p>카피</p></td>
+    <p>CAPI</p></td>
    <td>
     <p>"zip"</p></td>
   </tr>
@@ -224,7 +224,7 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
  </tbody>
 </table>
 
-## 요소 업로드를 위한 높이 및 폭 사양 {#heightandwidthspecificationforuploadingelements}
+## 요소 업로드의 높이 및 너비 사양 {#heightandwidthspecificationforuploadingelements}
 
 <table>
  <tbody>
@@ -242,19 +242,19 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
   </tr>
   <tr>
    <td>
-    <p>학습자 응용 프로그램에서 확장된 배지</p></td>
+    <p>학습자 응용 프로그램의 확장형 배지</p></td>
    <td>
     <p>90x90픽셀</p></td>
   </tr>
   <tr>
    <td>
-    <p>학습자 성취도에 대한 사용자 프로필 사진</p></td>
+    <p>학습자 성과의 사용자 프로필</p></td>
    <td>
     <p>100x100픽셀</p></td>
   </tr>
   <tr>
    <td>
-    <p>로그아웃 드롭다운의 사용자 프로필 사진</p></td>
+    <p>서명 드롭다운의 사용자 프로필 사진</p></td>
    <td>
     <p>42x42픽셀</p></td>
   </tr>
@@ -273,7 +273,7 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
  </tbody>
 </table>
 
-## 액세스 가능성
+## 접근성
 
 ### 지원되는 브라우저 및 화면 판독기
 
@@ -287,12 +287,12 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
 
 다음이 지원됩니다.
 
-* Android+Talkback
+* Android+음성 안내 지원
 * iOS+voiceOver
 
 ## 네트워크 요구 사항 {#networkrequirements}
 
-제한이 있는 네트워크를 사용하는 경우 다음 서드파티 도메인이 화이트리스트에 등록되어 있는지 확인합니다.
+제한이 있는 네트워크를 사용하는 경우 다음 타사 도메인은 화이트리스트에 추가됩니다.
 
 * &#42;.adobe.com
 * &#42;.boltdns.net
@@ -308,7 +308,7 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
 * &#42;.akamaihd.net
 
 
-### 특정 확장 사례 {#specificextendedcases}
+### 특정 확장 경우 {#specificextendedcases}
 
 <table>
  <tbody>
@@ -338,11 +338,11 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
   </tr>
   <tr>
    <td>Box 커넥터</td>
-   <td>프랑크푸르트에 위치한 Box Zones</td>
+   <td>프랑크푸르트에 있는 Box Zones</td>
   </tr>
   <tr>
-   <td>미니 오렌지 커넥터</td>
-   <td>미니 오렌지</td>
+   <td>Mini Orange 커넥터</td>
+   <td>Mini Orange</td>
   </tr>
   <tr>
    <td>Workday 커넥터</td>

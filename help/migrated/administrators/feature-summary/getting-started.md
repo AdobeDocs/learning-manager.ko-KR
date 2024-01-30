@@ -1,20 +1,20 @@
 ---
 jcr-language: en_us
-title: 관리자로 시작하기
+title: 책임자로 시작하기
 description: 시작하기 페이지를 활용하여 Adobe Learning Manager의 주요 관리자 기능을 탐색합니다.
 contentowner: manochan
 source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 0%
+ht-degree: 66%
 
 ---
 
 
 
-# 관리자로 시작하기
+# 책임자로 시작하기
 
-시작 페이지를 통해 애플리케이션의 주요 기능을 탐색할 수 있습니다.
+응용 프로그램의 주요 기능을 시작 페이지에서 알아볼 수 있습니다.
 
 책임자로 로그인한 다음에는 비디오 목록이 있는 팝업 창을 볼 수 있습니다.
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 * 사용자 관리
 * 보고서 보기
 
-또한 튜토리얼 비디오 시청, 도움말 콘텐츠 보기 및 다양한 역할 배우기를 선택하여 Learning Manager 응용 프로그램에 대해 자세히 알아볼 수 있습니다.
+또한 튜토리얼 비디오 시청, 도움말 콘텐츠 보기 및 다양한 역할 배우기를 선택하여 Learning Manager 응용 프로그램을 자세히 알아볼 수 있습니다.
 
 ![](assets/admin-landing-page-300x204.png)
 

@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 0%
+ht-degree: 55%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 라디오 단추가 누락되어 관리자가 다음을 수행할 수 없습니다(전체 목록 아님).
 
-* 역할 할당 또는 제거.
+* 역할 할당 및 제거.
 * 환영 전자 메일 전송.
-* 사용자를 삭제합니다.
+* 사용자 삭제.
 
 ## 원인
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 테마를 다시 로드하고 라디오 버튼의 모양을 수정합니다. 다음 단계를 수행하십시오.
 
-1. 관리자의 경우 **[!UICONTROL 브랜딩]**.
+1. 관리자는 **[!UICONTROL 브랜딩]**&#x200B;을 클릭합니다.
 1. (으)로 **테마** 섹션, **[!UICONTROL 편집].**
 1. 아무 테마나 선택하고 변경 사항을 저장합니다.
 

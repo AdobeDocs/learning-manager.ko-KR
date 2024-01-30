@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
-title: AEM 구성 요소의 테마 사용자 정의
-description: AEM 구성 요소의 테마 사용자 정의
+title: AEM 구성 요소에 대한 테마 사용자 정의
+description: AEM 구성 요소에 대한 테마 사용자 정의
 contentowner: saghosh
 preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '24'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 
-# AEM 구성 요소의 테마 사용자 정의
+# AEM 구성 요소에 대한 테마 사용자 정의
 
 아래의 JSON을 사용하여 카탈로그 위젯을 사용자 정의하십시오.
 

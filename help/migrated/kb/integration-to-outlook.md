@@ -1,5 +1,5 @@
 ---
-description: 관리자와 강사가 일정 초대에 대한 학습자의 응답을 보는 방법에 대해 알아봅니다.
+description: 책임자와 강사가 일정 초대에 대한 학습자의 응답을 보는 방법에 대해 알아봅니다.
 jcr-language: en_us
 title: Learning Manager에서 Outlook 일정 초대에 대한 학습자의 응답 보기
 contentowner: kuppan
@@ -7,7 +7,7 @@ preview: true
 source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
 workflow-type: tm+mt
 source-wordcount: '510'
-ht-degree: 0%
+ht-degree: 36%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 0%
 
 관리자와 강사가 일정 초대에 대한 학습자의 응답을 보는 방법에 대해 알아봅니다.
 
-Learning Manager에서 강의의 가상 강의/교실 세션에 등록한 학습자는 자세한 Outlook 일정 초대를 받습니다.
+Learning Manager에서 교육 과정의 가상 강의/교실 세션에 등록한 학습자는 자세한 Outlook 일정 초대를 받습니다.
 
 세션 초대에 대한 학습자의 응답은 Learning Manager에 기록되며 관리자와 강사가 세부 정보를 볼 수 있습니다.
 
 학습자가 두 번 이상 동일한 초대에 응답하는 경우 최신 응답이 선택되어 이전 응답을 덮어씁니다. 세션 시간이 변경되면 모든 초대 응답이 지워지고 학습자가 요청에 다시 한 번 응답해야 합니다.
 
-## 초대-응답-추적 기능 활성화 {#enablingtheinvitereplytrackingfeature}
+## 초대-응답-추적 기능 사용 {#enablingtheinvitereplytrackingfeature}
 
 * 초대-응답-추적 기능을 활성화하려면 Adobe Learning Manager 지원에 문의하십시오.
-* 계정에 대해 이 기능이 활성화되면 작성자가 생성한 모든 향후 가상 강의/교실 세션에서 일정 초대에 대한 학습자의 응답을 기록할 수 있습니다.
+* 계정에 대해 이 기능이 활성화되면, 작성자가 생성한 모든 향후 가상 강의/교실 세션에서 일정 초대에 대한 학습자의 응답을 기록할 수 있습니다.
 
 초대-응답-추적 기능이 활성화되기 전에 생성된 가상 강의/교실 세션에 학습자가 등록되어 있으면 일정 초대에 대한 학습자의 응답이 기록되지 않습니다.
 

@@ -7,7 +7,7 @@ preview: true
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 0%
+ht-degree: 25%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 이 문서를 읽고 사용자 정의 응용 프로그램에서 Fluidic Player를 포함하는 방법에 관해 알아보십시오.
 
-이제 기업은 Learning Manager 외부의 학습자에게 사용자 정의 환경을 제공할 수 있습니다. 공개 API를 사용하면 학습 객체, 학습자 등록 및 학습 진행률과 관련된 모든 정보를 가져와 웹 사이트에 표시할 수 있습니다. 더 중요한 것은 학습자가 웹 사이트 내에서 바로 콘텐츠를 수료할 수 있도록 Learning Manager의 Fluidic Player를 웹 사이트에 포함시킬 수도 있다는 것입니다. Fluidic Player는 Learning Manager에서 지원하는 모든 콘텐트를 재생하게 해줍니다. 자체 웹 사이트에 포함하면 Learning Manager 내에서 사용할 때와 똑같은 기능을 제공합니다.
+이제 기업은 Learning Manager 외부의 학습자에게 사용자 정의 환경을 제공할 수 있습니다. 공개 API를 사용하면 학습 객체, 학습자 등록 및 학습 진행률과 관련된 모든 정보를 가져와 웹 사이트에 표시할 수 있습니다. 더욱더 중요한 것은 귀하의 웹사이트에 Learning Manager의 Fluidic Player를 포함하여 학습자가 웹사이트에서 바로 콘텐트를 수료할 수 있다는 것입니다. Fluidic Player는 Learning Manager에서 지원하는 모든 콘텐트를 재생하게 해줍니다. 자체 웹 사이트에 포함하면 Learning Manager 내에서 사용할 때와 똑같은 기능을 제공합니다.
 
 **모든 eLearning 콘텐츠 재생[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
-Fluidic Player는 거의 모든 유형의 eLearning 콘텐츠를 플러그인 또는 다운로드 없이 일관되고 직관적인 방식으로 재생합니다. 학습자는 콘텐츠 파일 유형에 관계없이 콘텐츠를 실행하고 재생할 수 있습니다.
+Fluidic Player는 플러그인이나 다운로드 없이 일관적이고 직관적인 방식으로 모든 형식의 e러닝 콘텐트를 가상으로 재생합니다. 학습자는 콘텐트 파일 형식에 관계 없이 콘텐트를 실행하고 재생할 수 있습니다.
 
 **노트 및 책갈피**
 
-파일 유형에 관계없이 모든 콘텐츠를 메모하고 책갈피로 지정할 수 있습니다. 긴 파일 또는 비디오에서 특정 항목을 선택하려면 필요에 맞는 정보를 찾은 지점에 책갈피를 추가할 수 있습니다. 메모와 책갈피는 검색하거나 전자 메일로 보낼 수 있습니다. 이 아이콘을 클릭하면 Fluidic Player에서 비디오 또는 문서 페이지의 해당 지점에 정확하게 표시됩니다.
+파일 형식에 관계 없이 모든 콘텐트에 노트와 책갈피를 사용할 수 있습니다. 긴 파일 또는 비디오에서 특정 항목을 선택하려면 필요에 맞는 정보를 찾은 지점에 책갈피를 추가할 수 있습니다. 메모와 책갈피는 검색하거나 전자 메일로 보낼 수 있습니다. 노트나 책갈피를 클릭하면 Fluidic Player 내 비디오의 지점 또는 문서의 페이지에 정확하게 도착합니다.
 
 Fluidic Player에 대한 자세한 내용은 다음을 참조하십시오 [Fluidic Player](../../learners/feature-summary/fluidic-player.md).
 
@@ -33,36 +33,36 @@ Fluidic Player에 대한 자세한 내용은 다음을 참조하십시오 [Fluid
 
 * Fluidic Player를 웹 사이트** 포함하여 직원** 등록한 강의를 목록화하고 같은 페이지에서 교육을 실행하는 링크를 제공할 수도 있습니다. 이는 학습자가 인트라넷 웹 사이트에서 교육을 수료할 수 있음을 의미합니다.
 
-* 교육 비즈니스를 하는 경우, 고객이 강의를 구매할 수 있는 웹 사이트가 있을 수 있습니다. 고객이 웹 사이트 내에서 구매한 콘텐츠를 수료하도록 웹사이트에 포함 가능한 플레이어를 통합할 수 있습니다.
+* 교육업에 종사하시는 경우, 귀하의 고객이 강의를 구매하는 웹사이트를 갖고 계실 것입니다. 고객이 웹 사이트 내에서 구매한 콘텐츠를 수료하도록 웹사이트에 포함 가능한 플레이어를 통합할 수 있습니다.
 
-## 웹 사이트에 Fluidic Player를 포함하는 단계 {#stepstoembedfluidicplayerinyourwebsite}
+## 웹사이트에 Fluidic Player를 포함하는 단계 {#stepstoembedfluidicplayerinyourwebsite}
 
-Fluidic Player를 웹 사이트에 포함하기 위한 사용자 정의 응용 프로그램을 구축하려면 다음 세 가지 기본 단계가 필요합니다.
+귀하의 웹사이트에 Fluidic Player를 포함하는 사용자 정의 응용 프로그램 제작은 3개의 기본 단계로 이루어집니다.
 
 1. Learning Manager의 통합 책임자 앱에서 응용 프로그램을 생성합니다.
 1. 액세스 토큰을 회수합니다.
 1. 액세스 토큰으로 공용 API를 사용하여 Learning Manager에서 리소스를 회수합니다.
 
-### 1. 통합 책임자에서 응용 프로그램을 생성합니다. {#1createanapplicationinintegrationadmin}
+### 1. 통합 책임자로 응용 프로그램 생성 {#1createanapplicationinintegrationadmin}
 
-이 단계는 새로 고침 토큰 및 액세스 토큰을 검색하는 데 사용되는 응용 프로그램/클라이언트 ID 및 응용 프로그램/클라이언트 비밀번호를 만드는 데 필요합니다. 응용 프로그램 만들기에 대한 자세한 내용은 다음을 참조하십시오  [애플리케이션 개발 프로세스](developer-manual.md#main-pars_header_994876235)
+이 단계는 새로 고침 토큰 및 액세스 토큰을 회수하는 데 사용되는 응용 프로그램/클라이언트 ID 및 응용 프로그램/클라이언트 시크릿을 생성하는 데 필요합니다. 응용 프로그램 만들기에 대한 자세한 내용은 다음을 참조하십시오  [애플리케이션 개발 프로세스](developer-manual.md#main-pars_header_994876235)
 
-1. 다음으로 이동: **[!UICONTROL 통합 책임자]** 앱 및 열기 **[!UICONTROL 응용 프로그램]**.
+1. **[!UICONTROL &#39;통합 책임자&#39;]** 앱으로 이동한 다음 **[!UICONTROL &#39;응용 프로그램&#39;]**&#x200B;을 엽니다.
 
-1. 선택 **[!UICONTROL 등록]** 페이지의 오른쪽 상단에서
-1. 대상 **[!UICONTROL 새 응용 프로그램 등록]** 창이 열립니다. 필수 필드를 입력합니다.
+1. 페이지의 오른쪽 상단 모서리에 있는 **[!UICONTROL &#39;등록&#39;]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 새로운 응용 프로그램 등록]** 창이 열립니다. 필수 필드를 채웁니다.
 1. 사용자 정의 응용 프로그램을 여러 계정에 공유해야 하는 경우 다음을 선택합니다. **[!UICONTROL 아니요]** 옵션 필드에서  **[!UICONTROL 이 계정에만 해당합니까?]**
-1. 응용 프로그램을 저장하고 응용 프로그램 ID와 암호를 생성하려면 **[!UICONTROL 저장]**.
+1. 응용 프로그램을 저장하고 응용 프로그램 ID와 시크릿을 생성하려면 **[!UICONTROL &#39;저장&#39;]**&#x200B;을 클릭합니다.
 
 ### 2. 액세스 토큰 회수 {#2retrievingaccesstoken}
 
-Learning Manager는 OAUTH2.0을 사용하므로 공개 API를 사용하여 리소스를 회수하려면 액세스 토큰이 필요합니다. 새로 고침 토큰, 클라이언트 ID 또는 클라이언트 시크릿을 사용하여 액세스 토큰을 가져올 수 있습니다.
+Learning Manager는 OAUTH2.0을 사용하므로 공개 API를 사용하여 리소스를 회수하려면 액세스 토큰이 필요합니다. 새로 고침 토큰, 클라이언트 ID 또는 클라이언트 시크릿을 사용하여 액세스 토큰을 불러올 수 있습니다.
 
 **2.1 새로 고침 토큰**
 
-* OAuth 코드 검색
+* OAuth 코드 회수
 
-새로 고침 토큰을 검색하는 데 OAuth 코드가 필요합니다. 아래 url을 사용하여 로그인한 경우 Learning Manager는 OAuth 코드를 통해 사용자를 리디렉션 URL로 리디렉션합니다(OAuth 코드 추출 예시는 샘플 응용 프로그램의 &quot;oauthredirect.html&quot;에서 확인할 수 있습니다).
+새로 고침 토큰을 회수하려면 OAuth 코드가 필요합니다. 아래 url을 사용하여 로그인한 경우 Learning Manager는 OAuth 코드를 통해 사용자를 리디렉션 URL로 리디렉션합니다(OAuth 코드 추출 예시는 샘플 응용 프로그램의 &quot;oauthredirect.html&quot;에서 확인할 수 있습니다).
 
 ```
 code https://learningmanager.adobe.com/oauth/o/authorize  
@@ -83,7 +83,7 @@ client_id= <application_id>
 **[!UICONTROL email]** 은(는) 선택적 필드입니다\
 &#42; 계정 ID와 이메일이 모두 제공된 경우 위의 URL을 통해 사용자는 동일한 계정에 로그인할 수 있습니다. 이 끝점 예제는 샘플 응용 프로그램의 &quot;index.html&quot; 파일에 나와 있습니다.
 
-* 새로 고침 토큰 검색
+* 새로 고침 토큰 회수
 
 OAuth 코드를 받으면 아래 끝점에서 받은 OAuth 코드, 클라이언트 ID 및 클라이언트 암호를 사용하여 새로 고침 토큰을 검색할 수 있습니다.
 
@@ -112,17 +112,17 @@ iv. expires_in\
 v. user_role\
 vi. account_id
 
-### 3. 공용 api를 사용하여 리소스 검색 {#3retrieveresourcesusingpublicapi}
+### 3. 공용 API를 사용하여 리소스 회수 {#3retrieveresourcesusingpublicapi}
 
 세 번째 단계는 액세스 토큰으로 공용 api 를 사용하여 Learning Manager에서 리소스를 회수합니다.  액세스 토큰은 공개 api 호출을 수행하는 데 필요하며 샘플 응용 프로그램에서 예시된 것처럼 헤더에 추가되어야 합니다.
 
 ## 포함 가능한 플레이어 {#embeddableplayer}
 
-서드파티 애플리케이션은 포함 가능한 플레이어를 사용하여 학습 객체의 콘텐츠를 재생할 수 있습니다.
+타사 응용 프로그램에서 포함 가능한 플레이어를 사용하여 학습 객체의 콘텐트를 재생할 수 있습니다.
 
 **포함 가능한 플레이어로 강의 열기**
 
-1. 포함 가능한 URL 만들기
+1. 포함 가능한 URL 생성
 
    포함 가능한 플레이어를 사용하여 강의를 열려면 아래와 같이 포함 가능한 URL을 생성해야 합니다.
 

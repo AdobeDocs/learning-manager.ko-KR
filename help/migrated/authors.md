@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: 작성자
-description: Learning Manager 기능과 작성자 역할과 관련된 자주 묻는 질문에 관해 알아보려면 계속 읽어봅니다.
+description: Learning Manager 기능과 작성자 역할과 관련된 자주 묻는 질문에 대해 알아보려면 계속 읽어보십시오.
 contentowner: manochan
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td><img src="assets/authors2.png"></td> 
-   <td><p>Learning Manager 기능과 작성자 역할과 관련된 자주 묻는 질문에 관해 알아보려면 계속 읽어봅니다. </p></td> 
+   <td><p>Learning Manager 기능과 작성자 역할과 관련된 자주 묻는 질문에 대해 알아보려면 계속 읽어보십시오. </p></td> 
   </tr> 
  </tbody>
 </table>
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 기능 {#features}
 
-* [시작하기](authors/feature-summary/getting-started-author.md)
+* [시작](authors/feature-summary/getting-started-author.md)
 * [카탈로그](authors/feature-summary/catalogs.md)
 * [학습 객체](authors/feature-summary/courses.md)
 * [새 언어 추가](authors/feature-summary/add-new-language-learning-objects.md)

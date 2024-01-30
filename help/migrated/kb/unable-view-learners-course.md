@@ -1,18 +1,18 @@
 ---
 jcr-language: en_us
-title: 강의에서 학습자를 볼 수 없음
+title: 수강생을 확인할 수 없음
 description: 강의의 학습자 탭에는 Adobe Learning Manager에 등록된 학습자가 표시되지 않습니다. 그러나 보고서를 생성하면 보고서에서 등록된 학습자를 확인할 수 있습니다.
 contentowner: saghosh
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 0%
+ht-degree: 58%
 
 ---
 
 
 
-# 강의에서 학습자를 볼 수 없음
+# 수강생을 확인할 수 없음
 
 ## 문제
 
@@ -32,13 +32,13 @@ ht-degree: 0%
 
 **학습자가 어떤 상위 학습 개체에 등록되어 있는지 확인하는 방법**
 
-이 정보는 학습자 성적 증명서에서 확인할 수 있습니다. 학습자 성적 증명서를 생성하려면 아래 단계를 따르십시오.
+이 정보는 학습자 성적 증명서에서 확인할 수 있습니다. 성적 증명서를 생성하려면 아래 단계를 따르십시오.
 
-1. 책임자로 로그인합니다.
+1. 관리자로 로그인합니다.
 1. 다음을 수행합니다. **[!UICONTROL 보고서]** > **[!UICONTROL 사용자 정의 보고서]** > **[!UICONTROL Excel 보고서]** > **[!UICONTROL 학습자 성적 증명서]**.
 
 1. 이름 입력: **[!UICONTROL 학습자]** 및 **[!UICONTROL 날짜]** 범위.
-1. 섹션 확장 **[!UICONTROL 고급 옵션]** 옵션을 선택합니다. **[!UICONTROL 모듈 레벨 정보 활성화]**.
-1. 다음을 수행합니다. **[!UICONTROL 생성]**.
+1. **[!UICONTROL 고급 옵션]** 섹션을 펼친 후 **[!UICONTROL 모듈 레벨 정보 활성화]** 옵션을 선택합니다.
+1. **[!UICONTROL 생성]**&#x200B;을 클릭합니다.
 
    학습자 성적 증명서에서 학습자가 등록된 상위 학습 개체를 확인할 수 있습니다.

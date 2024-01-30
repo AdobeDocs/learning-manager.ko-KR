@@ -7,7 +7,7 @@ preview: true
 source-git-commit: 9325abb9cda8c8a019c9d72c1944a8284f38f83e
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
@@ -27,10 +27,10 @@ ht-degree: 0%
 
 기본 스타일은 모든 사용자의 요구를 충족시키지 못할 수도 있습니다. 사용자 정의는 제공된 CSS를 재정의하여 수행할 수 있습니다. 모든 스타일은 ql-editor에서 하위 항목 선택기로 래핑됩니다. 다음 클래스가 사용됩니다.
 
-* **들여쓰기**: li.ql-indent-$number. $number는 1-9사이의 숫자입니다.
+* **들여쓰기**: li.ql-indent-$number. $number는 1~9 사이의 숫자입니다.
 * **크기**: ql-size-small, ql-size-large, ql-size-huge
 * **맞춤**: ql-align-center, ql-align-justify, ql-align-right
-* **색상**: ql-color-$color. $color는 흰색, 빨간색, 주황색, 노란색, 녹색, 파란색, 자주색입니다
+* **색상**: ql-color-$color. $color는 흰색, 빨간색, 주황색, 노란색, 녹색, 파란색, 자주색입니다.
 * **배경**: ql-bg-$color. $color는 검은색, 빨간색, 주황색, 노란색, 녹색, 파란색, 자주색입니다
 * **html 태그**: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
 

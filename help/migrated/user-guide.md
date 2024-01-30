@@ -1,16 +1,16 @@
 ---
-title: Adobe Learning Manager 사용 안내서 시작
+title: Adobe Learning Manager 사용자 가이드 시작
 description: Adobe Learning Manager(이전 Adobe Captivate Prime)의 최신 제품을 알아보십시오. 처음부터 시작하거나, 각 섹션을 개별적으로 방문하거나, 커뮤니티와 연계하여 프로젝트 전반에 걸쳐 작업을 진행할 수도 있습니다.
 contentowner: dhv
 source-git-commit: 73a1fe972eb8d399dd9ae53b6b1128bb11561924
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
 
-# Adobe Learning Manager 사용 안내서 시작
+# Adobe Learning Manager 사용자 가이드 시작
 
 Adobe Learning Manager(이전의 Adobe Captivate Prime)에서 최신 제공 기능을 알아보려면 계속 읽어보십시오. 처음부터 시작하거나, 각 섹션을 개별적으로 방문하거나, 커뮤니티와 연계하여 프로젝트 전반에 걸쳐 작업을 진행할 수도 있습니다.
 

@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: a186a600e632e9a564c4ff30d1897c2cdf0d5aac
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 SSO 인증을 구성하려면 다음 단계를 수행하십시오.
 
-1. 열기 **[!UICONTROL 설정]** > **[!UICONTROL 로그인 방법.]**
+1. **[!UICONTROL 설정]** > **[!UICONTROL 로그인 방법]**&#x200B;을 엽니다.
 
    ![](assets/login-methods.png)
 
-1. 선택 **[!UICONTROL 내부 사용자]** 또는 **[!UICONTROL 외부 사용자]** 귀하의 요구 사항에 따라 다릅니다.
+1. 요구 사항에 따라 **[!UICONTROL 내부 사용자]** 또는 **[!UICONTROL 외부 사용자]**&#x200B;를 선택합니다.
 1. 옆에 있는 드롭다운을 클릭합니다  **[!UICONTROL 로그인]** option 키를 누른 상태에서 **[!UICONTROL Single Sign-On]**.
 
    ![](assets/single-sign-on.png)
