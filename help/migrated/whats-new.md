@@ -1,7 +1,7 @@
 ---
 title: 이 릴리스의 새로운 기능
 description: Adobe Learning Manager의 새로운 기능과 개선 사항 알아보기
-source-git-commit: 95ab7a13a7f3e9815785134bc1d1675c002ab64b
+source-git-commit: 655c94f0faaa6c025e07b11d3d9bfac4f221f899
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 0%
@@ -170,11 +170,48 @@ Adobe Learning Manager에서는 사용자 정의 책임자가 학습 성적 증�
 
 사용자 정의 책임자는 정의된 범위에 따라 다음 보고서에 액세스할 수 있습니다.
 
-| 보고 | 사용 가능 | 범위 |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>보고</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>사용 가능</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>범위</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>콘텐츠 감사 내역</p></td>
+   <td>
+    <p>예</p></td>
+   <td>
+    <p>전체 카탈로그</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>사용자 감사 추적</p></td>
+   <td>
+    <p>예</p></td>
+   <td>
+    <p>전체 사용자</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>로그인 액세스</p></td>
+   <td>
+    <p>예</p></td>
+   <td>
+    <p>전체 사용자</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
-| 콘텐츠 감사 내역 | 예 | 전체 카탈로그 |
-| 사용자 감사 추적 | 예 | 전체 사용자 |
-| 로그인 액세스 | 예 | 전체 사용자 |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## 향상된 Connect 통합
 
