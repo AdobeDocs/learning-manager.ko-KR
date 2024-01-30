@@ -3,7 +3,7 @@ description: Adobe Learning Manager의 새로운 기능과 개선 사항 알아�
 jcr-language: en_us
 title: 새로운 기능 요약
 contentowner: jayakarr
-source-git-commit: 253cc73b4ee1cf4a11a82a5716611133d68d2031
+source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
 workflow-type: tm+mt
 source-wordcount: '26196'
 ht-degree: 72%
@@ -1345,7 +1345,7 @@ Learning Manager는 이미 학습 플랫폼 내에서 LinkedIn 학습 과정을 
 
 **공지**
 
-* 공지에 태그가 포함된 경우 `<a>`, 공지가 예상대로 생성되지 않습니다.
+* 공지에 태그가 포함된 경우 <a>, 공지가 예상대로 생성되지 않습니다.
 
 **계정**
 
