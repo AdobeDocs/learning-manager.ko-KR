@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Learning Manager의 관리자로
 description: Adobe Learning Manager 사용자 로그인
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 66%
