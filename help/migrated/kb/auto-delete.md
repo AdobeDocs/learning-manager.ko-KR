@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Learning Manager에서 사용자가 자동으로 삭제됨
 description: 책임자가 Learning Manager에서 사용자를 삭제하지 않았는데도 사용자가 삭제됩니다.
 contentowner: nluke
-source-git-commit: 3242a293fc4b2707044e11c342c984cbfb2fc434
+source-git-commit: 99c4df44388667efdd162f74918bc3daf907a0f3
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 55%
+ht-degree: 61%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 55%
 
 ## 문제
 
-A **사용자** learning Manager에서 삭제됩니다. 그러나 책임자가 이러한 작업을 수행하지 않았습니다.
+책임자가 Learning Manager에서 사용자를 삭제하지 않았는데도 사용자가 삭제됩니다.
 
 ## 원인
 
