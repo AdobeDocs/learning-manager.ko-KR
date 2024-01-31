@@ -2,7 +2,7 @@
 description: 자가 진행식 콘텐츠로 강의에 맞게 콘텐츠를 만드는 방법을 알아봅니다.
 jcr-language: en_us
 title: 콘텐츠 라이브러리
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+source-git-commit: 5a8f1af4af180e04fced782ff58111269e005a20
 workflow-type: tm+mt
 source-wordcount: '3113'
 ht-degree: 65%
@@ -147,7 +147,7 @@ ht-degree: 65%
 1. 설명 필드에 콘텐츠 설명을 입력합니다. 의미 있는 설명을 입력해야 합니다. 글자수 제한은 245자입니다.
 1. 콘텐츠를 추가하려면 &#39;콘텐츠 파일 추가&#39;를 클릭하고 리소스 파일을 업로드합니다. 여러 언어로 된 콘텐츠를 추가할 때는 일방형 콘텐츠와 상호작용 콘텐츠를 하나로 묶을 수 없습니다. 모든 지역에서는 콘텐츠가 모두 일방형이거나 상호작용형이어야 합니다.
 
-* [지원되는 파일 유형](content-library.md#supported)*
+* [지원되는 파일 유형](content-library.md#supported)
 
   대화형 콘텐츠는 SCORM, AICC 또는 Captivate 게시된 프로젝트일 수 있습니다. 파일은 zip 파일이어야 합니다.
 
