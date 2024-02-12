@@ -728,7 +728,7 @@ ID\
 이름\
 pointsEarned\
 profile\
-ROLE\
+역할\
 상태\
 timeZoneCode\
 uiLocale
@@ -783,7 +783,7 @@ modelIds\
 modelName\
 modelType\
 읽기\
-ROLE
+역할
 
 +++
 
