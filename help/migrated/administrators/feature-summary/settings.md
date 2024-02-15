@@ -3,10 +3,10 @@ description: 책임자가 구성할 수 있는 Learning Manager 계정 설정에
 jcr-language: en_us
 title: 설정
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 063f0f469d40a929d109624c3303ba26f5dd1ad3
 workflow-type: tm+mt
-source-wordcount: '3791'
-ht-degree: 70%
+source-wordcount: '3815'
+ht-degree: 69%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 70%
 책임자가 구성할 수 있는 Learning Manager 계정 설정에 관해 알아봅니다.
 
 책임자 프로필 설정을 변경하고 계정 설정을 업데이트할 수 있습니다. 프로필 정보 보기, 프로필 사진 추가/변경 및 수정 **[!UICONTROL 내 정보]** 콘텐츠. 회사 정보를 업데이트하고 사용자에 대한 로그인 방법을 설정하며 계정 설정을 통해 연결 통합을 설정합니다.
+
+## Adobe Learning Manager 구성
+
+이 교육에서는 계정 수준 설정의 기본 사항을 설명합니다.
+
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+
+
+교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
 
 ## 계정 설정 {#accountsettings}
 
