@@ -3,10 +3,10 @@ description: 교육 활동의 이벤트는 학습자에게 전송된 전자 메�
 jcr-language: en_us
 title: 전자 메일 템플릿
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 62%
+source-wordcount: '1478'
+ht-degree: 60%
 
 ---
 
@@ -21,6 +21,16 @@ Learning Manager 응용 프로그램은 이벤트를 기반으로 하여 여러 
 책임자는 콘텐트를 추가 또는 수정하고 학습자, 관리자 및 작성자가 트리거한 다양한 이벤트에 대한 알림을 사용자에게 전송하여 전자 메일 템플릿을 사용자 정의할 수 있습니다.
 
 책임자는 특정 이벤트에 대해 전자 메일 알림을 보내지 않도록 선택할 수도 있습니다.
+
+## 전자 메일 템플릿 소개
+
+이 교육에서는 개별 이메일 템플릿을 사용자 정의하고 이메일 템플릿에 대한 과정 수준 및 계정 수준 설정을 사용자 정의하는 방법에 대해 알아봅니다.
+
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QYL4NT4P&amp;mv=display&amp;mv2=display#/course/8318925)
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
 
 ## 전자 메일 템플릿 구성 {#configureemailtemplates}
 
