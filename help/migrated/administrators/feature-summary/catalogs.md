@@ -3,10 +3,10 @@ jcr-language: en_us
 title: 카탈로그
 description: 카탈로그는 강의, 학습 프로그램, 인증 등 학습 항목의 컬렉션입니다. 카탈로그를 사용하여 학습자에게 사용자 정의된 학습 집합에 대한 액세스를 제공하십시오. 새로운 카탈로그 생성 중 학습을 카탈로그에 연결할 수 있습니다.
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
 workflow-type: tm+mt
-source-wordcount: '2371'
-ht-degree: 77%
+source-wordcount: '2397'
+ht-degree: 76%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 77%
 카탈로그는 강의, 학습 프로그램, 인증 등 학습 항목의 컬렉션입니다. 카탈로그를 사용하여 학습자에게 사용자 정의된 학습 집합에 대한 액세스를 제공하십시오. 새로운 카탈로그 생성 중 학습을 카탈로그에 연결할 수 있습니다.
 
 책임자는 자신의 계정 또는 계정 전반의 다른 학습자에게 선택적 강의를 제공하려는 경우 사용자 정의 카탈로그를 생성할 수 있습니다.
+
+## 카탈로그 소개
+
+이 교육에서는 카탈로그를 만들고 관리하는 방법에 대해 학습합니다.
+
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+
+교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
+
 
 ## 카탈로그 생성 {#createacatalog}
 
