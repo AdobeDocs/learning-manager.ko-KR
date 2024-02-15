@@ -3,7 +3,7 @@ description: Learning Manager 응용 프로그램에서 사용자 또는 사용�
 jcr-language: en_us
 title: 사용자 추가 및 사용자 그룹 만들기
 contentowner: manochan
-source-git-commit: abe225ed932f3d0fe8e2d39f8aea5d93cef57c73
+source-git-commit: 9b7966d3dd88e61dc1b2467a9469b12b8bda4afc
 workflow-type: tm+mt
 source-wordcount: '3982'
 ht-degree: 64%
@@ -25,8 +25,6 @@ Learning Manager 응용 프로그램에서 사용자 또는 사용자 그룹을 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
 [![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
-
-
 
 교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
 
