@@ -3,10 +3,10 @@ description: Learning Manager의 색상 테마 및 브랜딩
 jcr-language: en_us
 title: 색상 테마
 contentowner: jayakarr
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 5fd6f5bff1a2863239f1ff5a1625147d0e26119d
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 63%
+source-wordcount: '881'
+ht-degree: 61%
 
 ---
 
@@ -17,6 +17,14 @@ ht-degree: 63%
 Learning Manager의 색상 테마 및 브랜딩
 
 Learning Manager에서는 조직의 브랜딩 요구 사항에 맞춰 응용 프로그램의 모습을 변경할 수 있습니다.
+
+## 사용자 인터페이스 사용자 정의
+
+이 교육에서는 조직의 브랜딩 요구 사항과 일치하도록 인터페이스의 모양을 사용자 정의하는 방법을 살펴봅니다.
+
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
+
+교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
 
 ## 브랜딩 {#branding}
 
