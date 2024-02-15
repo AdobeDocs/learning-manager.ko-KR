@@ -3,10 +3,10 @@ jcr-language: en_us
 title: 학습 경로
 description: Learning Manager의 책임자용 학습 계획을 생성합니다.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 43%
+source-wordcount: '1940'
+ht-degree: 42%
 
 ---
 
@@ -21,6 +21,14 @@ ht-degree: 43%
 학습 경로가 탄생한 배경입니다. 학습 경로는 학습자가 특정 주제에 정통하려면 통달해야 하는 긴 여정입니다. 학습자는 자신의 교육 환경을 통제하는 한편, 자기주도 학습을 통해 한층 더 효율적으로 지식을 습득하고 보유할 수도 있습니다.
 
 예를 들어 기업은 신입사원의 적응 기간에 자사의 정책과 절차, 문화, 역사 등에 관해 가르칩니다. 학습 경로는 직원이 필요한 대로 교육 과정을 구성하는 방식을 지원하므로 본인에게 적합한 학습 경로를 고려해 강의에 등록할 수 있습니다. 필요한 경우 기업은 이 학습 경로에 직원을 등록하여 직원이 차근차근 강의를 이수하도록 도울 수 있습니다.
+
+## 학습 경로 생성 및 구성
+
+이 교육에서는 학습 경로를 생성하고 여기에 강의를 추가하고 학습 경로를 게시 및 폐기하고 학습 경로 내의 인스턴스를 구성하는 방법에 대해 학습합니다.
+
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+
+교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
 
 ## 학습 경로의 장점
 
