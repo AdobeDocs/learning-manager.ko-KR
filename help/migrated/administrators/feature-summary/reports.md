@@ -3,10 +3,10 @@ description: Learning Manager 응용 프로그램에서 책임자 역할과 관�
 jcr-language: en_us
 title: 보고서
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
 workflow-type: tm+mt
-source-wordcount: '6441'
-ht-degree: 65%
+source-wordcount: '6502'
+ht-degree: 64%
 
 ---
 
@@ -25,6 +25,14 @@ Adobe Learning Manager를 사용하면 학습자 활동을 추적, 모니터링 
 보고서는 대시보드에 집계됩니다. 보고서는 대시보드 내에 있어야 합니다. A **[!UICONTROL 기본 대시보드]** 이(가) 보고서 페이지에 기본적으로 있습니다. 사용자가 추가한 모든 보고서는 기본 대시보드로 이동합니다. 개별 대시보드에 보고서를 추가하려면 드롭다운 화살표를 사용하여 다음을 선택합니다 **[!UICONTROL 보고서 추가]**. 대시보드 작성에 대한 자세한 내용은 이 페이지에 있는 대시보드 섹션을 참조하십시오.
 
 ## 학습 요약 대시보드 {#dashboards}
+
+### 대시보드 보고서 생성
+
+이 교육에서는 데이터베이스에서 대시보드 보고서를 생성하는 방법에 대해 알아봅니다.
+
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)
+
+교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
 
 플랫폼의 모든 학습 활동에 대한 요약 보고서를 참조하십시오. 이 페이지에서는 선택한 루트 사용자의 팀 및 외부 프로필에 대한 다음과 같은 요약 정보를 확인할 수 있습니다. 시간 범위도 선택할 수 있습니다.
 
@@ -502,6 +510,14 @@ Adobe Learning Manager에서는 완료, 사용 시간, 스킬 및 효과와 같�
 >보고서를 보는 데 사용하는 관리자 값은 임시값입니다. 다운로드 옵션을 선택하여도 보고서 보기가 다운로드되지 않습니다. 이러한 보기 옵션은 일시적으로만 사용할 수 있습니다.
 
 ## 강의 보고서 보기 {#viewcoursereports}
+
+### 강의 보고서 생성
+
+이 교육에서는 강의 보고서를 내보내고 이러한 보고서에 대한 이메일 구독을 설정하는 방법에 대해 알아봅니다.
+
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)
+
+교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
 
 다음 단계를 따라서 각 강의별 보고서를 볼 수 있습니다.
 
