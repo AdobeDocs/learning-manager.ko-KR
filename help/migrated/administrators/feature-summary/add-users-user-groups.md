@@ -3,9 +3,9 @@ description: Learning Manager 응용 프로그램에서 사용자 또는 사용�
 jcr-language: en_us
 title: 사용자 추가 및 사용자 그룹 만들기
 contentowner: manochan
-source-git-commit: 25c618a8f288562e3dd409d6ec666f33ac715e46
+source-git-commit: abe225ed932f3d0fe8e2d39f8aea5d93cef57c73
 workflow-type: tm+mt
-source-wordcount: '3984'
+source-wordcount: '3982'
 ht-degree: 64%
 
 ---
@@ -24,30 +24,9 @@ Learning Manager 응용 프로그램에서 사용자 또는 사용자 그룹을 
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-<style>
-   button {
-    background-color: #1373E6; /* Blue */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 30px;
-}
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
 
-button:hover {
-  background-color: #008CBA;
-  color: white;
-}
-</style>
 
-<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555694">
-   <button type="button">교육 시작</button>
-</a>
-
-<br/>
 
 교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
 
@@ -70,30 +49,7 @@ Adobe Learning Manager에서 다음 역할을 수행할 수 있습니다.
 
 단일 사용자 옵션을 사용하여 내부 학습자를 Adobe Learning Manager에 추가합니다.
 
-<style>
-   button {
-    background-color: #1373E6; /* Blue */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 30px;
-}
-
-button:hover {
-  background-color: #008CBA;
-  color: white;
-}
-</style>
-
-<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555534">
-   <button type="button">교육 시작</button>
-</a>
-
-<br/>
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)
 
 교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
 
