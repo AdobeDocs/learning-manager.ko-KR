@@ -3,9 +3,9 @@ description: Learning Manager에서 다양한 커넥터를 통합하는 방법 �
 jcr-language: en_us
 title: Learning Manager 커넥터
 contentowner: jayakarr
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+source-git-commit: 3ed216c1754d8393647e50892ab9ca4d122099f6
 workflow-type: tm+mt
-source-wordcount: '15880'
+source-wordcount: '15898'
 ht-degree: 65%
 
 ---
@@ -2112,6 +2112,11 @@ Adobe Commerce에서 데이터가 동기화될 때까지 과정 또는 학습 �
 ### Adobe Commerce로 과정 내보내기
 
 작성자가 다양한 과정, 학습 경로 또는 인증의 가격을 설정한 후 통합 책임자는 과정, 학습 경로 또는 인증을 Adobe Commerce로 내보냅니다.
+
+>[!NOTE]
+>
+>Adobe Learning Manager 2024년 3월 릴리스에서 [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
+
 
 1. 다음을 수행합니다. **[!UICONTROL 교육 메타데이터 내보내기]** > **[!UICONTROL 온디맨드]**.
 
