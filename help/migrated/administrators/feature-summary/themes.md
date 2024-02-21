@@ -3,10 +3,10 @@ description: Learning Manager의 색상 테마 및 브랜딩
 jcr-language: en_us
 title: 색상 테마
 contentowner: jayakarr
-source-git-commit: 5fd6f5bff1a2863239f1ff5a1625147d0e26119d
+source-git-commit: bab53a170e74a9825bb8530bbf1b64b06e6a1cf7
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 61%
+source-wordcount: '887'
+ht-degree: 60%
 
 ---
 
@@ -56,6 +56,11 @@ Learning Manager 응용 프로그램은 사용자에게 5개의 색상 테마 �
 * 가을
 * 겨울 하늘
 * 선명함
+
+>[!NOTE]
+>
+>선명 테마 는 접근성 규정을 준수합니다.
+
 
 ![](assets/prime-customize-theme.png)
 
