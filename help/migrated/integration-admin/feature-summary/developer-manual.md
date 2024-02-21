@@ -3,9 +3,9 @@ jcr-language: en_us
 title: 응용 프로그램 개발자 설명서
 description: Learning Manager V1 API는 이제 더 이상 사용되지 않습니다. V1 API는 2021년 2월 28일부터 운영이 중단됩니다. Learning Manager와 상호 작용할 V2 API를 사용하는 것이 좋습니다.
 contentowner: jayakarr
-source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
+source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
 workflow-type: tm+mt
-source-wordcount: '3383'
+source-wordcount: '3385'
 ht-degree: 62%
 
 ---
@@ -33,9 +33,17 @@ Learning Manager API는 REST 구조를 기반으로 하며 HTTP를 통해 Learni
 
 다양한 API 엔드 포인트 및 메서드에 대한 세부 정보는 다음을 참조하십시오.  [Learning Manager API 설명서](https://learningmanager.adobe.com/docs/primeapi/v2/).
 
+## 학습자 API
+
+Adobe Learning Manager - 학습자 API를 사용하면 사용자에 대한 사용자 정의 학습 경험을 만들 수 있습니다. 이러한 API를 사용하려면 유효한 사용자 토큰이 필요하며, 전체 라이선스/등록된 학습자가 있는 워크플로우의 목적으로만 사용해야 합니다.
+
 >[!IMPORTANT]
 >
->Adobe Learning Manager 학습자 API를 사용하면 사용자에 대한 사용자 정의 학습 경험을 만들 수 있습니다. 이러한 API를 사용하려면 유효한 사용자 토큰이 필요하며, 전체 라이선스/등록된 학습자가 있는 워크플로우의 목적으로만 사용해야 합니다. 로그인하지 않은 사용자/공유 사용자 또는 기타 다른 경우를 지원하기 위해 데이터 검색 시 그대로 사용할 수 없습니다. 로그인하지 않은 사용 사례는 특별한 처리가 필요합니다. 이러한 API의 적절한 사용에 대한 질문이 있는 경우 솔루션 아키텍처 팀에 연락하여 솔루션을 배포하기 전에 솔루션 설계자가 솔루션을 검사했는지 확인하십시오.
+>로그인하지 않은 사용자/공유 사용자 또는 기타 다른 경우를 지원하기 위해 데이터 검색 시 그대로 사용할 수 없습니다.
+
+로그인하지 않은 사용 사례는 특별한 처리가 필요합니다.
+
+**이러한 API의 적절한 사용에 대한 질문이 있는 경우 솔루션 아키텍처 팀에 연락하여 솔루션을 배포하기 전에 솔루션 설계자가 솔루션을 검사했는지 확인하십시오**.
 
 ## API 인증 {#apiauthentication}
 
