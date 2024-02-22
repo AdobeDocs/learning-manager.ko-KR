@@ -3,10 +3,10 @@ jcr-language: en_us
 title: 학습자 홈페이지 사용자 정의
 description: 책임자는 학습자의 홈페이지를 사용자 정의하여 학습자에게 개인화된 최신 콘텐츠 기반으로 만들 수 있습니다.
 contentowner: saghosh
-source-git-commit: 2dd741a9e0e49986df34bd415ea57f9e64f3b26a
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 47%
+source-wordcount: '1158'
+ht-degree: 46%
 
 ---
 
@@ -18,9 +18,17 @@ ht-degree: 47%
 
 책임자는 학습자의 홈페이지를 사용자 정의하여 학습자에게 개인화된 최신 콘텐츠 기반으로 만들 수 있습니다.
 
-개인화된 접근 방식은 학습자 홈페이지 구축의 위젯화된 방식을 제공하며 조직의 책임자는 WYSIWYG 방식의 책임자 사용자 인터페이스에서 구성할 수 있습니다.
+개인화된 접근 방식은 위젯을 기반으로 한 학습자 홈페이지 제작 방식을 제공하며 조직의 책임자는 WYSIWYG 방식의 책임자 사용자 인터페이스에서 구성할 수 있습니다.
 
 산업 스킬에 대한 타사 콘텐츠를 분석하고 명시적 및 임시 데이터를 사용하여 피어 활동과 학습자의 관심 영역을 통합하는 AI 기반 알고리즘의 개인화된 교육 권장 사항입니다.
+
+### 학습자 홈페이지 사용자 정의
+
+이 교육에서는 학습자 홈페이지를 사용자 정의하는 방법을 살펴봅니다.
+
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
+
+교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
 
 ## 학습자 홈페이지 구성 {#configurethelearnerhomepage}
 

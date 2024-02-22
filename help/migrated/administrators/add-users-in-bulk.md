@@ -3,10 +3,10 @@ jcr-language: en_us
 title: 사용자 일괄 추가
 description: 한 번에 여러 사용자를 추가하는 방법을 알아봅니다.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 33%
+source-wordcount: '316'
+ht-degree: 25%
 
 ---
 
@@ -14,7 +14,15 @@ ht-degree: 33%
 
 # 사용자 일괄 추가
 
-다음 단계를 따라서 여러 사용자를 한 번에 추가할 수 있습니다.
+이 교육에서는 CSV를 통해 사용자를 일괄 추가하는 방법을 알아봅니다.
+
+[![버튼](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
+
+교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
+
+## 여러 사용자를 추가하는 방법
+
+아래 단계에 따라 한 번에 여러 사용자를 추가할 수 있습니다.
 
 1. 다음을 수행합니다. **[!UICONTROL 사용자]** 관리자 역할로 로그인하여 왼쪽 창에서 **[!UICONTROL 추가]** > **[!UICONTROL csv 업로드]**. 팝업 대화 상자가 나타납니다.
 

@@ -3,10 +3,10 @@ description: Learning Manager의 사용자 데이터 제거에 관해 자세히 
 jcr-language: en_us
 title: 사용자 제거
 contentowner: dvenkate
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 75%
+source-wordcount: '887'
+ht-degree: 72%
 
 ---
 
@@ -27,6 +27,16 @@ Learning Manager의 사용자 데이터 제거에 관해 자세히 알아봅니�
 * 강사가 제거되면 세션에서 삭제됩니다. 책임자는 이러한 세션의 강사를 교체/추가해야 합니다.
 * Learning Manager에서 사용자를 제거하여도 외부 응용 프로그램(타사 시스템 또는 사용자가 작성한 기타 응용 프로그램)에서는 해당 사용자가 제거되지 않습니다. 외부 응용 프로그램 소유자에게 문의하여 해당 응용 프로그램에서 사용자를 제거할 수 있습니다.
 * 커넥터 설정 구성에서 사용자 제거를 참조하면 커넥터가 비활성화됩니다. 다시 시작하려면 책임자가 커넥터를 재구성해야 합니다.
+
+### 사용자 관리
+
+이 교육에서는 역할을 할당 및 제거하고, 시작 이메일을 보내고, 사용자를 삭제 및 제거하는 방법에 대해 학습합니다.
+
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+
+교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
+
+## 사용자 제거 방법
 
 사용자를 제거하려면 다음 단계를 따르십시오.
 

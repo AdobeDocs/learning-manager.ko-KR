@@ -3,10 +3,10 @@ description: Learning Manager 응용 프로그램에서 사용자 또는 사용�
 jcr-language: en_us
 title: 사용자 추가 및 사용자 그룹 만들기
 contentowner: manochan
-source-git-commit: 9b7966d3dd88e61dc1b2467a9469b12b8bda4afc
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '3982'
-ht-degree: 64%
+source-wordcount: '4000'
+ht-degree: 63%
 
 ---
 
@@ -155,9 +155,17 @@ Adobe Learning Manager에서 다음 역할을 수행할 수 있습니다.
 ![](assets/edit-user.png)
 *사용자 편집 대화 상자*
 
-## 대/소문자 구분을 유지하는 활성 필드 및 활성 필드 값에 대한 워크플로우
+## 활성 필드
 
-이번 릴리스에서 Learning Manager는 사용자 특성과 해당 값의 대/소문자 구분을 유지합니다. **예**, 사용자 특성의 대/소문자 구분은 &#39;location&#39;이며 해당 값은 &#39;PARIS&#39;로 같은 방식으로 유지되어 표시됩니다. 문제가 발생하면 책임자는 이제 특성 이름 및 값을 편집하여 대/소문자 구분 오류를 수정할 수 있습니다.
+### 사용자 속성 관리
+
+이 교육에서는 활성 필드를 추가, 사용자 정의 및 구성하는 방법에 대해 알아봅니다.
+
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)
+
+교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
+
+Adobe Learning Manager는 사용자 특성과 해당 값의 대/소문자 구분을 유지합니다. **예**, 사용자 특성의 대/소문자 구분은 &#39;location&#39;이며 해당 값은 &#39;PARIS&#39;로 같은 방식으로 유지되어 표시됩니다. 문제가 발생하면 책임자는 이제 특성 이름 및 값을 편집하여 대/소문자 구분 오류를 수정할 수 있습니다.
 
 책임자는 다음을 방문하여 이 작업을 수행할 수 있습니다 **[!UICONTROL 관리 앱]** > **[!UICONTROL 사용자]** > **[!UICONTROL 사용자 그룹]** 그룹 이름을 클릭합니다.
 

@@ -3,10 +3,10 @@ description: Learning Manager에서 태그를 관리하는 방법을 알아봅�
 jcr-language: en_us
 title: 태그
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 67%
+source-wordcount: '762'
+ht-degree: 63%
 
 ---
 
@@ -19,6 +19,14 @@ ht-degree: 67%
 태그와 관련된 학습 객체 목록은 각 태그 옆에 있는 계정을 클릭하면 볼 수 있습니다. 이 목록에는 강의, 학습 프로그램, 인증, 작업 지원 및 콘텐트 그룹의 수가 나타납니다. 목록을 보려면 이러한 옵션을 클릭합니다.
 
 **[!UICONTROL 분류]** 옵션을 이용하면 알파벳 순서나 사용 순서로 태그를 정렬할 수 있습니다.
+
+## 태그 소개
+
+이 교육에서는 태그를 추가, 편집, 바꾸기, 추가 및 삭제하는 방법에 대해 알아봅니다. 권한 설정을 변경하고 태그 필터를 사용하는 방법도 알아봅니다.
+
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+
+교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
 
 ## 태그 추가/ 삭제/ 수정 {#adddeleteedittags}
 
