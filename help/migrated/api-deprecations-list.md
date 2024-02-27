@@ -3,54 +3,55 @@ jcr-language: en_us
 title: Adobe Learning Manager에서 API 중단
 description: Adobe Learning Manager의 API가 발전함에 따라 API는 주기적으로 재구성되거나 업그레이드됩니다. API가 발전하면 이전 API는 더 이상 사용되지 않으며 결국 제거됩니다. 이 페이지에는 더 이상 사용되지 않는 API 버전에서 보다 안정적이고 새로운 API 버전으로 마이그레이션할 때 알아야 하는 정보가 포함되어 있습니다.
 contentowner: saghosh
-source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
+source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 19%
+source-wordcount: '845'
+ht-degree: 21%
 
 ---
 
 
-# Adobe Learning Manager에서 API 중단
+# Adobe Learning Manager에서 API 사용 중단 및 변경 사항
 
 ## Adobe Learning Manager 2024년 3월 릴리스의 API 중단
 
-### 환율 한도 변경
+<!-- ### Changes in Rate Limits
 
-Adobe Learning Manager의 다음 릴리스를 통해 새 계정에 대한 API 비율 제한을 재구성합니다. 기존 계정의 경우 관리자 API만 등급 제한됩니다. 90일(약 3개월) 이후에는 모든 API에 대한 요금 한도를 재구성하지만 기존 계정은 현재 사용량에 따라 화이트리스트에 추가됩니다. 기존 계정은 학습자 API 사용을 다시 방문해야 합니다.
+With the next release of Adobe Learning Manager, we're restructuring API rate limits for new accounts. For existing accounts, only the Admin APIs will be rate-limited. After 90 days (about 3 months), we will restructure rate limits for all APIs, but existing accounts will be whitelisted according to current usage. Existing accounts need to revisit their learner API usage. 
 
-신규 계정의 경우, 요금 제한을 늘리려면 ALM 고객 성공 팀에 문의해야 합니다.
+For new accounts, if they want to increase the rate limits, they must contact the Customer Success team of ALM. 
 
-#### 어떤 API가 등급 제한됨
+#### Which APIs will be rate limited 
 
-새 계정의 경우 모든 관리자, 학습자 및 검색 API에 대해 등급 제한이 있으며 일괄 적용됩니다.
+For new accounts, all Admin, Learner, and Search APIs will have rate limits and burst enforced.  
 
-API 버스트 레이트 또는 버스트 제한은 제한된 시간 내에 짧은 버스트에서 API에 대해 수행될 수 있는 최대 요청 수를 의미한다.
+The API burst rate or burst limit refers to the maximum number of requests allowed to be made to an API in a short burst within a limited timeframe. 
 
-다음 표에는 API에 대한 속도 및 버스트 제한이 나열되어 있습니다.
+The following table lists the rate and burst limits for the APIs.
 
 <table>
     <tr>
         <th>API</th>
-        <th>요청 수-RPM</th>
-        <th>버스트 요청 수</th>
+        <th>Number of requests-RPM</th>
+        <th>Number of requests-Burst</th>
     </tr>
     <tr>
-        <td>책임자</td>
+        <td>Admin</td>
         <td>5</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>학습자</td>
+        <td>Learner</td>
         <td>20</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>검색</td>
+        <td>Search</td>
         <td>50</td>
         <td>5</td>
     </tr>
 </table>
+-->
 
 ### 오프셋 제한 변경 사항
 
