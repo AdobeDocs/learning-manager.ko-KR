@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Learning Manager에서 API 중단
 description: 흰색 레이블링은 앱 또는 서비스를 자신의 브랜드로 리브랜딩하고 원본 작성자인 것처럼 사용자 정의하는 관행입니다. Adobe Learning Manager에서는 모바일 앱에 흰색 레이블 지정을 적용하여 앱을 다시 브랜딩하고 사용자가 자신의 브랜드로 앱을 사용할 수 있도록 할 수 있습니다.
 contentowner: saghosh
-source-git-commit: c5ad960861adada9bf65c462d883d1d85ef53ee9
+source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Adobe Learning Manager 모바일 앱은 이제 흰색 레이블 지정을 지원
 
   <td>
 
-  <p>OS가 앱을 식별하는 데 사용되는 이름입니다. 일반적으로 사용되는 형식은 - com.`<company-name>`.<product-name>`.</p></td>
+  <p>OS가 앱을 식별하는 데 사용되는 이름입니다. 일반적으로 사용되는 형식은 com.company-name.product-name입니다.</p></td>
 
   </tr>
 
@@ -121,7 +121,7 @@ Adobe Learning Manager 모바일 앱은 이제 흰색 레이블 지정을 지원
 
   <td>
 
-  <p>앱 아이콘(png). 이 아이콘은 앱에 표시됩니다. 이름 형식은 `<account-id>`_appIcon.png.</p></td>
+  <p>앱 아이콘(png). 이 아이콘은 앱에 표시됩니다. 이름 형식은 account-id_appIcon.png입니다.</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ Adobe Learning Manager 모바일 앱은 이제 흰색 레이블 지정을 지원
 
   <td>
 
-  <p>앱의 spalsh 화면에 사용자가 앱을 실행할 때 표시되는 이미지(png)를 제공합니다. 이름 형식은 `<account-id>`_splashIcon.png</p></td>
+  <p>앱의 시작 화면에 사용자가 앱을 실행할 때 표시되는 이미지(png)를 제공합니다. 이름을 지정할 형식은 account-id_splashIcon.png입니다.</p></td>
 
   </tr>
 
@@ -145,7 +145,9 @@ Adobe Learning Manager 모바일 앱은 이제 흰색 레이블 지정을 지원
 
   <td>
 
-  <p>앱을 등록하는 동안 계정의 통합 관리자가 세부 정보를 제공합니다. 통합 책임자는 다음을 사용해야 합니다.<ul><li>역할로 "learner:read,learner:write"를 입력합니다.</li><li>`<internal app name>`://리디렉션 URL로 리디렉션합니다. </li></ul> </p></td>
+  <p>앱을 등록하는 동안 계정의 통합 관리자가 세부 정보를 제공합니다. 통합 책임자는 다음을 사용해야 합니다. * learner:read,learner:role로 쓰기 * 내부 앱 name://redirect 을 리디렉션 URL로 사용합니다.
+
+  </p></td>
 
   </tr>
 
