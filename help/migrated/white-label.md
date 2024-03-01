@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Learning Manager에서 API 중단
 description: 흰색 레이블링은 앱 또는 서비스를 자신의 브랜드로 리브랜딩하고 원본 작성자인 것처럼 사용자 정의하는 관행입니다. Adobe Learning Manager에서는 모바일 앱에 흰색 레이블 지정을 적용하여 앱을 다시 브랜딩하고 사용자가 자신의 브랜드로 앱을 사용할 수 있도록 할 수 있습니다.
 contentowner: saghosh
-source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
+source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -294,7 +294,7 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 
 ## 변경 사항을 적용하는 방법
 
-고객이 필요한 에셋과 파일을 CSM 팀으로 전송합니다. CSM 팀이 다음을 채웁니다. [양식](https://forms.office.com/r/bJRRaRBvSh) 를 필수 변경 사항으로 변경하고 필요한 에셋을 첨부합니다. 그런 다음 팀이 검토 후 변경 사항을 엔지니어링 팀에 알립니다. 그런 다음 엔지니어링 팀은 빌드를 생성하고 CSM 팀과 공유합니다.
+필요한 에셋 및 파일을 CSM 팀으로 보냅니다. CSM 팀이 다음을 채웁니다. [양식](https://forms.office.com/r/bJRRaRBvSh) 를 필수 변경 사항으로 변경하고 필요한 에셋을 첨부합니다. 그런 다음 팀이 검토 후 변경 사항을 엔지니어링 팀에 알립니다. 그런 다음 엔지니어링 팀은 빌드를 생성하고 CSM 팀과 공유합니다.
 
 CSM 팀이 고객과 빌드를 공유합니다.
 
