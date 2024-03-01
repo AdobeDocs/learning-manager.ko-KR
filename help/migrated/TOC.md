@@ -1,11 +1,11 @@
 ---
-user-guide-title: Adobe Learning Manager 가이드
+user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 4e36c95d9186e36746ca2aeaf09b9ac0336881f1
+source-git-commit: c5ad960861adada9bf65c462d883d1d85ef53ee9
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 91%
+source-wordcount: '584'
+ht-degree: 90%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 91%
    * [사용자 정의 도메인 지원](custom-domain.md)
    * [Adobe Learning Manager 추천](recommendations-adobe-learning-manager.md)
    * [Adobe FTP Manager에서 전환](transition-from-ftp-manager.md)
+   * [Adobe Learning Manager에서 API 사용 중단 및 변경 사항](api-deprecations-list.md)
+   * [Adobe Learning Manager에서 화이트레이블 지정](white-label.md)
 * 시작하기 {#get-started}
    * [관리자로 시작하기](administrators/feature-summary/getting-started-admin.md)
    * [작성자로 시작](authors/feature-summary/getting-started-author.md)
