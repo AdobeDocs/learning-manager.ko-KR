@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Learning Manager에서 API 중단
 description: Adobe Learning Manager의 API가 발전함에 따라 API는 주기적으로 재구성되거나 업그레이드됩니다. API가 발전하면 이전 API는 더 이상 사용되지 않으며 결국 제거됩니다. 이 페이지에는 더 이상 사용되지 않는 API 버전에서 보다 안정적이고 새로운 API 버전으로 마이그레이션할 때 알아야 하는 정보가 포함되어 있습니다.
 contentowner: saghosh
-source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
+source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '847'
 ht-degree: 21%
 
 ---
@@ -133,7 +133,7 @@ Adobe Learning Manager의 2023년 11월 릴리스에서는 API에서 재정의 �
 
 앞으로는 재정의 플래그가 있으므로, 다음의 학습자 API는 중단됩니다.
 
-<code>https://captivateprime.adobe.com/primeapi/v2/users?page[오프셋]=0(&amp;p)[제한]=10&amp;sort=id&amp;override=TRUE</code>
+_/primeapi/v2/users?page[오프셋]=0(&amp;p)[제한]=10&amp;sort=id&amp;override=TRUE_
 
 ### 스킬 기반 새 권장 사항에 대한 API 변경 사항
 
