@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '590'
 ht-degree: 90%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 90%
    * [콘텐츠 마켓플레이스](administrators/feature-summary/content-marketplace.md)
    * [보고서](administrators/feature-summary/reports.md)
    * [학습 경로](administrators/feature-summary/learning-paths.md)
-   * [학습 프로그램](administrators/feature-summary/learning-programs.md)
+   * [학습 계획](administrators/feature-summary/learning-plans.md)
    * [Learning Manager 주문 및 청구 정보 관리](administrators/feature-summary/billing-management.md)
    * [작업 지원](administrators/feature-summary/job-aids.md)
    * [인증](administrators/feature-summary/certifications.md)
@@ -81,6 +81,7 @@ ht-degree: 90%
    * [기본 확장성](administrators/feature-summary/native-extensibility.md)
    * [다중 등록](administrators/feature-summary/multiple-enrollment.md)
    * [학습자용 임시 방문 모드](administrators/feature-summary/non-logged-in-experience-learners.md)
+   * [학습 프로그램](administrators/feature-summary/learning-programs.md)
 * 통합 책임자 {#integration}
    * [마이그레이션 설명서](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager 커넥터](integration-admin/feature-summary/connectors.md)

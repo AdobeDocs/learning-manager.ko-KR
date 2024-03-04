@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 학습 프로그램
 contentowner: manochan
 preview: true
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1479'
 ht-degree: 75%
 
 ---
@@ -14,6 +14,11 @@ ht-degree: 75%
 
 
 # 학습 프로그램
+
+>[!WARNING]
+>
+>학습 프로그램은 Adobe Learning Manager에서 더 이상 사용되지 않습니다.
+
 
 이 문서에서 Learning Manager 학습 프로그램을 생성 및 관리하는 방법을 알아보십시오.
 
