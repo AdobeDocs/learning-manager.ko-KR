@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
+source-git-commit: fc77dad8f39d6d29c8ec74eb5ba137bf12ab7f8c
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 90%
+source-wordcount: '592'
+ht-degree: 89%
 
 ---
 
@@ -55,6 +55,7 @@ ht-degree: 90%
    * [피어 계정](administrators/feature-summary/peer-account.md)
    * [스킬과 레벨 만들기 및 수정하기](administrators/feature-summary/skills-levels.md)
    * [강의의 AI 기반 추천](ai-based-recommendations.md)
+   * [스킬 가져오기](administrators/feature-summary/import-skills-external-sources.md)
    * [게임화](administrators/feature-summary/gamification.md)
    * [학습자 홈페이지 사용자 정의](administrators/feature-summary/customize-learner-homepage.md)
    * [배지](administrators/feature-summary/badges.md)
