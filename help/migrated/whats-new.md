@@ -3,9 +3,9 @@ description: Adobe Learning Manager 2024년 3월 릴리스의 새로운 기능�
 jcr-language: en_us
 title: 새로운 기능 요약
 contentowner: jayakarr
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3105'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Adobe Learning Manager의 새로운 기능과 개선 사항 알아보기
 
 ### 책임자 - 강의 또는 학습 경로 페이지
 
-강의에 50,000명 이상의 학습자가 등록되어 있는 경우 학습자 목록이 표시되지 않습니다. 다음에서 학습자를 검색할 수 있습니다 *학습자 검색* 검색 막대를 선택하거나 **다운로드** 학습자 목록을 다운로드하려면 검색 상자 위에 링크를 놓습니다.
+강의에 50,000명 이상의 학습자가 등록되어 있는 경우 학습자 목록이 표시되지 않습니다. 다음에서 학습자를 검색할 수 있습니다 *학습자 검색* 검색 막대를 선택하거나 **다운로드** 학습자 목록을 다운로드하려면 검색 막대 상단에 있는 링크를 클릭합니다.
 
 ### 책임자 - 학습자 페이지
 
