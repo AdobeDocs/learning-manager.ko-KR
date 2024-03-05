@@ -2,10 +2,10 @@
 description: 기존 LMS를 Learning Manager LMS로 마이그레이션하려는 통합 책임자를 위한 참조 설명서
 jcr-language: en_us
 title: 마이그레이션 설명서
-source-git-commit: 76eae1c8bc6f2afde9ea6c9433300e8af9cfdda8
+source-git-commit: fc6ebb67037c5c75f1b3b66bcf5a23b08532b3bb
 workflow-type: tm+mt
-source-wordcount: '3641'
-ht-degree: 72%
+source-wordcount: '3614'
+ht-degree: 73%
 
 ---
 
@@ -15,19 +15,9 @@ ht-degree: 72%
 
 기존 LMS를 Learning Manager LMS로 마이그레이션하려는 통합 책임자를 위한 참조 설명서
 
-## 개요 {#overview}
+<!-- ## Overview {#overview} -->
 
-<table>
- <tbody>
-  <tr>
-   <td><img src="assets/migration.jpg"></td>
-   <td>
-    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a>는 클라우드 호스팅 방식의 학습자 중심 셀프서비스 학습 관리 솔루션입니다. Adobe을 통해 기존 학습 관리 시스템(LMS)을 보유한 기업은 조직의 교육 데이터와 교육 콘텐츠를 Learning Manager LMS 응용 프로그램으로 마이그레이션할 수 있습니다. </p></td>
-  </tr>
- </tbody>
-</table>
-
-### 사용 시나리오 {#usagescenario}
+## 사용 시나리오 {#usagescenario}
 
 일반적으로 대규모 기업은 내부 LMS 또는 공급업체에서 제공한 레거시 학습 관리 시스템을 갖고 있습니다. LMS는 기업 교육 콘텐츠와 교육 데이터로 구성됩니다. 기업에서 Learning Manager를 구매하는 경우, 기존 LMS 콘텐츠와 데이터를 Learning Manager로 이동하여 조직의 레거시 데이터를 그대로 보존하면서도 현대적이고 직관적인 LMS의 혜택을 활용하고자 하실 것입니다.
 
@@ -388,7 +378,11 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
 </table>
 
 Learning Manager는 UTF 8 및 32비트 형식으로만 날짜 및 시간 값을 지원합니다. CSV 파일에 범위를 벗어난 날짜를 2038-07-17T08로 언급하면 마이그레이션 중 오류가 발생할 수 있습니다:53:21.000Z 또는 1980-04-17T08:13:25.322Z.
-[sample-csvs.zip](assets/sample-csvs.zip) [csv_specifications.zip](assets/csv-specifications.zip)가져오는 동안 CSV 파일에 대한 다음과 같은 종속성을 알고 있어야 합니다.
+
+* [sample-csvs.zip](assets/sample-csvs.zip)
+* [csv_specifications.zip](assets/csv-specifications.zip)
+
+가져오기 중 다음 CSV 파일의 종속성에 대해 알고 있어야 합니다.
 
 * module_version.csv는 module.csv에 종속됩니다.
 * course_instance.csv는 course.csv에 종속됩니다.
@@ -536,6 +530,11 @@ FTP 및 Box 서버에 로그인한 다음 콘텐츠를 업로드했다면, 아�
 
 4-user_course_grades.xlsx-retrofit_user_course_grades.csv 파일에 필요한 메타데이터의 설명이 포함되어 있습니다.
 [csv-specifications.zip](assets/csv-specifications.zip)
+
+>[!NOTE]
+>
+>UUID(Universal Unique Id)도 마이그레이션 csv의 열입니다.
+
 
 ## 마이그레이션 문제 해결 {#troubleshootingmigrationissues}
 
