@@ -3,9 +3,9 @@ description: Adobe Learning Manager 2024년 3월 릴리스의 새로운 기능�
 jcr-language: en_us
 title: 새로운 기능 요약
 contentowner: jayakarr
-source-git-commit: 2cd495d86c4652068df7235567b11706928a5754
+source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
 workflow-type: tm+mt
-source-wordcount: '3259'
+source-wordcount: '3261'
 ht-degree: 1%
 
 ---
@@ -272,11 +272,13 @@ Adobe 기능을 활성화하려면 Search Learning Manager의 CSAM 팀에 문의
 
 보기 [제출 상태](instructors/feature-summary/learners.md#filter-file-submissions) 를 참조하십시오.
 
-### 체크리스트 개선 사항
+## 체크리스트 개선 사항
+
+### 필수 체크리스트
 
 현재 버전의 Adobe Learning Manager에서는 체크리스트의 경우 검토자가 모듈을 실패로 표시했더라도 모듈의 진행률이 허용되었습니다. 이번 릴리스에서 작성자는 학습자가 체크리스트에 실패한 경우 진행률이 표시되지 않도록 구성할 수 있습니다.
 
-#### 체크리스트 재평가
+### 체크리스트 재평가
 
 동일한 작업 과정에서 작성자는 체크리스트에 실패한 학습자를 재평가할 수 있습니다. 선택 **활성화** 확인란을 선택합니다. 이 확인란을 선택하면 체크리스트를 만듭니다.
 
