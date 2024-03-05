@@ -3,9 +3,9 @@ description: Adobe Learning Manager 2024년 3월 릴리스의 새로운 기능�
 jcr-language: en_us
 title: 새로운 기능 요약
 contentowner: jayakarr
-source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
+source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
 workflow-type: tm+mt
-source-wordcount: '3105'
+source-wordcount: '3125'
 ht-degree: 1%
 
 ---
@@ -425,6 +425,10 @@ learningObjectResource의 새 속성인 isExpiredSubmission은 리소스의 제�
 ```
 
 을(를) 다운로드하려고 하면 **로그인 액세스** 5분기를 초과하는 보고서에서는 오류 메시지가 표시됩니다. 을(를) 다운로드하려고 하면 유사한 오류 메시지가 표시됩니다 **사용자 감사** 6개월을 넘어선 보고서.
+
+### 사용되지 않는 API
+
+보기 [Adobe Learning Manager에서 API 중단](api-deprecations-list.md) - 제품에서 사용되지 않는 모든 API의 누적 목록입니다.
 
 ## 이번 업데이트에서 수정된 문제 {#bug-fixes}
 
