@@ -3,9 +3,9 @@ description: Adobe Learning Manager 2024년 3월 릴리스의 새로운 기능�
 jcr-language: en_us
 title: 새로운 기능 요약
 contentowner: jayakarr
-source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
+source-git-commit: 9258eb87b77618d4862749c7e3ae4b52adc67d0c
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3332'
 ht-degree: 1%
 
 ---
@@ -351,6 +351,12 @@ Adobe Learning Manager 모바일 앱은 이제 흰색 레이블 지정을 지원
 ### 앱 등급
 
 학습자는 Adobe Learning Manager 앱에 피드백을 제공하여 앱 경험을 더욱 개선할 수 있습니다. 학습자가 별 4개 이상을 평가하면 Play Store 또는 App Store에서 학습자에게 앱을 평가하도록 요청하는 팝업이 표시됩니다.
+
+### Bluejeans는 2024년 2월에 서비스 종료(EOL)되었습니다
+
+Bluejeans가 2024년 2월에 서비스 종료(EOL)되었음을 알려드립니다. 2024년 2월 이후에는 Bluejeans가 더 이상 업데이트 또는 지원을 받지 않습니다. CSAM 및 지원 팀은 이 전환 기간 동안 발생할 수 있는 질문이나 문제에 대해 도움을 줍니다.
+
+보기 [Adobe Learning Manager의 커넥터](integration-admin/feature-summary/connectors.md) 커넥터 구성에 대한 자세한 내용은
 
 ## 이 릴리스의 API 변경 사항
 
