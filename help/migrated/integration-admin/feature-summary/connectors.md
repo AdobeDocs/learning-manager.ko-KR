@@ -3,9 +3,9 @@ description: Learning Manager에서 다양한 커넥터를 통합하는 방법 �
 jcr-language: en_us
 title: Learning Manager 커넥터
 contentowner: jayakarr
-source-git-commit: 3ed216c1754d8393647e50892ab9ca4d122099f6
+source-git-commit: c48b620ad075708d1e85fe49ed16bb4805bfbbc0
 workflow-type: tm+mt
-source-wordcount: '15898'
+source-wordcount: '15084'
 ht-degree: 65%
 
 ---
@@ -964,50 +964,50 @@ miniOrange 커넥터를 설정하려면 Learning Manager CSM 팀에 문의하십
 
 설정된 miniOrange 연결을 삭제하려면 다음 단계를 따르십시오.
 
-## 화상 회의 커넥터(BlueJeans 회의 및 Zoom) {#bluejeansconnector}
+<!---## Video conferencing connectors (Bluejeans Meetings and Zoom) {#bluejeansconnector}
 
-이제 Learning Manager를 BlueJeans 및 Zoom 커넥터와 통합하고 클래스를 호스트하는 데 사용할 수 있습니다.  이 커넥터를 사용하여 학습자와 화상 회의/클래스를 설정할 수 있습니다.
+You can now integrate Learning Manager with BlueJeans and Zoom connectors and use them to host classes.  The connector enables you to set up video conferencing meetings/classes with the learners.
 
-커넥터를 설정하고 사용하려면 다음 단계를 수행합니다.
+To set up and use the connector, follow these steps.
 
-1. Learning Manager 홈 페이지에서 BlueJeans/Zoom 썸네일 위로 마우스를 가져갑니다. 그러면 메뉴가 나타납니다. 다음을 수행합니다.  **[!UICONTROL Connect]** 메뉴에 있습니다.
+1. In Learning Manager  home page , hover the mouse over the BlueJeans/Zoom thumbnail. A menu appears. Click  **[!UICONTROL Connect]** option from the menu.
 
    ![](assets/connectors.png)
 
-   *Zoom 커넥터 타일*
+   *Zoom connector tile*
 
-1. Blue Jeans/ Zoom 커넥터 페이지에 들어갑니다. 사용자 피드를 통합하고 동기화하려면 해당 필드에 계정의 세부 정보를 입력합니다. 자세한 내용은 커넥터 계정 책임자에게 문의하십시오.
+1. The BlueJeans/ Zoom connector page opens. Enter the details of your account into respective fields to integrate and synchronize the user feed. You can get the details from the administrator of your connector account.
 
    ![](assets/bluejeans-connecotrpage.png)
-   *BlueJeans/Zoom에 연결*
+   *Connect to BlueJeans/ Zoom*
 
    >[!NOTE]
    >
-   >학습자는 커넥터를 활성화하는 동안 Learning Manager 계정에 사용된 것과 동일한 전자 메일 ID를 사용하여 사용자가 다시 Learning Manager로 피드를 보낼 수 있도록 합니다.
+   >As a learner, while enabling the connector, use the same email id used for your Learning Manager account to enable user feeds back into Learning Manager.
 
-1. 연결이 설정되면 작성자로 Blue Jeans/ Zoom을 회의 시스템으로 사용하여 VC 과정을 작성합니다.
+1. Once the connection is established, as an Author, create a VC course with BlueJeans/ Zoom as the conferencing system.
 
    ![](assets/vc.jpg)
+   
+   *Create a VC course*
 
-   *VC 강의 생성*
-
-1. 책임자, 관리자 및 학습자는 학습자를 생성된 과정에 등록할 수 있습니다. 등록 후에 학습자는 이메일을 받습니다. 학습자는 Learning Manager 계정에 로그인하여 프로그램 세부 정보를 보고 과정을 수강할 수 있습니다.
-1. 과정을 마치면 완료 보고서가 Learning Manager로 전송됩니다. 책임자는 완료 보고서를 보고 학습자의 출석 및 점수를 확인할 수 있습니다.
+1. Administrators, managers, and learners can enroll learners  to  the created course. Upon enrollment, the learner receives an email. The learner can sign in to their Learning Manager account to view the program details and take the course.
+1. When the course is complete, the completion report is sent to Learning Manager. The administrator can see the completion report to check the attendance and score of the learners.
 
    ![](assets/attendence-and-scoringreport.png)
-   *출석 및 점수 보고서*
+   *Attendance and scoring report*
 
-### Zoom 서버-서버 OAuth 앱 만들기
+### Create a zoom server-to-server OAuth app
 
-Adobe Learning Manager에서 사용할 Zoom 서버-서버 OAuth 앱을 만드는 경우 연결을 만드는 동안 Adobe Learning Manager에 필요한 범위를 추가해야 합니다.
+When you create a Zoom Server-to-Server OAuth app to be used in Adobe Learning Manager, you must add scopes required by Adobe Learning Manager while creating the connection.
 
-Adobe Learning Manager는 다음과 같은 범위가 필요하며 해당 범위는 OAuth 앱에서 선택해야 합니다.
+Adobe Learning Manager requires the scopes below and the scopes must be selected in the OAuth app.
 
-* 모든 사용자 회의/회의 보기:read:admin
-* 모든 사용자 회의/회의 보기 및 관리:write:admin
-* 보고서 데이터/보고서 보기:read:admin
-* 모든 사용자 정보 보기 /user:read:admin
-* 사용자 정보 보기 및 사용자/사용자 관리:write:admin
+* View all user meetings /meeting:read:admin
+* View and manage all user meetings /meeting:write:admin
+* View report data /report:read:admin
+* View all user information /user:read:admin
+* View users' information and manage users /user:write:admin-->
 
 ## Box 커넥터 {#boxconnector}
 
@@ -1918,56 +1918,56 @@ Learning Manager 이벤트에서 Marketo Engage 인스턴스로 데이터를 내
 * 자가 등록
 * 스킬 완료
 
-## BlueJeans 이벤트 {#bj-events}
+<!--## BlueJeans Events {#bj-events}
 
-BlueJeans 이벤트 커넥터는 Learning Manager 및 BlueJeans 시스템을 연결하여 데이터 동기화를 자동화합니다. 이 커넥터를 사용하면 다음을 수행할 수 있습니다.
+BlueJeans Events connector connects Learning Manager and BlueJeans systems to automate data synchronization. Using this connector, you can:
 
-* **BlueJeans 이벤트를 사용하여 가상 세션 설정:** 적절한 BlueJeans 이벤트를 선택하여 BlueJeans에서 새 이벤트를 구성하고 Learning Manager에서 VC 세션을 설정합니다. 날짜 및 시간 세부 정보는 BlueJeans 이벤트에서 자동으로 선택됩니다.
-* **자동화된 사용자 완료 동기화:** 자동화된 사용자 완료 동기화 프로세스를 통해 Learning Manager 책임자는 BlueJeans 이벤트에 대한 완료 기록을 자동으로 가져올 수 있습니다.
+* **Set up virtual sessions using BlueJeans Events:** Configure a new event in BlueJeans and setup a VC session in Learning Manager by selecting the appropriate BlueJeans event. Date and time details are picked automatically from the BlueJeans events.
+* **Automated User Completion Syncing:** An Automated user completion syncing process allows the Learning Manager Administrator to fetch completion records for BlueJeans events automatically.
 
-이 새 커넥터에는 커넥터를 구성하기 위한 별도의 자격 증명 집합이 필요합니다. 기존 BlueJeans 회의 커넥터의 자격 증명은 BlueJeans 이벤트 커넥터에 적용되지 않습니다.
+This new connector requires a separate set of credentials to configure the connector. The credentials of the existing BlueJeans Meetings connector will not work for BlueJeans Events connector.
 
-![](assets/bj-event-connector.png)
-*BlueJeans 이벤트 커넥터의 자격 증명*
+![](assets/bj-event-connector.png) 
+*Credentials for BlueJeans Event Connector*
 
-### 워크플로 {#workflow}
+### Workflow {#workflow}
 
-1. BlueJeans 이벤트 중재자는 BlueJeans 내에서 이벤트를 만듭니다.
-1. 작성자는 향후 날짜에 생성되는 BlueJeans 이벤트 URL을 사용하여 BlueJeans 이벤트 과정을 만듭니다.
-1. BlueJeans 이벤트에 여러 이벤트에 대한 유사한 제목이 있으므로 작성자가 적합한 이벤트를 선택할 수 있도록 이벤트 출석자 URL을 회의실 이름에 추가해야 합니다.
+1. The BlueJeans Event moderator creates an event from within BlueJeans.
+1. The author creates BlueJeans event course using the BlueJeans event url, which is created in future dates.
+1. Since BlueJeans events have a similar title for multiple events, the author must append the event attendee url to the room name, so that he/she can choose the appropriate event.
 
-   이벤트 URL 입력 형식: ***이벤트 이름 - 이벤트 출석자 url***
+   The format to enter event url: ***event name--event attendee url***
 
-   동적 룸의 경우 동작은 Adobe Connect의 동작과 비슷합니다.
+   For Dynamic rooms, the behavior is similar to that of Adobe Connect.
 
    ![](assets/bj-eventname.png)
-   *BlueJeans 이벤트 구성*
+   *BlueJeans Events configuration*
 
-1. 작성자가 BlueJeans 이벤트 URL을 입력하면 날짜 및 시간이 자동으로 채워집니다.
-1. 이벤트에 강사를 추가합니다. 강사는 이제 BlueJeans 이벤트에서 발표자로 격상된 권한을 보유하게 됩니다.
+1. Once the author enters the BlueJeans event url, the date and time will be auto populated.
+1. Add an instructor to the event. The instructor will now have elevated privileges as a Presenter in a BlueJeans event.
 
-책임자, 관리자 및 학습자는 학습자를 생성된 과정에 등록할 수 있습니다. 등록 후에 학습자는 이메일을 받습니다. 학습자는 Learning Manager 계정에 로그인하여 프로그램 세부 정보를 보고 강의를 수강할 수 있습니다.
+Administrators, managers, and learners can enroll learners to the created course. Upon enrollment, the learner receives an email. The learner can sign in to their Learning Manager account to view the program details and take the course.
 
-과정을 마치면 예약된 기간 후에 완료 보고서가 트리거됩니다. 책임자는 완료 보고서를 보고 학습자의 출석 및 점수를 확인할 수 있습니다.
+When the course is complete, the completion report gets triggered after a scheduled duration. The administrator can see the completion report to check the attendance and score of the learners.
 
-BlueJeans 이벤트 중재자가 세션 중에 기록을 활성화하면, 세션 종료 후 학습자 앱에서 기록을 사용할 수 있습니다.
+If the BlueJeans Event moderator enables the recording during the session, after session ends, the recording is available in the learner app.
 
 ![](assets/bluejeans-event-configure.png)
-*BlueJeans 이벤트 구성*
+*BlueJeans Events configuration*
 
-**다른 사용자가 생성한 이벤트 가져오기**&#x200B;의 확인란을 활성화하면, **추가 이벤트 생성자** 필드에 BlueJeans 이벤트 생성자 목록을 추가할 수 있습니다. 작성자 앱에서는, 해당 사용자가 생성한 이벤트만 타이프 어헤드 필드를 통해 검색할 수 있습니다.
+When you enable the check-box **Fetch Events created by the other users**, you can then add the list of BlueJeans event creators in the **Additional Event Creators** field. In the Author app, only events created by these users are searchable via the type-ahead field.
 
-**추가 이벤트 생성자** 필드를 공백으로 둘 경우, BlueJeans에서 생성된 모든 이벤트를 작성자 앱에서 검색할 수 있습니다.
+If the **Additional Event Creators** field is left blank, all events created in BlueJeans will be available for searching in the Author App.
 
-작성자는 작성자 앱에서 사용 가능한 이벤트 목록에서 이벤트를 선택합니다. 또한 작성자는 이벤트에 강사를 추가할 수 있습니다. Learning Manager의 해당 강사는 BlueJeans 이벤트의 발표자가 됩니다.
-
->[!NOTE]
->
->모든 사용자는 반드시 BlueJeans 이벤트 앱에서 같은 기업에 속해 있어야 합니다.
+The Author, in the Author app, then selects an event from the list of available events. In addition, the Author can add instructors to the event. These instructors in Learning Manager would become the presenters within BlueJeans events.
 
 >[!NOTE]
 >
->전반적인 사용자 경험을 개선하는 캐싱 메커니즘을 추가했습니다. 추가 이벤트 생성자를 선택 시 적용됩니다. 해당 모드에서는 작성자가 이벤트를 검색할 때 이벤트를 처음 가져옵니다. 캐시는 30분 동안 유지되므로 작성자는 새로운 이벤트를 가져오기 위해 기다리는 시간을 알 수 있습니다.
+>All users must belong to the same enterprise in BlueJeans Events App.
+
+>[!NOTE]
+>
+>We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
 
 ## Microsoft Teams 커넥터
 
