@@ -3,7 +3,7 @@ description: Learning Manager에서 다양한 커넥터를 통합하는 방법 �
 jcr-language: en_us
 title: Learning Manager 커넥터
 contentowner: jayakarr
-source-git-commit: 4c102f932a09071996b551d352426edd681e7e9b
+source-git-commit: dfed4c72476066aa2446542f3cc50c01fbe8e02b
 workflow-type: tm+mt
 source-wordcount: '15183'
 ht-degree: 64%
@@ -774,7 +774,7 @@ Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적�
 
 >[!NOTE]
 >
->   Learning Manager는 Workday API 버전 28.1을 사용합니다.
+>   Learning Manager는 Workday API의 버전 40.1을 사용합니다.
 
 
 ![](assets/configure-connector.png)
