@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 설정
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
+source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
 workflow-type: tm+mt
-source-wordcount: '3983'
+source-wordcount: '3985'
 ht-degree: 66%
 
 ---
@@ -438,7 +438,7 @@ Adobe ID 또는 단일 인증을 사용하여 Learning Manager 응용 프로그�
 
 >[!NOTE]
 >
->스킬 가져오기 설정이 활성화되면 계정 레이아웃을 클래식으로 전환할 수 없습니다(예: 클래식 계정으로의 전환은 **스킬 가져오기** 옵션이 활성화됩니다.
+>스킬 가져오기 설정이 활성화되면 계정 레이아웃을 클래식 보기로 전환할 수 없습니다(예: 클래식 계정으로의 전환은 **스킬 가져오기** 옵션이 활성화됩니다.
 
 
 ## AI 기반 추천
