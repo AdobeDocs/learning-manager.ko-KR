@@ -4,10 +4,10 @@ title: 외부 소스에서 스킬 가져오기
 description: 각 커넥터를 사용하여 LinkedIn 및 Go1과 같은 콘텐츠 공급자에서 스킬을 가져옵니다.  가져온 스킬은 Learning Manager의 책임자 정의 스킬에 추가되며, 강의 생성 워크플로 중에 작성자가 사용할 수 있습니다.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
+source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 1%
+source-wordcount: '445'
+ht-degree: 0%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 1%
 
 스킬 이름 및 설명을 편집하고 외부 스킬에 레벨을 추가할 수 없습니다. 단, 도메인, 배지를 추가하고 크레딧을 편집할 수 있습니다.
 
-#### 변경 사항 보고
+#### 보고
 
-새 열이 추가되었습니다. **소스** 값 사용 - 내부, LinkedIn Learning, Go1 - 스킬 가져오기의 소스를 나타냅니다.
+열 **소스** 값 사용 - 내부, LinkedIn Learning, Go1 - 스킬 가져오기의 소스를 나타냅니다.
 
 최근에 추가된 스킬이 맨 위에 있습니다.
 
-강의 설정 페이지에서 새 열을 추가했습니다 **할당자:** 값, 내부 및 콘텐츠 공급자가 포함되어 있습니다.
+강의 설정 페이지, 열 **할당자:** 값, 내부 및 콘텐츠 공급자가 포함되어 있습니다.
 
 
 ## 통합 관리자 워크플로우
