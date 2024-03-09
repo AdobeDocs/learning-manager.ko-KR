@@ -3,14 +3,13 @@ description: 교육 활동의 이벤트는 학습자에게 전송된 전자 메�
 jcr-language: en_us
 title: 전자 메일 템플릿
 contentowner: manochan
-source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
+exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 60%
+source-wordcount: '1520'
+ht-degree: 58%
 
 ---
-
-
 
 # 전자 메일 템플릿
 
@@ -219,6 +218,14 @@ Learning Manager의 전자 메일 템플릿에는 편집 가능한 섹션이 포
 * 전자 메일 바닥글을 편집합니다. 바닥글 영역에는 계정 URL, 서명 및 사용자가 추가하는 모든 자유 형식 텍스트에 대한 사전 정의된 변수가 포함됩니다.
 
 또한 템플릿에서는 Microsoft Word에서 내용을 복사하여 붙여넣을 때 서식이 유지되는 고급 편집 기능을 지원합니다.
+
+### 인스턴스 설정
+
+이 교육에서는 인스턴스 기본값을 설정하고, 새 인스턴스를 추가하고, 인스턴스를 폐기하고 다시 열고, 인스턴스에 대한 전자 메일 템플릿을 구성하는 방법에 대해 학습합니다.
+
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
+
+교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
 
 ## 인라인 초대 {#inlineinvitations}
 

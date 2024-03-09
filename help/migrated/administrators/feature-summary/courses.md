@@ -3,14 +3,13 @@ description: 이 문서는 책임자 역할의 강의 모듈, 인스턴스, 강�
 jcr-language: en_us
 title: 강의 모듈, 인스턴스 및 학습 프로그램 만들기
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: aba7417b-26a0-4160-878c-5814f84e5155
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '4544'
-ht-degree: 66%
+source-wordcount: '4604'
+ht-degree: 65%
 
 ---
-
-
 
 # 강의 모듈, 인스턴스 및 학습 프로그램 만들기
 
@@ -23,6 +22,16 @@ ht-degree: 66%
 작성자는 강의를 생성합니다. 그런 다음 학습자는 강의를 수강할 수 있고 책임자는 강의 이용량에 따라 학습자의 성과를 추적할 수 있습니다. 책임자는 작성자가 생성한 강의를 보고 이 섹션에서 설명하는 일부 활동을 수행할 수 있습니다. 책임자는 학습자를 위한 사전 정의 강의 세트로 고유 학습 프로그램을 생성할 수 있습니다.
 
 ## 강의 인스턴스 만들기 {#createinstanceofacourse}
+
+### 인스턴스 관리
+
+이 교육에서는 인스턴스 세부 정보와 인스턴스 속성을 편집하는 방법에 대해 알아봅니다.
+
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
+
+교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
+
+### 인스턴스를 만드는 방법
 
 작성자가 강의를 만든 후에 강의 인스턴스를 생성할 수 있습니다. 강의 인스턴스를 생성하면 다른 시기에 학습자에게 동일한 강의를 제공할 수 있습니다. 학습자는 원하는 인스턴스를 선택하고 등록할 수 있습니다. 고유의 배지 세트, 피드백 및 기타 설정을 포함하도록 각 인스턴스를 구성할 수 있습니다.
 
@@ -105,6 +114,14 @@ ht-degree: 66%
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하면 공지사항이 성공적으로 생성되었다는 확인 메시지를 확인할 수 있습니다. 공지사항을 게시하려면 **[!UICONTROL 지금 게시]**&#x200B;를 클릭합니다.
 
    ![공지가 성공적으로 생성됨](assets/announcement-successful.png)
+
+### 강의에 학습자 등록
+
+이 교육에서는 학습자를 등록, 등록 취소 및 다시 등록하는 방법에 대해 학습합니다.
+
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
+
+교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
 
 ### 다양한 인스턴스에 학습자 등록
 

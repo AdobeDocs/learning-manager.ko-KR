@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 카탈로그
 description: 카탈로그는 강의, 학습 프로그램, 인증 등 학습 항목의 컬렉션입니다. 카탈로그를 사용하여 학습자에게 사용자 정의된 학습 집합에 대한 액세스를 제공하십시오. 새로운 카탈로그 생성 중 학습을 카탈로그에 연결할 수 있습니다.
 contentowner: manochan
-source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
+exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 76%
+source-wordcount: '2429'
+ht-degree: 75%
 
 ---
-
-
 
 # 카탈로그
 
@@ -132,6 +131,14 @@ ht-degree: 76%
 책임자는 조직의 내부 사용자 또는 모든 외부 사용자와 카탈로그를 공유할 수 있습니다. 그러나 공유는 독점적입니다. 다른 말로 하면 내부에서 공유된 카탈로그는 외부 그룹과 공유할 수 없으며 그 반대도 마찬가지입니다.
 
 강의, 학습 프로그램, 작업 지원 및 인증은 공유하려는 카탈로그에서 지원되는 학습 객체입니다.
+
+### 카탈로그 공유
+
+이 교육에서는 내부 사용자 그룹 및 외부 Adobe Learning Manager 계정과 카탈로그를 공유하는 방법에 대해 설명합니다.
+
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+
+교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
 
 ## 내부적으로 카탈로그 공유 {#int}
 
@@ -340,4 +347,3 @@ ht-degree: 76%
 기본 카탈로그를 비활성화하고 외부 사용자를 위해 생성하고 액세스가 부여된 카탈로그만 활성화합니다.
 
 +++
-
