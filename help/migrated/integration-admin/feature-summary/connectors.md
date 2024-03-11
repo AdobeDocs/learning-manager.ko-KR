@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager 커넥터
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: d857ee5d17156e47d20deba22ae88739f82ac3e8
+source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
-source-wordcount: '15183'
+source-wordcount: '15243'
 ht-degree: 64%
 
 ---
@@ -1946,15 +1946,22 @@ Microsoft Teams 커넥터는 Learning Manager와 Microsoft Teams 시스템을 �
 
 ## 교육 데이터 액세스
 
+
+>[!IMPORTANT]
+>
+>이 특정 기능은 Adobe Learning Manager가 Adobe Experience Manager의 추가 기능으로 판매되는 경우에만 사용할 수 있습니다. 강의 데이터는 24시간 이내에 부실해집니다.
+
+
 >[!NOTE]
 >
->**이 특정 기능은 Adobe Learning Manager가 Adobe Experience Manager의 추가 기능으로 판매되는 경우에만 사용할 수 있습니다.**
+>이 섹션에서는 인프라의 작동 방식을 중점적으로 다루지만 헤드리스 또는 AEM 기반 임시 방문 경험을 구축하려면 당사에 문의해 주십시오. 귀하의 사용 사례에 맞는 접근 방법을 제안하겠습니다. 이 기능은 현재 셀프서비스로 제공되지 않습니다.
+
 
 교육 데이터 액세스 커넥터를 사용하여 AEM 사이트 기반으로 맞춤 제작된 사용자 인터페이스에서 교육 정보를 검색하고 학습자에게 렌더링할 수 있으며 쉽고 빠르게 검색할 수 있습니다.
 
 커넥터는 교육 메타데이터를 데이터 저장소 및 검색 솔루션으로 내보냅니다. 따라서 AEM 사이트 기반 인터페이스를 구성하고 이러한 두 서비스를 사용하여 교육 데이터를 검색하고, 웹 페이지를 렌더링하고, 학습자에게 최적화된 교육 검색 시스템을 제공할 수 있습니다.
 
-예를 들어, 로그인하지 않은 AEM Sites 기반 인터페이스는 내보낸 메타데이터를 사용하여 학습자가 교육 정보를 보여주는 교육 페이지를 검색, 탐색 및 액세스하는 데 유용할 수 있습니다
+이 문서에서는 인프라의 작동 방식을 중점적으로 다루지만 헤드리스 또는 AEM 기반 임시 방문 경험을 구축하려면 당사에 문의해 주십시오. 귀하의 사용 사례에 맞는 접근 방법을 제안하겠습니다. 이 기능은 현재 셀프서비스로 제공되지 않습니다.
 
 이 커넥터를 활성화하여 AEM 사이트 기반 웹 페이지를 구축 및 렌더링하고 공개 API(헤드리스 LMS)를 사용해서 과정 정보를 가져오는 AEM에서 학습자에게 사용자 정의된 경험을 제공할 수 있습니다.
 
