@@ -1,15 +1,15 @@
 ---
 jcr-language: en_us
-title: Adobe Learning Manager에서 API 중단
+title: Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 description: 흰색 레이블링은 앱 또는 서비스를 자신의 브랜드로 리브랜딩하고 원본 작성자인 것처럼 사용자 정의하는 관행입니다. Adobe Learning Manager에서는 모바일 앱에 흰색 레이블 지정을 적용하여 앱을 다시 브랜딩하고 사용자가 자신의 브랜드로 앱을 사용할 수 있도록 할 수 있습니다.
 contentowner: saghosh
-source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
+exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
+source-git-commit: 8fe01ca3c0e11d5d62645f4fa7695fce504e0da2
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 
