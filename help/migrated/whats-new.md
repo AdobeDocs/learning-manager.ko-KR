@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 새로운 기능 요약
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e1ef2082329a061fc8297a791c080185488b165b
+source-git-commit: 08721247d60f3c35f04aa4434c6b0a795be59b2e
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3661'
 ht-degree: 1%
 
 ---
@@ -365,6 +365,23 @@ Adobe Learning Manager의 현재 릴리스에서는 학습자가 표시됩니다
 Adobe Learning Manager 모바일 앱은 이제 흰색 레이블 지정을 지원합니다. 즉, 이제 자신의 브랜딩으로 앱을 릴리스할 수 있습니다.
 
 흰색 레이블 표시 보기 [Adobe Learning Manager 모바일 앱](white-label.md) 를 참조하십시오.
+
+### 마이그레이션 CSV의 새 열
+
+이번 릴리스에서는 다음 마이그레이션 CSV에 새 열(선택 사항)uniqueLoId가 있습니다.
+
+* certification.csv
+* course.csv
+* learning_program.csv
+
+uniqueLoId 열은 작업 지원 CSV에 적용되지 않습니다.
+
+>[!IMPORTANT]
+>
+>열 값은 계정 전체에서 고유해야 합니다. 강의 또는 인증과 동일한 값을 사용할 수 없습니다.
+
+다음에서 CSV를 다운로드합니다 [마이그레이션 설명서](integration-admin/feature-summary/migration-manual.md#csv-specifications-and-sample-csvs).
+
 
 ### 앱 등급
 
