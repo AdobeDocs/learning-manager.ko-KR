@@ -4,16 +4,16 @@ jcr-language: en_us
 title: 새로운 기능 요약
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 42d595e167663cb368e3597cfc4d9a49313ff46d
+source-git-commit: 898103cd6cda48bf4303c660b6c635d3208deca5
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3666'
 ht-degree: 1%
 
 ---
 
 # 새로운 기능 요약 {#new-features-summary}
 
-Adobe Learning Manager의 새로운 기능과 개선 사항 알아보기
+Adobe Learning Manager 2024년 3월 릴리스의 새로운 기능과 개선 사항에 대해 알아봅니다.
 
 ## 이 릴리스의 새로운 기능 {#whatsnewandchanged}
 
