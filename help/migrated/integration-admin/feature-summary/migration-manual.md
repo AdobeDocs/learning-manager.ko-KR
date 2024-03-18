@@ -2,14 +2,13 @@
 description: 기존 LMS를 Learning Manager LMS로 마이그레이션하려는 통합 책임자를 위한 참조 설명서
 jcr-language: en_us
 title: 마이그레이션 설명서
-source-git-commit: fc6ebb67037c5c75f1b3b66bcf5a23b08532b3bb
+exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
+source-git-commit: 0a5c51c6d56de2c9e2404ba6ddac5a82a62174a5
 workflow-type: tm+mt
 source-wordcount: '3614'
-ht-degree: 73%
+ht-degree: 72%
 
 ---
-
-
 
 # 마이그레이션 설명서
 
@@ -576,4 +575,3 @@ X가 사용자 A, B, C의 관리자라는 시나리오를 생각해 봅시다. X
 
 * [CSV 업로드 관련 자주 묻는 질문](/help/migrated/administrators/add-users-in-bulk.md)
 * [사용자 추가 기능 도움말](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
-
