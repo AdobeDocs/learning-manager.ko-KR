@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 학습자로 시작하기
 description: 시작 페이지를 사용하여 Adobe Learning Manager의 주요 학습 경로를 탐색합니다.
 contentowner: manochan
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
+source-git-commit: bd050c0b0cf2bb7da66d0f2ce3af1cf0d8be4f64
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 66%
 
 ---
-
-
 
 # 학습자로 시작하기
 
@@ -26,7 +25,7 @@ Learning Manager 웹 응용 프로그램에서 학습자로 로그인하면 홈�
 
 **내 학습**: 유형 및 기한 별로 학습 객체를 확인하고 클릭합니다. 내 학습 위젯의 원을 클릭하여 바로 학습 객체 유형으로 이동하거나 기한별 학습 객체를 볼 수 있습니다.
 
-**내 스킬**: 페이지의 오른쪽 상단 모서리에서 스킬 맵을 볼 수도 있습니다. 참조  [스킬 맵](skills-levels.md)기능을 사용하여 자세한 내용을 살펴보십시오.
+**내 스킬**: 페이지의 오른쪽 상단 모서리에서 스킬 맵을 볼 수도 있습니다. 참조  [스킬 맵](skills-levels.md) 기능을 사용하여 자세한 내용을 살펴보십시오.
 
 **학습 객체 위젯**: &#39;내 학습&#39; 바로 아래 있으며 사용자의 학습 객체를 표시합니다. 내 학습 아래에서 모든  [강의](courses.md),  [학습 프로그램](learning-programs.md) 및  [인증](certifications.md) 사용자가 등록하거나 사용자에게 할당했습니다. 바로 학습 객체 수료를 시작하거나 이 위젯으로 학습 객체를 재방문할 수 있습니다.
 
