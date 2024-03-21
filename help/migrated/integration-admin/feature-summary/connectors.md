@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Learning Manager 커넥터
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 04ebf3d2c894588767ab80855325f77acfcc5a85
+source-git-commit: 70d0d6acbcb84ea49539e3a295277cbc342b3246
 workflow-type: tm+mt
-source-wordcount: '15326'
-ht-degree: 63%
+source-wordcount: '15302'
+ht-degree: 64%
 
 ---
 
@@ -1559,89 +1559,89 @@ ADFS 연결 설정을 위한 필수 구성 요소:
 
 ## 응용 프로그램을 등록하는 단계입니다. {#stepstoregisteryourapplication}
 
-1. Azure Active Directory를 클릭합니다. 다음을 수행합니다. **[!UICONTROL 추가]** > **[!UICONTROL 앱 등록]**.
+* Azure Active Directory를 클릭합니다. 다음을 수행합니다. **[!UICONTROL 추가]** > **[!UICONTROL 앱 등록]**.
 
-   <!--![](assets/add-app-registration.png)-->
-   *앱 등록 추가*
+  <!--![](assets/add-app-registration.png)-->
+  <!-- *Add app registration*-->
 
-1. 응용 프로그램의 이름을 입력합니다.
+* 응용 프로그램의 이름을 입력합니다.
 
-   <!--![](assets/register-app.png)-->
-   *응용 프로그램 이름 입력*
+  <!--![](assets/register-app.png)-->
+  <!--*Enter the name of the application*-->
 
-   **[!UICONTROL 등록]**&#x200B;을 클릭합니다.
+  **[!UICONTROL 등록]**&#x200B;을 클릭합니다.
 
-1. 오른쪽 창에서 **[!UICONTROL 인증서 및 시크릿]**&#x200B;을 선택합니다.
+* 오른쪽 창에서 **[!UICONTROL 인증서 및 시크릿]**&#x200B;을 선택합니다.
 
-   <!--![](assets/add-client-secret.png)-->
+  <!--![](assets/add-client-secret.png)-->
 
-   *인증서 및 시크릿 선택*
+  <!--*Select Certificates and Secrets*-->
 
-1. 클라이언트 시크릿을 추가합니다.
+* 클라이언트 시크릿을 추가합니다.
 
-   <!--![](assets/add-description.png)-->
+  <!--![](assets/add-description.png)-->
 
-   *클라이언트 암호 추가*
+  <!--*Add a client secret*-->
 
-1. 시크릿에 설명을 추가하고 기한을 24개월로 설정합니다.
+* 시크릿에 설명을 추가하고 기한을 24개월로 설정합니다.
 
-<!-- ![](assets/copy-values.png)-->
+  <!-- ![](assets/copy-values.png)-->
 
-*설명 추가*
+  <!--*Add description*-->
 
-1. 메모장 등에 값과 시크릿을 복사합니다.
+* 메모장 등에 값과 시크릿을 복사합니다.
 
-<!-- ![](assets/copy-secret.png)-->
+  <!-- ![](assets/copy-secret.png)-->
 
-*값 및 보안 키 복사*
+  <!--*Copy value and secret key*-->
 
-1. **API 권한**&#x200B;을 선택합니다.
+* **API 권한**&#x200B;을 선택합니다.
 
-   <!--![](assets/click-api-permission.png)-->
+  <!--![](assets/click-api-permission.png)-->
 
-<!-- *Left pane containing API Permissions*-->
+  <!-- *Left pane containing API Permissions*-->
 
-1. **권한 추가**&#x200B;를 선택합니다. 또한 **책임자 동의 권한 부여** 옵션을 활성화합니다.
+* **권한 추가**&#x200B;를 선택합니다. 또한 **책임자 동의 권한 부여** 옵션을 활성화합니다.
 
-   ![](assets/add-permission.png)
+  ![](assets/add-permission.png)
 
-   *권한 추가*
+  *권한 추가*
 
-1. **Microsoft Graph**&#x200B;를 선택합니다.
+* **Microsoft Graph**&#x200B;를 선택합니다.
 
-   <!--![](assets/ms-graph.png)-->
+  <!--![](assets/ms-graph.png)-->
 
-   <!--*Select Microsoft Graph*-->
+  <!--*Select Microsoft Graph*-->
 
-1. **응용 프로그램 권한**&#x200B;을 선택합니다.
+* **응용 프로그램 권한**&#x200B;을 선택합니다.
 
-   ![](assets/request-api-permission.png)
+  ![](assets/request-api-permission.png)
 
-   *응용 프로그램 권한 선택*
+  *응용 프로그램 권한 선택*
 
-1. *디렉토리*&#x200B;를 검색하고 **디렉토리 데이터 읽기**&#x200B;를 선택합니다.
+* *디렉토리*&#x200B;를 검색하고 **디렉토리 데이터 읽기**&#x200B;를 선택합니다.
 
-   ![](assets/read-directory-data.png)
+  ![](assets/read-directory-data.png)
 
-   *디렉토리 데이터 읽기 선택*
+  *디렉토리 데이터 읽기 선택*
 
-1. 검색어로 *사용자*&#x200B;를 입력합니다.
+* 검색어로 *사용자*&#x200B;를 입력합니다.
 
-   ![](assets/search-user.png)
+  ![](assets/search-user.png)
 
-   *검색어 입력*
+  *검색어 입력*
 
-1. **모든 사용자의 전체 프로필 읽기**&#x200B;를 선택합니다.
+* **모든 사용자의 전체 프로필 읽기**&#x200B;를 선택합니다.
 
-   ![](assets/select-read-all.png)
+  ![](assets/select-read-all.png)
 
-   *모든 사용자의 전체 프로필 읽기 를 선택합니다*
+  *모든 사용자의 전체 프로필 읽기 를 선택합니다*
 
-1. **권한 추가**&#x200B;를 선택합니다.
+* **권한 추가**&#x200B;를 선택합니다.
 
-   <!--![](assets/select-add-permission.png)-->
+  <!--![](assets/select-add-permission.png)-->
 
-<!-- *Select Add Permissions*-->
+  <!-- *Select Add Permissions*-->
 
 ### ADFS 구성 페이지
 
