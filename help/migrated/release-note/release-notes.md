@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Manager 릴리스 정보
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: adf75b7f451e7977f6b5ccd3550dc26d33162d66
+source-git-commit: aa4d1a41b08d90d04c780db62fabbfd428cae7d2
 workflow-type: tm+mt
 source-wordcount: '26221'
 ht-degree: 72%
@@ -25,7 +25,7 @@ ht-degree: 72%
 
 +++업데이트 96: Adobe Learning Manager 2024년 3월 릴리스
 
-**출시일:** 2023년 11월 18일
+**릴리스 날짜:** 2023년 3월 1일
 
 ## 이 릴리스의 새로운 기능
 
