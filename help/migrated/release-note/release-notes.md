@@ -3,14 +3,13 @@ description: Adobe Learning Manager의 새로운 기능과 개선 사항 알아�
 jcr-language: en_us
 title: 새로운 기능 요약
 contentowner: jayakarr
-source-git-commit: 35dc1f0880793a3f26ee70a3e9993d7520866b44
+exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
+source-git-commit: 8f7793ff878a13560ac556440fa1c18dc7675db9
 workflow-type: tm+mt
-source-wordcount: '26196'
+source-wordcount: '26225'
 ht-degree: 72%
 
 ---
-
-
 
 # 새로운 기능 요약
 
@@ -24,13 +23,22 @@ ht-degree: 72%
  </tbody>
 </table>-->
 
-+++업데이트 95: Adobe Learning Manager 2023년 11월 릴리스
++++업데이트 96: Adobe Learning Manager 2024년 3월 릴리스
 
 **출시일:** 2023년 11월 18일
 
 ## 이 릴리스의 새로운 기능
 
 자세한 내용은 [Adobe Learning Manager의 새로운 기능](/help/migrated/whats-new.md)을 참조하십시오.
++++
+
++++업데이트 95: Adobe Learning Manager 2023년 11월 릴리스
+
+**출시일:** 2023년 11월 18일
+
+## 이 릴리스의 새로운 기능
+
+자세한 내용은 [Adobe Learning Manager의 새로운 기능](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023)을 참조하십시오.
 +++
 
 +++업데이트 94
