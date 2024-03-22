@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Salesforce 패키지 설치
 description: Learning Manager에서는 Salesforce 앱 패키지를 제공합니다. SFDC에 Salesforce 앱 패키지를 설치하고 구성한 영업 직원은 SFDC 포털에서 교육 활동을 수행할 수 있습니다. 이 앱을 설치한 SFDC 사용자는 새로운 교육 과정을 탐구하고, 권장 사항을 확인하며, SFDC 포털에서 바로 이와 같은 컨텐츠를 확인할 수 있습니다. 또한 사용자는 책임자가 SFDC 포털의 앱에서 바로 보낸 발행인란 형식의 공지를 받습니다.
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
+source-git-commit: 970c5f46d6af49bfcca09f88f3d0ece1168fe442
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 51%
 
 ---
-
-
 
 # Salesforce 패키지 설치
 
@@ -48,7 +47,7 @@ Captivate Prime 패키지를 설치하려면 먼저 Salesforce의 기존 패키�
 >
 >Adobe Learning Manager 앱은 Salesforce Lightning 보기에서만 지원됩니다.
 
-1. 실행:  [Learning Manager 패키지 URL](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftest.salesforce.com%2Fpackaging%2FinstallPackage.apexp%3Fp0%3D04t1k0000008YWn&amp;data=04%7C01%7Ckillamse%40adobe.com%7Cf588f553fc694d2edee108d9a5c74711%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637723097572585825%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=mhYKVdwvS4F7WPruy0Kvw%2FsqgWxzTQpaZJyEACu8CNw%3D&amp;reserved=0).
+1. 실행:  [Learning Manager 패키지 URL](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LRvP).
 1. (으)로 **로그인** 페이지에서 **[!UICONTROL 사용자 정의 도메인 사용]**.
 
 1. 패키지 URL을 입력하고 **[!UICONTROL 계속]**. 설치 페이지에는 관리자 전용 설치 옵션이 선택되어 있어야 합니다. 이 옵션을 변경하지 마십시오.
