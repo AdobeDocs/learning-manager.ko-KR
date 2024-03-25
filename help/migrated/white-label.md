@@ -4,9 +4,9 @@ title: Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 description: 흰색 레이블링은 앱 또는 서비스를 자신의 브랜드로 리브랜딩하고 원본 작성자인 것처럼 사용자 정의하는 관행입니다. Adobe Learning Manager에서는 모바일 앱에 흰색 레이블 지정을 적용하여 앱을 다시 브랜딩하고 사용자가 자신의 브랜드로 앱을 사용할 수 있도록 할 수 있습니다.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 5e4008c0811305db86e94f8105ae778fa2cfac83
+source-git-commit: 8228a6b78362925f63575098602b33d3ee645812
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -201,10 +201,19 @@ Adobe Learning Manager 모바일 앱은 이제 흰색 레이블 지정을 지원
 
 </table>
 
+>[!NOTE]
+>
+>사용자 지정 앱 바이너리에 추가할 수 있도록 CSAM에 데이터를 제공합니다.
 
-#### 사이트 연결 업데이트
+
+#### 사용자 지정 라이브러리를 처리하도록 사이트 연결 업데이트
 
 사용자 정의 도메인 또는 learningmanager\*.adobe.com을 호스트로 사용하는 경우 별도의 조치를 취할 필요가 없습니다. 그러나 URL에 대해 사용자 정의 솔루션 또는 특정 호스트 이름을 사용하는 경우 사이트 연결 파일을 추가합니다.
+
+>[!CAUTION]
+>
+>파일이 없으면 심도가 작동하지 않습니다. 파일이 있는지 확인합니다.
+
 
 자세한 내용은 다음 링크를 참조하십시오.
 
@@ -212,9 +221,16 @@ Adobe Learning Manager 모바일 앱은 이제 흰색 레이블 지정을 지원
 
 - [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
-## 푸시 알림 인증서 생성
+## 푸시 알림 생성
 
-### iOS의 푸시 알림 인증서
+Android 및 iOS 앱으로 푸시 알림을 보내려면 두 가지 메커니즘이 필요합니다.
+
+* iOS의 경우 푸시 알림 인증서를 생성합니다.
+* Android의 경우 Firebase 프로젝트에서 생성된 서버 키를 제공합니다.
+
+Firebase에서 프로젝트를 설정하려면 아래 지침을 따르십시오.
+
+### iOS의 푸시 알림
 
 iOS 앱 개발에서 푸시 알림 인증서는 Apple에서 발급한 암호화 자격 증명으로, 서버가 Apple의 APN(Push Notification Service)을 통해 iOS 장치로 푸시 알림을 안전하게 보낼 수 있도록 해 줍니다.
 
@@ -241,19 +257,24 @@ Android와 iOS은 푸시 알림을 장치에 보내는 서비스로 FCM(Firebase
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
-
 서버에 연결할 수 있으면 만든 인증서가 유효합니다. myapnappkey.pem 파일에서 인증서 및 개인 키 값을 복사합니다.
 
-1. CSM 팀에 연락하여 AWS의 SNS 서비스에 추가된 파일을 가져옵니다. 사용자는 푸시 알림을 위해 SNS 서비스에 등록된 항목을 가져와야 하며, 이 경우 유효성 검사를 위해 위에서 생성한 인증서를 공유해야 합니다.
+### Android에서 푸시 알림
+
+Firebase에서 프로젝트를 설정하고 CSAM과 서버 키를 공유합니다.
+
+CSM 팀에 연락하여 AWS의 SNS 서비스에 추가된 파일을 가져옵니다. 사용자는 푸시 알림을 위해 SNS 서비스에 등록된 항목을 가져와야 하며, 이 경우 유효성 검사를 위해 위에서 생성한 인증서를 공유해야 합니다.
 
 >[!NOTE]
 >
 >Android의 경우 사용자는 SNS 서비스에 항목을 추가하기 위해 Android용으로 만든 Firebase 프로젝트에서 서버 키를 제공해야 합니다.
 
 
-## Firebase에 프로젝트 추가
+## Firebase에서 프로젝트 만들기
 
 ### Android
+
+위 단계에서 만든 것과 동일한 프로젝트를 푸시 알림에 다시 사용합니다.
 
 [프로젝트 추가](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) Firebase에서 ***google-services.json*** 파일입니다.
 
@@ -261,19 +282,24 @@ Android와 iOS은 푸시 알림을 장치에 보내는 서비스로 FCM(Firebase
 
 [프로젝트 추가](https://firebase.google.com/docs/ios/setup) Firebase로 이동하여 ***GoogleService-Info.plist*** 파일입니다.
 
+>[!IMPORTANT]
+>
+>앱 이진 파일 작성에 포함할 파일을 Adobe Learning Manager CSAM 팀으로 보냅니다.
+
+
 ## 서명된 이진 파일 생성
 
 ### iOS
 
 ```
-sh""" xcodebuild -exportArchive -archivePath ./mobile-app-embedding-immersive/build/ios/archive/Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
+sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```
 
 >[!NOTE]
 >
->서명된 바이너리를 만들려면 XCode 14.2 이상이 필요합니다.
+>서명된 바이너리를 만들려면 XCode 15.2 이상이 필요합니다.
 
 
 ## Android
