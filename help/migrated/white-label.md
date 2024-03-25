@@ -4,7 +4,7 @@ title: Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 description: 흰색 레이블링은 앱 또는 서비스를 자신의 브랜드로 리브랜딩하고 원본 작성자인 것처럼 사용자 정의하는 관행입니다. Adobe Learning Manager에서는 모바일 앱에 흰색 레이블 지정을 적용하여 앱을 다시 브랜딩하고 사용자가 자신의 브랜드로 앱을 사용할 수 있도록 할 수 있습니다.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 8228a6b78362925f63575098602b33d3ee645812
+source-git-commit: b649255ce7b3f3e0676f785003d3af60c50520a0
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 0%
@@ -217,9 +217,8 @@ Adobe Learning Manager 모바일 앱은 이제 흰색 레이블 지정을 지원
 
 자세한 내용은 다음 링크를 참조하십시오.
 
-- [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
-
-- [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+* [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
+* [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
 ## 푸시 알림 생성
 
@@ -257,6 +256,7 @@ Android와 iOS은 푸시 알림을 장치에 보내는 서비스로 FCM(Firebase
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
+
 서버에 연결할 수 있으면 만든 인증서가 유효합니다. myapnappkey.pem 파일에서 인증서 및 개인 키 값을 복사합니다.
 
 ### Android에서 푸시 알림
@@ -292,7 +292,7 @@ CSM 팀에 연락하여 AWS의 SNS 서비스에 추가된 파일을 가져옵니
 ### iOS
 
 ```
-sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
+sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```
@@ -324,5 +324,5 @@ CSM 팀이 고객과 빌드를 공유합니다.
 
 ## 사용자 정의할 수 없는 항목
 
-- 암호 업데이트 화면
-- 계정 생성 화면
+* 암호 업데이트 화면
+* 계정 생성 화면
