@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 새로운 기능 요약
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
+source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 1%
@@ -245,7 +245,7 @@ Adobe 기능을 활성화하려면 Search Learning Manager의 CSAM 팀에 문의
 
 ### 사용자 그룹
 
-#### 책임자 - 학습자 페이지
+#### 책임자: 학습자 페이지
 
 사용자를 검색할 때 **학습자 다운로드** 및 **내보내기** 동일한 보고서 다운로드 옵션 그동안, 사용자 그룹을 검색하는 동안 이제 해당 사용자 그룹에서 필터링된 사용자를 다운로드할 수 있습니다. 사용자 그룹을 검색할 때 **학습자 목록 다운로드** 변경 내용 **사용자 그룹의 학습자 목록 다운로드** 대상 **내보내기** 전체 목록을 다시 다운로드합니다.
 
