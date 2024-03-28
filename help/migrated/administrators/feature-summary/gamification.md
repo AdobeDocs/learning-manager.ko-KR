@@ -3,14 +3,13 @@ description: 게임화는 게임이 아닌 컨텍스트에 게임적 사고 방�
 jcr-language: en_us
 title: 게임화
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1419'
 ht-degree: 67%
 
 ---
-
-
 
 # 게임화
 
@@ -76,7 +75,7 @@ Learning Manager를 사용하면 콘텐트에 구조적 게임화 레이어를 �
 
 ## 게임화 비활성화 {#disablegamification}
 
-다음을 수행합니다. [!UICONTROL **게임화**] > [!UICONTROL **게임화 기능**]. 이를 통해 학습자용 게임화 기능과 리더보드를 별도로 활성화할 수 있습니다. 필요에 따라 내부 학습자용 활성화와 외부 학습자용 활성화 중에서 선택하고 &#39;확인&#39;을 클릭합니다. 모든 포인트는 다시 게임화 기능을 활성화하면 유지됩니다.
+다음을 수행합니다. [!UICONTROL **게임화**] > **[!UICONTROL 설정]** > [!UICONTROL **게임화 기능**]. 이를 통해 학습자용 게임화 기능과 리더보드를 별도로 활성화할 수 있습니다. 필요에 따라 내부 학습자용 활성화와 외부 학습자용 활성화 중에서 선택하고 &#39;확인&#39;을 클릭합니다. 모든 포인트는 다시 게임화 기능을 활성화하면 유지됩니다.
 
 ![](assets/gamification-feature.png)
 

@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 새로운 기능 요약
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 8dcfdc7336e5be7f327626d2973671ca56ec58ce
+source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 1%
@@ -261,6 +261,7 @@ Adobe 기능을 활성화하려면 Search Learning Manager의 CSAM 팀에 문의
 ## 강의실 생성 변경 사항
 
 기준 [관리자 설정](administrators/feature-summary/classroom.md#classroom-settings), 작성자는 다음 작업을 수행할 수 있습니다 [위치 생성, 수정 및 삭제](administrators/feature-summary/classroom.md#add-classroom-location).
+
 >[!NOTE]
 >
 >위치 및 카탈로그 레이블을 추가하는 동안 작성자(강의 생성 페이지) 및 책임자(인스턴스 페이지)에게 각각 위치 및 카탈로그 레이블의 자동 채워진 목록이 표시됩니다.

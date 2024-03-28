@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: fc77dad8f39d6d29c8ec74eb5ba137bf12ab7f8c
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '588'
 ht-degree: 89%
 
 ---
@@ -69,7 +69,6 @@ ht-degree: 89%
    * [설정](administrators/feature-summary/settings.md)
    * [알림](administrators/feature-summary/user-notifications.md)
    * [iPad 및 Android 태블릿 사용자](administrators/feature-summary/ipad-android-tablet-users.md)
-   * [관리자로 시작하기](administrators/feature-summary/getting-started.md)
    * [사용자 제거](administrators/feature-summary/purge-users.md)
    * [태그](administrators/feature-summary/tags.md)
    * [Learning Manager 콘텐츠 카탈로그](administrators/feature-summary/content-catalogs.md)

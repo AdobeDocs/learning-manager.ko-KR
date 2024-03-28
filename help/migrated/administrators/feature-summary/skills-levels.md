@@ -3,14 +3,13 @@ description: 스킬과 레벨 만들기, 할당하기, 수정하기.
 jcr-language: en_us
 title: 스킬과 레벨 만들기 및 수정하기
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 80%
+source-wordcount: '1721'
+ht-degree: 79%
 
 ---
-
-
 
 # 스킬과 레벨 만들기 및 수정하기
 
@@ -32,7 +31,7 @@ Learning Manager LMS에서 스킬의 기본 목적은 책임자에게 비즈니�
 
 스킬을 추가하려면 다음 단계를 따르십시오.
 
-1. 왼쪽 창의 **[!UICONTROL 스킬]**&#x200B;을 클릭합니다. 스킬의 이름과 설명을 입력합니다.
+1. 왼쪽 창에서 다음을 선택합니다. **[!UICONTROL 스킬]** > **[!UICONTROL 추가]** > **[!UICONTROL SKills 추가]**. 스킬의 이름과 설명을 입력합니다.
 
    ![](assets/add-skill-name-anddescription.png)
 

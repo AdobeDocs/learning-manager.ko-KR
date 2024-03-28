@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 학습 경로
 description: Learning Manager의 책임자용 학습 계획을 생성합니다.
 contentowner: saghosh
-source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
+exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1941'
 ht-degree: 42%
 
 ---
-
-
 
 # 학습 경로
 
@@ -132,9 +131,9 @@ ht-degree: 42%
 
 세 가지 옵션이 있습니다.
 
-1. **[!UICONTROL 모든 레벨의 강의 및 학습 경로(기본적으로 선택됨)]:** 학습자는 학습 경로 레벨에 관계 없이 미완료 과정에서 알림을 받습니다.
+1. **[!UICONTROL 모든 스킬 레벨 강의 및 학습 경로(기본적으로 선택됨)]:** 학습자는 학습 경로 레벨에 관계 없이 미완료 과정에서 알림을 받습니다.
 1. **[!UICONTROL 최상위 학습 경로]:** 학습자는 상위 학습 경로에 속하는 미완료 과정에 대한 알림을 받습니다.
-1. **[!UICONTROL 학습 경로 및 1차 하위 학습 경로만]:** 학습자는 상위 학습 경로의 첫 번째 하위 학습 경로의 미완료 과정에 대한 알림을 받습니다.
+1. **[!UICONTROL 학습 경로 + 첫 번째 스킬 레벨 아동만]:** 학습자는 상위 학습 경로의 첫 번째 하위 학습 경로의 미완료 과정에 대한 알림을 받습니다.
 
 이 옵션에 따라 알림이 표시됩니다. 기본적으로 옵션은 **[!UICONTROL 모든 레벨의 강의 및 학습 경로]** 이(가) 인스턴스에 대해 활성화됩니다.
 

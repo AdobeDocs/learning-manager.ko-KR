@@ -4,7 +4,7 @@ title: 카탈로그
 description: 카탈로그는 강의, 학습 프로그램, 인증 등 학습 항목의 컬렉션입니다. 카탈로그를 사용하여 학습자에게 사용자 정의된 학습 집합에 대한 액세스를 제공하십시오. 새로운 카탈로그 생성 중 학습을 카탈로그에 연결할 수 있습니다.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 75%
@@ -220,31 +220,31 @@ ht-degree: 75%
    <td>
     <p><strong>학습 프로그램</strong></p></td>
    <td>
-    <p>배지 ID를 제외한 LP 개체의 이름, 설명 및 기타 필드, 중단</p></td>
+    <p>LP 개체의 이름, 설명 및 기타 필드(배지 ID 제외), 중단</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>인증</strong></p></td>
    <td>
-    <p>badgeId를 제외한 인증 개체의 모든 속성, 인증 종료</p></td>
+    <p>배지 ID를 제외한 인증 개체의 모든 속성, 인증 종료</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>배지</strong></p></td>
    <td>
-    <p>배지 이름 및 퇴사</p></td>
+    <p>배지 이름 지정 및 폐지</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>범주 </strong></p></td>
    <td>
-    <p>이름, 설명, 색상 및 카테고리 중단, 새로운 수준의 추가</p></td>
+    <p>이름, 설명, 색상 및 범주 종료, 새 레벨 추가</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>작업 지원</strong></p></td>
    <td>
-    <p>jobAid 개체의 모든 속성</p></td>
+    <p>작업 지원 개체의 모든 속성</p></td>
   </tr>
   <tr>
    <td>

@@ -3,14 +3,13 @@ description: Learning Manager를 사용하여 학습자 성적 증명서를 다�
 jcr-language: en_us
 title: 학습자 성적 증명서
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 67%
+source-wordcount: '1912'
+ht-degree: 66%
 
 ---
-
-
 
 # 학습자 성적 증명서
 
@@ -22,7 +21,7 @@ Adobe Learning Manager를 사용하면 조직 책임자가 학습자 관련 성�
 
 1. 학습자 성적 증명서를 생성하려면 다음을 클릭합니다. **[!UICONTROL 보고서]** 관리자 로그인 의 왼쪽 창에 표시됩니다.
 
-   책임자는 **[!UICONTROL 보고서]** 페이지 내의 Excel 보고서 탭으로 이동합니다.
+   책임자는 **[!UICONTROL 사용자 정의 보고서]** > **[!UICONTROL Excel 보고서]** 탭 내부 **[!UICONTROL 보고서]** 페이지.
 
 1. 링크를 클릭합니다. **[!UICONTROL 학습자 성적 증명서]**.
 

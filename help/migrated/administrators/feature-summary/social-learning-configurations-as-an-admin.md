@@ -3,14 +3,13 @@ description: 책임자는 소셜 학습에서 수행된 활동을 활성화/비�
 jcr-language: en_us
 title: 책임자로 소셜 학습 모니터링 및 중재
 contentowner: kuppan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
+source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
 workflow-type: tm+mt
 source-wordcount: '3604'
 ht-degree: 63%
 
 ---
-
-
 
 # 책임자로 소셜 학습 모니터링 및 중재
 
@@ -265,9 +264,9 @@ SME는 스킬 레벨이 아니라, 스킬에 따라 추가되고 할당됩니다
 * **[!UICONTROL 복제]:** 모든 언어에 제목과 부제를 복제하려면 이 단추를 클릭합니다.
 * **[!UICONTROL 재설정]:** 원래 제목과 부제로 되돌리려면 이 단추를 클릭합니다.
 
-소셜 학습 홈페이지에서 책임자가 제공한 정보는 페이지 헤더로 표시됩니다.
+  소셜 학습 홈페이지에서 책임자가 제공한 정보는 페이지 헤더로 표시됩니다.
 
-<!--![](assets/banner-learner.png)-->
+  <!--![](assets/banner-learner.png)-->
 
 ## 트렌드 {#trends}
 

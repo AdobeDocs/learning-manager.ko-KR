@@ -3,14 +3,13 @@ description: Learning Manager 청구 정보를 관리하고 신용카드를 사�
 jcr-language: en_us
 title: Learning Manager 주문 및 청구 정보 관리
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '1747'
 ht-degree: 70%
 
 ---
-
-
 
 # Learning Manager 주문 및 청구 정보 관리
 
@@ -199,7 +198,7 @@ Learning Manager 계정. 다른 모든 사용자는 계정에 액세스할 수 �
 
 ![](assets/generate-report-request.png)
 
-*크리에이티브 사용 보고서 다운로드*
+*활성 사용 현황 보고서 다운로드*
 
 브라우저 창을 닫으면 다음에 Learning Manager를 방문할 때 다운로드가 시작됩니다.
 
