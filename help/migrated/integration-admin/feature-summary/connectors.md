@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager 커넥터
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 70d0d6acbcb84ea49539e3a295277cbc342b3246
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '15302'
 ht-degree: 64%
@@ -897,7 +897,7 @@ miniOrange 커넥터를 설정하려면 Learning Manager CSM 팀에 문의하십
 
    *연결 만들기*
 
-1. MiniOrange 사용자를 Learning Manager 내부 사용자로 직접 가져오려면 **[!UICONTROL 내부 사용자 가져오기]** 선택 사항입니다.
+1. miniOrange 사용자를 Learning Manager 내부 사용자로 직접 가져오려면 다음을 사용하십시오. **[!UICONTROL 내부 사용자 가져오기]** 선택 사항입니다.
 
    ![](assets/import-users.png)
 

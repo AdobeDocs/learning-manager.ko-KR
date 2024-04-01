@@ -3,14 +3,13 @@ description: Learning Manager 강의, 인증, 학습 프로그램을 생성하�
 jcr-language: en_us
 title: 강의 생성, 수정 및 게시
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '6843'
 ht-degree: 75%
 
 ---
-
-
 
 # 강의 생성, 수정 및 게시
 
@@ -70,6 +69,7 @@ Learning Manager 강의, 인증, 학습 프로그램을 생성하는 방법을 �
    참고: 이 옵션은 Adobe Commerce 커넥터가 구성된 경우에만 사용할 수 있습니다.
 
 1. 학습자가 등록한 강의를 직접 취소할 수 있게 하려면 **학습자가 직접 등록을 취소할 수 있음** 확인란을 선택합니다.
+
 1. **인스턴스 구성**
 
    이 옵션을 활성화하면 진행 중 상태의 학습자가 다른 인스턴스를 방문하여 등록할 수 있습니다. 학습자는 이전 인스턴스의 진행률을 유지할 수 있습니다.
@@ -898,4 +898,3 @@ Learning Manager 초기 릴리스에서는 외부 인증에서 학습자가 강�
 아니요. Learning Manager에 업로드된 콘텐츠는 게시된 zip 파일이며, 소스 파일이 아닙니다. 따라서, 콘텐츠를 다운로드하더라도, 해당 콘텐츠는 제작 도구로 편집할 수 없습니다. 콘텐츠를 수정하려면 소스 파일이 필요합니다.
 
 +++
-

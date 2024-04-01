@@ -1,7 +1,8 @@
 ---
 title: 이 릴리스의 새로운 기능
 description: Adobe Learning Manager 2023년 11월 릴리스의 새로운 기능과 개선 사항에 대해 알아봅니다.
-source-git-commit: 1b0a89bf14ed4e48c3da925686d5e2becd94e320
+exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 70%
@@ -168,11 +169,48 @@ Adobe Learning Manager에서는 사용자 정의 책임자가 학습 성적 증�
 
 사용자 정의 책임자는 정의된 범위에 따라 다음 보고서에 액세스할 수 있습니다.
 
-| 보고 | 사용 가능 | 범위 |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>보고</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>사용 가능</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>범위</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>콘텐츠 감사 내역</p></td>
+   <td>
+    <p>예</p></td>
+   <td>
+    <p>전체 카탈로그</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>사용자 감사 추적</p></td>
+   <td>
+    <p>예</p></td>
+   <td>
+    <p>모든 사용자</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>로그인 액세스</p></td>
+   <td>
+    <p>예</p></td>
+   <td>
+    <p>모든 사용자</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
-| 콘텐츠 감사 내역 | 예 | 전체 카탈로그 |
-| 사용자 감사 추적 | 예 | 모든 사용자 |
-| 로그인 액세스 | 예 | 모든 사용자 |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## 향상된 Connect 통합
 
