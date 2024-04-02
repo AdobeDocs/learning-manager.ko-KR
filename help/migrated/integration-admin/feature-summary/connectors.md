@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Learning Manager 커넥터
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: ec8d204ba7d85fab84c7d1db4a1ba741f363566c
 workflow-type: tm+mt
-source-wordcount: '15302'
-ht-degree: 64%
+source-wordcount: '15572'
+ht-degree: 63%
 
 ---
 
@@ -919,54 +919,54 @@ miniOrange 커넥터를 설정하려면 Learning Manager CSM 팀에 문의하십
 
 1. 가져오기가 완료되면 알림이 옵니다. 가져오기 로그를 보거나 편집하려면 **[!UICONTROL &#39;사용자&#39; > &#39;로그 가져오기&#39;]**&#x200B;를 클릭합니다.
 
-#### 연결 삭제 {#deleteaconnection}
+<!-- #### Delete a connection {#deleteaconnection}
 
-설정된 miniOrange 연결을 삭제하려면 다음 단계를 따르십시오.
+To delete an established  miniOrange  connection, follow these steps. -->
 
-<!---## Video conferencing connectors (Bluejeans Meetings and Zoom) {#bluejeansconnector}
+## Zoom 커넥터 {#zoom-connector}
 
-You can now integrate Learning Manager with BlueJeans and Zoom connectors and use them to host classes.  The connector enables you to set up video conferencing meetings/classes with the learners.
+Learning Manager와 Zoom 커넥터를 통합하여 클래스를 호스트할 수 있습니다.  이 커넥터를 사용하여 학습자와 화상 회의/클래스를 설정할 수 있습니다.
 
-To set up and use the connector, follow these steps.
+커넥터를 설정하고 사용하려면 다음 단계를 수행합니다.
 
-1. In Learning Manager  home page , hover the mouse over the BlueJeans/Zoom thumbnail. A menu appears. Click  **[!UICONTROL Connect]** option from the menu.
+1. Learning Manager 홈 페이지에서 확대/축소 축소판 위로 마우스를 가져갑니다. 그러면 메뉴가 나타납니다. 다음을 수행합니다.  **[!UICONTROL Connect]** 메뉴에 있습니다.
 
-   ![](assets/connectors.png)
+   <!-- ![](assets/connectors.png)
 
-   *Zoom connector tile*
+   *Zoom connector tile* -->
 
-1. The BlueJeans/ Zoom connector page opens. Enter the details of your account into respective fields to integrate and synchronize the user feed. You can get the details from the administrator of your connector account.
+1. Zoom 커넥터 페이지가 열립니다. 사용자 피드를 통합하고 동기화하려면 해당 필드에 계정의 세부 정보를 입력합니다. 자세한 내용은 커넥터 계정 책임자에게 문의하십시오.
 
-   ![](assets/bluejeans-connecotrpage.png)
-   *Connect to BlueJeans/ Zoom*
+   <!-- ![](assets/bluejeans-connecotrpage.png)
+   *Connect to BlueJeans/ Zoom* -->
 
    >[!NOTE]
    >
-   >As a learner, while enabling the connector, use the same email id used for your Learning Manager account to enable user feeds back into Learning Manager.
+   >학습자는 커넥터를 활성화하는 동안 Learning Manager 계정에 사용된 것과 동일한 전자 메일 ID를 사용하여 사용자가 다시 Learning Manager로 피드를 보낼 수 있도록 합니다.
 
-1. Once the connection is established, as an Author, create a VC course with BlueJeans/ Zoom as the conferencing system.
+1. 작성자로 연결이 설정되면 Zoom을 회의 시스템으로 사용하여 VC 강의를 생성합니다.
 
-   ![](assets/vc.jpg)
+   <!-- ![](assets/vc.jpg)
    
-   *Create a VC course*
+   *Create a VC course* -->
 
-1. Administrators, managers, and learners can enroll learners  to  the created course. Upon enrollment, the learner receives an email. The learner can sign in to their Learning Manager account to view the program details and take the course.
-1. When the course is complete, the completion report is sent to Learning Manager. The administrator can see the completion report to check the attendance and score of the learners.
+1. 책임자, 관리자 및 학습자는 학습자를 생성된 과정에 등록할 수 있습니다. 등록 후에 학습자는 이메일을 받습니다. 학습자는 Learning Manager 계정에 로그인하여 프로그램 세부 정보를 보고 과정을 수강할 수 있습니다.
+1. 과정을 마치면 완료 보고서가 Learning Manager로 전송됩니다. 책임자는 완료 보고서를 보고 학습자의 출석 및 점수를 확인할 수 있습니다.
 
    ![](assets/attendence-and-scoringreport.png)
-   *Attendance and scoring report*
+   *출석 및 점수 보고서*
 
-### Create a zoom server-to-server OAuth app
+### Zoom 서버-서버 OAuth 앱 만들기
 
-When you create a Zoom Server-to-Server OAuth app to be used in Adobe Learning Manager, you must add scopes required by Adobe Learning Manager while creating the connection.
+Adobe Learning Manager에서 사용할 Zoom 서버-서버 OAuth 앱을 만드는 경우 연결을 만드는 동안 Adobe Learning Manager에 필요한 범위를 추가해야 합니다.
 
-Adobe Learning Manager requires the scopes below and the scopes must be selected in the OAuth app.
+Adobe Learning Manager는 다음과 같은 범위가 필요하며 해당 범위는 OAuth 앱에서 선택해야 합니다.
 
-* View all user meetings `/meeting:read:admin`
-* View and manage all user meetings `/meeting:write:admin`
-* View report data `/report:read:admin`
-* View all user information `/user:read:admin`
-* View users' information and manage users `/user:write:admin`-->
+* 모든 사용자 모임 보기 `/meeting:read:admin`
+* 모든 사용자 회의 보기 및 관리 `/meeting:write:admin`
+* 보고서 데이터 보기 `/report:read:admin`
+* 모든 사용자 정보 보기 `/user:read:admin`
+* 사용자 정보 보기 및 사용자 관리 `/user:write:admin`
 
 ## Box 커넥터 {#boxconnector}
 
