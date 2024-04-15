@@ -105,7 +105,7 @@ Adobe Learning Manager의 이번 릴리스에서는 학습자가 하나 이상�
 ### 이번 업데이트에서 수정된 문제
 
 * Play Store의 Adobe Learning Manager 모바일 앱 설명에 학습자가 오프라인으로 강의를 수강할 수 있다고 잘못 기재되어 있습니다.
-* linkedIn에서 Adobe Learning Manager로 콘텐츠(module_version.csv 및 course_module.csv)를 마이그레이션할 때 문제가 발생했습니다.
+* linkedIn에서 Adobe Learning Manager으로 콘텐츠(module_version.csv 및 course_module.csv)를 마이그레이션할 때 문제가 발생했습니다.
 * 계정이 비활성 상태이고 3년 이상 전에 생성된 경우, 계정의 모든 사용자는 사용자 상태에 관계없이 GDPR로 삭제됩니다.
 * 강사 앱에서 세션의 대기자 명단 제한을 0으로 설정하고 세션을 저장하면 사용자 인터페이스에서 0 대신 &quot;적용할 수 없음&quot;으로 잘못 표시됩니다.
 * Power BI 커넥터의 학습자 성적 증명서를 생성할 때 교육 또는 모듈 지속 기간(분) 열에 특정 강의실 또는 VC 모듈에 대해 null 값이 표시됩니다.
@@ -145,7 +145,7 @@ ILT(Instructor-Led Training) 경험에 대한 몇 가지 개선 사항이 적용
 
 **&#39;하이브리드&#39; 세션 지원**
 
-Adobe Learning Manager는 이제 &quot;하이브리드&quot; 강사 Led 교육(ILT) 세션을 생성하는 기능을 지원합니다. 선택 위치 정보로 가상 ILT 세션을 생성할 수 있으므로 학습자는 가능한 경우 해당 위치에서 직접 세션에 참석할 수 있습니다.
+이제 Adobe Learning Manager에서 &quot;하이브리드&quot; ILT(강사 주도 교육) 세션을 만드는 기능을 지원합니다. 선택 위치 정보로 가상 ILT 세션을 생성할 수 있으므로 학습자는 가능한 경우 해당 위치에서 직접 세션에 참석할 수 있습니다.
 
 **강의실 및 가상 ILT에 대한 진행 상황 추적 개선**
 
@@ -389,7 +389,7 @@ Adobe Learning Manager의 2022년 11월 릴리스는 다음으로 구성됩니�
 
 자세한 내용은 [Adobe Learning Manager 2022년 11월 릴리스의 새로운 기능](/help/migrated/whats-new-2022-november.md)을 참조하십시오.
 
-**참고:** Adobe Learning Manager의 2022년 11월 릴리스부터 Zoom이 중단됩니다 [2023년 6월까지 JWT 인증](https://marketplace.zoom.us/docs/guides/auth/jwt/). 따라서 JWT가 지원되는 Zoom 커넥터는 언급한 날짜까지 작동하지만 사용자가 서버간 Oauth 앱을 생성하여 계정에서 해당 기능을 대체하는 것이 좋습니다. 모든 새로운 연결은 기본적으로 Zoom Oauth 인증을 거치게 됩니다.
+**참고:** Adobe Learning Manager의 2022년 11월 릴리스에서는 Zoom이 중단됩니다 [2023년 6월까지 JWT 인증](https://marketplace.zoom.us/docs/guides/auth/jwt/). 따라서 JWT가 지원되는 Zoom 커넥터는 언급한 날짜까지 작동하지만 사용자가 서버간 Oauth 앱을 생성하여 계정에서 해당 기능을 대체하는 것이 좋습니다. 모든 새로운 연결은 기본적으로 Zoom Oauth 인증을 거치게 됩니다.
 
 ### 이번 업데이트에서 수정된 문제
 
@@ -472,7 +472,7 @@ Adobe Learning Manager의 2022년 11월 릴리스는 다음으로 구성됩니�
 
 예정된 변경사항에 관한 업데이트 내용이며 준비하실 수 있도록 도와드립니다.
 
-**2022년 7월에 Adobe Learning Manager 제품이 Adobe Learning Manager로 리브랜딩됩니다**. 이는 특정 비즈니스 우선순위에 따라 제품의 정렬을 더 정확하게 반영하기 위해 실행된 전략적인 노력입니다.
+**2022년 7월에 Adobe Learning Manager 제품이 Adobe Learning Manager으로 리브랜딩됩니다.**. 이는 특정 비즈니스 우선순위에 따라 제품의 정렬을 더 정확하게 반영하기 위해 실행된 전략적인 노력입니다.
 
 제품 팀에서는 귀하의 플랫폼을 사용하는 데 문제가 없도록 철저하게 준비하고 있으며, 제품을 평소와 같이 계속 사용할 수 있습니다. 해당 플랫폼의 책임자는 7월의 특정 화면에서 새로운 브랜드 이름을 발견할 수도 있습니다.
 
@@ -627,7 +627,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 **게시**
 
-* Adobe Captivate에서 Adobe Learning Manager로 직접 게시된 Learning Manager 콘텐츠의 유럽 인스턴스가 기본적으로 독일어 로케일로 게시되었습니다. 이 문제가 수정되었습니다.
+* Adobe Captivate에서 Adobe Learning Manager으로 직접 게시된 Learning Manager 콘텐츠의 유럽 인스턴스가 기본적으로 독일어 로케일로 게시되었습니다. 이 문제가 수정되었습니다.
 
 **API**
 
