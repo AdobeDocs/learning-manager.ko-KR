@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 사용자 추가 및 사용자 그룹 만들기
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 82a327fa4a472f58319528a11e427549bd4bd728
+source-git-commit: 18feaeb3a5d1995385a792696cdc536afaceac41
 workflow-type: tm+mt
-source-wordcount: '4000'
-ht-degree: 62%
+source-wordcount: '3978'
+ht-degree: 63%
 
 ---
 
@@ -20,12 +20,12 @@ Learning Manager 응용 프로그램에서 사용자 또는 사용자 그룹을 
 
 ## 사용자 그룹 관리
 
->[!INFO]
+<!-- >[!INFO]
 >
->이 교육에서는 이름, 이메일 ID 및 여러 자동 생성된 사용자 그룹을 결합하여 사용자 그룹을 만드는 방법에 대해 학습합니다.<br/><br/>
+>In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694) -->
+
 [![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
-
-
 <!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
