@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 새로운 기능 요약
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 68c5bad63c997162d5a8bab3003543d89e3959ad
+source-git-commit: e21eb23c9b99ef5737ca105edede0eea7186ed02
 workflow-type: tm+mt
 source-wordcount: '3861'
 ht-degree: 1%
@@ -401,7 +401,7 @@ Adobe Learning Manager 모바일 앱은 이제 흰색 레이블 지정을 지원
 
 >[!NOTE]
 >
->uniqueLoId 열은 작업 지원 CSV에 적용되지 않습니다.
+>열, **유니크**&#x200B;작업 지원 CSV에는 적용되지 않습니다.
 
 
 >[!IMPORTANT]
