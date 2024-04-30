@@ -4,16 +4,16 @@ jcr-language: en_us
 title: 새로운 기능 요약
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
+source-git-commit: 68c5bad63c997162d5a8bab3003543d89e3959ad
 workflow-type: tm+mt
-source-wordcount: '3764'
+source-wordcount: '3861'
 ht-degree: 1%
 
 ---
 
 # 새로운 기능 요약 {#new-features-summary}
 
-Adobe Learning Manager 2024년 3월 릴리스의 새로운 기능과 개선 사항에 대해 알아봅니다.
+Adobe Learning Manager 2024년 3월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다.
 
 ## 이 릴리스의 새로운 기능 {#whatsnewandchanged}
 
@@ -86,7 +86,7 @@ L1 피드백 페이지에서 강의 등록 횟수가 많으면 학습자 목록�
 
 ### 관리자 - 인증 페이지
 
-현재 버전의 Adobe Learning Manager에서 인증에 등록한 사용자가 많은 경우 다음과 같은 이유로 등록되지 않은 학습자는 볼 수 없습니다. **상태** 드롭다운이 비활성화되었습니다.
+현재 버전의 Adobe Learning Manager에서는 인증에 등록한 사용자가 많은 경우 다음과 같은 이유로 등록되지 않은 학습자는 볼 수 없습니다. **상태** 드롭다운이 비활성화되었습니다.
 
 이번 Adobe Learning Manager 릴리스에서는 등록된 사용자 수가 많을 경우 **상태** 드롭다운에는 두 개의 옵션만 표시됩니다. **등록됨** 및 **등록 취소됨**. 옵션 **등록됨** 이 기본적으로 선택됩니다. 다음을 선택하는 경우 **등록 취소됨**&#x200B;등록되지 않은 학습자 목록이 표시됩니다.
 
@@ -235,7 +235,7 @@ L1 피드백 페이지에서 강의 등록 횟수가 많으면 학습자 목록�
 * 검색 막대의 모양입니다.
 * 학습 앱에 필터 태그가 추가되었습니다.
 
-Adobe 기능을 활성화하려면 Search Learning Manager의 CSAM 팀에 문의하십시오.
+검색 기능을 활성화하려면 Adobe Learning Manager의 CSAM 팀에 문의하십시오.
 
 ## 사용자 인터페이스 변경 사항 {#ui-changes}
 
@@ -320,7 +320,7 @@ Adobe Learning Manager의 2024년 3월 릴리스에서 체크리스트 워크플
 
 ### 세션 관련 이메일 알림
 
-이전 릴리스의 Adobe Learning Manager에서 다음과 같은 경우 학습자는 세션 관련 전자 메일, 업데이트된 세션 세부 정보, 세션 초대 및 세션 미리 알림을 받지 못했습니다.
+Adobe Learning Manager의 이전 릴리스에서는 다음과 같은 경우 학습자가 세션 관련 전자 메일, 세션 세부 정보 업데이트, 세션 초대 및 세션 미리 알림을 보내지 않았습니다.
 
 * 학습자가 강의를 완료했으나
 * 새 세션이 강의에 추가됨 또는
@@ -376,7 +376,7 @@ Adobe Learning Manager의 현재 릴리스에서는 학습자가 표시됩니다
 
 ### Adobe Learning Manager의 흰색 레이블 지정
 
-Adobe Learning Manager 모바일 앱은 이제 흰색 레이블 지정을 지원합니다. 즉, 이제 자신의 브랜딩으로 앱을 릴리스할 수 있습니다.
+Adobe Learning Manager 모바일 앱은 이제 흰색 레이블 지정을 지원합니다. 즉, 이제 사용자의 브랜딩으로 앱을 출시할 수 있습니다.
 
 흰색 레이블 표시 보기 [Adobe Learning Manager 모바일 앱](white-label.md) 를 참조하십시오.
 
@@ -388,7 +388,21 @@ Adobe Learning Manager 모바일 앱은 이제 흰색 레이블 지정을 지원
 * course.csv
 * learning_program.csv
 
-uniqueLoId 열은 작업 지원 CSV에 적용되지 않습니다.
+>[!NOTE]
+>
+>대상 **유니크** 열은 선택 사항입니다.
+
+
+마이그레이션을 수행하여 기존 강의나 학습 계획 또는 인증, 강의나 학습 계획 또는 인증이 **uniqueLOId**&#x200B;작성자 앱에 추가됩니다.
+
+마이그레이션하는 동안 **uniqueLOId** 선택적 열임에도 불구하고 강의나 학습 계획 또는 인증에 대한 CSV의 값입니다.
+
+해당하는 경우 **유니크** 기존 강의나 학습 계획 또는 인증을 업데이트하는 동안 마이그레이션을 수행하기 전에 열이 추가되지 않습니다. **uniqueLOId** s, 마이그레이션 후 **uniqueLOId** 값은 NULL 값으로 재정의됩니다.
+
+>[!NOTE]
+>
+>uniqueLoId 열은 작업 지원 CSV에 적용되지 않습니다.
+
 
 >[!IMPORTANT]
 >
@@ -399,7 +413,7 @@ uniqueLoId 열은 작업 지원 CSV에 적용되지 않습니다.
 
 ### 앱 등급
 
-학습자는 Adobe Learning Manager 앱에 피드백을 제공하여 앱 경험을 더욱 개선할 수 있습니다. 학습자가 별 4개 이상을 평가하면 Play Store 또는 App Store에서 학습자에게 앱을 평가하도록 요청하는 팝업이 표시됩니다.
+학습자는 Adobe Learning Manager 앱에 대한 피드백을 제공하여 앱 경험을 더욱 향상시킬 수 있습니다. 학습자가 별 4개 이상을 평가하면 Play Store 또는 App Store에서 학습자에게 앱을 평가하도록 요청하는 팝업이 표시됩니다.
 
 ### Bluejeans는 2024년 2월에 서비스 종료(EOL)되었습니다
 
@@ -413,7 +427,7 @@ Login Access 보고서는 지난 5분기 동안만 사용할 수 있습니다. �
 
 ### ADFS 변경 사항
 
-이제 매핑을 기반으로 ADFS의 직원 유형 및 직원 ID 필드를 Adobe Learning Manager에서 사용할 수 있습니다.
+이제 매핑을 기반으로 Adobe Learning Manager에서 ADFS의 직원 유형 및 직원 ID 필드를 사용할 수 있습니다.
 
 ## 이 릴리스의 API 변경 사항
 
@@ -513,7 +527,7 @@ learningObjectResource의 새 속성인 isExpiredSubmission은 리소스의 제�
 
 ### 사용되지 않는 API
 
-보기 [Adobe Learning Manager에서 API 중단](api-deprecations-list.md) - 제품에서 사용되지 않는 모든 API의 누적 목록입니다.
+보기 [Adobe Learning Manager에서 API 사용 중단](api-deprecations-list.md) - 제품에서 사용되지 않는 모든 API의 누적 목록입니다.
 
 ## 이번 업데이트에서 수정된 문제 {#bug-fixes}
 
