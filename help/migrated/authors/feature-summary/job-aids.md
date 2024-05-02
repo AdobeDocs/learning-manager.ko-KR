@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: 작업 지원
 description: 작업 지원은 등록 또는 완료 조건 없이 학습자가 액세스할 수 있는 교육 콘텐츠 저장소입니다. 학습자는 이러한 작업 지원을 참조하여 조직 내 활동이나 작업 수행을 지원받을 수 있습니다.
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 73%
+source-wordcount: '590'
+ht-degree: 66%
 
 ---
-
-
 
 # 작업 지원
 
@@ -35,6 +34,19 @@ ht-degree: 73%
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    작업 지원이 게시됩니다.
+
+## 다른 언어로 작업 지원 추가 {#addcontentfordifferentlanguages}
+
+1. 다른 언어로 작업 지원을 추가하려면 **새 언어 추가** 을 누르고 필요한 언어를 선택합니다. 이 접근법을 사용하면 콘텐츠에 대한 다중 언어 지원을 추가할 수 있습니다.
+
+   ![](assets/add-new-languagetab.png)
+
+   *콘텐츠에 새 언어 추가*
+
+1. 새 언어에 대해 작업 지원 업로드 프로세스를 반복합니다.
+1. 언어를 제거하려면 [새 언어 추가] 탭을 선택하고 선택 항목을 선택 취소합니다.
+
+   변경한 후 저장 을 선택합니다.
 
 ## 지원되는 작업 지원 유형 {#typesofsupportedjobaids}
 
