@@ -3,7 +3,7 @@ title: 이 릴리스(2023년 7월)의 새로운 기능
 description: Adobe Learning Manager의 새로운 기능과 개선 사항 알아보기
 hidefromtoc: true
 exl-id: c6f192b6-f377-47b2-9151-516ac8179543
-source-git-commit: f9b8fbb8ae2ac1a197ccc3e7766a645c7d9e8078
+source-git-commit: ebf4ea065ba799b957b8ce275fd1690f18b26556
 workflow-type: tm+mt
 source-wordcount: '2059'
 ht-degree: 67%
@@ -535,7 +535,8 @@ prl 추천을 표시하는 데 사용할 모든 스트립을 검색합니다
 
 API 쿼리 매개 변수:
 
-matchType=phrase_and_match stemed=true
+* matchType=구문_and_match
+* stemed=true
 
 ### V1 엔드 포인트 제거
 
