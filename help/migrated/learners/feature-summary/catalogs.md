@@ -3,14 +3,13 @@ description: Learning Manager 카탈로그에서 사용 가능한 학습 객체�
 jcr-language: en_us
 title: 카탈로그
 contentowner: manochan
-source-git-commit: b77a43100521aa35096c6a6b4d417630cb9293b3
+exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 23%
+source-wordcount: '294'
+ht-degree: 22%
 
 ---
-
-
 
 # 카탈로그
 
@@ -22,7 +21,7 @@ Learning Manager 카탈로그에서 사용 가능한 학습 객체를 확인하�
 
 학습 객체의 스킬 및 유형(자가 진행식, 혼합, 강의실, 가상 강의실, 활동)으로 학습 객체 목록을 필터링할 수 있습니다. 왼쪽 창에 있는 학습 객체, 스킬, 완료 상태 등의 옵션을 사용하여 필터링할 수도 있습니다.
 
-페이지의 위에 있는 검색 막대를 사용하여 익숙한 학습 객체의 이름을 입력합니다.
+페이지의 위에 있는 검색 막대를 사용하여 익숙한 학습 객체의 이름을 입력합니다. 학습자는 이 옵션을 선택하여 눈금과 목록 보기 사이를 전환할 수 있습니다 ![](assets/icon-list.png) 아이콘을 클릭합니다.
 
 ![](assets/catalogs.png)
 *카탈로그 보기*
