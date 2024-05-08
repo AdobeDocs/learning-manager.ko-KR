@@ -3,14 +3,13 @@ description: 인증 생성, 학습자 등록, 게시된 인증 편집 방법을 
 jcr-language: en_us
 title: 인증
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 70%
+source-wordcount: '1020'
+ht-degree: 68%
 
 ---
-
-
 
 # 인증
 
@@ -103,6 +102,10 @@ ht-degree: 70%
  </tbody>
 </table>
 
+제품, 역할 및 역할 수준을 선택합니다. **[!UICONTROL 추천 대상]** 섹션에서 해당 제품 및 역할에 관심을 표현한 사용자에게 이 학습 경로를 제안합니다.
+
+![](assets/recommend-for.png)
+
 인증에 추가할 강의를 선택하십시오. **[!UICONTROL 강의]** > **[!UICONTROL 카탈로그]** 탭.
 
 각 강의 타일 위에 마우스를 올려놓고 +를 클릭하여 인증에 추가합니다. 다음을 수행합니다. **[!UICONTROL 미리 보기]** 강의를 추가하기 전에 학습자로 볼 수 있습니다.
@@ -165,6 +168,8 @@ Learning Manager 초기 릴리스에서는 외부 인증에서 학습자가 강�
 게시된 인증을 편집하려면 인증 카드를 클릭하고 **[!UICONTROL 편집]** 페이지 오른쪽 상단
 
 인증 섹션을 편집하는 중 페이지를 나가면, 인증을 다시 게시해야 합니다. 인증을 다시 게시할 것인지 묻는 확인 대화 상자가 나타납니다.
+
+![](assets/edit-a-certificate.png)
 
 ## 구독 {#subscription}
 

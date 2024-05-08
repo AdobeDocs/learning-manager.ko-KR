@@ -4,9 +4,9 @@ title: 학습 경로
 description: Learning Manager의 책임자용 학습 계획을 생성합니다.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1970'
 ht-degree: 42%
 
 ---
@@ -56,6 +56,10 @@ ht-degree: 42%
 ![](assets/add-skills.png)
 
 학습 경로에 배지를 할당합니다. 사용 가능한 배지 목록에서 배지를 선택합니다.
+
+제품, 역할 및 역할 수준을 선택합니다. **[!UICONTROL 추천 대상]** 섹션에서 해당 제품 및 역할에 관심을 표현한 사용자에게 이 학습 경로를 제안합니다.
+
+![](assets/recommend-for.png)
 
 &#39;정렬되지 않음&#39;과 &#39;정렬됨&#39; 중 섹션과 교육의 원하는 나열 순서를 선택합니다.
 
