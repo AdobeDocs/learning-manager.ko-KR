@@ -3,14 +3,13 @@ jcr-language: en_us
 title: CSV 파일을 통해 사용자 정의 역할 관리
 description: 통합 책임자는 사용자 정의 역할의 수를 CSV를 통해 사용자의 계정에 일괄 추가하고 다양한 사용자에게 동일한 역할을 할당할 수 있습니다. 이 접근법을 통해 사용자 지정 역할의 프로세스가 자동화됩니다.
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: fce2f457-2834-491a-8331-64086f5a51b5
+source-git-commit: 0d318715e120b20b27f4876ad47868bef47bdb7c
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 86%
+source-wordcount: '907'
+ht-degree: 83%
 
 ---
-
-
 
 # CSV 파일을 통해 사용자 정의 역할 관리
 
@@ -18,7 +17,7 @@ ht-degree: 86%
 
 Learning Manager FTP 및 Box 커넥터를 통해 역할을 구성할 수 있습니다.
 
-Box 또는 ExaVault 스토리지 계정에 로그인하면 통합 책임자는 다음 CSV를 계정에서 추가할 수 있습니다.
+Box 스토리지 계정에 로그인한 후 통합 책임자가 계정에 다음 csv를 추가할 수 있습니다.
 
 * role.csv
 * user_role.csv
@@ -26,7 +25,8 @@ Box 또는 ExaVault 스토리지 계정에 로그인하면 통합 책임자는 �
 시작하려면 CSV 파일을 다운로드하고 필요에 따라 값을 변경합니다.
 
 **role.csv**
-[샘플 파일- role.csv](assets/role.csv) [샘플 파일- user_role.csv](assets/user-role.csv)
+* 샘플 파일: [role.csv](assets/role.csv)
+* 샘플 파일: [user_role.csv](assets/user_role.csv)
 
 <table>
  <tbody>
@@ -143,7 +143,7 @@ CSV에 카탈로그 이름 또는 사용자 그룹 이름이 있는 경우, 해�
 * 학습 계획
 * 전자 메일 템플릿
 
-## 계정에서 역할 CSV 추가 {#addtherolecsvsintheaccount}
+## 계정에 역할 CSV 추가 {#addtherolecsvsintheaccount}
 
 Box 계정에서 **&#39;가져오기&#39; > &#39;사용자&#39; > &#39;내부&#39;**&#x200B;를 선택하고 role.csv 및 user_role.csv 파일을 업로드합니다.
 
