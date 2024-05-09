@@ -1,61 +1,17 @@
 ---
 jcr-language: en_us
 title: 시스템 요구 사항
-description: Adobe Learning Manager의 시스템 요구 사항
+description: Adobe Learning Manager에 대한 시스템 요구 사항
 contentowner: dvenkate
-source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
+exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '565'
 ht-degree: 65%
 
 ---
 
-
-# Adobe Learning Manager의 시스템 요구 사항
-
-## Windows {#windows}
-
-Microsoft Windows 7, 8, 10 (64비트 버전만).
-
-## MacOS {#macos}
-
-macOS X 10.12, 10.13, 10.14, 10.15
-
-## RAM
-
-8GB RAM.
-
-## 디스플레이
-
-지원 최소 해상도- 1024 x 720.
-
-## 디스크 공간
-
-최소 5GB의 하드 디스크 여유 공간.
-
-## 레코딩
-
-* 오디오 레코딩에는 마이크가 필요합니다.
-* 비디오 레코딩에는 웹캠이 필요합니다.
-
-## 기타
-
-응용 프로그램을 사용하려면 활성화된 인터넷 연결 및 Adobe Learning Manager 학습자 계정이 필요합니다.
-
-## 브라우저 사양
-
-몰입형 레이아웃 홈페이지는 IE 11 브라우저에서 지원되지 않습니다.
-
-* Google Chrome 버전 43 이상.
-* 최신 버전의 Edge, Safari(버전 13 이상), Firefox입니다.
-* Internet Explorer 버전 11 이상
-
-## 이미지의 권장 크기 {#recommendedsizeofimages}
-
-* 발행인란: 1280 x 360픽셀입니다.
-* 카탈로그 카드의 이미지: 280 x 100픽셀
-* 교육 카드의 크기: 300 x 240픽셀
-* 소셜 배너: 1600 x 240픽셀
+# Adobe Learning Manager에 대한 시스템 요구 사항
 
 ## 데스크탑
 
@@ -114,6 +70,25 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
 >[!NOTE]
 >
 >Learning Manager 모바일 앱은 학습자 역할만 지원합니다.
+
+## 기타
+
+응용 프로그램을 사용하려면 활성화된 인터넷 연결 및 Adobe Learning Manager 학습자 계정이 필요합니다.
+
+## 브라우저 사양
+
+몰입형 레이아웃 홈페이지는 IE 11 브라우저에서 지원되지 않습니다.
+
+* Google Chrome 버전 43 이상.
+* 최신 버전의 Edge, Safari(버전 13 이상), Firefox입니다.
+* Internet Explorer 버전 11 이상
+
+## 이미지의 권장 크기 {#recommendedsizeofimages}
+
+* 발행인란: 1280 x 360픽셀입니다.
+* 카탈로그 카드의 이미지: 280 x 100픽셀
+* 교육 카드의 크기: 300 x 240픽셀
+* 소셜 배너: 1600 x 240픽셀
 
 ## 최소 콘텐츠 크기 {#maximumcontentsize}
 

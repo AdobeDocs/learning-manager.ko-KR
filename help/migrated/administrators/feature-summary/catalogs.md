@@ -4,9 +4,9 @@ title: 카탈로그
 description: 카탈로그는 강의, 학습 프로그램, 인증 등 학습 항목의 컬렉션입니다. 카탈로그를 사용하여 학습자에게 사용자 정의된 학습 집합에 대한 액세스를 제공하십시오. 새로운 카탈로그 생성 중 학습을 카탈로그에 연결할 수 있습니다.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2453'
 ht-degree: 75%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 75%
    *카탈로그 만들기*
 
    카탈로그에 여러 강의를 추가할 수도 있습니다.
-
+1. 스킬, 역할 및 언어별로 강의를 필터링할 수 있습니다. 선택한 강의는 해당 스킬과 역할에 관심이 있는 학습자에게 추천됩니다.
 1. 변경 사항을 저장합니다. 카탈로그 목록으로 돌아가 목록에서 새 카탈로그를 클릭합니다.
 1. 새 카탈로그 페이지의 왼쪽 창에서 **[!UICONTROL 콘텐츠]**&#x200B;를 클릭합니다.
 
