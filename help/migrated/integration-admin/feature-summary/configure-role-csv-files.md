@@ -4,7 +4,7 @@ title: CSV 파일을 통해 사용자 정의 역할 관리
 description: 통합 책임자는 사용자 정의 역할의 수를 CSV를 통해 사용자의 계정에 일괄 추가하고 다양한 사용자에게 동일한 역할을 할당할 수 있습니다. 이 접근법을 통해 사용자 지정 역할의 프로세스가 자동화됩니다.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 0d318715e120b20b27f4876ad47868bef47bdb7c
+source-git-commit: 5f2b5fb60856b77b53edaea014639087eb1a8fcf
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 83%
@@ -174,7 +174,7 @@ CSV로 생성된 사용자 정의 역할은 CSV 자체를 통해 완전히 관�
 
 ![](assets/sync-settings.png)
 
-*자동 동기화 활성화 옵션을 선택합니다.*
+*자동 동기화 사용 옵션을 선택합니다.*
 
 이 옵션을 선택하면 동기화 시간 필드에서 지정한 정확한 시간에 동기화 시간을 예약할 수 있습니다. 동기화 시간을 오전 12:00로 지정한 경우 사용자 정의 역할이 정확히 매일 지정된 시간에 업데이트됩니다.
 

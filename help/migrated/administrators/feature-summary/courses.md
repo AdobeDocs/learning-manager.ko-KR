@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 강의 모듈, 인스턴스 및 학습 프로그램 만들기
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
 workflow-type: tm+mt
 source-wordcount: '4613'
 ht-degree: 65%
@@ -25,9 +25,10 @@ ht-degree: 65%
 
 ### 인스턴스 관리
 
-이 교육에서는 인스턴스 세부 정보와 인스턴스 속성을 편집하는 방법에 대해 알아봅니다.
+>[!INFO]
+>
+>이 교육에서는 인스턴스 세부 정보와 인스턴스 속성을 편집하는 방법에 대해 알아봅니다.<br><br>[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
 
-[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
 
 교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
 
@@ -638,7 +639,7 @@ Adobe Learning Manager에서 책임자는 강의에 빠르게 등록할 수 있�
 
 **중단됨** - 강의를 게시한 후 작성자가 학습자 카탈로그에 강의가 나타나는 것을 원하지 않으면 강의를 중단 상태로 변경할 수 있습니다. 이 상태의 강의는 다시 게시하거나 삭제할 수 있습니다.
 
-**삭제됨** - Adobe Learning Manager에서 완전히 제거된 상태의 강의입니다. 강의는 오직 초안 또는 중단 상태일 때만 작성자가 삭제할 수 있습니다. 중단 상태의 강의를 삭제할 수도 있습니다.
+**삭제됨** - Adobe Learning Manager 애플리케이션에서 완전히 제거된 상태의 강의입니다. 강의는 오직 초안 또는 중단 상태일 때만 작성자가 삭제할 수 있습니다. 중단 상태의 강의를 삭제할 수도 있습니다.
 
 ![](assets/lifecycle-03.png)
 

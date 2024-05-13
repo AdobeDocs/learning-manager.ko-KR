@@ -4,14 +4,13 @@ title: Adobe Learning Manager의 접근성
 description: 이 문서에서는 장애를 가진 학습자를 위해 Learning Manager 학습 관리 시스템에서 제공하는 접근성 지원을 간략하게 설명합니다. 또한 사용자에게 플랫폼의 탐색 옵션과 접근성 기능도 제공합니다.
 contentowner: saghosh
 preview: true
-source-git-commit: 92b3c83ec04de927f9066db6b79e8b19872d2b46
+exl-id: 1c26c12f-e63e-4d28-b28a-b1e3597d7ce1
+source-git-commit: 6f7442f2cfa4bc8c564e1eccc3a6aabf00958d77
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 71%
 
 ---
-
-
 
 # Adobe Learning Manager의 접근성
 
@@ -151,8 +150,8 @@ Learning Manager 학습자 역할은 다음을 포함하지만 이에 제한되�
 
 자세한 내용:
 
-* [학습자용 접근 적합성 보고서](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
-* [모든 역할용 접근 적합성 보고서](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
+* [학습자용 접근 적합성 보고서](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
+* [모든 역할용 접근 적합성 보고서](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
 
 ## Learning Manager 최상위 워크플로우(학습자 역할) {#captivateprimetopworkflowslearnerrole}
 
@@ -168,7 +167,7 @@ Learning Manager 학습자 역할은 다음을 포함하지만 이에 제한되�
 
 1. 교육 내용이 확인되면 다음을 누릅니다. `kbd ENTER`를 눌러 교육 페이지로 이동합니다.
 
-## Adobe Learning Manager 교육 수료하기 {#consumeatraininginadobecaptivateprime}
+## Adobe Learning Manager에서 교육 이용 {#consumeatraininginadobecaptivateprime}
 
 1. 교육이 확인되면 다음을 사용합니다. `kbd Tab`또는 `kbd Shift + Tab` 등록/시작 버튼으로 이동합니다. 단추 상태는 해당 교육의 등록 상태에 따라 달라집니다.
 
