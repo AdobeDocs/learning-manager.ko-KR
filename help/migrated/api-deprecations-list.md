@@ -1,15 +1,15 @@
 ---
 jcr-language: en_us
-title: Adobe Learning Manager에서 API 중단
+title: Adobe Learning Manager에서 API 사용 중단
 description: Adobe Learning Manager의 API가 발전함에 따라 API는 주기적으로 재구성되거나 업그레이드됩니다. API가 발전하면 이전 API는 더 이상 사용되지 않으며 결국 제거됩니다. 이 페이지에는 더 이상 사용되지 않는 API 버전에서 보다 안정적이고 새로운 API 버전으로 마이그레이션할 때 알아야 하는 정보가 포함되어 있습니다.
 contentowner: saghosh
-source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
+exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
+source-git-commit: dd0b8aecbe54d6aecf17e4d9acec5769e7302ecd
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 21%
+source-wordcount: '897'
+ht-degree: 20%
 
 ---
-
 
 # Adobe Learning Manager에서 API 사용 중단 및 변경 사항
 
@@ -105,7 +105,7 @@ The following table lists the rate and burst limits for the APIs.
 
 완료 및 등록 수를 검색하는 프로세스는 계산상 비용이 많이 들기 때문에 요청 시 계산을 수행합니다. 캐시에 데이터가 없으면 데이터가 다시 로드되어 계산이 많이 수행됩니다. 강의에 등록한 사용자가 많으면 그 수가 많기 때문에 CPU 성능에 영향을 미칩니다.
 
-Adobe Learning Manager의 다음 릴리스에서 LO 인스턴스 요약 엔드포인트에서 completionCount, enrollmentCount, seatLimit 및 waitlistCount가 캐시됩니다. 캐시된 정보는 등록 또는 등록 취소가 변경될 때까지 유지됩니다. 1000명을 초과하는 건수의 경우 예상 건수를 가정하고 모든 기존 및 신규 계정에 대한 결과를 무효화합니다.
+Adobe Learning Manager의 다음 릴리스에서는 LO 인스턴스 요약 엔드포인트에서 completionCount, enrollmentCount, seatLimit 및 waitlistCount가 캐시됩니다. 캐시된 정보는 등록 또는 등록 취소가 변경될 때까지 유지됩니다. 1000명을 초과하는 건수의 경우 예상 건수를 가정하고 모든 기존 및 신규 계정에 대한 결과를 무효화합니다.
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ Adobe Learning Manager의 다음 릴리스에서 LO 인스턴스 요약 엔드�
 
 ### 이름순으로 정렬
 
-Adobe Learning Manager의 다음 릴리스에서 name 및 -name은 다음 API의 정렬 필드에서 더 이상 사용되지 않습니다.
+Adobe Learning Manager의 다음 릴리스에서는 name 및 -name 이 다음 API의 정렬 필드에서 더 이상 사용되지 않습니다.
 
 * GET /userGroups/{userGroupId}/users
 * GET /users
@@ -127,7 +127,7 @@ Adobe Learning Manager의 다음 릴리스에서 name 및 -name은 다음 API의
 
 ### 플래그 재정의
 
-Adobe Learning Manager의 2023년 11월 릴리스에서는 API에서 재정의 플래그를 중단했습니다. 재정의 플래그는 공개 API 사양의 일부가 아니며 백엔드 테스트용으로 제작된 것입니다. 이제 학습자 API에 대한 플래그가 중단됩니다. 그러나 해당 플래그는 책임자 API에서는 계속 유효합니다.
+Adobe Learning Manager의 2023년 11월 릴리스에서는 API에서 오버라이드 플래그를 중단했습니다. 재정의 플래그는 공개 API 사양의 일부가 아니며 백엔드 테스트용으로 제작된 것입니다. 이제 학습자 API에 대한 플래그가 중단됩니다. 그러나 해당 플래그는 책임자 API에서는 계속 유효합니다.
 
 학습자 API에 대한 플래그를 해제하려는 이유는 재정의 플래그가 학습자 API를 통해 대량의 데이터를 가져오는 중이었기 때문입니다.
 
@@ -148,3 +148,8 @@ Adobe Learning Manager는 고객 및 파트너가 활성화된 계정에 대한 
 Adobe Learning Manager의 이전 릴리스에서는 알림 공지 보고서에 필터가 없습니다. Adobe Learning Manager에서 계정의 모든 알림을 다운로드했습니다.
 
 2023년 11월 릴리스에는 지정된 기간 내에 알림을 다운로드할 수 있는 날짜 필터가 추가되었습니다.  단, 보고서는 지난 6개월 동안만 다운로드할 수 있습니다.
+
+### GET /사용자 끝점에서 높은 오프셋 값의 사용 중단
+
+시스템 성능을 개선하고 리소스 활용률을 보다 효과적으로 관리하기 위해 Adobe은 GET/사용자 끝점에서 두 항목에 대해 더 이상 사용되지 않는 높은 오프셋 값을 가집니다 **관리자** 및 **학습자** 범위. 다음을 사용하는 것이 좋습니다. **작업 API** 을 눌러 오프셋 값이 있는 레코드를 검색합니다.
+
