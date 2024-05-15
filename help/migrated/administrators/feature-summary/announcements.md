@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: 공지
 description: 책임자가 정의한 사용자 그룹에 멀티미디어 메시지(텍스트, 이미지 또는 비디오)로 공지사항을 보낼 수 있습니다.
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 70%
+source-wordcount: '1021'
+ht-degree: 69%
 
 ---
-
-
 
 # 공지
 
@@ -29,6 +28,11 @@ ht-degree: 70%
 1. 관리자 권한으로 왼쪽 창의 공지 를 클릭합니다.
 1. 페이지 오른쪽 상단 모서리에 있는 &#39;추가&#39;를 클릭합니다.
 1. 유형 드롭다운 목록에서 **알림으로** 옵션을 선택합니다.
+
+![](assets/as-notofocation.png)
+
+*알림 사용자 정의*
+
 1. 메시지 필드에서 공지사항을 추가합니다. 공지사항에 URL을 추가할 수도 있습니다. 그러나, HTML 형식으로 URL을 추가해야 합니다.
 
    예를 들면 다음과 같습니다.  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`

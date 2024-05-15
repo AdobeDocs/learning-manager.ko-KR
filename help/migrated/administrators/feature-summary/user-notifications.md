@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 알림
 description: 알림 기능은 Adobe Learning Manager의 모든 사용자에게 적용됩니다. 그러나 각 사용자는 역할에 따라 다양한 시나리오에서 서로 다른 종류의 알림을 받습니다.
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 27eb3830-ff4f-44e6-9f63-096d9444378e
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 69%
+source-wordcount: '733'
+ht-degree: 66%
 
 ---
-
-
 
 # 알림
 
@@ -42,7 +41,11 @@ ht-degree: 69%
 
 이 팝업 창에는 모든 알림의 강조 표시와 함께 발생 시간 및 스크롤 막대가 표시됩니다. 알림 아이콘 위에 있는 강조 표시된 숫자를 통해 최신 알림의 수를 알 수 있습니다. 예를 들어 마지막으로 로그인한 후 5개의 알림이 왔다면, 알림 아이콘 위에 표시된 숫자 5를 볼 수 있습니다. 이 숫자는 최신 알림을 전부 읽으면 사라집니다.
 
-다음을 수행합니다. **[!UICONTROL 모든 알림 표시]** 알림 팝업 창의 하단에 있는 링크를 통해 별도의 페이지에서 모든 알림을 확인할 수 있습니다.
+다음을 수행합니다. **[!UICONTROL 모든 알림 표시]** 알림 팝업 창의 하단에 있는 링크를 통해 별도의 페이지에서 모든 알림을 확인할 수 있습니다. 알림 페이지에서 다음을 확인할 수 있습니다.
+
+* **모든 알림**: 여기에서 모든 알림 보기
+* **보류 중**: 여기서 보류 중인 알림을 봅니다.
+* **토론**: 강의를 검색하여 토론이 진행되는 것을 확인합니다.
 
 ## 다중 레벨 에스컬레이션 알림 설정 {#setupmultilevelescalationnotifications}
 

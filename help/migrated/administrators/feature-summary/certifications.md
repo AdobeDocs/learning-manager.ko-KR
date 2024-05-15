@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 인증
 contentowner: manochan
 exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 68%
+source-wordcount: '1024'
+ht-degree: 67%
 
 ---
 
@@ -106,6 +106,8 @@ ht-degree: 68%
 
 ![](assets/recommend-for.png)
 
+*권장 사항*
+
 인증에 추가할 강의를 선택하십시오. **[!UICONTROL 강의]** > **[!UICONTROL 카탈로그]** 탭.
 
 각 강의 타일 위에 마우스를 올려놓고 +를 클릭하여 인증에 추가합니다. 다음을 수행합니다. **[!UICONTROL 미리 보기]** 강의를 추가하기 전에 학습자로 볼 수 있습니다.
@@ -170,6 +172,8 @@ Learning Manager 초기 릴리스에서는 외부 인증에서 학습자가 강�
 인증 섹션을 편집하는 중 페이지를 나가면, 인증을 다시 게시해야 합니다. 인증을 다시 게시할 것인지 묻는 확인 대화 상자가 나타납니다.
 
 ![](assets/edit-a-certificate.png)
+
+*인증서 편집*
 
 ## 구독 {#subscription}
 

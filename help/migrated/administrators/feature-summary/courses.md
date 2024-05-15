@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 강의 모듈, 인스턴스 및 학습 프로그램 만들기
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
+source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
 workflow-type: tm+mt
-source-wordcount: '4613'
-ht-degree: 65%
+source-wordcount: '4659'
+ht-degree: 64%
 
 ---
 
@@ -96,6 +96,18 @@ ht-degree: 65%
    *인스턴스 복원*
 
 1. 이제 인스턴스가 활성 모드로 복원됩니다.
+
+## 인스턴스 삭제
+
+관리자는 다음을 사용하여 인스턴스를 삭제할 수 있습니다. **이 인스턴스 삭제** 옵션을 만든 직후에 선택합니다. 연결된 세션이 있거나 인스턴스에 등록된 학습자가 있는 경우 인스턴스를 삭제할 수 없습니다.
+
+![](assets/delete-this-instance.png)
+
+*인스턴스 삭제*
+
+>[!NOTE]
+>
+>기본 인스턴스는 삭제할 수 없습니다.
 
 ## 인스턴스 레벨 전자 메일 전송
 

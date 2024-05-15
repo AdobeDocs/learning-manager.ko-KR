@@ -4,10 +4,10 @@ title: 학습 경로
 description: Learning Manager의 책임자용 학습 계획을 생성합니다.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 42%
+source-wordcount: '1329'
+ht-degree: 37%
 
 ---
 
@@ -49,17 +49,27 @@ ht-degree: 42%
 
 *새 학습 경로 추가*
 
+(으)로 **등록 유형** 옵션, 선택 **자가 등록** 또는 **관리자 등록**.
+
+>[!NOTE]
+>
+>다음을 선택하는 경우 **관리자 등록** 옵션을 선택하면 학습자는 관리자 지정 또는 관리자 승인 강의만 볼 수 있습니다. 학습자는 추천 섹션에 학습 경로가 표시되지 않습니다.
+
 학습 경로를 생성한 후 새로 생성된 학습 경로를 선택하고 이 학습 경로에 강의를 추가합니다.
 
 스킬을 추가하고 학습 경로에 배지를 할당할 수 있습니다. 스킬을 추가하려면 아래에서 필요한 스킬을 선택합니다. **[!UICONTROL 스킬 선택]** 드롭다운 목록입니다. 각 스킬의 레벨도 선택합니다.
 
 ![](assets/add-skills.png)
 
+*스킬 추가*
+
 학습 경로에 배지를 할당합니다. 사용 가능한 배지 목록에서 배지를 선택합니다.
 
 제품, 역할 및 역할 수준을 선택합니다. **[!UICONTROL 추천 대상]** 섹션에서 해당 제품 및 역할에 관심을 표현한 사용자에게 이 학습 경로를 제안합니다.
 
 ![](assets/recommend-for.png)
+
+*권장 사항*
 
 &#39;정렬되지 않음&#39;과 &#39;정렬됨&#39; 중 섹션과 교육의 원하는 나열 순서를 선택합니다.
 
@@ -141,6 +151,20 @@ ht-degree: 42%
 
 이 옵션에 따라 알림이 표시됩니다. 기본적으로 옵션은 **[!UICONTROL 모든 레벨의 강의 및 학습 경로]** 이(가) 인스턴스에 대해 활성화됩니다.
 
+## 구독수
+
+개별 학습 경로를 구독하여 받은 편지함으로 직접 퀴즈 점수 및 학습자 상태를 포함한 포괄적인 데이터를 받을 수 있습니다.
+
+다음 단계를 따르십시오.
+
+1. 학습 경로 > 구독으로 이동합니다.
+1. [더 추가]를 선택합니다.
+1. 세부 정보를 선택하고 보고서를 수신할 전자 메일 ID를 입력합니다.
+
+![](assets/subscriptions.png)
+
+*개별 학습 경로 구독*
+
 ## 중요 사항
 
 학습 프로그램이라는 기존 기능의 이름이 릴리스 직후에 학습 경로로 변경됩니다. 학습 프로그램이란 용어를 계속 사용하고 싶은 경우 &#39;용어&#39; 기능을 사용하여 원하는 용어를 적용할 것을 권장합니다. 이렇게 하면 학습 프로그램이라는 용어를 사용할 수 있습니다.
@@ -151,76 +175,76 @@ ht-degree: 42%
 
 대상 **[!UICONTROL 설정]** > **[!UICONTROL 일반]** 페이지에 학습 경로를 활성화할 수 있는 옵션이 새로 추가되었습니다. 이 옵션을 활성화하면 학습 경로에 강의와 학습 프로그램을 추가할 수 있습니다. 일단 활성화된 옵션은 변경할 수 없습니다.
 
-## 기타 학습 경로 관련 세부 정보
+<!-- ## Other Learning Path-related details 
 
-### &#39;책임자 설정&#39;에서 학습 경로 옵션 비활성화/선택 취소
+### Learning Path option is disabled/unchecked in Admin Settings
 
-**네이티브 웹 앱을 사용하는 계정**
+**Accounts using Native Web apps**
 
-**학습자**
+**Learners**
 
-* 기본적으로 학습자용 UI에는 &#39;학습 프로그램&#39;에서 &#39;학습 경로&#39;로 변경된 용어가 표시됩니다. 이와 같은 변화는 더 직관적인 인터페이스를 추구하고자 단행되었습니다. 이러한 변경을 원하지 않는 경우 아래 사항을 참조하십시오.
+* By default, learners will notice a change in terminology from "Learning Program" to Learning Path". This has been done to make the interface more intuitive. If you do not want this change, refer to the below points.  
 
-* 그러나 이미 &#39;사용자 정의 용어&#39; 기능으로 &#39;학습 프로그램&#39;이란 용어에 사용자 정의 텍스트를 추가하여 사용 중인 경우 변경된 용어가 UI에 반영되지 않습니다.
-* 사용자 정의 용어 기능을 사용하지 않았지만 &#39;학습 프로그램&#39;이란 용어를 그대로 유지하려는 경우 릴리스 이후에 &#39;사용자 정의 용어&#39; 기능을 사용해 UI에 표시되는 용어를 학습 프로그램으로 변경할 수 있습니다.
+* This change however will not be reflected in the UI if you have already used the 'Custom Terminology" function to replace the terminology "Learning Programs" with some custom text. 
+* In case you had not used the Custom Terminology function yet but now wish to retain "Learning Programs" as the terminology, you can do so via the 'Custom Terminology' feature post the release.
 
-* 기존 &#39;학습 프로그램&#39;의 전체적인 외양과 느낌은 시각적으로 더 풍성한 외양과 느낌으로 업데이트됩니다.
+* The overall cosmetic look and feel of erstwhile 'Learning Programs' will get updated to a more visually rich look and feel.
 
-**작성자 및 책임자**
+**Authors and Admins**
 
-* 책임자/작성자용 앱에 표시되는 용어는 학습자용 앱과 동일합니다.
-* 작성자 및 책임자가 기존의 &#39;학습 프로그램&#39; 개체를 생성하고 업데이트할 수 있는 UI가 이제 새 UI로 업데이트됩니다. 사용자 인터페이스가 훨씬 더 직관적으로 작동할 뿐, 기능성은 이전과 동일합니다. 이와 같은 UI 변경 사항은 &#39;학습 경로의 확장 기능&#39;을 비활성화해도 기능성을 고스란히 유지한 채 계정에 반영됩니다.
+* The terminology within the Admin/Author apps is the same as that of learners.
+* The UI for Authors and Admins to create, update the erstwhile 'Learning Program' objects will now be updated to the new UI. There is no loss of functionality, just that the User Interface to do the operation will be much more intuitive. These UI changes will reflect in your account, even if you have chosen not to enable 'Extended Features of Learning Path', with no loss in functionality. 
 
-* 기존의 학습 프로그램 개체는 변경되지 않으므로 학습자에게 영향을 미치지 않습니다(위에 설명한 용어 제외). 작성자/책임자용 UI에는 기존의 개체에 &#39;섹션&#39;이라는 기본 그룹화 영역이 나타나는데, 이 영역은 개체의 기능성에 실질적인 영향을 미치지 않습니다. 또한 작성자/책임자용 UI에는 스킬, 작업 지원 등과 같은 기능도 추가로 표시됩니다. 그러나 작성자/책임자가 아직 이런 기능을 사용하지 않았기 때문에 실제로 사용하기 전까지는 학습자 측에 영향을 미치지 않습니다.
+* Note that any existing Learning Program objects will not change so there is no impact on learners (other than the terminology point noted above). Authors/Admins might notice a default grouping called "Section" within their existing objects, which would be of no material impact as far as functionality goes. Authors/Admins will also see added functionalities like Skills, Job Aids etc. But as you haven't used it yet, it will not create any impact on the learner side till you actually start using it.
 
-**보고**
+**Reporting**
 
-* 학습 경로 옵션을 활성화하지 않으면 학습 경로는 학습자 성적 증명서의 기존 구조에 영향을 미치지 않습니다. 그러나 이전 공지에서 전달된 바와 같이(이전 커뮤니케이션에서 공유한 표 참조) 릴리스 직후에 학습자 성적 증명서의 맨 오른쪽에 새로운 열이 하나 더 추가됩니다.
+* If you do not enable the option, Learning Path , there are no changes in the Learner Transcript report structure due to Learning Path. But as communicated in earlier notice (refer to the table shared in earlier communication); one new column will get added to the extreme right of the Learner Transcript immediately after the release.
 
-**헤드리스 LMS를 사용하는 계정**
+**Accounts using Headless LMS**
 
-**학습자**
+**Learners**
 
-* 헤드리스 인터페이스를 사용하는 학습자에게는 이번 업데이트가 적용되지 않습니다. 보고서를 생성하는 데 사용되는 API도 즉시 변경되지 않습니다.
+* There are no changes for learners in headless interface. APIs as well that are used to generate the reports does not have immediate changes. 
 
-**작성자 및 책임자**
+**Authors and Admins**
 
-* 위에서 설명한 작성자/책임자용 UI와 동일하게 업데이트됩니다.
+* Same changes as that of Authors/Admins stated above.
 
-**보고**
+**Reporting**
 
-* 위에서 설명한 보고와 동일하게 업데이트됩니다.
+* Same changes as that of Reporting stated above.
 
-### 책임자 설정에서 학습 경로 옵션 활성화/선택
+### Learning Paths option is enabled/checked in Admin Settings
 
-**네이티브 웹 앱을 사용하는 계정**
+**Accounts using Native Web apps**
 
-**학습자**
+**Learners**
 
-* 이 옵션을 비활성화하면 학습자용 UI와 동일하게 업데이트됩니다.
-* 학습 경로의 확장 기능을 사용해보면 경로와 섹션이 삽입된 보다 정교한 경로, 경로 완료 시 획득할 수 있는 스킬과 배지, 경로 레벨의 리소스 외에도 다양한 이점을 체감할 수 있을 것입니다.
+* Same changes as that of Learners when the option is disabled.
+* As you start using the extended functionality of Learning Paths, Learners will benefit from seeing more elaborate paths with embedded paths and sections, Skills and badges being earned on path completion, resources at path level, and other benefits.
 
-**작성자 및 책임자**
+**Authors and Admins**
 
-* 이 옵션을 비활성화하면 작성자/책임자용 UI와 동일하게 업데이트됩니다.
+* Same changes as that of Authors and Admins when the option is disabled.
 
-* 작성자와 책임자는 더욱 다양한 기능을 활용하여 학습 경로를 체계적으로 편성할 수 있습니다. 학습자가 학습 경로 완료 시 자동으로 달성되는 스킬 레벨을 정의할 수 있습니다(즉, 레벨을 달성하는 데 필요한 점수를 계산할 필요가 없습니다). 학습 경로 레벨에서 리소스를 추가할 수 있습니다(현재로서는 불가능). 섹션을 생성한 후 각 섹션에 종횡비 옵션을 설정할 수 있습니다. 학습 경로 안에는 하나의 다른 학습 경로를 삽입할 수 있습니다(1계층 중첩 지원).
+* Users will get more functionality in crafting elaborate paths. You can define Skill-Levels that would automatically be achieved by a learner on completion of path (not have to focus on the arithmetic of Credits for the levels). Resources can be added at the path level (Not possible as of today). Sections can be created with each section having the ability to have X of Y options. One can embed a Learning Path within another Learning Path (one level of hierarchy supported)
 
-**보고**
+**Reporting**
 
-* &#39;학습자 성적 증명서&#39;와 &#39;콘텐츠 보고서&#39; 구조에 몇 개의 새로운 열이 추가되고, 학습 경로에 다른 학습 경로를 삽입할 수 있는 새로운 기능이 그곳에 배치됩니다. 학습자 성적 증명서 및 콘텐츠 보고서 데이터를 Learning Manager 외부의 사용자 정의 데이터 웨어하우스/데이터베이스로 내보내는 데 사용되는 통합 코드가 그로 인한 영향을 받을 수 있습니다. 이에 관한 내용은 이전 커뮤니케이션에 수록된 표를 참조하십시오.
+* A few new columns will get added to the 'Learner Transcript' and 'Content Report' structures to incorporate the new feature of embedding of paths within paths. This may impact integration code that you may have written to export this data to your custom data warehouse/DB outside Learning Manager. This information is communicated in the table provided in earlier communication.
 
-**헤드리스 LMS를 사용하는 계정**
+**Accounts using Headless LMS**
 
-**학습자**
+**Learners**
 
-* 헤드리스 인터페이스의 구축 기반인 API에는 변화가 없습니다. 따라서 학습자는 헤드리스 LMS 환경을 변경하지 않는 한 이번 업데이트의 영향을 받지 않습니다.
-* 그러나 새로운 학습 경로를 생성하여 학습 경로의 확장 기능을 사용하려면 헤드리스 LMS 환경을 변경해야만 학습자용 앱에 이번 업데이트가 반영됩니다. Learning Manager API는 이에 필요한 기능을 지원합니다.
+* There is no change for your learners, unless you make changes to your headless LMS implementation, as the APIs on which you have built your headless interface will not be changing.
+* If you do start using the extended features of Learning Paths by creating new Learning Paths, however you will have to make changes to the headless LMS implementation to reflect those on your learner app. The Learning Manager APIs will allow you to do that.
 
-**작성자 및 책임자**
+**Authors and Admins**
 
-* 위에서 설명한 작성자/책임자용 UI와 동일하게 업데이트됩니다.
+* Same changes as that of Authors/Admins stated above.
 
-**보고**
+**Reporting**
 
-* 위에서 설명한 보고와 동일하게 업데이트됩니다.
+* Same changes as that of Reporting stated above. -->
