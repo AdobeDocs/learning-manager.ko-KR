@@ -3,14 +3,13 @@ description: Learning Manager 강사를 위한 자주 묻는 질문에 관해 �
 jcr-language: en_us
 title: 강사를 위한 자주 묻는 질문
 contentowner: shhivkum
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
+source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 85%
 
 ---
-
-
 
 # 강사를 위한 자주 묻는 질문
 
@@ -49,4 +48,3 @@ Learning Manager 강사를 위한 자주 묻는 질문에 관해 알아보려면
 강사는 할당된 세션의 세부 정보만 보고 편집할 수 있습니다. 세션 또는 세션 출석자 목록은 수정할 수 없습니다.
 
 +++
-
