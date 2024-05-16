@@ -4,10 +4,10 @@ title: 시스템 요구 사항
 description: Adobe Learning Manager에 대한 시스템 요구 사항
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
+source-git-commit: 566716404c1cff34108e39014e14416d65088a80
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 65%
+source-wordcount: '570'
+ht-degree: 64%
 
 ---
 
@@ -337,3 +337,7 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
 ## 기술 개요 {#technicaloverview}
 
 [Learning Manager 기술 개요](assets/learning-manager-technicaloverview.pdf)
+
+## ALM 보안 백서
+
+[ALM 백서](assets/alm-security-whitepaper.pdf)
