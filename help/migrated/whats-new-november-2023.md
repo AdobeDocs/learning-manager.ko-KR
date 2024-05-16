@@ -1,8 +1,8 @@
 ---
 title: 이 릴리스의 새로운 기능
-description: Adobe Learning Manager 2023년 11월 릴리스의 새로운 기능과 개선 사항에 대해 알아봅니다.
+description: Adobe Learning Manager 2023년 11월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 2d74bc46e8b4aa5f443e34dc48929a807c1d8924
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 70%
@@ -84,7 +84,7 @@ Adobe Learning Manager의 이전 릴리스에서는 사용자 정의 책임자�
 
 책임자 앱의 강의 출석 페이지와 강사 앱의 세션 학습자 페이지의 출석 보고서는 동시에 다운로드되는 것에 사용되었습니다. 이번 릴리스에서는 해당 보고서가 알림을 통해 비동기적으로 다운로드됩니다.
 
-보고서에 대한 자세한 내용은 다음을 참조하십시오 [보고서](/help/migrated/administrators/feature-summary/reports.md) 학습자 Adobe에서 오류가 발생할 수 있습니다.
+보고서에 대한 자세한 내용은 다음을 참조하십시오 [보고서](/help/migrated/administrators/feature-summary/reports.md) Adobe Learning Manager에서
 
 ## 콘텐츠 마켓플레이스 서비스 종료
 
@@ -230,7 +230,7 @@ Connect에서 세션 대본을 가져오고 대본을 분석할 수 있습니다
 
 ## 레거시 대시보드 보고서 처리 제한
 
-책임자가 대시보드 보고서를 구성하려고 할 때 보고서 구성시간이 너무 오래(2.5분 이상) 소요되면 Adobe Learning Manager에 다음 메시지가 표시됩니다.
+책임자가 대시보드 보고서를 구성하려고 할 때 보고서가 너무 오래(2.5분 이상) 구성되면 Adobe Learning Manager에서 다음 메시지가 표시됩니다.
 
 ![레거시 보고서 이미지](assets/error-message.png)
 *보고서가 너무 오래 걸릴 때 표시되는 오류 메시지*
@@ -273,7 +273,7 @@ Adobe Learning Manager의 2023년 11월 릴리스에서는 API에서의 재정�
 
 ### 강조 결과
 
-예를 들어 /search API와 같은 향후 Adobe Learning Manager 릴리스에서는 highlightResults의 기본값을 false로 변경합니다.
+예를 들어 Adobe Learning Manager의 향후 릴리스에서 /search API에서 highlightResults의 기본값을 false로 변경합니다.
 
 또한 snippetTypes의 기본값을 courseName으로 변경합니다. 이렇게 하면 highlightResults가 True인 경우에만 검색에서 강의 이름이 강조 표시됩니다.
 
@@ -324,3 +324,5 @@ Adobe Learning Manager에서는 2024년 2월부터 BlueJeans를 중단할 예정
 * [2023년 7월 릴리스](whats-new-2023-july.md)
 * [2023년 4월 릴리스](whats-new-2023-april.md)
 * [2022년 11월 릴리스](whats-new-2022-november.md)
+
+<!-- [ALM Whitepaper](assets/alm-security-whitepaper.pdf) -->
