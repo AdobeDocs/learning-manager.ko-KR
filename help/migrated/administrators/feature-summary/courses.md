@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 강의 모듈, 인스턴스 및 학습 프로그램 만들기
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '4659'
-ht-degree: 64%
+source-wordcount: '4746'
+ht-degree: 63%
 
 ---
 
@@ -206,6 +206,14 @@ Excel 파일에는 각 인스턴스에 대한 워크시트가 포함되어 있�
 ![](assets/escalation-notification.png)
 
 *에스컬레이션 수준 설정*
+
+## Waitlist
+
+대기자 명단 섹션에서는 좌석이 제한된 경우 학습자가 등록 순서에 따라 강의실 강의의 대기자 명단에 등록되도록 할 수 있습니다. 관리자는 대기자 명단에 등록된 학습자를 선택하고 초기 제한을 초과하여 시트를 할당하여 이를 관리할 수 있습니다. 책임자가 좌석을 할당하면 학습자는 즉시 강의에 등록됩니다.
+
+## 토론 게시판
+
+토론 게시판 기능을 사용하면 학습자가 강의 토론을 볼 수 있습니다. 관리자는 필요에 따라 주석을 삭제할 수 있습니다. 책임자는 강의 설정에서 이 옵션을 활성화할 수 있습니다.
 
 ## 강의 조정 {#coursemoderation}
 

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 학습자 홈페이지 사용자 정의
 description: 책임자는 학습자의 홈페이지를 사용자 정의하여 학습자에게 개인화된 최신 콘텐츠 기반으로 만들 수 있습니다.
 contentowner: saghosh
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 46%
 
 ---
-
-
 
 # 학습자 홈페이지 사용자 정의
 
@@ -85,7 +84,7 @@ ht-degree: 46%
 
 ![](assets/option-immersive.png)
 
-*클래식 환경을 위한 선택*
+*학습자 홈페이지 설정*
 
 몰입형 레이아웃은 모든 새 계정에 대한 기본값입니다. 레이아웃은 관리자가 활성화하거나 비활성화할 수 있는 위젯으로 제어됩니다. 위젯의 배치 방식을 기반으로 학습자 홈페이지에도 동일하게 반영됩니다.
 
@@ -244,7 +243,7 @@ ht-degree: 46%
    <td>
     <p>사용자 정의</p></td>
    <td>
-    <p>Adobe Learning Manager를 통해 계정을 사용자 정의하여 사용자에게 보다 다양한 환경을 제공할 수 있습니다.<br></p></td>
+    <p>Adobe Learning Manager을 통해 계정을 사용자 정의하여 사용자에게 보다 다양한 환경을 제공할 수 있습니다.<br></p></td>
   </tr>
   <tr>
    <td>

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 새로운 기능 요약
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e21eb23c9b99ef5737ca105edede0eea7186ed02
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '3861'
+source-wordcount: '3903'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,18 @@ ht-degree: 1%
 # 새로운 기능 요약 {#new-features-summary}
 
 Adobe Learning Manager 2024년 3월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다.
+
+다음과 같은 몇 가지 최신 Adobe Learning Manager 기능을 살펴보십시오.
+
+1. 외부 소스에서 스킬 가져오기
+1. 다중 브랜딩 지원
+1. 체크리스트 재평가 활동 모듈
+1. 흰색 레이블이 지정된 모바일 학습 앱
+
+>[!NOTE]
+>
+>이 항목 확인 [웨비나](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) 를 참조하십시오.
+
 
 ## 이 릴리스의 새로운 기능 {#whatsnewandchanged}
 
