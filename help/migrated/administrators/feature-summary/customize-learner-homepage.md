@@ -4,9 +4,9 @@ title: 학습자 홈페이지 사용자 정의
 description: 책임자는 학습자의 홈페이지를 사용자 정의하여 학습자에게 개인화된 최신 콘텐츠 기반으로 만들 수 있습니다.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+source-git-commit: f09c93374673a3da92199d5bbc858f934d6cbba2
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1139'
 ht-degree: 46%
 
 ---
@@ -137,6 +137,12 @@ ht-degree: 46%
   </tr>
   <tr>
    <td>
+    <p>기한이 표시되는 등록</p></td>
+   <td>
+    <p>기한이 지났거나, 예정된 기한이 지났거나, 진행 중인 등록을 표시합니다. </p></td>
+  </tr>
+  <tr>
+   <td>
     <p>게임화</p></td>
    <td>
     <p>학습 활동을 기반으로 한 순위표를 표시합니다.</p></td>
@@ -159,24 +165,24 @@ ht-degree: 46%
       <p>두 번째로 책임자는 추천이 즉시 시작되거나 특정 날짜에 시작되도록 결정할 수도 있습니다.</p></li>
     </ul></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>관심 영역을 기반으로 추천</p></td>
+    <p>Recommendation based on area of interest</p></td>
    <td>
-    <p>학습자가 선택한 관심 영역을 기반으로 학습 개체를 표시합니다. 권장 사항은 머신 러닝 알고리즘을 기반으로 합니다.</p></td>
-  </tr>
+    <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
   <tr>
    <td>
     <p>카탈로그별 검색<br></p></td>
    <td>
     <p>홈페이지에서 타일로 카탈로그를 표시합니다. </p></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>피어 활동을 기반으로 추천<br></p></td>
+    <p>Recommendation based on peer activity<br></p></td>
    <td>
-    <p>학습자의 동료가 수강하는 내용에 따른 교육을 표시합니다. 이는 다시 머신 러닝 알고리즘에 의해 구동된다.</p></td>
-  </tr>
+    <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
  </tbody>
 </table>
 
@@ -277,3 +283,8 @@ ht-degree: 46%
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>새 계정의 경우 학습자 홈페이지, 교육 유형 및 추천 범위 설정이 표시되지 않습니다.
+
