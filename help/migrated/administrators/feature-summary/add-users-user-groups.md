@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 사용자 추가 및 사용자 그룹 만들기
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 06b75b0ab591b7045ec3cc7e8b1c20b36e3de649
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
-source-wordcount: '4016'
+source-wordcount: '4050'
 ht-degree: 62%
 
 ---
@@ -78,6 +78,14 @@ Adobe Learning Manager에서 다음 역할을 수행할 수 있습니다.
 1. Learning Manager에서 새로운 사용자를 추가하려면 **[!UICONTROL 추가]**&#x200B;를 클릭합니다. 사용자가 추가되면 사용자에게 확인 메일이 전송됩니다. 그러면 학습자가 계정을 활성화하고 Learning Manager 사용을 시작합니다. 이 워크플로우는 Learning Manager 계정에 제한된 수의 학습자를 추가해야 하는 경우 유용합니다. 그러나 대규모 조직의 모든 직원을 등록하려는 경우 한 번에 추가할 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
 
 ## 사용자 일괄 추가 {#addusersinbulk}
+
+### 사용자 관리
+
+이 교육에서는 역할을 할당 및 제거하고, 시작 이메일을 보내고, 사용자를 삭제 및 제거하는 방법에 대해 학습합니다.
+
+[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+
+교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
 
 일반적으로 대부분의 조직은 직함, 위치, 참여 날짜, 직원 체계와 같은 모든 직원 기록을 관리하는 HRMS(HR 관리 시스템)을 사용해 업무를 수행합니다. 이러한 데이터는 CSV 형식으로 내보낼 수 있습니다. CSV를 가져오려면 아래 단계를 따르십시오.
 

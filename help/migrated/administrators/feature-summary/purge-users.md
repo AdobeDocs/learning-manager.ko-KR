@@ -3,14 +3,13 @@ description: Learning Manager의 사용자 데이터 제거에 관해 자세히 
 jcr-language: en_us
 title: 사용자 제거
 contentowner: dvenkate
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 72%
+source-wordcount: '853'
+ht-degree: 75%
 
 ---
-
-
 
 # 사용자 제거
 
@@ -28,13 +27,13 @@ Learning Manager의 사용자 데이터 제거에 관해 자세히 알아봅니�
 * Learning Manager에서 사용자를 제거하여도 외부 응용 프로그램(타사 시스템 또는 사용자가 작성한 기타 응용 프로그램)에서는 해당 사용자가 제거되지 않습니다. 외부 응용 프로그램 소유자에게 문의하여 해당 응용 프로그램에서 사용자를 제거할 수 있습니다.
 * 커넥터 설정 구성에서 사용자 제거를 참조하면 커넥터가 비활성화됩니다. 다시 시작하려면 책임자가 커넥터를 재구성해야 합니다.
 
-### 사용자 관리
+<!---### Manage users
 
-이 교육에서는 역할을 할당 및 제거하고, 시작 이메일을 보내고, 사용자를 삭제 및 제거하는 방법에 대해 학습합니다.
+In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
 
-[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=4X3B8VJ2&mv=display&mv2=display#/course/7555586)
 
-교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
+If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 
 ## 사용자 제거 방법
 

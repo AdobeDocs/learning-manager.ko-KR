@@ -4,7 +4,7 @@ title: 사용자 정의 역할
 description: 학습 경로 기능을 사용하면 사용자 정의 역할을 정의하고 사용자 집합에 특정 책임을 할당할 수 있습니다. 이 기능을 사용하면 개인의 기존 역할 범위 외부에서 권한을 지정할 수 있습니다.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
 source-wordcount: '2223'
 ht-degree: 65%
@@ -224,7 +224,7 @@ ht-degree: 65%
 
 1. **사용자:** 이 역할을 부여받은 사용자를 확인하려면 이 옵션을 사용합니다. 검색 상자를 사용하여 사용자를 한 명 이상 선택할 수 있습니다.
 
-   **사용자 정의 역할 CSV 업로드에 사용자 추가:** CSV 업로드를 통해 사용자를 추가하려면 관리자가 사용자를 가져오는 데 사용한 .csv 파일에 CustomRole 열을 추가합니다. 사용자 정의 역할을 할당할 사용자의 CustomRole 열 아래에 사용자 역할을 입력합니다. CSV 파일을 업로드하려면  **[!UICONTROL 추가 > CSV 업로드]**.
+   **사용자 정의 역할 CSV 업로드에 사용자 추가:** CSV 업로드를 통해 사용자를 추가하려면 관리자가 사용자를 가져오는 데 사용한 .csv 파일에 CustomRole 열을 추가합니다. 사용자 정의 역할을 할당할 사용자의 CustomRole 열에 사용자 역할을 입력합니다. CSV 파일을 업로드하려면  **[!UICONTROL 추가 > CSV 업로드]**.
 
    사용자 지정 역할 열참고:
 
@@ -483,3 +483,4 @@ Learning Manager는 사용자 정의 역할을 사용하여 콘텐츠 라이브�
 
 다음을 수행합니다. **[!UICONTROL 사용자]** > **[!UICONTROL 사용자 정의 역할]**. 사용자 정의 역할 페이지에서 **[!UICONTROL 역할 생성]**&#x200B;을 클릭합니다. 사용자 정의 역할의 이름을 입력하고 그 역할에 주어지는 권한을 설정합니다. 자세한 내용은 [사용자 정의 역할 생성](custom-role.md#create-role)을 참조하십시오.
 +++
+
