@@ -4,9 +4,9 @@ title: Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 description: 흰색 레이블링은 앱 또는 서비스를 자신의 브랜드로 리브랜딩하고 원본 작성자인 것처럼 사용자 정의하는 관행입니다. Adobe Learning Manager에서는 모바일 앱에 흰색 레이블 지정을 적용하여 앱을 다시 브랜딩하고 사용자가 나만의 브랜드로 앱을 사용할 수 있도록 할 수 있습니다.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: f25edb0883b71ed9807c347e0ae6733e7b55d40c
+source-git-commit: c056c126a61f16198d42b3a73a3b009a58bd641c
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -307,16 +307,31 @@ Android와 iOS은 푸시 알림을 장치에 보내는 서비스로 FCM(Firebase
 
 ### Android에서 푸시 알림
 
-Firebase에서 프로젝트를 설정하고 CSAM과 서버 키를 공유합니다.
+Android의 경우 사용자는 SNS 서비스에 항목을 추가하려면 Firebase 프로젝트에서 services.json 파일을 제공해야 합니다.
 
-CSM 팀에 연락하여 AWS의 SNS 서비스에 추가된 파일을 가져옵니다. 사용자는 푸시 알림을 위해 SNS 서비스에 등록된 항목을 가져와야 하며, 이 경우 유효성 검사를 위해 위에서 생성한 인증서를 공유해야 합니다.
+Firebase에서 프로젝트를 만들고 services.json 파일을 CSM 팀에 공유합니다. 이 파일은 SNS의 토큰 기반 항목에 필요합니다. 서버 키는 더 이상 사용되지 않습니다. 자세한 내용은 [Firebase에서 프로젝트 만들기](#create-project-in-firebase).
 
->[!NOTE]
->
->Android의 경우 사용자는 SNS 서비스에 항목을 추가하기 위해 Android용으로 만든 Firebase 프로젝트에서 서버 키를 제공해야 합니다.
+services.json 파일을 다운로드하려면 다음 단계를 따르십시오.
 
+1. 로그인: **파이어베이스** 콘솔.
+1. 다음으로 이동: **프로젝트 설정** 을 클릭하고 **클라우드 메시징**.
+1. 찾기 **Firebase Cloud Messaging API** 을 클릭하고 **서비스 계정 관리**.
+1. (으)로 **서비스 계정** 페이지에서 **서비스 계정** 있습니다.
+1. 프로젝트 항목을 찾아 **세부 정보 관리** 작업.
 
-## Firebase에서 프로젝트 만들기
+   >[!NOTE]
+   >
+   >   프로젝트 항목 형식은 &lt;-accountname->@appspot.gserviceaccount.com입니다.
+
+1. 다음으로 이동 **키** tab 키를 누른 다음 **키 추가**.
+1. 키가 없으면 **새 키 만들기** 을 클릭하고 **JSON** 키 유형입니다. 그러면 JSON 파일이 생성되고 다운로드됩니다.
+1. 이미 키가 있는 경우 다음을 선택합니다. **기존 키 업로드**&#x200B;키를 붙여넣고 업로드합니다. 그러면 JSON 파일이 생성되고 다운로드됩니다.
+
+<!-- Set up a project in Firebase and share the server key with the CSAM.-->
+
+AWS에서 SNS 서비스에 항목을 추가하려면 CSM 팀에 연락하고 JSON 파일을 공유하십시오. 사용자는 푸시 알림을 위해 SNS 서비스에 등록된 항목을 가져와야 하며, 이 경우 유효성 검사를 위해 위에서 생성한 인증서를 공유해야 합니다.
+
+## Firebase에서 프로젝트 만들기 {#create-project-in-firebase}
 
 ### Android
 
