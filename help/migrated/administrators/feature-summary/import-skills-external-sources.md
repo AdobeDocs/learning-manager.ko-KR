@@ -4,9 +4,9 @@ title: 외부 소스에서 스킬 가져오기
 description: 각 커넥터를 사용하여 LinkedIn 및 Go1과 같은 콘텐츠 공급자에서 스킬을 가져옵니다.  가져온 스킬은 Learning Manager의 책임자 정의 스킬에 추가되며, 강의 생성 워크플로 중에 작성자가 사용할 수 있습니다.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 64d63c46fc0f9e5daada1eb391e720dc45fbab89
+source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### 기본 강의 스킬 및 점수
 
-스킬을 가져오면 스킬 소스로 선택한 소스에서 가져온 학습 리소스에 추가됩니다. 예를 들어 스킬 소스가 LinkedIn Learning인 경우 LinkedIn Learning에서 가져온 모든 학습 리소스는 해당 소스에서 제공한 스킬을 보유합니다. 학습 리소스로 가져올 때 각 학습 리소스는 기본 10크레딧을 제공합니다. 이를 변경하려면 CSM에 문의하십시오.
+스킬을 가져오면 스킬 소스로 선택한 소스에서 가져온 학습 리소스에 추가됩니다. 예를 들어 스킬 소스가 LinkedIn Learning인 경우 LinkedIn Learning에서 가져온 모든 학습 리소스는 해당 소스에서 제공한 스킬을 보유합니다. 학습 리소스로 가져올 때 각 학습 리소스는 기본 10크레딧을 제공합니다.
 
 #### 보고
 
