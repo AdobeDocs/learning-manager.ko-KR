@@ -4,9 +4,9 @@ title: Salesforce 패키지 설치
 description: Learning Manager는 Salesforce 앱 패키지를 제공합니다. SFDC에 Salesforce 앱 패키지를 설치하고 구성한 영업 직원은 SFDC 포털에서 교육 활동을 수행할 수 있습니다. 이 앱을 설치한 SFDC 사용자는 새로운 교육 과정을 탐구하고, 권장 사항을 확인하며, SFDC 포털에서 바로 이와 같은 컨텐츠를 확인할 수 있습니다. 또한 사용자는 SFDC 포털 내의 앱 내에서 바로 마스트헤드 형태로 관리자가 보낸 공지 사항을 받습니다.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: dffa765061b35d4559388e4120e51943768c8db8
+source-git-commit: fb946ae98dce45156e2f4c1cf992319405403ea9
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1055'
 ht-degree: 47%
 
 ---
@@ -87,7 +87,7 @@ Adobe 도메인을 신뢰할 수 있는 URL에 추가하려면 다음 단계를 
 1. Salesforce 콘솔에서 설치&#x200B;]**>**[!UICONTROL &#x200B;빠른 찾기&#x200B;]**로**[!UICONTROL &#x200B;이동합니다.
 1. 신뢰할 수 있는 URL ]**을**[!UICONTROL &#x200B;검색하고 새 신뢰할 수 있는 URL ]**을 선택합니다**[!UICONTROL .
 1. API 이름&#x200B;]**필드에 이름을**[!UICONTROL &#x200B;입력합니다.
-1. URL `{}.adobe.com{*}`을 로 추가합니다.
+1. URL 필드에 입력합니다 `*.adobe.com` .
 1. CSP 지시&#x200B;**문에서**&#x200B;모든 확인란을 선택하고 변경 사항을 저장합니다.
 1. Salesforce 앱의 새로 고침 토큰을 편집하고 저장합니다.
 1. Salesforce 앱을 다시 실행합니다.
