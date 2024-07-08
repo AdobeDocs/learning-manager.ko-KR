@@ -1,16 +1,16 @@
 ---
 description: Adobe Learning Manager 2024년 7월 릴리스의 새로운 기능 및 개선 사항에 대해 알아보기
 jcr-language: en_us
-title: 이 릴리스의 새로운 기능
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+title: 새로운 기능 요약
+source-git-commit: 7e3b19d29b9de23ea489c5651ef0aef1d4ec3005
 workflow-type: tm+mt
-source-wordcount: '2170'
-ht-degree: 3%
+source-wordcount: '2178'
+ht-degree: 2%
 
 ---
 
 
-# 이 릴리스의 새로운 기능 {#whatsnewandchanged}
+# 새로운 기능 요약 {#new-features-summary}
 
 Adobe Learning Manager 2024년 7월 릴리스의 새로운 기능과 개선 사항에 대해 알아봅니다.
 
@@ -77,7 +77,7 @@ _새 사용자 인터페이스_
 
 ### 이 릴리스에서 변경되는 내용
 
-고객은 프리미엄 플랜을 구매하여 확장성이 뛰어난 로그인하지 않은 환경을 구축할 수 있습니다. Training Data Access](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)를 [기반으로 하는 이 로그되지 않은 경험은 Adobe Learning Manager API를 사용하여 좌석 제한, 점유된 좌석, 대기자 명단 제한 및 대기자 명단 수에 대한 실시간 데이터를 제공합니다. 고객은 이러한 API를 사용하여 로그인하지 않은 학습자에게 검색 및 필터링 기능과 전체 과정 요약을 제공할 수 있습니다.
+고객은 프리미엄 플랜을 구매하여 확장성이 뛰어난 로그인하지 않은 환경을 구축할 수 있습니다. Training Data Access](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)를 [기반으로 하는 이 로그되지 않은 경험은 Adobe Learning Manager API를 사용하여 좌석 제한, 점유된 좌석, 대기자 명단 제한 및 대기자 명단 수에 대한 실시간 데이터를 제공합니다. 고객은 이러한 API를 사용하여 로그인하지 않은 학습자에게 검색 및 필터링 기능과 전체 과정 요약을 제공할 수 있습니다. API에 대한 자세한 내용은 로그인하지 않은 API](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) 문서를 [참조하십시오.
 
 >[!NOTE]
 >
@@ -337,4 +337,4 @@ Adobe Learning Manager 시스템 요구 사항을](/help/migrated/system-require
 ## Adobe Learning Manager의 이전 릴리스
 
 * [2024년 3월 릴리스](/help/migrated/whats-new-march-2024.md)
-* [2024년 11월 릴리스](/help/migrated/whats-new-november-2023.md)
+* [2023년 11월 릴리스](/help/migrated/whats-new-november-2023.md)
