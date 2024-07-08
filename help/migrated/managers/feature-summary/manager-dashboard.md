@@ -3,14 +3,13 @@ description: 관리자 대시보드에서 학습을 보고 추적하는 방법�
 jcr-language: en_us
 title: 관리자 대시보드
 contentowner: kuppan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
+source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 68%
+source-wordcount: '1432'
+ht-degree: 49%
 
 ---
-
-
 
 # 관리자 대시보드
 
@@ -20,7 +19,7 @@ ht-degree: 68%
 
 ![](assets/dashboard-final.png)
 
-*관리자용 대시보드 보고서*
+*관리자에 대한 대시보드 보고서*
 
 그래프의 세부 사항을 보려면 그래프를 클릭하거나 **[!UICONTROL 세부 사항]** 하이퍼링크를 클릭합니다.
 
@@ -32,7 +31,7 @@ ht-degree: 68%
 
 ![](assets/learning-summarydashboard.png)
 
-*일정 기간 동안의 학습 활동 보기*
+*시간 경과에 따른 학습 활동 보기 perios*
 
 ## 팀 보기 {#teamview}
 
@@ -40,31 +39,31 @@ ht-degree: 68%
 
 ![](assets/ls-team-view.png)
 
-*팀 뷰에는 팀, 팀 멤버 및 해당 등록이 표시됩니다*
+*팀 보기에는 팀, 해당 구성원 및 해당 등록이 표시됩니다*
 
-팀 이름(예: Venkatesh&#39;s Team)을 클릭하면 학습 개체에 대한 총 등록 수, 진행 수 및 완료 수와 함께 Venkatesh&#39;s Team의 구성원을 볼 수 있습니다.
+팀 이름(예: Venkatesh 팀)을 클릭하면 학습 객체에 대한 총 등록, 진행 상황 및 완료 수와 함께 Venkatesh 팀의 구성원을 볼 수 있습니다.
 
 ![](assets/ls-click-team-names.png)
 
-*팀 멤버 선택*
+*팀원 선택*
 
 각 팀 멤버의 학습 요약을 보려면 팀 관리자에 해당하는 각 열의 수를 클릭합니다. 등록 날짜, 기한 및 진행률 정보와 함께 학습 개체 목록을 표시하는 표가 열립니다.
 
 ![](assets/ls-click-on-valuestogetlearningsofamember.png)
 
-*팀 관리자 선택*
+*팀 매니저 선택*
 
 이와 유사하게 해당하는 열 아래에 있는 값을 클릭하여 등록, 진행률 또는 완료의 수와 함께 학습 개체를 볼 수 있습니다.
 
 ![](assets/ls-on-clicking-valuesinteamviewforateam.png)
 
-*강의 및 학습 요약 보기*
+*과정 및 학습 요약 보기*
 
-각 학습에 대한 등록, 진행 또는 완료 수를 추가로 클릭하면 인력, 등록/완료 날짜, 기한 및 진행 상황 등의 세부 정보를 볼 수 있습니다.
+각 학습에 대한 등록, 진행 또는 완료 수를 추가로 클릭하면 사용자, 등록/완료 날짜, 마감일 및 진행 상황과 같은 세부 정보를 볼 수 있습니다.
 
 ![](assets/ls-team-view-on-furtherclickingthevaluesforalearning.png)
 
-*등록/완료 날짜, 기한 및 진행 상황 보기*
+*등록/완료 날짜, 마감일 및 진행 상황 보기*
 
 ## 학습 보기 {#learningsview}
 
@@ -80,77 +79,129 @@ ht-degree: 68%
 
 ## 보고서 내보내기 {#exportreport}
 
-Excel 보고서를 생성하려면 **[!UICONTROL 액션] > [!UICONTROL 보고]**
+Excel 보고서를 생성하려면 보고서 > [!UICONTROL 작업을] 선택합니다&#x200B;**[!UICONTROL .]**
 
 ## 준수 상태 {#compliancestatus}
 
-관리자는 준수 대시보드에서 구성된 학습에 대한 팀의 전체 준수 상태를 볼 수 있습니다. 학습 목록은 구성할 수 있으며 관리자는 준수 상태를 추적할 학습을 선택할 수 있습니다.
+관리자는 규정 준수 대시보드에서 특정 범주(예: 영업, 마케팅 및 법률)에 걸쳐 구성된 학습에 대한 팀의 전반적인 규정 준수 상태를 볼 수 있습니다. 관리자는 규정 준수 과정, 학습 경로 또는 인증이 포함된 대시보드를 만들고 관리자와 공유할 수 있습니다. 관리자는 자신의 인스턴스에서 관리자가 공유한 대시보드를 볼 수 있습니다.
 
-이 대시보드에서 관리자는 선택한 학습 개체에 대해 준수하고, 안전 기한에 있으며, 기한에 도달하고, 준수하지 않는 학습자를 볼 수도 있습니다.
+### 대시보드 보기
 
-완료 기한이 있는 학습 개체는 추적을 위해 준수 대시보드에서 구성할 수 있습니다.
+대시보드를 보려면 관리자 앱에서 Compliance Dashboard ]**를 선택합니다**[!UICONTROL .
 
-**준수**: 완료 기한 내에 학습 개체를 완료한 학습자의 수를 표시합니다.
+![](assets/compliance-dashboard-manager.png)
+_Compliance dashboard-Manager 앱_
 
-**안전 기한**: 학습 개체 완료 기한까지 남은 일수가 30일 미만인 학습자의 수를 표시합니다.
+규정 준수 대시보드에는 다음과 같은 규정 준수 상태가 포함됩니다.
 
-**예정된 기한**: 학습 개체의 완료 기한까지 남은 일수가 30일을 초과하는 학습자의 수를 표시합니다.
+* **[!UICONTROL 규정을 준수하지 않는 학습자]**: 마감일을 놓친 학습자의 수를 표시합니다.
+* **[!UICONTROL 마감]**&#x200B;일이 임박한 학습자: 마감일이 30일 이내인 학습자의 수를 표시합니다.
+* **[!UICONTROL 안전한 마감]**&#x200B;일이 있는 학습자: 기한이 더 남은(30일 이상) 학습자의 수를 표시합니다.
+* **[!UICONTROL 완전 준수 학습자: 완전 준수 학습자]**&#x200B;의 수를 표시합니다.
+* **[!UICONTROL 어디에도]** 등록되지 않은 학습자: 강의, 학습 경로 또는 인증에 등록하지 않은 학습자 수를 표시합니다.
 
-**미준수**: 완료 기한 내에 학습 개체를 완료하지 않은 학습자의 수를 표시합니다.
+### 전자 메일 관리자 및 학습자
+
+**여러 팀 관리**
+
+여러 팀을 관리하는 경우, 팀 보기&#x200B;]**섹션에서 사용할 수 있는**[!UICONTROL &#x200B;이메일 관리자 옵션을 선택하여 **[!UICONTROL 팀 구성원의]** 학습 상태에 대해 관리자에게 알릴 수 있습니다.
+
+![](assets/email-managers.png)
+_이메일 관리자_
+
+**[!UICONTROL 이메일 관리자는]** 다음과 같은 옵션을 제공합니다.
+
+* **[!UICONTROL 규정을 준수하지 않는 학습자]**&#x200B;의 이메일 관리자: 팀 구성원이 마감일을 놓친 관리자에게 알립니다.
+* **[!UICONTROL 마감]**&#x200B;일이 임박한 학습자의 이메일 관리자: 마감일이 임박한 팀원이 있는 관리자에게 알립니다.
+
+**단일 팀 관리**
+
+단일 팀을 관리하는 경우 팀 보기&#x200B;]**섹션에서 사용할 수 있는 학습자]** 이메일 보내기 옵션을 선택하여 **[!UICONTROL 학습자에게**[!UICONTROL &#x200B;학습 상태를 알릴 수 있습니다.
+
+![](assets/email-learners.png)
+_학습자에게 이메일 보내기_
+
+**[!UICONTROL 학습자]** 이메일 보내기 옵션은 다음과 같은 옵션을 제공합니다.
+
+* **[!UICONTROL 규정을 준수하지 않는 학습자에게]** 이메일 보내기: 마감일을 놓친 학습자에게 알립니다.
+* **[!UICONTROL 마감]**&#x200B;일이 임박한 학습자에게 이메일 보내기: 마감일이 임박한 학습자에게 알립니다.
+
+### 보고서 다운로드
+
+보고서를 다운로드하려면 다음 단계를 수행합니다.
+
+1. 관리자 앱에서 규정 준수 대시보드&#x200B;]**>**[!UICONTROL &#x200B;팀 보기&#x200B;]**로**[!UICONTROL &#x200B;이동합니다.
+1. 보고서&#x200B;]**다운로드를 선택하여**[!UICONTROL 대시보드를 보고서로 저장합니다.
+이를 통해 팀의 전반적인 학습 진행 상황을 추적할 수 있습니다.
+
+![](assets/download-report.png)
+_보고서 다운로드_
+
+<!--On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
+
+Learning Objects with completion deadlines can be configured in compliance dashboard for tracking. 
+
+**Compliant**: Displays the number of learners who have completed the learning object within completion deadline.
+
+**Safe deadline**: Displays the number of learners who have less than 30 days available to complete a learning object.
+
+**Upcoming Deadline**: Displays the number of learners with more than 30 days available to complete a learning object.
+
+**Non-compliant**: Displays the number of learners who did not complete the learning object within the completion deadline.
 
 ![](assets/cs-dashboard.png)
 
-*준수 대시보드 보기*
+*View compliance dashboard*
 
-## 팀 보기 {#TeamView-1}
+## Team View {#TeamView-1}
 
-각 팀에 대한 강의의 준수 상태를 표시합니다. 준수, 안전 기한, 예정된 기한 및 미준수는 팀 보기 표의 열입니다.
+Displays the compliance status of a course for respective teams. Compliant, Safe Deadline, Upcoming Deadline, and Non-Compliant are columns in the Team View table.
 
 ![](assets/cs-team-view.png)
 
-*각 팀에 대한 강의 준수 상태*
+*compliance status of a course for respective teams*
 
-팀 구성원의 이름과 해당 상태가 준수, 안전 마감 시한, 다가오는 마감 시한에 도달 및 비준수 인 개별 강의 수를 표시하려면 테이블에서 해당 값을 클릭합니다.
+To display names of the members in a team and the individual number of courses for which their status is Compliant, in Safe Deadline, reaching Upcoming Deadline, and Non Compliant, click the corresponding values in the table.
 
 ![](assets/cs-team-view-on-clickingthenumber.png)
 
-*개별 팀 선택*
+*Select individual teams*
 
-추가로 준수, 안전 기한, 예정된 기한 및 미준수 열에서 값을 클릭하면 해당하는 강의 세부 사항이 표시됩니다: 학습 개체 이름, 등록/완료 날짜, 기한 및 진행률(백분율).
+On further clicking the values in the compliant, safe deadline, upcoming deadline, and non-compliant column, the corresponding course details are displayed: Learning object name, enrollment/ completion date, due date, and progress in percentage.
 
 ![](assets/cs-team-view-on-furtherclickingvaluesincompliantstatus.png) ![](assets/cs-team-view-on-furtherclickingvaluesinsafedeadlinestatus.png)
 
-*강의 진행률 보기*
+*View progress of courses*
 
-## 학습 보기 {#LearningsView-1}
+## Learnings View {#LearningsView-1}
 
-준수 상태 학습 보기에서 학습 개체 목록과 준수, 안전 기한 내, 예정된 기한 또는 미준수인 팀 멤버의 해당하는 수가 표시됩니다.
+In the Compliance Status Learnings View, the list of Learning Objects and the corresponding number of team members that are Compliant, within a Safe Deadline, have an Upcoming Deadline, or are Non Compliant is displayed.
 
 ![](assets/cs-learnings-view.png)
 
-*기한 및 준수 상태 보기*
+*View deadline and compliance status*
 
-추가로 준수, 안전 기한, 예정된 기한 및 미준수 열에 있는 값을 클릭하면 다음 데이터가 표시됩니다: 사람, 등록 날짜, 완료 날짜 및 진행률.
+On further clicking the values in the compliant, safe deadline, upcoming deadline, and non compliant columns, the following data is displayed: People, Enrollment Date, Completion date, and Progress.
 
 ![](assets/cs-learnings-view-onfurtherclickingvalues.png)
 
-*규정 준수 세부 정보 보기*
+*View details of compliance*
 
-## 데이터 내보내기 및 전자 메일 보내기 {#exportdataampsendemails}
+## Export data & send emails {#exportdataampsendemails}
 
-* 팀 및 학습 보기에 대한 준수 상태를 내보내려면 을 클릭합니다. **[!UICONTROL 액션]** > **[!UICONTROL 내보내기]**.
+* To export the compliance status for team and learnings view, click **[!UICONTROL Actions]** > **[!UICONTROL Export]**.
 
-* 팀 멤버에게 이메일을 보내려면 **[!UICONTROL 액션]** > **[!UICONTROL 이메일 보내기]**.
+* To send an email to team members, click **[!UICONTROL Actions]** > **[!UICONTROL Send Email]**.
 
 ![](assets/cs-send-email-andexport.png)
 
-*데이터 내보내기 및 이메일 전송*
+*Export and email data*-->
 
 ## 팀 스킬 {#teamskills}
 
-관리자는 스킬 완료 그래프를 보고 다양한 레벨에서 스킬 완료 예측을 구성할 수 있습니다. 다섯 가지 스킬이 스킬 드롭다운 목록에 나열됩니다. 관리자는 팀 멤버가 확보한 전문 지식을 알게 되고 특정 스킬에 대한 강력한 재능을 식별합니다.
+관리자는 스킬 완료 그래프를 보고 다양한 레벨에서 스킬 완료 예측을 구성할 수 있습니다. 스킬 드롭다운 목록에는 5개의 스킬이 포함되어 있습니다. 관리자는 팀 구성원이 얻은 전문 지식을 알게 되고 특정 기술에서 강력한 재능을 식별합니다.
 
-관리자는 또한 목표를 설정하고 타임라인 내에서 팀의 특정 백분율에 대해 스킬을 달성하는 데 걸리는 기간을 예측하여 팀에서 특정 스킬을 주도할 수도 있습니다.
+관리자는 또한 목표를 설정하고 타임라인 내에서 팀의 특정 비율에 대한 기술을 달성하는 데 걸리는 시간을 예측하여 팀의 특정 기술을 추진할 수 있습니다.
 
 이 예측은 해당 특정 스킬의 진행률에 대해 향후 보기를 제공하는 시스템 계산을 기반으로 합니다.
 
@@ -158,9 +209,9 @@ Excel 보고서를 생성하려면 **[!UICONTROL 액션] > [!UICONTROL 보고]**
 
 *스킬 예측 보기*
 
-팀의 스킬 상태를 조회하려면 다음 단계를 따르십시오.
+팀의 스킬 상태를 보려면 다음 단계를 따르십시오.
 
-1. 다음을 수행합니다. **[!UICONTROL 팀 스킬]** 내 팀 보기 섹션 아래 왼쪽 창에서 다음을 수행합니다.
+1. 내 팀 보기 섹션의 왼쪽 창에서 팀 기술을&#x200B;]**클릭합니다**[!UICONTROL .
 1. 표시된 스킬을 보려면 스킬 필터를 클릭하고 드롭다운 목록에서 하나를 선택합니다.
 1. 레벨(레벨 1, 레벨 2, 레벨 3)을 선택하려면 레벨 드롭다운 메뉴를 클릭합니다.
 1. 선택한 스킬 및 레벨에 따라 스킬 상태가 있는 그래프가 표시됩니다. 그래프 위에 마우스를 올려 놓으면 스킬 상태의 다음 백분율을 볼 수 있습니다: **진행 중** 및 **달성됨**.
@@ -177,19 +228,19 @@ Excel 보고서를 생성하려면 **[!UICONTROL 액션] > [!UICONTROL 보고]**
 
    ![](assets/configure.png)
 
-   *구성 하이퍼링크를 선택합니다*
+   *구성 하이퍼링크를 선택합니다.*
 
-1. 팝업 대화 상자 구성에서 구성하려는 스킬에 대해 **목표 완료율(%)** 필드 및 목표 완료율(%)을 달성하려는 날짜 **대상 날짜** field.****
+1. 구성 팝업 대화 상자에서 구성하려는 스킬에 대해 목표 완료율 필드에 백분율 값을 **입력하고 목표 날짜** 필드에 목표 완료율(%)**을 달성하려는 날짜를 입력합니다.******
 
    ![](assets/configure-tracker.png)
 
    *목표 완료율 입력*
 
-1. 예측에 대한 결과를 보려면 **예상** 버튼을 클릭합니다. 출력은 아래 스크린샷과 같이 보입니다.
+1. 예측에 대한 결과를 보려면 **예상** 버튼을 클릭합니다. 출력은 아래 스크린샷과 같습니다.
 
    ![](assets/skill-tracker-output.png)
 
-   *스킬 트랙커 출력 보기*
+   *스킬 tracxker 출력 보기*
 
 ## 스킬 레벨 완료 예상 {#skilllevelcompletionforecast}
 
@@ -201,19 +252,19 @@ Excel 보고서를 생성하려면 **[!UICONTROL 액션] > [!UICONTROL 보고]**
 
 ![](assets/1-dotted-line.png)
 
-*스킬 레벨에 대한 첫 번째 등록 보기*
+*기술 수준에 대한 첫 번째 등록 보기*
 
 두 번째 지점은 스킬의 현재 날짜 및 팀 완료율 % 레벨을 표시합니다.
 
 ![](assets/2-solid-line.png)
 
-*스킬의 현재 날짜 및 팀 완료 % 수준 보기*
+*현재 날짜 및 팀 완료 보기 스킬의 % 레벨*
 
 선의 세 번째 지점은 예상 목표 완료율 % 및 목표 완료 날짜를 표시합니다.
 
 ![](assets/3-solid-line.png)
 
-*예상 목표 완료율(%) 및 목표 완료일 보기*
+*예상 목표 완료율 및 목표 완료 날짜 보기*
 
 ## 예상 선 {#forecastline}
 
@@ -223,37 +274,37 @@ Excel 보고서를 생성하려면 **[!UICONTROL 액션] > [!UICONTROL 보고]**
 
 ![](assets/1-dotted-line.png)
 
-*스킬에 대한 팀 완료 % 및 예상 팀 완료 % 보기*
+*스킬에 대한 팀 완료율(%) 및 예상 팀 완료율(%) 보기*
 
 두 번째 지점은 예상 팀 완료율 %가 스킬에 대해 달성된 날짜를 표시합니다.
 
 ![](assets/2-dotted-line.png)
 
-*스킬에 대한 예상 팀 완료율(%)이 달성된 날짜 보기*
+*스킬에 대해 예상 팀 완료율(%)이 달성된 날짜 보기*
 
 예측 선의 세 번째 지점은 스킬 트래커에서 제공된 목표 날짜에 달성된 팀 완료율 %를 표시합니다.
 
 ![](assets/3-dotted-line.png)
 
-*스킬 트래커에 제공된 대상 날짜에 달성된 팀 완료 % 를 확인합니다*
+*스킬 트래커에 제공된 목표 날짜에 달성한 팀 완료율 보기*
 
 그래프 아래에서 팀의 보기와 등록, 달성 및 진행 중인 스킬의 수가 포함된 표가 표시됩니다. 학습에 완료 날짜가 있는 경우 예상 완료 날짜도 표시됩니다.
 
 ![](assets/ts-details.png)
 
-*팀 보기 및 등록되고 달성되어 진행 중인 스킬 수가 포함된 표*
+*팀의 보기와 등록, 달성 및 진행 중인 기술 수가 포함된 테이블*
 
 팀 이름을 클릭하면 스킬, 스킬 상태 및 완료 날짜에 등록한 멤버 목록이 표시됩니다.
 
 ![](assets/ts-click-the-teamnames.png)
 
-*멤버 목록 보기*
+*구성원 목록 보기*
 
-팀을 클릭하면 팀의 구성원과 등록된 경우 선택한 스킬에 대한 해당 세부 정보, 상태(진행 중인지 달성 여부) 및 완료 날짜(설정된 경우)를 볼 수 있습니다.
+팀을 클릭하면 팀에 있는 구성원과 등록된 경우, 상태(진행 중 또는 달성 여부) 및 완료 날짜(설정된 경우)와 같이 선택한 기술에 대한 해당 세부 정보를 볼 수 있습니다.
 
 ![](assets/on-clicking-the-teamnames.png)
 
-*멤버 스킬 보기*
+*구성원의 기능 보기*
 
 등록, 달성됨 및 진행 중 열에서 팀의 값을 선택하면 스킬에 등록한 사용자의 수를 볼 수 있습니다. 또한 사용자가 스킬을 완료한 경우 사용자가 스킬에 등록한 날짜, 상태 및 완료 날짜를 볼 수도 있습니다.
 
@@ -261,7 +312,7 @@ Excel 보고서를 생성하려면 **[!UICONTROL 액션] > [!UICONTROL 보고]**
 
 ## 보고서 내보내기 {#Exportreport-1}
 
-* 다음을 수행합니다. **[!UICONTROL 액션]** > **[!UICONTROL 내보내기]** 를 클릭하여 데이터를 excel 파일로 내보냅니다.
+* 내보내기&#x200B;]**>**[!UICONTROL &#x200B;작업을&#x200B;]**클릭하여**[!UICONTROL &#x200B;데이터를 Excel 파일로 내보냅니다.
 
 ![](assets/export-report.png)
 
