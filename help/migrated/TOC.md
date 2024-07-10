@@ -2,15 +2,15 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 5769b88c430cc5c0cfccaa75ceaca4862ee7e52e
+source-git-commit: 6b26c48e3195b76b30bb837b37a40a1484d72c5d
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '601'
 ht-degree: 88%
 
 ---
 
 
-# Learning Manager 안내서 {#using}
+# Learning Manager 가이드 {#using}
 
 * [Learning Manager 사용자 가이드](user-guide.md)
 * 소개 {#introduction}
@@ -22,22 +22,22 @@ ht-degree: 88%
    * [새로운 기능 2022년 11월](whats-new-2022-november.md)
    * [릴리스 정보](release-note/release-notes.md)
    * [시스템 요구 사항](system-requirements.md)
-   * [AEM Sites용 ALM 참조 사이트 패키지](adobe-learning-manager-integration-aem.md)
+   * [AEM Sites에 대한 ALM 참조 사이트 패키지](adobe-learning-manager-integration-aem.md)
    * [Microsoft Teams용 Adobe Learning Manager 앱](adobe-learning-manager-app-microsoft-teams.md)
    * [Learning Manager는 GDPR을 준수함](kb/prime-gdpr.md)
    * [Learning Manager의 접근성](accessibility-learning-manager.md)
    * [사용자 정의 도메인 지원](custom-domain.md)
    * [Adobe Learning Manager 추천](recommendations-adobe-learning-manager.md)
    * [Adobe FTP Manager에서 전환](transition-from-ftp-manager.md)
-   * [Adobe Learning Manager의 API 사용 중단 및 변경 사항](api-deprecations-list.md)
-   * [Adobe Learning Manager에서의 화이트라벨링](white-label.md)
-* 시작 {#get-started}
+   * [Adobe Learning Manager에서 API 사용 중단 및 변경 사항](api-deprecations-list.md)
+   * [Adobe Learning Manager의 화이트레이블 지정](white-label.md)
+* 시작하기 {#get-started}
    * [관리자로 시작하기](administrators/feature-summary/getting-started-admin.md)
    * [작성자로 시작](authors/feature-summary/getting-started-author.md)
    * [학습자로 시작하기](learners/feature-summary/getting-started-learner.md)
    * [관리자로 시작하기](managers/feature-summary/getting-started-manager.md)
    * [강사로 Learning Manager 시작하기](instructors/feature-summary/getting-started.md)
-* 관리자 {#admin}
+* 책임자 {#admin}
    * [사용자 로그인](administrators/feature-summary/user-login.md)
    * [사용자 추가 및 사용자 그룹 만들기](administrators/feature-summary/add-users-user-groups.md)
    * [강의실 위치 추가](administrators/feature-summary/classroom.md)
@@ -56,7 +56,7 @@ ht-degree: 88%
    * [피어 계정](administrators/feature-summary/peer-account.md)
    * [스킬과 레벨 만들기 및 수정하기](administrators/feature-summary/skills-levels.md)
    * [강의의 AI 기반 추천](ai-based-recommendations.md)
-   * [기술 가져오기](administrators/feature-summary/import-skills-external-sources.md)
+   * [스킬 가져오기](administrators/feature-summary/import-skills-external-sources.md)
    * [게임화](administrators/feature-summary/gamification.md)
    * [학습자 홈페이지 사용자 정의](administrators/feature-summary/customize-learner-homepage.md)
    * [배지](administrators/feature-summary/badges.md)
@@ -80,10 +80,11 @@ ht-degree: 88%
    * [공유 카탈로그 전체 제어 활성화](administrators/feature-summary/shared-catalog-full-control.md)
    * [스킬 도메인으로 스킬 매핑](administrators/feature-summary/curation-skills.md)
    * [기본 확장성](administrators/feature-summary/native-extensibility.md)
-   * [복수 등록](administrators/feature-summary/multiple-enrollment.md)
+   * [다중 등록](administrators/feature-summary/multiple-enrollment.md)
    * [학습자용 임시 방문 모드](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [학습 프로그램](administrators/feature-summary/learning-programs.md)
-* 통합 관리자 {#integration}
+   * [제품 용어](administrators/feature-summary/product-terminology.md)
+* 통합 책임자 {#integration}
    * [마이그레이션 설명서](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager 커넥터](integration-admin/feature-summary/connectors.md)
    * [로그인하지 않은 API](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -94,7 +95,7 @@ ht-degree: 88%
    * [Salesforce용 Learning Manager 앱](integration-admin/feature-summary/sfdc-app.md)
    * [설정](integration-admin/feature-summary/settings.md)
    * [CSV 파일을 통해 사용자 정의 역할 관리](integration-admin/feature-summary/configure-role-csv-files.md)
-* 저자 {#authors}
+* 작성자 {#authors}
    * [사용자 로그인](authors/feature-summary/user-login.md)
    * [콘텐츠 라이브러리](authors/feature-summary/content-library.md)
    * [강의 생성, 수정 및 게시](authors/feature-summary/courses.md)
@@ -107,7 +108,7 @@ ht-degree: 88%
    * [강의 모듈 선택 방법](authors/how-to-choose-modules.md)
    * [학습자로 미리 보기](authors/feature-summary/fluidic-player.md)
    * [설정](authors/feature-summary/settings.md)
-* 선생 {#instructor}
+* 강사 {#instructor}
    * [모듈](instructors/feature-summary/modules.md)
    * [세션 학습자 관리](instructors/feature-summary/learners.md)
 * 학습자 {#learner}
@@ -119,7 +120,7 @@ ht-degree: 88%
    * [학습 프로그램](learners/feature-summary/learning-programs.md)
    * [인증](learners/feature-summary/certifications.md)
    * [작업 지원](learners/feature-summary/job-aids.md)
-   * [ALM의 멀티 아이템 카트](learners/feature-summary/multi-item-cart.md)
+   * [ALM의 복수 품목 카트](learners/feature-summary/multi-item-cart.md)
    * [배지](learners/feature-summary/badges.md)
    * [스킬 및 레벨](learners/feature-summary/skills-levels.md)
    * [게임화](learners/feature-summary/gamification.md)
@@ -134,7 +135,7 @@ ht-degree: 88%
    * [학습자 홈페이지](learners/feature-summary/learner-home-page.md)
    * [소셜 학습에 공유](learners/feature-summary/share-to-social.md)
    * [시스템 요구 사항 | Adobe Learning Manager 데스크탑 응용 프로그램](learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md)
-* 매니저 {#manager}
+* 관리자 {#manager}
    * [사용자 로그인](managers/feature-summary/user-login.md)
    * [관리자 대시보드](managers/feature-summary/manager-dashboard.md)
    * [보고서](managers/feature-summary/reports.md)
@@ -143,7 +144,7 @@ ht-degree: 88%
    * [학습자 성적 증명서](managers/feature-summary/learner-transcripts.md)
    * [설정](managers/feature-summary/settings.md)
    * [iPad 및 Android 태블릿 사용자](managers/feature-summary/ipad-android-tablet-users.md)
-* FAQ {#faq}
+* 자주 묻는 질문 {#faq}
    * [관리자를 위한 자주 묻는 질문(FAQ)](administrators/frequently-asked-questions-for-administrators.md)
    * [작성자를 위한 자주 묻는 질문(FAQ)](authors/frequently-asked-questions-for-authors.md)
    * [강사를 위한 자주 묻는 질문](instructors/frequently-asked-questions-for-instructors.md)

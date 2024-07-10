@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 설정
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: fbab332b92dd6d017c2517d7df09a4c37ce3f6bf
+source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
 workflow-type: tm+mt
-source-wordcount: '3985'
-ht-degree: 66%
+source-wordcount: '3836'
+ht-degree: 68%
 
 ---
 
@@ -483,24 +483,6 @@ Learning Manager는 피어 활동 데이터를 다른 신호로 사용하여 개
 강의실\
 가상 교실\
 활동
-
-용어의 이름을 바꾸려면 다음 단계를 따르십시오.
-
-1. 책임자 권한으로 **[!UICONTROL 설정]** > **[!UICONTROL 일반]** > **[!UICONTROL 제품 용어]**. 제품 용어 옵션이 열립니다.
-
-   ![](assets/product-terminology.png)
-
-   *제품 용어 이름 바꾸기*
-
-1. 샘플 CSV 파일을 다운로드하여 제품 용어 템플릿을 수정한 다음 업로드하여 변경할 수 있습니다. 샘플 CSV 파일을 다운로드하려면 **[!UICONTROL 여기서 다운로드]** 선택 사항입니다.
-1. 다운로드된 CSV 파일에는 A 열에 있는 객체의 이름이 포함됩니다. 열 B에서 해당 개체에 지정할 이름을 선택합니다. (|)로 구분된 이름의 형식은 단수 및 복수로 업데이트해야 합니다.
-1. 하나 이상의 행을 수정하도록 선택할 수 있습니다. 업로드하기 전에 수정하지 않은 행을 유지하거나 CSV 파일에서 삭제할 수 있습니다.
-1. 수정한 CSV 파일을 업로드하고 **[!UICONTROL 저장]**. 변경 사항을 반영하여 Learning Manager를 새로 고침합니다.
-1. 기본 용어로 재설정하려면 **[!UICONTROL 제품 용어 재설정]**.
-
-   ![](assets/with-reset-option.png)
-
-   *제품 용어 재설정*
 
 ## 프로필 설정 {#profilesettings}
 

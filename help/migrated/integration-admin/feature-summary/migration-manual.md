@@ -1,9 +1,9 @@
 ---
-description: 기존 LMS를 Adobe Learning Manager LMS로 마이그레이션하고자 하는 통합 관리자를 위한 참조 설명서입니다.
+description: 기존 LMS를 Adobe Learning Manager LMS로 마이그레이션하려는 통합 책임자를 위한 참조 설명서
 jcr-language: en_us
 title: 마이그레이션 설명서
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: 899ef06789f818e0286589263ebb5fad0c90c9d2
 workflow-type: tm+mt
 source-wordcount: '3617'
 ht-degree: 72%
@@ -18,7 +18,7 @@ ht-degree: 72%
 
 ## 사용 시나리오 {#usagescenario}
 
-일반적으로 대규모 기업은 내부 LMS 또는 공급업체에서 제공한 레거시 학습 관리 시스템을 갖고 있습니다. LMS는 엔터프라이즈 교육 콘텐츠와 교육 데이터로 구성됩니다. 기업에서 Learning Manager를 구매할 때 기존 LMS 콘텐츠 및 데이터를 Learning Manager로 이전하여 조직의 레거시 데이터를 그대로 유지하면서 직관적인 최신 LMS의 이점을 활용할 수 있습니다.
+일반적으로 대규모 기업은 내부 LMS 또는 공급업체에서 제공한 레거시 학습 관리 시스템을 갖고 있습니다. LMS는 기업 교육 콘텐츠와 교육 데이터로 구성됩니다. 기업에서 Learning Manager를 구매하는 경우, 기존 LMS 콘텐츠와 데이터를 Learning Manager로 이동하여 조직의 레거시 데이터를 그대로 보존하면서도 현대적이고 직관적인 LMS의 혜택을 활용하고자 하실 것입니다.
 
 Learning Manager는 조직의 통합 책임자가 마이그레이션 작업을 설정하고 수행하는 데 필요한 도구 및 사양을 제공합니다.
 
@@ -26,29 +26,29 @@ Learning Manager는 조직의 통합 책임자가 마이그레이션 작업을 �
 
 ## 마이그레이션 프로세스 {#apidescription}
 
-마이그레이션을 위한 필수 구성 요소, 마이그레이션 프로세스와 관련된 주요 단계, 마이그레이션 스프린트, 사양, 데이터 및 콘텐츠 마이그레이션 단계는 이 섹션에서 다음과 같이 설명합니다.
+마이그레이션에 대한 사전 요구 사항, 마이그레이션 프로세스에 관련된 주요 단계, 마이그레이션 스프린트, 사양, 데이터 및 콘텐츠 마이그레이션 단계는 이 섹션에서 다음과 같이 설명합니다.
 
 ### 필수 구성 요소 {#prerequisites}
 
 Learning Manager 팀은 조직의 통합 책임자가 마이그레이션 프로세스에 착수하기 전에 다음 작업을 수행하기를 권장합니다.
 
 * 통합 책임자는 현재 사용하는 LMS에서 데이터와 콘텐츠를 추출한 뒤, 데이터를 Learning Manager에서 정의된 파일 형식으로 변환합니다.
-* Learning Manager는 마이그레이션 프로세스에 사용자 가져오기를 지원하지 않습니다. 조직에서 커넥터를 사용하여 사용자를 가져와야 합니다. Adobe 시스템은 마이그레이션 프로세스 이전에 해당 커넥터를 구성하기를 권장합니다. 자세한 내용은 Learning Manager 커넥터 도움말을](connectors.md) 참조하십시오[.
+* Learning Manager는 마이그레이션 프로세스에 사용자 가져오기를 지원하지 않습니다. 조직에서 커넥터를 사용하여 사용자를 가져와야 합니다. Adobe 시스템은 마이그레이션 프로세스 이전에 해당 커넥터를 구성하기를 권장합니다. 자세한 내용은 [Learning Manager 커넥터 도움말](connectors.md) 를 참조하십시오.
 
 Learning Manager는 책임자가 데이터와 콘텐츠를 Learning Manager 제작 환경에 마이그레이션하기 전에 평가판 계정에서 마이그레이션 프로세스를 시도해 보는 것을 추천합니다.
 
 ### 마이그레이션 프로세스 주요 단계 {#keystepsofmigrationprocess}
 
-기존 LMS의 콘텐츠 및 데이터를 Learning Manager로 마이그레이션하는 주요 단계는 다음과 같습니다.
+기존 LMS에서 Learning Manager로 콘텐츠 및 데이터를 마이그레이션하는 주요 단계는 다음과 같습니다.
 
 1. 통합 책임자 또는 파트너가 마이그레이션할 LMS 데이터 및 콘텐츠를 평가합니다.
 1. 통합 책임자는 Learning Manager에서 데이터 및 콘텐츠를 수용하기 위해 제공하는 도구 및 사양을 평가합니다.
 1. 통합 책임자는 이전 LMS에서 제공하는 기능을 기반으로 이전 LMS의 교육 데이터 및 콘텐츠를 내보내는 데 필요한 코드를 작성하거나 수동 작업에 착수합니다.
 1. 교육 데이터 및 콘텐츠가 준비되면 통합 책임자는 데이터와 콘텐츠를 분석 및 매핑하여 Learning Manager 마이그레이션 사양에 일치시킵니다.
-1. 통합 책임자는 Learning Manager에서 제공하는 도구를 사용하여 다음 순서로 마이그레이션합니다.
+1. 통합 책임자는 다음 순서로 Learning Manager에서 제공하는 도구를 사용합니다.
 
    1. Learning Manager에 학습자를 전송
-   1. 교육 콘텐츠를 Learning Manager로 전송하고
+   1. Learning Manager에 교육 콘텐츠를 전송합니다.
    1. 마지막으로 Learning Manager에 교육 데이터를 전송합니다.
 
 조직은 레거시 콘텐츠와 Learning Manager LMS를 함께 사용할 수 있습니다.
@@ -83,11 +83,9 @@ Learning Manager는 책임자가 데이터와 콘텐츠를 Learning Manager 제�
 * 작업 지원 등록
 * 사용자 강의 등급
 
-
-
 ### 마이그레이션의 주요 개념 {#keyconceptsofmigration}
 
-Learning Manager 마이그레이션 프로세스의 주요 개념 중 일부는 빠른 참조를 위해 다음과 같이 간략하게 설명되어 있습니다.
+빠른 참조를 위해 Learning Manager 마이그레이션 프로세스의 주요 개념 중 일부를 다음과 같이 간단히 설명합니다.
 
 **마이그레이션 프로젝트**
 
@@ -107,7 +105,7 @@ Learning Manager 마이그레이션 프로젝트에서 스프린트는 기존 LM
 
 **CSV 사양**
 
-Learning Manager는 [표준 CSV 사양](migration-manual.md#main-pars_header_140933605) 세트를 제공합니다. 마이그레이션 프로세스를 시작하기 전에 CSV 사양을 살펴보는 것이 좋습니다. 조직의 통합 책임자는 기존 데이터 형식을 분석하고 Learning Manager에서 제공하는 CSV 템플릿 항목과 일치하도록 매핑할 수 있습니다.
+Learning Manager는 [표준 CSV 사양](migration-manual.md#main-pars_header_140933605) 세트를 제공합니다. 마이그레이션 프로세스를 시작하기 전에 CSV 사양을 살펴보는 것이 좋습니다. 조직의 통합 책임자는 기존의 데이터 형식을 분석하고 매핑하여 Learning Manager에서 제공한 CSV 템플릿 항목에 일치시킵니다.
 
 **마이그레이션 프로젝트 태그**
 
@@ -119,7 +117,7 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
 
 ## CSV 사양 및 샘플 CSV {#csv}
 
-아래에서 기존 LMS 마이그레이션 데이터를 매핑하는 데 사용하는 표준 CSV 사양을 확인할 수 있습니다. Zip 파일을 다운로드하려면 csv-specifications 및 sample-csvs를 클릭합니다. 다운로드한 csv-specifications.zip에는 7개의 Excel 시트 파일이 포함되어 있습니다. 이 엑셀 시트 파일에는 .csv 파일을 채우는 방법을 파악하게 해주는 설명과 사양이 들어 있습니다. 이 .xlsx 파일에 설명된 것과 같이 해당 .csv 파일은 각 필드에 지정된 형식의 데이터를 갖고 있어야 합니다.
+아래에서 기존 LMS 마이그레이션 데이터를 매핑하는 데 사용하는 표준 CSV 사양을 확인할 수 있습니다. Zip 파일을 다운로드하려면 csv-specifications 및 sample-csvs를 클릭합니다. 다운로드한 csv-specifications.zip에는 7개의 Excel 스프레드시트 파일이 포함되어 있습니다. 이 엑셀 시트 파일에는 .csv 파일을 채우는 방법을 파악하게 해주는 설명과 사양이 들어 있습니다. 이 .xlsx 파일에 설명된 것과 같이 해당 .csv 파일은 각 필드에 지정된 형식의 데이터를 갖고 있어야 합니다.
 
 <table border="1" cellspacing="0" cellpadding="0" width="100%">
  <tbody>
@@ -148,7 +146,7 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
    <td>
     <p>badge.xlsx</p></td>
    <td>
-    <p>badge.xlsx의 메타데이터</p></td>
+    <p>badge.xlsx에 대한 메타데이터</p></td>
    <td> </td>
   </tr>
   <tr>
@@ -167,7 +165,7 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
    <td>
     <p>module_version.xlsx </p></td>
    <td>
-    <p>module_version.csv의 메타데이터</p></td>
+    <p>module_version.csv용 메타데이터</p></td>
    <td>
     <p>콘텐츠를 업로드한 Box 계정 폴더에 URL 경로를 입력했는지 확인하십시오. </p></td>
   </tr>
@@ -177,7 +175,7 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
    <td>
     <p>course_instance.xlsx</p></td>
    <td>
-    <p>course_instance.csv의 메타데이터 </p></td>
+    <p>course_instance.csv용 메타데이터 </p></td>
    <td> </td>
   </tr>
   <tr>
@@ -196,7 +194,7 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
    <td>
     <p>course_module.xlsx</p></td>
    <td>
-    <p>course_module.csv의 메타데이터</p></td>
+    <p>course_module.csv용 메타데이터</p></td>
    <td> </td>
   </tr>
   <tr>
@@ -214,7 +212,7 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
    <td>
     <p>skill_level.xlsx</p></td>
    <td>
-    <p>skill_level.csv의 메타데이터</p></td>
+    <p>skill_level.csv용 메타데이터</p></td>
    <td> </td>
   </tr>
   <tr>
@@ -223,7 +221,7 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
    <td>
     <p>skill_course.xlsx</p></td>
    <td>
-    <p>skill_course.csv의 메타데이터</p></td>
+    <p>skill_course.csv용 메타데이터</p></td>
    <td> </td>
   </tr>
   <tr>
@@ -232,7 +230,7 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
    <td>
     <p>certification.xlsx</p></td>
    <td>
-    <p>Certification.csv의 메타데이터</p></td>
+    <p>Certification.csv용 메타데이터</p></td>
    <td> </td>
   </tr>
   <tr>
@@ -241,7 +239,7 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
    <td>
     <p>certification_course.xlsx</p></td>
    <td>
-    <p>certification_course.csv의 메타데이터</p></td>
+    <p>certification_course.csv용 메타데이터</p></td>
    <td> </td>
   </tr>
   <tr>
@@ -250,7 +248,7 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
    <td>
     <p>certification_commit.xlsx</p></td>
    <td>
-    <p>certification_commit.csv의 메타데이터</p></td>
+    <p>certification_commit.csv용 메타데이터</p></td>
    <td> </td>
   </tr>
   <tr>
@@ -259,16 +257,16 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
    <td>
     <p>learning_program.xlsx</p></td>
    <td>
-    <p>learning_program.csv의 메타데이터</p></td>
+    <p>learning_program.csv용 메타데이터</p></td>
    <td> </td>
   </tr>
   <tr>
    <td>
     <p>15</p></td>
    <td>
-    <p>learning_program_course.xls </p></td>
+    <p>learning_program_course.xml </p></td>
    <td>
-    <p>learning_program_course.csv의 메타데이터 </p></td>
+    <p>learning_program_course.csv용 메타데이터 </p></td>
    <td> </td>
   </tr>
   <tr>
@@ -305,7 +303,7 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
    <td>
     <p>Job_aid_version.xlsx</p></td>
    <td>
-    <p>job_aid_version.csv의 메타데이터</p></td>
+    <p>job_aid_version.csv용 메타데이터</p></td>
    <td> </td>
   </tr>
   <tr>
@@ -314,7 +312,7 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
    <td>
     <p>job_aid_course.xlsx</p></td>
    <td>
-    <p>job_aid_course.csv의 메타데이터</p></td>
+    <p>job_aid_course.csv용 메타데이터</p></td>
    <td> </td>
   </tr>
   <tr>
@@ -332,7 +330,7 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
    <td>
     <p>enrollments.xlsx</p></td>
    <td>
-    <p>enrollments.csv의 메타데이터</p></td>
+    <p>Metadata for enrollments.csv</p></td>
    <td> </td>
   </tr>
   <tr>
@@ -341,7 +339,7 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
    <td>
     <p>certification_enrollement.xlsx</p></td>
    <td>
-    <p>certification_enrollement.csv의 메타데이터</p></td>
+    <p>certification_enrollement.csv용 메타데이터</p></td>
    <td> </td>
   </tr>
   <tr>
@@ -359,7 +357,7 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
    <td>
     <p>job_aid_enrollment.xlsx</p></td>
    <td>
-    <p>job_aid_enrollment.csv의 메타데이터</p></td>
+    <p>job_aid_enrollment.csv용 메타데이터</p></td>
    <td> </td>
   </tr>
   <tr>
@@ -371,7 +369,7 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
     <p><br>
       user_course_grade.csv용 메타데이터</p></td>
    <td>
-    <p>필수 항목이 아니더라도 필요한 학습자 기록 데이터를 .csv 파일에 입력합니다. 이 정보가 없으면 마이그레이션을 위해 .csv 처리되더라도 Learning Manager 응용 프로그램에 데이터가 반영되지 않을 수 있습니다. sample-csvs.zip 파일에는 위와 유사한 명명 규칙을 가진 7개의 .csv 파일이 포함되어 있습니다.</p></td>
+    <p>필수 항목이 아니더라도 필요한 학습자 기록 데이터를 .csv 파일에 입력합니다. 해당 정보가 없는 경우 .csv의 마이그레이션이 처리된 후에도 Learning Manager 응용 프로그램이 데이터를 반영하지 못할 수 있습니다. sample-csvs.zip 파일에는 위와 같이 유사한 명명 규칙을 따르는 7개의 .csv 파일이 포함되어 있습니다.</p></td>
   </tr>
   <tr>
    <td>
@@ -380,14 +378,14 @@ Learning Manager에서는 콘텐츠가 없는 모듈을 업로드할 수 있습�
     <p>user_skill.xlsx</p></td>
    <td>
     <p><br>
-      user_skill.csv의 메타데이터</p></td>
+      user_skill.csv용 메타데이터</p></td>
    <td>
     <p> </p></td>
   </tr>
  </tbody>
 </table>
 
-Learning Manager는 UTF 8 및 32비트 형식으로만 날짜 및 시간 값을 지원합니다. 범위를 벗어난 날짜가 2038-07-17T08:53:21.000Z 또는 1980-04-17T08:13:25.322Z인 CSV 파일에서 날짜를 언급하면 마이그레이션 중에 오류가 발생할 수 있습니다.
+Learning Manager는 UTF 8 및 32비트 형식으로만 날짜 및 시간 값을 지원합니다. CSV 파일에 범위를 벗어난 날짜를 2038-07-17T08로 언급하면 마이그레이션 중 오류가 발생할 수 있습니다:53:21.000Z 또는 1980-04-17T08:13:25.322Z.
 
 * [sample-csvs.zip](assets/sample-csvs.zip)
 * [csv_specifications.zip](assets/csv-specifications.zip)
@@ -406,12 +404,10 @@ Learning Manager는 UTF 8 및 32비트 형식으로만 날짜 및 시간 값을 
 * learning_program_instance.csv는 learning_program 및 learning_program_course.csv에 종속됩니다.
 * learning_program_course.csv는 learning_program.csv에 종속됩니다.
 * learning_program_enrollment.csv는 learning_program 및 learning_program_instance.csv에 종속됩니다.
-* learning_program_instance_course_instance.csv learning_program.csv, learning_program_instance.csv 및 course_instance.csv에 따라 다릅니다.
-* certification_course.csv certification.csv와 course.csv에 따라 달라집니다.
-* certification_commit.csv certification.csv과 certification_course.csv에 따라 달라집니다.
+* learning_program_instance_course_instance.csv는 learning_program.csv, learning_program_instance.csv 및 course_instance.csv에 종속됩니다.
+* certification_course.csv는 certification.csv 및 course.csv에 종속됩니다.
+* certification_commit.csv는 certification.csv 및 certification_course.csv에 종속됩니다.
 * certification_enrollment.csv는 certification.csv, certification_course.csv 및 certification_enrollment.csv에 종속됩니다.
-
-
 
 ## 마이그레이션 절차 {#migrationprocedure}
 
@@ -419,11 +415,11 @@ Learning Manager는 UTF 8 및 32비트 형식으로만 날짜 및 시간 값을 
 
 * 한 시점에 하나의 계정으로 오직 하나의 마이그레이션 프로젝트만 진행할 수 있습니다. 한 시점에 한 프로젝트에서는 오직 한 개의 스프린트만 활성화할 수 있습니다.
 * 이미 실행한 마이그레이션 프로젝트는 취소할 수 없습니다. 다만, Learning Manager의 각 기능에서 지원하는 기존의 삭제 옵션을 사용하여 데이터 또는 콘텐츠 마이그레이션을 취소할 수 있습니다.
-* 마이그레이션 프로젝트가 시작되자마자 &#39;마이그레이션 중&#39; 상태로 전환됩니다. 마이그레이션 중에는 통합 책임자 역할만 Learning Manager에 로그인할 수 있습니다.
+* 마이그레이션 프로젝트를 시작하는 즉시 &#39;마이그레이션 중&#39; 상태로 이동합니다. 마이그레이션 중에는 통합 책임자 역할만 Learning Manager에 로그인할 수 있습니다.
 
 ### FTP 및 Box 계정 생성 {#creatingftpandboxaccounts}
 
-마이그레이션 프로젝트 계획은 아주 중요합니다. 각 스프린트에서 마이그레이션할 내용을 쉽게 식별할 수 있도록 프로젝트를 여러 스프린트로 나누는 것이 좋습니다. 프로젝트가 끝난 후 한 번의 막대한 확인 단계를 거치는 대신 각 스프린트의 데이터가 제대로 마이그레이션되었는지 매번 확인하면 더욱더 좋습니다. 마이그레이션 프로젝트의 스프린트를 시작하기 전에, 데이터와 콘텐츠를 FTP 및 Box 서버에 각각 업로드해야 합니다. 사용자 지정 FTP 및 Box에 대한 계정이 없는 경우 계정을 만들 수 있습니다.
+마이그레이션 프로젝트 계획은 아주 중요합니다. 각 스프린트에서 마이그레이션할 내용을 쉽게 식별할 수 있도록 프로젝트를 여러 스프린트로 나누는 것이 좋습니다. 프로젝트가 끝난 후 한 번의 막대한 확인 단계를 거치는 대신 각 스프린트의 데이터가 제대로 마이그레이션되었는지 매번 확인하면 더욱더 좋습니다. 마이그레이션 프로젝트의 스프린트를 시작하기 전에, 데이터와 콘텐츠를 FTP 및 Box 서버에 각각 업로드해야 합니다. 사용자 정의 FTP 및 Box에 대한 계정이 없는 경우 만들 수 있습니다.
 
 <!--**Create FTP account**-->
 
@@ -441,21 +437,21 @@ Box에서 공유 폴더 링크가 포함된 전자 메일을 전송합니다. Bo
 
 **FTP 폴더 또는 Box 폴더에 데이터 업로드(.csv 파일)**
 
-FTP 또는 Box 계정 생성은 마이그레이션 프로젝트의 전제 조건입니다. 따라서 이 단계에서 Learning Manager 응용 프로그램에서 마이그레이션 프로젝트 및 스프린트를 만들 수 있습니다.  마이그레이션 프로젝트를 만들려면 이 페이지의 데이터 및 콘텐츠 마이그레이션 절차&#x200B;**섹션을 참조하십시오**.
+FTP 또는 Box 계정 생성은 마이그레이션 프로젝트의 전제 조건입니다. 따라서 이 단계에서 Learning Manager 응용 프로그램에서 마이그레이션 프로젝트 및 스프린트를 생성할 수 있습니다.  자세한 내용은 **데이터 및 콘텐츠 마이그레이션 절차** 이 페이지의 섹션에서는 마이그레이션 프로젝트를 만들 수 있습니다.
 
-FTP 또는 Box 계정에서 프로젝트 폴더 이름을 클릭한 다음 스프린트 이름을 클릭합니다. 스프린트 폴더에 마이그레이션할 .csv 데이터 파일을 업로드할 수 있습니다. 업로드하려면 FTP 또는 Box 서버 상단의 파일 업로드 버튼을 클릭하고 .csv 파일을 놓습니다. 아래에는 참조를 위해 FTP에 업로드한 후의 샘플 스냅샷이 나와 있습니다.
+FTP 또는 Box 계정에서 프로젝트 폴더 이름을 클릭한 다음 스프린트 이름을 클릭합니다. 스프린트 폴더에 마이그레이션할 .csv 데이터 파일을 업로드할 수 있습니다. 업로드하려면 FTP 또는 Box 서버의 상단에 있는 파일 업로드 버튼을 클릭하고 .csv 파일을 삭제합니다. FTP에 업로드된 후의 샘플 스냅샷은 아래를 참조하십시오.
 
 <!--![](assets/exavault-upload.png)-->
 
-Learning Manager 마이그레이션 프로젝트로 돌아가서 새로 고침을&#x200B;]**클릭하고**[!UICONTROL &#x200B;마이그레이션 스프린트에 나열되는 모든 .csv 데이터 유형을 볼 수 있습니다.
+Learning Manager 마이그레이션 프로젝트로 돌아와 **[!UICONTROL 새로 고침]** 마이그레이션 스프린트에 나열된 모든 .csv 데이터 유형을 확인합니다.
 
 **콘텐츠 폴더에 교육 콘텐츠 업로드**
 
-Box 계정에 기존 LMS 교육 콘텐츠를 업로드합니다. 이미 마이그레이션 프로젝트와 스프린트를 생성했다면 Box 계정에 마이그레이션 프로젝트와 스프린트 이름을 채울 수 있습니다. 같은 경로로 콘텐츠를 업로드할 수 있습니다. 마이그레이션 프로젝트를 만들려면 이 페이지의 데이터 및 콘텐츠 마이그레이션 절차&#x200B;**섹션을 참조하십시오**.
+Box 계정에 기존 LMS 교육 콘텐츠를 업로드합니다. 이미 마이그레이션 프로젝트와 스프린트를 생성했다면 Box 계정에 마이그레이션 프로젝트와 스프린트 이름을 채울 수 있습니다. 같은 경로로 콘텐츠를 업로드할 수 있습니다. 자세한 내용은 **데이터 및 콘텐츠 마이그레이션 절차** 이 페이지의 섹션에서는 마이그레이션 프로젝트를 만들 수 있습니다.
 
-콘텐츠 파일을 드래그 앤 드롭하거나 **[!UICONTROL &#39;업로드&#39;]**&#x200B;를 클릭하여 데스크톱에서 파일을 선택할 수 있습니다. 콘텐츠의 파일 크기가 큰 경우, 파일 업로드에 지연이 발생할 수 있습니다. 파일 크기에 따라 Box 계정에 파일을 업로드하는 데 걸리는 시간이 달라집니다.
+콘텐츠 파일을 드래그 앤 드롭하거나 **[!UICONTROL &#39;업로드&#39;]**&#x200B;를 클릭하여 데스크톱에서 파일을 선택할 수 있습니다. 콘텐츠의 파일 크기가 큰 경우, 파일 업로드에 지연이 발생할 수 있습니다. 파일 크기에 따라 파일을 Box 계정에 업로드하는 데 걸리는 시간이 달라집니다.
 
-아래에는 Box 계정에 콘텐츠를 업로드한 후의 샘플 스냅숏이 나와 있습니다.
+아래에 있는 Box 계정에 콘텐츠를 업로드한 후의 샘플 스냅샷을 참조하십시오.
 
 ![](assets/box-account.png)
 
@@ -471,17 +467,17 @@ FTP 및 Box 서버에 로그인한 다음 콘텐츠를 업로드했다면, 아�
 
 ## 데이터 및 콘텐츠 마이그레이션 절차 {#dataandcontentmigrationprocedure}
 
-기업 LMS 데이터 및 콘텐츠를 Learning Manager로 마이그레이션하는 절차는 다음과 같습니다.
+기업 LMS 데이터 및 콘텐츠를 Learning Manager에 마이그레이션하는 절차는 다음과 같이 설명할 수 있습니다.
 
-마이그레이션을 시작하기 전에 마이그레이션 프로세스의 전제 조건을 확인합니다. 이 페이지의 CSV 사양 및 샘플 CSV](migration-manual.md#main-pars_header_140933605) 섹션을 참조[하여 데이터 및 콘텐츠 마이그레이션을 위한 CSV를 준비하십시오.
+마이그레이션을 시작하기 전에 마이그레이션 프로세스의 전제 조건을 확인합니다. 자세한 내용은 [CSV 사양 및 샘플 CSV](migration-manual.md#main-pars_header_140933605) 섹션으로 이동하고 데이터 및 콘텐츠 마이그레이션을 위한 CSV를 준비합니다.
 
-1. Learning Manager 응용 프로그램에 통합 관리자로 로그인하고 왼쪽 창에서 마이그레이션&#x200B;]**을 클릭합니다**[!UICONTROL .
+1. Learning Manager 응용 프로그램에 통합 책임자로 로그인한 다음 **[!UICONTROL 마이그레이션]** 왼쪽 창에.
 
    마이그레이션 프로젝트 홈페이지가 나타납니다. 조직에서 이미 마이그레이션 프로젝트를 생성한 경우, 이 페이지에서 전체 마이그레이션 목록을 볼 수 있습니다.
 
-1. 마이그레이션 프로젝트를 생성하려면 페이지 오른쪽 상단 모서리에 있는 **[!UICONTROL &#39;신규&#39;]**&#x200B;를 클릭합니다. 또는 페이지의 **[!UICONTROL &#39;마이그레이션 프로젝트 생성&#39;]** 링크를 클릭하여 마이그레이션 프로젝트를 생성할 수 있습니다. 마이그레이션 프로젝트 만들기 페이지가 나타납니다.
+1. 마이그레이션 프로젝트를 생성하려면 페이지 오른쪽 상단 모서리에 있는 **[!UICONTROL &#39;신규&#39;]**&#x200B;를 클릭합니다. 또는 페이지의 **[!UICONTROL &#39;마이그레이션 프로젝트 생성&#39;]** 링크를 클릭하여 마이그레이션 프로젝트를 생성할 수 있습니다. 마이그레이션 프로젝트 생성 페이지가 나타납니다.
 
-   FTP 폴더를 아직 만들지 않은 경우 계정에 FTP 폴더를 만들라는 메시지가 표시됩니다. 이는 마이그레이션 프로젝트 생성을 시작하기 전에 반드시 수행해야 하는 작업입니다.
+   아직 FTP 폴더를 생성하지 않은 경우 계정에 FTP 폴더를 생성하라는 메시지가 표시됩니다. 이는 마이그레이션 프로젝트 생성을 시작하기 전에 반드시 수행해야 하는 작업입니다.
 
    ![](assets/create-project.png)
    *FTP 폴더 만들기*
@@ -490,21 +486,21 @@ FTP 및 Box 서버에 로그인한 다음 콘텐츠를 업로드했다면, 아�
 
    마이그레이션 데이터 항목은 이 마이그레이션 프로젝트 태그로 식별됩니다. 특정 강의 카탈로그가 없는 경우, 드롭다운에서 기본 카탈로그를 선택합니다. 마이그레이션 프로젝트를 사용하여 마이그레이션하는 모든 강의는 이 단계에서 선택하는 카탈로그에 포함됩니다. 카탈로그를 선택하지 않는 경우 마이그레이션된 모든 강의는 기본 카탈로그의 일부가 됩니다.
 
-1. 다음 스냅샷과 같이 스프린트 구성 페이지가 나타납니다. 마이그레이션 프로젝트의 일부로 스프린트를 생성해야 합니다. 스프린트 이름을 선택하고 스프린트에 대한 간략한 설명을 입력합니다. 해당 스프린트의 일부로 콘텐츠를 마이그레이션하고 싶다면 &#39;예&#39;를 선택합니다. [다음&#x200B;]**]을 클릭합니다**[!UICONTROL .
+1. 다음 스냅샷과 같이 스프린트 구성 페이지가 나타납니다. 마이그레이션 프로젝트의 일부로 스프린트를 생성해야 합니다. 스프린트 이름을 선택하고 스프린트에 대한 간략한 설명을 입력합니다. 해당 스프린트의 일부로 콘텐츠를 마이그레이션하고 싶다면 &#39;예&#39;를 선택합니다. 다음을 수행합니다. **[!UICONTROL 다음]**.
 
    ![](assets/users-modified-sprint.png)
    *스프린트 마이그레이션*
 
-   사용자 목록을 Learning Manager 응용 프로그램과 동기화하려면 &quot;마지막 실행&#x200B;**이후 사용자가 추가 또는 수정되었습니다&quot;라는 제목**&#x200B;의 확인란을 선택합니다. Learning Manager응용 프로그램으로 콘텐츠와 데이터를 마이그레이션하는 경우, 해당 단계는 필수가 아닐 수 있습니다. 그러나 이전 스프린트 마이그레이션과 최신 스프린트 마이그레이션 사이에 시차가 있는 경우, 사용자 목록을 동기화하는 것이 좋습니다. 이 단계를 통해 Learning Manager 데이터베이스를 LMS 사용자와 동기화할 수 있습니다.
+   제목이 있는 확인란 선택 **마지막 실행 이후 사용자가 추가 또는 수정되었습니다.**&#x200B;를 클릭하여 사용자 목록을 Learning Manager 응용 프로그램과 동기화합니다. Learning Manager응용 프로그램으로 콘텐츠와 데이터를 마이그레이션하는 경우, 해당 단계는 필수가 아닐 수 있습니다. 그러나 이전 스프린트 마이그레이션과 최신 스프린트 마이그레이션 사이에 시차가 있는 경우, 사용자 목록을 동기화하는 것이 좋습니다. 이 단계를 거치면 Learning Manager 데이터베이스가 LMS 사용자와 동기화됩니다.
 
    이 동기화 단계는 enrollment.csv 및 user_course_grade.csv 파일을 마이그레이션할 때 시행하는 것이 좋습니다. 이 단계를 통해 Learning Manager 데이터베이스를 마이그레이션 데이터베이스와 동기화하며 스프린트에 기록이 마이그레이션된 모든 사용자를 마이그레이션 데이터베이스에서 사용할 수 있게 해줍니다.
 
-1. 업로드된 데이터 및 콘텐츠로 스프린트 마이그레이션을 시작할 수 있습니다. 스프린트 실행을 시작하기 전에 새로 고침&#x200B;]**링크를 클릭하여**[!UICONTROL  FTP 및 콘텐츠 폴더를 Learning Manager 응용 프로그램과 동기화합니다.
+1. 업로드된 데이터 및 콘텐츠로 스프린트 마이그레이션을 시작할 수 있습니다. 다음을 수행합니다. **[!UICONTROL 새로 고침]** FTP 및 콘텐츠 폴더를 Learning Manager 응용 프로그램과 동기화하는 스프린트 실행을 시작하기 전에 연결합니다.
 
    ![](assets/sprint1-filesupload.png)
    *스프린트 마이그레이션 시작*
 
-   페이지의 오른쪽 위 모서리에 있는 시작을&#x200B;]**클릭합니다**[!UICONTROL . 스프린트 마이그레이션 프로세스 중 언제든지 중지&#x200B;]**를 클릭하여**[!UICONTROL &#x200B;스프린트 마이그레이션을 중단할 수 있습니다.
+   다음을 수행합니다. **[!UICONTROL 시작]** 페이지 오른쪽 상단 다음을 수행할 수 있습니다. **[!UICONTROL 중지]** 스프린트 마이그레이션을 중단하려면 스프린트 마이그레이션 프로세스 중 언제든지
 
    마이그레이션 상태는 각 스프린트 데이터 항목 및 콘텐츠에 표시됩니다. 마이그레이션 스프린트 실행의 일부로 성공 및 실패 항목을 확인합니다.
 
@@ -515,12 +511,12 @@ FTP 및 Box 서버에 로그인한 다음 콘텐츠를 업로드했다면, 아�
    ![](assets/sample-sprint-progress-status.png)
    *스프린트 진행률 보기*
 
-   마이그레이션 프로젝트의 전체 스프린트 목록을 보려면 왼쪽 창의 스프린트 목록을 클릭합니다. 아래 샘플 스냅샷에 표시된 것처럼 모든 스프린트 목록, 각 스프린트에 대해 실행한 실행 수, 시작 날짜, 기간 및 완료 상태를 볼 수 있습니다.
+   마이그레이션 프로젝트의 전체 스프린트 목록을 보려면 왼쪽 창의 스프린트 목록을 클릭합니다. 아래의 스냅샷에 보이는 것처럼 전체 스프린트 목록, 각 스프린트에서 실행한 횟수, 시작 날짜, 지속 기간 및 완료 상태를 확인할 수 있습니다.
 
    ![](assets/sprint-list.png)
    *스프린트 목록 보기*
 
-1. 최신 버전으로 업데이트된 CSV를 업로드한 후, 페이지 오른쪽 상단 모서리에 있는 &#39;재실행&#39;을 클릭합니다. 모든 데이터 항목에 대한 프로세스를 재실행합니다. 변경 사항이 없는 항목은 무시합니다. 스프린트의 데이터 항목 마이그레이션에 만족한다면 페이지 위쪽의 단추를 클릭하여 스프린트 마이그레이션을 완료로 표시할 수 있습니다. 나중에 데이터 항목을 추가하여 새 스프린트를 시작할 수 있습니다. 스프린트를 완료로 표시한 후에는 재실행할 수 없습니다. 마찬가지로 마이그레이션 프로젝트에는 스프린트 수 제한이 없습니다. 모든 스프린트의 마이그레이션 상태에 만족하면 스프린트 목록 페이지에서 프로젝트 완료&#x200B;**표시 링크를 클릭하여**&#x200B;마이그레이션 프로젝트를 완료로 표시할 수 있습니다.
+1. 최신 버전으로 업데이트된 CSV를 업로드한 후, 페이지 오른쪽 상단 모서리에 있는 &#39;재실행&#39;을 클릭합니다. 모든 데이터 항목에 대한 프로세스를 재실행합니다. 변경 사항이 없는 항목은 무시합니다. 스프린트의 데이터 항목 마이그레이션에 만족한다면 페이지 위쪽의 단추를 클릭하여 스프린트 마이그레이션을 완료로 표시할 수 있습니다. 나중에 데이터 항목을 추가하여 새 스프린트를 시작할 수 있습니다. 스프린트를 완료로 표시한 후에는 재실행할 수 없습니다. 마찬가지로 마이그레이션 프로젝트에는 스프린트 수 제한이 없습니다. 모든 스프린트의 마이그레이션 상태가 만족스러우면 을 클릭하여 마이그레이션 프로젝트를 완료로 표시할 수 있습니다. **프로젝트 완료 표시** 스프린트 목록 페이지에서 연결합니다.
 
    마이그레이션 프로젝트를 완료로 표시하기 전에 프로젝트의 모든 스프린트가 완료되었는지 확인합니다. 마이그레이션을 완료로 표시한 후에는 뒤로 돌아가서 해당 프로젝트에서 스프린트를 생성하거나 해당 프로젝트 내용을 수정할 수 없습니다. 다른 마이그레이션 프로젝트를 생성하여 스프린트를 추가해야 합니다.
 
@@ -540,12 +536,12 @@ FTP 및 Box 서버에 로그인한 다음 콘텐츠를 업로드했다면, 아�
 
 3-learning_program_enrollment.xlsx-에는 retrofit_learning_program_enrollment.csv 파일에 필요한 메타 데이터에 대한 설명이 포함되어 있습니다.
 
-4-user_course_grades.xlsx - retrofit_user_course_grades.csv 파일에 필요한 메타데이터에 대한 설명을 포함합니다.
+4-user_course_grades.xlsx-retrofit_user_course_grades.csv 파일에 필요한 메타데이터의 설명이 포함되어 있습니다.
 [csv-specifications.zip](assets/csv-specifications.zip)
 
 >[!NOTE]
 >
->UUID(Universally Unique Id)는 마이그레이션 CSV의 열이기도 합니다.
+>UUID(Universal Unique Id)도 마이그레이션 csv의 열입니다.
 
 
 ## 마이그레이션 문제 해결 {#troubleshootingmigrationissues}
@@ -560,16 +556,16 @@ FTP 및 Box 서버에 로그인한 다음 콘텐츠를 업로드했다면, 아�
 
 Learning Manager는 사용자에게 두 가지 유형의 고유 ID를 제공합니다.
 
-* 전자 메일 ID
+* 이메일 ID
 * UUID(보편적 고유 ID)
 
-Learning Manager는 조직에서 유연한 사용자 제어를 할 수 있도록 UUID를 지원합니다. 관리자로서 계정에 사용자의 UUID가 있는 경우 해당 계정에 대한 사용자의 이메일 ID를 수정할 수 있습니다.
+Learning Manager는 조직에서 유연한 사용자 제어를 할 수 있도록 UUID를 지원합니다. 책임자가 계정에 사용자 UUID가 있는 경우, 해당 계정에 대한 사용자의 전자 메일 ID를 수정할 수 있습니다.
 
 **조직 내 UUID 사용 시나리오**
 
-직원 A가 Learning Manager라는 회사에 계약자로 입사하는 시나리오를 생각해 보겠습니다. 계약 기간 동안 Learning Manager 회사는 회사 이메일 ID를 다음과 같이 ```A@example.com```제공하지 않을 수 있으며, ```A@gmail.com```대신 회사는 직원의 개인 이메일 계정만 고려할 수 있습니다. 6개월의 계약 기간을 완료한 후 동일한 직원 A가 정규직 직원으로 Learning Manager에 합류하는 경우 Learning Manager는 자신의 이메일 ID를 회사 이메일 ID ```A@example.com```로 변경할 수 있습니다.
+직원 A가 Learning Manager라는 회사에 계약자로 입사하는 시나리오를 생각해 보십시오. 계약 기간 동안 Learning Manager 회사는 다음과 같이 회사 전자 메일 ID를 제공할 수 없습니다. ```A@example.com```대신 회사는 다음과 같이 직원의 개인 이메일 계정만 고려할 수 있습니다. ```A@gmail.com```. 6개월의 계약 기간을 완료한 후, 동일한 직원 A가 Learning Manager에 상근 직원으로 입사하면 Learning Manager는 전자 메일 ID를 회사 전자 메일 ID로 변경해야 할 수 있습니다. ```A@example.com```.
 
-사용자 계정에 대한 UUID 액세스 권한을 갖는 것은 위에서 언급한 시나리오에서 회사 학습 관리자에게 도움이 됩니다. Learning Manager 회사는 직원 A의 개인 이메일 ID를 공식 이메일 ID로 쉽게 대체 할 수 있습니다. 이 계정과 연관된 직원의 기록은 해당 변경 사항에 영향을 받지 않습니다.
+사용자 계정에 대한 UUID 액세스 권한이 있으면 위에서 언급한 시나리오에서 회사 Learning Manager에 도움이 됩니다. Learning Manager 회사는 직원 A의 개인 이메일 아이디를 공식 이메일 아이디로 쉽게 대체할 수 있습니다. 이 계정과 연관된 직원의 기록은 해당 변경 사항에 영향을 받지 않습니다.
 
 ## 단일 사용자 식별 {#singleuseridentification}
 
@@ -580,7 +576,7 @@ Learning Manager는 단일 사용자가 자가 등록, CSV 업로드, 사용자 
 
 ## 관리자 역할 할당 {#assigningmanagerrole}
 
-Learning Manager에서는 모든 사용자에게 관리자 역할을 직접 할당할 수 없습니다. 사용자 X는 해당 계정에 있는 모든 사용자(예: Y)의 관리자 속성을 X로 설정한 경우에만 Learning Manager 관리자가 될 수 있습니다.
+Learning Manager에서는 모든 사용자에게 관리자 역할을 직접 할당할 수 없습니다. 사용자 X는 해당 계정에서 어떤 사용자(예: Y)의 관리자 속성이 X로 설정된 경우에만 Learning Manager 책임자가 될 수 있습니다.
 
 X가 사용자 A, B, C의 관리자라는 시나리오를 생각해 봅시다. X가 조직을 떠난다면 A, B, C의 관리자 속성이 새 관리자로 설정되어 있는지 확인해야 합니다. 또는 해당 사용자의 관리자 속성을 일시적으로 루트로 설정한 다음 새로운 관리자 이름을 할당할 수도 있습니다.
 
