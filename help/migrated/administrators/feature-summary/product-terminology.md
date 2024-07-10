@@ -1,12 +1,12 @@
 ---
-description: 이 문서를 읽고 사용자 인터페이스에서 용어 집합을 사용하는 방법을 알아보십시오.
+description: Adobe Learning Manager는 사용자 인터페이스에서 표준 용어 집합을 사용합니다. 책임자는 조직의 필요에 맞게 용어를 수정할 수 있습니다.
 jcr-language: en_us
 title: 제품 용어
 contentowner: chandrum
-source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
+source-git-commit: b48e97151c95c55db72f91a2b187189c786d43ae
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 65%
+source-wordcount: '278'
+ht-degree: 72%
 
 ---
 
@@ -80,6 +80,5 @@ _확인 프롬프트_
 용어 변경 사항은 다음에 적용되지 않습니다.
 
 * 전자 메일 템플릿(**[!UICONTROL 관리자]** > **[!UICONTROL 전자 메일 템플릿]**)
-
 * 보고서(**[!UICONTROL 관리자]** > **[!UICONTROL 보고서]**)
 
