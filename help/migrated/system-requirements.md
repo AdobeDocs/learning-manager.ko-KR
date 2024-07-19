@@ -65,7 +65,7 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
 
 >[!NOTE]
 >
->모바일 브라우저는 학습자 역할만 지원합니다. **몰입형 레이아웃**.
+>모바일 브라우저는 **몰입형 레이아웃**&#x200B;에서 학습자 역할만 지원합니다.
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
 >
 >*user.csv* 파일의 크기가 100MB를 초과하는 경우 이 파일을 가져올 때 브라우저에서 예상치 못한 동작이 발생할 수 있습니다. 이 문제는 브라우저의 메모리가 부족하기 때문에 발생하는 것입니다.
 
-큰 사이즈로 수입하시는 것이 좋습니다 *user.csv* 자동화된 Box/Exavault 워크플로를 사용하는 파일입니다. 자세한 내용은 다음을 참조하십시오. [파일 마이그레이션](/help/migrated/integration-admin/feature-summary/migration-manual.md).
+자동화된 Box/Exavault 워크플로를 사용하여 큰 크기의 *user.csv* 파일을 가져오는 것이 좋습니다. 자세한 내용은 [파일 마이그레이션](/help/migrated/integration-admin/feature-summary/migration-manual.md)을 참조하세요.
 
 
 ## 지원되는 콘텐츠 형식
@@ -309,7 +309,7 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
   </tr>
   <tr>
    <td>GetAbstracts 커넥터</td>
-   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
+   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com </a></td>
   </tr>
   <tr>
    <td>Box 커넥터</td>

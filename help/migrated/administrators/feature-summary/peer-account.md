@@ -3,14 +3,13 @@ description: 이 문서에서 Learning Manager 피어 계정을 생성 및 관�
 jcr-language: en_us
 title: 피어 계정
 contentowner: shhivkum
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 62%
 
 ---
-
-
 
 # 피어 계정
 
@@ -20,14 +19,14 @@ Learning Manager에서는 피어 계정 기능을 사용하면 구입한 시트�
 
 ## 피어 계정 추가 {#addapeeraccount}
 
-1. 책임자 대시보드에서 **[!UICONTROL 설정]** > **[!UICONTROL 피어 계정]**.
-1. 오른쪽 상단에서 **[!UICONTROL 추가]**.
+1. 관리자 대시보드에서 **[!UICONTROL 설정]** > **[!UICONTROL 피어 계정]**&#x200B;을 클릭합니다.
+1. 오른쪽 상단에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
    ![](assets/peeraccount.png)
 
    *피어 계정 추가*
 
-1. (으)로 **[!UICONTROL 계정 하위 도메인]** 필드에서 피어 계정을 설정할 하위 도메인을 지정합니다.
+1. **[!UICONTROL 계정 하위 도메인]** 필드에서 피어 계정을 설정할 하위 도메인을 지정합니다.
 
    ![](assets/addpeer.png)
 
@@ -69,13 +68,13 @@ Learning Manager에서는 피어 계정 기능을 사용하면 구입한 시트�
 책임자는 피어 계정의 사용자 보고서를 볼 수 있습니다. 상위 계정 책임자는 보고서에 액세스하도록 요청할 수 있으며 피어 계정 책임자가 이를 수락하면 상위 책임자는 피어 계정에 등록된 사용자 수를 볼 수 있게 되며 피어 계정에 대한 사용자 보고서를 다운로드할 수 있게 됩니다.
 
 1. 피어 계정 페이지에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
-1. 다음 옵션을 활성화합니다. **[!UICONTROL 전체 계정에 대한 사용자 보고서를 다운로드할 수 있는 권한 요청]**.
+1. **[!UICONTROL 전체 계정에 대한 사용자 보고서를 다운로드할 수 있는 권한 요청]** 옵션을 활성화합니다.
 
 ![](assets/image034.png)
 
-*피어 계정에 대한 사용자 보고서 보기*
+*피어 계정의 사용자 보고서 보기*
 
-피어 계정에 대한 보고서를 다운로드하려면 **[!UICONTROL 다운로드]**.
+피어 계정에 대한 보고서를 다운로드하려면 **[!UICONTROL 다운로드]**&#x200B;를 클릭하십시오.
 
 ## 자주 묻는 질문 {#frequentlyaskedquestions}
 

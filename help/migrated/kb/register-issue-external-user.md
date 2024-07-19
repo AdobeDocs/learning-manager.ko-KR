@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: 외부 사용자로 등록할 수 없음
-description: 외부 학습자가 Adobe Learning Manager의 프로필에 등록할 수 없습니다.
+description: 외부 학습자를 Adobe Learning Manager의 프로필에 등록할 수 없습니다.
 contentowner: nluke
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: b1a9ecb6-75a8-44f7-b169-f77d7a4f6c2c
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 50%
 
 ---
-
-
 
 # 외부 사용자로 등록할 수 없음
 
@@ -43,18 +42,18 @@ ht-degree: 50%
 **시나리오 1:** 사용자가 이미 다른 외부 프로필에 등록되어 있습니다.
 
 1. 관리자로 로그인합니다.
-1. 아래 **관리**, 클릭 **[!UICONTROL 사용자]** > **[!UICONTROL 외부]**.
+1. **관리**&#x200B;에서 **[!UICONTROL 사용자]** > **[!UICONTROL 외부]**&#x200B;를 클릭합니다.
 1. &#39;사용된 시트&#39;를 클릭하여 사용자가 이미 등록되어 있는 프로필을 엽니다.
 
    ![](assets/cp-seats-used.png)
 
-   *사용자 프로필 열기*
+   *사용자의 프로필 열기*
 
-1. 사용자를 선택하고 **[!UICONTROL 액션]** > **[!UICONTROL 프로필 변경]**.
+1. 사용자를 선택하고 **[!UICONTROL 작업]** > **[!UICONTROL 프로필 변경]**&#x200B;을 클릭합니다.
 
    ![](assets/cp-change-profile.png)
 
-   *사용자 프로필 변경*
+   *사용자의 프로필 변경*
 
    그러면 아래와 같이 새 프로필을 선택할 수 있는 창이 열립니다.
 
@@ -67,29 +66,29 @@ ht-degree: 50%
 **시나리오 2:** 사용자가 내부 학습자로 등록되어 있습니다.
 
 1. 관리자로 로그인합니다.
-1. 아래 **관리**, 클릭 **[!UICONTROL 사용자]** > **[!UICONTROL 내부]**.
+1. **관리**&#x200B;에서 **[!UICONTROL 사용자]** > **[!UICONTROL 내부]**&#x200B;를 클릭합니다.
 1. 학습자 프로필을 클릭하여 열고 편집 아이콘을 클릭합니다.
 
    ![](assets/cp-internal-learner.png)
 
    *내부 학습자 프로필 열기*
 
-1. 학습자의 이메일 주소를 변경하거나 추가 *_old* 기존 전자 메일 주소로 보냅니다. 이렇게 하면 이메일 주소가 해제됩니다.
+1. 학습자의 전자 메일 주소를 변경하거나 기존 전자 메일 주소에 *_old*&#x200B;을(를) 추가합니다. 이렇게 하면 이메일 주소가 해제됩니다.
 
-   예를 들어 학습자의 이메일 주소가 다음과 같은 경우 *<abc@adobe.com>,* 다음으로 변경 *<abc_old@adobe.com>*
+   예를 들어 학습자의 이메일 주소가 *<abc@adobe.com>이면*&#x200B;에서 *<abc_old@adobe.com>*(으)로 변경합니다.
 
-1. 다음을 수행합니다. **저장** 변경 사항을 저장합니다.
+1. **저장**&#x200B;을 클릭하여 변경 내용을 유지합니다.
 
 **상황 3:** 사용자가 삭제된 상태입니다.
 
 1. 관리자로 로그인합니다.
-1. 아래 **관리**, 클릭 **[!UICONTROL 사용자]** > **[!UICONTROL 사용자 정리]**.
+1. **관리**&#x200B;에서 **[!UICONTROL 사용자]** > **[!UICONTROL 사용자 정리]**&#x200B;를 클릭합니다.
 1. 학습자를 선택하고 편집 아이콘을 클릭합니다.
 
    ![](assets/cp-deleted-learner.png)
 
-   *사용자 이메일 주소 편집*
+   *사용자 전자 메일 주소 편집*
 
-1. 학습자의 이메일 주소를 변경하거나 추가 *_old* 기존 전자 메일 주소로 보냅니다. 이렇게 하면 이메일 주소가 해제됩니다.
+1. 학습자의 전자 메일 주소를 변경하거나 기존 전자 메일 주소에 *_old*&#x200B;을(를) 추가합니다. 이렇게 하면 이메일 주소가 해제됩니다.
 
-   예를 들어 학습자의 이메일 주소가 다음과 같은 경우 **<abc@adobe.com>**, 다음으로 변경 **<abc_old@adobe.com>**.
+   예를 들어 학습자의 이메일 주소가 **<abc@adobe.com>**&#x200B;이면 **<abc_old@adobe.com>**(으)로 변경합니다.

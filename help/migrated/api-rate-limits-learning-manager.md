@@ -110,7 +110,7 @@ x-burst: 2
 
 이 샘플 JavaScript 코드를 사용하면 이러한 내용을 쉽게 확인할 수 있습니다. 이 항목 클릭 [바이올린](https://jsfiddle.net/ACAPJS/9yv8zcmL/) 작동 중인 코드를 확인합니다.
 
-이 응용 프로그램을 사용하려면 계정에 대한 학습자 역할 응용 프로그램 토큰을 제공해야 합니다. 다음을 참조하십시오. [응용 프로그램 개발자 설명서](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/) API 토큰에 대한 정보를 확인하고 Learning Manager 통합 책임자 응용 프로그램의 개발자 리소스 섹션에서 토큰 도우미를 사용하여 토큰을 생성할 수 있습니다.
+이 응용 프로그램을 사용하려면 계정에 대한 학습자 역할 응용 프로그램 토큰을 제공해야 합니다. API 토큰에 대한 내용은 [응용 프로그램 개발자 설명서](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/)를 참조하십시오. Learning Manager 통합 관리자 응용 프로그램의 개발자 리소스 섹션에서 토큰 도우미를 사용하여 토큰을 생성할 수 있습니다.
 
 이 응용 프로그램은 한 번에 10개의 더미 API를 루프에서 호출합니다. 더미 API의 속도 제한이 (5, 2)이므로 Learning Manager에서 받은 첫 5+2 호출이 성공하면 속도 제한이 위반되고 성공 응답이 표시됩니다.
 

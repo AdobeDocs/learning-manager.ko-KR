@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 학습 프로그램 중단 문제
 description: Adobe Learning Manager의 학습 프로그램 중단 문제
 contentowner: nluke
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: 706cafe3-2650-4837-9dee-e381a4a711f9
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 55%
 
 ---
-
-
 
 # 학습 프로그램 중단 문제
 
@@ -30,15 +29,15 @@ ht-degree: 55%
 
 1. 책임자로 로그인하고 관련 학습 프로그램을 실행합니다.
 
-1. 다음을 수행합니다. **[!UICONTROL 인스턴스]** > **C강의**. 페이지에 해당 학습 프로그램의 모든 강의가 나열됩니다. 중단된 인스턴스가 포함된 강의를 볼 수 있습니다.
+1. **[!UICONTROL 인스턴스]** > **C과정**&#x200B;을 클릭합니다. 페이지에 해당 학습 프로그램의 모든 강의가 나열됩니다. 중단된 인스턴스가 포함된 강의를 볼 수 있습니다.
 
    ![](assets/retired-instance.png)
 
    *모든 강의 목록 보기*
 
-1. 중단된 강의 인스턴스를 확인했으면 **[!UICONTROL 강의]** > **[!UICONTROL 강의 열기]**.
+1. 중단된 강의 인스턴스를 확인했으면 **[!UICONTROL 강의]** > **[!UICONTROL 강의 열기]**&#x200B;를 클릭합니다.
 
-1. 다음을 수행합니다. **[!UICONTROL 인스턴스]**. 중단된 인스턴스에서 **[!UICONTROL 편집]** 그런 다음 완료일을 인스턴스를 폐기할 미래의 날짜로 편집합니다.
+1. **[!UICONTROL 인스턴스]**&#x200B;를 클릭합니다. 중단된 인스턴스에서 **[!UICONTROL 편집]**&#x200B;을 클릭하고 완료일을 인스턴스를 중단하려는 미래의 날짜로 편집합니다.
 
    ![](assets/completion-date.png)
 
@@ -50,4 +49,4 @@ ht-degree: 55%
 
    *강의 인스턴스 다시 열기*
 
-1. 관련 학습 프로그램을 방문합니다. 다음을 수행합니다. **[!UICONTROL 인스턴스]** 이전 단계를 실행하여 학습 프로그램의 인스턴스를 다시 엽니다.
+1. 관련 학습 프로그램을 방문합니다. **[!UICONTROL 인스턴스]**&#x200B;를 클릭하고 이전 단계를 실행하여 학습 프로그램의 인스턴스를 다시 엽니다.

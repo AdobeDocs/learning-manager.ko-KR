@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 달력을 확인할 수 없음
 description: 책임자가 외부 등록 프로필의 만료 날짜를 수정하려고 달력을 클릭했을 때 달력이 표시되지 않습니다.
 contentowner: saghosh
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 1b7e5594-714a-4a1d-9b8f-d481c1b48cb5
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 88%
 
 ---
-
-
 
 # 달력을 확인할 수 없음
 
@@ -41,12 +40,12 @@ ht-degree: 88%
 
 ### 디스플레이 설정
 
-1. 다음을 수행합니다. **[!UICONTROL 시작]** > **[!UICONTROL 설정]** > **[!UICONTROL 시스템]**.
+1. **[!UICONTROL 시작]** > **[!UICONTROL 설정]** > **[!UICONTROL 시스템]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 디스플레이]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 배율 및 레이아웃]** 섹션에서 드롭다운 목록을 사용합니다. 설정을 100%로 변경합니다.
 
    ![](assets/scale-layout.png)
 
-   *디스플레이 설정 변경*
+   *표시 설정 변경*
 
 1. 컴퓨터를 다시 시작합니다.

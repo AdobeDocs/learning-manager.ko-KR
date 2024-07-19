@@ -287,11 +287,11 @@ Android와 iOS은 푸시 알림을 장치에 보내는 서비스로 FCM(Firebase
 
 다음 절차를 따르십시오.
 
-1. 생성 또는 다운로드 **푸시 알림 인증서** 및 개인 키(.p12). 자세한 내용은 [Apple 개발자 문서](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
+1. **푸시 알림 인증서** 및 개인 키(.p12)를 생성하거나 다운로드합니다. 자세한 내용은 [Apple 개발자 문서](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns)를 참조하세요.
 
-1. 파일을 다운로드한 후 p12 파일을 설치합니다. 암호를 사용하여 **키체인 액세스**.
+1. 파일을 다운로드한 후 p12 파일을 설치합니다. 암호를 사용하여 **키체인 액세스**&#x200B;에 설치합니다.
 
-1. 다음으로 이동: **내 인증서** 을 입력한 다음 인증서를 내보냅니다. MIME 유형 .cer을 선택해야 합니다.
+1. **내 인증서**(으)로 이동하여 인증서를 내보냅니다. MIME 유형 .cer을 선택해야 합니다.
 
 1. p12 파일 및 cer 파일을 사용할 수 있게 되면 다음 명령을 실행합니다.
 
@@ -309,23 +309,23 @@ Android와 iOS은 푸시 알림을 장치에 보내는 서비스로 FCM(Firebase
 
 Android의 경우 사용자는 SNS 서비스에 항목을 추가하려면 Firebase 프로젝트에서 services.json 파일을 제공해야 합니다.
 
-Firebase에서 프로젝트를 만들고 services.json 파일을 CSM 팀에 공유합니다. 이 파일은 SNS의 토큰 기반 항목에 필요합니다. 서버 키는 더 이상 사용되지 않습니다. 자세한 내용은 [Firebase에서 프로젝트 만들기](#create-project-in-firebase).
+Firebase에서 프로젝트를 만들고 services.json 파일을 CSM 팀에 공유합니다. 이 파일은 SNS의 토큰 기반 항목에 필요합니다. 서버 키는 더 이상 사용되지 않습니다. [Firebase에서 프로젝트 만들기](#create-project-in-firebase)를 참조하십시오.
 
 services.json 파일을 다운로드하려면 다음 단계를 따르십시오.
 
-1. 로그인: **파이어베이스** 콘솔.
-1. 다음으로 이동: **프로젝트 설정** 을 클릭하고 **클라우드 메시징**.
-1. 찾기 **Firebase Cloud Messaging API** 을 클릭하고 **서비스 계정 관리**.
-1. (으)로 **서비스 계정** 페이지에서 **서비스 계정** 있습니다.
-1. 프로젝트 항목을 찾아 **세부 정보 관리** 작업.
+1. **Firebase** 콘솔에 로그인합니다.
+1. **프로젝트 설정**(으)로 이동하고 **클라우드 메시징**&#x200B;을 선택합니다.
+1. **Firebase 클라우드 메시징 API**&#x200B;를 찾아 **서비스 계정 관리**&#x200B;를 선택합니다.
+1. **서비스 계정** 페이지의 왼쪽 패널에서 **서비스 계정**&#x200B;을 선택합니다.
+1. 프로젝트 항목을 찾은 다음 작업에서 **세부 정보 관리**&#x200B;를 선택합니다.
 
    >[!NOTE]
    >
    >   프로젝트 항목 형식은 &lt;-accountname->@appspot.gserviceaccount.com입니다.
 
-1. 다음으로 이동 **키** tab 키를 누른 다음 **키 추가**.
-1. 키가 없으면 **새 키 만들기** 을 클릭하고 **JSON** 키 유형입니다. 그러면 JSON 파일이 생성되고 다운로드됩니다.
-1. 이미 키가 있는 경우 다음을 선택합니다. **기존 키 업로드**&#x200B;키를 붙여넣고 업로드합니다. 그러면 JSON 파일이 생성되고 다운로드됩니다.
+1. **키** 탭으로 이동하여 **키 추가**&#x200B;를 선택합니다.
+1. 키가 없으면 **새 키 만들기**&#x200B;를 선택하고 키 유형으로 **JSON**&#x200B;을 선택합니다. 그러면 JSON 파일이 생성되고 다운로드됩니다.
+1. 이미 키가 있는 경우 **기존 키 업로드**&#x200B;를 선택하고 키를 붙여넣고 업로드합니다. 그러면 JSON 파일이 생성되고 다운로드됩니다.
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
 
@@ -337,11 +337,11 @@ AWS에서 SNS 서비스에 항목을 추가하려면 CSM 팀에 연락하고 JSO
 
 위 단계에서 만든 것과 동일한 프로젝트를 푸시 알림에 다시 사용합니다.
 
-[프로젝트 추가](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) Firebase에서 ***google-services.json*** 파일입니다.
+Firebase에서 [프로젝트를 추가](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging)하고 ***google-services.json*** 파일을 검색합니다.
 
 ### iOS
 
-[프로젝트 추가](https://firebase.google.com/docs/ios/setup) Firebase로 이동하여 ***GoogleService-Info.plist*** 파일입니다.
+[Firebase에 ](https://firebase.google.com/docs/ios/setup) 프로젝트를 추가하고 ***GoogleService-Info.plist*** 파일을 검색합니다.
 
 >[!IMPORTANT]
 >
@@ -373,13 +373,13 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >
 >서명된 바이너리를 빌드하려면 Android sdk 빌드 도구가 필요합니다.
 
-**다음 단계**
+**다음 작업**
 
 바이너리를 생성한 후 바이너리를 Play 스토어 또는 App Store에 푸시합니다.
 
 ## 변경 사항을 적용하는 방법
 
-필요한 에셋 및 파일을 CSM 팀으로 보냅니다. CSM 팀이 다음을 채웁니다. [양식](https://forms.office.com/r/bJRRaRBvSh) 를 필수 변경 사항으로 변경하고 필요한 에셋을 첨부합니다. 그런 다음 팀이 검토 후 변경 사항을 엔지니어링 팀에 알립니다. 그런 다음 엔지니어링 팀은 빌드를 생성하고 CSM 팀과 공유합니다.
+필요한 에셋 및 파일을 CSM 팀으로 보냅니다. 그런 다음 CSM 팀은 [양식](https://forms.office.com/r/bJRRaRBvSh)에 필요한 변경 내용을 입력하고 필요한 에셋을 첨부합니다. 그런 다음 팀이 검토 후 변경 사항을 엔지니어링 팀에 알립니다. 그런 다음 엔지니어링 팀은 빌드를 생성하고 CSM 팀과 공유합니다.
 
 CSM 팀이 고객과 빌드를 공유합니다.
 

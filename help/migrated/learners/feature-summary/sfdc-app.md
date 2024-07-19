@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Salesforce용 Learning Manager 앱
-description: Salesforce&trade는 영업 및 마케팅 팀 사이에서 가장 인기 있는 CRM 솔루션입니다. 학습자는 Salesforce에서 Adobe Learning Manager 앱을 사용하여 Salesforce 인터페이스에서 학습 콘텐츠에 액세스할 수 있습니다. 학습자는 Salesforce에서 강의, 학습 프로그램, 작업 지원 등 할당된 학습 콘텐트에 접속할 수 있습니다. 사용자는 등록에 대한 알림 및 책임자의 공지를 받을 수도 있습니다.
+description: Salesforce&trade;는 영업 및 마케팅 팀 사이에서 가장 인기 있는 CRM 솔루션입니다. 학습자는 Salesforce에서 Adobe Learning Manager 앱을 사용하여 Salesforce 인터페이스에서 학습 콘텐츠에 액세스할 수 있습니다. 학습자는 Salesforce에서 강의, 학습 프로그램, 작업 지원 등 할당된 학습 콘텐트에 접속할 수 있습니다. 사용자는 등록에 대한 알림 및 책임자의 공지를 받을 수도 있습니다.
 contentowner: jayakarr
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 4de04fbe-af45-427e-9a2f-11990e1c6fe7
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 75%
 
 ---
-
-
 
 # Salesforce용 Learning Manager 앱
 
@@ -18,11 +17,11 @@ ht-degree: 75%
 
 Salesforce™는 판매 및 마케팅팀 사이에서 가장 인기 있는 CRM 솔루션 중 하나입니다. 학습자는 Salesforce에서 Adobe Learning Manager 앱을 사용하여 Salesforce 인터페이스에서 학습 콘텐츠에 액세스할 수 있습니다. 학습자는 Salesforce에서 강의, 학습 프로그램, 작업 지원 등 할당된 학습 콘텐트에 접속할 수 있습니다. 사용자는 등록에 대한 알림 및 책임자의 공지를 받을 수도 있습니다.
 
-이 앱은 귀하의 Learning Manager 계정 책임자가 필요한 설치 활동을 완료했을 때만 Salesforce 내에서 사용할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [Salesforce용 Learning Manager 앱](../../integration-admin/feature-summary/sfdc-app.md)을 추가하고 관리자에게 Salesforce용 Learning Manager 앱 설치를 요청하십시오.
+이 앱은 귀하의 Learning Manager 계정 책임자가 필요한 설치 활동을 완료했을 때만 Salesforce 내에서 사용할 수 있습니다. 자세한 내용은 [Salesforce용 Learning Manager 앱](../../integration-admin/feature-summary/sfdc-app.md)을 참조하고 관리자에게 Salesforce용 Learning Manager 앱 설치를 요청하십시오.
 
 ## Salesforce에서 앱 찾기 {#locateappinsalesforce}
 
-학습자는 **앱** 페이지의 오른쪽 모서리에 있는 드롭다운을 사용하여 Adobe Learning Manager를 선택합니다.
+학습자는 페이지의 오른쪽 모서리에 있는 **앱** 드롭다운을 클릭한 다음 Adobe Learning Manager을 선택합니다.
 
 드롭다운에서 앱을 찾을 수 없는 경우 Salesforce 책임자에게 문의하십시오.
 
@@ -32,7 +31,7 @@ Salesforce™는 판매 및 마케팅팀 사이에서 가장 인기 있는 CRM �
 
 ## 로그인 및 사용 지침 {#loginandusageinstructions}
 
-다음을 수행합니다. **[!UICONTROL Learning Manager에 연결]** 위 스냅샷에 나타난 것과 같이 Adobe Learning Manager에서 귀하의 Learning Manager 계정 자격 증명으로 로그인합니다.
+위 스냅샷에 나타난 것과 같이 Adobe Learning Manager에서 **[!UICONTROL Learning Manager에 연결]**&#x200B;을 클릭하고 귀하의 Learning Manager 계정 자격 증명으로 로그인합니다.
 
 Learning Manager 앱을 연결하여 Salesforce 내에서 사용할 수 있습니다.
 

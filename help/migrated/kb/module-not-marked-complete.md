@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Adobe Learning Manager에서 강의를 완료했으나 모듈이 미완료로 표시됨
 description: 학습자가 Adobe Learning Manager에서 강의를 완료한 후에도 모듈이 미완료로 표시됩니다.
 contentowner: nluke
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: c0f14f2e-733a-4b4f-a2c2-4c0b33a15fa1
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 53%
 
 ---
-
-
 
 # Adobe Learning Manager에서 강의를 완료했으나 모듈이 미완료로 표시됨
 
@@ -22,9 +21,9 @@ ht-degree: 53%
 
 SCORM 2004의 경우 성공 및 완료 조건을 지정하고 각각에 대한 명령문을 별도로 전송합니다.
 
-예를 들어, 다음과 같은 **완료 조건** 슬라이드 보기 100% **성공 조건** &quot;퀴즈 합격&quot;으로 설정합니다.
+**완료 조건**&#x200B;이 슬라이드 보기 100%이고, **성공 조건**&#x200B;이 &quot;퀴즈 합격&quot;으로 설정된 콘텐츠를 예로 들어보겠습니다.
 
-학습자가 강의는 완료했으나 퀴즈에 불합격합니다. 이 경우 진행률은 100%지만 학습자가 다음 사항을 충족하지 못하여 모듈이 미완료로 표시됩니다. **성공 조건**.
+학습자가 강의는 완료했으나 퀴즈에 불합격합니다. 이 경우 진행률은 100%지만 학습자가 **성공 조건**&#x200B;을 충족하지 못하여 모듈이 미완료로 표시됩니다.
 
 ## 해결 방법
 

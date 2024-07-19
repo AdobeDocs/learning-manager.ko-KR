@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 작성자로 시작
 description: 시작 페이지를 사용하여 Adobe Learning Manager의 주요 작성 기능을 탐색합니다.
 contentowner: manochan
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: 9f6d4307-91c5-4c80-8e6d-aebfa6d4feaa
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 54%
 
 ---
-
-
 
 # 작성자로 시작
 
@@ -36,4 +35,3 @@ ht-degree: 54%
 또한 튜토리얼 비디오 시청, 도움말 콘텐츠 보기 및 다양한 역할 배우기를 선택하여 Learning Manager 응용 프로그램에 대해 자세히 알아볼 수 있습니다.
 
 <!--![](assets/author-experienceprime.png)-->
-

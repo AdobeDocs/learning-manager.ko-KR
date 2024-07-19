@@ -69,14 +69,14 @@ Adobe Learning Manager의 이번 릴리스에서는 학습자가 하나 이상�
 
 이번 Adobe Learning Manager 릴리스에는 AWS Transfer 제품군의 SFTP 프로토콜을 사용하는 새 커넥터가 포함됩니다.
 
-자세한 내용은 다음을 참조하세요. [Adobe Learning Manager 2023년 7월 릴리스의 새로운 기능](/help/migrated/whats-new-2023-july.md).
+자세한 내용은 [Adobe Learning Manager 2023년 7월 릴리스의 새로운 기능](/help/migrated/whats-new-2023-july.md)을 참조하세요.
 +++
 
 +++업데이트: 92
 
 **릴리스 날짜:** 2023년 6월 23일
 
-**이번 업데이트에서 수정된 버그**
+**이 업데이트에서 수정된 버그**
 
 * 모듈을 완료한 후 등급 API가 자동으로 트리거되지 않으므로 녹색 눈금 표시가 사용자 인터페이스에 예상대로 표시되지 않습니다.
 * 학습 경로 또는 인증에서 몇 가지 모듈을 완료한 후 성공적인 완료를 나타내는 녹색 눈금 표시가 예상대로 표시되지 않습니다.
@@ -104,7 +104,7 @@ Adobe Learning Manager의 이번 릴리스에서는 학습자가 하나 이상�
 
 ### 이번 업데이트에서 수정된 문제
 
-* Play Store의 Adobe Learning Manager 모바일 앱 설명에 학습자가 오프라인으로 강의를 수강할 수 있다고 잘못 기재되어 있습니다.
+* Play Store의 Adobe Learning Manager 모바일 앱 설명에 학습자가 오프라인으로 강의를 수강할 수 있다는 잘못된 설명이 표시됩니다.
 * linkedIn에서 Adobe Learning Manager으로 콘텐츠(module_version.csv 및 course_module.csv)를 마이그레이션할 때 문제가 발생했습니다.
 * 계정이 비활성 상태이고 3년 이상 전에 생성된 경우, 계정의 모든 사용자는 사용자 상태에 관계없이 GDPR로 삭제됩니다.
 * 강사 앱에서 세션의 대기자 명단 제한을 0으로 설정하고 세션을 저장하면 사용자 인터페이스에서 0 대신 &quot;적용할 수 없음&quot;으로 잘못 표시됩니다.
@@ -127,7 +127,7 @@ SSO 로그인 URL에 entity_id 가 있으면 SAML 로그인이 실패합니다.
 
 ### 이 업데이트의 새로운 기능
 
-**ILT(강사 주도 교육) 경험 개선 사항**
+**ILT(Instructor Led Training) 환경의 개선 사항**
 
 ILT(Instructor-Led Training) 경험에 대한 몇 가지 개선 사항이 적용되었습니다. 향상된 주요 기능으로는 위치를 기반으로 강의실 세션을 필터링하는 기능, 진행률을 잃지 않고 인스턴스(VILT)를 전환하는 기능, 강사 및 강의실 예약 시 충돌을 관리할 수 있는 새로운 &#39;예약 도우미&#39;, 강사에게 &#39;스킬&#39;을 첨부하고 스킬을 기반으로 강사를 선택할 수 있는 기능이 있습니다.
 
@@ -147,7 +147,7 @@ ILT(Instructor-Led Training) 경험에 대한 몇 가지 개선 사항이 적용
 
 이제 Adobe Learning Manager에서 &quot;하이브리드&quot; ILT(강사 주도 교육) 세션을 만드는 기능을 지원합니다. 선택 위치 정보로 가상 ILT 세션을 생성할 수 있으므로 학습자는 가능한 경우 해당 위치에서 직접 세션에 참석할 수 있습니다.
 
-**강의실 및 가상 ILT에 대한 진행 상황 추적 개선**
+**강의실 및 가상 ILT에 대한 더 나은 진행률 추적**
 
 강의실 및 가상 ILT 모듈은 이제 학습자의 출석 상태와 함께 퀴즈 상태(합격 또는 불합격)를 보고할 수 있는 기능을 제공합니다. 따라서 출석과 퀴즈 합격 여부 모두 학습자의 진행률을 결정하는 요인이 될 수 있습니다.
 
@@ -192,7 +192,7 @@ Microsoft Teams에서의 새로운 Adobe Learning Manager 앱은 작업 흐름�
 
 * 작업 지원 위젯에서 강의 이름을 볼 수 없습니다.
 
-**게시 중**
+**게시**
 
 * 모듈이 ALM에 게시되면 Adobe Captivate에 추가된 모듈 설명이 Learning Manager에 표시되지 않습니다.
 
@@ -201,7 +201,7 @@ Microsoft Teams에서의 새로운 Adobe Learning Manager 앱은 작업 흐름�
 * 많은 수의 기록이 포함된 CSV를 처리 중인 경우 상당한 시간이 소요되며, 이 시간 동안 사용자가 로그인하여 속성 중 하나에 대한 값을 입력하면 새 사용자 그룹이 생성되어 CSV 오류가 발생할 수 있습니다. 이 문제를 해결하려면 CSV 가져오기가 진행 중일 때 활성 필드 속성 팝업 메시지가 비활성화되고 CSV 업로드가 완료되면 다시 활성화됩니다.
 * 사용자 csv 파일의 열이 외부 사용자 활성 필드와 동일한 이름을 가지면 csv 업로드가 실패합니다.
 
-**API 관련 수정 사항**
+**API 관련 수정**
 
 * learningObjects 응답에서 책갈피 특성이 누락되었습니다.
 * 삭제된 사용자에 대한 oauth 새로 고침 토큰을 생성하는 동안 액세스 항목이 생성됩니다.
@@ -217,7 +217,7 @@ iPhone 14 앱의 활동 탭에서 알림을 클릭해도 아무 동작도 수행
 * MS Teams의 Adobe Learning Manager 앱에 있는 사용자 인터페이스 언어는 언어가 변경될 때 예상대로 변경되지 않는 경우가 있습니다.
 * 초점이 Iframe(홈 및 카탈로그 탭) 내에 있는 경우 첫 번째 알림과 상호 작용할 수 없습니다.
 
-**Adobe Learning Manager 모바일 앱의 제한 사항**
+**Adobe Learning Manager 모바일 앱의 제한**
 
 * 오프라인 콘텐츠 보기
 * 카탈로그/내 학습 페이지의 눈금/목록 보기
@@ -247,7 +247,7 @@ iPhone 14 앱의 활동 탭에서 알림을 클릭해도 아무 동작도 수행
 ## 이번 업데이트에서 수정된 버그
 
 * CR/VC 모듈이 등록된 강의에서 제거된 경우 학습자에게 세션 취소 전자 메일이 전송되지 않습니다.
-* GetNotificationData를 GET에서 POST으로 변경합니다. 원래 구현으로 인해 오류가 발생했습니다. **IllegalArgumentException: 요청 헤더가 너무 큽니다.**이 때문에 알림이 실패했습니다.
+* GetNotificationData를 GET에서 POST으로 변경합니다. 원래 구현에서 **IllegalArgumentException: 요청 헤더가 너무 큼** 오류가 발생하여 알림이 실패했습니다.
 +++
 
 +++업데이트: 86
@@ -283,7 +283,7 @@ GET learningmanagerapi/v2/learningObjects에서 언어를 필터링하는 동안
 
 이 업데이트는 계정의 모든 작업 지원을 나열하는 새 작업 지원 보고서를 제공합니다.
 
-**버전 관리**
+**버전 제어**
 
 강의를 생성하는 동안 리소스를 추가할 때 리소스에 대한 버전 제어를 추가했습니다.
 
@@ -299,7 +299,7 @@ GET learningmanagerapi/v2/learningObjects에서 언어를 필터링하는 동안
 
 이제 일부 전자 메일 템플릿에 필수 구성 요소를 추가할 수 있습니다.
 
-**기타 변경 사항**
+**기타 변경 내용**
 
 * 관리자 승인 강의를 필수 구성 요소로 추가할 수 있습니다.
 * 학습 요약 대시보드를 새로 고침할 때 성능이 개선되었습니다.
@@ -324,11 +324,11 @@ GET learningmanagerapi/v2/learningObjects에서 언어를 필터링하는 동안
 
 **새 열**
 
-새 열, **unenrollmentAllow**, 이(가) course.xlsx에 추가되었습니다. 이 설명서에서 파일을 다운로드합니다.
+새 열 **unenrollmentAllowed**&#x200B;이(가) course.xlsx에 추가되었습니다. 이 설명서에서 파일을 다운로드합니다.
 
 **Linkedin Learning 커넥터**
 
-LinkedIn Learning 커넥터의 경우 [필터] 페이지에 [학습자가 등록 취소할 수 있음] 확인란이 새로 도입되었습니다. 자세한 내용은 다음을 참조하세요. [LinkedIn Learning 커넥터](/help/migrated/integration-admin/feature-summary/connectors.md).
+LinkedIn Learning 커넥터의 경우 [필터] 페이지에 [학습자가 등록 취소할 수 있음] 확인란이 새로 도입되었습니다. 자세한 내용은 [LinkedIn Learning 커넥터](/help/migrated/integration-admin/feature-summary/connectors.md)를 참조하십시오.
 
 ### 이번 업데이트에서 수정된 버그
 
@@ -375,7 +375,7 @@ LinkedIn Learning 커넥터의 경우 [필터] 페이지에 [학습자가 등록
 
 **출시일:** 2022년 11월 5일
 
-**참고:** 이번 Adobe Learning Manager 릴리스를 통해 휴면 계정이 있는 사용자는 더 이상 하위 도메인을 사용하여 계정에 액세스할 수 없습니다. 계정은 계정 id 또는 acapindex.html 페이지를 사용하거나 이메일 id를 입력하여 액세스할 수 있습니다.
+**참고:** 이 Adobe Learning Manager 릴리스에서는 비활성 계정이 있는 사용자가 더 이상 하위 도메인을 사용하여 계정에 액세스할 수 없습니다. 계정은 계정 id 또는 acapindex.html 페이지를 사용하거나 이메일 id를 입력하여 액세스할 수 있습니다.
 
 ### 이 릴리스의 새로운 기능
 
@@ -389,7 +389,7 @@ Adobe Learning Manager의 2022년 11월 릴리스는 다음으로 구성됩니�
 
 자세한 내용은 [Adobe Learning Manager 2022년 11월 릴리스의 새로운 기능](/help/migrated/whats-new-2022-november.md)을 참조하십시오.
 
-**참고:** Adobe Learning Manager의 2022년 11월 릴리스에서는 Zoom이 중단됩니다 [2023년 6월까지 JWT 인증](https://marketplace.zoom.us/docs/guides/auth/jwt/). 따라서 JWT가 지원되는 Zoom 커넥터는 언급한 날짜까지 작동하지만 사용자가 서버간 Oauth 앱을 생성하여 계정에서 해당 기능을 대체하는 것이 좋습니다. 모든 새로운 연결은 기본적으로 Zoom Oauth 인증을 거치게 됩니다.
+**참고:** Adobe Learning Manager의 2022년 11월 릴리스부터 Zoom에서 2023년 6월까지 [JWT 인증](https://marketplace.zoom.us/docs/guides/auth/jwt/)이 중단됩니다. 따라서 JWT가 지원되는 Zoom 커넥터는 언급한 날짜까지 작동하지만 사용자가 서버간 Oauth 앱을 생성하여 계정에서 해당 기능을 대체하는 것이 좋습니다. 모든 새로운 연결은 기본적으로 Zoom Oauth 인증을 거치게 됩니다.
 
 ### 이번 업데이트에서 수정된 문제
 
@@ -461,28 +461,28 @@ Adobe Learning Manager의 2022년 11월 릴리스는 다음으로 구성됩니�
 
 **출시일:** 2022년 5월 24일
 
-**이번 업데이트에서 수정된 문제:**
+**이 업데이트에서 수정된 문제:**
 
 * 새 과정이 Salesforce 앱의 순서를 따르지 않습니다. 순서를 변경해도 과정이 원하는 순서로 표시되지 않습니다.
 * 클래식 홈페이지에서 설정을 수정하고 저장한 후 변경 사항이 예상대로 저장되지 않습니다. 이 문제가 간헐적으로 발생합니다.
 * 학습자가 알림을 확인할 때 HTML 코드가 표시되어 경험에 부정적인 영향을 미칩니다.
 * 대시보드에서 학습 소요 시간이 0시간으로 잘못 표시됩니다.
 
-## 업데이트: Adobe Learning Manager가 Adobe Learning Manager로 리브랜딩
+## 업데이트: Adobe Learning Manager이 Adobe Learning Manager으로 리브랜딩
 
 예정된 변경사항에 관한 업데이트 내용이며 준비하실 수 있도록 도와드립니다.
 
-**2022년 7월에 Adobe Learning Manager 제품이 Adobe Learning Manager으로 리브랜딩됩니다.**. 이는 특정 비즈니스 우선순위에 따라 제품의 정렬을 더 정확하게 반영하기 위해 실행된 전략적인 노력입니다.
+**2022년 7월에 Adobe Learning Manager 제품이 Adobe Learning Manager으로 리브랜딩됩니다**. 이는 특정 비즈니스 우선순위에 따라 제품의 정렬을 더 정확하게 반영하기 위해 실행된 전략적인 노력입니다.
 
 제품 팀에서는 귀하의 플랫폼을 사용하는 데 문제가 없도록 철저하게 준비하고 있으며, 제품을 평소와 같이 계속 사용할 수 있습니다. 해당 플랫폼의 책임자는 7월의 특정 화면에서 새로운 브랜드 이름을 발견할 수도 있습니다.
 
 이번 변경사항에 따라 Learning Manager URL 액세스가 영향을 받습니다.
 
-예를 들어, 귀하의 계정에 대한 액세스 URL이 `https://learningmanager.adobe.com/XYZ`, 새 URL은 `https://learningmanager.adobe.com/XYZ`.
+예를 들어, 귀하의 계정에 대한 액세스 URL이 `https://learningmanager.adobe.com/XYZ`이면 새 URL은 `https://learningmanager.adobe.com/XYZ`이(가) 됩니다.
 
 기존의 모든 URL을 계속 사용할 수 있습니다.
 
-이 작업을 완료하려면 귀하의 기관의 IT 부서와 협력하시기 바랍니다. 자세한 내용은 다음 주소로 문의하십시오. `learningmanagersupport@adobe.com`.
+이 작업을 완료하려면 귀하의 기관의 IT 부서와 협력하시기 바랍니다. 자세한 내용은 `learningmanagersupport@adobe.com`(으)로 문의하십시오.
 +++
 
 +++업데이트 76
@@ -511,7 +511,7 @@ Adobe Learning Manager의 2022년 11월 릴리스는 다음으로 구성됩니�
 
 ### 개요
 
-안 [인스턴스](https://learningmanagerapac.adobe.com/acapindex.html) of Learning Manager가 이제 뭄바이(ap-south-1)의 AWS에서 호스팅됩니다. 인도 인스턴스를 사용하는 사용자의 경우 사용자의 개인 식별 정보(PII) 및 학습 기록이 인도 지역에만 저장됩니다.
+Learning Manager의 [인스턴스](https://learningmanagerapac.adobe.com/acapindex.html)가 이제 뭄바이(ap-south-1)의 AWS에서 호스팅됩니다. 인도 인스턴스를 사용하는 사용자의 경우 사용자의 개인 식별 정보(PII) 및 학습 기록이 인도 지역에만 저장됩니다.
 
 ### 지원되는 사항
 
@@ -533,7 +533,7 @@ Adobe Learning Manager 인도 인스턴스는 기능 성능에 있어 다른 인
 * Slack 앱
 * **&#42;** SOC2 규정 준수에 대한 인증 대기 중
 
-**이 환경이 일반 컨트롤 프레임워크(CCF)를 준수합니까?**
+**이 환경이 CCF(Common Controls Framework)를 준수합니까?**
 
 예. 새 인스턴스는 일반 컨트롤 프레임워크(CCF) 규정을 준수합니다.
 +++
@@ -591,7 +591,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 * 독일어 로케일로 된 학습자용 &#39;예정된 세션 알림 메시지&#39; 전자 메일 템플릿에 &#39;장소 이름&#39; 변수가 빠졌습니다. 이제 추가되었습니다.
 * 사용자에게 보내는 환영 메일의 일부로 계정 생성 링크가 사용자 로케일에 해당하지 않았으나 이제 수정되었습니다.
 
-**전자 메일 알림 메시지**
+**전자 메일 미리 알림**
 
 * 학습자가 학습 계획으로 교육에 등록되면 학습 계획의 완료 날짜를 편집한 횟수만큼 완료 알림 전자 메일이 여러 번 전송되었습니다. 이 문제는 수정되었습니다.
 
@@ -608,7 +608,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 * 학습자가 유연한 학습 경로를 통해 강의를 간접적으로 등록했으나 학습 경로에서 아직 강의의 인스턴스를 선택하지 않은 경우 책임자가 강의 등록 보고서를 다운로드할 수 없었습니다. 이 문제는 수정되었습니다.
 * 책임자 및 관리자 역할의 보고서 대시보드에서 보고서를 다시 정렬해도 보고서 순서의 상태가 보존되지 않았습니다. 이 문제는 수정되었습니다.
 
-**내용**
+**콘텐츠**
 
 * 브라우저 자동 재생 정책으로 학습자 모드로 미리 보기 시 교육 컨텐츠의 오디오가 자동 재생되지 않았습니다. 이제 Safari를 제외한 지원 브라우저에서 자동으로 재생됩니다.
 
@@ -625,7 +625,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 * 관리자가 관리자 대시보드의 팀 스킬 페이지에서 직속 팀으로 보고서를 내보낼 수 없었습니다. 이 문제는 수정되었습니다.
 
-**게시**
+**Publish**
 
 * Adobe Captivate에서 Adobe Learning Manager으로 직접 게시된 Learning Manager 콘텐츠의 유럽 인스턴스가 기본적으로 독일어 로케일로 게시되었습니다. 이 문제가 수정되었습니다.
 
@@ -655,9 +655,9 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 Learning Manager는 모든 책임자와 관리자에게 준수 대시보드를 제공합니다. 관리자는 특정 교육에 대한 팀 구성원의 준수를 추적하는 것이 매우 유용하다는 것을 확인할 수 있습니다. 동시에 책임자는 모든 관리자가 대시보드에 준수 교육을 추가하고 추적하기를 희망합니다.
 
-Learning Manager에서 **관리자와 공유** 책임자는 워크플로우를 통해 관리자와 교육을 공유하고 관리자의 준수 대시보드에 추가할 수 있습니다. 따라서 관리자는 조치를 취할 필요가 없으며 즉시 준수 추적을 시작할 수 있습니다.
+Learning Manager에서 **관리자와 공유** 워크플로를 통해 책임자는 교육을 관리자와 공유하고 관리자의 준수 대시보드에 추가할 수 있습니다. 따라서 관리자는 조치를 취할 필요가 없으며 즉시 준수 추적을 시작할 수 있습니다.
 
-자세한 내용은 다음을 참조하세요.  [**관리자와 교육 공유**](../administrators/feature-summary/reports.md#share_training_managers).
+자세한 내용은 [**관리자와 교육 공유**](../administrators/feature-summary/reports.md#share_training_managers)&#x200B;를 참조하세요.
 
 ### 이번 업데이트에서 수정된 문제
 
@@ -689,11 +689,11 @@ Learning Manager에서 **관리자와 공유** 책임자는 워크플로우를 �
 
 ### 학습 경로
 
-대상 **Adobe Learning Manager 2021년 10월 릴리스** 학습 경로라는 개념을 소개합니다.
+**Adobe Learning Manager 2021년 10월 릴리스**&#x200B;에 학습 경로라는 개념이 도입되었습니다.
 
 >[!NOTE]
 >
->대상 **설정 > 일반** 페이지에 학습 경로의 확장된 기능을 활성화할 수 있는 옵션이 새로 추가되었습니다. 이 옵션이 활성화된 경우 다른 학습 경로에 학습 경로를 추가할 수 있습니다. 일단 활성화된 옵션은 변경할 수 없습니다.
+>학습 경로의 확장된 기능을 활성화할 수 있는 옵션이 **설정 > 일반** 페이지에 새로 추가되었습니다. 이 옵션이 활성화된 경우 다른 학습 경로에 학습 경로를 추가할 수 있습니다. 일단 활성화된 옵션은 변경할 수 없습니다.
 
 학습 경로는 학습 프로그램의 기존 기능을 대체합니다. 학습 프로그램이 기존의 기능성을 고스란히 유지한 채 더 강력한 기능을 갖추게 된 셈입니다. 또한 이 기능은 학습 경로라는 이름으로 새롭게 태어났습니다.
 
@@ -714,7 +714,7 @@ Learning Manager에서 **관리자와 공유** 책임자는 워크플로우를 �
 ### 이번 업데이트에서 수정된 문제
 
 * CSV에 정의된 최신 제품 용어는 강의 등록 취소, 학습 프로그램 등록 취소 또는 인증 등록 취소 같은 전자 메일 템플릿에 반영되지 않습니다. 이제 전자 메일 템플릿의 기본 텍스트가 사용자 정의된 용어를 지원합니다.
-* Learning Manager에 게시 워크플로에서 Learning Manager의 사용자 언어가 지원되지 않습니다. 사용자 언어가 다른 경우 Learning Manager에 게시는 영어로 진행됩니다.
+* Learning Manager에 게시 워크플로에서 Learning Manager의 사용자 언어가 지원되지 않습니다. 사용자 언어가 다른 경우, Publish에서 Learning Manager까지는 영어로 진행됩니다.
 * 사용자 정의 역할에 카탈로그를 많이 추가하면 역할을 업데이트할 때 오류가 발생합니다. 이제 카탈로그 한도가 최대 50개로 늘었습니다.
 * 삭제된 교육이 카탈로그에 계속 표시되는 경우가 있었습니다. 해당 문제는 책임자 앱에서만 발생하였으며 지금은 수정되었습니다.
 * 관리자 역할을 한 사용자에서 다른 사용자로 변경할 때 이전 사용자의 관리자 역할이 여전히 UI에 반영되는 경우가 있었습니다. 이 문제는 수정되었습니다. 이 문제는 내부 사용자에게만 나타나고, 외부 사용자에게는 나타나지 않았습니다.
@@ -771,7 +771,7 @@ Learning Manager에서 **관리자와 공유** 책임자는 워크플로우를 �
 >
 >다음은 이 인스턴스에서 지원되지 않습니다.
 >
->* [사용자 정의 도메인](../custom-domain.md)
+>* [사용자 지정 도메인](../custom-domain.md)
 >* [신용카드 구매](../administrators/feature-summary/billing-management.md)
 >* [콘텐츠 카탈로그](../administrators/feature-summary/content-catalogs.md)
 
@@ -779,14 +779,14 @@ Learning Manager에서 **관리자와 공유** 책임자는 워크플로우를 �
 
 +++업데이트 66 - Learning Manager 2021년 8월 릴리스
 
-대상 **2021년 8월** **Adobe Learning Manager 릴리스** 학습자 경험, 보고, 관리 워크플로우 향상에 중점을 둡니다. 주요 내용은 다음과 같습니다.
+**2021년 8월** **Adobe Learning Manager 릴리스**&#x200B;는 학습자 경험, 보고, 관리 워크플로를 향상하는 데 중점을 둡니다. 주요 내용은 다음과 같습니다.
 
 * **콘텐츠 마켓플레이스:** Learning Manager에서는 이제 기술, 관리, 리더십 등과 같이 다양한 도메인에서 70000개 이상의 강의를 제공합니다.
-* **향상된 액세스 가능성 지원:** 학습자 역할을 위한 접근성 지원은 향상된 키보드 탐색, 화면 판독기 기능과 대비율 준수를 통해 강화됩니다.
+* **접근성 지원 개선:** 학습자 역할을 위한 접근성 지원은 향상된 키보드 탐색, 화면 판독기 기능과 대비율 준수를 통해 강화됩니다.
 * **서식 있는 텍스트 서식:** Learning Manager에서는 이제 강의, 프로그램, 인증 및 작업 지원의 설명에 대한 서식 있는 텍스트 편집을 제공합니다. 이것을 통해 작성자는 일반 텍스트가 아닌 하이퍼링크, 이미지 및 기타 텍스트 서식 옵션과 같은 서식 있는 텍스트에 설명을 지정할 수 있습니다.
-* **별점:** 학습자는 이제 5점 척도로 강의를 평가할 수 있습니다. 책임자는 기존 효과 등급 또는 별 5개 등급 중에서 하나를 선택할 수 있습니다.
+* **평가 등급:** 학습자는 이제 5점 척도로 강의를 평가할 수 있습니다. 책임자는 기존 효과 등급 또는 별 5개 등급 중에서 하나를 선택할 수 있습니다.
 * **Badgr 통합:** 학습자는 이제 Learning Manager에서 획득한 배지를 각자의 소셜 네트워크에 공유할 수 있는 Badgr 계정으로 자동으로 배지를 푸시하도록 Learning Manager를 승인할 수 있습니다.
-* **학습 이벤트를 Salesforce로 내보내기:** Learning Manager에서는 이제 Learning Manager에서 새로운 사용자 추가, 등록 및 완료와 같은 특정 이벤트를 Salesforce 테넌트로 내보내고 해당 이벤트를 Salesforce의 적절한 사용자 개체 또는 연락처 개체로 연결하는 기능을 제공합니다.
+* **Salesforce로 학습 이벤트 내보내기:** Learning Manager에서는 이제 Learning Manager에서 새로운 사용자 추가, 등록 및 완료와 같은 특정 이벤트를 Salesforce 테넌트로 내보내고 해당 이벤트를 Salesforce의 적절한 사용자 개체 또는 연락처 개체로 연결하는 기능을 제공합니다.
 
 자세한 내용은 [***Learning Manager 2021년 8월 릴리스의 새로운 기능 및 변경된 기능***](../whats-new.md)&#x200B;을 참조하십시오.
 
@@ -820,7 +820,7 @@ Learning Manager에서 **관리자와 공유** 책임자는 워크플로우를 �
 * 작성자 또는 사용자 정의 책임자/작성자 권한이 있는 사용자는 다른 사용자가 만든 작업 지원을 편집할 수 없습니다.
 * 이전에는 사용자가 책임자 권한으로 강의 > 인스턴스로 이동하여 인스턴스의 &#39;등록된 학습자&#39;를 선택하면 &#39;기본 인스턴스&#39;의 학습자가 표시되었습니다. 책임자가 드롭다운 메뉴에서 인스턴스를 수동으로 변경해야 했습니다. 이제 Learning Manager는 올바른 인스턴스가 선택된 학습자 페이지로 사용자를 올바르게 리디렉션합니다.
 
-**디바이스 앱**
+**장치 앱**
 
 * Android 및 iPhone 장치에서 학습자가 강의 모듈을 무작위로 실행할 수 없습니다. 강의 모듈을 무작위로 실행하면 401 비인증 오류가 발생합니다.
 * 학습자는 QR코드를 두 개까지 스캔할 수 있으나 세 번째 QR 코드를 스캔하면 오류 메시지가 표시됩니다.
@@ -918,7 +918,7 @@ Learning Manager에서 **관리자와 공유** 책임자는 워크플로우를 �
 **학습자 앱**
 
 * 인증 개요 페이지에서 작성자가 추가하는 동안 외부 인증은 표시되지 않습니다.
-* 옵션 추가 **모두** 스킬 필터로 이동합니다.
+* 스킬 필터에서 **모두** 옵션을 추가합니다.
 * 학습자는 여러 개의 다이제스트 전자 메일을 수신하고 있습니다.
 * 선택한 행의 수가 페이지에 예상한대로 반영되지 않습니다.
 
@@ -968,7 +968,7 @@ Captivate Learning Manager 모바일 앱 업데이트 3.3에서는 발행인 및
 
 또한, 이번 업데이트를 통해 학습자는 PDF 및 이미지로 배지를 다운로드할 수 있습니다. 또한 이번 업데이트에는 학습자가 앱에 대한 피드백을 익명으로 제공할 수 있는 피드백 팝업 기능이 도입되었습니다.
 
-자세한 내용은 다음을 참조하세요.  [Learning Manager 장치 앱](../learners/feature-summary/ipad-android-tablet-users.md).
+자세한 내용은 [Learning Manager 장치 앱](../learners/feature-summary/ipad-android-tablet-users.md)을 참조하세요.
 
 자세히 알아보려면 계속 읽어보십시오.
 
@@ -1007,7 +1007,7 @@ Captivate Learning Manager 모바일 앱 업데이트 3.3에서는 발행인 및
 **인증**
 
 * 때에 따라, 과정의 최대 시도 횟수가 무한으로 설정되어 있더라도 인증의 일부인 과정의 재시도가 불가능한 경우도 있습니다. 이 문제는 수정되었습니다.
-* 어떤 경우에는 다음과 같은 이유로 학습자가 인증에 등록할 수 없습니다. **등록**&#x200B;단추가 예상대로 표시되지 않습니다.
+* 때에 따라, **등록**&#x200B;단추가 예상대로 표시되지 않아 학습자가 인증에 등록할 수 없습니다.
 
 **콘텐츠 라이브러리**
 
@@ -1026,12 +1026,12 @@ Captivate Learning Manager 모바일 앱 업데이트 3.3에서는 발행인 및
 **관리**
 
 * 중단된 강의는 예상대로 검색 결과에 나타나지 않습니다. 이 문제는 수정되었습니다.
-* 관리자가 다음 위치에서 중단된 강의를 검색할 수 없습니다. **관리 앱** -> **사용자 정의 보고서** -> **Excel 보고서** -> **강의 보고서**&#x200B;이 문제는 수정되었습니다.
+* 관리자가 **관리 앱** -> **사용자 지정 보고서** -> **Excel 보고서** -> **강의 보고서**&#x200B;에서 중단된 강의를 검색할 수 없었던 문제가 수정되었습니다.
 
 * 콘텐츠 업데이트 전후에 교육을 수료한 학습자가 파일에 포함되어 있으면 퀴즈 보고서를 Excel로 다운로드할 수 없습니다. 이 문제는 수정되었습니다.
 * 활성 필드에 특수 문자가 있으면 CSV 업로드가 실패합니다. 이 문제는 수정되었습니다.
 * 때에 따라, 학습자가 Captivate에서 생성된 퀴즈를 풀 때 예상한 것과 다르게 대답을 캡처할 수 없습니다.
-* 구독을 생성한 후 구독을 편집하려 하면, **저장** 및 **취소** 단추가 예상대로 표시되지 않습니다. 이 문제는 수정되었습니다.
+* 구독을 만든 후 구독을 편집하려 하면 **저장** 및 **취소** 단추가 예상대로 표시되지 않습니다. 이 문제는 수정되었습니다.
 
 **플레이어**
 
@@ -1051,7 +1051,7 @@ Captivate Learning Manager 모바일 앱 업데이트 3.3에서는 발행인 및
 
 * 사용자 이름에 특수 문자가 있는 일부 학습자가 전자 메일 알림을 받지 못합니다.
 * 몰입형 보기에서는 경우에 따라 달력 위젯에 예정된 VC 세션이 표시되지 않습니다.
-* 학습자 앱에서 **스킬** 필터가 제대로 작동하지 않습니다. 이 문제는 수정되었습니다.
+* 학습자 앱에서 **스킬** 필터가 작동하지 않습니다. 이 문제는 수정되었습니다.
 
 **검색**
 
@@ -1061,7 +1061,7 @@ Captivate Learning Manager 모바일 앱 업데이트 3.3에서는 발행인 및
 
 * 사용자가 500명 이상인 사용자 그룹 보고서를 내보낼 때 보고서의 데이터 값과 열 헤더가 일치하지 않는 문제가 수정되었습니다.
 * 관리자가 전자 메일 템플릿에서 전자 메일 서명을 편집하고 여러 줄을 추가할 때, 관리자 인터페이스에서만 html 태그를 확인했었습니다. 이 문제는 수정되었습니다.
-* 위치 **관리자 앱 > 카탈로그 > 카탈로그 검색**&#x200B;을(를) 검색할 수 없습니다.
+* **관리자 앱 > 카탈로그 > 카탈로그 검색**&#x200B;에서 검색할 수 없습니다.
 
 **사용자**
 
@@ -1098,7 +1098,7 @@ Captivate Learning Manager 모바일 앱 업데이트 3.3에서는 발행인 및
 
 ### 이 업데이트의 알려진 문제 {#known-issues}
 
-* 을(를) 사용하는 경우 **기간**&#x200B;학습자 앱에서 필터 학습자가 다른 콘텐츠 로케일을 사용하고, 등록에서 기본 인스턴스에 속하지 않는 경우 콘텐츠와 필터가 동기화되지 않을 수 있습니다.
+* 학습자 앱에서 **기간**&#x200B;필터를 사용할 때 학습자가 다른 콘텐츠 로케일을 사용하고, 등록에서 기본 인스턴스에 속하지 않는 경우 콘텐츠와 필터가 동기화되지 않을 수 있습니다.
 
 >[!NOTE]
 >
@@ -1116,8 +1116,8 @@ Captivate Learning Manager 모바일 앱 업데이트 3.3에서는 발행인 및
 
 BlueJeans 이벤트 커넥터는 Learning Manager 및 BlueJeans 시스템을 연결하여 데이터 동기화를 자동화합니다. 이 커넥터를 사용하면 다음을 수행할 수 있습니다.
 
-* **BlueJeans 이벤트를 사용하여 가상 세션 설정:** 적절한 BlueJeans 이벤트를 선택하여 BlueJeans에서 새 이벤트를 구성하고 Learning Manager에서 VC 세션을 설정합니다. 날짜 및 시간 세부 정보는 BlueJeans 이벤트에서 자동으로 선택됩니다.
-* **자동화된 사용자 완료 동기화:** 자동화된 사용자 완료 동기화 프로세스를 통해 Learning Manager 책임자는 BlueJeans 이벤트에 대한 완료 기록을 자동으로 가져올 수 있습니다.
+* **BlueJeans 이벤트를 사용하여 가상 세션 설정:** 적합한 BlueJeans 이벤트를 선택하여 BlueJeans에서 새 이벤트를 구성하고 Learning Manager에서 VC 세션을 설정합니다. 날짜 및 시간 세부 정보는 BlueJeans 이벤트에서 자동으로 선택됩니다.
+* **자동화된 사용자 완료 동기화:** 자동화된 사용자 완료 동기화 프로세스를 통해 Learning Manager Administrator가 BlueJeans 이벤트에 대한 완료 기록을 자동으로 가져올 수 있습니다.
 
 이 새 커넥터에는 커넥터를 구성하기 위한 별도의 자격 증명 집합이 필요합니다.
 
@@ -1147,7 +1147,7 @@ BlueJeans 이벤트 커넥터는 Learning Manager 및 BlueJeans 시스템을 연
 * LinkedIn 학습 개선 사항
 * 기타 등등
 
-자세한 내용은 다음을 참조하세요.  [***Adobe Learning Manager 2020년 12월 릴리스의 새로운 기능***](../whats-new.md).
+자세한 내용은 [***Adobe Learning Manager 2020년 12월 릴리스의 새로운 기능***](../whats-new.md)&#x200B;을 참조하세요.
 
 ### 모바일 몰입형 경험에서 지원되지 않는 기능 {#unsupportedfeaturesinmobileimmersiveexperience}
 
@@ -1185,8 +1185,8 @@ BlueJeans 이벤트 커넥터는 Learning Manager 및 BlueJeans 시스템을 연
 
 **콘텐츠 라이브러리**
 
-* 콘텐츠 라이브러리에서 콘텐츠를 중지하면 **게시됨**&#x200B;탭. 페이지를 새로 고치면 중지된 콘텐츠가 더 이상 표시되지 않습니다.
-* 콘텐츠 폴더를 만들 때 **이름**&#x200B;필수로 표시되지 않는 필드는 실제로 필수 필드입니다.
+* 콘텐츠 라이브러리에서 콘텐츠를 중지하면 **게시됨**&#x200B;탭에서 콘텐츠가 제거되지 않습니다. 페이지를 새로 고치면 중지된 콘텐츠가 더 이상 표시되지 않습니다.
+* 콘텐츠 폴더를 만들 때 **이름**&#x200B;필드는 필수 필드로 표시되지 않으며, 이는 사실상 필수 필드입니다.
 
 **고객 요청**
 
@@ -1259,7 +1259,7 @@ Learning Manager는 이미 학습 플랫폼 내에서 LinkedIn 학습 과정을 
 * 데이터 유지 정책 변경 사항
 * 기타 등등
 
-자세한 내용은 다음을 참조하세요.  [***Adobe Learning Manager 2020년 8월 릴리스의 새로운 기능***](../whats-new.md).
+자세한 내용은 [***Adobe Learning Manager 2020년 8월 릴리스의 새로운 기능***](../whats-new.md)&#x200B;을 참조하세요.
 
 ### 이 릴리스에 대한 정보 {#notes}
 
@@ -1281,7 +1281,7 @@ Learning Manager는 이미 학습 플랫폼 내에서 LinkedIn 학습 과정을 
 * 학습자는 중복된 강의에 등록되더라도 리소스를 다운로드할 수 없습니다.
 * 학습자로 강의를 미리 보는 경우 책임자 또는 작성자는 해당 강의에 등록되어 있지 않는 한 리소스를 다운로드할 수 없습니다.
 
-**디바이스 앱**
+**장치 앱**
 
 * 특정 등록의 경우, 보류 중인 학습에 있는 도넛 표가 브라우저에서 모바일 앱까지 학습자 앱의 다른 값을 표시합니다.
 
@@ -1353,7 +1353,7 @@ Learning Manager는 이미 학습 플랫폼 내에서 LinkedIn 학습 과정을 
 
 **공지**
 
-* 공지에 태그가 포함된 경우 `<a>`, 공지가 예상대로 생성되지 않습니다.
+* 공지에 태그 `<a>`이(가) 포함되어 있으면 공지가 예상대로 생성되지 않습니다.
 
 **계정**
 
@@ -1453,7 +1453,7 @@ Learning Manager 2020년 4월 릴리스는 다음 사항에 초점을 맞추었�
 
 학습자는 외부 인증서를 열고 pdf, 텍스트 또는 이미지 파일과 같은 에셋을 업로드할 수 있습니다.
 
-자세한 내용은 다음을 참조하세요.  [***외부 인증서 에셋 업로드***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
+자세한 내용은 [***외부 인증서 에셋 업로드***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;를 참조하세요.****
 
 ### 이번 릴리스에서 수정된 문제 {#issuesfixedinthisrelease}
 
@@ -1486,11 +1486,11 @@ Learning Manager 2020년 4월 릴리스는 다음 사항에 초점을 맞추었�
 
 ### 보고서에서 활성 필드 제한 {#restrictactivefieldsinreports}
 
-활성 필드의 경우 두 가지 새로운 옵션이 추가되었습니다. **보고 가능** 및 **내보내기 가능**.
+활성 필드의 경우 **보고 가능** 및 **내보내기 가능**&#x200B;의 두 가지 새로운 옵션이 추가되었습니다.
 
 CSV 필드 및 수동으로 추가된 필드의 경우 활성 필드가 **보고 가능**&#x200B;으로 표시되어 있으면 대시보드 보고서 내의 필터에서 활성 필드를 검색할 수 있습니다.
 
-자세한 내용은 다음을 참조하세요.  [***보고서에서 활성 필드 제한***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)***.***
+자세한 내용은 [***보고서에서 활성 필드 제한***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;을 ***.***
 
 ### 콘텐츠 모듈 설명 보기 {#viewdescriptionofcontentmodule}
 
@@ -1506,7 +1506,7 @@ CSV 필드 및 수동으로 추가된 필드의 경우 활성 필드가 **보고
 
 학습자는 이제 목록 보기 대신 전체 보기로 공지를 볼 수 있습니다. 이는 학습자에게 읽지 않은 공지가 하나 있는 경우 적용됩니다. 이 기능을 사용해 학습자가 편리하게 공지를 확인할 수 있습니다.
 
-이제 Adobe Learning Manager를 통해 계정을 사용자 정의하여 사용자에게 보다 다양한 환경을 제공할 수 있습니다. 다음은 사용자 정의할 수 있는 요소 목록입니다. 연락처 [Learning Manager 지원](mailto:learningmanagersupport@adobe.com)하여 변경합니다.
+이제 Adobe Learning Manager를 통해 계정을 사용자 정의하여 사용자에게 보다 다양한 환경을 제공할 수 있습니다. 다음은 사용자 정의할 수 있는 요소 목록입니다. 변경 사항을 적용하려면 [Learning Manager 지원](mailto:learningmanagersupport@adobe.com)에 문의하십시오.
 
 * 교육 카드 색상.
 * 진행 아이콘
@@ -1734,7 +1734,7 @@ Adobe Connect에서 고객은 Connect에서 이미 만든 기존 회의실을 �
 
 **사용자 인터페이스 변경 사항**
 
-* (으)로 **보고서 추가** 대화 상자, **시간 범위** 및 **필터** 선택기는 별도 섹션으로 나타나며 기본적으로 접힌 상태로 표시됩니다. 자세한 내용은 [***보고서 만들기***](../administrators/feature-summary/reports.md#report)&#x200B;를 참조하십시오.
+* **보고서 추가** 대화 상자에서 **시간 범위** 및 **필터** 선택기는 별도 섹션으로 나타나며 기본적으로 접힌 상태로 표시됩니다. 자세한 내용은 [***보고서 만들기***](../administrators/feature-summary/reports.md#report)&#x200B;를 참조하십시오.
 
 * **보고서 추가** 대화상자에서 사용자 그룹의 경우 타이프 어헤드 검색을 사용하여 단일 또는 복수 사용자 그룹을 선택할 수 있습니다. 자세한 내용은 [***사용자 그룹 보고서***](../administrators/feature-summary/reports.md#user-group-reporting)&#x200B;를 참조하십시오.
 
@@ -1746,9 +1746,9 @@ Adobe Connect에서 고객은 Connect에서 이미 만든 기존 회의실을 �
 
 **학습자 대시보드**
 
-* 학습 일정에 상태가 표시됨 **세션 등록됨** 관리자가 아직 등록을 승인하지 않은 경우에도 이제 올바른 상태 **보류 중** 관리자가 등록을 승인할 때까지 학습자에게 표시됩니다.
+* 관리자가 아직 등록을 승인하지 않은 경우에도 학습 일정에 상태가 **세션 등록됨**&#x200B;으로 표시되었습니다. 이제 관리자가 등록을 승인할 때까지 학습자에게 올바른 상태 **보류 중**&#x200B;이 표시됩니다.
 
-* 특정 세션의 경우 학습 일정에 상태가 표시됨 **등록됨** 학습자가 강의를 완료했으나
+* 특정 세션의 경우 학습자가 강의를 완료했으나 학습 일정에 상태가 **등록됨**&#x200B;으로 표시되었습니다.
 
 **관리자 대시보드**
 
@@ -1777,7 +1777,7 @@ Adobe Connect에서 고객은 Connect에서 이미 만든 기존 회의실을 �
 
 ### 새로운 기능 및 향상된 기능 {#Newandenhancedfeatures-5}
 
-**내부 사용자와 외부 사용자에 대한 소셜 학습 범위 분리**&#x200B;책임자는 내부 학습자와 외부 학습자에 대해 별도의 범위를 정의할 수 있습니다. 두 가지 새로운 내부 사용자와 외부 사용자용 섹션이 있습니다. 두 섹션 모두에서 학습자 그룹에 대한 범위를 정의할 수 있습니다. 내부 사용자에 대해 사용자 특성 값을 정의할 수 있습니다. 외부 사용자의 경우 학습자가 같은 소셜 공간을 공유할 수 있는 외부 프로필을 정의할 수 있습니다. 자세한 내용은 다음을 참조하세요. [***범위 설정***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings).  **소셜 보드의 소셜 제한 생성**&#x200B;모든 학습자가 보드를 생성하는 것을 제한하고 보드를 효과적으로 중재하기 위해 책임자는 선택한 사용자 그룹에게 보드를 생성할 수 있는 권한을 부여할 수 있습니다. 관리자는 소셜 학습에 참여하는 모든 학습자가 아닌, 선택한 그룹만 보드를 생성할 수 있도록 제한할 수 있습니다. 자세한 내용은 다음을 참조하세요. [***보드 생성 권한***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission).  **학습자에게 비어있는 활성 필드만 표시**&#x200B;관리자는 값이 입력된 후에 활성 필드를 표시하거나 숨기는 것을 선택할 수 있습니다. 자세한 내용은 다음을 참조하세요. [***사용자 표시***](../administrators/feature-summary/add-users-user-groups.md#activefields).  **내부 사용자는 지정된 비활성화 기간에 삭제됩니다.**&#x200B;책임자는 학습자가 지정된 기간 동안 비활성화를 유지하는 경우 내부 학습자를 삭제하는 기간(일별로)을 설정할 수 있습니다. 자세한 내용은 다음을 참조하십시오***[사용자 자동 삭제](../administrators/feature-summary/settings.md#autodelete)***.  **바닥글의 사용자 정의 링크**&#x200B;책임자는 바닥글에 사용자 정의 가능한 링크를 추가할 수 있습니다. 링크는 다양한 로케일에 대해 사용자 정의될 수도 있습니다. 또한, 바닥글에 &#39;책임자에게 문의&#39; 링크를 추가하는 기존 방법을 **바닥글 링크** 섹션으로 이동하십시오. 자세한 내용은 다음을 참조하세요. [***바닥글 링크 사용자 정의***](../administrators/feature-summary/settings.md#footer).
+**내부 및 외부 사용자에 대한 소셜 학습에서 범위 분리**&#x200B;책임자는 내부 및 외부 학습자에 대해 별도의 범위를 정의할 수 있습니다. 두 가지 새로운 내부 사용자와 외부 사용자용 섹션이 있습니다. 두 섹션 모두에서 학습자 그룹에 대한 범위를 정의할 수 있습니다. 내부 사용자에 대해 사용자 특성 값을 정의할 수 있습니다. 외부 사용자의 경우 학습자가 같은 소셜 공간을 공유할 수 있는 외부 프로필을 정의할 수 있습니다. 자세한 내용은 [***범위 설정***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)&#x200B;을 참조하세요.  **소셜 보드의 소셜 제한 생성**&#x200B;모든 학습자의 보드 생성을 제한하고 보드를 효과적으로 중재하려면 관리자는 선택한 사용자 그룹에게 보드를 생성할 수 있는 권한을 부여할 수 있습니다. 관리자는 소셜 학습에 참여하는 모든 학습자가 아닌, 선택한 그룹만 보드를 생성할 수 있도록 제한할 수 있습니다. 자세한 내용은 [***보드 만들기 권한***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)&#x200B;을 참조하세요.  **학습자에게 비어있는 활성 필드만 표시**&#x200B;관리자는 값이 입력된 후에 활성 필드를 표시하거나 숨기는 것을 선택할 수 있습니다. 자세한 내용은 [***사용자 표시***](../administrators/feature-summary/add-users-user-groups.md#activefields)&#x200B;를 참조하세요.  **내부 사용자가 지정된 비활성화 기간에 삭제됨**&#x200B;관리자가 학습자가 지정된 기간 동안 비활성화를 유지하는 경우 내부 학습자를 삭제하는 기간(일별로)을 설정할 수 있습니다. 자세한 내용은 ***[사용자 자동 삭제](../administrators/feature-summary/settings.md#autodelete)를 ***.  **바닥글의 사용자 지정**&#x200B;관리자는 바닥글에 링크를 추가하고 사용자 지정할 수 있습니다. 링크는 다양한 로케일에 대해 사용자 정의될 수도 있습니다. 또한 바닥글에 &#39;책임자에게 문의&#39; 링크를 추가하는 기존 방법을 **바닥글 링크** 섹션에서 사용할 수 있습니다. 자세한 내용은 [***바닥글 링크 사용자 지정***](../administrators/feature-summary/settings.md#footer)&#x200B;을 참조하세요.
 
 ### 이 릴리스의 알려진 문제 {#Knownissuesinthisrelease-2}
 
@@ -1807,7 +1807,7 @@ Android 사용자:
 
 **게시판에 미디어 공유**
 
-사진, 문서 또는 오디오나 비디오 파일을 게시판에 공유하면 다른 게시판 멤버들이 게시물을 보고 상호 작용을 시작할 수 있습니다.  자세한 내용은 다음을 참조하세요. [***게시물 공유***](../learners/feature-summary/ipad-android-tablet-users.md#socialmobile).
+사진, 문서 또는 오디오나 비디오 파일을 게시판에 공유하면 다른 게시판 멤버들이 게시물을 보고 상호 작용을 시작할 수 있습니다.  자세한 내용은 [***게시물 공유***](../learners/feature-summary/ipad-android-tablet-users.md#socialmobile)&#x200B;를 참조하세요.
 
 **강의실 및 활동 모듈에 대한 파일 제출**
 
@@ -1836,7 +1836,7 @@ Learning Manager 모바일 앱은 이제 Android 7 이상, iOS 10 이상이 설�
 
 **자동 콘텐츠 큐레이션**
 
-소셜 학습을 사용하면 학습자가 게시한 콘텐츠를 두 가지 방식, 즉 **큐레이션 없음** 및 **수동 큐레이션**. 이번 릴리스에서 Adobe Learning Manager는 AI 지원 자동 큐레이션 기능을 제공하여 소셜 학습 성능을 높여줍니다. 콘텐츠가 게시되면 해당 콘텐츠를 분석하여 게시된 목적의 스킬에 속하는지 여부를 파악합니다. 신뢰 점수를 기반으로 콘텐츠가 실시간으로 게시되거나 수동 큐레이션을 위해 전송됩니다. 자세한 내용은 다음을 참조하세요. *[**&#x200B;자동 지원 큐레이션&#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+소셜 학습을 사용하면 학습자가 게시한 콘텐츠를 **큐레이션 안 함** 및 **수동 큐레이션**&#x200B;의 두 가지 방법으로 큐레이션할 수 있습니다. 이번 릴리스에서 Adobe Learning Manager는 AI 지원 자동 큐레이션 기능을 제공하여 소셜 학습 성능을 높여줍니다. 콘텐츠가 게시되면 해당 콘텐츠를 분석하여 게시된 목적의 스킬에 속하는지 여부를 파악합니다. 신뢰 점수를 기반으로 콘텐츠가 실시간으로 게시되거나 수동 큐레이션을 위해 전송됩니다. 자세한 내용은 *[**&#x200B;자동 지원 큐레이션&#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***을 참조하세요.
 
 **스킬 도메인으로 스킬 매핑**
 
@@ -1844,7 +1844,7 @@ Learning Manager LMS에 있는 스킬 도메인으로 계정의 스킬을 매핑
 
 **CSV 사양 및 CSV 샘플**
 
-기존 LMS 마이그레이션 데이터를 매핑하는 데 사용하는 CSV 사양이 업데이트되었습니다. 최신 다운로드 가능한 csv-specifications 및 sample-csvs zip 파일을 사용하여 입력할 데이터의 사전 정의된 형식을 이해합니다. 자세한 내용은 다음을 참조하세요.  [***마이그레이션 설명서***.](../integration-admin/feature-summary/migration-manual.md)
+기존 LMS 마이그레이션 데이터를 매핑하는 데 사용하는 CSV 사양이 업데이트되었습니다. 최신 다운로드 가능한 csv-specifications 및 sample-csvs zip 파일을 사용하여 입력할 데이터의 사전 정의된 형식을 이해합니다. 자세한 내용은 [***마이그레이션 설명서***.](../integration-admin/feature-summary/migration-manual.md)를 참조하십시오.
 
 ### 이번 릴리스에서 수정된 문제 {#Issuesfixedinthisrelease-4}
 
@@ -1854,7 +1854,7 @@ Learning Manager LMS에 있는 스킬 도메인으로 계정의 스킬을 매핑
 
 **관리자 대시보드**
 
-* 관리자가 옵션을 선택한 경우 **이번 분기**, 학습 객체의 등록, 진행, 완료 세부 정보가 표시되지 않았습니다. 이번 릴리스에서는 이러한 세부 정보가 예상대로 표시됩니다.
+* 관리자가 **이번 분기** 옵션을 선택하면 학습 개체의 등록, 진행 및 완료 세부 정보가 표시되지 않았습니다. 이번 릴리스에서는 이러한 세부 정보가 예상대로 표시됩니다.
 
 **대기자 명단에 등록된 학습자**
 
@@ -1877,12 +1877,12 @@ Learning Manager LMS에 있는 스킬 도메인으로 계정의 스킬을 매핑
 **새로운 기능 및 향상된 기능**
 
 * 학습 개체의 학습자 섹션에 있는 등록된 학습자에 대해 모든 인스턴스를 대상으로 통합 검색을 수행할 수 있습니다. 학습 개체의 학습자 섹션에 있는 등록된 사용자를 타이프 어헤드 검색을 통해 검색할 수 있습니다. 자세한 내용은 [***등록 사용자 검색***](../administrators/feature-summary/courses.md#searchforusers)&#x200B;을 참조하십시오.
-* 공유 카탈로그를 통해 획득한 학습 개체의 편집 기능을 완성합니다. 자세한 내용은 다음을 참조하세요. [***공유 카탈로그 제어***](../administrators/feature-summary/shared-catalog-full-control.md). 해당 기능을 활성화하려면 Learning Manager 지원 팀에 문의하십시오.
-* 이제 강사가 검토 보류 중인 세션 및 모듈을 쉽게 식별할 수 있습니다. 자세한 내용은 다음을 참조하세요. [***보류 중인 검토***](../instructors/feature-summary/learners.md#pending).
+* 공유 카탈로그를 통해 획득한 학습 개체의 편집 기능을 완성합니다. 자세한 내용은 [***공유 카탈로그 제어***](../administrators/feature-summary/shared-catalog-full-control.md)&#x200B;를 참조하십시오. 해당 기능을 활성화하려면 Learning Manager 지원 팀에 문의하십시오.
+* 이제 강사가 검토 보류 중인 세션 및 모듈을 쉽게 식별할 수 있습니다. 자세한 내용은 [***보류 중인 검토***](../instructors/feature-summary/learners.md#pending)&#x200B;를 참조하세요.
 
-* 이제 스킬에서 소수점 형식으로 점수를 수여할 수 있습니다. 이를 통해 작성자는 특정 강의에 점수를 소수점 수준으로 수여할 수 있습니다. 자세한 내용은 다음을 참조하세요. [***소수점 지원***](../administrators/feature-summary/skills-levels.md#decimal).
+* 이제 스킬에서 소수점 형식으로 점수를 수여할 수 있습니다. 이를 통해 작성자는 특정 강의에 점수를 소수점 수준으로 수여할 수 있습니다. 자세한 내용은 [***소수점 지원***](../administrators/feature-summary/skills-levels.md#decimal)&#x200B;을 참조하세요.
 * 사용자 정의 역할 생성을 자동화합니다. 자세한 내용은 [***CSV 파일을 통해 역할 구성***](../integration-admin/feature-summary/configure-role-csv-files.md)&#x200B;을 참조하십시오.
-* 이제 외부 인증에 필요한 제출 및 활동 모듈이 선택 사항입니다. 이를 통해 관리자와 강사는 제출 없이 평가를 수행할 수 있습니다. 자세한 내용은 다음을 참조하세요. [***선택적 제출***](../managers/feature-summary/learning-objects.md#optional).
+* 이제 외부 인증에 필요한 제출 및 활동 모듈이 선택 사항입니다. 이를 통해 관리자와 강사는 제출 없이 평가를 수행할 수 있습니다. 자세한 내용은 [***선택적 제출***](../managers/feature-summary/learning-objects.md#optional)&#x200B;을 참조하세요.
 * 삭제된 사용자의 학습자 성적 증명서 다운로드 자세한 내용은 [***학습자 성적 증명서***](../administrators/feature-summary/learner-transcripts.md)&#x200B;를 참조하십시오.
 * 다음 언어 지원:
 
@@ -1910,15 +1910,15 @@ Learning Manager LMS에 있는 스킬 도메인으로 계정의 스킬을 매핑
 
 출시일: 2019년 4월 26일
 
-* **사용자 인터페이스 변경 사항:** 앱에서  ![](assets/hamburger.jpg) 및  ![](assets/search-magnifying-glass-icon.png) 이제 옵션이 맨 위에 표시됩니다.
+* **사용자 인터페이스 변경 내용:** 앱에서 ![](assets/hamburger.jpg) 및 ![](assets/search-magnifying-glass-icon.png) 옵션이 이제 맨 위에 표시됩니다.
 
 ![](assets/1.png)
 
 * **QR 코드 스캔으로 등록:** QR 코드 기능이 향상되었습니다. QR 코드를 이용한 출결 표시 지원은 물론 이제 QR 코드를 이용한 강의 등록 및 완료를 지원합니다.
 
-  강의를 등록 및 완료하려면 관리자가 제공하는 QR 코드를 스캔하면 됩니다. Learning Manager의 웹 버전에서 QR 코드 스캔에 대한 자세한 내용은 다음을 참조하십시오  [***QR 코드 스캔***](<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
+  강의를 등록 및 완료하려면 관리자가 제공하는 QR 코드를 스캔하면 됩니다. Learning Manager의 웹 버전에서 QR 코드 스캔에 대한 자세한 내용은 [***QR 코드 스캔***](<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse)을 참조하세요.
 
-* **강의에서 다중 시도:** Learning Manager 앱에서 학습자는 다중 시도를 통해 강의를 수료할 수 있습니다. 다중 시도 설정에 대한 자세한 내용은 다음을 참조하십시오.  [***다중 시도***](<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Multiattempts).
+* **강의에서 다중 시도:** Learning Manager 앱에서 학습자는 다중 시도를 통해 강의를 수료할 수 있습니다. 다중 시도 설정에 대한 자세한 내용은 [***다중 시도***](<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Multiattempts)를 참조하세요.
 
 +++
 
@@ -1997,9 +1997,9 @@ Learning Manager LMS에 있는 스킬 도메인으로 계정의 스킬을 매핑
 
 출시일: 2018년 5월 19일
 
-* 이번 Adobe Learning Manager 릴리스에서는 새로운 기능과 개선 사항을 발표합니다. 사용자 정의 역할 생성, 카탈로그 레이블 추가, 사용자 제거, 태그 관리, 학습 객체 이름 변경, Slack 통합, 새 커넥터 통합, xAPI 지원 등을 수행할 수 있습니다. 새로운 기능 및 개선 사항에 대한 자세한 내용은 다음을 참조하십시오.  [새로운 기능 요약](../whats-new.md#main-pars_text).
+* 이번 Adobe Learning Manager 릴리스에서는 새로운 기능과 개선 사항을 발표합니다. 사용자 정의 역할 생성, 카탈로그 레이블 추가, 사용자 제거, 태그 관리, 학습 객체 이름 변경, Slack 통합, 새 커넥터 통합, xAPI 지원 등을 수행할 수 있습니다. 새로운 기능 및 개선 사항에 대한 자세한 내용은 [새로운 기능 요약](../whats-new.md#main-pars_text)을 참조하세요.
 
-* Learning Manager는 GDPR을 준수합니다. 자세한 내용은 다음을 참조하세요. [Learning Manager는 GDPR을 준수함](/help/migrated/kb/prime-gdpr.md).
+* Learning Manager는 GDPR을 준수합니다. 자세한 내용은 [Learning Manager의 GDPR 준수](/help/migrated/kb/prime-gdpr.md)를 참조하십시오.
 
 ## 알려진 문제 {#knownissue}
 
@@ -2034,13 +2034,13 @@ Learning Manager LMS에 있는 스킬 도메인으로 계정의 스킬을 매핑
 
 2018년 3월 버전 Adobe Learning Manager는 새로운 기능과 개선 사항을 발표합니다. 사용자 감사 추적 보고서와 로그인/액세스 보고서를 생성하고, 학습자가 강의 인스턴스를 선택할 수 있는 기능을 제공하며, 강의실과 가상 강의실을 개선하는 등의 작업을 수행할 수 있습니다. 또한 이 릴리스는 버그 수정 및 개선 사항을 제공합니다.
 
-이 릴리스에 포함된 모든 새로운 기능은 다음을 참조하십시오  [Adobe Learning Manager의 새로운 기능](../whats-new.md).
+이 릴리스에 포함된 모든 새로운 기능은 [Adobe Learning Manager의 새로운 기능](../whats-new.md)을 참조하세요.
 
 ### 알려진 문제 {#KnownIssue-1}
 
-**문제:** Internet Explorer v11.1478.10586.0으로 특정 학습 객체 몇 가지에 접근하면 Learning Manager와 충돌하였습니다.
+**문제:** Internet Explorer v11.1478.10586.0으로 특정 학습 개체 몇 가지에 접근하면 Learning Manager와 충돌하였습니다.
 
-**해결 방법:** IT 팀에 연락하여 Internet Explorer 11 브라우저를 최신 버전으로 업데이트합니다.
+**해결 방법:** 조직의 IT 팀에 연락하여 Internet Explorer 11 브라우저를 최신 버전으로 업데이트합니다.
 
 +++
 
@@ -2132,7 +2132,7 @@ Learning Manager LMS에 있는 스킬 도메인으로 계정의 스킬을 매핑
 
 활동 강의의 인스턴스의 마감일을 이전 마감일로 되돌릴 수 있기에 사용자는 인스턴스의 마감일을 변경할 수 없었습니다. 이 문제는 수정되었습니다.
 
-**학습 객체에서 분리된 고유 ID를 사용할 수 없습니다.**
+**학습 개체에서 제거된 고유 ID를 사용할 수 없습니다.**
 
 강의에서 고유 ID를 부여한 다음 제거하면 해당 ID를 다시 사용할 수 없습니다. 이 문제는 수정되었습니다.
 
@@ -2144,11 +2144,11 @@ Learning Manager LMS에 있는 스킬 도메인으로 계정의 스킬을 매핑
 
 시간대 수정으로 인해 학습자가 부정확한 마감 날짜/세션 시간 미리 알림이 포함된 전자 메일을 받는 경우가 많습니다. 이 문제는 수정되었습니다.
 
-**외부 학습자에서 내부 학습자로 변환되면 게임화 리더보드 타임라인에서 외부 학습자를 표시합니다.**
+**외부 학습자에서 내부 학습자로 변환되면 게임화 리더보드 타임라인에 외부 학습자가 표시됩니다.**
 
 외부 학습자에서 내부 학습자로 변환되면 내부 학습자의 게임화 리더보드 타임라인은 외부 학습자를 표시합니다. 이 문제는 수정되었습니다.
 
-**학습자의 UUID 필드는 편집 가능한 형식으로 표시되며 UUID 사용 계정에서는 단일 사용자 및 CSV 사용자를 생성합니다.**
+**UUID가 활성화된 계정에서 단일 사용자 및 CSV 사용자를 만드는 동안 학습자의 UUID 필드가 편집 가능한 형식으로 표시됩니다.**
 
 책임자가 단일 및 CSV 사용자에게 UUID를 제공한 경우에도 프로파일을 완료하는 동안 학습자에게 UUID 필드가 표시됩니다. 이 문제는 수정되었습니다.
 
@@ -2272,13 +2272,13 @@ Learning Manager 사용자가 학습자 앱에서 특정 번역 문제를 발견
 
 ### 새로운 기능 {#newfeatures}
 
-Learning Manager 4월 릴리스의 개선 사항에 대한 자세한 내용은 다음을 참조하십시오. [새로운 기능](../whats-new.md)
+Learning Manager 4월 릴리스의 새로운 기능과 개선 사항에 대한 자세한 내용은 [새로운 기능](../whats-new.md)을 참조하십시오.
 
 **위젯 기반 학습자 앱**
 
 홈페이지 위젯을 사용하여 강의, 스킬 및 성과를 관리합니다. 모든 학습 객체, 카탈로그, 스킬, 노트와 토론을 포함한 전체 LMS에서 검색 창을 통해 검색할 수 있습니다. 
 
-새 홈페이지에 대한 자세한 내용은 다음을 참조하십시오.  [Learning Manager 학습자 홈페이지](../learners/feature-summary/getting-started-learner.md).
+새 홈페이지에 대한 자세한 내용은 [Learning Manager의 학습자 홈페이지](../learners/feature-summary/getting-started-learner.md)를 참조하십시오.
 
 **학습자 대시보드 관련 관리자 설정**
 
@@ -2288,7 +2288,7 @@ Learning Manager 4월 릴리스의 개선 사항에 대한 자세한 내용은 �
 
 새로운 Learning Manager 모바일 앱으로 학습자는 강의를 등록하고 수강할 수 있습니다. 앱을 사용하여 대시보드를 관리할 수도 있습니다.
 
-모바일에서 Learning Manager 사용에 대한 자세한 내용은 다음을 참조하십시오  [모바일용 Learning Manager 학습자 앱](../learners/feature-summary/ipad-android-tablet-users.md#main-pars_header_1451175907).
+모바일에서 Learning Manager를 사용하는 방법에 대한 자세한 내용은 [모바일용 Learning Manager 학습자 앱](../learners/feature-summary/ipad-android-tablet-users.md#main-pars_header_1451175907)을 참조하십시오.
 
 **QR 코드를 이용한 출결 표시**
 
@@ -2298,17 +2298,17 @@ Learning Manager 4월 릴리스의 개선 사항에 대한 자세한 내용은 �
 
 Learning Manager는 이제 모듈의 강사를 소개합니다. 강사는 자신에게 할당된 모듈의 시간, 장소 및 좌석 제한을 포함하여 모듈 세션을 관리할 수 있습니다.
 
-강사에 대한 자세한 정보를 보려면 다음을 참조하십시오.  [Learning Manager 강사](../instructors/feature-summary/getting-started.md#main-pars_header).
+강사에 대한 자세한 정보를 보려면 [Learning Manager 강사](../instructors/feature-summary/getting-started.md#main-pars_header)를 참조하십시오.
 
 **피어 계정**
 
 관리자라면 구입한 좌석을 공유할 수 있는 피어 계정을 생성할 수 있습니다.
 
-피어 계정을 생성하고 관리하는 방법에 관한 자세한 내용은  [피어 계정](../administrators/feature-summary/peer-account.md#main-pars_text).
+피어 계정을 만들고 관리하는 방법을 알아보려면 [피어 계정](../administrators/feature-summary/peer-account.md#main-pars_text)을 참조하세요.
 
 **강의 동등성 제공**
 
-사용 **[!UICONTROL 새 언어 추가]** 모듈이나 강의를 여러 언어와 형식으로 제공할 때 필요한 옵션입니다.
+모듈이나 강의를 추가할 때 여러 언어와 형식으로 사용하려면 **[!UICONTROL 새 언어 추가]** 옵션을 사용하십시오.
 
 **학습자 성적 증명서**
 
@@ -2318,7 +2318,7 @@ Learning Manager에서 관리자와 책임자는 개인과 팀의 학습 기록�
 
 Learning Manager는 이번 릴리스에 세 개의 새로운 커넥터를 도입하여 학습자가 Lynda.com, getAbstract, Harvard ManageMentor 콘텐츠 공급자의 강의에 액세스하고 사용할 수 있도록 했습니다.
 
-각 커넥터를 구성하고 사용하는 방법에 대한 자세한 내용은 다음을 참조하십시오  [커넥터](../integration-admin/feature-summary/connectors.md#main-pars_header).
+각 커넥터를 구성하고 사용하는 방법에 대한 자세한 내용은 [커넥터](../integration-admin/feature-summary/connectors.md#main-pars_header)를 참조하십시오.
 
 **학습 객체용 고유 ID**
 
@@ -2326,7 +2326,7 @@ Learning Manager는 이번 릴리스에 세 개의 새로운 커넥터를 도입
 
 **학습자 토론 게시판**
 
-강의에서 토론 게시판을 사용하여 동료와 강사가 상호 작용할 수 있습니다. 학습자라면 강의의 모든 게시물을 볼 수 있습니다. 그리고 입력한 게시물을 삭제할 수도 있습니다. 토론 게시판에 대한 자세한 내용은 다음을 참조하십시오.  [토론 보기 및 참여](../learners/feature-summary/courses.md#main-pars_header_1772461149).
+강의에서 토론 게시판을 사용하여 동료와 강사가 상호 작용할 수 있습니다. 학습자라면 강의의 모든 게시물을 볼 수 있습니다. 그리고 입력한 게시물을 삭제할 수도 있습니다. 토론 게시판에 대한 자세한 내용은 [토론 보기 및 참여](../learners/feature-summary/courses.md#main-pars_header_1772461149)를 참조하십시오.
 
 ### 향상된 기능 {#Enhancements-3}
 
@@ -2334,7 +2334,7 @@ Learning Manager는 이번 릴리스에 세 개의 새로운 커넥터를 도입
 
 강의, 인증 및 학습 계획에서 학습자가 Y개의 모듈이나 강의 중 X개만 이수하면 되는 등 학습 객체의 완료 기준을 설정할 수 있습니다. 또한, 작성자도 비슷한 방법으로 인증 및 학습 계획 완료 기준을 설정할 수 있습니다.
 
-이 기능에 대한 자세한 내용은  [강의 완료 기준](../learners/feature-summary/courses.md#main-pars_image_1164377098).
+이 기능에 대한 자세한 내용은 [강의 완료 조건](../learners/feature-summary/courses.md#main-pars_image_1164377098)을 참조하세요.
 
 **강의 조정**
 
@@ -2366,7 +2366,7 @@ HTML에 URL을 추가하여 공지사항에 URL을 추가할 수 있습니다.
 
 **새 전달 유형 추가(강의)**
 
-이제 Adobe Learning Manager를 사용하여 강의 전달 유형을 추가할 수 있습니다.
+이제 Adobe Learning Manager에서 강의 전달 유형을 추가할 수 있습니다.
 
 **작성자 역할 개선 사항**
 
@@ -2434,7 +2434,7 @@ AP/courses/{coursesid}을(를) 사용하여 모듈 버전 정보를 가져오려
 
 Learning Manager는 조직 통합 책임자가 마이그레이션 작업을 설정하고 수행할 수 있도록 필요한 도구와 템플릿을 제공합니다.
 
-마이그레이션 기능에 대한 자세한 내용은 다음을 참조하십시오.  [마이그레이션 설명서 도움말](../integration-admin/feature-summary/migration-manual.md)
+마이그레이션 기능에 대한 자세한 내용은 [마이그레이션 매뉴얼 도움말](../integration-admin/feature-summary/migration-manual.md)을 참조하십시오.
 
 ### 향상된 기능 {#Enhancements-4}
 
@@ -2442,13 +2442,13 @@ Learning Manager는 조직 통합 책임자가 마이그레이션 작업을 설�
 
 이제 책임자가 외부 사용자를 추가하면서 특정 도메인 이름도 추가할 수 있습니다. 학습자가 계정에 등록할 때 이러한 도메인 이름에서만 전자 메일 주소를 입력할 수 있습니다.
 
-이제 사용자가 계정에 등록할 때 사용자의 전자 메일로 전자 메일 인증 링크를 보낼 수도 있습니다. 이러한 개선 사항에 대한 자세한 내용은 다음을 참조하십시오.  [사용자/사용자 그룹 추가](../administrators/feature-summary/add-users-user-groups.md#main-pars_header_1217981931).
+이제 사용자가 계정에 등록할 때 사용자의 전자 메일로 전자 메일 인증 링크를 보낼 수도 있습니다. 이 개선 사항에 대한 자세한 내용은 [사용자/사용자 그룹 추가](../administrators/feature-summary/add-users-user-groups.md#main-pars_header_1217981931)를 참조하세요.
 
 **Fluidic Player**
 
 이제 Fluidic Player를 사용하여 재생 속도를 조정할 수 있습니다. 다섯 가지의 속도 변형을 선택할 수 있습니다. 강의 수강 시 Fluidic Player를 사용하여 볼륨 설정을 제어할 수도 있습니다.
 
-학습자는 Fluidic Player 재생 버튼 양쪽에 있는 새 아이콘을 사용하여 앞이나 뒤로 10초씩 건너뛸 수 있습니다. 향상된 기능에 대한 자세한 내용은 다음을 참조하십시오.  [Fluidic Player](../learners/feature-summary/fluidic-player.md).
+학습자는 Fluidic Player 재생 버튼 양쪽에 있는 새 아이콘을 사용하여 앞이나 뒤로 10초씩 건너뛸 수 있습니다. 이러한 개선 사항에 대한 자세한 내용은 [Fluidic Player](../learners/feature-summary/fluidic-player.md)를 참조하십시오.
 
 Fluidic Player의 개선 사항은 비디오에만 적용됩니다.
 
@@ -2460,7 +2460,7 @@ Fluidic Player의 개선 사항은 비디오에만 적용됩니다.
 
 ### 향상된 성능 {#enhancement}
 
-이번 업데이트의 일부로 Learning Manager는 엔드포인트를 제공합니다 [PATCH/사용자/{id}](<https://learningmanager.adobe.com/docs/Learning> Managerapi/v1/#!/user/patch_users_id) - 응용 프로그램의 사용자를 업데이트합니다. 책임자 역할이라면 이 API 엔드포인트에 접근할 수 있습니다. 이 엔드포인트**** 사용하여 다음과 같은 Learning Manager 사용자 정보를 업데이트할 수 있습니다.
+이 업데이트의 일부로 Learning Manager는 끝점 [PATCH/사용자/{id}](<https://learningmanager.adobe.com/docs/Learning> Managerapi/v1/#!)을 제공합니다./user/patch_users_id) - 응용 프로그램의 사용자를 업데이트합니다. 책임자 역할이라면 이 API 엔드포인트에 접근할 수 있습니다. 이 엔드포인트**** 사용하여 다음과 같은 Learning Manager 사용자 정보를 업데이트할 수 있습니다.
 
 * 이름
 * 이메일
@@ -2472,7 +2472,7 @@ Fluidic Player의 개선 사항은 비디오에만 적용됩니다.
 
 **Fluidic Player**
 
-Captivate에서 개발한 강의를 수료하는 경우  `code cpQuizInfoStudentName` 변수가 학생의 이름이 예상대로 나타나지 않습니다. 이 문제는 수정되었습니다.
+`code cpQuizInfoStudentName` 변수를 사용하여 Captivate에서 개발한 강의를 이용했을 때 학생의 이름이 제대로 나타나지 않습니다. 이 문제는 수정되었습니다.
 
 +++
 
@@ -2486,17 +2486,17 @@ Captivate에서 개발한 강의를 수료하는 경우  `code cpQuizInfoStudent
 
 카탈로그 공유 기능으로 책임자가 학습 객체와 카탈로그를 계정 전반에서 공유하거나 획득할 수 있습니다. 카탈로그 공유 기능을 확장하면 배지, 스킬, 모듈, 강의, 학습 프로그램, 인증 및 작업 지원과 같은 학습 객체로 업데이트를 전송할 수 있습니다.
 
-이 기능에 대한 자세한 내용은 다음을 참조하십시오.  [공유 카탈로그 도움말](../administrators/feature-summary/catalogs.md#propagation)
+이 기능에 대한 자세한 내용은 [공유 카탈로그 도움말](../administrators/feature-summary/catalogs.md#propagation)을 참조하십시오.
 
 **L1 및 L3 피드백**
 
 * 학습자가 강의 이용을 완료하면 바로 L1 피드백 대화 상자가 나타납니다. 또한, 학습자는 L1 피드백 완료에 대한 알림도 받습니다.
 * L1 및 L3 피드백 기능에 서술형 질문 추가 옵션이 제공됩니다. 책임자는 학습자에게 이러한 서술형 질문을 추가할 수 있습니다. 이 프로비전은 Learning Manager에서 제공하는 기본 질문에 추가됩니다. L1 피드백에는 두 가지 서술형 질문을, L3 피드백에는 한 가지 서술형 질문을 추가할 수 있습니다.\
-  이 기능에 대한 자세한 내용은 다음을 참조하십시오. [L1 및 L3 피드백 서술형 질문 도움말](../administrators/feature-summary/courses.md#descriptive)
+  이 기능에 대한 자세한 내용은 [L1 및 L3 피드백 서술형 질문 도움말](../administrators/feature-summary/courses.md#descriptive)을 참조하십시오.
 
 **사용자 내보내기**
 
-* 일부 대기업 사용자의 요청에 따라 Learning Manager 계정의 모든 사용자 목록을 다운로드할 수 있는 새로운 옵션이 제공됩니다. 책임자 로그인에서 **[!UICONTROL 사용자]** 왼쪽 창에서 을 클릭합니다. **[!UICONTROL 사용자 데이터 내보내기]** 를 클릭하여 사용자 목록을 엑셀 시트로 다운로드합니다.
+* 일부 대기업 사용자의 요청에 따라 Learning Manager 계정의 모든 사용자 목록을 다운로드할 수 있는 새로운 옵션이 제공됩니다. 관리자 로그인에서 왼쪽 창에 있는 **[!UICONTROL 사용자]**&#x200B;를 클릭하고 **[!UICONTROL 사용자 데이터 내보내기]**&#x200B;를 클릭하여 사용자 목록을 엑셀 시트로 다운로드합니다.
 
 ### 수정 내용 {#Issuesfixed-1}
 
@@ -2559,7 +2559,7 @@ Captivate에서 개발한 강의를 수료하는 경우  `code cpQuizInfoStudent
 
 **강의 효과**
 
-* 학습자 역할에서 강의 효과는 다음 중 하나로 표시되었다. **정렬 기준** 책임자가 학습자의 강의 효과를 비활성화한 경우에도 옵션을 필터링합니다. 이 문제는 수정되었습니다.
+* 책임자가 학습자의 강의 효과를 활성화하지 않아도 학습자 역할에서 강의 효과를 **정렬 기준** 필터 옵션 중 하나로 표시합니다. 이 문제는 수정되었습니다.
 
 **인증**
 
@@ -2567,7 +2567,7 @@ Captivate에서 개발한 강의를 수료하는 경우  `code cpQuizInfoStudent
 
 **보고서**
 
-* 책임자가 인증 보고서 생성을 **종료 날짜**&#x200B;옵션으로 비활성 사용자가 보고서에 표시되지 않습니다. 이 문제는 수정되었습니다.
+* 책임자가 **유효일**&#x200B;을(를) 옵션으로 사용하여 인증 보고서 생성을 시도하면 비활성 사용자가 보고서에 표시되지 않습니다. 이 문제는 수정되었습니다.
 * 책임자가 &#39;보고서&#39;>&#39;내 보고서&#39; 탭에서 강의 보고서 링크를 클릭하면 닫기 버튼이 없는 팝업 대화창이 나타납니다. 이 문제는 수정되었습니다.
 
 **Fluidic Player**
@@ -2614,7 +2614,7 @@ Captivate에서 개발한 강의를 수료하는 경우  `code cpQuizInfoStudent
 ### 수정 내용 {#Issuesfixed-4}
 
 * 학습자 성적 증명서에서 모듈 데이터 내보내기를 하면 부적절한 데이터가 나오는 문제가 발생합니다. 이 문제는 수정되었습니다.
-* 사용자가 네 글자를 초과하는 전자 메일 ID 확장을 사용하면 지원되지 않습니다. 예를 들어, 전자 메일 ID가 <abcd@company.world> 익스텐션 월드가 4자 이상이어서 지원되지 않았다. 네 글자 초과를 연장 지원하여 문제를 수정하였습니다.
+* 사용자가 네 글자를 초과하는 전자 메일 ID 확장을 사용하면 지원되지 않습니다. 예를 들어 전자 메일 ID가 <abcd@company.world>인 경우 전자 메일 ID의 확장명이 4자 이상이므로 지원되지 않습니다. 네 글자 초과를 연장 지원하여 문제를 수정하였습니다.
 
 +++
 
@@ -2817,11 +2817,11 @@ Learning Manager 7월 릴리스의 새로운 기능과 개선 사항에 대한 �
 
 **학습자 성적 증명서**
 
-Learning Manager는 조직의 Learning Manager 학습자 성적 증명서를 생성하는 기능을 제공합니다. 자세한 내용은 다음을 참조하십시오.  [학습자 성적 증명서 기능 도움말 콘텐츠](../administrators/feature-summary/learner-transcripts.md).
+Learning Manager는 조직의 Learning Manager 학습자 성적 증명서를 생성하는 기능을 제공합니다. 자세한 내용은 [학습자 성적 증명서 기능 도움말 내용](../administrators/feature-summary/learner-transcripts.md)을 참조하십시오.
 
 **배지를 PDF으로 내보내기**
 
-Learning Manager를 사용하면 배지를 PDF 파일로 내보낼 수 있습니다. 자세한 내용은 다음을 참조하십시오.  [배지 기능 콘텐츠](../administrators/feature-summary/badges.md).
+Learning Manager를 사용하면 배지를 PDF 파일로 내보낼 수 있습니다. 자세한 내용은 [배지 기능 콘텐츠](../administrators/feature-summary/badges.md)를 참조하십시오.
 
 **모듈용 퀴즈 점수**
 
@@ -2846,7 +2846,7 @@ Learning Manager를 사용하면 배지를 PDF 파일로 내보낼 수 있습니
 **보고서**
 
 * 강의, 학습 프로그램 또는 인증 보고서를 구독할 수 있습니다. 퀴즈 점수 및 학습자 상태와 같은 데이터에 대한 개별 강의 보고서도 구독할 수 있습니다. 구독은 Learning Manager 계정에 등록된 전자 메일 ID로 전달됩니다. 이 전자 메일 ID를 변경할 수도 있습니다.
-* 인증 등록 보고서를 내보내면 이름이 인 새 열이 생성됩니다. **만기일** 내보내기도 합니다. 이 열 데이터를 통해 책임자는 학습 객체 이용 마감 시간을 놓친 학습자를 알 수 있습니다.
+* 인증 등록 보고서를 내보내면 **예정 날짜**&#x200B;라는 이름의 새 열도 같이 내보냅니다. 이 열 데이터를 통해 책임자는 학습 객체 이용 마감 시간을 놓친 학습자를 알 수 있습니다.
 
 **전자 메일 템플릿**
 
@@ -2876,7 +2876,7 @@ Learning Manager 사용자가 많으면 사용자 및 사용자 그룹 페이지
 
 ## 이 문제는 수정되었습니다. {#Issuefixed-1}
 
-일부 고객이 Learning Manager에서 단일 인증 기능을 사용하면 문제가 일어납니다. 이 문제는 Learning Manager의 엔티티 ID를 URL에 참조하여 해결되었습니다(<https://learningmanager.adobe.com>키워드 대신 사용합니다. Learning Manager는 SAML 2.0 규격을 준수합니다.
+일부 고객이 Learning Manager에서 단일 인증 기능을 사용하면 문제가 일어납니다. 이 문제는 Learning Manager의 entityId를 키워드 대신 URL(<https://learningmanager.adobe.com>)에 참조하여 해결되었습니다. Learning Manager는 SAML 2.0 규격을 준수합니다.
 
 +++
 
@@ -2903,13 +2903,13 @@ FTP를 사용한 CSV 자동 업로드 기능의 경우 관리자는 CSV 업로�
 
 **강의 미리 보기 및 게시**
 
-* 작성자 역할로 Captivate에서 SCORM+ SWF 콘텐츠로 업로드된 강의를 미리 볼 때 `code $$cpQuizInfoStudentName$$` 변수에 null 값이 표시되었습니다. 이 문제는 수정되었습니다.
+* 작성자 역할에서 `code $$cpQuizInfoStudentName$$` 변수를 사용하여 Captivate에서 SCORM+SWF 콘텐츠로 업로드된 강의를 미리 보면 변수에 대해 null 값이 표시됩니다. 이 문제는 수정되었습니다.
 * 제목에 아포스트로피(&#39;)가 포함된 프리젠터 강의를 Learning Manager에서 게시하고 시청하면 물음표(???)가 TOC에 나타납니다. 이 문제는 수정되었습니다.
 
 **인증**
 
 * 인증이 다시 실행될 때 카탈로그와 연결되어 있으면 관련된 모든 카탈로그에 인증이 표시됩니다. 이전에는 사용자가 카탈로그에서 반복 인증을 볼 수 없는 경우가 있었습니다.
-* 인증을 생성하는 동안 책임자가 **완료까지 남은 일수** 인증 유효 기간과 같거나 큰 값에는 경고 메시지가 나타납니다. 이전에는 책임자에게 경고 메시지가 표시되지 않았습니다.
+* 인증을 생성하는 동안 책임자가 인증 유효 기간과 같거나 큰 **완료까지 남은 기간** 값을 입력하면 경고 메시지가 나타납니다. 이전에는 책임자에게 경고 메시지가 표시되지 않았습니다.
 * 인증&#x200B;**&#39;유효성&#39;**&#x200B;이 월 단위로 사용자에게 표시됩니다. 이전에는 기준값이 년 단위로 나타났습니다.
 
 **학습 프로그램 정의**
@@ -2970,10 +2970,10 @@ FTP를 사용한 CSV 자동 업로드 기능의 경우 관리자는 CSV 업로�
 
 **전자 메일 템플릿**
 
-* 단어 **파트너,**&#x200B;외부 그룹을 나타내는 데 사용되었습니다.**** is ****&#x200B;전자 메일 템플릿 제목과 본문에서 제거되었습니다. 외부 그룹을 반드시 파트너라고 부르지는 않습니다.\
-  **참고:** 기본 템플릿이 이미 수정된 경우에는 이 업데이트된 템플릿이 나타나지 않습니다. 업데이트된 템플릿을 보려면&#x200B;**원본으로 되돌리기**&#x200B;아이콘을 **템플릿 미리 보기** 대화 상자.
+* 외부 그룹을 나타내는 데 사용된 **파트너,**&#x200B;라는 단어,**** is ****&#x200B;이(가) 전자 메일 템플릿 제목과 본문에서 제거되었습니다. 외부 그룹을 반드시 파트너라고 부르지는 않습니다.\
+  **참고:** 기본 템플릿이 이미 수정된 경우에는 이 업데이트된 템플릿이 나타나지 않습니다. 업데이트된 템플릿을 보려면 **템플릿 미리 보기** 대화 상자에서 **을(를) 원본**&#x200B;으로 되돌리기를 클릭합니다.
 
-* 책임자가 전자 메일을 보낼 때마다 URL을 클릭할 수 없음 **프로필 생성됨(자가 등록)**&#x200B;및&#x200B;**프로필 생성됨(외부/파트너)** 전자 메일 템플릿 편집 이 문제는 수정되었습니다.
+* **생성된 프로필(자가 등록)**&#x200B;과&#x200B;**생성된 프로필(외부 사용자/파트너)** 전자 메일 템플릿을 편집하면 관리자가 받은 전자 메일에 있는 URL을 클릭할 수 없습니다. 이 문제는 수정되었습니다.
 
 +++
 
@@ -3011,9 +3011,9 @@ Learning Manager 계정이 만료되면 외부 학습자가 응용 프로그램�
 
 **학습 프로그램 및 플랜**
 
-* 학습자가 학습 프로그램에서 순서가 지정된 강의 모듈을 건너뛰려 하여도 오류 메시지가 표시되지 않습니다. 이 문제는 수정되었습니다. 오류 메시지 **모듈을 건너뛸 수 없음**&#x200B;가 나타납니다.
+* 학습자가 학습 프로그램에서 순서가 지정된 강의 모듈을 건너뛰려 하여도 오류 메시지가 표시되지 않습니다. 이 문제는 수정되었습니다. **모듈을 건너뛸 수 없습니다**&#x200B;라는 오류 메시지가 나타납니다.
 * 강의 목록에 페이지네이션이 사용되면 학습 프로그램에 강의가 추가되지 않습니다. 이 문제는 수정되었습니다.
-* **중단됨**&#39;학습 프로그램&#39; > &#39;인스턴스&#39;에 탭이 두 번 나타납니다. 이 문제는 수정되었습니다.
+* **중단**&#x200B;탭이 학습 프로그램 > 인스턴스에 두 번 나타납니다. 이 문제는 수정되었습니다.
 
 **작업 지원**
 
@@ -3028,16 +3028,16 @@ Learning Manager 계정이 만료되면 외부 학습자가 응용 프로그램�
 
 **스킬 생성**
 
-학습자 로그인에서 **스킬 지도 스킬 이름 도구 설명 **was** **전체 이름이 표시되지 ****. 이 문제는 수정되었습니다.
+학습자 로그인에서 **스킬 지도 **의 스킬 이름 도구 팁이****전체 이름**** 표시되지 않습니다. 이 문제는 수정되었습니다.
 
 **외부 파트너 추가**
 
-* 문자 메시지는 다음과 같이 외부 사용자 등록 페이지에 포함됩니다. **사용자는 먼저 등록한 후 이후 로그인에 사용할 사용자 이름 암호를 만들어야 합니다**.
+* **먼저 사용자를 등록하고 이후 로그인에 사용할 사용자 이름 암호를 만들어야 하므로** 문자 메시지가 외부 사용자 등록 페이지에 포함됩니다.
 
 **사용자 알림**
 
-* 외부 학습자가 **노트 열기**&#x200B;강의 재방문 이메일 알림에서 플레이어가 열리지만 노트 패널이 작동하지 않습니다. 이 문제는 수정되었습니다.
-* 외부 학습자가 다음을 사용하여 사전 작업 또는 테스트 모듈을 열려고 할 때 **노트 열기** 강의 재방문 이메일 알림의 링크, 메모 콘텐츠가 표시되지 않습니다. 이 문제는 수정되었습니다.
+* 외부 학습자가 강의 재방문 전자 메일 알림에서 **노트 열기**&#x200B;링크를 클릭하면 플레이어는 열리지만 노트 패널이 작동하지 않습니다. 이 문제는 수정되었습니다.
+* 외부 학습자가 강의 재방문 전자 메일 알림에서 **노트 열기** 링크를 사용하여 사전 작업 또는 테스트 모듈을 열려고 하면 노트 내용이 표시되지 않습니다. 이 문제는 수정되었습니다.
 
 **모듈을 이용한 강의 생성**
 
@@ -3057,7 +3057,7 @@ Learning Manager 계정이 만료되면 외부 학습자가 응용 프로그램�
 
 **모듈로 강의 생성**
 
-* 책임자 로그인에서 강의 인스턴스를 **중단됨** tab 키를 누르면 오류가 발생합니다. 이 문제는 수정되었습니다.
+* 책임자 로그인에서 **중단**&#x200B;탭에서 강의의 새 인스턴스를 만들면 오류가 발생합니다. 이 문제는 수정되었습니다.
 * 지역 콘텐츠의 책임자 로그인에서 학습자를 강의 인스턴스에 등록하는 동안 작업 및 등록 화면 레이아웃 왜곡 현상이 있습니다. 이 문제는 수정되었습니다.
 * 작성자가 강의실 또는 가상 강의실 모듈을 생성할 때 날짜 캘린더의 기본 월은 2015년 1월로 표시됩니다. 이 문제는 현재 날짜를 기본적으로 반영하도록 수정되었습니다.
 * 강의 인스턴스 이름에 슬래시 또는 백슬래시가 들어가면 학습자 목록에서 내보내기 작업이 실패합니다. 이 문제는 수정되었습니다.
@@ -3068,7 +3068,7 @@ Learning Manager 계정이 만료되면 외부 학습자가 응용 프로그램�
 
 **사용자 알림**
 
-외부 학습자가 **노트 열기**&#x200B;강의 재방문 이메일 알림의 링크가 작동하지 않습니다. 이 문제는 수정되었습니다. 이 링크는 사용자가 Learning Manager에 로그인하지 않아도 노트로 플레이어를 엽니다.
+외부 학습자가 강의 재방문 전자 메일 알림에서 **노트 열기**&#x200B;링크를 클릭하면 작동하지 않습니다. 이 문제는 수정되었습니다. 이 링크는 사용자가 Learning Manager에 로그인하지 않아도 노트로 플레이어를 엽니다.
 
 **프랑스어 및 독일어 지원**
 
@@ -3098,13 +3098,13 @@ Internet Explorer 11 브라우저에서 작업 지원 이름 및 아이콘이 �
 
 작업 지원은 등록 또는 완료 조건 없이 학습자가 액세스할 수 있는 교육 콘텐츠 저장소입니다. 학습자는 이러한 작업 지원을 참조하여 조직 내 활동이나 작업 수행을 지원받을 수 있습니다. 책임자는 작업 지원당 다운로드 수를 추적할 수 있습니다.
 
-이 기능에 대한 자세한 내용은 다음을 참조하십시오.  [작업 지원 도움말](../learners/feature-summary/job-aids.md).
+이 기능에 대한 자세한 내용은 [작업 지원 도움말](../learners/feature-summary/job-aids.md)을 참조하십시오.
 
 ### 공지
 
 책임자가 정의한 사용자 그룹에 멀티미디어 메시지(텍스트, 이미지 또는 비디오)로 공지를 보낼 수 있습니다. 공지를 이용하여 학습의 교육 동기를 부여하고 그에 따른 학습 문화를 형성합니다.
 
-이 기능에 대한 자세한 내용은 다음을 참조하십시오.  [공지 도움말](../learners/feature-summary/announcements.md).
+이 기능에 대한 자세한 내용은 [공지 도움말](../learners/feature-summary/announcements.md)을 참조하십시오.
 
 ### Tin Can API 지원
 
@@ -3116,7 +3116,7 @@ Adobe Learning Manager는 Tin Can API(Environment API 또는 xAPI라고도 함) 
 
 후속 강의 또는 모든 학습 활동을 자동으로 할당하여 학습 경로를 생성할 수 있습니다.
 
-학습 계획 이벤트가 업데이트되었습니다. 몇 가지 새로운 이벤트가 추가되었습니다. 자세한 내용은  [학습 계획](../learners/feature-summary/learning-programs.md) 를 참조하십시오.
+학습 계획 이벤트가 업데이트되었습니다. 몇 가지 새로운 이벤트가 추가되었습니다. 자세한 내용은 [학습 계획](../learners/feature-summary/learning-programs.md)을 참조하세요.
 
 ### 메모 알림 메시지
 
@@ -3124,7 +3124,7 @@ Adobe Learning Manager는 Tin Can API(Environment API 또는 xAPI라고도 함) 
 
 ### 그룹 레벨 게임화
 
-관리자는 범위 설정을 변경하여 게임화 범위를 정할 수 있습니다. 유사한 프로필 사용자, 그룹 또는 위치 사이에서 선택하여 게임화 기능을 활성화할 수 있습니다. 자세한 내용은  [게임화](../learners/feature-summary/gamification.md) 기능을 사용하여 자세한 내용을 살펴보십시오.
+관리자는 범위 설정을 변경하여 게임화 범위를 정할 수 있습니다. 유사한 프로필 사용자, 그룹 또는 위치 사이에서 선택하여 게임화 기능을 활성화할 수 있습니다. 자세한 내용은 [게임화](../learners/feature-summary/gamification.md) 기능을 참조하십시오.
 
 ### 프랑스어 및 독일어 지원
 
@@ -3136,7 +3136,7 @@ Learning Manager의 기존 기능이 크게 개선되었습니다. 주요 개선
 
 ### CSV 가져오기
 
-사용자를 삭제하면 단일 사용자 추가를 사용하여 동일한 사용자를 다시 응용 프로그램에 추가할 수 없습니다. 그러나 CSV 업로드 프로세스를 사용하면 삭제된 사용자를 다시 추가할 수 있습니다. CSV 업로드 기능의 필수 영역 제한이 크게 변경되었습니다. 자세한 내용은  [CSV의 FAQ](../administrators/add-users-in-bulk.md) 를 참조하십시오.
+사용자를 삭제하면 단일 사용자 추가를 사용하여 동일한 사용자를 다시 응용 프로그램에 추가할 수 없습니다. 그러나 CSV 업로드 프로세스를 사용하면 삭제된 사용자를 다시 추가할 수 있습니다. CSV 업로드 기능의 필수 영역 제한이 크게 변경되었습니다. 자세한 내용은 [CSV에 대한 FAQ](../administrators/add-users-in-bulk.md)를 참조하십시오.
 
 ### 강의 목록 보기
 
@@ -3144,7 +3144,7 @@ Learning Manager의 기존 기능이 크게 개선되었습니다. 주요 개선
 
 ### 강의 삭제
 
-이제 초안 및 중단 단계에서 강의를 삭제할 수 있습니다. 자세한 내용은  [강의](../administrators/feature-summary/courses.md) 기능을 사용하여 자세한 내용을 살펴보십시오. 학습 객체가 삭제되면 모든 보고 데이터도 삭제됩니다. 강의가 삭제되고, 그 강의가 다른 학습 객체의 일부라면 사용자에게 적절한 메시지가 나타납니다.
+이제 초안 및 중단 단계에서 강의를 삭제할 수 있습니다. 자세한 내용은 [강의](../administrators/feature-summary/courses.md) 기능을 참조하십시오. 학습 객체가 삭제되면 모든 보고 데이터도 삭제됩니다. 강의가 삭제되고, 그 강의가 다른 학습 객체의 일부라면 사용자에게 적절한 메시지가 나타납니다.
 
 **학습 프로그램 및 플랜**
 
@@ -3194,7 +3194,7 @@ Learning Manager의 기존 기능이 크게 개선되었습니다. 주요 개선
 
 **보고서**
 
-콘텐츠에서 사용자가 콘텐츠를 이용하는 데 사용하는 시간을 알아보도록 하려면 변수를 사용하여 확인할 수 있습니다. `code cmi.core.session_time`. 이전에는 변수가 설정되지 않았습니다. 이 문제는 수정되었습니다.
+콘텐츠에서 사용자가 콘텐츠를 이용하는 데 사용하는 시간을 알아보도록 하려면 변수, `code cmi.core.session_time`을(를) 사용하여 확인할 수 있습니다. 이전에는 변수가 설정되지 않았습니다. 이 문제는 수정되었습니다.
 
 **모듈로 강의 생성**
 
@@ -3212,7 +3212,7 @@ Learning Manager의 기존 기능이 크게 개선되었습니다. 주요 개선
 
 ## 로그아웃 업데이트 {#signoutbehaviorupdated}
 
-사용자가 클릭할 때 **[!UICONTROL 로그아웃]** 이제 Learning Manager에서 학습 관리자 응용 프로그램과 Adobe ID에서 같이 로그아웃됩니다.
+이제 사용자가 Learning Manager에서 **[!UICONTROL 로그아웃]**&#x200B;을 클릭하면 Learning Manager 응용 프로그램과 Adobe ID에서 같이 로그아웃됩니다.
 
 +++
 
@@ -3232,7 +3232,7 @@ Learning Manager의 기존 기능이 크게 개선되었습니다. 주요 개선
 
 **학습 객체 다이렉트 링크**
 
-* 직접 URL을 사용하여 학습 객체(인증 제외)에 접속할 수 있습니다. 대상 **[!UICONTROL URL 복사]** 학습 객체의 타일에 옵션이 표시됩니다. 사용자가 클릭 가능 **[!UICONTROL URL 복사]** 그런 다음 별도 브라우저 페이지에 링크를 붙여넣어 학습 객체에 직접 액세스합니다.
+* 직접 URL을 사용하여 학습 객체(인증 제외)에 접속할 수 있습니다. 학습 개체의 타일에 **[!UICONTROL URL 복사]** 옵션이 표시됩니다. 사용자는 **[!UICONTROL URL 복사]**&#x200B;를 클릭하고 별도 브라우저 페이지에 링크를 붙여넣어 학습 개체에 직접 액세스할 수 있습니다.
 
 **모듈을 이용한 강의 생성**
 
@@ -3246,11 +3246,11 @@ Learning Manager의 기존 기능이 크게 개선되었습니다. 주요 개선
 
 **카탈로그 생성**
 
-* 관리자 역할에서 다음을 사용하여 카탈로그를 생성합니다. **학습 객체 추가** 대화 상자에서 중단된 강의는 강의 목록에 나타나지 않습니다.
+* 관리자 역할에서 **학습 개체 추가** 대화 상자를 사용하여 카탈로그를 만드는 동안 중지된 강의가 강의 목록에 나타나지 않습니다.
 
 **기타 개선 사항**
 
-* 책임자 역할에서 학습자의 전체 이름(예: **학습자** 탭. 이전에는 학습자의 이름만 나타났습니다.
+* 책임자 역할에서 학습자의 전체 이름이 **학습자** 탭에 표시됩니다. 이전에는 학습자의 이름만 나타났습니다.
 
 +++
 
@@ -3279,7 +3279,7 @@ Learning Manager의 기존 기능이 크게 개선되었습니다. 주요 개선
 
 **개인 대시보드**
 
-* 책임자 및 작성자로 강의, 카탈로그 및 학습 프로그램에 접속하면 탭 순서가 다음으로 변경됩니다. **게시됨 - 초안 - 모두 - 중단됨**. 기본 선택은 다음과 같습니다 **게시됨.**
+* 책임자 및 작성자로 강의, 카탈로그 및 학습 프로그램에 접속하면 탭 순서가 **게시 - 초안 - 모두 - 중단**&#x200B;으로 변경됩니다. 기본 선택은 **게시**&#x200B;입니다.
 
 ### 수정 내용 {#Issuesfixed-16}
 
@@ -3297,7 +3297,7 @@ Learning Manager의 기존 기능이 크게 개선되었습니다. 주요 개선
 
 **사용자 그룹을 위한 사용자 정의 카탈로그 생성**
 
-* 사용 중 **학습 객체 추가** 책임자 역할의 대화 상자에서 강의를 필터링하고 선택하며 다음을 사용하여 추가할 수 있습니다 **추가** 대화 상자 하단에 있는 단추입니다. 경우에 따라 **추가** 일부 사용자에게 단추가 표시되지 않습니다.
+* 관리자 역할에서 **학습 개체 추가** 대화 상자를 사용하는 동안 강의를 필터링하고 선택하며 대화 상자 하단에 있는 **추가** 단추를 사용하여 추가할 수 있습니다. 경우에 따라 일부 사용자에게는 **추가** 단추가 나타나지 않습니다.
 
 +++
 
@@ -3357,7 +3357,7 @@ Learning Manager의 기존 기능이 크게 개선되었습니다. 주요 개선
 * 전자 메일 템플릿 URL 링크와 관련된 문제가 수정되었습니다.
 * Learning Manager에
 
-   * Learning Manager에 게시
+   * Publish에서 Learning Manager로
    * CP 8 버전 콘텐츠 업로드 지원 시간이 단축됩니다(CP803 패치 필요).
 
 +++
@@ -3378,7 +3378,7 @@ Learning Manager의 기존 기능이 크게 개선되었습니다. 주요 개선
 
 **청구**
 
-* 책임자가 학습자 수를 입력하고 클릭하면 **주문하기,** 사용자당 월간 및 연간 구독 요금에 대한 세부 정보가 포함된 대화 상자가 나타납니다.
+* 책임자가 학습자 수를 입력하고 **주문하기**&#x200B;를 클릭하면 사용자당 월간 및 연간 구독료에 대한 세부 정보가 있는 대화 상자가 나타납니다.
 
 ### 수정 내용 {#Issuesfixed-19}
 

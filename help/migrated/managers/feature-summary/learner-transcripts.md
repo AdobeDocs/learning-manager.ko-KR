@@ -2,14 +2,13 @@
 description: Learning Manager에서 사용자, 학습 대상 또는 스킬을 기준으로 학습자 성적 증명서를 다운로드하는 방법을 알아봅니다.
 jcr-language: en_us
 title: 학습자 성적 증명서
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 8204aa1e-0e0d-4d9e-9dc0-6260667bf4e7
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 84%
 
 ---
-
-
 
 # 학습자 성적 증명서
 
@@ -19,9 +18,9 @@ Adobe Learning Manager를 사용하면 조직의 관리자가 학습자 관련 �
 
 ## 학습자 성적 증명서 생성 {#generatelearnertranscripts}
 
-1. 학습자 성적 증명서를 생성하려면 다음을 클릭합니다. **[!UICONTROL 보고서]** 관리자 로그인 의 왼쪽 창에 표시됩니다.
-1. 다음을 수행합니다. **[!UICONTROL 내 보고서]** 페이지의 탭입니다.
-1. 다음을 수행합니다. **[!UICONTROL 학습자 성적 증명서]** 링크를 클릭합니다.
+1. 학습자 성적 증명서를 생성하려면 관리자 역할로 로그인하여 왼쪽 창의 **[!UICONTROL 보고서]**&#x200B;를 클릭하십시오.
+1. 페이지에서 **[!UICONTROL 내 보고서]** 탭을 클릭합니다.
+1. **[!UICONTROL 학습자 성적 증명서]** 링크를 클릭합니다.
 
    ![](assets/learner-transcripts.png)
 
@@ -33,7 +32,7 @@ Adobe Learning Manager를 사용하면 조직의 관리자가 학습자 관련 �
    >
    >기본적으로 시작 날짜는 학습자의 등록 날짜이며 종료 날짜는 항상 현재 날짜입니다. 데이터가 필요할 때 시작 날짜만 수정할 수 있습니다.
 
-1. 학습자 선택 필드에서 학습자 이름을 선택하고 **[!UICONTROL 생성]**.
+1. 학습자 선택 필드에서 학습자 이름을 선택하고 **[!UICONTROL 생성]**&#x200B;을 클릭합니다.
 
 단일 학습자 또는 학습자 그룹을 선택할 수 있습니다. 한 명 이상의 학습자를 추가하려면 &#39;학습자 추가&#39;를 클릭합니다.
 
@@ -51,7 +50,7 @@ Adobe Learning Manager를 사용하면 조직의 관리자가 학습자 관련 �
 
 ![](assets/image030.png)
 
-*잠시 동안 학습자 성적 증명서 다운로드*
+*일정 기간의 학습자 성적 증명서 다운로드*
 
 ## 학습자 성적 증명서 파일 콘텐츠 {#learnertranscriptfilecontent}
 

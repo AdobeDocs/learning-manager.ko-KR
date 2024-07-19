@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 학습 요약이 현재 데이터에 표시되지 않음
 description: 학습 요약이 Adobe Learning Manager의 현재 데이터에 표시되지 않음
 contentowner: saghosh
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 97a3435e-c447-41dd-b71f-46b58a7131ac
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 48%
 
 ---
-
-
 
 # 학습 요약이 현재 데이터에 표시되지 않음
 
@@ -34,4 +33,4 @@ Adobe Learning Manager에서 학습 요약에 등록, 완료 또는 진행에 �
 
 ![](assets/learning-summary.png)
 
-*페이지 하단에 데이터 새로 고침 메시지가 나타납니다*
+*페이지 아래쪽에 데이터 새로 고침 메시지가 표시됨*

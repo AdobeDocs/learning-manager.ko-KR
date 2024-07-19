@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 공유 카탈로그 전체 제어 활성화
 description: Adobe Learning Manager에서 공유 카탈로그 전체 제어 활성화
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 231ba348-d777-4b13-98b0-06572b0ac7ed
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 89%
 
 ---
-
-
 
 # 공유 카탈로그 전체 제어 활성화
 
@@ -73,7 +72,7 @@ ht-degree: 89%
 
 ## 강의 재설정 {#resetcourse}
 
-1. 연결이 끊어진 카탈로그 카드에서 **[!UICONTROL 강의 재설정]**.
+1. 연결이 끊어진 카탈로그 카드에서 **[!UICONTROL 과정 재설정]**&#x200B;을 클릭하세요.
 
 <!-- ![](assets/reset-course.png)-->
 
@@ -100,7 +99,7 @@ ht-degree: 89%
 
 ![](assets/re-add-button.png)
 
-*학습 개체 다시 추가*
+*학습 개체를 다시 추가*
 
 다시 추가 버튼을 클릭하면 학습 개체가 카탈로그에 추가되었다는 확인 메시지가 표시됩니다.
 

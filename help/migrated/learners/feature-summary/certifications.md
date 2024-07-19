@@ -3,14 +3,13 @@ description: Learning Manager 학습자 앱을 사용하여 인증을 획득하�
 jcr-language: en_us
 title: 인증
 contentowner: manochan
-source-git-commit: a8dec2a5e91b6d989a7fb9161e84fcb1f8de752d
+exl-id: e2869ee6-2c73-45c6-bb00-961e722367ff
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 62%
 
 ---
-
-
 
 # 인증
 
@@ -61,7 +60,7 @@ Learning Manager 학습자 앱을 사용하여 인증을 획득하는 방법을 
 
    인증 개요, 인증 유효 날짜, 발급자, 완료 날짜, 유형(반복 또는 영구) 및 배지 등의 내용이 담긴 인증 페이지가 나타납니다.
 
-1. 인증을 위한 완료 증명 자료를 제출하려면 찾아보기 를 클릭하고 로컬 경로에서 파일을 선택한 다음 **[!UICONTROL 업로드]**.
+1. 인증 완료 증명을 제출하려면 [찾아보기]를 클릭하고 로컬 경로에서 파일을 선택한 다음 **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
 
 ## 인증 완료 {#completingcertifications}
 

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Adobe Connect 통합
 description: 작성자는 강의 생성 절차 중 Adobe Connect로 가상 강의실 강의를 생성할 수 있습니다. Learning Manager 계정에서 Adobe Connect를 허용하려면 조직의 관리자에게 문의하십시오.
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 70%
 
 ---
-
-
 
 # Adobe Connect 통합
 
@@ -18,13 +17,13 @@ ht-degree: 70%
 
 ## Adobe Connect 구성 {#configureadobeconnect}
 
-1. 관리자 로그인의 왼쪽 창에서 **[!UICONTROL &#39;설정&#39;]**&#x200B;을 클릭하여 회사 기본 정보를 봅니다. 다음을 수행합니다. **[!UICONTROL Adobe Connect]** 왼쪽 창에.
+1. 관리자 로그인의 왼쪽 창에서 **[!UICONTROL &#39;설정&#39;]**&#x200B;을 클릭하여 회사 기본 정보를 봅니다. 왼쪽 창에서 **[!UICONTROL Adobe Connect]**&#x200B;을 클릭합니다.
 
    ![](assets/left-pane.png)
 
    *왼쪽 창에서 Adobe Connect 선택*
 
-1. 다음을 수행합니다. **[!UICONTROL 지금 구성]** 링크 인 **[!UICONTROL Adobe Connect 구성]** 섹션으로 이동하십시오.
+1. **[!UICONTROL Adobe Connect 구성]** 섹션에서 **[!UICONTROL 지금 구성]** 링크를 클릭합니다.
 
    <!--![](assets/configure-now-connect.png)-->
 
@@ -39,7 +38,7 @@ ht-degree: 70%
 
    Learning Manager에서는 Adobe에서 호스팅된 연결 계정만 지원됩니다. 예: &#39;.adobeconnect.com&#39;.
 
-1. 다음을 수행합니다. **[!UICONTROL 통합].**
+1. **[!UICONTROL 통합].**&#x200B;을 클릭합니다.
 
    전자 메일 ID를 인증한 후 Connect가 성공적으로 통합되면 Learning Manager에 메시지가 표시됩니다. Adobe Connect를 사용하여 가상 강의실 강의를 자동으로 볼 수 있습니다.
 
@@ -51,7 +50,7 @@ ht-degree: 70%
 
 가상 강의실 강의 작성자가 세션 정보를 제공하지 않으면 책임자가 세션 세부 정보를 넣을 수 있습니다.
 
-책임자 로그인 상태에서 VC 강의 이름을 클릭합니다. 다음을 수행합니다. **[!UICONTROL 인스턴스]** 왼쪽 창에서 을 클릭합니다. **[!UICONTROL 세션 세부 정보]**.  세션 정보를 추가하려면 세션 세부 정보 페이지의 오른쪽 모서리에 있는 편집 아이콘을 클릭합니다.
+책임자 로그인 상태에서 VC 강의 이름을 클릭합니다. 왼쪽 창에서 **[!UICONTROL 인스턴스]**&#x200B;를 클릭하고 **[!UICONTROL 세션 세부 정보]**&#x200B;를 클릭합니다.  세션 정보를 추가하려면 세션 세부 정보 페이지의 오른쪽 모서리에 있는 편집 아이콘을 클릭합니다.
 
 ![](assets/session-creation-admin.png)
 

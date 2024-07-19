@@ -13,7 +13,7 @@ ht-degree: 88%
 # Learning Manager 가이드 {#using}
 
 * [Learning Manager 사용자 가이드](user-guide.md)
-* 소개 {#introduction}
+* {#introduction} 소개
    * [새로운 기능 요약](whats-new.md)
    * [새로운 기능 2024년 3월](whats-new-march-2024.md)
    * [새로운 기능 2023년 11월](whats-new-november-2023.md)
@@ -31,13 +31,13 @@ ht-degree: 88%
    * [Adobe FTP Manager에서 전환](transition-from-ftp-manager.md)
    * [Adobe Learning Manager에서 API 사용 중단 및 변경 사항](api-deprecations-list.md)
    * [Adobe Learning Manager의 화이트레이블 지정](white-label.md)
-* 시작하기 {#get-started}
+* {#get-started} 시작
    * [관리자로 시작하기](administrators/feature-summary/getting-started-admin.md)
    * [작성자로 시작](authors/feature-summary/getting-started-author.md)
    * [학습자로 시작하기](learners/feature-summary/getting-started-learner.md)
    * [관리자로 시작하기](managers/feature-summary/getting-started-manager.md)
    * [강사로 Learning Manager 시작하기](instructors/feature-summary/getting-started.md)
-* 책임자 {#admin}
+* 관리자 {#admin}
    * [사용자 로그인](administrators/feature-summary/user-login.md)
    * [사용자 추가 및 사용자 그룹 만들기](administrators/feature-summary/add-users-user-groups.md)
    * [강의실 위치 추가](administrators/feature-summary/classroom.md)
@@ -84,7 +84,7 @@ ht-degree: 88%
    * [학습자용 임시 방문 모드](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [학습 프로그램](administrators/feature-summary/learning-programs.md)
    * [제품 용어](administrators/feature-summary/product-terminology.md)
-* 통합 책임자 {#integration}
+* 통합 관리자 {#integration}
    * [마이그레이션 설명서](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager 커넥터](integration-admin/feature-summary/connectors.md)
    * [로그인하지 않은 API](integration-admin/feature-summary/non-logged-in-apis.md)

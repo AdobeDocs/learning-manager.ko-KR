@@ -3,14 +3,13 @@ description: Learning Manager에 로그인할 수 없는 경우 해결 방법입
 jcr-language: en_us
 title: Learning Manager에 로그인할 수 없음
 contentowner: saghosh
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 2c347758-1982-40ce-9ac6-4ae889497add
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 72%
 
 ---
-
-
 
 # Learning Manager에 로그인할 수 없음
 
@@ -32,8 +31,8 @@ Adobe Learning Manager에 로그인하려고 하면 다음 오류 메시지가 �
 
 아래 링크는 브라우저 별 캐시 삭제 가이드입니다.
 
-* [Google 크롬](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&amp;hl=ko)
-* [인터넷 익스플로러](https://kb.wisc.edu/page.php?id=1514)
+* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&amp;hl=ko)
+* [Internet Explorer](https://kb.wisc.edu/page.php?id=1514)
 * [Microsoft Edge](https://www.bitdefender.com/support/how-to-clear-the-cache-and-cookies%C2%A0in-microsoft-edge-1914.html)
 * [Firefox](https://kb.iu.edu/d/ahic)
 * [Safari](https://oit.colorado.edu/tutorial/clear-web-browser-cache-safari-6)

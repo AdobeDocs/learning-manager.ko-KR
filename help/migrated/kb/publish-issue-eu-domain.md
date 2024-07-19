@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Learning Manager EU 도메인에 게시할 수 없음
 description: Adobe Captivate에서 Adobe Learning Manager의 Adobe Learning Manager EU 도메인으로 게시할 수 없습니다.
 contentowner: nluke
-source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
+exl-id: fb8ae1af-9902-4901-8263-fb3ebff98fbc
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 83%
 
 ---
-
-
 
 # Learning Manager EU 도메인에 게시할 수 없음 {#unable-to-publish-to-learning-manager-eu-domain}
 
@@ -41,7 +40,7 @@ Adobe Captivate에서 Adobe Learning Manager EU 도메인에 게시할 수 없�
 
 1. Adobe Captivate 설치 디렉토리로 이동합니다.
 
-   예를 들면 다음과 같습니다.  `kbd C:\\Program Files\\Adobe\\Adobe Captivate 2019 x64` (2019는 Captivate 버전입니다. 다른 버전의 Adobe Captivate를 사용하는 경우 이 숫자가 다릅니다).
+   예를 들어 Captivate 버전은 `kbd C:\\Program Files\\Adobe\\Adobe Captivate 2019 x64`(2019)입니다. 다른 버전의 Adobe Captivate를 사용하는 경우 이 숫자가 다릅니다).
 
 1. 구성 파일 **AdobeCaptivate.ini**&#x200B;를 데스크탑에 복사합니다.
 
@@ -49,11 +48,11 @@ Adobe Captivate에서 Adobe Learning Manager EU 도메인에 게시할 수 없�
    *구성 파일 보기*
 
 1. 데스크탑에 복사한 파일을 메모장으로 엽니다.
-1. LearningManagerBaseUrl 값 변경 = `https://learningmanager.adobe.com/inappstarter` - LearningManagerBaseUrl = `https://learningmanagereu.adobe.com/inappstarter`
+1. LearningManagerBaseUrl = `https://learningmanager.adobe.com/inappstarter` 값을 LearningManagerBaseUrl = `https://learningmanagereu.adobe.com/inappstarter`(으)로 변경합니다.
 
    ![](assets/cp-primebaseurl.png)
    *PrimeBaseURL 보기*
 
 1. 메모장에 변경 사항을 저장합니다.
-1. 수정한 저장 파일을 복사하여 파일 경로에 다시 붙여넣습니다. 다음 위치에서 원본 파일 바꾸기  `kbd C:\\Program Files\\Adobe\\Adobe Captivate 2019 x64`
+1. 수정한 저장 파일을 복사하여 파일 경로에 다시 붙여넣습니다. `kbd C:\\Program Files\\Adobe\\Adobe Captivate 2019 x64`의 원본 파일 바꾸기
 1. 완료되면 Adobe Captivate를 실행하고 Adobe Learning Manager에 게시해봅니다.

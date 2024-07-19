@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Learning Manager에서 강의를 검색할 수 없음
 description: 학습자가 Learning Manager에서 강의를 검색할 수 없습니다.
 contentowner: nluke
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 702aacb7-a0b9-48fb-8a3d-425bfea63f65
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 55%
 
 ---
-
-
 
 # Learning Manager에서 강의를 검색할 수 없음
 
@@ -49,8 +48,8 @@ Learning Manager에서 학습자가 학습 프로그램/인증을 통해 등록�
 
 1. 책임자로 로그인합니다.
 
-1. 다음을 수행합니다. **[!UICONTROL 카탈로그]** 을 입력한 다음 강의가 포함된 카탈로그를 검색합니다.
-1. 다음을 수행합니다. **[!UICONTROL 내부적으로 공유]** 또는 **[!UICONTROL 내용]** (위에 언급된 시나리오에 따라)
+1. **[!UICONTROL 카탈로그]**&#x200B;를 클릭하고 강의가 포함된 카탈로그를 검색합니다.
+1. 위에서 언급된 시나리오에 따라 **[!UICONTROL 내부적으로 공유]** 또는 **[!UICONTROL 콘텐츠]**&#x200B;를 클릭합니다.
 
    ![](assets/cp-share-internally.png)
 
@@ -60,7 +59,7 @@ Learning Manager에서 학습자가 학습 프로그램/인증을 통해 등록�
 
    * 학습자가 카탈로그의 일부가 아님
 
-     카탈로그를 공유하려면 **[!UICONTROL 추가]**&#x200B;을 추가하고 사용자가 속한 사용자 그룹을 추가합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+     카탈로그를 공유하려면 **[!UICONTROL 추가]**&#x200B;를 클릭하고 사용자가 속한 사용자 그룹을 추가합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
      ![](assets/cp-add-user-group.png)
 
@@ -68,7 +67,7 @@ Learning Manager에서 학습자가 학습 프로그램/인증을 통해 등록�
 
    * 카탈로그는 강의의 일부가 아님
 
-     콘텐츠 섹션에서 **[!UICONTROL 콘텐츠 추가]** 을 입력한 다음 카탈로그에 추가하려는 강의를 선택하십시오.
+     콘텐츠 섹션에서 **[!UICONTROL 콘텐츠 추가]**&#x200B;를 클릭하고 카탈로그에 추가하려는 강의를 선택합니다.
 
      ![](assets/cp-add-content.png)
 

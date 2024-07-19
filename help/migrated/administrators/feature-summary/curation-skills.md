@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 스킬 도메인으로 스킬 매핑
 description: 특정 스킬 도메인에 대한 AI 지원 큐레이션 엔진으로 사용자가 게시한 게시물을 자동 큐레이션하려면 사용자의 기업은 Learning Manager LMS의 지원되는 스킬 도메인에 매핑될 사용자 정의 스킬을 보유해야 합니다.
 contentowner: kuppan
-source-git-commit: b24771ced8788a906af021b45204925fe43eb7e7
+exl-id: 46db9d92-fe88-4850-ae06-d434062fa2bf
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 90%
 
 ---
-
-
 
 # 스킬 도메인으로 스킬 매핑
 
@@ -58,7 +57,7 @@ ht-degree: 90%
 
    ![](assets/skill-domain-mapping.png)
 
-   *스킬 도메인 섹션에서 스킬 도메인 추가*
+   *스킬 도메인 섹션에 스킬 도메인 추가*
 
 1. 변경 사항을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -70,5 +69,4 @@ ht-degree: 90%
 
 ![](assets/curation-notification.png)
 
-*신뢰 점수에 따른 알림 보기*
-
+*신뢰 점수에 따라 알림 보기*

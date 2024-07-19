@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 관리자를 위한 자주 묻는 질문(FAQ)
 description: Adobe Learning Manager 관리자를 위한 자주 묻는 질문
 contentowner: admin
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 4f684d4c-c700-4907-95cd-879df3167c1d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 57%
 
 ---
-
-
 
 # 관리자를 위한 자주 묻는 질문(FAQ)
 
@@ -71,7 +70,7 @@ ht-degree: 57%
 
 팀원에 대한 보고서를 생성하여 각 팀원이 부여하고 습득한 스킬 목록을 볼 수 있습니다. 왼쪽 창에서 보고서를 클릭하고 샘플 보고서 탭을 클릭하여 스킬 대 관리자 샘플 보고서를 봅니다.
 
-자세한 내용은 다음을 참조하십시오. [보고서](feature-summary/reports.md) 를 참조하십시오.
+자세한 내용은 Learning Manager 도움말에서 [보고서](feature-summary/reports.md) 기능을 참조하십시오.
 
 +++
 
@@ -95,7 +94,7 @@ ht-degree: 57%
 
 보고서 크기를 조정하려면 &#39;크기 조정&#39;을 클릭하여 두 가지 옵션을 선택합니다. 1×1은 작은 사이즈이고 1x2는 큰 사이즈입니다.
 
-자세한 내용은 다음을 참조하십시오.  [보고서 기능.](feature-summary/reports.md)
+자세한 내용은 [보고서 기능](feature-summary/reports.md)을 참조하세요.
 
 +++
 
@@ -117,7 +116,7 @@ ht-degree: 57%
 
 +++이용 가능한 모든 강의를 볼 수 있습니까? 어떻게 해야 합니까?
 
-학습자 역할로 전환하면 이용 가능한 모든 강의를 볼 수 있습니다. 자세한 내용은  [강의](../learners/feature-summary/courses.md) 추가 정보를 위한 기능
+학습자 역할로 전환하면 이용 가능한 모든 강의를 볼 수 있습니다. 자세한 내용은 [강의](../learners/feature-summary/courses.md) 기능을 참조하십시오.
 
 +++
 

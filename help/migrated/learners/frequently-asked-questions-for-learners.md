@@ -32,7 +32,7 @@ ht-degree: 56%
 
 예, iPad, Android 태블릿 및 스마트폰에서 오프라인 콘텐츠에 액세스할 수 있습니다.
 
-오프라인 액세스에 대한 자세한 내용은 다음을 참조하십시오.  [iPad 및 Android 태블릿 사용자](feature-summary/ipad-android-tablet-users.md) 기능.
+오프라인 액세스에 대한 자세한 내용은 [iPad 및 Android 태블릿 사용자](feature-summary/ipad-android-tablet-users.md) 기능을 참조하십시오.
 
 +++
 
@@ -48,7 +48,7 @@ ht-degree: 56%
 
 예. 귀하의 학습 점수를 피어와 비교할 수 있습니다. 프로필 원으로 마우스를 가져갑니다. 여기에서 본인의 점수를 볼 수 있습니다. 순위표 대화 상자를 보려면 순위표로 이동을 누릅니다. 이 대화 상자에서 귀하의 순위와 비슷한 피어의 목록을 볼 수 있습니다.
 
-자세한 내용은 다음을 참조하십시오.  [순위표](feature-summary/gamification.md)기능.
+자세한 내용은 [순위표](feature-summary/gamification.md)기능을 참조하십시오.
 
 +++
 
@@ -68,7 +68,7 @@ ht-degree: 56%
 
 +++학습과 카탈로그의 차이점은 무엇입니까?
 
-학습 탭에서는 모든  [강의](feature-summary/courses.md),  [학습 프로그램](feature-summary/learning-programs.md) 및  [인증](feature-summary/certifications.md) 사용자가 등록하거나 사용자에게 할당했습니다. 학습으로 이동 링크를 클릭하여 학습 탭으로 이동할 수도 있습니다.
+학습 탭에서는 귀하가 등록하거나 귀하에게 할당된 모든 [강의](feature-summary/courses.md), [학습 프로그램](feature-summary/learning-programs.md) 및 [인증](feature-summary/certifications.md)을 볼 수 있습니다. 학습으로 이동 링크를 클릭하여 학습 탭으로 이동할 수도 있습니다.
 
 카탈로그 탭에는 회사 계정에서 사용자의 역할에 사용할 수 있는 모든 강의, 학습 프로그램 및 인증이 표시됩니다. 카탈로그로 이동 링크를 눌러 카탈로그 탭으로 이동할 수도 있습니다.
 
@@ -94,7 +94,7 @@ ht-degree: 56%
 
 스킬 맵을 보려면 랜딩 페이지의 오른쪽 상단 모서리에 있는 스킬 맵 영역에 있는 스킬 이름 중 아무거나 클릭합니다. 스킬과 스킬 레벨이 나란히 표시됩니다.
 
-자세한 내용은 다음을 참조하십시오.  [스킬 및 레벨](feature-summary/skills-levels.md) 기능.
+자세한 내용은 [스킬 및 레벨](feature-summary/skills-levels.md) 기능을 참조하십시오.
 
 +++
 
@@ -102,7 +102,7 @@ ht-degree: 56%
 
 예, 스마트폰, iPad 또는 다른 Android 태블릿에서 Learning Manager에 액세스할 수 있습니다.
 
-이 기능에 대한 자세한 내용은  [iPad 및 Android 앱 사용자](feature-summary/ipad-android-tablet-users.md) 기능.
+이 기능에 대한 자세한 내용은 [iPad 및 Android 앱 사용자](feature-summary/ipad-android-tablet-users.md) 기능을 참조하십시오.
 
 +++
 
@@ -110,19 +110,19 @@ ht-degree: 56%
 
 예. iPad에서 Learning Manager에 액세스할 수 있습니다. App Store 또는 Google Play에서 앱을 다운로드할 수 있습니다.
 
-학습자 역할만 iPad 또는 Android 태블릿으로 Captivate Prime에 액세스할 수 있습니다. 오프라인 상태에서 강의를 수료한 뒤, 나중에 온라인에 접속하여 동기화할 수도 있습니다. 자세한 내용은 다음을 참조하십시오.  [iPad 및 Android 앱 사용자](feature-summary/ipad-android-tablet-users.md) feature
+학습자 역할만 iPad 또는 Android 태블릿으로 Captivate Prime에 액세스할 수 있습니다. 오프라인 상태에서 강의를 수료한 뒤, 나중에 온라인에 접속하여 동기화할 수도 있습니다. 자세한 내용은 [iPad 및 Android 앱 사용자](feature-summary/ipad-android-tablet-users.md) 기능을 참조하십시오
 
 +++
 
 +++Learning Manager에 로그인할 수 없습니다. 어떻게 해야 합니까?
 
-Adobe ID로 Learning Manager에 로그인할 수 있습니다. 다음 지침을 따르십시오.  [사용자 로그인](feature-summary/user-login.md) 기능에 대한 자세한 내용은 응용 프로그램에 로그인하는 방법을 참조하십시오. 문제가 지속되면, 지원팀으로 문의하십시오.
+Adobe ID로 Learning Manager에 로그인할 수 있습니다. 응용 프로그램에 로그인하는 방법에 대한 자세한 내용은 [사용자 로그인](feature-summary/user-login.md) 기능의 지침을 따르십시오. 문제가 지속되면, 지원팀으로 문의하십시오.
 
 +++
 
 +++스킬 레벨을 달성하는 방법
 
-새로운 스킬 레벨을 획득할 때마다 점수를 획득합니다. 점수는 스킬 레벨과 연결됩니다. 스킬 및 레벨에 대한 자세한 내용은 다음을 참조하십시오.  [스킬 및 레벨](feature-summary/skills-levels.md) 기능.
+새로운 스킬 레벨을 획득할 때마다 점수를 획득합니다. 점수는 스킬 레벨과 연결됩니다. 스킬 및 수준에 대한 자세한 내용은 [스킬 및 수준](feature-summary/skills-levels.md) 기능을 참조하십시오.
 
 +++
 
@@ -140,9 +140,9 @@ Adobe ID로 Learning Manager에 로그인할 수 있습니다. 다음 지침을 
 
 +++점수와 게임화 점수의 차이점은 무엇입니까?
 
-새로운 스킬 레벨을 획득할 때마다 점수를 획득합니다. 점수는 스킬 레벨과 연결됩니다. 크레딧, 스킬 및 수준에 대한 자세한 내용은 다음을 참조하십시오.  [스킬 및 레벨](feature-summary/skills-levels.md) 기능.
+새로운 스킬 레벨을 획득할 때마다 점수를 획득합니다. 점수는 스킬 레벨과 연결됩니다. 점수, 스킬 및 수준에 대한 자세한 내용은 [스킬 및 수준](feature-summary/skills-levels.md) 기능을 참조하십시오.
 
-과제를 완료할 때마다 게임화 점수가 부여됩니다. 현재 Learning Manager에는 6개의 게임화 과제가 있습니다. 각 작업이 완료되면 해당 작업과 관련된 특정 개수의 점수를 획득합니다. 자세한 내용은 다음을 참조하십시오.  [게임화](feature-summary/gamification.md) 기능.
+과제를 완료할 때마다 게임화 점수가 부여됩니다. 현재 Learning Manager에는 6개의 게임화 과제가 있습니다. 각 작업이 완료되면 해당 작업과 관련된 특정 개수의 점수를 획득합니다. 자세한 내용은 [게임화](feature-summary/gamification.md) 기능을 참조하십시오.
 
 +++
 
@@ -154,7 +154,7 @@ Adobe Learning Manager는 최신 e러닝 개념 중 하나인 배지를 도입�
 
 배지는 귀하의 조직에서 정의한 특정 기준을 바탕으로 학습자에게 할당됩니다. 일반적으로 강의 또는 학습 객체를 성공적으로 완료했을 때 주어집니다.
 
-자세한 내용은 다음을 참조하십시오.  [배지](feature-summary/badges.md) 기능.
+자세한 내용은 [배지](feature-summary/badges.md) 기능을 참조하십시오.
 
 +++
 
@@ -164,7 +164,7 @@ Adobe Learning Manager는 최신 e러닝 개념 중 하나인 배지를 도입�
 
 학습 프로그램을 수강하려면 귀하에게 할당된 프로그램을 클릭합니다. 특정 프로그램에 대한 자세한 정보를 볼 수 있습니다.
 
-A **프로그램 시작** 학습 프로그램 페이지의 오른쪽 상단에 버튼이 표시됩니다. 다음을 수행합니다. **[!UICONTROL 프로그램 시작]** 강의 수강을 시작하려고.
+학습 프로그램 페이지의 오른쪽 상단 모서리에 **프로그램 시작** 단추가 나타납니다. 강의 수강을 시작하려면 **[!UICONTROL 프로그램 시작]**&#x200B;을 클릭하세요.
 
 +++
 
@@ -181,7 +181,7 @@ A **프로그램 시작** 학습 프로그램 페이지의 오른쪽 상단에 �
 
 프로필에서 현재 레벨 포인트를 보고 필요한 경우 더 높은 포인트를 얻을 수 있습니다.
 
-참조  [게임화 기능](feature-summary/gamification.md) 를 참조하십시오.
+자세한 내용은 [게임화 기능](feature-summary/gamification.md)을 참조하세요.
 
 +++
 
@@ -189,7 +189,7 @@ A **프로그램 시작** 학습 프로그램 페이지의 오른쪽 상단에 �
 
 Learning Manager의 모든 강의는 브라우저에서 재생됩니다. Learning Manager의 Fluidic Player를 사용하여 전체 화면으로 강의를 볼 수 있습니다.
 
-참조  [Fluidic Player 기능](feature-summary/fluidic-player.md) 플레이어에 대한 자세한 내용을 참조하십시오.
+플레이어에 대한 자세한 내용은 [Fluidic Player 기능](feature-summary/fluidic-player.md)을 참조하십시오.
 
 [개인 노트를 내보낼 수 있습니까?](frequently-asked-questions-for-learners.md)
 
@@ -220,15 +220,15 @@ Learning Manager는 콘텐트에 책갈피를 사용하여 재방문할 수 있�
 >
 >책갈피 기능은 Captivate 9 이상 버전, Presenter 11 이상 버전의 HTML 출력 콘텐트에만 지원됩니다.
 
-**강의 노트 다운로드/전자 메일 전송**
+**강의 노트 다운로드/전자 메일 보내기**
 
 아래 단계에 따라 강의 노트를 다운로드하거나 이메일로 전송할 수 있습니다.
 
 1. 노트를 볼 강의 타일을 클릭합니다.
-1. 다음을 클릭합니다. **노트** 옆에 있는 탭 **모듈** 탭.
+1. **모듈** 탭 옆의 **메모** 탭을 클릭합니다.
 
-1. 다음을 수행합니다. **[!UICONTROL 노트 다운로드]** pdf로 다운로드하십시오.
-1. 다음을 수행합니다. **[!UICONTROL 전자 메일 메모]** 전자 메일 계정에 대한 전자 메일로 메모를 받습니다.
+1. PDF로 다운로드하려면 **[!UICONTROL 메모 다운로드]**&#x200B;를 클릭하십시오.
+1. 전자 메일 계정으로 전자 메일을 받으려면 **[!UICONTROL 전자 메일 메모]**&#x200B;를 클릭하세요.
 
 +++
 
@@ -259,7 +259,7 @@ Learning Manager 1.0에서는 현재 해당 기능을 지원하지 않습니다.
 
 학습자의 성과에 대한 보상 및 인정의 일환으로, Learning Manager는 학습자를 위한 온라인 배지를 도입했습니다. 배지는 설정된 기준에 따라 수여되며, 학습자 홈페이지 상단의 학습자 프로필에 표시됩니다.
 
-참조  [인증 기능](feature-summary/certifications.md) 학습자 인증에 대한 자세한 내용을 참조하십시오.
+학습자 인증에 대한 자세한 내용은 [인증 기능](feature-summary/certifications.md)을 참조하십시오.
 
 +++
 
@@ -308,8 +308,8 @@ Captivate, C, Java 및 HTML 등 미리 정의된 태그로 검색할 수도 있�
 
 +++Learning Manager에서 강의에 액세스하려면 어떻게 해야 합니까?
 
-1. Learning Manager에 학습자로 로그인합니다. 암호를 잊으셨다면, **[!UICONTROL 암호 찾기]** 로그인 페이지에 제공된 링크를 통해 이메일 id로 다시 돌아갈 수 있습니다.
-1. 로그인하면 위에 있는 &#39;강의&#39;를 볼 수 있습니다. 다음을 수행합니다. **[!UICONTROL 강의]** 탭하면 할당된 강의 목록이 표시됩니다.
+1. Learning Manager에 학습자로 로그인합니다. 암호를 잊어버린 경우 로그인 페이지에서 제공한 **[!UICONTROL 암호 찾기]** 링크를 클릭하여 전자 메일 ID로 다시 가져옵니다.
+1. 로그인하면 위에 있는 &#39;강의&#39;를 볼 수 있습니다. 할당된 강의 목록을 표시하려면 **[!UICONTROL 강의]** 탭을 클릭합니다.
 
 +++
 

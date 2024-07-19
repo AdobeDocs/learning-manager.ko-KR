@@ -1,18 +1,17 @@
 ---
 jcr-language: en_us
 title: 시스템 요구 사항 | Adobe Learning Manager 데스크탑 응용 프로그램
-description: Adobe Learning Manager 데스크탑 응용 프로그램의 시스템 요구 사항
+description: Adobe Learning Manager 데스크탑 애플리케이션의 시스템 요구 사항
 contentowner: kuppan
-source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
+exl-id: 31455c7e-f642-451b-968a-8a6f75131fda
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 68%
 
 ---
 
-
-
-# Adobe Learning Manager 데스크탑 응용 프로그램의 시스템 요구 사항
+# Adobe Learning Manager 데스크탑 애플리케이션의 시스템 요구 사항
 
 ## Windows {#windows}
 

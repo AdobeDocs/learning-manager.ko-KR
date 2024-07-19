@@ -3,14 +3,13 @@ description: 이 문서에는 데이터와 콘텐츠를 기존 LMS에서 Learnin
 jcr-language: en_us
 title: 마이그레이션 문제 해결
 contentowner: jayakarr
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: b9f17644-f237-4701-86e9-8496db941920
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 71%
 
 ---
-
-
 
 # 마이그레이션 문제 해결
 
@@ -56,29 +55,29 @@ FTP 및 Box 서비스에 계정이 생성되었는지 확인합니다. 마이그
 
 ### 단추가 비활성화되어 스프린트를 생성할 수 없음 {#unabletocreateasprintasthebuttonisdisabled}
 
-스프린트를 만들기 전에 현재 스프린트가 완료로 표시되어 있는지 확인합니다. 다음을 수행합니다. **[!UICONTROL 스프린트 완료로 표시]** 페이지 상단에서 스프린트 마이그레이션을 완료합니다.
+스프린트를 만들기 전에 현재 스프린트가 완료로 표시되어 있는지 확인합니다. 페이지 상단의 **[!UICONTROL 스프린트를 완료로 표시]**&#x200B;를 클릭하여 스프린트 마이그레이션을 완료합니다.
 
 ### 단추가 비활성화되어 마이그레이션 프로젝트를 완료로 표시할 수 없음 {#unabletomarkamigrationprojectascompleteasthebuttonisdisabled}
 
-마이그레이션 프로젝트 완료를 표시하기 전에 현재 스프린트가 완료로 표시되어 있는지 확인합니다. 다음을 수행합니다. **[!UICONTROL 스프린트 완료로 표시]** 페이지 상단에서 스프린트 마이그레이션을 완료합니다.
+마이그레이션 프로젝트 완료를 표시하기 전에 현재 스프린트가 완료로 표시되어 있는지 확인합니다. 페이지 상단의 **[!UICONTROL 스프린트를 완료로 표시]**&#x200B;를 클릭하여 스프린트 마이그레이션을 완료합니다.
 
 ## CSV 문제 {#csvissues}
 
 ### module_version.csv 파일 마이그레이션에 실패하여 콘텐츠가 아직 마이그레이션되지 않음 {#moduleversioncsvfilemigrationisfailingandcontentisnotmigratedyet}
 
-콘텐츠 폴더(특정 마이그레이션 프로젝트의 Box 계정, 스프린트 경로)에서 콘텐츠를 사용할 수 있는지 확인합니다. 또한 옵션을 선택했는지 확인하십시오 **예** 에 대해 **이 스프린트의 콘텐츠를 마이그레이션하시겠습니까?** 라는 질문에 예 옵션을 선택했는지 확인합니다.
+콘텐츠 폴더(특정 마이그레이션 프로젝트의 Box 계정, 스프린트 경로)에서 콘텐츠를 사용할 수 있는지 확인합니다. 또한 **스프린트의 콘텐츠를 마이그레이션하시겠습니까?**&#x200B;예&#x200B;**옵션을 선택했는지 확인하십시오.스프린트 만들기 페이지의** 질문입니다.
 
-**예**&#x200B;를 선택하지 않고 이 스프린트를 계속 진행하면 해당 스프린트를 완료할 때까지 기다려야 합니다. 다른 스프린트를 생성한 다음 을 클릭합니다 **[!UICONTROL 예]**.
+**예**&#x200B;를 선택하지 않고 이 스프린트를 계속 진행하면 해당 스프린트를 완료할 때까지 기다려야 합니다. 다른 스프린트를 만들고 **[!UICONTROL 예]**&#x200B;를 클릭하세요.
 
 ### &#39;유효한 Learning Manager ID가 아닙니다&#39;라는 오류 메시지와 함께 enrollment.csv 또는 user_course_grade.csv 기록이 실패함 {#enrollmentcsvorusercoursegradecsvrecordsfailwithanerrormessagenotavalidprimeid}
 
 userId, assignedByUserID 필드의 일부로 제공된 전자 메일 ID가 유효한 Learning Manager 사용자에게 속하는지 여부를 확인합니다. 그렇지 않다면 사용자를 추가하고 **사용자 동기화** 옵션을 선택한 뒤 새로운 스프린트를 생성합니다. 사용자가 조직에 포함되어 있지 않은 경우 사용자 추가 CSV 사양을 사용하여 사용자를 Learning Manager에서 삭제된 사용자로 추가합니다. 삭제된 사용자를 추가하기 위한 샘플 CSV 사양은 아래를 참조하십시오.
 
-[Users.csv](assets/users.zip) 자세한 내용은 **CSV 사양 및 샘플 CSV** 섹션 [마이그레이션 설명서](../integration-admin/feature-summary/migration-manual.md) 전체 CSV 사양 및 샘플 CSV 파일을 다운로드합니다.
+[Users.csv](assets/users.zip) [마이그레이션 설명서](../integration-admin/feature-summary/migration-manual.md)의 **CSV 사양 및 샘플 CSV** 섹션을 참조하여 전체 CSV 사양 및 샘플 CSV 파일을 다운로드합니다.
 
 ### 강의가 비어 있음으로 표시되거나 마이그레이션된 강의에 잘못된 모듈이 재생됨 {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 
-다음을 확인합니다. **모듈 순서** 강의의 키 값은 다음으로 시작합니다. **0** 연속되는 순서입니다. courseModuleType 순서는 PRETEST, TESTOUT, CONTENT여야 합니다.
+강의의 **moduleOrderInCourse** 키 값이 **0**(으)로 시작하고 순서가 연속되는지 확인하십시오. courseModuleType 순서는 PRETEST, TESTOUT, CONTENT여야 합니다.
 
 또한 활동, 강의실 및 VC의 두 가지 버전이 기존 강의와 연결되어 있지 않은지 확인합니다.
 

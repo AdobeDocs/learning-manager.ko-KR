@@ -1,5 +1,5 @@
 ---
-description: 헤드리스 인터페이스를 개발하기 위해 로그인하지 않은 API에 대해 알아봅니다.
+description: 헤드리스 인터페이스 개발을 위한 임시 방문 API에 대해 알아보십시오.
 jcr-language: en_us
 title: 로그인하지 않은 API
 source-git-commit: 21e2a4a5e73fcbddb64e0afec0a896b315e38688
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 # 로그인하지 않은 API
 
-이 문서에서 헤드리스 또는 비로그인 환경에 대한 데이터를 제공하는 Adobe Learning Manager API에 대해 자세히 알아보십시오.
+이 문서에서 헤드리스 또는 임시 방문 환경에 대한 데이터를 제공하는 Adobe Learning Manager API에 대해 자세히 알아보십시오.
 공개 검색 API
 
 ## 공개 검색 API
 
-### Public ES를 사용하여 데이터 필터링
+### 공용 ES를 사용하여 데이터 필터링
 
-공개 검색 API를 사용하면 기본 검색 API와 함께 사용하여 코스를 필터링할 수 있는 필터 데이터를 가져올 수 있습니다. 이 API는 검색 API에서 사용할 수 있는 모든 필터를 제공합니다.
+공개 검색 API를 사용하면 기본 검색 API와 함께 사용하여 강의를 필터링할 수 있는 필터 데이터를 가져올 수 있습니다. 이 API는 검색 API에서 사용할 수 있는 모든 필터를 제공합니다.
 
-**샘플 curl**
+**샘플 컬**
 
-GET 메서드를 사용하여 다음 요청을 수행합니다. &lt;Base_URL> 아래 curl 명령에서 기본 URL로 바꿉니다. &lt;/Base_URL> &lt;Base_URL> 학습 데이터 액세스 커넥터 페이지에서 찾을 수 있습니다.&lt;/Base_URL>
+GET 메서드를 사용하여 다음과 같이 요청합니다. 아래 curl 명령에서 &lt;Base_URL>을 기본 URL로 대체합니다. 교육 데이터 액세스 커넥터 페이지에서 &lt;Base_URL>을 찾을 수 있습니다.
 
 ```
 curl --location '<Base_URL>/filterableData'
@@ -93,28 +93,28 @@ curl --location '<Base_URL>/filterableData'
 
 | 옵션 | 설명 |
 | --- | --- |
-| `loSkillLevels` | 과정 등록에 필요한 숙련도 수준. |
+| `loSkillLevels` | 강의에 등록하는 데 필요한 숙련도 수준입니다. |
 | `catalogNames` | 사용 가능한 카탈로그 이름 목록입니다. |
-| `loType` | 사용 가능한 학습 객체의 유형입니다. |
-| `availability` | 좌석 이용 가능 여부 및 대기자 명단 이용 가능 여부. |
-| `loSkillNames` | 학습 객체에 추가된 기술 이름입니다. |
-| `tags` | 학습 객체와 연결된 태그입니다. |
+| `loType` | 사용 가능한 학습 객체 유형 |
+| `availability` | 좌석 예약 가능 여부 및 대기자 명단 예약 가능 여부. |
+| `loSkillNames` | 학습 객체에 추가된 스킬 이름 |
+| `tags` | 학습 객체와 연관된 태그입니다. |
 | `authors` | 학습 객체의 작성자 이름 |
-| `duration` | 학습 객체의 지속 시간입니다. |
+| `duration` | 학습 객체의 지속 기간입니다. |
 | `dateCreated` | 학습 객체가 생성된 날짜입니다. |
 | `sessionEndTime` | 세션이 종료된 시간입니다. |
-| `averageRating` | 학습 객체의 평균 별점입니다. |
+| `averageRating` | 학습 개체의 평균 평가 등급입니다. |
 | `sessionStartTime` | 세션이 시작된 시간입니다. |
-| `publishDate` | 학습 객체의 게시된 날짜입니다. |
-| `ratingsCount` | 학습 객체에 대한 평가 카운트 수입니다. |
+| `publishDate` | 학습 개체의 게시 날짜입니다. |
+| `ratingsCount` | 학습 개체의 등급 수 |
 
-### 검색 API
+### API 검색
 
 공개 검색 API를 사용하면 제공된 데이터를 사용하여 기본 검색 데이터를 가져올 수 있습니다.
 
 **샘플 컬**
 
-POST 메서드를 사용하여 다음 요청을 수행합니다. &lt;Base_URL> 아래 curl 명령에서 기본 URL로 바꿉니다. &lt;/Base_URL> &lt;Base_URL> 학습 데이터 액세스 커넥터 페이지에서 찾을 수 있습니다.&lt;/Base_URL>
+POST 방법을 사용하여 다음과 같은 요청을 하십시오. 아래 curl 명령에서 &lt;Base_URL>을 기본 URL로 대체합니다. 교육 데이터 액세스 커넥터 페이지에서 &lt;Base_URL>을 찾을 수 있습니다.
 
 ```
 curl --location '<Base_URL>/search?size=1000' \
@@ -264,25 +264,25 @@ curl --location '<Base_URL>/search?size=1000' \
 
 **검색 API의 정렬 옵션**
 
-다음과 같은 정렬 옵션을 선택하여 결과에 적용할 수 있습니다.
+결과에 적용할 다음 정렬 옵션을 선택할 수 있습니다.
 
 | 옵션 | 설명 |
 | --- | --- |
-| `duration` | 학습 객체의 지속 시간입니다. |
-| `publishDate` | 학습 객체의 게시된 날짜입니다. |
+| `duration` | 학습 개체의 기간입니다. |
+| `publishDate` | 학습 개체의 게시 날짜입니다. |
 | `dateCreated` | 학습 객체가 생성된 날짜입니다. |
-| `name_en` | 학습 객체의 이름입니다. |
-| `averageRating` | 학습자가 제공한 평균 별점. |
-| `ratingsCount` | 학습 객체에 대한 평가 카운트 수입니다. |
-| `relevance(default)` | 관련 데이터는 검색 키워드를 기반으로 합니다. |
+| `name_en` | 학습 개체의 이름입니다. |
+| `averageRating` | 학습자가 제공한 평균 평가 등급입니다. |
+| `ratingsCount` | 학습 개체의 등급 수 |
+| `relevance(default)` | 관련 데이터는 검색 키워드에 기반합니다. |
 
-### Public Search API를 사용하여 학습 객체 데이터 가져오기
+### 공개 검색 API를 사용하여 학습 개체 데이터 가져오기
 
-Public ES Learning Object API를 사용하면 헤드리스 인터페이스에서 사용할 수 있는 학습 객체의 유형 및 ID 목록을 가져올 수 있습니다.
+공개 ES 학습 객체 API를 사용하면 헤드리스 인터페이스에서 사용 가능한 학습 객체의 유형 및 ID 목록을 가져올 수 있습니다.
 
-**샘플 curl**
+**샘플 컬**
 
-GET 메서드를 사용하여 다음 요청을 수행합니다. &lt;Base_URL> 아래 curl 명령에서 기본 URL로 바꿉니다. &lt;/Base_URL> &lt;Base_URL> 학습 데이터 액세스 커넥터 페이지에서 찾을 수 있습니다.&lt;/Base_URL>
+GET 메서드를 사용하여 다음과 같이 요청합니다. 아래 curl 명령에서 &lt;Base_URL>을 기본 URL로 대체합니다. 교육 데이터 액세스 커넥터 페이지에서 &lt;Base_URL>을 찾을 수 있습니다.
 
 ```
 curl --location '<Base_URL>/learningObjectIds'
@@ -300,13 +300,13 @@ curl --location '<Base_URL>/learningObjectIds'
 }
 ```
 
-## 과정 요약 API
+## 강의 요약 API
 
-과정 요약 API를 사용하면 특정 과정에 대한 자세한 정보를 검색할 수 있습니다.
+강의 요약 API를 사용하면 특정 강의에 대한 세부 정보를 검색할 수 있습니다.
 
-**샘플 curl**
+**샘플 컬**
 
-GET 메서드를 사용하여 다음 요청을 수행합니다. &lt;Base_URL> 아래 curl 명령에서 기본 URL로 바꿉니다. &lt;/Base_URL> &lt;Base_URL> 학습 데이터 액세스 커넥터 페이지에서 찾을 수 있습니다. &lt;/Base_URL> &lt;Course_ID> 특정 코스 ID로 바꿉니다.&lt;/Course_ID>
+GET 메서드를 사용하여 다음과 같이 요청합니다. 아래 curl 명령에서 &lt;Base_URL>을 기본 URL로 대체합니다. 교육 데이터 액세스 커넥터 페이지에서 &lt;Base_URL>을 찾을 수 있습니다. &lt;Course_ID>를 특정 과정 ID로 바꿉니다.
 
 ```
 curl --location '<Base_URL>/loSummary?loId=course%3A<Course_ID>'
@@ -335,21 +335,21 @@ curl --location '<Base_URL>/loSummary?loId=course%3A<Course_ID>'
 
 >[!NOTE]
 >
->강좌에 여러 인스턴스가 있는 경우 모든 인스턴스에 대한 세부 정보를 확인할 수 있습니다.
+>강의에 여러 인스턴스가 있는 경우, 모든 인스턴스에 대한 세부 정보를 확인할 수 있습니다.
 
-## 과정 세부 정보를 위한 CDN JSON API
+## 강의 세부 정보를 위한 CDN JSON API
 
-CDN JSON API를 사용하면 특정 과정에 대한 전체 과정 정보를 검색할 수 있습니다.
+CDN JSON API를 사용하면 특정 강의에 대한 전체 강의 정보를 검색할 수 있습니다.
 
-**코스 샘플 컬**
+**강의에 대한 샘플 컬**
 
-GET 메서드를 사용하여 다음 요청을 수행합니다. &lt;CDN_path> 아래 curl 명령에서 기본 URL로 바꿉니다. &lt;/CDN_path> &lt;CDN_path> 학습 데이터 액세스 커넥터 페이지에서 찾을 수 있습니다. &lt;/CDN_path> &lt;Course_ID> 특정 코스 ID로 바꿉니다.&lt;/Course_ID>
+GET 메서드를 사용하여 다음과 같이 요청합니다. 아래 curl 명령에서 &lt;CDN_path>를 기본 URL로 대체합니다. 교육 데이터 액세스 커넥터 페이지에서 &lt;CDN_path>를 찾을 수 있습니다. &lt;Course_ID>를 특정 과정 ID로 바꿉니다.
 
 ```
 curl --location '<CDN_path_URL>/course/<Course_ID>.json'
 ```
 
-**학습 경로 및 인증을 위한 샘플 curl**
+**학습 경로 및 인증에 대한 샘플 컬**
 
 ```
 curl --location '<CDN_path_URL>/learningProgram/<LearningProgram_ID>.json'

@@ -3,14 +3,13 @@ description: 관리자는 대리 로그인 세션을 시작하여 학습자 및 
 jcr-language: en_us
 title: 학습자 및 관리자의 대리 로그인
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 71%
 
 ---
-
-
 
 # 학습자 및 관리자의 대리 로그인 {#impersonation-of-learner-and-manager}
 
@@ -51,7 +50,7 @@ ht-degree: 71%
 
    &quot;가장 모드: &quot;사용자 이름(사용자 이메일)&quot;으로 로그인했습니다. 로그아웃&quot;이라는 내용의 확인 메시지가 페이지 헤더에 나타납니다.
 
-**대리 로그인 세션은 60분 동안 유지됩니다.**
+**가장된 세션은 60분 동안 유지됩니다.**
 
 학습자 또는 책임자 역할로 변경하면 책임자/사용자 정의 책임자가 사용자 대리 로그인 상태에 있다는 메시지가 표시됩니다.
 

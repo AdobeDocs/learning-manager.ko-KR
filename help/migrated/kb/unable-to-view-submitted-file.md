@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Adobe Learning Manager에서 제출한 파일을 볼 수 없음
 description: 학습자가 제출 활동 모듈에 업로드한 파일을 강사가 볼 수 없습니다.
 contentowner: nluke
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: b4a0af25-14ae-46f1-9afd-0bf2aace7fe2
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 50%
 
 ---
-
-
 
 # Adobe Learning Manager에서 제출한 파일을 볼 수 없음
 
@@ -22,7 +21,7 @@ ht-degree: 50%
 
 학습자가 **제출 활동 모듈**&#x200B;에 업로드한 파일을 강사가 볼 수 없습니다.
 
-예를 들어, 학습자는 이름이 인 인스턴스에 등록했습니다 **인스턴스 테스트** 물론이죠, 아래와 같이:
+예를 들어, 다음과 같이 학습자는 이름이 **테스트 인스턴스**&#x200B;인 강의 인스턴스에 등록했습니다.
 
 ![](assets/test-instance.png)
 
@@ -45,8 +44,8 @@ ht-degree: 50%
 강사가 강의 인스턴스에 추가되어 있는지 확인하려면 아래의 단계를 따릅니다.
 
 1. 강의 설정으로 이동합니다.
-1. (으)로 **관리** 섹션, **[!UICONTROL 인스턴스].**
-1. 학습자가 등록한 인스턴스에서 **[!UICONTROL 세션]**.
+1. **관리** 섹션에서 **[!UICONTROL 인스턴스].**&#x200B;를 클릭합니다.
+1. 학습자가 등록된 인스턴스에서 **[!UICONTROL 세션]**&#x200B;을 클릭합니다.
 
    ![](assets/check-instructor.png)
 
@@ -54,10 +53,9 @@ ht-degree: 50%
 
    이 세션에 할당된 강사가 없습니다.
 
-1. 다음을 수행합니다. **[!UICONTROL 편집]**. 을 클릭합니다. 파일 제출을 승인하는 강사를 추가합니다.
+1. **[!UICONTROL 편집]**&#x200B;을 클릭합니다. 을 클릭합니다. 파일 제출을 승인하는 강사를 추가합니다.
 
    ![](assets/assign-instructor.png)
 
    *강사 추가*
 1. 변경 사항을 저장합니다.
-

@@ -3,14 +3,13 @@ description: Learning Manager 학습자 앱을 사용하여 학습 프로그램�
 jcr-language: en_us
 title: 학습 프로그램
 contentowner: manochan
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+exl-id: e2984b79-12a8-4748-bacc-58f8d967b6dd
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 84%
 
 ---
-
-
 
 # 학습 프로그램
 
@@ -36,7 +35,7 @@ Adobe Learning Manager에서 학습자는 강의 및 학습 프로그램에 액�
 
 학습자는 사용 가능한 모든 학습 프로그램의 목록을 볼 수 있습니다. 학습 객체 위젯은 학습자에게 등록되었거나 할당된 모든 학습 프로그램을 보여줍니다. 왼쪽 창에서 카탈로그를 클릭한 다음 학습 프로그램 필터링으로 사용 가능한 모든 학습 프로그램을 볼 수 있습니다.
 
-에 **내 학습** page, 님이 등록한 교육을 **duration** 의 교육과 **형식** 를 참조하십시오.
+**내 학습** 페이지에서 교육 **기간** 및 교육 **형식**&#x200B;에 따라 내가 등록한 교육을 필터링할 수 있습니다.
 
 카탈로그 페이지에서 각 강의의 강의 효과를 볼 수 있습니다. 강의/학습 프로그램에는 여러 인스턴스/세션이 있을 수 있습니다. 세부 정보를 보려면 강의 또는 학습 프로그램을 클릭합니다. 강의/학습 프로그램의 각 인스턴스 기한도 볼 수 있습니다.
 

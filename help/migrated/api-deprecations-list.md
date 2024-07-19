@@ -55,9 +55,9 @@ The following table lists the rate and burst limits for the APIs.
 
 ### 오프셋 제한 변경 사항
 
-오프셋 값에 의해 검색되는 레코드가 많고 전체 성능이 저하되기 때문에 제한 사항을 적용합니다. **500** 기록. 다음 릴리스에서는 책임자와 학습자 모두 **GET 사용자** API에서 최대 값을 반환합니다. **500** 기록.
+오프셋 값에 의해 검색되는 레코드가 많고 전체 성능이 저하되므로 **500**&#x200B;개의 레코드 제한이 적용됩니다. 다음 릴리스에서는 관리자와 학습자 모두에 대해 **GET 사용자** API가 최대 **500**&#x200B;개의 기록을 반환합니다.
 
-가져올 레코드가 더 필요하면 **GET 작업** API.
+가져올 레코드가 더 필요하면 **GET 작업** API를 사용하십시오.
 
 <!--### Exclude paths 
 
@@ -79,7 +79,7 @@ We want to enforce these restrictions on new accounts and maintain a whitelist o
       * enrollment.loInstance.loResources
       * instances.loResources
 
-* /learningObject/{id}
+* /learningObjects/{id}
    * 사용되지 않는 경로:
       * enrollment.instances.subLoInstances.learningObject
    * 새 경로:
@@ -91,7 +91,7 @@ We want to enforce these restrictions on new accounts and maintain a whitelist o
    * 새 경로:
       * loInstance.learningObject
 
-* /learningObject/{id}
+* /learningObjects/{id}
    * 사용되지 않는 경로:
       * instance.subLoInstances.learningObject.enrollment.loResourceGrades
    * 새 경로:
@@ -113,7 +113,7 @@ In the next release of Adobe Learning Manager, in the LO Instance summary endpoi
 
 Adobe Learning Manager의 다음 릴리스에서는 name 및 -name 이 다음 API의 정렬 필드에서 더 이상 사용되지 않습니다.
 
-* GET /userGroups/{userGroupId}/users
+* GET /usergroups/{userGroupId}/users
 * GET /users
 
 >[!NOTE]
@@ -131,7 +131,7 @@ Adobe Learning Manager의 2023년 11월 릴리스에서는 API에서 오버라�
 
 앞으로는 재정의 플래그가 있으므로, 다음의 학습자 API는 중단됩니다.
 
-_/primeapi/v2/users?page[오프셋]=0(&amp;p)[제한]=10&amp;sort=id&amp;override=TRUE_
+_/primeapi/v2/users?page[offset]=0&amp;page[limit]=10&amp;sort=id&amp;override=TRUE_
 
 ### 스킬 기반 새 권장 사항에 대한 API 변경 사항
 
@@ -149,5 +149,5 @@ Adobe Learning Manager의 이전 릴리스에서는 알림 공지 보고서에 �
 
 ### GET /사용자 끝점에서 높은 오프셋 값의 사용 중단
 
-시스템 성능을 개선하고 리소스 활용률을 보다 효과적으로 관리하기 위해 Adobe은 GET/사용자 끝점에서 두 항목에 대해 더 이상 사용되지 않는 높은 오프셋 값을 가집니다 **관리자** 및 **학습자** 범위. 다음을 사용하는 것이 좋습니다. **작업 API** 을 눌러 오프셋 값이 있는 레코드를 검색합니다.
+시스템 성능을 개선하고 리소스 사용률을 더 효과적으로 관리하기 위해 Adobe은 **관리자** 및 **학습자** 범위 모두에 대해 GET/사용자 끝점에서 더 이상 사용되지 않는 높은 오프셋 값을 가집니다. **작업 API**&#x200B;를 사용하여 오프셋 값이 있는 레코드를 검색하는 것이 좋습니다.
 

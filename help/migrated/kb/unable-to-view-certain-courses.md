@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 인증을 생성하는 동안 카탈로그에서 특정 강의를 볼 수 없음
 description: 인증에 추가할 특정 강의를 검색하는 동안 카탈로그에서 강의를 볼 수 없습니다.
 contentowner: saghosh
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 5f2095ee-2b7b-4638-95fb-e81b7f9be96e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 84%
 
 ---
-
-
 
 # 인증을 생성하는 동안 카탈로그에서 특정 강의를 볼 수 없음
 
@@ -42,7 +41,7 @@ Learning Manager에는 세 가지 등록 유형이 있습니다.
 
 인증에서는 자가 등록 강의만 추가할 수 있으며 관리자 지정 또는 관리자 승인 강의는 추가할 수 없습니다.
 
-* **영구 인증:**  인증에서 CR 또는 VC 세션 강의를 추가할 수 있습니다.
+* **영구 인증:** 인증에 CR 또는 VC 세션 강의를 추가할 수 있습니다.
 * **반복 인증:** 인증에 CR 또는 VC 세션 강의를 추가할 수 없습니다.
 
 이는 Learning Manager의 기본 동작입니다.

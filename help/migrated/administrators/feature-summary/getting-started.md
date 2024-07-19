@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: 책임자로 시작하기
-description: 시작하기 페이지를 활용하여 Adobe Learning Manager의 주요 관리자 기능을 탐색합니다.
+description: 시작 페이지를 사용하여 Adobe Learning Manager의 주요 관리 기능을 탐색합니다.
 contentowner: manochan
-source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
+exl-id: c1779a24-2236-41f4-99b0-a3529751a5c2
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 66%
 
 ---
-
-
 
 # 책임자로 시작하기
 
@@ -20,9 +19,9 @@ ht-degree: 66%
 
 ## 샘플 비디오 보기 {#viewsamplevideos}
 
-샘플 비디오 튜토리얼을 시청하면 책임자 역할의 주요 특징을 이해할 수 있습니다. 로그인 시 이 팝업 창이 나타나지 않도록 하려면 을 클릭하여 비활성화할 수 있습니다. **[!UICONTROL 로그인 시 표시 안 함]** 팝업 오른쪽 하단 모서리에 있는 option 키를 누릅니다.
+샘플 비디오 튜토리얼을 시청하면 책임자 역할의 주요 특징을 이해할 수 있습니다. 로그인 중에 이 팝업 창이 나타나지 않도록 하려면 팝업 오른쪽 하단 모서리에 있는 **[!UICONTROL 로그인할 때 표시 안 함]** 옵션을 클릭하여 이 팝업 창을 비활성화할 수 있습니다.
 
-다음을 수행합니다. **[!UICONTROL 창 닫기]** 아이콘을 클릭하여 팝업을 닫습니다.
+**[!UICONTROL 창 닫기]**&#x200B;를 클릭하여 팝업을 닫습니다.
 
 ![](assets/welcome-videos-e1439961904106.png)
 
@@ -38,4 +37,3 @@ ht-degree: 66%
 또한 튜토리얼 비디오 시청, 도움말 콘텐츠 보기 및 다양한 역할 배우기를 선택하여 Learning Manager 응용 프로그램을 자세히 알아볼 수 있습니다.
 
 ![](assets/admin-landing-page-300x204.png)
-

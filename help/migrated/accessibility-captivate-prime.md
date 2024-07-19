@@ -200,28 +200,28 @@ Learning Manager 학습자 역할은 다음을 포함하지만 이에 제한되�
 
 자세한 내용:
 
-* [학습자용 접근 적합성 보고서](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
-* [모든 역할용 접근 적합성 보고서](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
+* [학습자용 접근성 적합성 보고서](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
+* [모든 역할에 대한 접근성 적합성 보고서](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
 
 ## Learning Manager 최상위 워크플로우(학습자 역할) {#captivateprimetopworkflowslearnerrole}
 
 접근성 기능이 Learning Manager 학습자를 위한 몇 가지 주요 기능을 탐색하는 데 어떻게 도움이 되는지 살펴보겠습니다.
 
-사용: `kbd Tab`키를 사용하여 페이지의 요소를 탐색합니다. 사용: `kbd Shift + Tab` 키 - 탐색 방향을 반대로 합니다. 키보드 포커스는 내용 주위에 파란색 윤곽으로 표시됩니다. 화면 판독기는 포커스된 내용의 텍스트를 음성으로 추출합니다.
+`kbd Tab`키를 사용하여 페이지의 요소를 탐색합니다. 탐색 방향을 반대로 하려면 `kbd Shift + Tab` 키를 사용합니다. 키보드 포커스는 내용 주위에 파란색 윤곽으로 표시됩니다. 화면 판독기는 포커스된 내용의 텍스트를 음성으로 추출합니다.
 
 ## Learning Manager에서 교육 검색 {#searchforatrainingincaptivateprime}
 
 1. 해당 큐를 이용해 홈 페이지 오른쪽 상단에 있는 검색창을 찾습니다.
 1. 키보드를 사용하여 텍스트를 입력합니다. 검색 결과가 표시됩니다.
-1. 키보드 사용 `kbd Up/Down` 화살표를 사용하여 결과를 탐색하거나 적중합니다 `kbd ENTER`모든 결과를 확인합니다.
+1. 키보드 `kbd Up/Down` 화살표를 사용하여 결과를 탐색하거나 `kbd ENTER`을 눌러 모든 결과를 확인합니다.
 
-1. 교육 내용이 확인되면 다음을 누릅니다. `kbd ENTER`를 눌러 교육 페이지로 이동합니다.
+1. 교육이 식별되면 `kbd ENTER`을(를) 눌러 교육 페이지로 이동합니다.
 
-## Adobe Learning Manager 교육 수료하기 {#consumeatraininginadobecaptivateprime}
+## Adobe Learning Manager에서 교육 이용 {#consumeatraininginadobecaptivateprime}
 
-1. 교육이 확인되면 다음을 사용합니다. `kbd Tab`또는 `kbd Shift + Tab` 등록/시작 버튼으로 이동합니다. 단추 상태는 해당 교육의 등록 상태에 따라 달라집니다.
+1. 교육이 식별되면 `kbd Tab` 또는 `kbd Shift + Tab`을(를) 사용하여 등록/시작 단추로 이동합니다. 단추 상태는 해당 교육의 등록 상태에 따라 달라집니다.
 
-1. 적중 `kbd ENTER`교육을 시작합니다.
+1. `kbd ENTER`을(를) 눌러 교육을 시작합니다.
 1. 콘텐츠 유형에 관계없이 나타나는 컨트롤은 다음과 같습니다.
 
    * 목차
@@ -238,9 +238,9 @@ Learning Manager 학습자 역할은 다음을 포함하지만 이에 제한되�
    * 문서 콘텐츠 - 페이지 번호, 페이지 위로, 페이지 아래로, 확대, 축소.
    * eLEARNING - 폐쇄 캡션 단추.
 
-1. 적중 키보드 컨트롤 `kbd Tab`또는 `kbd Shift + Tab` 컨트롤을 탐색하고 키를 누릅니다. `kbd ENTER`컨트롤을 활성화/비활성화합니다.
+1. 키보드 컨트롤 `kbd Tab` 또는 `kbd Shift + Tab`을 눌러 컨트롤을 탐색하고 `kbd ENTER`을 눌러 컨트롤을 활성화/비활성화합니다.
 
-1. DOCUMENT 유형의 경우 다음과 같은 화살표 컨트롤을 사용합니다 `kbd UP/DOWN` 문서를 스크롤합니다.
+1. DOCUMENT 유형의 경우 `kbd UP/DOWN`과(와) 같은 화살표 컨트롤을 사용하여 문서를 스크롤합니다.
 
 ## 특정 필요에 따른 접근성 기능 지원
 
@@ -250,7 +250,7 @@ Learning Manager 학습자 역할은 다음을 포함하지만 이에 제한되�
 
 * Adobe Captivate 작성 도구를 통해 생성된 콘텐츠에 제공되는 폐쇄 자막 기능을 사용합니다.
 * 비디오의 경우, 작성자가 비디오를 폐쇄 자막 텍스트로 인코딩할 수 있습니다. 이러한 비디오에는 폐쇄 자막 기능이 포함되어 있으며 학습자가 사용할 수 있습니다.
-* Learning Manager는 비디오 콘텐츠에 대해 폐쇄 캡션 WebVTT 파일을 업로드하는 기능을 지원합니다. 자세한 내용은 다음을 참조하세요.  [*폐쇄 캡션용 WebVTT 파일 업로드*](authors/feature-summary/content-library.md#webvtt).
+* Learning Manager는 비디오 콘텐츠에 대해 폐쇄 캡션 WebVTT 파일을 업로드하는 기능을 지원합니다. 자세한 내용은 [*폐쇄 캡션용 WebVTT 파일 업로드*](authors/feature-summary/content-library.md#webvtt)&#x200B;를 참조하세요.
 
 ### 시각장애 또는 저시력 사용자
 

@@ -2,7 +2,8 @@
 title: 이 릴리스(2022년 11월)의 새로운 기능
 description: Adobe Learning Manager의 새로운 기능과 개선 사항 알아보기
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 2ccfb4e6-ba11-4657-8edb-3c527b4e5b9f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 77%
@@ -267,7 +268,7 @@ Adobe Learning Manager는 다중 로케일 사용 마이그레이션을 위한 �
 
 그래서 refresh_token 또는 쿠키를 취소하거나 쿠키와 새로 고침 토큰을 동시에 취소하여 쿠키를 삭제할 수 있는 엔드 포인트가 새로 도입되었습니다.
 
-**세부 사항**
+**세부 정보**
 
 **엔드 포인트**
 
@@ -275,7 +276,7 @@ Adobe Learning Manager는 다중 로케일 사용 마이그레이션을 위한 �
 
 **쿼리 매개 변수**
 
-* `cookie=true|false` - 쿠키를 취소해야 함을 나타냅니다.
+* `cookie=true|false` - 쿠키를 해지해야 함을 나타냅니다.
 * `refresh_token=true|false` - 새로 고침을 나타냅니다
 
 **요청 본문**
@@ -303,7 +304,7 @@ Body required for revoking oauth cookie only
 | /social/search | GET | 소셜 학습 환경에서 검색합니다. |
 | /announcations | GET | 학습자에게 할당된 발행인란의 공지사항에 관한 자세한 정보를 가져옵니다. |
 | /announcements/`{id}` | GET | 학습자에게 할당된 발행인란의 공지사항에 관한 자세한 정보를 가져옵니다. |
-| /learningObject/`{id}`/loResources/{loResourcesId} | GET | 파일로 제출해야 하는 resourceType &#39;Activity&#39;의 loResource에 관한 파일의 URL을 업로드합니다. |
+| /learningObjects/`{id}`/loResources/{loResourcesId} | GET | 파일로 제출해야 하는 resourceType &#39;Activity&#39;의 loResource에 관한 파일의 URL을 업로드합니다. |
 | /jobAid/`{jobAidId}`/jobAidDownload | GET | 작업 지원 다운로드 보고서를 설정합니다. |
 | /bulkimport/startrun | POST | 일괄 가져오기를 실행합니다. |
 | /bulkimport/cansync | GET | 일괄 가져오기를 동기화합니다. |
@@ -315,7 +316,7 @@ Body required for revoking oauth cookie only
 
 ### Salesforce 앱
 
-대상 **상위 LO 무시** 모든 강의, 학습 프로그램, 수료증을 동시에 표시하려면 Salesforce 앱에서 해당 옵션을 활성화해야 합니다.
+모든 강의, 학습 프로그램, 수료증을 동시에 표시하려면 Salesforce 앱에서 **상위차순의 LO 무시** 옵션을 활성화해야 합니다.
 
 ### 플레이어 사용자 정의를 위한 API
 
@@ -339,23 +340,23 @@ LO API의 GET/enrollments/{id}/waitlistPosition API는 지정된 등록에 대�
 
 ### LO 미리보기 데이터 가져오기
 
-GET /preview/learningObjects/{id} 학습 객체에 대한 미리보기 정보를 가져오기 위해 API가 추가되었습니다.
+GET /preview/learningObjects/{id} API가 학습 개체에 대한 미리 보기 정보를 가져오기 위해 추가되었습니다.
 
 ### 프로필 내에서 외부 사용자 이동
 
-대상 `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` 호출은 새 externalProfile id를 지정하여 사용자를 다른 외부 프로필로 이동하는 데 도움이 됩니다.
+`PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` 호출을 사용하면 새 externalProfile ID를 지정하여 사용자를 다른 외부 프로필로 이동할 수 있습니다.
 
 ### 외부 프로필에 사용자 추가
 
-대상 `POST /externalProfiles/{id}/users` 외부 사용자를 외부 프로필에 추가합니다.
+`POST /externalProfiles/{id}/users`이(가) 외부 사용자를 외부 프로필에 추가합니다.
 
 ## 릴리스 정보
 
-현재 및 이전 릴리스의 Learning Manager 웹 앱 및 장치 앱과 관련된 정보는 [릴리스 정보](/help/migrated/release-note/release-notes.md).
+현재 및 이전 릴리스의 Learning Manager 웹 앱 및 장치 앱과 관련된 정보는 [릴리스 정보](/help/migrated/release-note/release-notes.md)를 참조하십시오.
 
 ## 버그 수정
 
-이 업데이트에서 수정된 버그를 보려면 [수정된 버그 목록](release-note/release-notes.md#bugs-fixed-in-this-release).
+이 업데이트에서 수정된 버그를 보려면 [수정된 버그 목록](release-note/release-notes.md#bugs-fixed-in-this-release)을 참조하십시오.
 
 ## 시스템 요건
 

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: AI 기반 추천
 description: Learning Manager에는 학습자의 환경 설정에 따라 개인화된 최신 콘텐츠 기반의 새로운 학습자 홈페이지가 포함되어 있습니다. AI 기반 학습 추천은 학습자의 참여를 향상시키고 학습의 차이를 식별 및 해결하는 데 목표를 둡니다.
 contentowner: saghosh
-source-git-commit: fbba54fd99b5757f70011ec0b240abcb25042ec1
+exl-id: 41d6576a-1b5e-40e2-9ab3-ffff5ebfb372
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 75%
 
 ---
-
-
 
 # AI 기반 추천
 

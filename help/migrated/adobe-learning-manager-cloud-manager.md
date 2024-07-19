@@ -1,6 +1,6 @@
 ---
 jcr-language: en_us
-title: Adobe Learning Manager Cloud Manager
+title: Adobe Learning Manager 클라우드 관리자
 contentowner: saghosh
 preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
@@ -12,5 +12,5 @@ ht-degree: 0%
 
 
 
-# Adobe Learning Manager Cloud Manager
+# Adobe Learning Manager 클라우드 관리자
 

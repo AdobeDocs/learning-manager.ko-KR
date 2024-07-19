@@ -40,24 +40,24 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 사용자를 제거하려면 다음 단계를 따르십시오.
 
 1. 책임자가 왼쪽 창에서 **[!UICONTROL 사용자]**&#x200B;를 클릭합니다. **[!UICONTROL 내부 사용자]** 페이지가 열립니다.
-1. 제거할 사용자를 삭제합니다. 삭제하려면 확인란을 사용하여 하나 이상의 사용자를 선택합니다. 열기 **[!UICONTROL 액션]** 드롭다운 및 선택 **[!UICONTROL 사용자 삭제.]**
+1. 제거할 사용자를 삭제합니다. 삭제하려면 확인란을 사용하여 하나 이상의 사용자를 선택합니다. **[!UICONTROL 작업]** 드롭다운을 열고 **[!UICONTROL 사용자 삭제]**&#x200B;를 선택합니다.
 1. 왼쪽 창에서 **[!UICONTROL &#39;사용자 정리&#39;]**&#x200B;를 클릭합니다. 삭제된 사용자 목록과 함께 **[!UICONTROL 사용자 정리]** 페이지가 나타납니다. 라디오 버튼을 사용하여 제거할 사용자를 선택합니다. 한 번에 한 명의 사용자만 제거할 수 있습니다.
 
    ![](assets/purge-1.png)
 
    *제거할 사용자 선택*
 
-1. 열기 **[!UICONTROL 액션]** 드롭다운 메뉴 및 선택 **[!UICONTROL 사용자 제거]**.
+1. **[!UICONTROL 작업]** 드롭다운 메뉴를 열고 **[!UICONTROL 사용자 제거]**&#x200B;를 선택합니다.
 
    ![](assets/purge-2.png)
 
-   *사용자 제거 옵션을 선택합니다.*
+   *사용자 제거 옵션 선택*
 
-1. 확인을 요청하는 대화 상자가 나타납니다. 제거하면 선택한 사용자와 관련된 모든 사용자 데이터 및 학습 레코드가 영구적으로 삭제됩니다. 제거 후에는 작업을 취소할 수 없습니다. 확인하려면 **[!UICONTROL 제거]**.
+1. 확인을 요청하는 대화 상자가 나타납니다. 제거하면 선택한 사용자와 관련된 모든 사용자 데이터 및 학습 레코드가 영구적으로 삭제됩니다. 제거 후에는 작업을 취소할 수 없습니다. 확인하려면 **[!UICONTROL 제거]**&#x200B;를 클릭하세요.
 
    ![](assets/purge-3.png)
 
-   *사용자 제거 후 확인 메시지*
+   *사용자를 삭제한 후 확인 메시지*
 
 1. 확인 후 &#39;제거&#39;를 클릭하면 &#39;제거&#39; 요청이 수락됩니다. 작업이 완료되면 알림을 받습니다. 제거 요청 ID도 제공됩니다. 이 ID를 CSM에 제공하여 요청을 추적할 수 있습니다.
 
@@ -186,7 +186,7 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 
 +++
 
-Learning Manager는 이제 GDPR을 준수합니다. GDPR 준수에 관한 자세한 내용은 다음을 참조하십시오.  [Learning Manager는 GDPR을 준수함](../../kb/prime-gdpr.md).
+Learning Manager는 이제 GDPR을 준수합니다. GDPR 준수에 관한 자세한 내용은 [Learning Manager의 GDPR 준수](../../kb/prime-gdpr.md)를 참조하십시오.
 
 ## 자주 묻는 질문 {#frequentlyaskedquestions}
 

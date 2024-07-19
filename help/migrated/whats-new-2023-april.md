@@ -2,7 +2,8 @@
 title: 이 릴리스(2023년 4월)의 새로운 기능
 description: Adobe Learning Manager의 새로운 기능과 개선 사항 알아보기
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '3158'
 ht-degree: 62%
@@ -15,7 +16,7 @@ ht-degree: 62%
 
 Microsoft Teams에서의 새로운 Adobe Learning Manager 앱은 작업 흐름에서 학습을 촉진하고 소셜 학습을 향상하도록 설계되었습니다. 학습자는 브라우저를 전환하지 않아도 Microsoft Teams 플랫폼에서 학습 콘텐츠에 액세스할 수 있습니다. MS Teams에서의 Adobe Learning Manager 앱 베타 릴리스는 CSAM에게 문의하십시오.
 
-자세한 내용은 다음을 참조하세요. [Microsoft Teams을 위한 Adobe Learning Manager 앱](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
+자세한 내용은 [Microsoft Teams용 Adobe Learning Manager 앱](/help/migrated/adobe-learning-manager-app-microsoft-teams.md)을 참조하세요.
 
 ## 강사 주도 교육(ILT) 환경 개선 사항
 
@@ -88,11 +89,11 @@ QR 코드 기반 워크플로우 개선 사항으로, 이 릴리스 이전에 �
 
 책임자는 학습자의 프로필을 기반으로 학습자에게 특정 강의 또는 교육을 지정할 수 있습니다. 그러면 학습자는 자신이 속한 프로필을 기반으로 강의를 검색할 수 있습니다.
 
-**변경된 사항**
+**변경된 내용**
 
 공지사항 페이지에는 학습자에게 이 강의 또는 교육을 추천한 이유를 보여 주는 옵션이 있습니다.
 
-![알림 만들기](assets/create-announcement.png)
+![공지 만들기](assets/create-announcement.png)
 
 ### NEw 관리자 설정
 
@@ -131,7 +132,7 @@ QR 코드 기반 워크플로우 개선 사항으로, 이 릴리스 이전에 �
 
 ![적용된 필터 없음](assets/no-filters-applied.png)
 
-![필터가 적용되지 않은 달력의 세션](assets/sessions-on-calendar-no-filters.png)
+![필터가 적용되지 않은 캘린더의 세션](assets/sessions-on-calendar-no-filters.png)
 
 ![위치에 적용된 필터](assets/location-filter-applied.png)
 
@@ -160,7 +161,7 @@ QR 코드 기반 워크플로우 개선 사항으로, 이 릴리스 이전에 �
 * 에이전트에게 대화 내용 전달
 * 대화 기록 보존
 
-![chatbot](assets/chatbot-new.png)
+![채팅봇](assets/chatbot-new.png)
 
 ## 관찰 체크리스트 향상 사항
 
@@ -221,13 +222,13 @@ QR 코드 기반 워크플로우 개선 사항으로, 이 릴리스 이전에 �
 
 ![인스턴스 전환](assets/switch-instances.png)
 
-![인스턴스 선택 전환](assets/switch-instances-select.png)
+![선택한 인스턴스 전환](assets/switch-instances-select.png)
 
 학습자 또는 책임자 앱에서 강의 인스턴스가 완료될 때까지 인스턴스를 전환할 수 없습니다.
 
 작성자는 강의를 생성하는 동안 &#39;인스턴스 전환&#39;을 활성화하거나 비활성화할 수 있습니다. 인스턴스 전환은 무료 강의에서만 사용할 수 있습니다.
 
-자세한 내용은 다음을 참조하세요. [인스턴스 구성](/help/migrated/authors/feature-summary/courses.md).
+자세한 내용은 [인스턴스 구성](/help/migrated/authors/feature-summary/courses.md)을 참조하세요.
 
 **학습자**
 
@@ -253,23 +254,23 @@ QR 코드 기반 워크플로우 개선 사항으로, 이 릴리스 이전에 �
 
 이 보고서는 강사가 할당된 세션을 가르치는 데 매일 소요된 시간(분)을 캡처합니다. 보고서는 선택한 시작 날짜부터 3개월 동안 다운로드할 수 있습니다.
 
-자세한 내용은 다음을 참조하세요. [강사 활용률 보고서](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
+자세한 내용은 [강사 사용률 보고서](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report)를 참조하십시오.
 
-![강사 활용률 보고서](assets/instructor-utilization.png)
+![강사 활용 보고서](assets/instructor-utilization.png)
 
 ### 작업 지원 보고서
 
 계정의 작업 지원 및 작업 지원과 관련된 다양한 정보(예: 언어, 유형, 기간, 작성자, 태그 등)를 추적하기 위한 새로운 보고서입니다.
 
-자세한 내용은 다음을 참조하세요. [작업 지원 등록 보고서](/help/migrated/administrators/feature-summary/reports.md).
+자세한 내용은 [작업 지원 등록 보고서](/help/migrated/administrators/feature-summary/reports.md)를 참조하세요.
 
 ### 특정 강의 인스턴스에 등록한 학습자에게 전송되는 대상 애드혹 전자 메일
 
 책임자 및 작성자는 강의의 특정 인스턴스에 등록한 학습자에게 대상 애드혹 전자 메일을 전송할 수 있습니다. 강의 및 학습 프로그램에 인스턴스 레벨 전자 메일 전송 옵션이 추가되었습니다.
 
-![인스턴스 수준 이메일 보내기](assets/adhoc-email.png)
+![인스턴스 수준 전자 메일 보내기](assets/adhoc-email.png)
 
-*인스턴스 수준 이메일 보내기*
+*인스턴스 수준 전자 메일 보내기*
 
 공지사항 생성 대화 상자에서 인스턴스와 함께 전자 메일 및 교육으로 입력 옵션이 기본적으로 선택됩니다. 제목을 지정하고 메시지를 입력한 다음 [저장]을 클릭합니다.
 
@@ -281,7 +282,7 @@ QR 코드 기반 워크플로우 개선 사항으로, 이 릴리스 이전에 �
 
 사용자 정의 책임자 및 작성자도 필요한 액세스 권한이 있는 경우 인스턴스 수준에서 이 옵션을 볼 수 있습니다.
 
-자세한 내용은 다음을 참조하세요. [공지](/help/migrated/administrators/feature-summary/announcements.md#as-email).
+자세한 내용은 [공지](/help/migrated/administrators/feature-summary/announcements.md#as-email)를 참조하세요.
 
 ### 새 전자 메일 템플릿
 
@@ -302,7 +303,7 @@ QR 코드 기반 워크플로우 개선 사항으로, 이 릴리스 이전에 �
 
 작업 API에 새 속성인 jobType이 추가되었습니다. 해당 특성은 다음 값을 허용합니다.
 
-* **generateInstructorUtilisationReport**: 강사의 활용률 보고서를 반환합니다.
+* **generateInstructorUtiliationReport**: 강사의 사용률 보고서를 반환합니다.
 * **generateJobAidMetadataReport**: 작업 지원 보고서의 메타데이터를 반환합니다.
 
 **끝점**: POST /primeapi/v2/jobs
@@ -427,7 +428,7 @@ generateInstructorUtilisationReport 응답:
 | 도시 검색 및 필터링 | filter.cityName=city_name<br>쉼표로 구분된 도시 목록도 지원합니다. |
 | GET /primeapi/v2/search |
 | 회의실 세부 정보 반환 | include=room | GET /primeapi/v2/users/`<id>`/calendar |
-| 도시 필터링을 위한 학습 객체 | filter.cityName=city_name <br> 또한 쉼표로 구분된 도시 목록을 지원합니다. | GET /primeapi/v2/learningObjects |
+| 도시 필터링을 위한 학습 객체 | filter.cityName=city_name <br>은(는) 쉼표로 구분된 도시 목록도 지원합니다. | GET /primeapi/v2/learningObjects |
 | 도시 패널 추가 | 응답에는 새 특성 filterPanelSetting=true/false가 포함됩니다. | GET /primeapi/v2/account |
 
 ### 학습자 세션 충돌
@@ -453,7 +454,7 @@ learningObjects API용 신규 쿼리 매개 변수: filter.loFormat=Virtual Clas
 
 **끝점**: GET /primeapi/v2/learningObjects
 
-**달력**
+**일정**
 
 달력 API용 신규 쿼리 매개 변수: filter.allSessions=false 매개 변수의 기본값은 false입니다. true인 경우 API는 학습자의 모든 달력 세션을 반환합니다.
 
@@ -467,7 +468,7 @@ learningObjects API용 신규 쿼리 매개 변수: filter.loFormat=Virtual Clas
 
 **끝점**: GET /primeapi/v2/search?persistSearchHistory=true
 
-**제안 사항**
+**제안**
 
 신규 쿼리 매개 변수: suggestionType 사용할 수 있는 값은 다음과 같습니다.
 
@@ -490,7 +491,7 @@ API를 통해 사용자 정의 그룹에서 외부 사용자를 추가하거나 
 
 **게시**
 
-POST /userGroups/{id}/users
+POST /usergroups/{id}/users
 
 **본문**
 
@@ -520,7 +521,7 @@ DELETE /userGroups/{id}/users
 
 ### 학습자 앱에서 로그인을 위한 공지 사용자 그룹 필터링
 
-* GET /users/{userId}/userGroups API에는 부울 값(true/false)을 사용하는 새 매개 변수인 filter.announcatedGroupsOnly가 있습니다. 이것은 책임자가 알리는 사용자 그룹만 필터링합니다. 이 매개 변수의 기본값은 false입니다.
+* GET /users/{userId}/userGroups API에 부울 값(true/false)을 사용하는 새 매개 변수인 filter.announcatedGroupsOnly가 있습니다. 이것은 책임자가 알리는 사용자 그룹만 필터링합니다. 이 매개 변수의 기본값은 false입니다.
 * GET /learningObjects API에는 결과를 필터링하기 위해 공지 그룹 ID를 수락하는 새 매개 변수인 filter.announcatedGroups가 있습니다.
 * GET /search API에는 결과를 필터링하기 위한 공지 그룹 ID를 수락하는 새 매개 변수인 filter.announcatedGroups가 있습니다.
 
@@ -631,11 +632,11 @@ DELETE /userGroups/{id}/users
 
 ## 릴리스 정보
 
-현재 및 이전 릴리스의 Learning Manager 웹 앱 및 장치 앱과 관련된 정보는 [릴리스 정보](/help/migrated/release-note/release-notes.md).
+현재 및 이전 릴리스의 Learning Manager 웹 앱 및 장치 앱과 관련된 정보는 [릴리스 정보](/help/migrated/release-note/release-notes.md)를 참조하십시오.
 
 ## 버그 수정
 
-이 업데이트에서 수정된 버그를 보려면 [수정된 버그 목록](release-note/release-notes.md#bugs-fixed-in-this-release).
+이 업데이트에서 수정된 버그를 보려면 [수정된 버그 목록](release-note/release-notes.md#bugs-fixed-in-this-release)을 참조하십시오.
 
 ## 시스템 요건
 

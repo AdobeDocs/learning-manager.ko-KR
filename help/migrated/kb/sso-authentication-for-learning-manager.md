@@ -23,15 +23,15 @@ SSO 인증을 구성하려면 다음 단계를 수행하십시오.
    ![](assets/login-methods.png)
 
 1. 요구 사항에 따라 **[!UICONTROL 내부 사용자]** 또는 **[!UICONTROL 외부 사용자]**&#x200B;를 선택합니다.
-1. 옆에 있는 드롭다운을 클릭합니다  **[!UICONTROL 로그인]** option 키를 누른 상태에서 **[!UICONTROL Single Sign-On]**.
+1. **[!UICONTROL 로그인]** 옵션 옆에 있는 드롭다운을 클릭하고 **[!UICONTROL SSO(Single Sign-On)]**&#x200B;을 선택합니다.
 
    ![](assets/single-sign-on.png)
 
-1. SSO(단일 사인온) 설정을 조정하려면 을 클릭합니다.  **[!UICONTROL 갈아입어.]**
+1. SSO(단일 사인온) 설정을 조정하려면 **[!UICONTROL 변경]**&#x200B;을 클릭하십시오.
 
    ![](assets/change.png)
 
-1. Enter  **[!UICONTROL IDP 시작 인증 URL]** 서비스 공급자가 제공한 다음 을 클릭하여 XML 파일을 업로드합니다. **[!UICONTROL IDP 메타데이터 XML 파일.]**
+1. 서비스 공급자가 제공한 **[!UICONTROL IDP 시작 인증 URL]**&#x200B;을(를) 입력하고 **[!UICONTROL IDP 메타데이터 XML 파일]**&#x200B;을 클릭하여 XML 파일을 업로드합니다.
 
    ![](assets/sso-configuration.png)
 

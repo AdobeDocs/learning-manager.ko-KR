@@ -3,14 +3,13 @@ description: Learning Manager에서 태그를 관리하는 방법을 알아봅�
 jcr-language: en_us
 title: 태그
 contentowner: dvenkate
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 63%
 
 ---
-
-
 
 # 태그
 
@@ -24,9 +23,9 @@ ht-degree: 63%
 
 이 교육에서는 태그를 추가, 편집, 바꾸기, 추가 및 삭제하는 방법에 대해 알아봅니다. 권한 설정을 변경하고 태그 필터를 사용하는 방법도 알아봅니다.
 
-[![버튼](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+[![단추](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
 
-교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
+교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 
 ## 태그 추가/ 삭제/ 수정 {#adddeleteedittags}
 
@@ -41,7 +40,7 @@ ht-degree: 63%
 
 1. 한 번에 하나의 태그만 편집할 수 있습니다. 태그를 편집하려면 다음 단계를 따르십시오.
 
-   * 편집할 태그를 선택하고 > ** 열기[!UICONTROL 액션]**드롭다운 메뉴 > **[!UICONTROL 편집]**.
+   * 편집할 태그를 선택하고 > **[!UICONTROL 작업]**드롭다운 메뉴를 열고 > **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
    **[!UICONTROL 태그 편집]** 대화 상자가 나타납니다. 새 태그 이름을 입력하고 **[!UICONTROL &#39;확인&#39;]**&#x200B;을 클릭합니다.
 
@@ -49,8 +48,8 @@ ht-degree: 63%
 
 ## 태그 교체 {#replacetags}
 
-1. 변경할 태그를 선택합니다. 한 번에 최대 50개의 태그를 선택할 수 있습니다. 열기 **[!UICONTROL 액션]** 드롭다운 메뉴 및 선택 **[!UICONTROL 바꾸기]**.
-1. 대상 **[!UICONTROL 태그 바꾸기]** 선택한 태그를 보여주는 대화 상자가 나타납니다.
+1. 변경할 태그를 선택합니다. 한 번에 최대 50개의 태그를 선택할 수 있습니다. **[!UICONTROL 작업]** 드롭다운 메뉴를 열고 **[!UICONTROL 바꾸기]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 태그 바꾸기]** 대화 상자가 나타나고 선택한 태그가 표시됩니다.
 
 1. **[!UICONTROL 변경한 태그 이름]** 옵션에서 교체하길 원하는 태그를 선택하여 이름을 입력합니다. 드롭다운에서 기존 태그로 바꾸거나 새 태그를 추가할 수 있습니다.
 
@@ -62,8 +61,8 @@ ht-degree: 63%
 
 태그에 대한 추가 작업의 경우, 새/기존 태그가 선택된 태그와 연관된 LO 및 콘텐츠 그룹의 모든 목록에 추가됩니다.
 
-1. 확장할 태그를 선택합니다. 한 번에 최대 50개의 태그를 선택할 수 있습니다. 작업 드롭다운 메뉴를 열고 다음을 선택합니다. **[!UICONTROL 첨부]**.
-1. 대상  **[!UICONTROL 태그 추가]** 선택한 태그를 보여주는 대화 상자가 나타납니다.
+1. 확장할 태그를 선택합니다. 한 번에 최대 50개의 태그를 선택할 수 있습니다. 작업 드롭다운 메뉴를 열고 **[!UICONTROL 추가]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 태그 추가]** 대화 상자가 나타나고 선택한 태그가 표시됩니다.
 1. **[!UICONTROL 새 태그]**&#x200B;이름을 입력하거나 기존 태그 드롭다운 목록에서 선택한 태그를 모두 추가하여 모든 학습에 태그를 확장할 수 있습니다. 새 태그는 Learning Manager 관련 모든 학습 전반에 추가됩니다.
 
    태그 이름에는 세미콜론 또는 쉼표를 넣을 수 없습니다. 사용하면 Prime에 오류 메시지가 나타납니다. 이러한 태그를 일부 LO의 부분으로 사용하면 마이그레이션 시나리오에서 처리할 수 없습니다. 세미콜론 없는 태그나 오류 메세지를 확인하십시오.
@@ -76,7 +75,7 @@ ht-degree: 63%
 
 ![](assets/unknown-1.jpeg)
 
-*태그 작성을 위한 설정 페이지*
+태그를 만들기 위한 *설정 페이지*
 
 * 사용자가 태그를 만들 수 있는 권한이 있고 현재 유효하지 않은 기존 태그를 선택할 경우
 

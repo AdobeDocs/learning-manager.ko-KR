@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 학습 프로그램을 생성하는 동안 카탈로그에서 특정 강의를 볼 수 없음
 description: 학습 프로그램에 추가할 특정 강의를 검색하는 동안 카탈로그에서 강의를 볼 수 없습니다.
 contentowner: saghosh
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+exl-id: 5920b4e4-f552-4b89-9126-2f1bbf5c8e9b
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 90%
 
 ---
-
-
 
 # 학습 프로그램을 생성하는 동안 카탈로그에서 특정 강의를 볼 수 없음
 

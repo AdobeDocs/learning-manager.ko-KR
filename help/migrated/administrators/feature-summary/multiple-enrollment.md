@@ -1,7 +1,8 @@
 ---
 title: Adobe Learning Manager 다중 등록
 description: 계정 책임자의 주요 임무 중 하나는 여러 시간대에 걸쳐 다양한 VILT 세션 인스턴스를 생성하고 특정 사용자 그룹에 대한 세션을 만드는 것입니다.
-source-git-commit: fc5b5afd8dd42ac3aa0e5190d6f421035df41a89
+exl-id: c430545d-b48e-432d-a278-658c9281818f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 68%
@@ -21,7 +22,7 @@ Adobe Learning Manager의 다중 등록 기능을 사용하면 책임자가 이�
 다중 등록은 사용 가능한 다양한 인스턴스를 통해 하나의 강의에 학습자를 여러 번 등록합니다.  학습자는 등록, 완료 또는 아직 시작 전의 상태와 관계없이 여러 강의 인스턴스에 등록할 수 있습니다. 작성자가 [!UICONTROL 다중 등록] 전환을 활성화하면 학습자는 강의의 여러 인스턴스에 등록할 수 있습니다.
 
 ![다중 등록 이미지](assets/multi-enrollment-author.png)
-*설정에서 다중 등록 실행*
+*설정에서 다중 등록 시작*
 
 각 인스턴스의 진행 상황을 개별적으로 추적할 수 있고, 보고서를 내보내 각 인스턴스의 진행 상황을 추적할 수 있습니다.
 
@@ -33,12 +34,12 @@ Adobe Learning Manager의 다중 등록 기능을 사용하면 책임자가 이�
 
 ## 다중 등록을 활성화하는 방법
 
-1. Adobe Learning Manager 계정에 작성자로 로그인합니다.
+1. 작성자로 Adobe Learning Manager 계정에 로그인합니다.
 1. 학습자가 여러 번 등록할 강의를 선택합니다.
-1. 왼쪽 패널에서 **[!UICONTROL 설정]** > **[!UICONTROL 편집]** > **[!UICONTROL 인스턴스 구성]** > **[!UICONTROL 다중 등록 활성화]**.
+1. 왼쪽 패널에서 **[!UICONTROL 설정]** > **[!UICONTROL 편집]** > **[!UICONTROL 인스턴스 구성]** > **[!UICONTROL 다중 등록 사용]**&#x200B;을 선택합니다.
 
 ![다중 등록 이미지](assets/multi-enrollment-author.png)
-*다중 등록 활성화*
+*다중 등록 사용*
 
 >[!NOTE]
 >
@@ -69,9 +70,9 @@ Adobe Learning Manager의 다중 등록 기능을 사용하면 책임자가 이�
 
 학습자를 등록하는 동안 다음 확인란을 활성화할 수 있습니다.
 
-*&quot;선택한 학습자는 이미 이 강의의 다른 인스턴스에 등록되어 있을 수 있습니다. 해당 학습자도 인스턴스에 등록할 수 있도록 허용합니다…&quot;*
+선택한 *명의 학습자가 이미 이 강의의 다른 인스턴스에 등록되어 있을 수 있습니다. 해당 학습자도 인스턴스에 등록할 수 있도록 허용합니다…&quot;*
 
-![관리자 변경 사항](assets/admin-changes.png)
+![관리자 변경](assets/admin-changes.png)
 *관리자용 등록 옵션*
 
 학습자가 이미 하나의 인스턴스에 등록되어 있고 책임자가 다른 강의 인스턴스에 학습자를 등록하려고 하는 경우 예를 선택합니다.

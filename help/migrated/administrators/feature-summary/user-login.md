@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Learning Manager의 관리자로
 description: Adobe Learning Manager 사용자 로그인
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c293c8b1-2a25-4b55-8715-43797049e17e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 66%
 
 ---
-
-
 
 # Learning Manager의 관리자로
 
@@ -25,9 +24,9 @@ Adobe Learning Manager를 처음 사용한다면 다음 단계에 따라 계정�
 *Adobe Learning Manager에 로그인*
 
 1. Adobe ID와 암호를 입력하고 &#39;로그인&#39;을 클릭합니다.\
-   암호를 잊으셨다면, **[!UICONTROL 암호를 잊으셨습니까?]** Adobe ID 제작에 사용한 내 이메일 id를 링크 및 입력합니다.
+   암호를 잊으셨다면 **[!UICONTROL 암호를 잊으셨습니까?를 클릭합니다.]**&#x200B;님이 Adobe ID을 만드는 데 사용한 전자 메일 ID를 링크 및 제공합니다.
 
-1. 또는 을 클릭하여 Enterprise ID을 사용할 수도 있습니다. **[!UICONTROL Enterprise ID 링크로 로그인]**.
+1. 또는 **[!UICONTROL Enterprise ID으로 로그인]**&#x200B;을 클릭하여 Enterprise ID을 사용할 수 있습니다.
 
 >[!NOTE]
 >

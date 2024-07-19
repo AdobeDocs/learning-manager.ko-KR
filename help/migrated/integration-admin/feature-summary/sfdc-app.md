@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Salesforce용 Learning Manager 앱
 description: Salesforce는 영업 및 마케팅 팀 중에서 가장 인기 있는 CRM 솔루션 중 하나입니다. Salesforce의 Adobe Learning Manager 앱을 사용하여 사용자가 Salesforce 인터페이스에서 학습 콘텐츠에 액세스하도록 허용할 수 있습니다. 사용자는 Salesforce에서 강의, 학습 프로그램, 작업 지원 등 할당된 학습 콘텐트에 액세스할 수 있습니다. 사용자는 등록에 대한 알림 및 책임자의 공지를 받을 수도 있습니다.
 contentowner: jayakarr
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: 2efdf01e-43fb-4377-9334-2727c5358c76
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 57%
 
 ---
-
-
 
 # Salesforce용 Learning Manager 앱
 
@@ -37,15 +36,15 @@ Salesforce™은 영업 및 마케팅 팀 사이에서 가장 인기 있는 CRM 
 
 1. Salesforce 계정에 Learning Manager 앱을 설치하려면, 계정 관리자 또는 고객 성공 관리자로부터 제공받은 설치 가능한 패키지를 사용하십시오. 이 앱을 설치할 때 Salesforce 계정에 대한 관리자 권한이 있어야 합니다.
 
-1. 스냅샷에 나타난 대로 적절한 옵션을 선택하고 **[!UICONTROL 설치]**.
+1. 스냅숏에 표시된 대로 적절한 옵션을 선택하고 **[!UICONTROL 설치]**&#x200B;를 클릭하십시오.
 
    ![](assets/install-options.png)
 
-   *관리자 전용 설치 옵션을 선택합니다.*
+   *관리자 전용 설치 옵션을 선택합니다*
 
-   다음을 선택하세요. **특정 프로필에 대해 설치**&#x200B;목록에서 프로필을 하나 이상 선택합니다.
+   **특정 프로필용으로 설치**&#x200B;를 선택한 경우 목록에서 하나 이상의 프로필을 선택하십시오.
 
-1. 다음을 수행합니다. **[!UICONTROL 계속]** 클릭하여 서드파티 액세스를 확인합니다.
+1. 표시되는 팝업에서 **[!UICONTROL 계속]**&#x200B;을 클릭하여 서드파티 액세스를 확인합니다.
 
    앱이 성공적으로 설치되었다는 확인 메시지가 나타납니다. **완료**&#x200B;를 클릭합니다.
 
@@ -55,14 +54,14 @@ Learning Manager 팀은 Salesforce 책임자가 홈페이지 레이아웃에 Lea
 
 홈페이지 레이아웃에 Learning Manager 알림 요소를 추가하려면 다음 단계를 따르십시오.
 
-1. 다음을 수행합니다. **[!UICONTROL 설정]** 오른쪽 상단 홈 페이지 레이아웃 옵션은 아래 스냅샷과 같이 왼쪽 창에 나타납니다.
+1. 오른쪽 상단에서 **[!UICONTROL 설정]**&#x200B;을 클릭합니다. 홈 페이지 레이아웃 옵션은 아래 스냅샷과 같이 왼쪽 창에 나타납니다.
 
    ![](assets/homepage-component.png)
 
    *홈 페이지 레이아웃 선택*
 
-1. 원하는 레이아웃을 선택하고 **[!UICONTROL 편집]**.
-1. 페이지에 나타나는 Learning Manager 알림 Adobe 옵션을 선택하고 **[!UICONTROL 다음]**.
-1. 왼쪽 창에 나타나는 구성 요소의 순서를 선택한 다음, 미리 보기하고 **[!UICONTROL 저장]**.
+1. 원하는 레이아웃을 선택하고 **[!UICONTROL 편집]**&#x200B;을 클릭하세요.
+1. 페이지에 나타나는 Adobe Learning Manager 알림 옵션을 선택하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+1. 왼쪽 창에 나타나는 구성 요소의 순서를 선택하고 미리 본 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-Learning Manager 앱에 로그인하여 학습자로 Salesforce를 사용하는 방법을 알아보려면, [Salesforce 앱 도움말 콘텐츠](../../learners/feature-summary/sfdc-app.md).
+Learning Manager 앱에 로그인하여 학습자로 Salesforce를 사용하는 방법을 알아보려면, [Salesforce 앱 도움말](../../learners/feature-summary/sfdc-app.md)을 참조하십시오.

@@ -3,36 +3,35 @@ jcr-language: en_us
 title: 사용자 일괄 추가
 description: 한 번에 여러 사용자를 추가하는 방법을 알아봅니다.
 contentowner: saghosh
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 25%
 
 ---
 
-
-
 # 사용자 일괄 추가
 
 이 교육에서는 CSV를 통해 사용자를 일괄 추가하는 방법을 알아봅니다.
 
-[![버튼](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
+[![단추](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
 
-교육을 시작할 수 없는 경우 다음 주소로 작성하십시오. <almacademy@adobe.com>.
+교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 
 ## 여러 사용자를 추가하는 방법
 
 아래 단계에 따라 한 번에 여러 사용자를 추가할 수 있습니다.
 
-1. 다음을 수행합니다. **[!UICONTROL 사용자]** 관리자 역할로 로그인하여 왼쪽 창에서 **[!UICONTROL 추가]** > **[!UICONTROL csv 업로드]**. 팝업 대화 상자가 나타납니다.
+1. 관리자 로그인의 왼쪽 창에서 **[!UICONTROL 사용자]**&#x200B;를 클릭한 다음 **[!UICONTROL 추가]** > **[!UICONTROL csv 업로드]**&#x200B;를 클릭합니다. 팝업 대화 상자가 나타납니다.
 
-1. .CSV 파일을 사용하여 여러 사용자를 추가할 수 있습니다. 다음을 수행합니다. **[!UICONTROL 가져오기]** 그런 다음 컴퓨터에서 .csv 파일을 선택/엽니다.
+1. .CSV 파일을 사용하여 여러 사용자를 추가할 수 있습니다. **[!UICONTROL 가져오기]**&#x200B;를 클릭하고 컴퓨터에서 .csv 파일을 선택하거나 엽니다.
 
 1. 파일을 가져오고 난 다음, 처음 .csv 파일을 업로드할 때 .csv 파일의 콘텐트를 응용 프로그램 레이블과 매핑합니다.
 
-   이후 업로드하는 모든 파일에는 이전 레이블 설정이 적용됩니다. 다음을 수행합니다. **[!UICONTROL 저장]** 데이터 매핑을 완료한 후 **[!UICONTROL 추가]** 매핑한 .csv 파일을 업로드합니다.
+   이후 업로드하는 모든 파일에는 이전 레이블 설정이 적용됩니다. 데이터 매핑을 완료한 후 **[!UICONTROL 저장]**&#x200B;을 클릭하고 **[!UICONTROL 추가]**&#x200B;를 클릭하여 매핑한 .csv 파일을 업로드합니다.
 
-1. 다음을 수행합니다. **[!UICONTROL 저장]** 데이터 매핑을 완료한 후 **[!UICONTROL 추가]** 매핑한 .csv 파일을 업로드합니다.
+1. 데이터 매핑을 완료한 후 **[!UICONTROL 저장]**&#x200B;을 클릭하고 **[!UICONTROL 추가]**&#x200B;를 클릭하여 매핑한 .csv 파일을 업로드합니다.
 
 ## 필수 필드로 CSV 업로드 {#csvuploadwithmandatoryfields}
 
@@ -60,4 +59,4 @@ CSV에 사용자의 프로필과 관리자의 이메일 ID를 추가할 필요�
 모든 필드가 있는 Learning Manager 샘플 CSV를 아래에서 사용할 수 있습니다.
 [learning-manager-sample-csv.zip](assets/learning-manager-sample-csv.zip).
 
-자세한 내용은  [CSV 업로드 사용](/help/migrated/administrators/feature-summary/add-users-user-groups.md) 자세한 내용은 기능 도움말 콘텐츠를 참조하십시오.
+자세한 내용은 [CSV 업로드 사용](/help/migrated/administrators/feature-summary/add-users-user-groups.md) 기능 도움말 콘텐츠를 참조하십시오.

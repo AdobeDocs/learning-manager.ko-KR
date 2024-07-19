@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Learning Manager의 xAPI
 description: Experience API(xAPI)는 모든 유형의 학습 경험을 기록 및 추적하는 방식으로 학습 콘텐츠와 학습 시스템이 서로 통신할 수 있도록 하는 e-러닝 소프트웨어 사양입니다.
-source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
+exl-id: 8e36b538-a451-448e-a65d-08d286adcfdb
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 49%
 
 ---
-
-
 
 # Learning Manager의 xAPI
 
@@ -17,7 +16,7 @@ ht-degree: 49%
 
 경험 API(xAPI)란 모든 유형의 학습 경험을 기록 및 추적하는 방식으로 학습 콘텐트 및 학습 시스템이 소통할 수 있는 e러닝 소프트웨어 사양입니다. 학습 경험은 LRS(학습 기록 저장소)에 기록됩니다. LRS는 LMS(기존 학습 관리 시스템) 내에 존재하거나 자체적으로 존재할 수 있습니다.
 
-xAPI에 대한 자세한 내용은 다음을 참조하십시오.  [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec).
+xAPI에 대한 자세한 내용은 [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec)을(를) 참조하십시오.
 
 ## Learning Manager가 xAPI를 지원하는 방법은 무엇입니까? {#howdoescaptivateprimesupportxapi}
 
@@ -31,7 +30,7 @@ Learning Manager는 내장된 학습 기록 저장소를 갖고 있습니다. LR
 
 ## 응용 프로그램 설정 {#setupyourapplication}
 
-1. 통합 책임자로 로그인합니다. 선택 **[!UICONTROL 응용 프로그램]** > **[!UICONTROL 등록]**.
+1. 통합 책임자로 로그인합니다. **[!UICONTROL 응용 프로그램]** > **[!UICONTROL 등록]**&#x200B;을 선택합니다.
 
    ![](assets/appregistration.png)
 
@@ -66,7 +65,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 이제 작성자는 강의 생성 시 xAPI 모듈을 선택하여 Learning Manager 외부의 사용자 경험을 모니터링할 수 있습니다. 예를 들어 이 기능을 사용하여 강의 수료에 사용된 타사 플랫폼의 사용자 활동을 평가할 수 있습니다.
 
-1. 이미지를 만드는 동안 **[!UICONTROL 활동 모듈]**, **[!UICONTROL 유형]**option, 팝업 메뉴를 사용하여  **[!UICONTROL xAPI 기반 모듈.]**
+1. **[!UICONTROL 활동 모듈]**&#x200B;을 만드는 동안 **[!UICONTROL 유형]**옵션에서 팝업 메뉴를 사용하여 **[!UICONTROL xAPI 기반 모듈]**&#x200B;을 선택합니다.
 
    ![](assets/xapimodulecreation.png)
 
@@ -97,7 +96,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 ## 보고서 생성  {#generatereports}
 
-xAPI 보고서는 excel 보고서로 생성할 수 있습니다. 책임자가 **[!UICONTROL 보고서]** > **[!UICONTROL Excel 보고서]** > **[!UICONTROL xAPI 활동 보고서]**.
+xAPI 보고서는 excel 보고서로 생성할 수 있습니다. 관리자는 **[!UICONTROL 보고서]** > **[!UICONTROL Excel 보고서]** > **[!UICONTROL xAPI 활동 보고서]**&#x200B;를 엽니다.
 
 다운로드된 보고서는 학습자와 책임자가 어떤 명령문에든 게시한 모든 정보를 불러옵니다.
 

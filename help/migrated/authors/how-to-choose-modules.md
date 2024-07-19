@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: 강의 모듈 선택 방법
-description: Adobe Learning Manager는 네 가지 유형의 강의 모듈을 지원합니다. 교육 프로그램을 만들 책임이 있다면 조직의 요구 사항에 맞게 어떤 모듈을 선택해야 하는지 의문을 가질 수 있습니다. 조직 예산과 수강생 필요에 따라 강의 모듈을 선택할 수 있습니다. 각 모듈 유형에 대한 일반적인 사용 사례는 참조용으로 아래에 설명되어 있습니다.
+description: Adobe Learning Manager은 네 가지 유형의 강의 모듈을 지원합니다. 교육 프로그램을 만들 책임이 있다면 조직의 요구 사항에 맞게 어떤 모듈을 선택해야 하는지 의문을 가질 수 있습니다. 조직 예산과 수강생 필요에 따라 강의 모듈을 선택할 수 있습니다. 각 모듈 유형에 대한 일반적인 사용 사례는 참조용으로 아래에 설명되어 있습니다.
 contentowner: jayakarr
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+exl-id: 21f9aae7-e192-4318-9df4-4fedf52c6d85
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 90%
 
 ---
-
-
 
 # 강의 모듈 선택 방법
 
@@ -63,7 +62,7 @@ Learning Manager는 네 가지 유형의 강의 모듈을 지원합니다. 교�
  </tbody>
 </table>
 
-**자가 진행식 모듈은 언제 선택할 수 있습니까?**
+**자가 진행식 모듈을 선택하는 경우**
 
 <table>
  <tbody>

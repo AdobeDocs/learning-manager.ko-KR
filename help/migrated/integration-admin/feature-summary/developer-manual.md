@@ -30,7 +30,7 @@ ht-degree: 62%
 
 Learning Manager API는 REST 구조를 기반으로 하며 HTTP를 통해 Learning Manager Object Model의 주요 요소를 응용 프로그램 개발자에게 공개합니다. 개발자는 API 엔드 포인트 및 HTTP 메서드의 세부 정보를 파악하기 전에 다양한 Learning Manager 객체, 객체 속성, 상호 관계를 익힐 수 있습니다. 모델을 이해했다면 API 요청, 응답, API 전반에서 일반적으로 사용하는 몇 가지 프로그래밍 용어에 대한 기초적인 내용을 알고 있는 것이 유용합니다.
 
-다양한 API 엔드 포인트 및 메서드에 대한 세부 정보는 다음을 참조하십시오.  [Learning Manager API 설명서](https://learningmanager.adobe.com/docs/primeapi/v2/).
+다양한 API 엔드 포인트 및 메서드에 대한 세부 정보는 [Learning Manager API 설명서](https://learningmanager.adobe.com/docs/primeapi/v2/)를 참조하십시오.
 
 ## 학습자 API
 
@@ -52,7 +52,7 @@ Learning Manager API는 클라이언트 응용 프로그램 인증 및 승인에
 
 **절차**
 
-**1. 애플리케이션 설정**
+**1. 응용 프로그램 설정**
 
 클라이언트 ID와 클라이언트 시크릿으로 응용 프로그램을 설정하여 적절한 엔드 포인트를 사용할 수 있습니다. 응용 프로그램을 등록하면 clientId 및 clientSecret을 가져올 수 있습니다. 브라우저에서는 SSO, Adobe ID 등 사전 구성된 계정을 이용하여 Learning Manager 사용자를 인증하는 Get URL을 사용해야 합니다.
 
@@ -116,7 +116,7 @@ Learning Manager에서 자주 사용되는 용어를 아래에서 참조하십�
 
 **포함**
 
-개발자는 단일 객체 API 모델 및 해당 모델에 관련된 여러 모델에 액세스할 수 있습니다. 관련 후속 모델에 액세스하려면 각 모델과 기타 모델과의 관계를 파악해야 합니다. **포함** 매개 변수를 사용하면 개발자가 종속 모델에 액세스할 수 있습니다. 여러 모델에 액세스할 때는 쉼표를 구분 기호로 사용합니다. 샘플 사용 및 자세한 내용 **포함**&#x200B;에서는 이 페이지의 샘플 API 모델 섹션을 참조하십시오.
+개발자는 단일 객체 API 모델 및 해당 모델에 관련된 여러 모델에 액세스할 수 있습니다. 관련 후속 모델에 액세스하려면 각 모델과 기타 모델과의 관계를 파악해야 합니다. **포함** 매개 변수를 사용하면 개발자가 종속 모델에 액세스할 수 있습니다. 여러 모델에 액세스할 때는 쉼표를 구분 기호로 사용합니다. 샘플 사용 및 **포함**&#x200B;에 대한 자세한 내용은 이 페이지의 API 모델 섹션을 참조하세요.
 
 **API 요청**
 
@@ -124,7 +124,7 @@ HTTP 요청을 만들어 API 요청을 할 수 있습니다. 엔드 포인트와
 
 **API 응답**
 
-클라이언트가 API 요청을 하면 JSON API 사양에 따라 SON 문서를 획득합니다. 응답에는 HTTP 상태 코드도 포함되어 있습니다. 이 코드를 통해 개발자는 자신의 응용 프로그램 논리에서 적절한 다음 단계를 수행하는지 확인할 수 있습니다. 일반적인 API 응답의 구조는에 설명되어 있습니다  [샘플 모델 사용](#main-pars_header_1415780624).
+클라이언트가 API 요청을 하면 JSON API 사양에 따라 SON 문서를 획득합니다. 응답에는 HTTP 상태 코드도 포함되어 있습니다. 이 코드를 통해 개발자는 자신의 응용 프로그램 논리에서 적절한 다음 단계를 수행하는지 확인할 수 있습니다. 일반적인 API 응답의 구조는 [샘플 모델 사용](#main-pars_header_1415780624)에 설명되어 있습니다.
 
 **오류**
 
@@ -132,7 +132,7 @@ API 요청이 실패하면, 오류 응답을 획득합니다. 응답에서 반�
 
 **필드**
 
-API 객체 속성 및 그 관계는 집합적으로 필드라고 합니다. 자세한 내용은 [JSON API를 참조하십시오.](http://jsonapi.org/format/#document-resource-object-fields) 모델에서 하나 이상의 특정 속성을 가져오는 API 호출 시 필드를 매개 변수로 사용할 수 있습니다. 필드 매개 변수가 없는 경우, API 호출은 모델에서 사용 가능한 모든 속성을 가져옵니다. 예를 들어 다음 API 호출에서 필드는[스킬]=name은 스킬 모델만의 이름 속성을 가져옵니다.
+API 객체 속성 및 그 관계는 집합적으로 필드라고 합니다. 자세한 내용은 [JSON API를 참조하십시오.](http://jsonapi.org/format/#document-resource-object-fields) 모델에서 하나 이상의 특정 특성을 가져오는 API 호출 시 필드를 매개 변수로 사용할 수 있습니다. 필드 매개 변수가 없는 경우, API 호출은 모델에서 사용 가능한 모든 속성을 가져옵니다. 예를 들어 다음 API 호출에서 fields[skill]=name은 스킬 모델의 이름 특성만 가져옵니다.
 
 https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&amp;fields[skill]=name
 
@@ -142,7 +142,7 @@ API 요청에 대한 응답이 긴 객체 목록으로 돌아오는 경우가 �
 
 **정렬**
 
-API 모델에서 정렬을 사용할 수 있습니다. 모델에 따라 결과에 적용할 정렬 유형을 선택합니다. 정렬은 오름차순 또는 내림차순으로 적용할 수 있습니다. 예를 들어, `code sort=name`이름에 오름차순이 적용됩니다. 지정한 경우 `code sort=-name`이름에 따라 내림차순입니다. 자세한 내용은 [자세한 내용은 JSON API 사양을 참조하십시오.](http://jsonapi.org/format/#fetching-sorting).
+API 모델에서 정렬을 사용할 수 있습니다. 모델에 따라 결과에 적용할 정렬 유형을 선택합니다. 정렬은 오름차순 또는 내림차순으로 적용할 수 있습니다. 예를 들어 `code sort=name`을(를) 지정하면 이름에 따라 오름차순이 적용됩니다. `code sort=-name`을(를) 지정하면 이름에 따라 내림차순으로 정렬됩니다. 자세한 내용은 [JSON API 사양을 참조하십시오](http://jsonapi.org/format/#fetching-sorting).
 
 ## API 사용 설명 {#samplemodel}
 
@@ -150,7 +150,7 @@ API 모델에서 정렬을 사용할 수 있습니다. 모델에 따라 결과�
 
 Learning Manager API의 사용자 스킬 모델 ID의 기본 구성 요소는 ID, 유형, 달성 일자, 생성 일자, 획득 점수입니다. 개발자가 GET 메서드를 사용하여 사용자 스킬 모델의 세부 정보를 획득하고자 할 때, 기본 속성에 속하는 데이터가 응답 결과에 표시됩니다.
 
-하지만, 이 시나리오에서 개발자는 사용자의 스킬 이름과 스킬 레벨의 점수를 얻고자 합니다. Learning Manager API에서는 관계 필드와 포함 매개 변수를 사용하여 관련된 정보에 액세스할 수 있습니다. 사용자 스킬에 관련된 모델은 관계 태그로 획득합니다. 사용자 스킬과 함께 해당 모델을 호출하여 각 관련 모델의 세부 정보를 얻을 수 있습니다. 이 정보를 가져오려면 다음을 사용하십시오. **`code include`** 연관된 각 모델에 대해 점(마침표)으로 구분된 값이 있는 매개변수 쉼표를 구분 기호로 사용하여 user include=skillLevel.skill,course와 같은 다른 모델을 요청할 수 있습니다.
+하지만, 이 시나리오에서 개발자는 사용자의 스킬 이름과 스킬 레벨의 점수를 얻고자 합니다. Learning Manager API에서는 관계 필드와 포함 매개 변수를 사용하여 관련된 정보에 액세스할 수 있습니다. 사용자 스킬에 관련된 모델은 관계 태그로 획득합니다. 사용자 스킬과 함께 해당 모델을 호출하여 각 관련 모델의 세부 정보를 얻을 수 있습니다. 이 정보를 얻으려면 각 관련 모델에 대해 점(마침표)으로 구분 값을 표시한 **`code include`** 매개 변수를 사용하십시오. 쉼표를 구분 기호로 사용하여 user include=skillLevel.skill,course와 같은 다른 모델을 요청할 수 있습니다.
 
 **API 호출**
 
@@ -406,11 +406,11 @@ Learning Manager API를 사용하면 개발자가 RESTful 리소스로 Learning 
   </tr>
   <tr>
    <td>리소스</td>
-   <td>모듈이 압축하려는 각 콘텐츠 리소스를 모델링하는 데 사용됩니다. 모든 리소스는 <code>
+   <td>모듈이 압축하려는 각 콘텐츠 리소스를 모델링하는 데 사용됩니다. <code>
      an
     </code> <code>
      loResource
-    </code> 학습 객체에 대해서는 같지만, 콘텐츠 로케일의 전송 유형에서는 서로 다릅니다.<br></td>
+    </code> 내에 캡슐화된 모든 리소스는 학습 목표와 동일하지만, 제공 유형 또는 콘텐츠 로케일의 관점에서 서로 다릅니다.<br></td>
   </tr>
   <tr>
    <td>사용자 알림</td>
@@ -422,11 +422,11 @@ Learning Manager API를 사용하면 개발자가 RESTful 리소스로 Learning 
   </tr>
   <tr>
    <td>사용자 배지</td>
-   <td>사용자 배지는 단일 배지를 연결합니다. <code>
+   <td>사용자 배지는 단일 배지 <code>
      with
-    </code> 단일 사용자입니다. 달성 시점, <code>
+    </code>과(와) 단일 사용자를 연결합니다. 달성 시점, <code>
      assertionUrl
-    </code> 등. <br></td>
+    </code> 등의 세부 정보가 포함되어 있습니다. <br></td>
   </tr>
   <tr>
    <td>스킬</td>
@@ -438,7 +438,7 @@ Learning Manager API를 사용하면 개발자가 RESTful 리소스로 Learning 
   </tr>
   <tr>
    <td>학습 객체</td>
-   <td>학습 객체는 사용자가 등록하고 학습할 수 있는 다양한 종류의 객체에 대한 추상적 개념입니다. 현재 Learning Manager에는 네 가지 유형의 학습 프로그램이 있습니다. 강의, 인증, 학습 프로그램입니다 <code>
+   <td>학습 객체는 사용자가 등록하고 학습할 수 있는 다양한 종류의 객체에 대한 추상적 개념입니다. 현재 Learning Manager에는 네 가지 유형의 학습 개체가 있습니다. 강의, 인증, 학습 프로그램 <code>
      and
     </code> 작업 지원입니다.<br></td>
   </tr>
@@ -448,25 +448,25 @@ Learning Manager API를 사용하면 개발자가 RESTful 리소스로 Learning 
   </tr>
   <tr>
    <td>학습 객체 리소스</td>
-   <td>이는 의 개념과 동일합니다. <code>
+   <td>이는 <code>
      module
-    </code>. 강의는 하나 <code>
+    </code>의 개념과 동일합니다. 강의는 하나 이상의 <code>
      of
     </code> 모듈로 구성됩니다. Learning Manager에서는 여러 동등한 방법으로 모듈을 전송할 수 있습니다. 따라서 <code>
      loResource
-    </code> 는 기본적으로 동등한 모든 리소스를 압축합니다.<br></td>
+    </code>은(는) 기본적으로 동등한 모든 리소스를 캡슐화합니다.<br></td>
   </tr>
   <tr>
    <td>학습 객체 리소스 등급<br></td>
-   <td>사용자가 등록한 학습 객체의 컨텍스트에 있는 특정 리소스를 수료한 결과를 압축합니다. 사용한 기간과 같은 정보가 있습니다. <code>
+   <td>사용자가 등록한 학습 객체의 컨텍스트에 있는 특정 리소스를 수료한 결과를 압축합니다. 리소스에 <code>
      user
-    </code> 가 보낸 시간, 사용자의 진행률, 합격/불합격 상태 및 사용자가 모든 관련 퀴즈에서 획득한 점수 등의 정보를 갖고 있습니다.<br></td>
+    </code>이(가) 사용한 기간, 사용자가 수행한 진행률, 합격/불합격 상태 및 사용자가 모든 관련 퀴즈에서 획득한 점수와 같은 정보가 있습니다.<br></td>
   </tr>
   <tr>
    <td>달력<br></td>
-   <td>달력 객체는 다음과 같은 목록입니다. <code>
+   <td>일정 개체는 사용자가 등록할 수 있는 <code>
      upcoming classroom
-    </code> 또는 가상 강의실 목록입니다.<br></td>
+    </code> 또는 가상 강의실 강의 목록입니다.<br></td>
   </tr>
   <tr>
    <td>L1 피드백 정보<br></td>
@@ -485,7 +485,7 @@ Learning Manager API를 사용하면 개발자가 RESTful 리소스로 Learning 
 
 +++account
 
-**속성**
+**특성**
 dateCreated\
 게임화 사용\
 ID\
@@ -507,7 +507,7 @@ uiLocales(localizationMetadata)
 
 +++배지
 
-**속성**
+**특성**
 id\
 imageUrl\
 이름\
@@ -517,7 +517,7 @@ imageUrl\
 
 +++카탈로그
 
-**속성**
+**특성**
 dateCreated\
 dateUpdate\
 설명\
@@ -532,7 +532,7 @@ isListable\
 
 +++data
 
-**속성**
+**특성**
 id\
 names
 
@@ -540,7 +540,7 @@ names
 
 +++게임화
 
-**속성**
+**특성**
 색상\
 이름\
 점
@@ -549,7 +549,7 @@ names
 
 +++학습 객체
 
-**속성**
+**특성**
 authorName\
 dateCreated\
 datePosted\
@@ -578,7 +578,7 @@ supplementaryResources(resource)
 
 +++learningObjectInstance
 
-**속성**
+**특성**
 completionDeadline\
 dateCreated\
 enrollmentCount\
@@ -600,7 +600,7 @@ subLoInstances(learningObjectInstance)
 
 +++learningObjectInstanceEnrollment
 
-**속성**
+**특성**
 dateCompleted\
 dateEnrolled\
 dateStarted\
@@ -621,7 +621,7 @@ loInstance(학습 객체 인스턴스)\
 
 +++learningObjectResource
 
-**속성**
+**특성**
 externalReporting\
 ID\
 학습 객체 리소스 유형\
@@ -638,7 +638,7 @@ localizedMetadata(localizationMetadata)\
 
 +++learningObjectResourceGrade
 
-**속성**
+**특성**
 dateCompleted\
 dateStarted\
 dateSuccess\
@@ -655,7 +655,7 @@ progressPercent\
 
 +++학습 객체 스킬
 
-**속성**
+**특성**
 제작진\
 ID\
 **관계**
@@ -666,7 +666,7 @@ learningObject(learningObject)\
 
 +++권장 사항
 
-**속성**
+**특성**
 id\
 이유
 
@@ -677,7 +677,7 @@ learningObject(learningObject)
 
 +++resource
 
-**속성**
+**특성**
 authorDesiredDuration\
 completionDeadline\
 contentStructureInfoUrl\
@@ -706,7 +706,7 @@ seatLimit
 
 +++스킬
 
-**속성**
+**특성**
 설명\
 ID\
 이름\
@@ -719,7 +719,7 @@ ID\
 
 +++skillLevel
 
-**속성**
+**특성**
 id\
 수평\
 maxCredits\
@@ -732,7 +732,7 @@ maxCredits\
 
 +++user
 
-**속성**
+**특성**
 아바타 URL\
 약력\
 contentLocale\
@@ -755,7 +755,7 @@ manager(user)
 
 +++userBad
 
-**속성**
+**특성**
 검증 URL\
 dateAchieved\
 ID\
@@ -770,7 +770,7 @@ model(learningObject)
 
 +++userCalendar
 
-**속성**
+**특성**
 강의\
 courseType\
 dateStart\
@@ -787,7 +787,7 @@ course(learningObject)
 
 +++userNotification
 
-**속성**
+**특성**
 actionTaken\
 채널\
 dateCreated\
@@ -803,7 +803,7 @@ modelType\
 
 +++userSkill
 
-**속성**
+**특성**
 dateAchieved\
 dateCreated\
 ID\
@@ -825,13 +825,13 @@ user(user)
 
 ## 클라이언트 ID 및 시크릿 생성 {#createclientidandsecret}
 
-1. 위치 **통합 책임자** 로그인, 클릭 **[!UICONTROL 응용 프로그램]** 왼쪽 창에.
+1. **통합 관리자** 로그인에서 왼쪽 창의 **[!UICONTROL 응용 프로그램]**&#x200B;을 클릭합니다.
 
    ![](assets/application-development-menu.png)
 
-   *통합 책임자에서 응용 프로그램 선택*
+   *통합 관리자에서 응용 프로그램 선택*
 
-1. 다음을 수행합니다. **[!UICONTROL 등록]** 응용 프로그램 세부 정보를 등록하려면 페이지 오른쪽 상단 모서리에 있습니다. 등록 페이지가 나타납니다.
+1. 응용 프로그램 세부 정보를 등록하려면 페이지 오른쪽 상단 모서리에 있는 **[!UICONTROL 등록]**&#x200B;을 클릭하십시오. 등록 페이지가 나타납니다.
 
    ![](assets/register-application.png)
 
@@ -843,17 +843,17 @@ user(user)
 
    **URL**: 응용 프로그램을 호스팅한 정확한 URL을 알고 있다면 입력합니다. 모르는 경우 회사 URL을 입력합니다. 유효한 URL 이름은 이 필드의 필수입니다.
 
-   **리디렉션 도메인**: OAuth 인증 후 Learning Manager 응용 프로그램을 리디렉션할 응용 프로그램의 도메인 이름을 입력합니다. 여러 URL을 입력할 수 있지만 다음과 같은 유효한 URL을 사용해야 합니다. `http://google.com`, `http://yahoo.com` 등.
+   **리디렉션 도메인**: OAuth 인증 후 Learning Manager 응용 프로그램을 리디렉션할 응용 프로그램의 도메인 이름을 입력합니다. 여러 URL을 입력할 수 있지만 `http://google.com`, `http://yahoo.com` 등의 유효한 URL을 사용해야 합니다.
 
    **설명:** 응용 프로그램에 대한 간략한 설명을 입력합니다.
 
-   **범위:** 4개의 사용 가능한 옵션 중 응용 프로그램의 범위를 정의할 옵션을 한 개 선택합니다. 여기에 입력된 선택을 바탕으로 귀하의 응용 프로그램에서 액세스할 수 있는 Learning Manager API가 결정됩니다. 예를 들어, **학습자 역할 읽기 액세스**&#x200B;그런 다음 귀하의 응용 프로그램에서는 모든 Learning Manager 학습자 API 엔드 포인트에 읽기 전용으로만 액세스할 수 있습니다.
+   **범위:** 사용 가능한 네 가지 옵션 중 하나를 선택하여 응용 프로그램의 범위를 정의합니다. 여기에 입력된 선택을 바탕으로 귀하의 응용 프로그램에서 액세스할 수 있는 Learning Manager API가 결정됩니다. 예를 들어 **학습자 역할 및 읽기 액세스**&#x200B;를 선택한 경우 귀하의 응용 프로그램에서는 모든 Learning Manager 학습자 API 엔드 포인트에 읽기 전용으로만 액세스할 수 있습니다.
 
    **이 계정에만 해당합니까?**\
-   **예** - &#39;예&#39;를 선택하면 다른 계정 책임자는 응용 프로그램을 볼 수 없습니다.\
-   **아니요** - &#39;아니요&#39;를 선택하는 경우, 다른 계정 책임자가 응용 프로그램 ID를 사용하여 이 응용 프로그램에 액세스할 수 있습니다. 응용 프로그램 ID는 Learning Manager 응용 프로그램 편집 모드에서 생성 및 표시됩니다.
+   **예** - [예]를 선택하면 응용 프로그램이 다른 계정 관리자에게 표시되지 않습니다.\
+   **아니요** - [아니요]를 선택하면 다른 계정 책임자도 이 응용 프로그램에 액세스할 수 있지만 이 응용 프로그램에 액세스하려면 응용 프로그램 ID를 사용해야 합니다. 응용 프로그램 ID는 Learning Manager 응용 프로그램 편집 모드에서 생성 및 표시됩니다.
 
-   다음을 선택할 경우 **관리자 역할 읽기 및 쓰기 액세스** 응용 프로그램을 등록하는 동안 범위를 지정하고 **관리자 역할 읽기 액세스** api를 작성하는 동안 앱 등록 범위가 인증 작업 과정을 대체하기 때문에 응용 프로그램에 대한 쓰기 액세스 권한을 가질 수 있습니다.
+   응용 프로그램을 등록할 때 범위를 **관리자 역할 읽기 및 쓰기 액세스**&#x200B;로 선택하고 API를 작성할 때 **관리자 역할 읽기 액세스**&#x200B;를 선택하면, 앱 등록 범위가 인증 작업 과정을 대체하기 때문에 응용 프로그램에 대한 쓰기 액세스 권한을 가질 수 있습니다.
 
 1. 등록 페이지에 세부 정보를 채운 뒤 오른쪽 상단 모서리의 **[!UICONTROL &#39;등록&#39;]**&#x200B;을 클릭합니다.
 
@@ -867,7 +867,7 @@ Learning Manager 책임자 또는 제작 계정의 통합 책임자가 조직 �
 
 ## 외부 응용 프로그램 승인 {#externalapplicationapproval}
 
-다음을 눌러 외부 응용 프로그램을 추가할 수 있습니다. **승인** 의 오른쪽 상단 **응용 프로그램** 페이지. 외부 응용 프로그램 ID를 입력한 다음 **&#39;저장&#39;**&#x200B;을 클릭합니다.
+**응용 프로그램** 페이지의 오른쪽 상단 모서리에 있는 **승인**&#x200B;을 클릭하여 외부 응용 프로그램을 추가할 수 있습니다. 외부 응용 프로그램 ID를 입력한 다음 **&#39;저장&#39;**&#x200B;을 클릭합니다.
 
 ![](assets/add-external-application.png)
 

@@ -36,7 +36,7 @@ Adobe Learning Manager의 이번 릴리스에서는 학습자가 하나 이상�
 
 ### 다중 등록 인스턴스에서의 배지 형식
 
-다중 등록 인스턴스에서 배지를 지원하기 위해 배지 형식을 다음으로 변경합니다. `userId_badgeId_COURSE_courseId_courseInstanceId`.
+다중 등록 인스턴스에서 배지를 지원하기 위해 배지 형식이 `userId_badgeId_COURSE_courseId_courseInstanceId`(으)로 변경되었습니다.
 
 ### 헤드리스 모드를 사용하여 다중 등록에서 플레이어 실행
 
@@ -56,7 +56,7 @@ argument_object=
 
 이번 Adobe Learning Manager 릴리스에는 AWS Transfer 제품군의 SFTP 프로토콜을 사용하는 새 커넥터가 포함됩니다.
 
-이러한 변경 사항은 ExaVault 커넥터를 대체하는 것으로 신규 사용자는 더 이상 ExaVault 커넥터를 사용할 수 없습니다. 오픈 소스 FTP 클라이언트를 사용하여 ExaVault를 대체할 수 있습니다. 자세한 내용은 다음을 참조하세요. [Adobe FTP 관리자에서 전환](transition-from-ftp-manager.md).
+이러한 변경 사항은 ExaVault 커넥터를 대체하는 것으로 신규 사용자는 더 이상 ExaVault 커넥터를 사용할 수 없습니다. 오픈 소스 FTP 클라이언트를 사용하여 ExaVault를 대체할 수 있습니다. 자세한 내용은 [Adobe FTP 관리자에서 전환](transition-from-ftp-manager.md)을 참조하세요.
 
 ## 강의실 및 가상 세션에 대한 Outlook 미리 알림
 
@@ -106,7 +106,7 @@ Learning Manager의 전자 메일 템플릿에는 완전히 편집 가능한 섹
 
 책임자는 계정 수준에서 &#39;중단된&#39; 학습 개체에 대한 액세스 특성을 결정할 수도 있습니다.
 
-교육 보고서에는 새 열이 포함됩니다. **자동 처분 날짜**&#x200B;을 눌러 각 학습 객체의 종료 날짜를 표시합니다(설정된 경우).
+교육 보고서에는 각 학습 개체(설정된 경우)의 종료 날짜를 표시하는 새 열 **자동 종료 날짜**&#x200B;가 포함됩니다.
 
 ## 작성자별 카탈로그 레이블 값
 
@@ -134,7 +134,7 @@ Learning Manager의 전자 메일 템플릿에는 완전히 편집 가능한 섹
 
 학습자는 오프라인 모드에서 콘텐츠를 다운로드하고 사용할 수 있습니다. 중첩되고 유연한 학습 경로는 오프라인 보기에서 지원되지 않습니다.
 
-*이번 릴리스에서는 영어 콘텐츠에 대해서만 오프라인 콘텐츠 보기가 지원됩니다.*
+*이 릴리스에서는 영어 콘텐츠에 대해서만 오프라인 콘텐츠 보기가 지원됩니다.*
 
 ## 접근성
 
@@ -148,7 +148,7 @@ Learning Manager의 전자 메일 템플릿에는 완전히 편집 가능한 섹
 
 LinkedIn 콘텐츠가 Safari 브라우저의 몰입형 앱에서 예상대로 로드되지 않습니다. 해결 방법은 다음과 같습니다.
 
-1. 장치에서 **[!UICONTROL 설정]** > **[!UICONTROL Safari]**.
+1. 장치에서 **[!UICONTROL 설정]** > **[!UICONTROL Safari]**&#x200B;를 선택합니다.
 1. **사이트 간 추적 방지**&#x200B;를 사용 안 함으로 설정합니다.
 1. **모든 쿠키 차단**&#x200B;을 사용 안 함으로 설정합니다.
 1. 몰입형 앱에 로그인합니다.
@@ -175,7 +175,7 @@ API 변경 사항에 대한 자세한 내용은 [Adobe Learning Manager API 참�
 
 ### 새로운 권장 사항에 대한 API 지원
 
-**GET /account**
+**GET /계정**
 
 prlRecommendation이 활성화된 경우 반환됩니다.
 
@@ -207,7 +207,7 @@ prlRecommendation이 활성화된 경우 반환됩니다.
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=level&filter.showAllRecommendationCriteria=false`
 
-**POST /search/query**
+**POST/검색/쿼리**
 
 검색에는 쿼리의 제품 및 역할 매개변수도 포함됩니다. 쿼리와 본문은 변경되지 않습니다. 새 정렬 옵션을 추가합니다.
 
@@ -215,7 +215,7 @@ prlRecommendation이 활성화된 경우 반환됩니다.
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/search/query?...`
 
-**GET /learningObjects**
+**GET /학습 개체**
 
 PRL 추천이 실시간인 경우 학습 개체 모델은 작성자 태그가 지정된 추천을 반환합니다.
 
@@ -449,11 +449,11 @@ prl 추천을 표시하는 데 사용할 모든 스트립을 검색합니다
 * instanceSwitchEnabled
 * multiEnrollmentEnabled
 
-**GET /users/{userId}/userNotification**
+**GET /users/{userId}/userNotifications**
 
 새 메타데이터 속성의 알림에 강의 인스턴스 ID가 추가되었습니다.
 
-**GET /learningObjects**
+**GET /학습 개체**
 
 등록 관계는 1차 등록, 즉 최초 등록 또는 최초 완료만 표시합니다.
 
@@ -509,7 +509,7 @@ prl 추천을 표시하는 데 사용할 모든 스트립을 검색합니다
 
 특정 인스턴스(loResource ID의 일부)에 대해 지정된 모듈의 특정 노트를 업데이트합니다.
 
-**관리자 API 변경 사항**
+**관리자 API 변경 내용**
 
 * GET /users/{id}/enrollments
 * POST /users/{id}/등록
@@ -565,15 +565,15 @@ For example,
 * 학습자 API에 대한 재정의 플래그.
 * highlightResults=false의 기본값이 변경될 예정입니다. 또한 snippetType=courseName의 기본값을 변경하겠습니다.
 * 검색 끝점에서 matchType=bool이 더 이상 사용되지 않습니다.
-* autoCompleteMode는 [사용되지 않음] 태그를 지정하고 autoCompleteMode =false와 동일한 기능을 제공하기 위해 Match라는 matchType이 추가되었습니다.
+* autoCompleteMode에는 [사용되지 않음] 태그가 있으며 autoCompleteMode =false와 동일한 기능을 제공하기 위해 Match라는 matchType이 추가되었습니다.
 
 ### 다중 등록이 있는 배지 ID 형식
 
-다중 등록 인스턴스 배지를 지원하기 위해 강의 배지 형식을 `userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId` 배지를 고유하게 식별합니다.
+다중 등록 인스턴스 배지를 지원하기 위해 과정 배지의 형식을 `userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId`에서 변경하여 배지를 고유하게 식별합니다.
 
 ## 릴리스 정보
 
-현재 및 이전 릴리스의 Learning Manager 웹 앱 및 장치 앱과 관련된 정보는 [릴리스 정보](/help/migrated/release-note/release-notes.md).
+현재 및 이전 릴리스의 Learning Manager 웹 앱 및 장치 앱과 관련된 정보는 [릴리스 정보](/help/migrated/release-note/release-notes.md)를 참조하십시오.
 
 ## 이 릴리스의 알려진 문제 또는 제한 사항
 

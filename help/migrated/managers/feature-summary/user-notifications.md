@@ -3,14 +3,13 @@ description: 관리자를 위한 사용자 알림 설정.
 jcr-language: en_us
 title: 사용자 알림
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 0ed6aea9-9dd4-465a-8723-56d600a35236
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 80%
 
 ---
-
-
 
 # 사용자 알림
 
@@ -30,7 +29,7 @@ ht-degree: 80%
 
 이 팝업 창은 스크롤 바로 모든 알림 중 중요 알림과 발생 시점을 표시합니다. 모든 알림에 대한 자세한 내용을 보려면 팝업 창의 하단에 있는 모든 알림 표시 를 클릭합니다. 알림 페이지가 나타납니다.
 
-관리자는 알림 페이지의 탭 형식에서 보류 중인 작업 및 알림을 볼 수 있습니다. 보류 중인 과제는 승인, 지정 등을 기준으로 구분됩니다. 모든 알림을 보려면 **[!UICONTROL 모든 알림]** 탭. 모든 알림 탭에서 알림은 날짜 및 시간순으로 나열됩니다.
+관리자는 알림 페이지의 탭 형식에서 보류 중인 작업 및 알림을 볼 수 있습니다. 보류 중인 과제는 승인, 지정 등을 기준으로 구분됩니다. 모든 알림을 보려면 **[!UICONTROL 모든 알림]** 탭을 클릭하세요. 모든 알림 탭에서 알림은 날짜 및 시간순으로 나열됩니다.
 
 ![](assets/manager-notifications-page.png)
 

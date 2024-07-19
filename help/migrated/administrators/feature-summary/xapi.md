@@ -19,7 +19,7 @@ ht-degree: 48%
 
 경험 API(xAPI)란 모든 유형의 학습 경험을 기록 및 추적하는 방식으로 학습 콘텐트 및 학습 시스템이 소통할 수 있는 e러닝 소프트웨어 사양입니다. 학습 경험은 LRS(학습 기록 저장소)에 기록됩니다. LRS는 LMS(기존 학습 관리 시스템) 내에 존재하거나 자체적으로 존재할 수 있습니다.
 
-xAPI에 대한 자세한 내용은 다음을 참조하십시오. [xAPIc 사양](https://github.com/adlnet/xAPI-Spec).
+xAPI에 대한 자세한 내용은 [xAPIc 사양](https://github.com/adlnet/xAPI-Spec)을 참조하세요.
 
 ## Learning Manager가 xAPI를 지원하는 방법은 무엇입니까? {#howdoeslearningmanagersupportxapi}
 
@@ -75,7 +75,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 이제 작성자는 강의 생성 시 xAPI 모듈을 선택하여 Learning Manager 외부의 사용자 경험을 모니터링할 수 있습니다. 예를 들어 이 기능을 사용하여 강의 수료에 사용된 타사 플랫폼의 사용자 활동을 평가할 수 있습니다.
 
-1. 이미지를 만드는 동안 **[!UICONTROL 활동 모듈]**, **[!UICONTROL 유형]**option, 팝업 메뉴를 사용하여  **[!UICONTROL xAPI 기반 모듈.]**
+1. **[!UICONTROL 활동 모듈]**&#x200B;을 만드는 동안 **[!UICONTROL 유형]**옵션에서 팝업 메뉴를 사용하여 **[!UICONTROL xAPI 기반 모듈]**&#x200B;을 선택합니다.
 
    ![](assets/xapimodulecreation.png)
 
@@ -97,7 +97,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 **참고 사항:**
 
-* Learning Manager는 현재 mbox만 식별자로 지원합니다. mboz_sha1, openid , 계정을 포함한 다른 식별자는 지원되지 않습니다.
+* Learning Manager는 현재 다음 항목만 지원합니다   mbox를 식별자로 사용합니다. mboz_sha1, openid , 계정을 포함한 다른 식별자는 지원되지 않습니다.
 
 * stateId 및 profileId는 Learning Manager와 함께 사용되는 UUID입니다.
 * PUT 요청은 xAPI 에이전트/프로필, 활동/프로필 및 활동/상태에 대한 문서를 덮어쓰지 않습니다.
@@ -114,7 +114,7 @@ xAPI 보고서는 excel 보고서로 생성할 수 있습니다. 책임자로 **
 
 타사 통합을 위해 FTP 및 Box 커넥터를 사용하여 동일한 보고서를 생성/예약할 수 있습니다. 다음 단계를 따르십시오.
 
-(으)로 로그인 **통합 책임자 > FTP/Box 커넥터 열기 > xAPI 활동 보고서 선택** 왼쪽 패널에서 보고서를 예약/생성하도록 선택합니다.
+왼쪽 패널에서 **통합 책임자 > FTP/Box 커넥터 열기 > xAPI 활동 보고서 선택**(으)로 로그인합니다. 보고서를 예약/생성하도록 선택합니다.
 
 ![](assets/xapischedule.png)
 

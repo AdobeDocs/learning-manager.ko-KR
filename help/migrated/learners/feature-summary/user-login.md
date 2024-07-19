@@ -3,14 +3,13 @@ description: Learning Manager에 학습자로 로그인합니다.
 jcr-language: en_us
 title: 로그인
 contentowner: manochan
-source-git-commit: b6ee04d062bf6df477a1e8782cfec8fa3700d744
+exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 58%
 
 ---
-
-
 
 # 로그인
 

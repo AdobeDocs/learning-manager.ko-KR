@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 배지를 할당할 수 없음
 description: 학습자가 강의/학습 프로그램/인증을 완료한 후에도 배지가 수여되지 않습니다.
 contentowner: nluke
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: 6dbcd687-82e3-422f-8c8c-f7bf404f3332
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 74%
 
 ---
-
-
 
 # 배지를 할당할 수 없음
 
@@ -40,15 +39,15 @@ ht-degree: 74%
 
 1. 관련 학습 개체를 엽니다(강의/학습 프로그램)
 
-1. 다음을 수행합니다. **[!UICONTROL 인스턴스]** > **[!UICONTROL 배지]**.
+1. **[!UICONTROL 인스턴스]** > **[!UICONTROL 배지]**&#x200B;를 클릭합니다.
 
    ![](assets/view-a-badge.png)
 
-1. 학습 개체에서 배지를 제거하고 **[!UICONTROL 저장]**.
+1. 학습 개체에서 배지를 제거하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    ![](assets/remove-a-badge.png)
 
-1. 학습 개체에 배지를 재할당하고 **[!UICONTROL 저장]**.
+1. 학습 개체에 배지를 다시 할당하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    그러면 학습 개체에 등록된 모든 학습자에게 배지가 할당됩니다.
 
@@ -56,9 +55,9 @@ ht-degree: 74%
 
 1. 책임자로 로그인합니다.
 1. 인증을 엽니다.
-1. 다음을 수행합니다. **[!UICONTROL 개요]** > **[!UICONTROL 배지]**.
+1. **[!UICONTROL 개요]** > **[!UICONTROL 배지]**&#x200B;를 클릭합니다.
 1. 인증에서 배지를 제거하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    ![](assets/remove-a-badge-cert.png)
 
-1. 인증에 배지를 재할당하고 **[!UICONTROL 저장]**.
+1. 인증에 배지를 다시 할당하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.

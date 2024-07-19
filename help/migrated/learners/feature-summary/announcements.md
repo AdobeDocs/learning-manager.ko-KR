@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: 공지
 description: 책임자가 정의한 사용자 그룹에 멀티미디어 메시지(텍스트, 이미지 또는 비디오)로 공지사항을 보낼 수 있습니다.
-source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
+exl-id: 303cba0e-d654-41a6-87b4-a28bfc91d8c8
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 61%
 
 ---
-
-
 
 # 공지
 
@@ -23,7 +22,7 @@ ht-degree: 61%
 
 ![](assets/pending-announcements.png)
 
-*보류 중인 공지 알림*
+*보류 중인 알림*
 
 &#39;보기&#39;를 클릭하면 공지 목록을 볼 수 있습니다. 샘플 공지 목록은 다음과 같습니다.
 
@@ -37,5 +36,4 @@ ht-degree: 61%
 
 ![](assets/announcement-details.png)
 
-*공지에 대한 세부 정보 보기*
-
+*공지 세부 정보 보기*

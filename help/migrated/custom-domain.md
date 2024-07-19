@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 사용자 정의 도메인 지원
 description: 사용자 정의 도메인은 Learning Manager의 Azure 인스턴스에서 지원되지 않습니다.
 contentowner: saghosh
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 67%
 
 ---
-
-
 
 # 사용자 정의 도메인 지원
 
@@ -22,7 +21,7 @@ ht-degree: 67%
 
 이렇게 하면 고객은 로그인 및 액세스 환경을 화이트 레이블링할 수 있어 사용자는 Adobe 또는 Adobe Learning Manager의 존재를 보지 못합니다.
 
-예를 들어, 사용자가 Adobe 도메인에 있는 것과 동일한 환경을 얻을 수 있도록 도메인을 사용자 정의하려는 경우. 만약 ABC사가 그들의 고객들을 교육시키기를 원한다면, 그것은 그들이 라는 지역에 착륙하기를 원한다 `abc.com/mylearning`, 대신 `learningmanager.adobe.com/abc-inc/mylearning`.
+예를 들어, 사용자가 Adobe 도메인에 있는 것과 동일한 환경을 얻을 수 있도록 도메인을 사용자 정의하려는 경우. ABC Inc에서 고객을 교육하려면 `learningmanager.adobe.com/abc-inc/mylearning`이(가) 아닌 `abc.com/mylearning`이라는 도메인에 로그인해야 합니다.
 
 >[!NOTE]
 >
@@ -31,10 +30,10 @@ ht-degree: 67%
 
 사용자 정의 도메인 기능은 추가 비용으로 사용할 수 있습니다. 자세한 내용은 고객 성공 관리자에게 문의하십시오.
 
-* 학습자 역할의 경우 도메인이 다음으로 시작합니다. `https://cdn.<customer_custom_domain>/` 예를 들면 다음과 같습니다. `https://cdn.elearningstage1.cpdomaintest.in/`
-* 다른 모든 역할의 경우 도메인은으로 시작합니다. `https://<customer_custom_domain>/`. For example, `https://elearningstage1.cpdomaintest.in/`
+* 학습자 역할의 경우 도메인이 `https://cdn.<customer_custom_domain>/`(예: `https://cdn.elearningstage1.cpdomaintest.in/`)으로 시작합니다.
+* 다른 모든 역할의 경우 도메인이 `https://<customer_custom_domain>/`(으)로 시작합니다. For example, `https://elearningstage1.cpdomaintest.in/`
 
-`<customer_custom_domain>` 은 사용자 정의 가능한 부품입니다.
+`<customer_custom_domain>`은(는) 사용자 지정 가능한 부분입니다.
 
 ## 계정에서 사용자 정의 도메인을 설정하는 방법 {#howtosetupacustomdomainonanaccount}
 
@@ -46,7 +45,7 @@ ht-degree: 67%
 
 1. 고객은 도메인에 **세 개의 CNAME 레코드를 추가**&#x200B;해야 합니다.
 
-   * **learning.acme.com:** Adobe이 공유한 Learning Manager의 ALB 공용 엔드 포인트
+   * **learning.acme.com:** Adobe이 공유하는 Learning Manager의 ALB 공용 엔드 포인트
    * **lrs.learning.acme.com:** learning.acme.com에서 가리키는 ALB 공용 끝점
    * **cdn.learning.acme.com:** Adobe이 공유하는 CDN 끝점
 

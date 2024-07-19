@@ -62,7 +62,7 @@ Salesforce 조직 URL이 있는지 확인하십시오. 예를 들어, 내가 속
 
    ![](assets/mouserover-salesforce.png)
 
-1. Org-url을 입력하라는 대화 상자가 나타납니다. 다음을 수행합니다. **[!UICONTROL Connect]** 를 클릭합니다.
+1. Org-url을 입력하라는 대화 상자가 나타납니다. URL을 제공한 후 **[!UICONTROL 연결]**&#x200B;을 클릭하세요.
 1. 연결이 되면 개요 페이지가 나타납니다.
 
 ## 맵 속성 {#mapattributes}
@@ -73,9 +73,9 @@ Salesforce 조직 URL이 있는지 확인하십시오. 예를 들어, 내가 속
 
    ![](assets/sfdc-map-columns.png)
 
-   왼쪽에 표시된 Learning Manager의 열 데이터를 활성 필드에서 가져옵니다. 대상 **관리자** 필드는 반드시 이메일 주소 유형의 필드에 매핑되어야 합니다. 커넥터를 사용하기 전에 모든 열을 매핑하는 것은 필수입니다.
+   왼쪽에 표시된 Learning Manager의 열 데이터를 활성 필드에서 가져옵니다. **관리자** 필드는 반드시 전자 메일 주소 유형의 필드에 매핑되어야 합니다. 커넥터를 사용하기 전에 모든 열을 매핑하는 것은 필수입니다.
 
-1. 다음을 수행합니다. **[!UICONTROL 저장]** 매핑을 완료한 후
+1. 매핑을 완료한 후 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 커넥터를 사용할 준비가 되었습니다. 현재 구성된 계정은 책임자의 가져오기 예약 또는 주문형 동기화를 위해 책임자 앱 내에서 데이터 소스로 나타납니다.
 
 ## Salesforce 커넥터 사용 {#usingsalesforceconnector}
@@ -114,7 +114,7 @@ Learning Manager를 FTP 커넥터와 통합하는 프로세스에 대해 학습�
 
    ![](assets/mouseover-ftpconnector.png)
 
-1. 이메일 아이디를 입력하라는 대화 상자가 나타납니다. 조직의 Learning Manager FTP 계정을 관리하는 담당자의 이메일 아이디를 입력합니다. 다음을 수행합니다. **[!UICONTROL Connect]** 이메일 id를 입력한 후
+1. 이메일 아이디를 입력하라는 대화 상자가 나타납니다. 조직의 Learning Manager FTP 계정을 관리하는 담당자의 이메일 아이디를 입력합니다. 전자 메일 ID를 입력한 후 **[!UICONTROL 연결]**&#x200B;을 클릭하세요.
 1. Learning Manager에서 사용자에게 FTP 첫 액세스 전에 암호를 재설정하라는 이메일을 전송합니다. 사용자는 Learning Manager FTP 계정에 액세스하기 위해 암호를 재설정해야 합니다.
 
    지정된 Learning Manager 계정에 대해 하나의 Learning Manager FTP 계정만 생성할 수 있습니다.
@@ -139,12 +139,12 @@ Learning Manager를 FTP 커넥터와 통합하는 프로세스에 대해 학습�
 
 한 번 연결이 되면 FTP 폴더에 배치할 CSV 파일의 열을 Learning Manager의 해당 속성에 매핑할 수 있습니다. 이 과정은 꼭 필요합니다.
 
-1. 맵 속성 페이지의 왼쪽에는 Learning Manager의 예상 열을 볼 수 있으며, 오른쪽에는 CSV 파일의 열 이름이 표시됩니다. 처음에 오른쪽에는 빈 선택 상자가 표시됩니다. 을 클릭하여 원하는 CSV 템플릿을 가져옵니다. **파일 선택**.
+1. 맵 속성 페이지의 왼쪽에는 Learning Manager의 예상 열을 볼 수 있으며, 오른쪽에는 CSV 파일의 열 이름이 표시됩니다. 처음에 오른쪽에는 빈 선택 상자가 표시됩니다. **파일 선택**&#x200B;을 클릭하여 CSV 템플릿을 가져옵니다.
 1. 위의 단계에서는 모든 CSV 열 이름으로 오른쪽 선택 드롭다운 목록을 채웁니다. Learning Manager의 열 이름에 매핑할 적절한 열 이름을 선택합니다.
 
-   *관리자 필드는 반드시 이메일 주소 유형의 필드에 매핑되어야 합니다. 커넥터를 사용하기 전에 모든 열을 매핑하는 것은 필수입니다.*
+   *관리자 필드는 반드시 전자 메일 주소 유형의 필드에 매핑되어야 합니다. 커넥터를 사용하기 전에 모든 열을 매핑하는 것은 필수입니다.*
 
-1. 다음을 수행합니다. **[!UICONTROL 저장]** 매핑을 완료한 후
+1. 매핑을 완료한 후 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    커넥터를 사용할 준비가 되었습니다. 구성된 계정은 이제 책임자의 가져오기 예약 또는 주문형 동기화를 위해 책임자 앱 내에서 데이터 소스로 나타납니다.
 
@@ -166,7 +166,7 @@ Learning Manager를 FTP 커넥터와 통합하는 프로세스에 대해 학습�
 1. 모든 CSV에는 매핑에 지정된 열이 포함되어야 합니다.
 1. 프로세스를 시작하기 전에 필요한 모든 CSV가 폴더에 있어야 합니다.
 
-사용자를 Learning Manager로 가져오는 동안 책임자는 사용자가 Learning Manager에서 어떻게 관리되는지 알아야 합니다. 자세한 내용은 [사용자 관리 도움말](../integration-admin/feature-summary/migration-manual.md#usermanagement) 를 참조하십시오.
+사용자를 Learning Manager로 가져오는 동안 책임자는 사용자가 Learning Manager에서 어떻게 관리되는지 알아야 합니다. 자세한 내용은 [사용자 관리 도움말](../integration-admin/feature-summary/migration-manual.md#usermanagement)을 참조하십시오.
 
 +++
 
@@ -176,7 +176,7 @@ Learning Manager를 FTP 커넥터와 통합하는 프로세스에 대해 학습�
 
 사용자 스킬 보고서를 내보낼 수 있는 방법은 두 가지가 있습니다.
 
-**[!UICONTROL 사용자 스킬 - 주문형]**: 이 옵션을 사용하여 시작 날짜를 지정하고 보고서를 내보낼 수 있습니다. 보고서는 입력된 날짜로부터 현재 날짜까지 추출됩니다.
+**[!UICONTROL 사용자 스킬 - 온디맨드]**: 이 옵션을 사용하여 시작 날짜를 지정하고 보고서를 내보낼 수 있습니다. 보고서는 입력한 날짜로부터 현재 날짜까지 추출됩니다.
 
 ![](assets/user-skills-on-demand.png)
 
@@ -190,9 +190,9 @@ FTP 위치에서 내보낸 파일이 있는 내보내기 폴더를 열기 위해
 
 ![](assets/ftp-folder.png)
 
-자동으로 내보낸 파일은 해당 위치에 표시됩니다 **Home/export/&#42;FTP_location&#42;**
+자동으로 내보낸 파일은 **Home/export/&#42;FTP_location&#42;** 위치에 있습니다.
 
-자동으로 내보낸 파일은 제목과 함께 사용할 수 있습니다. **skill_achievements_&#42;일자: 부터&#x200B;&#42;_받는 사람_&#42;종료 날짜&#42;.csv**
+자동으로 내보낸 파일은 **skill_achievements_&#42;날짜:&#42;_부터_&#42;날짜:&#42;.csv**&#x200B;까지 사용할 수 있습니다.
 
 ![](assets/exported-csvs.png)
 
@@ -352,7 +352,7 @@ Harvard ManageMentor 커넥터는 학습자가 Harvard ManageMentor 강의를 �
    client_hmm12_20150125.xlsx: Harvard ManageMentor 커넥터의 사용자 피드입니다. 파일 이름 형식은 **client_hmm12_yyyyMMdd.xlsx**&#x200B;입니다.
 
    이 커넥터에 대한 다음 두 가지 샘플 사용자 피드 및 과정 피드 파일을 참조합니다.
-   [Harvard ManageMentor 커넥터의 과정 메타데이터 파일입니다.](assets/hmm12-metadata.xlsx) [Harvard ManageMentor 커넥터의 사용자 피드](assets/client-hmm12-20170304.xlsx)
+   [Harvard ManageMentor 커넥터의 과정 메타데이터 파일](assets/hmm12-metadata.xlsx) [Harvard ManageMentor 커넥터의 사용자 피드](assets/client-hmm12-20170304.xlsx)
 
 ## Workday 커넥터 {#workdayconnector}
 
@@ -528,11 +528,11 @@ Learning Manager와 miniOrange 테넌트를 통합하는 miniOrange 커넥터를
 
 Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적용할 수 있습니다. 예를 들면, Learning Manager 책임자는 하나 이상의 특정 관리자 아래에 있는 모든 등급의 사용자를 가져올 수 있습니다.
 
-miniOrange 커넥터를 설정하려면 Learning Manager CSM 팀에 문의하십시오.
+설정하려면   미니오렌지   Learning Manager CSM 팀으로 문의해 주십시오.
 
 ## miniOrange 커넥터 구성 {#configureminiorangeconnector}
 
-1. Learning Manager 홈 페이지에서 miniOrange 카드/썸네일 위로 마우스를 가져갑니다. 그러면 메뉴가 나타납니다. 다음을 수행합니다.  **[!UICONTROL Connect]** 메뉴에 있습니다.
+1. Learning Manager 홈 페이지에서 miniOrange 카드/썸네일 위로 마우스를 가져갑니다. 그러면 메뉴가 나타납니다. 메뉴에서 **[!UICONTROL 연결]** 옵션을 클릭합니다.
 
    ![](assets/miniorange-tile.png)
 
@@ -540,17 +540,17 @@ miniOrange 커넥터를 설정하려면 Learning Manager CSM 팀에 문의하십
 
    ![](assets/establish-connection.png)
 
-1. MiniOrange 사용자를 Learning Manager 내부 사용자로 직접 가져오려면 **[!UICONTROL 내부 사용자 가져오기]** 선택 사항입니다.
+1. miniOrange 사용자를 Learning Manager 내부 사용자로 직접 가져오려면 **[!UICONTROL 내부 사용자 가져오기]** 옵션을 사용합니다.
 
    ![](assets/import-users.png)
 
-1. 매핑 페이지의 왼쪽에는 Learning Manager의 열이 표시되고 오른쪽에는 미니 조직 열이 표시됩니다. Learning Manager의 열 이름에 매핑할 적절한 열 이름을 선택합니다.
+1. 매핑 페이지의 왼쪽   옆에는 Learning Manager 열이 표시되고 오른쪽에는   옆에는 miniOrnage 열이 있습니다. Learning Manager의 열 이름에 매핑할 적절한 열 이름을 선택합니다.
 
    ![](assets/map-attributes.png)
 
 1. 데이터 소스를 보고 편집하려면 책임자 권한으로 **[!UICONTROL 설정 > 데이터 소스]**&#x200B;를 클릭합니다.
 
-   설정된 miniOrange 소스가 나열됩니다. 필터 편집이 필요하다면 **[!UICONTROL 편집]**.
+   설정된 miniOrange 소스가 나열됩니다. 필터 편집이 필요한 경우 **[!UICONTROL 편집]**&#x200B;을 클릭하세요.
 
    ![](assets/data-source.png)
 
@@ -566,7 +566,7 @@ miniOrange 커넥터를 설정하려면 Learning Manager CSM 팀에 문의하십
 
 커넥터를 설정하고 사용하려면 다음 단계를 수행합니다.
 
-1. Learning Manager 홈 페이지에서 BlueJeans 카드/썸네일 위에 마우스를 놓습니다. 그러면 메뉴가 나타납니다. 다음을 수행합니다.  **[!UICONTROL Connect]** 메뉴에 있습니다.
+1. Learning Manager 홈 페이지에서 BlueJeans 카드/썸네일 위에 마우스를 놓습니다. 그러면 메뉴가 나타납니다. 메뉴에서 **[!UICONTROL 연결]** 옵션을 클릭합니다.
 
    ![](assets/miniorange.png)
 
@@ -639,11 +639,11 @@ Learning Manager를 Box 커넥터와 통합하는 프로세스에 대해 학습�
 
 한 번 연결이 되면 Box 폴더에 위치한 CSV 파일의 열을 Learning Manager의 해당 속성에 매핑할 수 있습니다. 이 과정은 꼭 필요합니다.
 
-1. 맵 속성 페이지의 왼쪽에는 Learning Manager의 예상 열을 볼 수 있으며, 오른쪽에는 CSV 파일의 열 이름이 표시됩니다. 처음에 오른쪽에는 빈 선택 상자가 표시됩니다. &#39;파일 선택&#39;을 클릭하여 CSV 템플릿을 가져옵니다.
+1. 맵 속성 페이지의 왼쪽에서   옆에는 Learning Manager의 예상 열이 표시되고 오른쪽에는   옆에는 CSV 열 이름이 표시됩니다. 처음에 오른쪽에는 빈 선택 상자가 표시됩니다. &#39;파일 선택&#39;을 클릭하여 CSV 템플릿을 가져옵니다.
 
 1. 위의 단계에서는 모든 CSV 열 이름으로 오른쪽 선택 드롭다운 목록을 채웁니다. Learning Manager의 열 이름에 매핑할 적절한 열 이름을 선택합니다.
 
-   *관리자 필드는 반드시 이메일 주소 유형의 필드에 매핑되어야 합니다. 커넥터를 사용하기 전에 모든 열을 매핑하는 것은 필수입니다.*
+   *관리자 필드는 반드시 전자 메일 주소 유형의 필드에 매핑되어야 합니다. 커넥터를 사용하기 전에 모든 열을 매핑하는 것은 필수입니다.*
 
 1. 매핑을 완료한 후 저장 을 클릭합니다.
 
@@ -664,7 +664,7 @@ Learning Manager를 Box 커넥터와 통합하는 프로세스에 대해 학습�
 1. 모든 CSV에는 매핑에 지정된 열이 포함되어야 합니다.
 1. 프로세스를 시작하기 전에 필요한 모든 CSV가 폴더에 있어야 합니다.
 
-사용자를 Learning Manager로 가져오는 동안 책임자는 사용자가 Learning Manager에서 어떻게 관리되는지 알아야 합니다. 자세한 내용은 [사용자 관리 도움말](../integration-admin/feature-summary/migration-manual.md#usermanagement) 를 참조하십시오.
+사용자를 Learning Manager로 가져오는 동안 책임자는 사용자가 Learning Manager에서 어떻게 관리되는지 알아야 합니다. 자세한 내용은 [사용자 관리 도움말](../integration-admin/feature-summary/migration-manual.md#usermanagement)을 참조하십시오.
 
 +++
 
@@ -682,9 +682,9 @@ Learning Manager를 Box 커넥터와 통합하는 프로세스에 대해 학습�
 
 Box 위치에서 내보낸 파일이 있는 내보내기 폴더를 열기 위해서는 아래 보이는 사용자 스킬 페이지에 제공된 Box 폴더에 대한 링크를 열어야 합니다.
 
-자동으로 내보낸 파일은 해당 위치에 표시됩니다 **Home/export/&#42;Box_location&#42;**
+자동으로 내보낸 파일은 **Home/export/&#42;Box_location&#42;** 위치에 있습니다.
 
-자동으로 내보낸 파일은 제목과 함께 사용할 수 있습니다. **skill_achievements_&#42;일자: 부터&#x200B;&#42;_받는 사람_&#42;종료 날짜&#42;.csv**
+자동으로 내보낸 파일은 **skill_achievements_&#42;날짜:&#42;_부터_&#42;날짜:&#42;.csv**&#x200B;까지 사용할 수 있습니다.
 
 Learning Manager 팀이 공유하는 Box 폴더의 액세스 권한 및 콘텐츠는 고객이 관리해야 합니다.  또한 폴더의 콘텐츠는 프랑크푸르트 지역에 물리적으로 저장됩니다.
 

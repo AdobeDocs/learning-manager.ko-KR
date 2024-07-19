@@ -3,14 +3,13 @@ description: 이 문서에서 학습자로 Learning Manager 스킬을 달성하�
 jcr-language: en_us
 title: 스킬 및 레벨
 contentowner: manochan
-source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
+exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 90%
 
 ---
-
-
 
 # 스킬 및 레벨
 

@@ -31,11 +31,11 @@ AEM 패키지 관리자를 사용하여 Learning Manager 콘텐츠 패키지 설
 
 >[!NOTE]
 >
->패키지 설치에 대한 자세한 내용은 다음을 참조하십시오  [***패키지를 사용하여 작업하는 방법***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
+>패키지 설치에 대한 자세한 내용은 [***패키지를 사용하여 작업하는 방법***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)을 참조하세요.
 
 1. AEM 작성자는 AEM 패키지 관리자를 엽니다.
 1. **[!UICONTROL 패키지 업로드]** 버튼을 클릭합니다.
-1. 다음을 수행합니다. **[!UICONTROL 찾아보기]** 콘텐츠 패키지를 업로드합니다.
+1. **[!UICONTROL 찾아보기]**&#x200B;를 클릭하고 콘텐츠 패키지를 업로드합니다.
 1. **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
 1. 패키지가 업로드되면 콘텐츠 패키지를 선택하고 **[!UICONTROL 설치]**&#x200B;를 클릭하여 콘텐츠 패키지를 설치합니다.
 
@@ -49,17 +49,17 @@ AEM 관리자에게는 Learning Manager 계정의 새로 고침 토큰이 필요
 
 1. AEM 사이트 추천 앱을 승인합니다.
 
-   다음을 수행합니다. **[!UICONTROL 응용 프로그램]** > **[!UICONTROL 추천 앱]** > **[!UICONTROL Adobe Experience Manager - 사이트]**.
+   **[!UICONTROL 응용 프로그램]** > **[!UICONTROL 추천 앱]** > **[!UICONTROL Adobe Experience Manager - 사이트]**&#x200B;를 클릭합니다.
 
    ![](assets/launch-aem.jpg)
 
    *앱 승인*
 
-1. 다음을 수행합니다. **[!UICONTROL 응용 프로그램]** > **[!UICONTROL 추천 앱]**&#x200B;을 입력한 다음 AEM 사이트 응용 프로그램을 엽니다.
+1. **[!UICONTROL 응용 프로그램]** > **[!UICONTROL 추천 앱]**&#x200B;을 클릭하고 AEM 사이트 응용 프로그램을 엽니다.
 
    응용 프로그램 ID 및 설명을 복사합니다.
 
-1. 다음을 수행합니다. **[!UICONTROL 개발자 리소스]** > **[!UICONTROL 액세스 토큰]**.
+1. **[!UICONTROL 개발자 리소스]** > **[!UICONTROL 액세스 토큰]**&#x200B;을 클릭합니다.
 
    ![](assets/click-tokens.jpg)
 
@@ -71,7 +71,7 @@ AEM 관리자에게는 Learning Manager 계정의 새로 고침 토큰이 필요
    * 설명에 있는 클라이언트 시크릿입니다.
 
 1. OAuth 코드를 가져옵니다. 리디렉션 URI에서는 v2 API를 사용해야 합니다.
-1. 다음을 수행합니다. **[!UICONTROL 제출]** 새로 고침 토큰을 가져옵니다.
+1. **[!UICONTROL 제출]**&#x200B;을 클릭하고 새로 고침 토큰을 받으세요.
 
 ## AEM에서 위젯 구성 {#configurethewidgetinaem}
 
@@ -79,7 +79,7 @@ AEM 관리자에게는 Learning Manager 계정의 새로 고침 토큰이 필요
 
 여러 페이지에서 여러 계정 구성을 설정할 수도 있습니다.
 
-1. 다음을 수행합니다. **[!UICONTROL 도구]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Learning Manager 위젯 구성]**.
+1. **[!UICONTROL 도구]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Learning Manager 위젯 구성]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL [만들기]]**&#x200B;를 클릭합니다.
 1. 여기에 새로 고침 토큰을 입력합니다. 다른 설정을 지정합니다.
 1. 호스트 이름은 EU 지역에 대해 &quot;learningmanagereu&quot;로 변경해야 합니다.
@@ -92,13 +92,13 @@ AEM 작성자는 먼저 AEM 템플릿에서 구성 요소를 추가해야 합니
 
 그런 다음 AEM 작성자는 Adobe Learning Manager 구성 요소를 마우스로 끌어다 놓고 이에 따라 구성할 수 있습니다.
 
-Learning Manager 구성 요소를 사용하려면 위 단계에서 생성된 구성을 페이지에 매핑해야 합니다.  작성자는 아래의 페이지 속성을 편집하여 구성을 매핑할 수 있습니다. **[!UICONTROL 고급]** > **[!UICONTROL 구성]** > **[!UICONTROL 클라우드 구성]** 구성 경로를 제공합니다. 작성자는 이러한 방식으로 여러 Learning Manager 계정의 구성을 생성하고 각 계정을 각기 다른 사이트 페이지에 매핑할 수 있습니다. 구성이 페이지에 매핑되지 않은 경우 구성 요소는 필요할 구성을 찾을 때까지 반복적으로 상위 페이지의 구성을 읽습니다.
+Learning Manager 구성 요소를 사용하려면 위 단계에서 생성된 구성을 페이지에 매핑해야 합니다.  작성자는 **[!UICONTROL 고급]** > **[!UICONTROL 구성]** > **[!UICONTROL 클라우드 구성]**&#x200B;에서 페이지 속성을 편집하여 구성을 매핑하고 구성 경로를 지정할 수 있습니다. 작성자는 이러한 방식으로 여러 Learning Manager 계정의 구성을 생성하고 각 계정을 각기 다른 사이트 페이지에 매핑할 수 있습니다. 구성이 페이지에 매핑되지 않은 경우 구성 요소는 필요할 구성을 찾을 때까지 반복적으로 상위 페이지의 구성을 읽습니다.
 
 ## 학습자 {#learner}
 
 학습자는 페이지에서 강좌를 수강할 수 있습니다.
 
-Learning Manager 위젯에 액세스하려면 학습자가 AEM 사용자로 로그인해야 합니다. 또한 재산권 **email** 학습자의 rep:User 노드에 속한 &#39;/profile&#39; 노드에 있어야 합니다. 이 전자 메일은 Learning Manager 계정에 있는 전자 메일과 정확히 동일해야 합니다.
+Learning Manager 위젯에 액세스하려면 학습자가 AEM 사용자로 로그인해야 합니다. 또한 학습자의 rep:User 노드에 속한 &#39;/profile&#39; 노드에 **전자 메일** 속성이 있어야 합니다. 이 전자 메일은 Learning Manager 계정에 있는 전자 메일과 정확히 동일해야 합니다.
 
 학습자는 페이지에서 강좌를 수강할 수 있습니다.
 
@@ -123,7 +123,7 @@ Skyline은 클라우드 버전의 AEM입니다. 패키지 관리자에서 Skylin
 
 ### Skyline 구현
 
-Skyline의 단계적 구성 방법은  [GitHub 리포지토리](https://github.com/adobe/captivate-prime-aem-components).
+Skyline을 구성하는 단계는 [GitHub 리포지토리](https://github.com/adobe/captivate-prime-aem-components)에 설명되어 있습니다.
 
 ## 카탈로그 위젯
 
@@ -133,23 +133,23 @@ Skyline의 단계적 구성 방법은  [GitHub 리포지토리](https://github.c
 
 카탈로그 위젯에는 다음과 같은 옵션이 있습니다.
 
-* **[!UICONTROL 카탈로그 ID]:** 쉼표로 구분된 ID로서 교육 과정을 확인하는 데 필요합니다.
-* **[!UICONTROL 정렬]:** 교육 순서를 정렬합니다. 옵션은 이름, 날짜, 생성일, 등록일 등입니다.
-* **[!UICONTROL 학습자 상태]:** 모든 교육 과정을 등록, 시작, 완료 또는 미등록을 기준으로 필터링하여 나열합니다. 정렬 옵션이 dateEnrolled, dueDate 또는 dateEnrolled인 경우 검색 결과가 표시되지 않습니다.
+* **[!UICONTROL 카탈로그 ID]:** 쉼표로 구분된 ID로서 교육 과정을 표시해야 합니다.
+* 교육에 대한 **[!UICONTROL 정렬]:** 정렬 순서. 옵션은 이름, 날짜, 생성일, 등록일 등입니다.
+* **[!UICONTROL 학습자 상태]:** 모든 교육 과정을 등록, 시작, 완료 및 미등록 필터로 사용합니다. 정렬 옵션이 dateEnrolled, dueDate 또는 dateEnrolled인 경우 검색 결과가 표시되지 않습니다.
 * **[!UICONTROL 스킬 이름]:** 교육 과정을 정확하게 필터링하는 데 사용되는 스킬입니다.
-* **[!UICONTROL 태그 이름]:** 결과를 정확하게 필터링하는 데 사용되는 태그입니다.
+* **[!UICONTROL 태그 이름]:** 정확한 결과를 필터링하는 데 사용되는 태그입니다.
 
 이 외에도 다음과 같은 구성 요소를 사용자가 원하는 대로 설정할 수 있습니다.
 
-**[!UICONTROL 학습 객체 유형]:** 학습 개체 유형에 따라 필터링합니다. 지원되는 유형으로는 강의, 인증, 작업 지원 및 학습 프로그램이 있습니다.
+**[!UICONTROL 학습 개체 유형]:** 학습 개체 유형에 따라 필터링합니다. 지원되는 유형으로는 강의, 인증, 작업 지원 및 학습 프로그램이 있습니다.
 
 AEM에서 카드 제목란은 처음에 비어 있습니다. widgets.html에서 속성 창에 제목을 입력합니다.
 
-**사용자 정의**
+**사용자 지정**
 
 widgets.html을 사용하면 레이아웃의 외형과 느낌을 원하는 대로 설정할 수 있습니다. 표시되는 카드의 모양을 변경하고 테마를 사용자 정의할 수 있습니다.
 
-(으)로 **[!UICONTROL 일반 설정]** 섹션에서 카드의 기본 색상과 보조 색상을 선택하고 속성을 지정하여 테마를 취향에 맞게 설정할 수 있습니다.
+**[!UICONTROL 일반 설정]** 섹션에서 카드의 기본 색상과 보조 색상을 선택하고 속성을 지정하여 테마를 취향에 맞게 설정할 수 있습니다.
 
 ```
 { 
@@ -174,7 +174,7 @@ widgets.html을 사용하면 레이아웃의 외형과 느낌을 원하는 대�
 
 ### 상위 LO 등록 무시
 
-해당하는 경우 **상위 LO 등록 무시** 확인란이 활성화되고 사용자가 학습 프로그램 또는 인증에 직접 등록되면 해당 인증 또는 학습 프로그램과 관련된 강의는 사용자의 위젯에 표시됩니다.
+**상위 LO 등록 무시** 확인란이 선택되어 있고 사용자를 학습 프로그램 또는 인증에 직접 등록한 경우 해당 인증 또는 학습 프로그램과 관련된 강의는 사용자의 위젯에 표시되지 않습니다.
 
 이 확인란을 선택 취소할 경우 사용자를 직접 등록하지 않은 학습 프로그램 또는 인증과 관련된 강의가 표시되지 않습니다.
 
