@@ -1,17 +1,17 @@
 ---
 description: 이 문서는 책임자 역할의 강의 모듈, 인스턴스, 강의 생성에 대한 도움말로 구성되어 있습니다.
 jcr-language: en_us
-title: 강의 모듈, 인스턴스 및 학습 프로그램 만들기
+title: 강의 인스턴스 및 학습 경로 만들기
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
+source-git-commit: b8c7bb0c11268d23ec64d4135aa8b2105539cb89
 workflow-type: tm+mt
-source-wordcount: '4868'
+source-wordcount: '4866'
 ht-degree: 61%
 
 ---
 
-# 강의 모듈, 인스턴스 및 학습 경로 생성
+# 강의 인스턴스 및 학습 경로 만들기
 
 이 문서는 책임자 역할의 강의 모듈, 인스턴스, 강의 생성에 대한 도움말로 구성되어 있습니다.
 
