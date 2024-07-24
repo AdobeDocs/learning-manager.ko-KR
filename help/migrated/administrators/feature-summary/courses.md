@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 강의 인스턴스 및 학습 경로 만들기
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
 workflow-type: tm+mt
 source-wordcount: '4866'
 ht-degree: 61%
@@ -81,7 +81,7 @@ ht-degree: 61%
 
 인스턴스를 중단하려면 아래 단계를 수행하십시오.
 
-1. 인스턴스에서 드롭다운 메뉴를 클릭하고 **[!UICONTROL 인스턴스 중단]** 옵션을 선택합니다.
+1. 인스턴스에서 드롭다운 메뉴를 선택하고 **[!UICONTROL 인스턴스 사용 중지]** 옵션을 선택합니다.
 
    ![](assets/retire-an-instance.png)
 
