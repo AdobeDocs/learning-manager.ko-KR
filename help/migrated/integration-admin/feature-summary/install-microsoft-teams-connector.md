@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager에 Microsoft Teams 커넥터 설치
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 24%
+source-wordcount: '1138'
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 24%
 
 ## 개요
 
-Microsoft® Teams®는 문서 공유, 온라인 회의 및 기타 비즈니스 통신 기능을 모두 지원하는 지속적인 채팅 방식의 협업 플랫폼입니다.
+Microsoft Teams®는 문서 공유, 온라인 회의 및 비즈니스 통신을 위한 기타 기능을 완전히 지원하는 지속적인 채팅 방식의 협업 플랫폼입니다.
 
 Adobe Learning Manager은 Microsoft Teams 회의를 Learning Manager와 통합하는 데 사용할 수 있는 가상 강의실 커넥터를 사용합니다.
 
@@ -51,8 +51,7 @@ Microsoft Teams 커넥터는 Learning Manager와 Microsoft Teams 시스템을 �
 
 Office 365 E3 또는 Office 365 E5가 있는 경우 Microsoft Teams 커넥터에 액세스할 수 있습니다. Office 365 E5를 사용하는 것이 좋습니다.
 
-* [Microsoft 플랜 페이지](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE) 를 방문하십시오. 웹페이지에서 E3 또는 E5 계정을 구매하거나 무료 평가판을 클릭합니다.
-
+* [Microsoft 요금제 페이지](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE)를 방문하세요. 웹페이지에서 E3 또는 E5 계정을 구매하거나 무료 평가판을 클릭합니다.
 * 필수 정보를 제공하여 계정을 만듭니다.
 
 >[!NOTE]
@@ -101,6 +100,7 @@ Office 365 E3 또는 Office 365 E5가 있는 경우 Microsoft Teams 커넥터에
    1. OnlineMeetings.Read.All
    1. OnlineMeetings.ReadWrite.All
    1. User.Read.All
+   1. OnlineMeetingRecording.Read.All
 
 1. **[!UICONTROL Adobe에 대한 관리자 액세스 권한 부여]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 앱 역할]** > **[!UICONTROL 앱 역할 만들기]**&#x200B;를 클릭합니다.
@@ -154,17 +154,17 @@ PowerShell 스크립트를 실행하여 Microsoft Teams 커넥터에 대한 응�
 1. **[!UICONTROL 제품 라이선스 관리]**&#x200B;를 클릭합니다.
 1. 오디오 회의 없이 Office 365 E5 라이선스를 활성화합니다.
 
-## 세션 기록
+<!--## Record a session
 
-세션 기록에 사용되는 API는 보호된 API입니다. API에 액세스하려면 Microsoft에 액세스를 요청해야 합니다. 자세한 내용은 이 [문서](https://docs.microsoft.com/ko-kr/graph/teams-protected-apis)를 참조하세요.
+The API used for recording a session is a protected API. To access the API, you must request access from Microsoft. For more information, see this  [document](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
-이 문서에서는
+In the document,
 
-*&quot;보호된 API에 대한 액세스를 요청하려면 다음 [요청 양식](https://aka.ms/teamsgraph/requestaccess)을 작성하십시오. 매주 수요일에 액세스 요청을 검토하며 매주 금요일에 승인을 배포합니다. 미국의 주요 공휴일이 있는 주간은 예외이며 해당 주간에 제출된 사항은 공휴일이 끝난 그다음 주에 처리됩니다. 요청이 승인되었는지 확인하려면 다음 주 월요일에 응용 프로그램 액세스를 테스트하십시오.&quot;*
+*"To request access to these protected APIs, complete the following  [request form](https://aka.ms/teamsgraph/requestaccess). We review access requests every Wednesday and deploy approvals every Friday, except during major holiday weeks in the U.S. Submissions during those weeks will be processed the following non-holiday week. To verify whether your request has been approved, test your application access on the next applicable Monday."*
 
-학습자의 경우 기록 URL이 VC 강의 개요 페이지에 표시됩니다.
+For learners, the recording URL is displayed on the VC course overview page.
 
-강의를 완료한 지 30분이 지나면 학습자의 출석이 표시됩니다.
+After 30 minutes of completing a course, the attendance for the learner gets marked. -->
 
 ## 자주 묻는 질문
 
