@@ -4,9 +4,9 @@ title: Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 description: 흰색 레이블링은 앱 또는 서비스를 자신의 브랜드로 리브랜딩하고 원본 작성자인 것처럼 사용자 정의하는 관행입니다. Adobe Learning Manager에서는 모바일 앱에 흰색 레이블 지정을 적용하여 앱을 다시 브랜딩하고 사용자가 나만의 브랜드로 앱을 사용할 수 있도록 할 수 있습니다.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 0faea8c9282e501e6dbabbf3b59343d8ebbf174d
+source-git-commit: 977799953123eafbbaf22732c79be4b8ea2e3e1a
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ Adobe Learning Manager 모바일 앱은 이제 흰색 레이블 지정을 지원
 
    <td>
 
-    <p>앱 아이콘(png). 이 아이콘은 앱에 표시됩니다. 이름 형식은 account-id_appIcon.png입니다. 앱 아이콘의 크기는 512 × 512픽셀입니다.<div><b>참고:</b> Apple은 앱 아이콘에서 Alpha 채널을 허용하지 않습니다. 따라서 제출하기 전에 에셋에서 Alpha 채널을 제거해야 합니다.</div></p>
+    <p>앱 아이콘(png). 이 아이콘은 앱에 표시됩니다. 이름 형식은 account-id_appIcon.png입니다. 앱 아이콘의 크기는 512 × 512픽셀입니다.<div>Apple은 앱 아이콘에서 Alpha 채널을 허용하지 않습니다. 따라서 제출하기 전에 에셋에서 Alpha 채널을 제거해야 합니다.</div></p>
 
    </td>
 
