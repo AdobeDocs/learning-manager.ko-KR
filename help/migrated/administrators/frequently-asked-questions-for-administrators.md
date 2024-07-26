@@ -4,10 +4,10 @@ title: 관리자를 위한 자주 묻는 질문(FAQ)
 description: Adobe Learning Manager 관리자를 위한 자주 묻는 질문
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 55%
+source-wordcount: '2515'
+ht-degree: 52%
 
 ---
 
@@ -365,5 +365,26 @@ Learning Manager 지원팀에 문의하십시오.
 Learning Manager가 열려 있는 브라우저에서 계정 ID를 가져올 수 있습니다.
 
 */app/admin?i_qp_user_id=12761637&amp;**accountId=6849***
+
++++
+
++++이져올 수 있는 보고서가 있습니까? 아니면 누군가가 가져올 수 있는 보고서가 있습니까? 그러면 LMS에 있는 모든 강의 목록이 표시됩니다.
+
+예. LMS에서 모든 과정, 학습 프로그램, 인증이 포함된 **[!UICONTROL 교육 보고서]**&#x200B;를 가져올 수 있습니다. 보고서를 다운로드하려면 아래 단계를 따르십시오.
+
+1. 책임자로 로그인합니다.
+2. **[!UICONTROL 보고서]** > **[!UICONTROL 사용자 지정 보고서]** > **[!UICONTROL Excel 보고서]** > **[!UICONTROL 교육 보고서]**&#x200B;를 클릭합니다.
+3. 드롭다운에서 **[!UICONTROL 모든 교육]**&#x200B;을 선택합니다.
+4. **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다.
+
++++
+
++++앱의 데스크탑 버전은 어디에서 다운로드할 수 있습니까?
+
+아래 단계에 따라 데스크탑 버전을 다운로드합니다.
+
+1. 관리자로 로그인합니다.
+2. **[!UICONTROL 소셜 학습]** > **[!UICONTROL 설정]**&#x200B;을 클릭합니다.
+3. **[!UICONTROL 다운로드 구성]**&#x200B;에서 운영 체제에 따라 하이퍼링크를 클릭합니다.
 
 +++

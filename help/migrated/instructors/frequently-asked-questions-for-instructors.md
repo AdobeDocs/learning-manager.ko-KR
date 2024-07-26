@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 강사를 위한 자주 묻는 질문
 contentowner: shhivkum
 exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
-source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 85%
+source-wordcount: '381'
+ht-degree: 70%
 
 ---
 
@@ -46,5 +46,12 @@ Learning Manager 강사를 위한 자주 묻는 질문에 관해 알아보려면
 +++강사가 세션을 수정할 수 있습니까?
 
 강사는 할당된 세션의 세부 정보만 보고 편집할 수 있습니다. 세션 또는 세션 출석자 목록은 수정할 수 없습니다.
+
++++
+
++++외부 사용자에게 강사 역할을 할당하는 방법
+
+* 기본적으로 **[!UICONTROL 외부 사용자]**&#x200B;에 대한 **[!UICONTROL 할당]** 섹션에는 **[!UICONTROL 관리자 만들기]** 또는 **[!UICONTROL 작성자 만들기]**&#x200B;만 표시됩니다.
+* LMS의 모든 사용자에게 **강사** 역할을 할당하려면 **[!UICONTROL 강의실]** 또는 **[!UICONTROL 가상 강의실]** 모듈에 **강사**(으)로 추가하면 **강사** 역할이 LMS의 사용자에게 자동으로 제공됩니다.
 
 +++

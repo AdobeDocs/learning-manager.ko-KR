@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 게임화
 contentowner: manochan
 exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 67%
@@ -26,6 +26,8 @@ Learning Manager의 게임화 기술을 사용하여 사용자 참여를 유도�
 ## 순위표 {#leaderboard}
 
 리더보드는 주요 경쟁사의 순위 점수를 보여주는 스코어보드 역할을 하는 게임화 기능입니다. 학습자는 순위표에서 게임화 점수를 볼 수 있습니다.
+
+![](assets/leaderboard.png)
 
 학습자의 홈 페이지의 왼쪽 창에서 **[!UICONTROL 게임화]**&#x200B;를 클릭합니다. 순위표를 보려면 순위표 링크를 클릭합니다. 이 기능을 통해 학습자는 본인이 특정 팀 회원을 상대로 어느 정도의 위치인지 파악할 수 있습니다. 순위표는 팀 내 다른 회원과의 상대적인 순위 또한 볼 수 있습니다.
 

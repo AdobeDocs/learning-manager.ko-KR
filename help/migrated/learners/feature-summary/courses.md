@@ -1,17 +1,17 @@
 ---
 description: 이 문서를 통해 Learning Manager에서 강의를 보고 이용하는 방법을 알아봅니다. 토론에 참여하고 피드백을 제공합니다.
 jcr-language: en_us
-title: 강의
+title: 내 학습
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 76d84364ce037a81d77e3e2fa3f68fdef7ff411d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2759'
 ht-degree: 64%
 
 ---
 
-# 강의
+# 내 학습
 
 이 문서를 통해 Learning Manager에서 강의를 보고 이용하는 방법을 알아봅니다. 토론에 참여하고 피드백을 제공합니다.
 
@@ -25,7 +25,7 @@ Adobe Learning Manager에서 학습자는 강의, 학습 프로그램 및 인증
 >
 >학습자는 Apple Store에서 Learning Manager iPad 앱을, Google Play에서 Learning Manager Android 앱을 설치한 다음 모바일 장치에서 강의에 액세스할 수 있습니다. 모든 학습자 기능을 앱에서도 사용할 수 있습니다. 학습자는 오프라인으로 강의를 수강한 다음 온라인에서 원활히 액세스할 수 있습니다. 자세한 내용은 [iPad 및 Android 태블릿 사용자](ipad-android-tablet-users.md) 기능을 참조하십시오.
 
-## 강의 보기 {#viewingcourses}
+## 학습 객체 보기 {#viewingcourses}
 
 학습자가 사용 가능한 모든 강의 목록을 볼 수 있습니다. 홈 페이지나 왼쪽 창에서 내 학습 을 클릭하여 등록한 모든 강의를 봅니다.
 

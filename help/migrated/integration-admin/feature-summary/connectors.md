@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Learning Manager 커넥터
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '15924'
-ht-degree: 60%
+source-wordcount: '15848'
+ht-degree: 59%
 
 ---
 
@@ -330,15 +330,16 @@ Learning Manager와 임시 외부 시스템을 통합하는 FTP 커넥터를 사
 
 **맵 속성**
 
-통합 책임자는 CSV 열을 선택하고 이를 Learning Manager의 그룹화 가능 속성에 매핑할 수 있습니다. 매핑은 한 번만 작업하면 됩니다. 한번 매핑을 완료하면 다음 사용자를 가져와도 동일한 매핑을 사용할 수 있습니다. 책임자가 사용자를 가져오기 위해 다른 매핑을 사용하려는 경우 매핑을 재구성할 수 있습니다.
+통합 책임자는 CSV 열을 선택하고 이를 Learning Manager의 그룹화 가능 속성에 매핑할 수 있습니다. 매핑은 시간 작업입니다. 한번 매핑을 완료하면 다음 사용자를 가져와도 동일한 매핑을 사용할 수 있습니다. 책임자가 사용자를 가져오기 위해 다른 매핑을 사용하려는 경우 매핑을 재구성할 수 있습니다.
+
 
 #### 데이터 내보내기 {#exportdata}
 
 데이터 내보내기를 사용하면 사용자 스킬과 학습자 성적 증명서를 FTP 위치로 내보내 타사 시스템과 통합할 수 있습니다.
 
-#### 스케줄링 {#scheduling}
+#### 스케줄링
 
-책임자는 조직 요구에 따라 스케줄링 작업을 설정할 수 있으며, 일정에 따라 Learning Manager 응용 프로그램의 사용자는 최신 상태를 유지합니다. 마찬가지로, 통합 책임자는 외부 시스템과 통합되도록 적시에 스킬 내보내기를 예약할 수 있습니다. Learning Manager 응용 프로그램에서 매일 동기화를 수행할 수 있습니다.
+책임자는 조직의 요구 사항에 따라 스케줄링 작업을 설정할 수 있으며, 일정에 따라 Learning Manager 응용 프로그램의 사용자는 최신 상태를 유지합니다. 마찬가지로, 통합 책임자는 외부 시스템과 통합되도록 적시에 스킬 내보내기를 예약할 수 있습니다. 동기화는 Learning Manager 응용 프로그램에서 매일 수행할 수 있습니다.
 
 ### Learning Manager FTP 커넥터 구성 {#configurecaptivateprimeftpconnector}
 
@@ -346,30 +347,80 @@ FTP 커넥터와 Learning Manager를 통합하려면 다음 과정을 배워봅�
 
 #### 연결 생성 {#Createaconnection-1}
 
-1. Learning Manager 홈 페이지에서 FTP 카드/썸네일 위에 마우스를 올립니다. 그러면 메뉴가 나타납니다. 메뉴에 있는 **[!UICONTROL 연결]**&#x200B;항목을 클릭합니다.
+1. Learning Manager 홈 페이지에서 FTP 카드/썸네일 위에 마우스를 올립니다. 그러면 메뉴가 나타납니다. 메뉴에서 연결 항목을 선택합니다.
 
    ![](assets/mouseover-ftpconnector.png)
 
    *연결 옵션*
 
-1. 이메일 아이디를 입력하라는 대화 상자가 나타납니다. 조직의 Learning Manager FTP 계정을 관리하는 담당자의 이메일 아이디를 입력합니다. 전자 메일 ID를 입력한 후 **[!UICONTROL 연결]**&#x200B;을 클릭하세요.
-1. Learning Manager에서 사용자에게 FTP 첫 액세스 전에 암호를 재설정하라는 이메일을 전송합니다. 사용자는 Learning Manager FTP 계정에 액세스하기 위해 암호를 재설정해야 합니다.
+FTP 클라이언트를 사용하여 FTP 서버에 연결하려면 다음 정보가 필요합니다.
+
+* **FTP 도메인**: 연결하려는 FTP 서버의 주소입니다. 예: ftp.example.com
+* **포트**: 기본 FTP 포트는 21이지만 일부 서버는 보안상의 이유로 다른 포트를 사용할 수 있습니다. Adobe Learning Manager - 포트 22의 경우
+* **FTP 사용자 이름**: FTP 서버에 액세스하는 데 필요한 사용자 이름입니다.
+* **FTP 암호**: 사용자 이름과 연결된 암호입니다.
+
+**FileZilla(Windows, macOS 및 Linux)**
+
+**단계 1: FileZilla 다운로드 및 설치**
+
+아직 FileZilla를 설치하지 않았다면 공식 웹 사이트 [다운로드](https://filezilla-project.org/)에서 다운로드하여 컴퓨터에 설치하십시오.
+
+**단계 2: FileZilla 열기**
+
+설치 후 컴퓨터에서 FileZilla를 실행합니다.
+
+**3단계: FTP 서버 정보 수집**
+
+**4단계: FileZilla에 FTP 서버 정보 입력**
+
+상단 메뉴에서 **[!UICONTROL 파일]**&#x200B;을 선택한 다음 **[!UICONTROL 사이트 관리자]**&#x200B;를 선택합니다(또는 바로 가기 Ctrl+S 사용).
+
+**5단계: 새 FTP 사이트 추가**
+
+사이트 관리자에서 **새 사이트**&#x200B;를 선택하고 이름(예: 내 FTP 서버)을 입력합니다.
+
+**6단계: FTP 세부 정보 입력**
+
+다음 정보를 입력합니다.
+
+* **호스트**: FTP 서버의 주소를 입력하십시오.
+* **포트**: 서버가 21을 초과하는 포트를 사용하는 경우 올바른 포트 번호를 입력하십시오.
+* **프로토콜**: **[!UICONTROL SFTP - SSH 파일 전송 프로토콜]**&#x200B;을 선택합니다.
+* **로그온 유형**: **[!UICONTROL 표준]**&#x200B;을 선택합니다.
+* **사용자**: FTP 사용자 이름을 입력하십시오.
+* **암호**: FTP 암호를 입력하십시오.
+
+**7단계: FTP 서버에 연결**
+
+사이트 관리자에서 **[!UICONTROL 연결]** 단추를 선택합니다. 모든 정보가 올바르면 FileZilla가 FTP 서버에 연결됩니다.
+
+**8단계: 파일 탐색 및 전송**
+
+연결되면 오른쪽에는 원격 파일이 표시되고 왼쪽에는 로컬 파일이 표시됩니다. 패널 간에 끌어다 놓아 디렉터리를 탐색하고 파일을 전송할 수 있습니다.
+
+>[!CAUTION]
+>
+>파일을 전송할 때 서버에서 중요한 파일을 변경하지 마십시오.
+
+<!--1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager FTP account for the organization. Click **[!UICONTROL Connect]** after providing the email id. 
+1. Learning Manager sends you an email prompting the user to reset the password before accessing the FTP for the first time. The user must reset the password and use it for accessing the Learning Manager FTP account.
 
    >[!NOTE]
    >
-   >지정된 Learning Manager 계정에 대해 하나의 Learning Manager FTP 계정만 생성할 수 있습니다.
+   >Only one Learning Manager FTP account can be created for a given Learning Manager account.
 
-   개요 페이지에서 통합에 대한 연결 이름을 지정할 수 있습니다. 다음 옵션에서 원하는 작업을 선택합니다.
+   In the overview page, you can specify the Connection Name for your integration. Choose what action you want to take  from  the following options:
 
-   * 내부 사용자 가져오기
-   * xAPI 가져오기
-   * 사용자 스킬 내보내기 - 일정 구성
-   * 사용자 스킬 내보내기 - 온디맨드
-   * 학습자 성적 증명서 내보내기 - 일정 구성
-   * 학습자 성적 증명서 내보내기 - 온디맨드
+   * Import Internal Users  
+   * Import xAPI
+   * Export User Skills - Configure a Schedule  
+   * Export User Skills - OnDemand  
+   * Export Learner Transcripts - Configure a Schedule
+   * Export Learner Transcripts - OnDemand
 
    ![](assets/ftp-connector-dashboard.png)
-   *내보내기 옵션*
+   *Export options*-->
 
 ### 내부 사용자
 
@@ -393,8 +444,6 @@ FTP 커넥터와 Learning Manager를 통합하려면 다음 과정을 배워봅�
 1. 매핑을 완료한 후 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    커넥터를 사용할 준비가 되었습니다. 구성된 계정은 책임자의 가져오기 예약 또는 주문형 동기화를 위해 책임자 앱 내에서 데이터 소스로 나타납니다.
-
-
 
 +++
 
@@ -477,53 +526,51 @@ xAPI 가져오기 옵션을 사용하면 온디맨드로 제3자 서비스에서
 
 +++
 
-### 내보내기
+<!--### Export
 
-+++스킬
++++Skills
 
-사용자 스킬 보고서를 내보낼 수 있는 방법은 두 가지가 있습니다.
+There are two options to export User skill reports.
 
-**[!UICONTROL 사용자 스킬 - 온디맨드]**: 이 옵션을 사용하여 시작 날짜를 지정하고 보고서를 내보낼 수 있습니다. 보고서는 입력된 날짜로부터 현재 날짜까지 추출됩니다.
+**[!UICONTROL User Skills - On Demand]**: You can specify the  start date and export the report using the option. The report is extracted from the date entered until present.
 
 ![](assets/export-on-demand2x.png)
-*온디맨드 내보내기 옵션*
+*On demand export option*
 
-**[!UICONTROL 사용자 스킬 - 구성]**: 이 옵션을 사용하면 보고서 추출을 예약할 수 있습니다. &#39;예약 사용&#39; 확인란을 선택하고 시작 날짜와 시간을 지정합니다. 보고서를 생성하고 전송하는 시간 간격을 지정할 수도 있습니다.
+**[!UICONTROL User Skills - Configure]**: This option let's you schedule the extraction of the report. Select the Enable Schedule check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 ![](assets/user-skills-configure.png)
-*보고서 내보내기 구성*
+*Configure export of report*
 
 +++
 
-내보낸 파일이 있는 내보내기 폴더를 열기 위해서는 아래 보이는 사용자 스킬 페이지에서 FTP 폴더에 대한 링크를 열어야 합니다.
+To open the Export folder where the exported files are placed, open the link to FTP Folder provided in the User Skills page as shown below.
 
 ![](assets/ftp-folder.png)
-*파일을 볼 FTP 폴더*
+*FTP folder to view files*
 
-자동으로 내보낸 파일은 **홈/내보내기/&#42;FTP_위치&#42;** 위치에 있습니다.
+The auto-exported files are present in the location **Home/export/&#42;FTP_location&#42;**
 
-자동으로 내보낸 파일은 **skill_achievements_&#42;날짜부터&#x200B;&#42;_부터_&#42;날짜&#42;.csv**&#x200B;까지 제목과 함께 사용할 수 있습니다.
+The auto-exported files are available with the title, **skill_achievements_&#42;date from&#42;_to_&#42;date to&#42;.csv**
 
 ![](assets/exported-csvs.png)
-*내보낸 .csv 파일*
+*Exported .csv file*
 
-+++학습자 성적 증명서
++++Learner Transcript
 
 ![](assets/on-demand-report.png)
 
-**구성**: 이 옵션을 사용하면 보고서 추출을 예약할 수 있습니다. &#39;예약 사용&#39; 확인란을 선택하고 시작 날짜와 시간을 지정합니다. 보고서를 생성하고 전송하는 시간 간격을 지정할 수도 있습니다.
+**Configure**: This option  let's  you schedule the extraction of the report. Select the Enable Schedule check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 ![](assets/configure-report.png)
 
 +++
 
-FTP 위치에서 내보낸 파일이 있는 내보내기 폴더를 열려면 아래와 같이 학습자 성적 증명서 페이지에 제공된 FTP 폴더에 대한 링크를 엽니다
+To open the Export folder where the exported files are placed in your FTP location, open the link to FTP Folder provided on the Learner Transcript page as shown below
 
-자동으로 내보낸 파일은 **홈/내보내기/&#42;FTP_위치&#42;** 위치에 있습니다.
+The auto-exported files are present in the location **Home/export/&#42;FTP_location&#42;**
 
-자동으로 내보낸 파일은 **learner_transcript_&#42;날짜:&#42;_부터_&#42;날짜:&#42;.csv**&#x200B;까지 제목과 함께 사용할 수 있습니다.
-
-![](assets/exported-file.png)
+The auto-exported files are available with the title, **learner_transcript_&#42;date from&#42;_to_&#42;date to&#42;.csv**-->
 
 ### 수동 csv 필드 지원 {#supportformanualcsvfields}
 

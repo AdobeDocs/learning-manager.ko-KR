@@ -2,10 +2,10 @@
 title: Adobe Learning Manager 추천
 description: 추천 엔진의 핵심은 Learning Manager의 새로운 '강의 순위 알고리즘'에 의해 제어됩니다. 이 알고리즘은 5천만 개의 데이터 포인트와 5년간의 누적 학습 데이터를 수백만 명의 사용자에게 사용하여 등록 가능성에 따라 강의 순위를 지정합니다. 이 평가는 등록 가능성이 가장 많은 강의가 학습자 앞에 표시되도록 합니다.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 60%
+source-wordcount: '1470'
+ht-degree: 58%
 
 ---
 
@@ -64,8 +64,8 @@ Adobe Learning Manager의 새로운 추천 엔진은 고객/파트너와 연계�
 
 1. **[!UICONTROL 계속]**&#x200B;을 클릭하여 새 추천 시스템으로 업그레이드합니다.
 
-   ![새 시스템으로 진행](assets/image521152.png)
-   *계속 단추 선택*
+   <!--![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*-->
 
 1. 제품 및 역할에 대한 추천 매개 변수를 생성합니다.
 
@@ -168,7 +168,7 @@ Adobe Learning Manager의 새로운 추천 엔진은 고객/파트너와 연계�
 
 ## 매개 변수 삭제
 
-1. 매개 변수 목록에서 3개 점으로 표시되는 아이콘을 선택하고 **[!UICONTROL 매개 변수 삭제]**&#x200B;를 선택합니다.
+관리자는 점 세 개 아이콘을 클릭하고 **[!UICONTROL 매개 변수 삭제]**&#x200B;를 선택하여 매개 변수를 삭제할 수 있습니다. 책임자는 매개 변수가 학습 개체에 연결되지 않은 경우 삭제할 수 있습니다. 연결된 경우 매개 변수만 숨길 수 있습니다. 그러나 권장 사항이 작동하려면 두 개 이상의 매개 변수가 필요하므로 마지막 두 매개 변수를 숨길 수는 없습니다.
 
 ![매개 변수 삭제](assets/delete-parameter.png)
 *매개 변수 삭제*

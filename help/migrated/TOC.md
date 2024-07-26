@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '606'
 ht-degree: 87%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 87%
    * [로그인](learners/feature-summary/user-login.md)
    * [프로필 설정](learners/feature-summary/settings.md)
    * [카탈로그](learners/feature-summary/catalogs.md)
-   * [강의](learners/feature-summary/courses.md)
+   * [내 학습](learners/feature-summary/courses.md)
    * [Fluidic Player](learners/feature-summary/fluidic-player.md)
    * [학습 프로그램](learners/feature-summary/learning-programs.md)
    * [인증](learners/feature-summary/certifications.md)
@@ -149,6 +149,7 @@ ht-degree: 87%
    * [작성자를 위한 자주 묻는 질문(FAQ)](authors/frequently-asked-questions-for-authors.md)
    * [강사를 위한 자주 묻는 질문](instructors/frequently-asked-questions-for-instructors.md)
    * [관리자를 위한 자주 묻는 질문(FAQ)](managers/frequently-asked-questions-for-managers.md)
+   * [학습자를 위한 자주 묻는 질문(FAQ)](learners/frequently-asked-questions-for-learners.md)
 * 기술 자료 {#knowledge-base}
    * [Learning Manager에 로그인할 수 없음](kb/unable-log-in-learning-manager.md)
    * [학습 요약이 현재 데이터에 표시되지 않음](kb/learning-summary-not-display-data.md)
