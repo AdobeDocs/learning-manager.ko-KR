@@ -3,10 +3,10 @@ description: 자가 진행식 콘텐츠로 강의에 맞게 콘텐츠를 만드�
 jcr-language: en_us
 title: 콘텐츠 라이브러리
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 76d84364ce037a81d77e3e2fa3f68fdef7ff411d
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
-source-wordcount: '3542'
-ht-degree: 50%
+source-wordcount: '3573'
+ht-degree: 49%
 
 ---
 
@@ -503,6 +503,10 @@ Learning Manager에서는 성공 및 완료를 기반으로 배지와 스킬이 
 1. **동작** > **게시**&#x200B;를 선택합니다.
 
 이제 해당 콘텐츠가 게시됨 목록에 표시됩니다.
+
+## 콘텐츠 업데이트
+
+작성자는 게시된 강의의 콘텐츠를 업데이트할 수 있습니다. 그러면 학습자가 최신 버전의 콘텐츠를 다운로드하는 데 도움이 됩니다. 자세한 내용은 이 [블로그](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/)를 확인하세요.
 
 ## 콘텐츠 삭제 {#deletecontent}
 

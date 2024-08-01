@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager 커넥터
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -762,14 +762,14 @@ Harvard ManageMentor 커넥터는 학습자가 Harvard ManageMentor 과정을 �
 
    동기화를 하면 계정이 Harvard ManageMentor의 최신 및 요약 버전으로 업데이트됩니다.
 
-   hmm12_metadata.xlsx: 이 파일은 Harvard ManageMentor 커넥터의 과정 메타데이터를 제공합니다. 파일을 업로드할 때 명명 규칙을 따라야 합니다.
+   hmm12_metadata.csv: 이 파일은 Harvard ManageMentor 커넥터의 과정 메타데이터를 제공합니다. 파일을 업로드할 때 명명 규칙을 따라야 합니다.
 
-   client_hmm12_20150125.xlsx: Harvard ManageMentor 커넥터의 사용자 피드입니다. 파일 이름 형식은 **client_hmm12_yyyyMMdd.xlsx**&#x200B;입니다.
+   client_hmm12_20150125.csv: Harvard ManageMentor 커넥터의 사용자 피드입니다. 파일 이름 형식은 **client_hmm12_yyyyMMdd.csv.**&#x200B;입니다.
 
    이 커넥터에 대한 다음 두 가지 샘플 사용자 피드 및 과정 피드 파일을 참조합니다.
 
-   * [Harvard ManageMentor 커넥터의 과정 메타데이터 파일](assets/hmm12-metadata.xlsx)
-   * [Harvard ManageMentor 커넥터의 사용자 피드입니다.](assets/client-hmm12-20170304.xlsx)
+   * [Harvard ManageMentor 커넥터의 과정 메타데이터 파일](assets/hmm12-metadata.csv)
+   * [Harvard ManageMentor 커넥터의 사용자 피드입니다.](assets/client-hmm12-20170304.csv)
 
 ## Workday 커넥터 {#workdayconnector}
 

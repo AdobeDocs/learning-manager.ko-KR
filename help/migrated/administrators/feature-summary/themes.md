@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 색상 테마
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1203'
 ht-degree: 45%
 
 ---
@@ -106,6 +106,11 @@ Prime 기본값 테마를 제외하고 테마의 상단 바 색상, 강조 색�
 >[!NOTE]
 >
 >내부 사용자에게는 외부 사용자와 같은 활성 필드가 있을 수 있습니다(예: 관리자는 활성 필드 값을 별도로 선택하여 내부 사용자와 외부 사용자에 대한 다중 브랜딩을 별도로 추가해야 합니다).
+
+>[!INFO]
+>
+>자세한 내용은 이 [블로그](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customised-branding-for-internal-and-external-users/)를 확인하세요.
+
 
 #### 참고 사항
 
