@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 강의 생성, 수정 및 게시
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '7125'
+source-wordcount: '7145'
 ht-degree: 72%
 
 ---
@@ -120,6 +120,10 @@ Learning Manager 강의, 인증, 학습 프로그램을 생성하는 방법을 �
    >[!IMPORTANT]
    >
    >사용자 정의 준수를 추가할 때 강의 기한을 설정해야 합니다.
+
+   >[!NOTE]
+   >
+   >최대 50개의 강의, 학습 경로 또는 인증에서 사용자 정의 준수 유형 레이블에 대해 동일한 값을 가질 수 있습니다.
 
 1. 강의/학습 경로/인증을 저장하고 게시합니다.
 이제 강의/학습 경로/인증이 준수 유형으로 간주됩니다. 책임자는 준수 대시보드에 이 강의를 추가하고 관리자와 공유하여 진행 상황을 추적할 수 있습니다

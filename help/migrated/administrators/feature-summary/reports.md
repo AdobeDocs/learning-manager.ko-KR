@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 보고서
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '7132'
+source-wordcount: '7133'
 ht-degree: 57%
 
 ---
@@ -276,7 +276,7 @@ _준수 대시보드-관리자 보기_
 
 1. **[!UICONTROL 보고서]** > **[!UICONTROL 학습 요약]**(으)로 이동합니다.
 1. **[!UICONTROL 준수 대시보드]** 섹션에서 **[!UICONTROL 관리자와 공유됨]**&#x200B;을 선택합니다.
-1. **[!UICONTROL 대시보드 공유]**&#x200B;를 선택하고 **[!UICONTROL 사용자 지정 준수]** 드롭다운 메뉴에서 만든 레이블을 선택합니다.
+1. **[!UICONTROL 대시보드 공유]**&#x200B;를 선택하고 **[!UICONTROL 준수 레이블 선택]** 드롭다운 메뉴에서 만든 레이블을 선택합니다.
 
 
    ![](assets/compliance-type.png)
