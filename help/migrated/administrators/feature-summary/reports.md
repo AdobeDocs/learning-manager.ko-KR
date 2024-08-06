@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 보고서
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
+source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
 workflow-type: tm+mt
 source-wordcount: '7133'
 ht-degree: 57%
@@ -256,7 +256,7 @@ _준수 대시보드-관리자 보기_
 
    >[!NOTE]
    >
-   >이 새로운 카탈로그 레이블은 강의, 학습 경로 및 인증을 준수 유형으로 분류하기 위해 도입되었습니다. **[!UICONTROL 사용자 지정 준수 유형]** 옵션을 활성화하려면 먼저 같은 페이지에서 **[!UICONTROL 카탈로그 레이블 표시]** 옵션을 활성화해야 합니다.
+   >이 새로운 카탈로그 레이블은 강의, 학습 경로 및 인증을 준수 유형으로 분류하기 위해 도입되었습니다. **[!UICONTROL 사용자 지정 준수 유형]** 옵션을 사용하려면 먼저 같은 페이지에서 **[!UICONTROL 카탈로그 레이블 표시]** 옵션을 활성화해야 합니다.
 
 1. **[!UICONTROL 설정]** > **[!UICONTROL 카탈로그 레이블]**&#x200B;로 이동하고 **[!UICONTROL 준수 유형]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 값]** 텍스트 상자에 값(예: Legal, Sales)을 입력하고 **[!UICONTROL 값 추가]**&#x200B;를 선택합니다.
