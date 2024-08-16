@@ -4,7 +4,7 @@ title: AEM 사이트에 대한 Adobe Learning Manager 참조 사이트(ALM 참�
 description: Adobe Learning Manager(ALM)는 Adobe Experience Manager(AEM) 사이트와 통합됩니다. 이렇게 하면 최소한의 코딩 노력으로 Adobe Learning Manager에 대한 자신의 웹사이트 및 반응형 모바일 인터페이스를 생성할 수 있습니다. 이 통합을 통해 사용자를 대상으로 사용자 정의된 학습 경험을 만들 수 있습니다.
 contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
 workflow-type: tm+mt
 source-wordcount: '2146'
 ht-degree: 67%
@@ -248,7 +248,7 @@ AEM 참조 사이트 패키지를 설치하면 Learning Manager 구성 요소가
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
 
-   위 코드는 페이지의 메타 태그에 매핑된 구성을 추가합니다. 이것은 학습 구성 요소를 렌더링하는 데 필요합니다. 자세한 내용은 [Adobe Learning Manager 참조 시트](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html)를 참조하세요.
+   위 코드는 페이지의 메타 태그에 매핑된 구성을 추가합니다. 이것은 학습 구성 요소를 렌더링하는 데 필요합니다. 자세한 내용은 [Adobe Learning Manager 참조 사이트](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html)를 참조하세요.
 
 1. 구성을 웹 프로젝트와 매핑했는지 확인하십시오.
 1. Learning Manager 구성 요소를 가져올 AEM Sites 템플릿을 엽니다.
