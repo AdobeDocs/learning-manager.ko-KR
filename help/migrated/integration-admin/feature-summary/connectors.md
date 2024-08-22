@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager 커넥터
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 7b842c08c5804175045ef3ce1910c47587f3ff66
+source-git-commit: e7a88bac3bbe7814368a98d40f548b38806e7f1a
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -40,19 +40,19 @@ Learning Manager에서는 Salesforce와 FTP 커넥터를 제공합니다. 조직
 
 Salesforce 커넥터는 Learning Manager와 Salesforce 계정을 연결하여 자동으로 데이터를 동기화합니다. Salesforce 커넥터의 기능은 다음과 같습니다.
 
-### 맵 속성
+### 맵 속성 {#map-attributes}
 
 통합 책임자는 Salesforce 열을 선택하고 이를 해당 Learning Manager의 그룹화 가능 속성에 매핑할 수 있습니다. 매핑을 완료하면 다음 사용자가 가져와도 동일한 매핑이 사용됩니다. 책임자가 사용자를 가져오기 위해 다른 매핑을 사용하려는 경우 이 매핑을 재구성할 수 있습니다.
 
-### 자동으로 사용자 가져오기
+### 자동으로 사용자 가져오기 {#automated-user-import}
 
 사용자 가져오기 프로세스를 통해 Learning Manager 책임자는 Salesforce에서 직원 세부 정보를 불러와 자동으로 Learning Manager에 가져올 수 있습니다. 이러한 자동화를 통해 CSV를 생성하고 Learning Manager로 업로드할 때 필요한 수작업을 피할 수 있습니다.
 
-### 자동 일정
+### 자동 일정 {#auto-schedule}
 
 자동 예약 기능과 함께 자동 사용자 가져오기 기능을 사용하면 효과적일 수 있습니다. Learning Manager 책임자는 조직 필요에 따라 일정을 설정할 수 있습니다. Learning Manager 응용 프로그램 사용자는 일정에 따라 최신 상태를 유지할 수 있습니다. Learning Manager 응용 프로그램에서 매일 동기화를 수행할 수 있습니다.
 
-### 사용자 필터링
+### 사용자 필터링 {#filtering-user}
 
 Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적용할 수 있습니다. 예를 들면, Learning Manager 책임자는 하나 이상의 특정 관리자 아래에 있는 모든 등급의 사용자를 가져올 수 있습니다.
 
@@ -130,14 +130,14 @@ Salesforce 열을 선택하여 해당 Learning Manager의 그룹화 가능 속�
 1. **[!UICONTROL 아니요. 모든 연락처 가져오기]**. 연락처를 필터링하지 않고 직접 필드를 매핑할 수 있습니다. 여기에서는 Salesforce에서 모든 연락처를 가져옵니다.
 1. 가져오기를 시작하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
-## 학습 기록 내보내기
+## 학습 기록 내보내기 {#export-learning-records}
 
 Learning Manager에서는 성적 증명서, 사용자 보고서, 스킬 보고서와 같이 학습 기록을 Salesforce로 내보내는 기능을 제공합니다. 내보낸 데이터를 Salesforce의 &#39;사용자&#39; 테이블과 연결할 지 또는 &#39;연락처&#39; 테이블과 연결할 지를 결정할 수 있습니다.
 
 ![](assets/export-events-new.png)
 *학습 기록 내보내기*
 
-### Salesforce의 사용자 정의 개체
+### Salesforce의 사용자 정의 개체 {#custom-objects-in-salesforce}
 
 Learning Manager에서 학습 기록을 내보내기 전에 Salesforce에서 사용자 정의 개체를 만들어야 합니다. 사용자 정의 개체는 회사 또는 산업 관련 정보를 저장하기 위해 만드는 개체입니다. 자세한 내용은 [Salesforce 사용자 정의 개체](https://trailhead.salesforce.com/en/content/learn/modules/data_modeling/objects_intro)를 참조하십시오.
 
@@ -171,11 +171,11 @@ Learning Manager에서 학습 기록을 내보내기 전에 Salesforce에서 사
 >
 >Salesforce의 실행 상태 페이지에서 처리된 레코드 개수는 Salesforce에서만 확인할 수 있습니다. Learning Manager는 처리된 모든 레코드에서 부분적으로 내보내거나 실패했을 때에도 상태를 완료됨으로 표시합니다.
 
-## Salesforce 패키지 설치
+## Salesforce 패키지 설치 {#install-salesforce-package}
 
 Learning Manager에서는 Salesforce 앱 패키지를 제공합니다. SFDC에 Salesforce 앱 패키지를 설치하고 구성한 영업 직원은 SFDC 포털에서 교육 활동을 수행할 수 있습니다. 이 앱을 설치한 SFDC 사용자는 새로운 교육 과정을 탐구하고, 권장 사항을 확인하며, SFDC 포털에서 바로 이와 같은 컨텐츠를 확인할 수 있습니다. 또한 사용자는 책임자가 SFDC 포털의 앱에서 바로 보낸 발행인란 형식의 공지를 받습니다.
 
-### Learning Manager 앱에서 설정
+### Learning Manager 앱에서 설정 {#setup-in-learning-manager-app}
 
 1. Learning Manager 책임자 계정에 통합 책임자 권한으로 로그인합니다.
 1. **[!UICONTROL 응용 프로그램]** > **[!UICONTROL 추천 앱]**&#x200B;을 클릭합니다.
@@ -186,14 +186,14 @@ Learning Manager에서는 Salesforce 앱 패키지를 제공합니다. SFDC에 S
 1. OAuth 코드 얻기 섹션에서 클라이언트 ID 및 범위를 - admin:read,admin:write 로 설정해야 합니다. **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 1. 새로 고침 토큰 얻기 섹션에 클라이언트 ID와 클라이언트 비밀번호를 입력합니다. **[!UICONTROL 제출]**&#x200B;을 클릭하고 새로 고침 토큰을 확인합니다.
 
-### Salesforce 앱에서 계정 개설
+### Salesforce 앱에서 계정 개설 {#create-account-in-salesforce-app}
 
 1. Salesforce 등록 페이지에서 계정을 개설할 수 있습니다. Salesforce 계정은 반드시 개발자 에디션이나 엔터프라이즈 에디션에서 개설해야 합니다.  [개발자 등록 URL](https://developer.salesforce.com/signup). Learning Manager에 사용할 Salesforce에 등록하려면 이메일 ID를 입력해야 합니다.
 1. 확인 이메일을 통해 사용자의 계정을 확인합니다.
 1. 비밀번호를 등록하고 Salesforce에 로그인합니다.
 1. 로그인 후 Salesforce URL(예: site.lightning.force.com)을 메모합니다.
 
-### Learning Manager 패키지 설치
+### Learning Manager 패키지 설치 {#install-learning-manager-package}
 
 Captivate Prime 패키지를 설치하려면 먼저 Salesforce의 기존 패키지를 삭제해야 합니다. 기존 패키지를 제거하기 전에 아래에 보이는 것처럼 설정을 활성화해야 합니다. 이 설정을 적용하지 않으면 Captivate Prime 패키지를 설치할 수 없습니다.
 
@@ -215,7 +215,7 @@ Captivate Prime 패키지를 설치하려면 먼저 Salesforce의 기존 패키�
    * **RefreshToken:** 첫 번째 섹션에서 확보한 값을 입력하십시오.
    * **LearningManagerBaseURL:** Learning Manager가 호스팅되는 사이트의 URL입니다.
 
-### 원격 사이트 설정 추가
+### 원격 사이트 설정 추가 {#add-remote-site-settings}
 
 1. 페이지의 오른쪽 상단에서 **[!UICONTROL 설정]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 빠른 찾기]**&#x200B;에서 원격 사이트 설정을 검색합니다.
@@ -227,7 +227,7 @@ Captivate Prime 패키지를 설치하려면 먼저 Salesforce의 기존 패키�
 
 1. Learning Manager를 실행합니다.
 
-### Learning Manager 앱에 대한 알림 활성화
+### Learning Manager 앱에 대한 알림 활성화 {#enable-notifications-for-learning-manager-app}
 
 1. 오른쪽 상단에서 **[!UICONTROL 설정]**&#x200B;을 클릭합니다.
 1. &#39;사용자 정의 알림&#39;을 검색합니다.
@@ -252,7 +252,7 @@ Captivate Prime 패키지를 설치하려면 먼저 Salesforce의 기존 패키�
 1. Salesforce 앱에서 &#39;설치된 패키지&#39;로 이동합니다.
 1. **[!UICONTROL 제거]**&#x200B;를 클릭합니다.
 
-## Salesforce 사용자용 Learning Manager 구성
+## Salesforce 사용자용 Learning Manager 구성 {#configure-learning-manager-for-salesforce-users}
 
 Learning Manager 앱은 Salesforce 계정에 있는 사용자도 사용할 수 있습니다. Salesforce 책임자는 프로필을 기반으로 사용자를 추가할 수 있습니다. Salesforce 프로필은 Learning Manager의 프로필과 유사합니다. 예를 들어, 책임자, 통합 책임자, 강사 등입니다. Salesforce 관리자는 또한 사용자 정의 프로필을 만들 수 있습니다.
 
@@ -292,9 +292,9 @@ Salesforce 관리자는 프로필을 사용자에게 할당하거나 사용자 �
 
 **[!UICONTROL 저장]**&#x200B;을 클릭하면 모든 프로필에 속한 사용자가 Learning Manager 앱에 액세스합니다.
 
-### 학습 경로 관련 변경 사항
+### 학습 경로 관련 변경 사항 {#learning-path-changes}
 
-#### 기존 연결
+#### 기존 연결 {#existing-connections}
 
 책임자 계정에서 학습 경로 옵션이 비활성화된 경우 보고서에 행과 열이 추가되지 않습니다.
 
@@ -304,7 +304,7 @@ Salesforce 관리자는 프로필을 사용자에게 할당하거나 사용자 �
 >
 >플래그가 활성화되어 있고 기존 연결을 사용하는 경우 일부 레코드가 누락될 수 있습니다.
 
-#### 새 연결
+#### 새 연결 {#new-connections}
 
 책임자 계정에서 학습 경로 옵션이 비활성화된 경우, 교육 보고서는 다음 열로 구성되지만 데이터는 포함되지 않습니다.
 
@@ -324,7 +324,7 @@ Learning Manager와 임시 외부 시스템을 통합하는 FTP 커넥터를 사
 
 데이터 마이그레이션, 사용자 가져오기 및 데이터 내보내기에 Box 커넥터를 사용할 수도 있습니다. 자세한 내용은 Box 커넥터 를 참조하십시오.
 
-### 데이터 가져오기 {#dataimport}
+### 데이터 가져오기 {#data-import}
 
 사용자 가져오기 프로세스를 통해 Learning Manager 책임자는 Learning Manager FTP 서비스에서 직원 세부 정보를 불러와 자동으로 Learning Manager에 가져올 수 있습니다. 이 기능을 사용하면 이러한 시스템에서 생성된 CSV를 FTP 계정 폴더에 적절하게 배치하여 여러 시스템을 통합할 수 있습니다. Learning Manager는 CSV 파일을 가져와 병합한 다음 일정에 따라 데이터를 가져옵니다. 자세한 내용은 스케줄링 기능을 참조하십시오.
 
@@ -333,19 +333,19 @@ Learning Manager와 임시 외부 시스템을 통합하는 FTP 커넥터를 사
 통합 책임자는 CSV 열을 선택하고 이를 Learning Manager의 그룹화 가능 속성에 매핑할 수 있습니다. 매핑은 시간 작업입니다. 한번 매핑을 완료하면 다음 사용자를 가져와도 동일한 매핑을 사용할 수 있습니다. 책임자가 사용자를 가져오기 위해 다른 매핑을 사용하려는 경우 매핑을 재구성할 수 있습니다.
 
 
-#### 데이터 내보내기 {#exportdata}
+#### 데이터 내보내기 {#export-data}
 
 데이터 내보내기를 사용하면 사용자 스킬과 학습자 성적 증명서를 FTP 위치로 내보내 타사 시스템과 통합할 수 있습니다.
 
-#### 스케줄링
+#### 스케줄링 {#scheduling}
 
 책임자는 조직의 요구 사항에 따라 스케줄링 작업을 설정할 수 있으며, 일정에 따라 Learning Manager 응용 프로그램의 사용자는 최신 상태를 유지합니다. 마찬가지로, 통합 책임자는 외부 시스템과 통합되도록 적시에 스킬 내보내기를 예약할 수 있습니다. 동기화는 Learning Manager 응용 프로그램에서 매일 수행할 수 있습니다.
 
-### Learning Manager FTP 커넥터 구성 {#configurecaptivateprimeftpconnector}
+### Learning Manager FTP 커넥터 구성 {#configure-captivate-prime-ftp-connector}
 
 FTP 커넥터와 Learning Manager를 통합하려면 다음 과정을 배워봅니다.
 
-#### 연결 생성 {#Createaconnection-1}
+#### 연결 생성 {#Create-a-connection-1}
 
 1. Learning Manager 홈 페이지에서 FTP 카드/썸네일 위에 마우스를 올립니다. 그러면 메뉴가 나타납니다. 메뉴에서 연결 항목을 선택합니다.
 
@@ -385,11 +385,11 @@ FTP 클라이언트를 사용하여 FTP 서버에 연결하려면 다음 정보�
 다음 정보를 입력합니다.
 
 * **호스트**: FTP 서버의 주소를 입력하십시오.
-* **포트**: 서버가 21을 초과하는 포트를 사용하는 경우 올바른 포트 번호를 입력하십시오.
-* **프로토콜**: **[!UICONTROL SFTP - SSH 파일 전송 프로토콜]**&#x200B;을 선택합니다.
-* **로그온 유형**: **[!UICONTROL 표준]**&#x200B;을 선택합니다.
-* **사용자**: FTP 사용자 이름을 입력하십시오.
-* **암호**: FTP 암호를 입력하십시오.
+* **포트**: 서버가 21 이상의 포트를 사용하는 경우 올바른 포트 번호를 입력합니다.
+* **프로토콜**: SFTP – SSH 파일 전송 프로토콜을&#x200B;]**선택합니다**[!UICONTROL .
+* **로그온 유형**: 보통을&#x200B;]**선택합니다**[!UICONTROL .
+* **사용자**: FTP 사용자 이름을 입력합니다.
+* **암호**: FTP 암호를 입력합니다.
 
 **7단계: FTP 서버에 연결**
 
@@ -397,7 +397,7 @@ FTP 클라이언트를 사용하여 FTP 서버에 연결하려면 다음 정보�
 
 **8단계: 파일 탐색 및 전송**
 
-연결되면 오른쪽에는 원격 파일이 표시되고 왼쪽에는 로컬 파일이 표시됩니다. 패널 간에 끌어다 놓아 디렉터리를 탐색하고 파일을 전송할 수 있습니다.
+연결되면 오른쪽에 원격 파일이, 왼쪽에 로컬 파일이 표시됩니다. 여러 디렉토리를 탐색할 수 있으며 패널 간에 파일을 드래그 앤 드롭하여 파일을 전송할 수 있습니다.
 
 >[!CAUTION]
 >
@@ -422,7 +422,7 @@ FTP 클라이언트를 사용하여 FTP 서버에 연결하려면 다음 정보�
    ![](assets/ftp-connector-dashboard.png)
    *Export options*-->
 
-### 내부 사용자
+### 내부 사용자 {#import}
 
 +++내부 사용자
 
@@ -517,7 +517,7 @@ xAPI 가져오기 옵션을 사용하면 온디맨드로 제3자 서비스에서
 1. 왼쪽 창에서 **[!UICONTROL 온디맨드 실행]**&#x200B;을 클릭합니다.
 
    ![](assets/on-demand.png)
-   *xAPI 명령문 가져오기 - 온디맨드*
+   *xAPI 문 가져오기 - 온디맨드*
 
 1. 왼쪽 창에서 **[!UICONTROL &#39;실행 상태&#39;]**&#x200B;를 클릭하여 이 커넥터에 대한 모든 실행의 요약을 시간 순서대로 볼 수 있습니다. xAPI 가져오기 시작 날짜 및 기간, 가져오기 유형(예약 또는 온디맨드 동기화인지 여부) 및 가져오기 상태(xAPI 가져오기가 진행 중인지 완료되었는지 또는 실패했는지 여부)를 볼 수 있습니다.
 
@@ -572,7 +572,7 @@ The auto-exported files are present in the location **Home/export/&#42;FTP_locat
 
 The auto-exported files are available with the title, **learner_transcript_&#42;date from&#42;_to_&#42;date to&#42;.csv**-->
 
-### 수동 csv 필드 지원 {#supportformanualcsvfields}
+### 수동 csv 필드 지원 {#support-for-manual-csv-fields}
 
 FTP를 통해 사용자 데이터를 가져오는 동안 관리자는 시스템에 있는 모든 활성 필드를 csv의 해당하는 필드에 매핑해야 합니다.
 
@@ -587,11 +587,11 @@ FTP를 통해 사용자 데이터를 가져오는 동안 관리자는 시스템�
 ![](assets/ftp-conector-foractivefields.png)
 *활성 필드에 대한 FTP 커넥터*
 
-## Lynda 커넥터 {#lyndaconnector}
+## Lynda 커넥터 {#lynda-connector}
 
 Lynda 커넥터는 학습자가 Learning Manager 내의 Lynda 과정을 발견하고 이용하길 원하는 Lynda.com 기업용 고객이 사용합니다. API 키를 사용하면 Lynda.com에서 과정을 정기적으로 가져오도록 커넥터를 구성할 수 있습니다. Learning Manager에서 과정을 한 번 생성하고 나면 사용자는 생성한 과정을 찾거나 수료할 수 있습니다. 그런 다음 Learning Manager에서 학습자 진행 상황을 확인할 수 있습니다.
 
-### Lynda 커넥터 구성 {#configurethelyndaconnector}
+### Lynda 커넥터 구성 {#configure-the-lynda-connector}
 
 1. 통합 책임자 대시보드에서 Lynda를 클릭합니다.
 
@@ -655,7 +655,7 @@ Lynda 커넥터는 학습자가 Learning Manager 내의 Lynda 과정을 발견�
 
 getAbstract 커넥터는 학습자가 getAbstract의 내용을 확인하고 사용하길 원하는 getAbstract.com 기업용 고객이 사용합니다. 이 커넥터는 Learning Manager 내에서 생성되는 학습자 완료 레코드를 기준으로 사용 데이터를 정기적으로 가져오도록 구성할 수 있습니다. 계속해서 Learning Manager에서 어떻게 이 커넥터를 구성하는지 알아봅니다.
 
-### getAbstract 커넥터 구성 {#configurethegetabstractconnector}
+### getAbstract 커넥터 구성 {#configure-the-get-abstract-connector}
 
 1. 통합 책임자 대시보드에서 getAbstract를 클릭합니다.
 
@@ -685,7 +685,7 @@ getAbstract 커넥터는 학습자가 getAbstract의 내용을 확인하고 사�
 
    *Learning Manager용 getAbstract 커넥터 구성*
 
-1. 왼쪽 창에서 &#39;구성&#39;을 클릭합니다. 다음 중 하나를 실행합니다.
+1. 왼쪽 창에서 [구성]을 클릭합니다. 다음 중 하나를 실행합니다.
 
    * 이 창에서 계정의 세부 정보 및 동기화 예약을 보거나 편집합니다. 이 계정을 사용하려면 연결 사용 확인란을 선택합니다.
    * &#39;편집&#39;을 클릭하고 인증서를 수정합니다. 이 영역에 대한 업데이트를 취소하려면 &#39;재설정&#39;을 클릭합니다.
@@ -717,7 +717,7 @@ getAbstract 커넥터는 학습자가 getAbstract의 내용을 확인하고 사�
 
 Harvard ManageMentor 커넥터는 학습자가 Harvard ManageMentor 과정을 확인하고 이용하길 원하는 Harvard ManageMentor 기업용 고객이 사용합니다. 이 커넥터는 Learning Manager에서 과정을 만드는 데 도움이 되며 학습자 진행률 데이터를 정기적으로 가져오도록 구성할 수 있습니다. 이 커넥터를 구성하기 위해서 다음 과정을 따라 주십시오.
 
-### Harvard ManageMentor 커넥터 구성 {#configuretheharvardmanagermentorconnector}
+### Harvard ManageMentor 커넥터 구성 {#configure-the-harvard-managermentor-connector}
 
 1. 통합 책임자 대시보드에서 &#39;Harvard ManageMentor&#39;를 클릭하십시오.
 
@@ -775,21 +775,21 @@ Harvard ManageMentor 커넥터는 학습자가 Harvard ManageMentor 과정을 �
 
 Learning Manager와 임시 외부 시스템을 통합하는 Box 커넥터를 사용하여 데이터를 자동으로 동기화할 수 있습니다.
 
-### 가져오기
+### 가져오기 {#import-1}
 
-#### 맵 속성
+#### 맵 속성 {#map-attributes-1}
 
 통합 책임자는 Workday 열을 선택하고 이를 해당 Learning Manager의 그룹화 가능 속성에 매핑할 수 있습니다. 매핑을 완료하면 다음 사용자가 가져와도 동일한 매핑이 사용됩니다. 책임자가 사용자를 가져오기 위해 다른 매핑을 사용하려는 경우 이 매핑을 재구성할 수 있습니다.
 
-#### 자동으로 사용자 가져오기
+#### 자동으로 사용자 가져오기 {#automated-user-import-1}
 
 사용자 가져오기 프로세스를 통해 Learning Manager 책임자는 Workday에서 직원 세부 정보를 불러와 자동으로 Learning Manager에 가져올 수 있습니다.
 
-#### 사용자 필터링
+#### 사용자 필터링 {#filtering-users}
 
 Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적용할 수 있습니다. 예를 들면, Learning Manager 책임자는 하나 이상의 특정 관리자 아래에 있는 모든 등급의 사용자를 가져올 수 있습니다.
 
-### 내보내기
+### 내보내기 {#export}
 
 사용자 스킬 내보내기를 사용하면 사용자 스킬을 Workday로 자동으로 내보낼 수 있습니다.
 
@@ -797,7 +797,7 @@ Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적�
 >
 >여러 Learning Manager 계정의 스킬은 동일한 Workday 계정을 사용하여 동시에 내보낼 수 없습니다.
 
-#### 참고 사항
+#### 참고 사항 {#points-to-note}
 
 * 여러 Workday 통합 시 UUID, 이메일 주소 및 직원 이름이 고유한지 확인합니다. 값이 잘못되면 연결 오류가 발생합니다.
 * Workday을 통해 입력된 UUID 필드는 클라이언트가 LMS 관리자가 있는 경우 삭제할 수 없습니다. 값을 변경하려면 Adobe Learning Manager 온보딩 또는 지원 팀에 문의하십시오.
@@ -807,7 +807,7 @@ Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적�
 
 책임자는 조직 요구에 따라 스케줄링 작업을 설정할 수 있으며, 일정에 따라 Learning Manager 응용 프로그램의 사용자는 최신 상태를 유지합니다. 마찬가지로, 통합 책임자는 외부 시스템과 통합되도록 적시에 스킬 내보내기를 예약할 수 있습니다. Learning Manager 응용 프로그램에서 매일 동기화를 수행할 수 있습니다.
 
-### Workday 커넥터 구성 {#configureworkdayconnector}
+### Workday 커넥터 구성 {#configure-workday-connector}
 
 >[!PREREQUISITES]
 >
@@ -851,9 +851,9 @@ Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적�
 ![](assets/overview.png)
 *Workday 개요*
 
-### 가져오기
+### 가져오기 {#import-5}
 
-#### 맵 속성 {#MapAttributes-1}
+#### 맵 속성 {#map-attributes-4}
 
 Learning Manager와 Workday를 통합하는 Workday 커넥터를 사용하여 데이터를 자동으로 동기화할 수 있습니다. 모든 활성 사용자를 Workday에서 Learning Manager로 가져올 수 있습니다. FTP 및 Salesforce를 비롯한 다양한 데이터 원본에서 사용자를 가져올 수 있습니다.
 
@@ -910,45 +910,45 @@ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summar
 wd:Job_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1.$
 wd:Job_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1.$
-wd:Job_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1입니다.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Name
-wd:Job_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Formatted_Address
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1.$
-wd:Employment_Data.wd:Worker_Status_Data.wd:Active
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1입니다.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2입니다.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1입니다.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0입니다.@wd:Formatted_Address
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1입니다.$
+wd:Employment_Data.wd:Worker_Status_Data.wd:활성
 wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date
-wd:Employment_Data.wd:Worker_Status_Data.wd:Retired
-wd:Employment_Data.wd:Worker_Status_Data.wd:Retival_Date
-wd:Employment_Data.wd:Worker_Status_Data.wd:Terminated
+wd:Employment_Data.wd:Worker_Status_Data.wd:사용 중지됨
+wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:종료됨
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Last_Day_of_Work
 wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Code
 wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Name
-wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Type_Reference.wd:ID.1.$
-wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1.$
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Type_Reference.wd:ID.1입니다.$
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1입니다.$
 wd:Qualification_Data.wd:Education.0.wd:School_Name
 wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title
-wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Company
+wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:회사
 wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID
-기본 작업 전자 메일
-wd:Organization_Type_Reference_Cost_Center_ID
-wd:Organization_Type_Reference_Cost_Center_Name
-wd:Organization_Type_Reference_Company
-wd:Organization_Subtype_Reference_Department
-wd:Organization_Subtype_Reference_Division
+기본 직장 이메일
+WD:Organization_Type_Reference_Cost_Center_ID
+WD:Organization_Type_Reference_Cost_Center_Name
+WD:Organization_Type_Reference_Company
+WD:Organization_Subtype_Reference_Department
+WD:Organization_Subtype_Reference_Division
 wd:Universal_ID
-wd:Integration_Field_Override_Data.3.wd:Value
+wd:Integration_Field_Override_Data.3.wd:값
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2.$
-wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Community
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2입니다.$
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:시정촌
 
 +++
 
-### 내보내기
+### 내보내기 {#export-1}
 
 사용자가 달성한 모든 스킬을 Learning Manager에서 Workday로 내보낼 수 있습니다. 모든 활성 사용자 스킬만 내보내고 Learning Manager는 비활성화된 스킬을 내보내지 않습니다. 여러 Learning Manager를 연결할 수도 있습니다\
 계정을 동일한 Workday 커넥터에 연결합니다. 두 Learning Manager 계정에서 스킬 이름이 동일한 경우, Workday에서 동일한 스킬에 매핑됩니다. Workday에서 스킬을 업데이트하기 전에 두 Learning Manager 계정이 동일한 Workday 계정을 사용하는 경우 모든 Learning Manager 계정의 스킬 이름을 업데이트하는 것이 좋습니다.
@@ -980,27 +980,27 @@ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Community
 
 +++
 
-## miniOrange 커넥터 {#miniorangeconnector}
+## miniOrange 커넥터 {#mini-orange-connector}
 
 Learning Manager와 miniOrange 테넌트를 통합하는 miniOrange 커넥터를 사용하여 데이터를 자동으로 동기화할 수 있습니다.
 
-### 가져오기
+### 가져오기 {#import-6}
 
-#### 맵 속성
+#### 맵 속성 {#map-attributes-5}
 
 통합 책임자는 miniOrange 속성을 선택하고, 이를 해당 Learning Manager 그룹화 가능 속성에 매핑할 수 있습니다. 매핑을 완료하면 다음 사용자가 가져와도 동일한 매핑이 사용됩니다. 책임자가 사용자를 가져오기 위해 다른 매핑을 사용하려는 경우 이 매핑을 재구성할 수 있습니다.
 
-#### 자동으로 사용자 가져오기
+#### 자동으로 사용자 가져오기 {#automated-user-import-3}
 
 사용자 가져오기 프로세스를 통해 Learning Manager 책임자는 miniOrange에서 직원 세부 정보를 불러와 자동으로 Learning Manager에 가져올 수 있습니다.
 
-#### 사용자 필터링
+#### 사용자 필터링 {#filtering-users-3}
 
 Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적용할 수 있습니다. 예를 들면, Learning Manager 책임자는 하나 이상의 특정 관리자 아래에 있는 모든 등급의 사용자를 가져올 수 있습니다.
 
 설정하려면   미니오렌지   Learning Manager CSM 팀으로 문의해 주십시오.
 
-### miniOrange 커넥터 구성 {#configureminiorangeconnector}
+### miniOrange 커넥터 구성 {#configure-mini-orange-connector}
 
 1. Learning Manager 홈 페이지에서 miniOrange 카드/썸네일 위로 마우스를 가져갑니다. 그러면 메뉴가 나타납니다. 메뉴에서 **[!UICONTROL 연결]** 옵션을 클릭합니다.
 
@@ -1073,7 +1073,7 @@ Learning Manager와 Zoom 커넥터를 통합하여 클래스를 호스트할 수
    ![](assets/attendence-and-scoringreport.png)
    *출석 및 점수 보고서*
 
-### Zoom 서버-서버 OAuth 앱 만들기
+### Zoom 서버-서버 OAuth 앱 만들기 {#create-a-zoom-server-to-server-oauth-app}
 
 Adobe Learning Manager에서 사용할 Zoom 서버-서버 OAuth 앱을 만드는 경우 연결을 만드는 동안 Adobe Learning Manager에서 요구하는 범위를 추가해야 합니다.
 
@@ -1085,13 +1085,13 @@ Adobe Learning Manager는 다음과 같은 범위가 필요하며 해당 범위�
 * 모든 사용자 정보 보기 `/user:read:admin`
 * 사용자 정보를 보고 사용자 `/user:write:admin` 관리
 
-## Box 커넥터 {#boxconnector}
+## Box 커넥터 {#box_connector}
 
 Learning Manager와 임시 외부 시스템을 통합하는 Box 커넥터를 사용하여 데이터를 자동으로 동기화할 수 있습니다. 외부 시스템에서 CSV 형식으로 데이터를 내보낼 수 있고, Learning Manager Box 계정의 적절한 폴더에 배치할 수 있어야 합니다. Box 커넥터의 기능은 다음과 같습니다.
 
 데이터 마이그레이션, 사용자 가져오기 및 데이터 내보내기에 FTP 커넥터를 사용할 수도 있습니다. 자세한 내용은 [Learning Manager FTP 커넥터](connectors.md#main-pars_header_1427405935)를 참조하십시오.
 
-### 데이터 가져오기 {#DataImport-1}
+### 데이터 가져오기 {#data-import-1}
 
 사용자 가져오기 프로세스를 통해 Learning Manager 책임자는 Learning Manager Box 서비스에서 직원 세부 정보를 불러와 자동으로 Learning Manager에 가져올 수 있습니다. 이 기능을 사용하면 이러한 시스템에서 생성된 CSV를 Box 계정 폴더에 적절하게 배치하여 여러 시스템을 통합할 수 있습니다. Learning Manager는 CSV 파일을 가져와 병합한 다음 일정에 따라 데이터를 가져옵니다. 자세한 내용은 스케줄링 기능을 참조하십시오.
 
@@ -1099,15 +1099,15 @@ Learning Manager와 임시 외부 시스템을 통합하는 Box 커넥터를 사
 
 통합 책임자는 CSV 열을 선택하고 이를 Learning Manager의 그룹화 가능 속성에 매핑할 수 있습니다. 매핑은 한 번만 작업하면 됩니다. 한번 매핑을 완료하면 다음 사용자를 가져와도 동일한 매핑을 사용할 수 있습니다. 책임자가 사용자를 가져오기 위해 다른 매핑을 사용하려는 경우 매핑을 재구성할 수 있습니다.
 
-## 데이터 내보내기 {#dataexport}
+## 데이터 내보내기 {#data-export}
 
 데이터 내보내기를 사용하면 사용자 스킬과 학습자 성적 증명서를 Box 위치로 내보내 타사 시스템과 통합할 수 있습니다.
 
-## 일정 보고 {#schedulereports}
+## 일정 보고 {#schedule-reports}
 
 책임자는 조직 요구에 따라 스케줄링 작업을 설정할 수 있으며, 일정에 따라 Learning Manager 응용 프로그램의 사용자는 최신 상태를 유지합니다. 마찬가지로, 통합 책임자는 외부 시스템과 통합되도록 적시에 스킬 내보내기를 예약할 수 있습니다. Learning Manager 응용 프로그램에서 매일 동기화를 수행할 수 있습니다.
 
-## Box 커넥터 구성 {#configureboxconnector}
+## Box 커넥터 구성 {#boxconnector}
 
 Box 커넥터와 Learning Manager를 통합하려면 다음 과정을 배워봅니다.
 
@@ -1133,7 +1133,7 @@ Box 커넥터와 Learning Manager를 통합하려면 다음 과정을 배워봅�
    * 학습자 성적 증명서 내보내기 - 일정 구성
    * 학습자 성적 증명서 내보내기 - 온디맨드
 
-## 내부 사용자
+## 내부 사용자 {#import-7}
 
 +++내부 사용자
 
@@ -1236,7 +1236,7 @@ xAPI 보고서 활동 옵션을 사용하면 제3자 서비스에서 xAPI 명령
 
 +++
 
-## 내보내기
+## 내보내기 {#export-2}
 
 +++스킬
 
@@ -1258,7 +1258,7 @@ Box 위치에서 내보낸 파일이 있는 내보내기 폴더를 열기 위해
 >
 >고객은 Learning Manager 팀이 공유하는 Box 폴더의 액세스 권한과 콘텐츠를 관리합니다.  또한 폴더의 콘텐츠는 프랑크푸르트 지역에 물리적으로 저장됩니다.
 
-### 수동 csv 필드 지원 {#Supportformanualcsvfields-1}
+### 수동 csv 필드 지원 {#support-for-manual-csv-fields-1}
 
 Box를 통해 사용자 데이터를 가져오는 동안 관리자는 시스템에 있는 모든 활성 필드를 csv의 해당하는 필드에 매핑해야 합니다.
 
@@ -1291,7 +1291,7 @@ LinkedIn Learning 커넥터는 학습자가 Learning Manager에서 과정을 확
 >
 >LinkedIn 학습 과정에서 소요된 학습 시간은 LinkedIn 콘텐츠/LinkedIn 플랫폼에서 Learning Manager 학습 플랫폼으로 전달합니다. LinkedIn 학습에서 학습 시간을 전송하지 않는 경우 학습 플랫폼에서 기록할 수 없습니다. 이러한 경우 Learning Manager에서 표시한 소요 학습 시간은 0입니다.
 
-### LinkedIn Learning 포털 설정 구성 {#configuresettingsinlinkedlnlearningportal}
+### LinkedIn Learning 포털 설정 구성 {#configure-settings-in-linkedln-learning-portal}
 
 1. Linkedln Learning LMS에 책임자로 로그인합니다.
 1. 상단 탐색 패널에서 **[!UICONTROL 관리자]**&#x200B;를 클릭합니다.
@@ -1305,7 +1305,7 @@ LinkedIn Learning 커넥터는 학습자가 Learning Manager에서 과정을 확
 
    *LinkedIn 학습 구성*
 
-### LinkedIn Learning 커넥터 구성 {#configurelinkedinlearningconnector}
+### LinkedIn Learning 커넥터 구성 {#configure-linkedin-learning-connector}
 
 1. 통합 책임자 대시보드에서 [!UICONTROL LinkedIn 학습]을 클릭합니다. 시작, 연결, 연결 관리. 이렇게 세 가지 옵션을 볼 수 있습니다.
 1. linkedIn Learning 커넥터를 처음 구성하는 경우 [!UICONTROL 연결]을 클릭합니다.
@@ -1404,7 +1404,7 @@ LinkedIn 학습 강의에 사용자 정의 태그를 추가하는 데 사용할 
 
 이 커넥터와의 통합을 사용하여 기존 Power BI 계정을 활용하여 Power BI 내에서 Learning Manager의 학습 데이터를 분석하고 시각화할 수 있습니다. 통합 책임자는 구성 중에 Power BI 작업 공간을 두 개의 실시간 데이터 세트(학습자 성적 증명서 및 사용자 스킬 보고서)로 증분적으로 채우도록 설정할 수 있습니다. 그런 다음 Power BI의 모든 기능과 능력을 사용하여 조직에서 원하는 대로 사용자 지정 대시보드를 개발, 배치 및 배포할 수 있습니다.
 
-### 커넥터 구성 {#configuringtheconnector}
+### 커넥터 구성 {#configuring-the-connector}
 
 커넥터를 구성하려면 **[!UICONTROL 커넥터]** 페이지에서 **[!UICONTROL Power BI]** 타일 위로 마우스를 가져간 다음 **[!UICONTROL 연결]**&#x200B;을 클릭하세요. Power BI 페이지가 열립니다. 연결을 설정하려면 App Client ID, App Client 비밀, 테넌트 이름 및 Workspace ID(선택 사항)를 제공합니다. 이와 같은 자격을 습득하려면 다음 단계를 수행합니다.
 
@@ -1451,7 +1451,7 @@ LinkedIn 학습 강의에 사용자 정의 태그를 추가하는 데 사용할 
 
 내보낸 데이터는 Power BI 계정에 로그인하여 볼 수 있습니다. 내보낸 데이터는 데이터 세트 옵션 아래에 정렬됩니다.
 
-### Learning Manager에서 xAPI 활동 보고서 내보내기 {#exportxapiactivityreportsincaptivateprime}
+### Learning Manager에서 xAPI 활동 보고서 내보내기 {#export-xapi-activity-reports-in-captivate-prime}
 
 PowerBI-xAPI 기능 페이지에서 **[!UICONTROL xAPI 활동 보고서 내보내기]**&#x200B;를 클릭합니다.
 
@@ -1566,7 +1566,7 @@ Learning Manager는 준비된 Power BI 템플릿도 제공합니다. 이러한 �
 
 위 링크를 통해 수동으로 템플릿을 다운로드할 수도 있습니다. 템플릿을 사용하고 그에 따라 보고서를 사용자 정의하십시오.
 
-### 교육 보고서 내보내기
+### 교육 보고서 내보내기 {#export-training-report}
 
 통합 보고서 기능의 일부로 교육 보고서를 Power BI로 내보낼 수 있습니다.
 
@@ -1578,9 +1578,9 @@ Learning Manager는 준비된 Power BI 템플릿도 제공합니다. 이러한 �
 ![](assets/export-training-report.png)
 *교육 보고서 내보내기*
 
-### 학습 경로 관련 변경 사항
+### 학습 경로 관련 변경 사항 {#learning-path-related-changes}
 
-#### 책임자: 학습 성적 증명서 및 통합 보고서
+#### 책임자: 학습 성적 증명서 및 통합 보고서 {#learning-transcripts-and-unified-reports}
 
 **기존 연결**
 
@@ -1600,7 +1600,7 @@ Learning Manager는 준비된 Power BI 템플릿도 제공합니다. 이러한 �
 
 유형 열에서 학습 프로그램은 학습 경로로 이름이 변경됩니다. 기존 연결에서는 변경되지 않습니다. 그러나 새 연결의 경우, 변경 사항은 30일 후에 반영됩니다.
 
-#### 교육 보고서: 통합 보고서
+#### 교육 보고서: 통합 보고서 {#training-report}
 
 **기존 연결**
 
@@ -1628,13 +1628,13 @@ Learning Manager는 준비된 Power BI 템플릿도 제공합니다. 이러한 �
 >
 >사용자 정의 FTP를 설정하려면 CSM에 문의하십시오. CSM에서는 FTP 설정에 필요한 세부 사항을 제공합니다.
 >
->FTP 설정에는 리드 시간이 포함되며 IT 지원에서 IP 및 포트 목록을 허용하고 FTP 서버에서 특정 권한으로 특정 폴더를 만들어야 합니다.
+>FTP 설정에는 리드 타임이 필요하며 IP 및 포트 목록을 허용하고 FTP 서버에 대한 특정 권한을 가진 특정 폴더를 만들려면 IT 지원이 필요합니다.
 
 Learning Manager는 사용자 정의 FTP 위치에 연결하는 기능을 제공합니다.
 
 FTP는 다음을 지원합니다.
 
-### 데이터 가져오기
+### 데이터 가져오기 {#data-import-2}
 
 사용자 가져오기 프로세스를 통해 Learning Manager 책임자는 Learning Manager FTP 서비스에서 직원 세부 정보를 불러와 자동으로 Learning Manager에 가져올 수 있습니다. 이 기능을 사용하면 이러한 시스템에서 생성된 CSV를 FTP 계정 폴더에 적절하게 배치하여 여러 시스템을 통합할 수 있습니다. Learning Manager는 CSV 파일을 가져와 병합한 다음 일정에 따라 데이터를 가져옵니다. 자세한 내용은 스케줄링 기능을 참조하십시오.
 
@@ -1642,11 +1642,11 @@ FTP는 다음을 지원합니다.
 
 통합 책임자는 CSV 열을 선택하고 이를 Learning Manager의 그룹화 가능 속성에 매핑할 수 있습니다. 매핑은 한 번만 작업하면 됩니다. 한번 매핑을 완료하면 다음 사용자를 가져와도 동일한 매핑을 사용할 수 있습니다. 책임자가 사용자를 가져오기 위해 다른 매핑을 사용하려는 경우 매핑을 재구성할 수 있습니다.
 
-### 데이터 내보내기
+### 데이터 내보내기 {#data-export-3}
 
 데이터 내보내기를 사용하면 사용자 스킬과 학습자 성적 증명서를 FTP 위치로 내보내 타사 시스템과 통합할 수 있습니다.
 
-### 일정 보고
+### 일정 보고 {#schedule-reports-2}
 
 책임자는 조직 요구에 따라 스케줄링 작업을 설정할 수 있으며, 일정에 따라 Learning Manager 응용 프로그램의 사용자는 최신 상태를 유지합니다. 마찬가지로, 통합 책임자는 외부 시스템과 통합되도록 적시에 스킬 내보내기를 예약할 수 있습니다. Learning Manager 응용 프로그램에서 매일 동기화를 수행할 수 있습니다.
 
@@ -1678,7 +1678,7 @@ ADFS 연결 설정을 위한 필수 구성 요소:
 * 앱을 등록하기 전에 이 URL: [https://portal.azure.com/](https://portal.azure.com/)을(를) 사용하여 Azure Portal에 로그인합니다.
 * Azure Active Directory를 엽니다.
 
-## 응용 프로그램을 등록하는 단계입니다. {#stepstoregisteryourapplication}
+## 응용 프로그램을 등록하는 단계입니다. {#steps-to-register-your-application}
 
 * Azure Active Directory를 클릭합니다. **[!UICONTROL 추가]** > **[!UICONTROL 앱 등록]**&#x200B;을 클릭합니다.
 
@@ -1764,7 +1764,7 @@ ADFS 연결 설정을 위한 필수 구성 요소:
 
   <!-- *Select Add Permissions*-->
 
-### ADFS 구성 페이지
+### ADFS 구성 페이지 {#adfs-configuration-page}
 
 1. Adobe Learning Manager의 ADFS 구성 페이지에서 이전에 확보한 클라이언트 ID와 클라이언트 시크릿을 입력합니다.
 
@@ -1772,23 +1772,23 @@ ADFS 연결 설정을 위한 필수 구성 요소:
 
 1. **portal.azure.com**&#x200B;에 로그인합니다. 테넌트 ID 및 기본 도메인 필드 값이 채워집니다.
 
-### 가져오기
+### 가져오기 {#import-8}
 
-#### 맵 속성
+#### 맵 속성 {#map-attributes-6}
 
-통합 책임자는 ADFS 속성을 선택하고, 이를 해당 Learning Manager 그룹화 가능 속성에 매핑할 수 있습니다. 매핑을 완료하면 다음 사용자가 가져와도 동일한 매핑이 사용됩니다. 책임자가 사용자를 가져오기 위해 다른 매핑을 사용하려는 경우 이 매핑을 재구성할 수 있습니다.
+통합 책임자는 ADFS 속성을 선택하고 해당 Learning Manager의 그룹화 가능 속성에 매핑할 수 있습니다. 매핑을 완료하면 다음 사용자가 가져와도 동일한 매핑이 사용됩니다. 관리자가 사용자를 가져오기 위해 다른 매핑을 원할 경우 이 과정을 재구성할 수 있습니다.
 
-#### 자동으로 사용자 가져오기
+#### 자동으로 사용자 가져오기 {#automated-user-import-4}
 
-사용자 가져오기 프로세스를 통해 Learning Manager 책임자는 ADFS에서 직원 세부 정보를 불러와 자동으로 Learning Manager에 가져올 수 있습니다.
+사용자 가져오기 프로세스를 통해 Learning Manager 책임자는 ADFS에서 직원 세부 정보를 가져와 Learning Manager로 자동으로 가져올 수 있습니다.
 
-#### 사용자 필터링
+#### 사용자 필터링 {#filtering-users-4}
 
 Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적용할 수 있습니다. 예를 들면, Learning Manager 책임자는 하나 이상의 특정 관리자 아래에 있는 모든 등급의 사용자를 가져올 수 있습니다.
 
 ADFS 커넥터 를 설정하려면 Learning Manager CSM 팀에 문의하십시오.
 
-## ADFS 커넥터 구성 {#configureadfsconnector}
+## ADFS 커넥터 구성 {#configure-adfs-connector}
 
 1. Learning Manager 홈 페이지에서 ADFS 카드/썸네일 위로 마우스를 가져갑니다. 그러면 메뉴가 나타납니다. 메뉴에 있는 &#39;연결&#39; 을 클릭합니다.
 
@@ -1823,7 +1823,7 @@ ADFS 커넥터 를 설정하려면 Learning Manager CSM 팀에 문의하십시�
 
 1. 가져오기가 완료되면 알림이 옵니다. 가져오기 로그를 보거나 편집하려면 **[!UICONTROL 사용자]** > **[!UICONTROL 로그 가져오기]**&#x200B;를 클릭하세요.
 
-### 연결 삭제 {#Deleteaconnection-1}
+### 연결 삭제 {#delete-a-connection-1}
 
 설정된 miniOrange 연결을 삭제하려면 다음 단계를 따르십시오.
 
@@ -1843,7 +1843,7 @@ ADFS 커넥터 를 설정하려면 Learning Manager CSM 팀에 문의하십시�
 
 1. **[!UICONTROL 통합]**&#x200B;을 클릭합니다.
 
-   전자 메일 ID를 인증한 후 Connect가 성공적으로 통합되면 Learning Manager에 메시지가 표시됩니다. Adobe Connect를 사용하여 가상 강의실 강의를 자동으로 볼 수 있습니다.
+   이메일 ID를 인증하면 Learning Manager에 Connect가 성공적으로 통합되었다는 메시지가 표시됩니다. Adobe Connect를 사용하여 가상 강의실 강의를 자동으로 볼 수 있습니다.
 
    **Connect 계정 책임자가 전자 메일 ID를 인증하면, 승인을 위한 요청이 Adobe Connect 백엔드 팀에게 전달됩니다. 통합을 위한 승인과 설정에는 보통 1~2일이 소요됩니다.**
 
@@ -1851,7 +1851,7 @@ ADFS 커넥터 를 설정하려면 Learning Manager CSM 팀에 문의하십시�
    >
    >Adobe Connect 계정 책임자는 Adobe Connect 사용 약관에 동의해야 합니다. 이 권한이 수락되지 않으면 로그인 인증이 실패할 수 있습니다. Adobe Connect 계정을 생성한 후 계정에 한 번 로그인합니다. 처음 로그인하면 약관 페이지가 나타납니다.
 
-### 가상 강의실 세션 정보 추가 {#addvirtualclassroomsessioninformation}
+### 가상 강의실 세션 정보 추가 {#add-virtual-classroom-session-information}
 
 가상 강의실 강의 작성자가 세션 정보를 제공하지 않으면 책임자가 세션 세부 정보를 넣을 수 있습니다.
 
@@ -1974,7 +1974,7 @@ Learning Manager 앱의 Markeo Engage 연결의 **통합 보고서** 섹션에�
 
 다른 커넥터와 같이 요구 시 데이터를 예약하고 내보낼 수 있습니다.
 
-### Marketo Engage의 열 매핑 {#columnmappinginmarketoengage}
+### Marketo Engage의 열 매핑 {#column-mapping-in-marketo-engage}
 
 Marketo에는 두 가지 유형의 데이터베이스가 있습니다.
 
@@ -2051,7 +2051,7 @@ The Author, in the Author app, then selects an event from the list of available 
 >
 >We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
 
-## Microsoft Teams 커넥터
+## Microsoft Teams 커넥터 {#microsoft-teams-connector}
 
 Microsoft® Teams®는 문서 공유, 온라인 회의 및 비즈니스 통신을 위한 기타 기능을 지원하는 지속적인 채팅 방식의 협업 플랫폼입니다.
 
@@ -2073,7 +2073,7 @@ Microsoft Teams 커넥터는 Learning Manager와 Microsoft Teams 시스템을 �
 
 자세한 내용은 [**Adobe Learning Manager에서 Microsoft Teams 커넥터 설치**](install-microsoft-teams-connector.md)&#x200B;를 참조하십시오.
 
-## 교육 데이터 액세스 커넥터 {#training-data-access-connector}
+## 교육 데이터 액세스 커넥터 {#training-data-access}
 
 >[!IMPORTANT]
 >
@@ -2085,7 +2085,7 @@ Microsoft Teams 커넥터는 Learning Manager와 Microsoft Teams 시스템을 �
 
 **[!UICONTROL 교육 데이터 액세스]** 커넥터를 사용하여 헤드리스 경험을 만들 수 있습니다. 이 환경은 독립 실행형이거나 AEM Sites 기반의 사용자 정의 사용자 인터페이스일 수 있습니다. 학습자에게 교육 정보를 검색하고 표시하는 데 도움이 되며 검색 및 필터링이 가능합니다. 데이터 커넥터가 활성화되면 공용 API 세트를 사용하여 인터페이스를 빌드할 수 있으며, 여기서 강의/학습 경로 정보가 학습자에게 표시됩니다.
 
-### 커넥터 구성
+### 커넥터 구성 {#configure-training-data-connector}
 
 **[!UICONTROL 교육 데이터 액세스]** 커넥터를 사용하여 Adobe Learning Manager 계정을 데이터 저장소 및 검색 시스템과 통합합니다. 이를 통해 AEM Sites 기반 인터페이스는 교육 데이터를 얻고 웹 페이지를 표시하고 학습자를 위한 더 나은 검색 옵션을 제공할 수 있습니다.
 
@@ -2124,7 +2124,7 @@ API를 사용하여 Adobe Learning Manager에서 데이터 검색 및 검색 활
 1. 온디맨드 보고서의 경우 **[!UICONTROL 온디맨드]**(으)로 이동하고 **[!UICONTROL 시작 날짜]**&#x200B;를 선택한 다음 **[!UICONTROL 실행]**을 클릭하세요.
 **[!UICONTROL 실행 상태]** 페이지에서 보고서 실행 상태를 확인할 수 있습니다.
 
-### AEM에서 웹 사이트 생성
+### AEM에서 웹 사이트 생성 {#create-website-in-aem}
 
 **필수 구성 요소:** [**GitHub 저장소**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0)에서 AEM 패키지를 설치합니다.
 
@@ -2134,13 +2134,13 @@ API를 사용하여 Adobe Learning Manager에서 데이터 검색 및 검색 활
 
 자세한 내용은 이 [**문서**](../../adobe-learning-manager-integration-aem.md)&#x200B;를 참조하세요.
 
-### 학습자
+### 학습자 {#learners}
 
 게시된 웹 사이트에는 로그인하지 않은 학습자를 위하여 검색 서비스에서 검색된 마이그레이션된 모든 과정, 인증서 및 학습 경로의 목록이 표시됩니다.
 
 학습자가 과정이나 인증서 또는 학습 경로를 클릭하면 개요 페이지가 실행됩니다. 페이지에서 등록할 때 학습자는 반드시 로그인을 한 다음 과정을 수강해야 합니다.
 
-### 임시 방문 모드
+### 임시 방문 모드 {#non-logged-in-experience}
 
 임시 방문 모드에서는 로그인하지 않은 사용자를 위한 실시간 경험을 만들 수 있습니다. 예를 들어 임시 방문 경험은 마케팅 캠페인의 시작 페이지 역할을 하여 등록을 독려합니다.
 
@@ -2165,7 +2165,7 @@ API를 사용하여 Adobe Learning Manager에서 데이터 검색 및 검색 활
 
 사용자가 플랜을 구매한 후 CSM 팀에서 프리미엄 플랜을 활성화합니다. 사용자는 교육 데이터 액세스 커넥터를 사용하여 앞에서 언급한 기능으로 로그인하지 않는 경험을 설정할 수 있습니다.
 
-## Adobe Commerce 커넥터
+## Adobe Commerce 커넥터 {#adobe-commerce-connector}
 
 >[!NOTE]
 >
@@ -2202,7 +2202,7 @@ Adobe Commerce는 단일 플랫폼에서 B2B 및 B2C 고객을 대상으로 다�
 1. 다음 패치를 적용합니다. 자세한 내용은 [패치 적용](https://devdocs.magento.com/cloud/project/project-patch.html)을 참조하세요.
 1. Fastly를 구성합니다.  Fastly는 클라우드 인프라의 Adobe Commerce에 필요하며, 스테이징 및 프로덕션 환경에서 사용됩니다. 자세한 내용은 [Fastly 설정](https://devdocs.magento.com/cloud/cdn/configure-fastly.html)을 참조하십시오.
 
-### 커넥터 구성
+### 커넥터 구성 {#configure-connector}
 
 통합 책임자는 Adobe Commerce 커넥터에서 **[!UICONTROL 연결]**&#x200B;을 클릭합니다.
 
@@ -2218,7 +2218,7 @@ Adobe Commerce 커넥터 연결이 활성화되면 작성자는 과정, 학습 �
 * **기본 Learning Manager:** 학습자는 Learning Manager에서 과정, 학습 경로 또는 인증을 구매할 수 있습니다. 작성자가 가격을 추가한 경우에만 적용됩니다.
 * **AEM 사이트를 이용하여 맞춤 제작:** 학습자는 AEM 사이트에서 과정을 구매할 수 있습니다.
 
-### 워크플로
+### 워크플로 {#workflow}
 
 Adobe Commerce 책임자는 Learning Manager를 통합으로 구성합니다.
 
@@ -2226,7 +2226,7 @@ Adobe Commerce 책임자는 Learning Manager를 통합으로 구성합니다.
 
 Adobe Commerce에서 데이터가 동기화될 때까지 과정 또는 학습 경로를 구매할 수 없습니다.
 
-### Adobe Commerce로 과정 내보내기
+### Adobe Commerce로 과정 내보내기 {#export-commerce}
 
 작성자가 다양한 과정, 학습 경로 또는 인증의 가격을 설정한 후 통합 책임자는 과정, 학습 경로 또는 인증을 Adobe Commerce로 내보냅니다.
 
@@ -2241,9 +2241,9 @@ Adobe Commerce에서 데이터가 동기화될 때까지 과정 또는 학습 �
 
 1. **[!UICONTROL 실행]**&#x200B;을 클릭합니다. 성공적으로 실행되면 가격이 설정된 모든 과정 또는 학습 경로가 Adobe Commerce로 이동합니다. 그러면 학습자는 Learning Manager에서 과정을 구매할 수 있습니다.
 
-### Adobe Commerce이 포함된 기본 Learning Manager
+### Adobe Commerce이 포함된 기본 Learning Manager {#learning-manager-with-commerce}
 
-#### 학습자
+#### 학습자 {#learner}
 
 학습자가 과정, 인증 또는 학습 경로를 구매하려면 로그인해야 합니다.
 
@@ -2253,7 +2253,7 @@ ALM Native 또는 AEM에서 강의, 수료증 또는 학습 경로를 구매하�
 
 또한 Adobe Commerce에서 보낸 이메일도 활성화/비활성화할 수 있습니다.
 
-### Adobe Commerce이 포함된 AEM 사이트
+### Adobe Commerce이 포함된 AEM 사이트 {#aem-sites-with-adobe-commerce}
 
 AEM 사이트로 맞춤 제작된 옵션이 활성화되면 학습자는 맞춤 구축된 AEM 사이트에서 과정을 구입할 수 있습니다.
 
@@ -2263,9 +2263,9 @@ AEM 사이트에는 Adobe Commerce 검색을 활성화하는 Learning Manager의
 
 기본 Learning Manager와 마찬가지로 로그인 후 장바구니에 과정을 추가한 다음 과정을 미리 보기하거나 구매할 수 있습니다.
 
-### Adobe Commerce 커넥터 설정하기
+### Adobe Commerce 커넥터 설정하기 {#setup-commerce-connector}
 
-#### 필수 구성 요소
+#### 필수 구성 요소 {#pre-requisites}
 
 책임자는 책임자 앱의 **설정 > 일반**&#x200B;에서 **교육 가격 활성화** 확인란을 활성화합니다. 옵션이 활성화되면 작성자는 교육에 대한 가격을 지정할 수 있습니다. Adobe Commerce 연결을 추가하면 이 확인란이 자동으로 선택되고 적용됩니다
 
@@ -2280,7 +2280,7 @@ Adobe Learning Manager는 Adobe Commerce와 통합하여 교육 구매 및 판�
 * Learning Manager의 고객이 유료 과정 형태로 정식 학습을 제공하도록 허용합니다.
 * 학습자가 교육 구매를 결정하기 전에 과정을 미리 볼 수 있도록 허용합니다.
 
-#### 기본 Adobe Learning Manager
+#### 기본 Adobe Learning Manager {#native-learning-manager}
 
 **통합 관리자**
 
@@ -2291,7 +2291,7 @@ Adobe Learning Manager는 Adobe Commerce와 통합하여 교육 구매 및 판�
 >
 >Adobe Learning Manager 및 Adobe Commerce은 각각 로그인이 필요합니다.
 
-### AEM
+### AEM {#aem}
 
 이 모드에서 학습자는 AEM 기반 템플릿 및 구성 요소를 사용하여 구축된 AEM 기반 사이트에서 과정을 이수합니다.
 
@@ -2301,7 +2301,7 @@ AEM 사이트에서는 학습자의 장바구니, 장바구니에 추가 버튼,
 
 학습자가 과정을 구매하면 등록된 상태의 과정 개요 페이지로 리디렉션되어 구매한 교육을 들을 수 있습니다.
 
-#### Headless- Non-logged in
+#### Headless- Non-logged in {#headless-non-logged-in}
 
 학습자는 다음 기능을 사용할 수 있습니다.
 
@@ -2313,7 +2313,7 @@ AEM 사이트에서는 학습자의 장바구니, 장바구니에 추가 버튼,
 * 개요 페이지에서 과정 구매.
 * 유료 콘텐츠 미리 보기.
 
-#### 헤드리스- 로그인 상태
+#### 헤드리스- 로그인 상태 {#headless-logged-in}
 
 학습자는 다음 기능을 사용할 수 있습니다.
 
@@ -2327,7 +2327,7 @@ AEM 사이트에서는 학습자의 장바구니, 장바구니에 추가 버튼,
 
 * 과정을 구매한 후 이메일 첨부파일에서 송장을 확인하십시오.
 
-#### 온디맨드 동기화
+#### 온디맨드 동기화 {#on-demand-sync}
 
 Learning Manager와 Adobe Commerce 간의 동기화는 매일 두 번씩 이뤄집니다. 책임자가 전자 상거래용 계정을 활성화한 후 **이 연결을 사용하여 교육 메타데이터 내보내기 활성화** 옵션을 활성화하면 강의, 학습 경로 및 수료증의 이미지가 공개 CDN에 저장됩니다.
 
@@ -2337,7 +2337,7 @@ Learning Manager와 Adobe Commerce 간의 동기화는 매일 두 번씩 이뤄�
 
 AEM의 경우 [지금 구매]는 없으며 **장바구니에 추가** 단추만 있습니다. 이 버튼은 동기화가 이뤄지지 않은 경우에도 비활성화된 상태로 유지됩니다.
 
-#### 자주 묻는 질문
+#### 자주 묻는 질문 {#faqs}
 
 +++구매할 수 없는 과정에는 어떤 것이 있습니까?
 
