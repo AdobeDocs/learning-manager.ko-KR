@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager 커넥터
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: e7a88bac3bbe7814368a98d40f548b38806e7f1a
+source-git-commit: fb887cdc26580cb0e56a80318276284724e4743a
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -385,11 +385,11 @@ FTP 클라이언트를 사용하여 FTP 서버에 연결하려면 다음 정보�
 다음 정보를 입력합니다.
 
 * **호스트**: FTP 서버의 주소를 입력하십시오.
-* **포트**: 서버가 21 이상의 포트를 사용하는 경우 올바른 포트 번호를 입력합니다.
-* **프로토콜**: SFTP – SSH 파일 전송 프로토콜을&#x200B;]**선택합니다**[!UICONTROL .
-* **로그온 유형**: 보통을&#x200B;]**선택합니다**[!UICONTROL .
-* **사용자**: FTP 사용자 이름을 입력합니다.
-* **암호**: FTP 암호를 입력합니다.
+* **포트**: 서버가 21을 초과하는 포트를 사용하는 경우 올바른 포트 번호를 입력하십시오.
+* **프로토콜**: **[!UICONTROL SFTP - SSH 파일 전송 프로토콜]**&#x200B;을 선택합니다.
+* **로그온 유형**: **[!UICONTROL 표준]**&#x200B;을 선택합니다.
+* **사용자**: FTP 사용자 이름을 입력하십시오.
+* **암호**: FTP 암호를 입력하십시오.
 
 **7단계: FTP 서버에 연결**
 
@@ -397,7 +397,7 @@ FTP 클라이언트를 사용하여 FTP 서버에 연결하려면 다음 정보�
 
 **8단계: 파일 탐색 및 전송**
 
-연결되면 오른쪽에 원격 파일이, 왼쪽에 로컬 파일이 표시됩니다. 여러 디렉토리를 탐색할 수 있으며 패널 간에 파일을 드래그 앤 드롭하여 파일을 전송할 수 있습니다.
+연결되면 오른쪽에는 원격 파일이 표시되고 왼쪽에는 로컬 파일이 표시됩니다. 패널 간에 끌어다 놓아 디렉터리를 탐색하고 파일을 전송할 수 있습니다.
 
 >[!CAUTION]
 >
@@ -517,7 +517,7 @@ xAPI 가져오기 옵션을 사용하면 온디맨드로 제3자 서비스에서
 1. 왼쪽 창에서 **[!UICONTROL 온디맨드 실행]**&#x200B;을 클릭합니다.
 
    ![](assets/on-demand.png)
-   *xAPI 문 가져오기 - 온디맨드*
+   *xAPI 명령문 가져오기 - 온디맨드*
 
 1. 왼쪽 창에서 **[!UICONTROL &#39;실행 상태&#39;]**&#x200B;를 클릭하여 이 커넥터에 대한 모든 실행의 요약을 시간 순서대로 볼 수 있습니다. xAPI 가져오기 시작 날짜 및 기간, 가져오기 유형(예약 또는 온디맨드 동기화인지 여부) 및 가져오기 상태(xAPI 가져오기가 진행 중인지 완료되었는지 또는 실패했는지 여부)를 볼 수 있습니다.
 
@@ -685,7 +685,7 @@ getAbstract 커넥터는 학습자가 getAbstract의 내용을 확인하고 사�
 
    *Learning Manager용 getAbstract 커넥터 구성*
 
-1. 왼쪽 창에서 [구성]을 클릭합니다. 다음 중 하나를 실행합니다.
+1. 왼쪽 창에서 &#39;구성&#39;을 클릭합니다. 다음 중 하나를 실행합니다.
 
    * 이 창에서 계정의 세부 정보 및 동기화 예약을 보거나 편집합니다. 이 계정을 사용하려면 연결 사용 확인란을 선택합니다.
    * &#39;편집&#39;을 클릭하고 인증서를 수정합니다. 이 영역에 대한 업데이트를 취소하려면 &#39;재설정&#39;을 클릭합니다.
@@ -910,41 +910,41 @@ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summar
 wd:Job_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1.$
 wd:Job_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1입니다.$
+wd:Job_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Name
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1입니다.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2입니다.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1입니다.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0입니다.@wd:Formatted_Address
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1입니다.$
-wd:Employment_Data.wd:Worker_Status_Data.wd:활성
+wd:Job_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Formatted_Address
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Status_Data.wd:Active
 wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date
-wd:Employment_Data.wd:Worker_Status_Data.wd:사용 중지됨
-wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date
-wd:Employment_Data.wd:Worker_Status_Data.wd:종료됨
+wd:Employment_Data.wd:Worker_Status_Data.wd:Retired
+wd:Employment_Data.wd:Worker_Status_Data.wd:Retival_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Terminated
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Last_Day_of_Work
 wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Code
 wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Name
-wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Type_Reference.wd:ID.1입니다.$
-wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1입니다.$
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Type_Reference.wd:ID.1.$
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1.$
 wd:Qualification_Data.wd:Education.0.wd:School_Name
 wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title
-wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:회사
+wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Company
 wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID
-기본 직장 이메일
-WD:Organization_Type_Reference_Cost_Center_ID
-WD:Organization_Type_Reference_Cost_Center_Name
-WD:Organization_Type_Reference_Company
-WD:Organization_Subtype_Reference_Department
-WD:Organization_Subtype_Reference_Division
+기본 작업 전자 메일
+wd:Organization_Type_Reference_Cost_Center_ID
+wd:Organization_Type_Reference_Cost_Center_Name
+wd:Organization_Type_Reference_Company
+wd:Organization_Subtype_Reference_Department
+wd:Organization_Subtype_Reference_Division
 wd:Universal_ID
-wd:Integration_Field_Override_Data.3.wd:값
+wd:Integration_Field_Override_Data.3.wd:Value
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2입니다.$
-wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:시정촌
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2.$
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Community
 
 +++
 
@@ -1628,7 +1628,7 @@ Learning Manager는 준비된 Power BI 템플릿도 제공합니다. 이러한 �
 >
 >사용자 정의 FTP를 설정하려면 CSM에 문의하십시오. CSM에서는 FTP 설정에 필요한 세부 사항을 제공합니다.
 >
->FTP 설정에는 리드 타임이 필요하며 IP 및 포트 목록을 허용하고 FTP 서버에 대한 특정 권한을 가진 특정 폴더를 만들려면 IT 지원이 필요합니다.
+>FTP 설정에는 리드 시간이 포함되며 IT 지원에서 IP 및 포트 목록을 허용하고 FTP 서버에서 특정 권한으로 특정 폴더를 만들어야 합니다.
 
 Learning Manager는 사용자 정의 FTP 위치에 연결하는 기능을 제공합니다.
 
@@ -1776,11 +1776,11 @@ ADFS 연결 설정을 위한 필수 구성 요소:
 
 #### 맵 속성 {#map-attributes-6}
 
-통합 책임자는 ADFS 속성을 선택하고 해당 Learning Manager의 그룹화 가능 속성에 매핑할 수 있습니다. 매핑을 완료하면 다음 사용자가 가져와도 동일한 매핑이 사용됩니다. 관리자가 사용자를 가져오기 위해 다른 매핑을 원할 경우 이 과정을 재구성할 수 있습니다.
+통합 책임자는 ADFS 속성을 선택하고, 이를 해당 Learning Manager 그룹화 가능 속성에 매핑할 수 있습니다. 매핑을 완료하면 다음 사용자가 가져와도 동일한 매핑이 사용됩니다. 책임자가 사용자를 가져오기 위해 다른 매핑을 사용하려는 경우 이 매핑을 재구성할 수 있습니다.
 
 #### 자동으로 사용자 가져오기 {#automated-user-import-4}
 
-사용자 가져오기 프로세스를 통해 Learning Manager 책임자는 ADFS에서 직원 세부 정보를 가져와 Learning Manager로 자동으로 가져올 수 있습니다.
+사용자 가져오기 프로세스를 통해 Learning Manager 책임자는 ADFS에서 직원 세부 정보를 불러와 자동으로 Learning Manager에 가져올 수 있습니다.
 
 #### 사용자 필터링 {#filtering-users-4}
 
@@ -1843,7 +1843,7 @@ ADFS 커넥터 를 설정하려면 Learning Manager CSM 팀에 문의하십시�
 
 1. **[!UICONTROL 통합]**&#x200B;을 클릭합니다.
 
-   이메일 ID를 인증하면 Learning Manager에 Connect가 성공적으로 통합되었다는 메시지가 표시됩니다. Adobe Connect를 사용하여 가상 강의실 강의를 자동으로 볼 수 있습니다.
+   전자 메일 ID를 인증한 후 Connect가 성공적으로 통합되면 Learning Manager에 메시지가 표시됩니다. Adobe Connect를 사용하여 가상 강의실 강의를 자동으로 볼 수 있습니다.
 
    **Connect 계정 책임자가 전자 메일 ID를 인증하면, 승인을 위한 요청이 Adobe Connect 백엔드 팀에게 전달됩니다. 통합을 위한 승인과 설정에는 보통 1~2일이 소요됩니다.**
 
@@ -2051,7 +2051,7 @@ The Author, in the Author app, then selects an event from the list of available 
 >
 >We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
 
-## Microsoft Teams 커넥터 {#microsoft-teams-connector}
+## Microsoft Teams 커넥터 {#teams-connector}
 
 Microsoft® Teams®는 문서 공유, 온라인 회의 및 비즈니스 통신을 위한 기타 기능을 지원하는 지속적인 채팅 방식의 협업 플랫폼입니다.
 
