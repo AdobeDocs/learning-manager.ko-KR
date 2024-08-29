@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 설정
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
 workflow-type: tm+mt
-source-wordcount: '3651'
-ht-degree: 66%
+source-wordcount: '3669'
+ht-degree: 65%
 
 ---
 
@@ -165,7 +165,7 @@ Adobe ID 또는 단일 인증을 사용하여 Learning Manager 응용 프로그�
   </tr>
   <tr>
    <td>카탈로그 레이블 표시</td>
-   <td>활성화되면 책임자 및 작성자는 카탈로그 레이블 및 값을 설정하고 이를 학습 객체에 연결할 수 있습니다.</td>
+   <td>활성화되면 책임자 및 작성자는 카탈로그 레이블 및 값을 설정하고 이를 학습 객체에 연결할 수 있습니다. 작성자는 이 옵션을 선택하여 강의, 학습 경로, 인증 또는 작업 지원을 카탈로그에 추가할 수도 있습니다.</td>
   </tr>
   <tr>
    <td>학습자가 자신의 점수 확인 가능</td>
