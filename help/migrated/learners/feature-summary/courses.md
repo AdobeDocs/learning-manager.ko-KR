@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 내 학습
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
 workflow-type: tm+mt
-source-wordcount: '2759'
-ht-degree: 64%
+source-wordcount: '2789'
+ht-degree: 63%
 
 ---
 
@@ -163,6 +163,10 @@ Adobe Learning Manager에서는 원하는 강의를 빠르고 쉽게 찾을 수 
 **강의 닫기:** 플레이어의 오른쪽 상단 모서리에 있는 닫기(x) 아이콘을 클릭하여 강의에서 나갑니다.
 
 *강의를 종료한 후 강의 설명 페이지의 &#39;재방문&#39; 단추를 클릭하여 강의를 다시 방문할 수 있습니다.*
+
+## 다중 등록 인스턴스
+
+강의에 여러 인스턴스가 있는 경우 학습자는 특정 인스턴스를 선택하여 등록할 수 있습니다. 필요한 경우 인스턴스 간에 전환할 수도 있습니다.
 
 ## 평가 등급
 
