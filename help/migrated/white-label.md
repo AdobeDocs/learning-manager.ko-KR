@@ -4,9 +4,9 @@ title: Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 description: 흰색 레이블링은 앱 또는 서비스를 자신의 브랜드로 리브랜딩하고 원본 작성자인 것처럼 사용자 정의하는 관행입니다. Adobe Learning Manager에서는 모바일 앱에 흰색 레이블 지정을 적용하여 앱을 다시 브랜딩하고 사용자가 나만의 브랜드로 앱을 사용할 수 있도록 할 수 있습니다.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 977799953123eafbbaf22732c79be4b8ea2e3e1a
+source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
@@ -372,6 +372,50 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >[!NOTE]
 >
 >서명된 바이너리를 빌드하려면 Android sdk 빌드 도구가 필요합니다.
+
+Play 스토어를 게시하려면 aab 형식의 Android 바이너리가 필요합니다. 따라서 서명되지 않은 .aab 파일이 제공됩니다.
+
+>[!NOTE]
+>
+>Keystore 파일을 만들 때는 Keystore 암호, 서명 키 별칭 및 서명 키 별칭 암호를 생성해야 합니다.
+
+.aab 파일에 서명하려면 아래 단계를 따르십시오.
+
+다음 명령을 실행합니다.
+
+```
+<path>/jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore <keystore-file> app-release.aab <signingKeyAlias>
+```
+
+>[!NOTE]
+>
+>Java에는 **[!UICONTROL jarsigner]**&#x200B;가 포함되어 있습니다. Java 21을 사용하고 있는지 확인합니다.
+
+메시지가 표시되면 다음 암호를 입력하십시오.
+
+* Keystore 암호
+* 키 별칭 서명 암호
+
+제공된 APK를 사용하시면 됩니다 단, aab 파일에서 APK를 생성해야 하는 경우 다음 단계를 따르십시오.
+
+>[!NOTE]
+>
+>APK를 생성하려면 **[!UICONTROL bundletool]**&#x200B;을(를) 설치해야 합니다.
+
+
+다음 명령을 실행하여 APK 파일을 만듭니다.
+
+```
+java -jar <path>/bundletool-all.jar  build-apks --bundle=app-release.aab --output=my_app.apks --mode=universal
+```
+
+파일의 압축을 풀려면 다음 명령을 실행합니다.
+
+```
+unzip my_app.apks -d output_dir
+```
+
+**[!UICONTROL output_dir]** 폴더에서 APK 파일을 가져옵니다.
 
 **다음 작업**
 
