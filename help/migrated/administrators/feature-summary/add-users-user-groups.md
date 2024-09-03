@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 사용자 추가 및 사용자 그룹 만들기
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
 workflow-type: tm+mt
-source-wordcount: '4050'
-ht-degree: 62%
+source-wordcount: '4061'
+ht-degree: 61%
 
 ---
 
@@ -235,7 +235,7 @@ Adobe Learning Manager에서는 사용자의 계정에 대해 액세스가 제�
    <td>
     <p>게임화를 사용할 수 있습니다.</p></td>
    <td>
-    <p>게임화를 사용할 수 없습니다.</p></td>
+    <p>게임화 기능을 사용할 수 있습니다. 책임자는 게임화 설정에서 외부 학습자에 대한 게임화를 활성화해야 합니다.</p></td>
   </tr>
   <tr>
    <td>
