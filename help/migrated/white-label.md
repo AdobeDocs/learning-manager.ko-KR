@@ -4,9 +4,9 @@ title: Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 description: 흰색 레이블링은 앱 또는 서비스를 자신의 브랜드로 리브랜딩하고 원본 작성자인 것처럼 사용자 정의하는 관행입니다. Adobe Learning Manager에서는 모바일 앱에 흰색 레이블 지정을 적용하여 앱을 다시 브랜딩하고 사용자가 나만의 브랜드로 앱을 사용할 수 있도록 할 수 있습니다.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
+source-git-commit: 1be901d1667c53ced996953440df6293485a4088
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1627'
 ht-degree: 0%
 
 ---
@@ -352,22 +352,66 @@ Firebase에서 [프로젝트를 추가](https://learn.microsoft.com/en-us/xamari
 
 ### iOS
 
-```
+<!--```
 sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
-```
+```-->
+
+루트 폴더에 **Runner.xcarchive.zip** 파일이 있습니다. 아래 명령을 실행하여 서명된 바이너리를 생성합니다.
+
+1. 다음 명령을 실행하여 아카이브의 압축을 풉니다.
+
+   ```
+   unzip Runner.xcarchive.zip
+   ```
+
+2. 앱 디렉터리로 이동:
+
+   ```
+   cd Runner.xcarchive/Products/Applications/Runner.app
+   ```
+
+3. 모바일 프로비저닝 파일 복사:
+
+   ```
+   cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
+   ```
+
+4. 루트 디렉토리(Runner.xcarchive.zip이 있는 위치)로 돌아갑니다.
+
+   ```
+   cd <root>
+   ```
+
+5. xcodebuild를 사용하여 아카이브 내보내기:
+
+   ```
+   xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
+   ```
+
+6. ipa_path 폴더에서 .ipa 파일을 찾습니다.
+7. .ipa 파일을 Diawi 웹 사이트에 업로드합니다.
+8. 완전히 업로드되면 **[!UICONTROL 보내기]** 버튼을 선택합니다.
+9. 완료 후 QR 코드와 링크를 받게 됩니다.
+10. Safari에서 바로 QR 코드나 링크를 엽니다.
+
+디바이스가 프로비저닝 프로파일에 포함되어 있으면 디바이스에서 설치를 진행해야 합니다.
 
 >[!NOTE]
 >
 >서명된 바이너리를 만들려면 XCode 15.2 이상이 필요합니다.
 
 
-## Android
+### Android
+
+**APK 파일**&#x200B;의 경우
 
 ```
-sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --ks-pass "pass:$store\_password" --ks-key-alias $key\_alias --key-pass "pass:$key\_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
 ```
+
+**aab 파일**&#x200B;의 경우
 
 >[!NOTE]
 >
