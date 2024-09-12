@@ -4,9 +4,9 @@ title: Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 description: 흰색 레이블링은 앱 또는 서비스를 자신의 브랜드로 리브랜딩하고 원본 작성자인 것처럼 사용자 정의하는 관행입니다. Adobe Learning Manager에서는 모바일 앱에 흰색 레이블 지정을 적용하여 앱을 다시 브랜딩하고 사용자가 나만의 브랜드로 앱을 사용할 수 있도록 할 수 있습니다.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 1be901d1667c53ced996953440df6293485a4088
+source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -358,7 +358,7 @@ sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_p
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```-->
 
-루트 폴더에 **Runner.xcarchive.zip** 파일이 있습니다. 아래 명령을 실행하여 서명된 바이너리를 생성합니다.
+`<root>` 폴더에 **Runner.xcarchive.zip** 파일이 있습니다. 아래 명령을 실행하여 서명된 바이너리를 생성합니다.
 
 1. 다음 명령을 실행하여 아카이브의 압축을 풉니다.
 
@@ -378,7 +378,7 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. 루트 디렉토리(Runner.xcarchive.zip이 있는 위치)로 돌아갑니다.
+4. `<root>` 폴더(Runner.xcarchive.zip이 있는 위치)로 돌아갑니다.
 
    ```
    cd <root>
