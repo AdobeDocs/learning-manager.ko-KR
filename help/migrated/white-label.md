@@ -4,9 +4,9 @@ title: Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 description: 흰색 레이블링은 앱 또는 서비스를 자신의 브랜드로 리브랜딩하고 원본 작성자인 것처럼 사용자 정의하는 관행입니다. Adobe Learning Manager에서는 모바일 앱에 흰색 레이블 지정을 적용하여 앱을 다시 브랜딩하고 사용자가 나만의 브랜드로 앱을 사용할 수 있도록 할 수 있습니다.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
+source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,7 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
    ```
 
 6. ipa_path 폴더에서 .ipa 파일을 찾습니다.
-7. .ipa 파일을 Diawi 웹 사이트에 업로드합니다.
+7. .ipa 파일을 `Diawi` 웹 사이트에 업로드합니다.
 8. 완전히 업로드되면 **[!UICONTROL 보내기]** 버튼을 선택합니다.
 9. 완료 후 QR 코드와 링크를 받게 됩니다.
 10. Safari에서 바로 QR 코드나 링크를 엽니다.

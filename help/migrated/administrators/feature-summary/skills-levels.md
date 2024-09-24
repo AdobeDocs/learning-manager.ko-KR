@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 스킬과 레벨 만들기 및 수정하기
 contentowner: manochan
 exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
 workflow-type: tm+mt
-source-wordcount: '1721'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -68,7 +68,7 @@ Learning Manager LMS에서 스킬의 기본 목적은 책임자에게 비즈니�
 
    ![](assets/list-of-skills.png)
 
-   *oif 스킬 목록 보기*
+   *스킬 목록 보기*
 
 ## 학습자에게 스킬 할당 {#assigntheskilltolearners}
 
