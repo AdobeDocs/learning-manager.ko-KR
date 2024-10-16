@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager 커넥터
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 4b6426f836b345421401103db0f14c353323c3fc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -2103,7 +2103,7 @@ API를 사용하여 Adobe Learning Manager에서 데이터 검색 및 검색 활
 1. 다음 옵션에서 **[!UICONTROL 인터페이스 유형]**&#x200B;을 선택합니다.
 
    * **[!UICONTROL 기본 Learning Manager]**: 기본 인터페이스에만 사용할 수 있는 표준 제품입니다.
-***[!UICONTROL 헤드리스 인터페이스]**: 임시 방문 경험을 구축하기 위해 API를 노출하는 프리미엄 제품입니다.
+   * **[!UICONTROL 헤드리스 인터페이스]**: 임시 방문 환경을 구축하기 위해 API를 노출하는 프리미엄 제품입니다.
 
    ![](assets/types-of-interface.png)
 인터페이스 유형

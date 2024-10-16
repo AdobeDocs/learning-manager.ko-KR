@@ -3,10 +3,10 @@ description: Adobe Learning Manager 2024년 7월 릴리스의 새로운 기능 �
 jcr-language: en_us
 title: 새로운 기능 요약
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
-source-wordcount: '2255'
-ht-degree: 3%
+source-wordcount: '2325'
+ht-degree: 2%
 
 ---
 
@@ -231,6 +231,12 @@ curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram
 ### 오프셋 제한 변경 사항
 
 시스템 성능을 개선하고 리소스 활용률을 더 효과적으로 관리하기 위해 Adobe은 책임자 및 학습자 범위 모두에 대해 GET/사용자 끝점에서 더 이상 사용되지 않는 높은 오프셋 값을 가집니다. 작업 API를 사용하여 오프셋 값이 있는 레코드를 검색하는 것이 좋습니다.
+
+### RPM 및 버스트 제한 변경
+
+이 릴리스에서는 모든 API에 대해 RPM(Requests Per Minute) 및 버스트 제한이 추가되었습니다. Swagger 페이지에서 각 API의 최대 RPM을 확인할 수 있습니다.
+
+RPM은 API 서버로 1분 내에 보낼 수 있는 요청 수입니다. 버스트 제한은 일반적인 비율 제한을 넘어 짧은 시간 동안 더 많은 수의 요청을 허용합니다.
 
 ### 사용되지 않는 API
 
