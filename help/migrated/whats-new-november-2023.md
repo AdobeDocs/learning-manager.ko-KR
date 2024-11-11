@@ -2,9 +2,9 @@
 title: 이 릴리스의 새로운 기능
 description: Adobe Learning Manager 2023년 11월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: eed6dd4d31a62d10a6b2901c48f14e3f4fe571d8
+source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
 workflow-type: tm+mt
-source-wordcount: '2373'
+source-wordcount: '2370'
 ht-degree: 70%
 
 ---
@@ -323,4 +323,3 @@ Adobe Learning Manager에서는 2024년 2월부터 BlueJeans를 중단할 예정
 
 * [2023년 7월 릴리스](whats-new-2023-july.md)
 * [2023년 4월 릴리스](whats-new-2023-april.md)
-* [2022년 11월 릴리스](whats-new-2022-november.md)

@@ -1,354 +1,537 @@
 ---
-description: Adobe Learning Manager 2024년 7월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다.
+description: Adobe Learning Manager 2024년 11월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다
 jcr-language: en_us
 title: 새로운 기능 요약
-exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
+source-git-commit: 8deeb3680cd638a33768f048755ee77862c8ef1f
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '3035'
 ht-degree: 2%
 
 ---
 
 # 새로운 기능 요약 {#new-features-summary}
 
-Adobe Learning Manager 2024년 7월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다.
+Adobe Learning Manager 2024년 11월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다.
 
->[!NOTE]
->
->이 릴리스의 새로운 기능에 대해 자세히 알아보려면 이 [웨비나](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearningmanager.adobe.com%2Fapp%2Flearner%3FaccountId%3D98632%23%2Fcourse%2F10078152&amp;data=05%7C02%7Cchandrum%40adobe.com%7C90e588d31b994e6a5f4e08dcb87f26a8%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638588103494535076%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=dNyxQl3IQjEtfGCMnhlfek4Piz%2BPGFfuUss53M8mFK8%3D&amp;reserved=0)를 확인하세요.
+* **AI 기반 검색:** 더 똑똑하고 문맥 인식 결과를 위한 어휘 및 의미 체계 검색을 결합합니다.
+* **Webhook**: Webhook과 통합하여 실시간 정보를 특정 URL로 보냅니다.
+* **학습 도구 상호 운용성(LTI)**: 다른 LMS 플랫폼과의 상호 운용성을 위해 LTI를 지원합니다.
+* **신뢰할 수 있는 통합**: Credly를 통해 외부 배지를 관리하고 공유합니다.
+* **준수 대시보드 개선 사항**: 대시보드를 다른 관리자와 공유하고 학습자 홈페이지에서 기본 준수 위젯을 설정합니다.
+* **다중 언어 지원**: 강의실 및 가상 강의실 모듈에 대한 언어별 인스턴스를 만듭니다.
+* **사용자 지정 역할**: 사용자 역할 및 권한에 대한 제어 기능이 향상되었습니다.
+* **완료 주석**: 학습자를 완료로 표시할 때 주석을 추가합니다.
+* **사용자 그룹 보고서**: 자세한 보고서로 사용자 그룹을 관리합니다.
+* **대기자 명단 보고서**: 강의 인스턴스에 대한 대기자 명단 학습자 목록을 다운로드합니다.
+* **접근성 향상**: 발행인란 및 회사 로고의 대체 텍스트 지원.
+* **힌디어 지원**: 힌디어 인터페이스 언어 지원.
+* **비속어 검사**: 금지된 단어가 포함된 소셜 게시물을 차단합니다.
+* **전자 메일 템플릿 최적화**: 강사 할당 및 세션 취소를 위한 전자 메일 템플릿을 결합하고 최적화했습니다.
+* **MS 팀 완료 조건**: VILT 세션의 최소 참석 시간을 설정합니다.
+* **새 마이그레이션 워크플로**: 마이그레이션 변경 사항에는 강의 및 모듈의 완료 기준과 모듈을 폴더로 마이그레이션하는 내용이 포함됩니다.
 
-## 준수 대시보드의 개선 사항
+## Adobe Learning Manager에서 AI 기반 검색
 
-### 준수 대시보드란 무엇입니까? {#whatiscompliancedashboard}
+Adobe Learning Manager은 학습자가 강의 또는 교육을 검색하는 방식을 혁신하고 있습니다. 어휘 검색과 의미 검색이 결합된 AI 기반 검색 기능을 도입한다. 이 검색은 이제 더 똑똑해졌는데, 특정 용어를 찾고 그 배후에 있는 문맥과 의도를 파악하기 때문이다. 고급 검색은 쿼리의 의미를 이해하고 관련 결과를 제공합니다. 가장 완벽한 결과 세트를 제공하기 위해 검색의 주요 초점을 식별합니다.
 
-**Adobe Learning Manager**&#x200B;의 **[!UICONTROL 준수 대시보드]**&#x200B;를 통해 관리자는 학습 목표를 향한 학습자의 진행 상태를 모니터링하고 모니터링할 수 있습니다. 팀원이 마감 시간을 준수하고 학습 프로세스를 계속 진행하는지 확인할 수 있으므로 규정 준수가 보장됩니다. 책임자는 준수 대시보드를 설정하고 관리자와 공유할 수 있습니다.
+자세한 내용은 이 문서 [고급 검색](/help/migrated/learners/feature-summary/advanced-search.md)을 참조하세요.
 
-책임자 앱에서 준수 대시보드에 액세스하려면 **[!UICONTROL 보고서]** > **[!UICONTROL 학습 요약]** > **[!UICONTROL 준수 대시보드]**&#x200B;를 선택합니다.
+## Webhook
 
-### 릴리스에서 변경되는 내용
+Adobe Learning Manager을 사용하면 Webhook과 통합하여 강의 등록, 강의 생성 및 기타 정보와 같은 실시간 정보를 특정 URL로 전송할 수 있습니다.
 
-관리자 및 관리자는 개선된 준수 대시보드를 통해 특정 범주(예: 영업, 마케팅 및 법률)와 관련된 준수 유형 강의, 학습 경로 또는 인증을 볼 수 있습니다. 관리자는 사용자 정의 준수 강의를 특정 범주로 분류할 수 있습니다. 사용자 정의 준수 범주는 카탈로그 레이블로 구동됩니다.  책임자는 강의 대시보드를 만들고 관리자와 공유할 수 있습니다. 그러면 관리자는 해당 인스턴스에서 동일한 대시보드를 볼 수 있습니다. 또한 준수 대시보드 및 준수 이메일 알림의 사용자 인터페이스가 개선되었습니다.
-![](assets/compliance-dashboard-admin.png)
+ALM의 Webhook을 사용하면 한 엔터티가 HTTP를 통해 다른 응용 프로그램으로 데이터를 자동으로 보낼 수 있습니다. 이를 지속적으로 요청하지 않고도 다른 애플리케이션에 정보를 제공할 수 있게 된다. 예를 들어 사용자가 LMS(교육 관리 시스템) 과정을 완료한 경우 Webhook은 해당 정보를 CRM 또는 보고 도구와 같은 다른 플랫폼으로 자동으로 전송할 수 있습니다. Webhook은 통합을 통해 프로세스를 자동화하고 시스템 간에 수동 업데이트의 필요성을 줄이는 데 주로 사용됩니다. 데이터를 전송할 콜백 URL을 제공하여 Webhook을 설정합니다.
 
-#### 워크플로
+자세한 내용은 이 문서 [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)을(를) 참조하십시오.
 
-다음은 향상된 준수 대시보드를 사용하는 단계입니다.
+## 학습 도구 상호 운용성
 
-| 역할 | 작업 | 추가 정보 |
-|---|---|---|
-| 책임자 | 사용자 정의 준수 레이블 만들기 | 자세한 내용은 이 문서 [사용자 지정 준수 레이블 만들기](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard)를 참조하십시오. |
-| 작성자 | 강의에 레이블 추가 | 자세한 내용은 이 문서 [강의/학습 경로/인증에 준수 레이블 추가](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification)를 참조하십시오. |
-| 책임자 | 준수 과정으로 대시보드를 만들고 관리자와 공유 | 자세한 내용은 이 문서 [준수 대시보드 만들기 및 공유](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard)를 참조하십시오. |
-| 관리자 | 준수 대시보드 보기 | 자세한 내용은 이 문서 [준수 상태](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status)를 참조하세요. |
+이제 Adobe Learning Manager에서 LTI를 지원하여 Adobe Learning Manager과 다른 LMS(교육 관리 시스템) 간의 상호 운용성을 향상시킵니다.
 
-## 학습자 사용자 인터페이스 개선
+### LTI란 무엇입니까?
 
->[!IMPORTANT]
->
->새로운 학습자 UI가 단계적으로 출시될 예정입니다.
+LTI(Learning Tools Interoperability)는 서드파티 도구 및 콘텐츠 공급자가 LMS(교육 관리 시스템)와 연결할 수 있도록 하는 표준입니다. 사용자는 로그인하거나 다른 LMS로 이동하지 않고도 LMS 내에서 직접 외부 콘텐츠 공급자의 외부 학습 콘텐츠에 액세스할 수 있습니다.
 
-**학습자 UI**&#x200B;가 보다 우아하고 현대적인 디자인으로 업데이트되었습니다. **[!UICONTROL 학습자 홈]**, **[!UICONTROL 내 학습]**, **[!UICONTROL 카탈로그]** 및 **[!UICONTROL 강의 개요]** 랜딩 페이지가 새롭고 현대적으로 표시됩니다. 강의 카드에는 세부 사항을 현대적으로 표시하기 위한 새로운 디자인도 있습니다. 강의 카드 위에 마우스를 놓으면 강의 설명 및 게시 날짜가 표시됩니다.
+도구 공급자로서의 LTI: 도구 공급자로서의 LTI는 외부 시스템을 LMS와 통합할 수 있게 해줍니다. Adobe Learning Manager은 LTI 도구 공급자 역할을 하여 다른 LMS 플랫폼이 해당 LMS 내에서 직접 Adobe Learning Manager의 과정, 인증서 또는 학습 경로에 액세스할 수 있도록 합니다.
 
->[!NOTE]
->
->개선된 사용자 인터페이스는 몰입형 레이아웃에만 적용됩니다. 이러한 변경 사항은 아직 모바일 웹 또는 앱에서 지원되지 않으며 향후 릴리스에서 업데이트될 예정입니다.
+도구 소비자로서의 LTI: 도구 소비자로서의 LTI를 사용하면 LMS가 학습 도구 상호 운용성(LTI)을 통해 외부 도구를 통합할 수 있습니다. 이러한 시나리오에서, LMS는 외부 도구에 의해 제공되는 서비스의 소비자이다. Adobe Learning Manager은 LTI 도구 소비자 역할을 하여 서드파티 학습 도구를 통합할 수 있습니다. 이를 통해 Adobe Learning Manager 학습자는 Adobe Learning Manager 내 서드파티 도구의 강의, 인증서 또는 학습 경로를 사용할 수 있습니다.
 
-![](assets/old-ui.png)
-_이전 사용자 인터페이스_
+자세한 내용은 이 문서 [학습 도구 상호 운용성](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)을 참조하십시오.
 
-![](assets/new-ui.png)
-_새 사용자 인터페이스_
+## 신빙하
 
-### 이 릴리스에서 변경되는 내용
+ALM의 책임자를 사용하면 학습자가 다양한 소셜 미디어 채널에서 플랫폼의 외부 배지를 관리하고 공유할 수 있습니다.
 
-**모양과 느낌 현대화**
+### 신빙성 있는 것은 무엇인가?
 
-새로워진 비주얼 요소는 최신 디자인 트렌드와 맞춰져 제품이 직관적이고 매력적으로 보입니다. 여기에는 새로운 발행인란, 사이드 패널 및 최신 모양의 위젯이 포함됩니다.
+Credly는 학습자와 조직이 배지나 인증과 같은 전문적인 성과를 획득하고, 공유하고, 검증할 수 있는 디지털 인증 플랫폼입니다. 학습자는 소셜 미디어 및 기타 장소에서 크레딧 프로필을 통해 배지를 관리하고 공유할 수 있습니다.
 
-**향상된 사용자 환경**
+### Adobe Learning Manager과 완벽하게 통합
 
-학습자는 이제 통합 환경을 제공하는 홈페이지 , 카탈로그, 내 학습 및 강의 개요 페이지에서 유사한 카드 보기를 볼 수 있습니다.
+먼저 Adobe Learning Manager(ALM)에서 Credly 커넥터를 추가합니다. 다음으로 기존 배지를 Credly에서 마이그레이션하여 학습자 성과의 연속성을 보장하십시오. 마지막으로 Adobe Learning Manager에서 적절한 학습 경로에 맞는 스킬을 생성하여 학습자 개발 및 인식을 개선합니다.
 
-자세한 내용은 [학습자 홈페이지](/help/migrated/learners/feature-summary/learner-home-page.md)를 참조하세요.
+자세한 내용은 이 문서 [신빙성](/help/migrated/integration-admin/feature-summary/credly-integration.md)을 참조하세요.
 
-**강의 게시 날짜 변경**
+## 준수 대시보드
 
-이러한 향상된 기능을 통해 Adobe Learning Manager으로 가져온 LinkedIn 및 Go1 강의의 게시 날짜는 LinkedIn 및 Go1의 실제 게시 날짜가 됩니다. 사용자 인터페이스에서도 LinkedIn 및 Go1 과정에 대한 실제 게시 날짜를 볼 수 있습니다. 자세한 내용은 [강의 카드](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards)를 참조하세요.
+이번 릴리스에서 관리자는 이제 대시보드를 다른 관리자, 사용자 정의 관리자 및 스토어 관리자와 공유하여 준수 대시보드에 즉시 액세스할 수 있습니다. 이제 학습자 홈페이지에서 기본 준수 위젯을 설정하여 학습자가 준수 요구 사항을 추적할 수 있습니다. 자세한 내용은 이 문서 [준수 대시보드](/help/migrated/administrators/feature-summary/reports.md#share-compliance-dashboard-with-admins-and-custom-admins)를 참조하세요.
 
-## 임시 방문 모드 업데이트
+## 다국어 지원
 
-임시 방문 모드에서는 로그인하지 않은 고객을 위한 실시간 경험을 만들 수 있습니다. 이는 마케팅 캠페인의 랜딩 페이지로, 등록을 권장하는 데 충분한 정보를 제공합니다.
+이제 작성자는 ALM(Adobe Learning Manager)을 사용하여 강의실 및 가상 강의실 모듈에 언어 태그 지정을 사용하여 언어별 인스턴스를 만들 수 있습니다. 학습자는 원하는 언어로 CR/VC 모듈에 액세스할 수 있습니다. 예를 들어 작성자는 두 개의 인스턴스, 즉 영어와 프랑스어로 된 인스턴스로 CR/VC 모듈을 만들 수 있습니다. 학습자는 원하는 언어로 인스턴스를 선택할 수 있습니다.
 
-### 이 릴리스에서 변경되는 내용
+자세한 내용은 이 문서 [다른 로케일에서 학습 개체 추가](/help/migrated/authors/feature-summary/add-new-language-learning-objects.md#multi-language-support-for-crvc-instances-with-language-tagging)를 참조하십시오.
 
-고객은 프리미엄 플랜을 구매하여 고도로 확장 가능한 임시 방문 경험을 구축할 수 있습니다. [교육 데이터 액세스](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)에서 제공하는 이 기록되지 않은 환경은 Adobe Learning Manager API를 사용하여 인원 제한, 사용 인원, 대기자 명단 제한 및 대기자 명단 수에 대한 실시간 데이터를 제공합니다. 고객은 이러한 API를 사용하여 로그인하지 않은 학습자 검색 및 필터링 기능과 전체 강의 요약을 제공할 수 있습니다. API에 대한 자세한 내용은 이 문서 [로그인하지 않은 API](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md)를 참조하십시오.
+## 사용자 정의 역할
 
->[!NOTE]
->
->프리미엄 플랜을 구매하려면 지원 팀 또는 CSAM에 문의하십시오.
+사용자 정의 역할을 통해 관리자는 다양한 사용자 그룹에 대한 특정 역할과 책임을 정의하여 더 나은 관리와 제어를 보장할 수 있습니다. 이 릴리스를 통해 ALM은 다음 섹션을 보다 자세히 제어하여 사용자 정의 역할을 개선합니다.
 
-## 다중 SKU(Stock Keeping Unit) 지원
+* 사용자
+* 강의
+* 학습 경로
+* 인증
+* 작업 지원
+* 카탈로그
 
-학습자는 이제 여러 강의, 학습 경로 또는 인증을 장바구니에 추가하고 함께 구매할 수 있습니다.
+관리자는 사용자 권한에 따라 정확한 권한을 할당하여 각 그룹이 관련 기능과 콘텐츠에만 액세스할 수 있도록 할 수 있습니다. 이렇게 향상된 컨트롤을 사용하면 주요 섹션을 보다 세부적으로 관리할 수 있습니다.
 
-### 릴리스에서 변경되는 내용
+관리자로 로그인하고 **[!UICONTROL 사용자]** > **[!UICONTROL 사용자 지정 역할]**&#x200B;로 이동하여 사용자 지정 역할을 만들고 관리합니다.
 
-이전에는 학습자가 한 번에 하나의 강의만 구매할 수 있었습니다. 이번 **Adobe Learning Manager** 릴리스에서는 카트를 사용하여 여러 강의, 학습 경로 또는 인증을 한 번에 구매할 수 있습니다.
+자세한 내용은 이 문서 [사용자 지정 역할](/help/migrated/administrators/feature-summary/custom-role.md)을 참조하십시오.
 
-이 기능은 학습자 앱(기존 UI, 새로운 학습자 UI 및 모바일 몰입형 앱)에서만 사용할 수 있습니다.
+## 완료 설명
 
-[ALM의 다중 항목 카트 보기](/help/migrated/learners/feature-summary/multi-item-cart.md)
+관리자는 이제 강의, 학습 경로 또는 인증에서 학습자를 완료로 표시할 때 주석을 추가할 수 있습니다. 관리자는 한 명 또는 여러 학습자에 대한 주석을 동시에 추가할 수 있으며, 해당 주석은 [학습자 성적 증명서](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) 보고서에 나타납니다.
 
-## Fluidic Player에서 HTML5 컨텐츠 지원
+자세한 내용은 이 문서 [완료 댓글](/help/migrated/administrators/feature-summary/courses.md#completion-comments)을 참조하십시오.
 
-**Adobe Learning Manager**&#x200B;에서는 이제 HTML 5 콘텐츠를 .zip 파일로 콘텐츠 라이브러리에 업로드하는 것을 지원합니다. 업로드되면 이러한 파일은 강의의 모듈로 포함될 수 있습니다. 또한 작성자는 자가 진행식 HTML 5 모듈의 완료 기준을 정의하여 학습자가 표시한 완료 또는 시작 시 자동 완료를 활성화할 수 있습니다.
+## 사용자 그룹 보고서
 
-### 이 릴리스에서 변경되는 내용
+Adobe Learning Manager의 새 **[!UICONTROL 사용자 그룹 보고서]**&#x200B;를 사용하면 관리자가 나갈 때 관리되지 않고 남아 있는 그룹에 대한 가시성을 제공하여 사용자 그룹을 관리할 수 있습니다. 관리자는 **[!UICONTROL 사용자]** > **[!UICONTROL 사용자 그룹]** 섹션의 보고서에 액세스할 수 있습니다. 다음을 포함하여 각 그룹에 대한 자세한 정보를 제공합니다.
 
-이제 Adobe Learning Manager은 자가 진행식 과정에서 HTML 5 지원 콘텐츠를 지원합니다. 작성자는 HTML5 콘텐츠를 .zip 파일로 자가 진행식 콘텐츠에 추가할 수 있습니다. 학습자는 Fluidic Player에서 HTML5 콘텐트를 볼 수 있습니다. 새로운 기능으로 이제 학습자는 Fluidic Player에서 직접 자기 진행식 강의로 강의를 완료로 표시할 수 있습니다. 자세한 내용은 [콘텐츠 라이브러리에서 HTML5 파일 형식 추가](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library)를 참조하십시오.
+* 사용자 그룹 유형
+* 그룹 이름
+* 설명
+* 제작자 (이름)
+* 제작자(이메일)
+* 만든 날짜(UTC 시간대)
+* 사용자 수
 
-새로운 개선 사항을 통해 작성자가 완료 조건을 새 옵션 **[!UICONTROL 콘텐츠 시작 시]**&#x200B;로 설정한 경우 외부 링크가 있는 강의는 URL을 방문할 때 자동으로 완료로 표시됩니다. 새 옵션 **[!UICONTROL 완료 조건]**&#x200B;이(가) 활동 모듈 페이지에 추가되어 작성자가 외부 링크의 완료 조건을 설정할 수 있습니다. 자세한 내용은 [활동 모듈의 HTML 링크 추가](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module)를 참조하세요.
+자세한 내용은 이 문서 [사용자 그룹 보고서](/help/migrated/administrators/feature-summary/add-users-user-groups.md#user-group-report)를 참조하세요.
 
-![](assets/completion-criteria-activity-module.png)
-_완료 조건 옵션-활동 모듈_
+## 대기자 명단 보고서
 
-## 모바일 앱에서의 강의 지연 푸시 알림
+Adobe Learning Manager의 새로운 **[!UICONTROL 대기자 명단 보고서]**&#x200B;를 사용하면 관리자가 모든 강의 인스턴스에 대한 대기자 명단 학습자 목록을 다운로드할 수 있습니다. 관리자와 강사는 **[!UICONTROL 과정]** 또는 **[!UICONTROL 세션 개요]** 페이지의 **[!UICONTROL 대기자 명단]** 섹션에서 이 보고서에 액세스할 수 있습니다. 대기자 명단 보고서는 책임자 및 강사 섹션에서 다운로드할 수 있습니다.
 
-학습자는 강의 기한을 놓칠 때마다 푸시 알림을 받습니다. 이 새로운 기능 향상을 통해 학습자는 이제 24시간 동안 알림 메시지를 다시 졸이거나, 다음 주에 받은 각각의 지연 알림 메시지에 대해 알림을 받을 수 있습니다. 이는 기한 경과 알림에만 적용됩니다. [푸시 알림 예약](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification) 보기
+대기자 명단 보고서에서 사용할 수 있는 열을 따릅니다.
 
-## 이 릴리스의 API 변경 사항
+* 강의 이름
+* 인스턴스 이름
+* 인스턴스 ID
+* 인스턴스 상태
+* 사용자 이름
+* 이메일
+* 고유 사용자 ID
+* 등록 날짜(UTC 시간대)
+* 상태
+* 대기자 명단 수
+* 대기자 명단 제한
+* 시트 제한
 
-### API 검색
+관리자 및 강사 섹션에서 보고서를 다운로드하려면 이 문서 [대기자 명단 보고서](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) 및 [대기자 명단 보고서](/help/migrated/instructors/feature-summary/learners.md#waitlist-report)를 참조합니다.
 
-검색 API에는 다음과 같은 변경 사항이 포함됩니다.
+## 학습자 홈페이지의 접근성
 
-학습자는 ```GET /search``` API를 사용하여 카탈로그 필터 내에서 태그를 검색할 수 있습니다. 학습자는 ```filter.loTypes``` 매개 변수의 값으로 ```tag```을(를) 선택하여 태그를 검색할 수 있습니다.
+이제 Adobe Learning Manager이 모든 발행인란의 대체 텍스트를 지원하여 학습자의 접근성을 향상시킵니다. 이를 통해 특별한 필요가 있는 학습자는 화면 판독기를 사용하여 대체 텍스트를 읽고 이미지를 이해할 수 있습니다. 여러 언어를 선택하고 각 언어에 대한 대체 텍스트를 제공할 수 있습니다. 대체 텍스트를 해당 언어로 추가해야 합니다. 계정의 회사 로고에 회사 이름이 있는 대체 텍스트도 포함되어 있는지 확인합니다.
+자세한 내용은 이 문서 [공지](/help/migrated/administrators/feature-summary/announcements.md#masthead)를 참조하십시오.
 
-**샘플 컬**
+## 힌디어 지원
+
+Adobe Learning Manager은 이제 힌디어를 플랫폼의 인터페이스 언어 중 하나로 도입하고 인도 내 플랫폼의 성장을 지원합니다. 원어민 힌디어 사용자를 지원하면 모든 기능, 보고서 및 전체 사용자 환경에 완전히 액세스할 수 있습니다.
+
+인터페이스 언어를 변경하려면 다음 단계를 따르십시오.
+
+1. **[!UICONTROL 관리자]**(으)로 로그인합니다.
+2. **[!UICONTROL 프로필 설정]** > **[!UICONTROL 인터페이스 언어]**(으)로 이동합니다.
+3. **[!UICONTROL 힌디어]**&#x200B;를 인터페이스 언어로 선택합니다.
+
+
+## 소셜 게시물에 대한 욕설 확인
+
+이제 Adobe Learning Manager은 학습자 앱에서 금지된 단어가 포함된 소셜 게시물을 차단합니다. 이는 특히 의료와 같은 민감한 분야에서 사물을 전문적이고 규정 준수하는 데 도움이 됩니다.
+
+## 전자 메일 템플릿 최적화
+
+### 강사가 할당되면 학습자에게 전자 메일 보내기
+
+기존 전자 메일 **[!UICONTROL 강사로 추가됨]** 및 **[!UICONTROL VCProvider 세션 세부 정보]**&#x200B;가 하나의 전자 메일로 결합됨 **[!UICONTROL UserType으로 추가됨]**. **[!UICONTROL UserType]**&#x200B;은(는) 사용자의 역할에 따라 **[!UICONTROL 강사]** 또는 **[!UICONTROL 주최자]**&#x200B;가 됩니다. 이러한 이메일은 이전에는 UI에서 사용할 수 없었습니다. 이제 여러 항목이 하나의 전자 메일로 결합되어 UI에 추가되었습니다. 관리자는 **[!UICONTROL 전자 메일 템플릿]** 섹션에서 이 템플릿에 액세스할 수 있습니다. 기본적으로 모든 새 계정 및 기존 계정에 대해 활성화되지만 관리자는 동일한 섹션에서 비활성화하거나 활성화할 수 있습니다. 이 전자 메일은 Zoom, Teams, Connect 또는 기타 서비스 등 세션 생성 및 강사 할당 시마다 발송됩니다.
+
+### 세션이 취소되면 학습자에게 전자 메일 보내기
+
+세션에서 제거된 강사는 이제 세션 취소 이메일만 받게 됩니다. 이전에는 고객이 취소 이메일과 업데이트 이메일을 모두 수신했습니다. 세션에 남아 있는 강사는 세션에 대한 새 초대와 함께 세션 업데이트 이메일을 수신하게 됩니다.
+
+## MS Teams 완료 조건
+
+현재 학습자는 가상 강사 주도 교육(VILT) 세션에 몇 초만 참석해도 참석자로 표시됩니다. 이번 릴리스에서는 보다 정확한 출석을 보장하기 위해 팀 모듈의 완료 기준을 도입했습니다. 이제 작성자는 학습자의 출석을 집계하기 위해 VILT 세션에서 학습자가 소비해야 하는 최소 시간을 설정할 수 있습니다.
+
+이 기능은 기본적으로 비활성화되어 있는 백엔드 기능입니다. CSM에 문의하여 활성화하십시오.
+
+## 마이그레이션 변경 사항
+
+마이그레이션 워크플로에서 변경된 사항은 다음과 같습니다.
+
+* 모듈을 특정 폴더로 마이그레이션합니다.
+* 모듈의 완료 조건을 추가했습니다.
+* 강의의 완료 기준 추가
+
+### 모듈 마이그레이션 변경 사항
+
+모듈을 ALM으로 마이그레이션하면 기본적으로 공용 폴더에 저장됩니다. 이 릴리스에서는 [module_version.csv](assets/module_version.csv) 파일에 `folder`이라는 새 열을 추가했습니다. 관리자는 이 열을 사용하여 마이그레이션 후 모듈이 이동해야 하는 폴더 이름을 지정할 수 있습니다. 또한 관리자는 폴더 이름을 쉼표로 구분하여 나열하여 단일 모듈을 여러 폴더에 배치할 수 있습니다.
+
+폴더 열은 문자열 데이터 유형을 사용하며 선택적 열입니다. 폴더 열의 조건은 다음과 같습니다.
+
+* 추가하는 폴더 이름은 ALM 계정의 기존 콘텐츠 폴더여야 합니다.
+* 값은 쉼표로 구분된 문자열이어야 합니다.
+* 다른 폴더에 이미 있는 모듈에 대한 새 폴더 이름을 추가하면 새 값이 할당된 폴더를 덮어쓰거나 바꾸지 않습니다. 모듈은 새 폴더에 추가되고 기존 폴더에서도 사용할 수 있습니다.
+* 값이 비어 있으면 폴더는 기본적으로 **[!UICONTROL 공용]**&#x200B;으로 설정됩니다.
+
+자세한 내용은 [module_version csv 사양](assets/4-module_version.xlsx) 파일을 참조하십시오.
+
+### 모듈 마이그레이션 변경 사항 - 완료 기준
+
+관리자는 모듈 마이그레이션 중 모듈의 완료 조건을 지정할 수 있습니다. 이 릴리스에서는 [module_version.csv](assets/module_version.csv)에 새 열 `completionCriteria`, `viewPercent` 및 `quizData`을(를) 추가했습니다.
+
+다음은 새 열에 대한 조건입니다.
+
+1. `completionCriteria`:
+
+   * 데이터 유형은 문자열 값이어야 하며 지원되는 값은 다음과 같습니다.
+      * `LAUNCH_CONTENT`
+      * `VIEW_PERCENT`
+      * `QUIZ`
+      * `MARK_COMPLETE`
+   * 자가 진행식 모듈 유형에 대해서만 모듈 수준에서 완료 기준을 추가합니다.
+   * 정적 내용에 대해 지원되는 값은 `LAUNCH_CONTENT` 및 `VIEW_PERCENT`입니다.
+   * 대화형 콘텐츠에 대해 지원되는 값은 `LAUNCH_CONTENT`, `VIEW_PERCENT` 및 `QUIZ`입니다.
+   * HTML5 콘텐츠에 대해 지원되는 값은 `LAUNCH_CONTENT` 및 `MARK_COMPLETE`입니다.
+
+2. `viewPercent`:
+
+   * 이 열의 데이터 형식은 정수여야 하며 값은 0에서 100 사이여야 합니다.
+   * completionCriteria가 `VIEW_PERCENT`(으)로 설정된 경우 이 열에 필요한 보기 백분율을 입력하거나 비워 두십시오.
+
+3. `quizData`:
+
+   * 데이터 형식은 문자열 값이어야 하며 지원되는 값은 `QUIZ_ATTEMPTED`, `QUIZ_PASSED` 및 `QUIZPASSED_OR_LIMITREACHED`입니다.
+   * `completionCriteria`이(가) `QUIZ`(으)로 설정되어 있으면 이 열에 적절한 퀴즈 값을 입력하거나 비워 두십시오.
+
+자세한 내용은 [module_version csv 사양](assets/4-module_version.xlsx) 파일을 참조하십시오.
+
+### 강의 마이그레이션 변경 사항 - 완료 기준
+
+관리자는 강의 마이그레이션 중 강의 완료 기준을 지정할 수 있습니다. 이번 릴리스에서는 [course.csv](assets/course.csv)에 `completionCriteria`이라는 새 열을 추가했습니다.
+
+다음은 `completionCriteria` 열의 조건입니다.
+
+* 데이터 유형은 문자열 또는 숫자여야 하며 선택적 필드입니다.
+* 값은 `ALL`, `X` 및 `SELECTEDMODULES`이어야 합니다.
+* X는 0보다 크고 총 모듈 수보다 작아야 하는 정수 값입니다.
+* `completionCriteria`을(를) `SELECTEDMODULES`(으)로 설정하는 경우 [course_module.csv](assets/course_module.csv) 파일에서 필수 모듈을 표시해야 합니다.
+* `optionalCriteria` 열에서 `TRUE` 또는 `FALSE`을(를) 입력합니다. 값을 `TRUE`(으)로 설정하면 모듈이 필수로 설정됩니다.
+
+자세한 내용은 [강의 csv 사양](assets/3-course.xlsx) 파일을 참조하십시오.
+
+## API 변경 사항
+
+다음은 API 변경 사항입니다.
+
+* **검색 API**:
+   * 새로운 모드 필터: classicSearch 및 advanceSearch.
+   * snippetTypes에 대한 새로운 loMetadata 옵션입니다.
+* **공지 API**:
+   * 발행인란 설명에 대한 altText 특성을 포함합니다.
+* **인스턴스 API**:
+   * 로캘 세부 정보를 검색하는 새 로캘 특성입니다.
+* **욕설 확인**:
+   * 소셜 게시물의 댓글 및 답변에서 금지된 단어를 확인하도록 API를 업데이트했습니다.
+* **RPM 및 버스트 제한**:
+   * 모든 API에 대한 RPM(분당 요청 수) 및 버스트 제한을 추가했습니다.
+* **배지 API**:
+   * 외부 배지에 대한 정보를 검색하는 새로운 특성 externalProvider입니다.
+* **작업 API**:
+   * 작업 API를 사용하여 사용자 그룹 보고서 및 사용자 정의 역할 감사 보고서를 다운로드합니다.
+
+### 검색 API의 변경 사항
+
+이제 검색 API에 두 가지 옵션(`classicSearch` 및 `advanceSearch`)이 있는 새 모드 필터가 있습니다. `snippetTypes`에 대한 새로운 `loMetadata` 옵션도 있습니다. 최상의 결과를 얻으려면 `advanceSearch` 모드를 사용할 때 `snippetTypes`에 `loMetadata`을(를) 포함하세요.
+
+### 공지 API 변경 사항
+
+이제 `GET /announcements API`에 발행인란 설명을 제공할 `altText` 특성이 포함됩니다.
+
+#### cURL을 사용한 샘플 요청:
 
 ```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 12345678' 'https://abcd.adobe.com/primeapi/v2/announcements/123456'
 ```
 
-새 필터, 사용 가능한 시트, 사용 가능한 대기자 명단 및 시간 범위 필터가 ```GET /search``` 및 `GET /learningObjects` API에 추가되었습니다.
-
-새 필터 `filter.session.includeEnrollmentDeadline`이(가) 다음 API ```GET /search```에 추가되었습니다.
-
-### 계정 API
-
-사용자 끝점의 계정 데이터를 가져오기 위해 새 열 `custom_injections`, `showComplianceLabel` 및 `complianceLabelDefaultID`이(가) ```GET /account``` API에 추가되었습니다.
-
-### 학습 객체 API
-
-이번 업데이트에서 학습 개체 API가 변경된 사항은 다음과 같습니다.
-
-새 응답 기존 작성자 ID 및 기타 세부 정보가 `GET /learningObjects` API의 `authorDetails`에 추가되었습니다. 또한 기존 작성자 및 해당 강의를 필터링하기 위해 새 필터 `filter.authors`이(가) 추가되었습니다.
-
-새 특성 `effectivenessIndex`은(는) 강의 효과 데이터를 가져오는 데 도움이 됩니다.
-
-**샘플 컬**
-
-```
-curl --location 'https://example.com/primeapi/v2/learningObjects/course%3A9790045?enforcedFields%5BlearningObject%5D=effectivenessData' \
---header 'Accept: application/vnd.api+json' \
---header 'Authorization: oauth <oauth_token>'
-```
-
-이 강의를 수강할 사람에 대한 세부 정보를 제공하는 새 응답 `whoShouldTake`이(가) `POST /learningObjects/query`, `GET /learningObjects/{id}` 및 `GET /learningObjects` API에 추가되었습니다.
-
-**샘플 컬**
-
-```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
-```
-
-대기자 명단 제한에 대한 세부 정보를 제공하는 새 응답 `waitlistLimit`이(가) `GET /learningObjects` API에 추가되었습니다.
-
-학습 개체의 총 개수를 제공하는 새 응답 `count`이(가) API `GET/ learningObjects` 및 `POST/ learningObjects/query`에 추가되었습니다.
-
-새 응답 `catalogFieldId` 및 `fieldValueId`이(가) `GET/ learningObjects` API의 `catalogLabels`에 추가되었습니다.
-
-학습자는 API `GET /preview/learningObjects`에서 카탈로그 레이블 값을 가져올 수 있습니다.
-
-### 마켓플레이스 수를 가져오기 위한 새 API
-
-이 릴리스에서는 새 API `GET /search/marketplace/count`이(가) 추가되었습니다. 이를 통해 콘텐츠 마켓플레이스에서 사용 가능한 학습 객체의 수를 확보할 수 있습니다.
-
-**샘플 컬**
-
-```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
-```
-
-**샘플 응답**
+#### 샘플 응답:
 
 ```
 {
-  "count": 54910
+  "links": {
+    "self": "https://abcd.adobe.com/primeapi/v2/announcements/123456"
+  },
+  "data": {
+    "id": "12345",
+    "type": "adminAnnouncement",
+    "attributes": {
+      "actionUrl": "google.com",
+      "announcementType": "MASTHEAD",
+      "expiryDate": "2038-01-19T03:14:07.000Z",
+      "liveDate": "2024-07-31T11:11:30.000Z",
+      "contentMetaData": [
+        {
+          "contentType": "IMAGE",
+          "contentUrl": "https://abcd.adobe.com",
+          "locale": "en-US",
+          "altText": "Moonlight - english changed new",
+          "thumbnailUrl": "https://abcd.adobe.com/"
+        },      ]
+    }
+  }
 }
 ```
 
-### 학습 객체 인스턴스 API
+### 인스턴스 API의 변경 사항
 
-이번 업데이트에서 학습 객체 인스턴스 API가 변경된 사항은 다음과 같습니다.
+새 `locale` 특성이 로캘 세부 정보를 검색하기 위해 다음 API에 추가되었습니다.
 
-이 릴리스에서는 `gamificationEnabled`이라는 새 키가 학습 개체 인스턴스 API `GET /learningObjects/{loId}/instances/{loInstanceId}`에 추가되었습니다.
+* `GET /learningObjects/{loId}/instances/{loInstanceId}`
+* `GET /learningObjects/{id}?include=instances,enrollment.loInstance`
+* `GET /learningObjects?include=instances,enrollment.loInstance`
+* `GET /learningObjects/{id}/relatedLOs?include=instances,enrollment.loInstance`
+* `POST /learningObjects/query?include=instances,enrollment.loInstance`
+* `POST /search/query?include=model.instances`
+* `GET /search?include=model.instances`
 
-**샘플 컬**
-
-```
-curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:12756/instances/learningProgram:12756_15644' 
-```
-
-게임화 설정의 세부 정보를 가져오기 위해 위의 API에 대한 새로운 `gamificationSettings` 특성을 사용합니다. 예: `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`.
-
-**샘플 컬**
+#### cURL을 사용한 샘플 요청:
 
 ```
-curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:103852/instances/learningProgram:103852_103526/gamificationSettings'
+curl --location 'http://abcd.com/primeapi/v2/learningObjects/course:1234567/instances/course:1234567_1234567' \
 ```
 
-게임화 설정의 세부 정보를 가져오기 위해 위의 API에 대한 새로운 `leaderboard` 특성을 사용합니다. 예: `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`.
-
-**샘플 컬**
+#### 샘플 요청:
 
 ```
-curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram:106339/instances/learningProgram:106339_105775/leaderboard' \
---header 'Accept: application/vnd.api+json' \
---header 'Authorization: oauth <oauth_token>'
+{
+    "links": {
+        "self": "http://abcd.com/primeapi/v2/learningObjects/course:1234567/instances/course:1234567_1234567"
+    },
+    "data": {
+        "id": "course:1234567_1234567",
+        "type": "learningObjectInstance",
+        "attributes": {
+            "dateCreated": "2024-02-27T09:21:25.000Z",
+            "isAET": false,
+            "isDefault": true,
+            "isFlexible": false,
+            "locale": "en-US",
+            "state": "Active",
+            "localizedMetadata": [
+                {
+                    "locale": "en-US",
+                    "name": "Default instance"
+                }
+            ]
+        },
+        "relationships": {
+            "learningObject": {
+                "data": {
+                    "id": "course:1234567",
+                    "type": "learningObject"
+                }
+            },
+            "loResources": {
+                "data": [
+                    {
+                        "id": "course:123456_1234567_1234567_1",
+                        "type": "learningObjectResource"
+                    }
+                ]
+            }
+        }
+    }
+}
 ```
 
-### 날짜 및 -date에 대한 정렬 동작 변경
+### 욕설 확인을 위한 공개 API 변경 사항
 
-날짜 및 -date별 정렬을 지원하는 API는 학습 경로를 제외한 모든 학습 객체의 게시 날짜를 기준으로 결과가 표시됩니다. 학습 경로는 **effectiveModified** 날짜를 기준으로 계속 나열됩니다. 이 변경 사항은 다음 API에서 확인할 수 있습니다.
+다음 API가 소셜 게시물의 댓글 및 댓글에 대한 비속어 검사를 수행하도록 업데이트되었습니다.
 
-* GET /learningObjects
-* GET /search
-* POST /learningObjects/query
-* POST /검색/쿼리
+* `POST /boards/{id}/posts `
+* `PATCH /posts/{id}`
+* `POST /posts/{id}/comments`
+* `PATCH /comments/{id}`
+* `POST /comments/{id}/replies`
+* `PATCH /replies/{id}`
 
-### 오프셋 제한 변경 사항
+게시물에 제한된 단어가 있는 경우 다음 응답이 전송됩니다.
 
-시스템 성능을 개선하고 리소스 활용률을 더 효과적으로 관리하기 위해 Adobe은 책임자 및 학습자 범위 모두에 대해 GET/사용자 끝점에서 더 이상 사용되지 않는 높은 오프셋 값을 가집니다. 작업 API를 사용하여 오프셋 값이 있는 레코드를 검색하는 것이 좋습니다.
+#### 샘플 응답:
+
+```
+{
+  "status": "FORBIDDEN",
+  "title": "BAD_WORD_FOUND",
+  "source": {
+    "info": "Unacceptable word found in post"
+  }
+}
+```
 
 ### RPM 및 버스트 제한 변경
 
-이 릴리스에서는 모든 API에 대해 RPM(Requests Per Minute) 및 버스트 제한이 추가되었습니다. Swagger 페이지에서 각 API의 최대 RPM을 확인할 수 있습니다.
+이 릴리스에서는 모든 API에 대해 RPM(Requests Per Minute) 및 버스트 제한이 추가되었습니다. 각 API의 최대 RPM은 Swagger 페이지에서 확인할 수 있습니다.
 
-RPM은 API 서버로 1분 내에 보낼 수 있는 요청 수입니다. 버스트 제한은 일반적인 비율 제한을 넘어 짧은 시간 동안 더 많은 수의 요청을 허용합니다.
+RPM은 API 서버로 1분 내에 보낼 수 있는 요청 수입니다. 버스트 제한은 일반적인 비율 제한을 넘어 짧은 시간 동안 더 많은 수의 요청을 허용합니다. 예를 들어 `learningObject` API에서는 분당 최대 15개의 요청을 사용할 수 있습니다. 이 한도를 초과하면 API에서 오류 메시지를 반환합니다.
 
-### 사용되지 않는 API
+### 배지 API 변경 사항
 
-제품에서 더 이상 사용되지 않는 모든 API의 누적 목록은 Adobe Learning Manager에서 [API 사용 중단](/help/migrated/api-deprecations-list.md)을 확인하십시오.
+배지 ID 및 공급자 이름을 포함하여 외부 배지에 대한 정보를 검색하기 위해 새 특성 `externalProvider`이(가) 다음 API에 추가되었습니다.
 
-## 보고 변경 사항
+* `GET /badges `
+* `GET /badges/{id}`
+* `GET /skills?include=levels.badge`
+* `GET /skills/{id}?include=levels.badge`
+* `GET /learningObjects/{loId}/instances/{loInstanceId}?include=badge`
+* `GET /users/{userId}/userBadges`
+* `GET /users/{userId}/userBadges/{id}`
 
-### 준수 대시보드
+#### cURL을 사용한 샘플 요청:
 
-이번 릴리스에서 준수 대시보드 보고서에는 두 개의 새 열이 있습니다.
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 123456789' 'https://abcd.adobe.com/primeapi/v2/badges/44'
+```
 
-* 상태
-* 준수 유형
+#### 샘플 응답:
 
-이는 기존의 열에 추가됩니다.
+```
+{
+  "links": {
+    "self": "https://abcd.adobe.com/primeapi/v2/badges/44"
+  },
+  "data": {
+    "id": "44",
+    "type": "badge",
+    "attributes": {
+      "imageUrl": "https://abcd.com/accountassets/1/badges/download.png",
+      "name": "external badge",
+      "state": "Active",
+      "externalProvider": {
+        "id": "1234sjd-b272-4de1-9b60-1234567",
+        "provider": "credly"
+      }
+    }
+  }
+}
+```
 
-* 사용자 이름
-* 사용자 전자 메일
-* LP/인증/과정
-* 유형
-* 등록 날짜(UTC 시간대)
-* 기한(UTC 시간대)
-* 완료 날짜(UTC 시간대)
-* 진행률(%)
+### 작업 API를 통해 사용자 그룹 및 사용자 정의 역할 감사 보고서 다운로드
 
-### 교육 보고서
+사용자는 `Job API`을(를) 사용하여 **[!UICONTROL 사용자 그룹 보고서]** 및 **[!UICONTROL 사용자 지정 역할 감사 보고서]**&#x200B;를 다운로드할 수 있습니다.
 
-**관리자** > **보고서** > **사용자 지정 보고서** 및 **작업 API**&#x200B;의 교육 보고서에는 **스킬** 및 **태그**&#x200B;라는 열이 있었습니다. 이들 열의 이름이 이제 **스킬** 및 **태그**(으)로 바뀌었습니다.
+#### 사용자 그룹 보고서 다운로드에 대한 샘플 요청:
 
-### 콘텐츠 감사 보고서
+```
+curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 12345678' -d '{ \ 
+     "data": { \ 
+         "type": "job", \ 
+         "attributes": { \ 
+             "jobType": "generateUserGroupReport" \ 
+         } \ 
+    } \ 
+ }' 'https://abcd.adobe.com/primeapi/v2/jobs'
+```
 
-이 릴리스에서는 이제 **[!UICONTROL 콘텐츠 감사 추적]** 보고서에 수정 유형 열에 다음과 같은 새 특성이 포함됩니다.
+#### 사용자 정의 역할 감사 보고서 다운로드에 대한 샘플 요청:
 
-* 사용자 그룹 추가
-* 사용자 그룹 제거
-* 사용자 정의 레이블 추가
-* 사용자 정의 레이블 제거
-* 공유 카탈로그 추가
-* 공유 카탈로그 제거
-* 공유 카탈로그 업데이트
+```
+curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 1234567' -d '{
+    "data": {
+        "type": "job",
+        "attributes": {
+            "description": "description of your choice",
+            "jobType": "generateCustomRoleAuditReport",
+            "payload":{
+                 "fromDate": "2020-01-01T18:30:00.000Z",
+                 "toDate": "2024-09-31T18:30:00.000Z",
+                 "locale":  "en-US"
+            }
+        }
+   }
+}
+```
 
-## 이번 업데이트에서 수정된 버그
+### 요청 본문 없음에 대한 오류 메시지
 
-**활동 제출**
+요청 본문은 필수 항목이지만 API에서 제공되지 않는 경우에 대한 특정 오류 메시지를 소개했습니다.
 
-* 활동 제출 모듈에 파일을 다시 업로드하려고 하면 네트워크 호출의 오류 500과 함께 실패합니다.
+#### 샘플 오류 메시지:
 
-**API**
+```
+{
+    "status": "BAD_REQUEST",
+    "title": "Generic Error"
+}
+```
 
-* 여러 강사의 이메일 주소가 동일한 경우 Connect VC 회의 생성이 실패합니다.
-* MS Teams VC는 학습 경로에 등록한 후 개요 페이지에 잘못된 URL을 표시합니다.
-* 작업 API 응답의 일부로 제공된 사전 서명된 URL이 6시간 후에 만료됩니다.
-* 강의 등록 보고서를 생성하는 동안 강의 이름 열에 잘못된 강의 이름이 표시됩니다.
-* 마이그레이션 작업자가 강의의 대량 API를 호출할 때 고유한 lo id를 전송하지 못하지만 id는 제거됩니다.
-* 강의가 사용자가 액세스할 수 있는 특정 카탈로그에 포함된 경우(기본 카탈로그는 비활성화됨), 등록되지 않은 학습자가 강의를 볼 수 없도록 설정한 경우에도 learningobject/id 엔드포인트를 통해 강의 메타데이터를 검색할 수 있습니다.
-* skillname이 GET /learningObject API의 이름에 쉼표를 포함하는 경우 스킬 필터가 제대로 작동하지 않습니다.
-* SFTP용 데이터 보존 작업자에 있는 파일의 타임스탬프 메타데이터에 일관성이 없습니다.
-* 커넥터를 제거하고 다시 구성한 경우 프로젝트 마이그레이션 상태가 닫힌 것으로 표시됩니다.
-* 교육 보고서의 열 헤더가 &quot;태그&quot; 대신 &quot;태그&quot;입니다.
-* 카탈로그를 사용하지 않고 내보낸 과정 중 하나라도 사용하지 않은 카탈로그의 일부이면 Commerce 커넥터 내보내기에 실패합니다.
+## 보고 개선 사항
 
-**인증**
+관리자는 **관리자** > **보고서** 섹션에서 이러한 보고 변경 내용을 찾을 수 있습니다.
 
-* 반복 인증에 사용자를 다시 등록하지 못하는 경우가 있습니다.
+### 학습 성적 증명서 보고서
 
-**사용자 지정 역할**
+**[!UICONTROL 학습 성적 증명서]** 보고서에는 두 개의 새 열이 포함됩니다.
 
-* 경우에 따라 사용자 정의 책임자가 강사 역할로 전환하려고 하면 오류 403 금지 가 표시됩니다.
+* 모듈 ID
+* 강의 인스턴스 ID
 
-**전자 메일 템플릿 및 알림**
+### 세션 요약 보고서
 
-* 세션이 취소된 후 강사가 세션에서 제거될 때 마지막 강사 세트에 전자 메일 알림이 전송되지 않습니다.
-* 주최자는 가상 강사 주도 교육을 생성한 후 MS Teams에 대한 전자 메일 알림을 받지 않습니다. 강의가 게시되고 이메일 템플릿이 활성화된 후에만 이메일이 트리거됩니다.
-* 전자 메일 템플릿에 잘못된 날짜 형식과 번역이 포함된 경우가 있습니다.
+**[!UICONTROL 세션 요약]** 보고서에는 세 개의 새 열이 포함됩니다.
 
-**학습자**
+* 모듈 ID
+* 세션 ID
+* 강의 인스턴스 ID
+* 완료 횟수
 
-* 학습자가 여러 강의 인스턴스에 등록되어 있고 출석 보고서를 다운로드하면 보고서에 잘못된 정보가 포함됩니다.
-* 사용자는 다른 사용자의 비공개 게시물이 공개 스토리에 추가된 경우 이를 볼 수 있습니다.
-* 인증에서 학습자를 등록 취소할 수 없는 경우도 있습니다. 등록을 취소하려고 하면 오류 메시지가 표시됩니다.
-* 책임자가 한 개의 강의만 선택한 후 완료로 표시한 후에도 인증이 완료됨으로 표시됩니다.
-* 세션의 종료 시간이 이전 날짜로 변경된 경우 관리자가 VC를 완료로 표시할 수 없습니다.
-* 대기자 명단에 있는 학습자의 세션 출석 보고서는 &quot;출석하지 않음&quot;으로 표시됩니다.
+## 이번 업데이트에서 수정된 문제
 
-**학습자 앱**
-
-* 강의 노트를 PDF으로 다운로드하면 노트가 무작위로 표시됩니다. 그들은 명령을 따르지 않습니다.
-
-**학습 경로**
-
-* 학습 경로에서 스킬을 선택하면 텍스트 필드를 선택할 때 드롭다운이 예상대로 표시되지 않습니다.
-* 경우에 따라 학습 경로에서 스킬을 제거할 수 없습니다.
-
-**학습 프로그램**
-
-* 유연 학습 프로그램에 강의가 많은 경우 책임자가 학습 계획을 완료로 표시한 후에도 학습 계획이 완료되지 않습니다.
-* 학습자가 인스턴스를 변경할 때 등록 보고서의 last_modified_by 열이 업데이트되지 않습니다.
-
-**신고**
-
-* 경우에 따라 책임자가 교육 보고서를 내보낼 수 없습니다.
-* SCORM 콘텐츠에 32,767자를 초과하는 질문이나 대답이 포함되어 있으면 Excel에서 강의 퀴즈 보고서를 다운로드할 수 없습니다.
-* 게임화 재설정을 선택한 후에는 레벨 달성 날짜가 재설정되지 않습니다.
-
-**검색**
-
-* 현재 모든 사용자 그룹을 내보낸 후 삭제된 사용자 그룹도 출력에 포함됩니다.
-* 간헐적인 검색 문제로 인해 인증을 검색할 수 없습니다.
-
-## 이 릴리스의 알려진 문제
-
-Mobile Offline Player가 HTML5 콘텐츠를 로드하지 않습니다.
+* Android 및 iOS 장치에서 파일을 제출하는 동안 활동 모듈에서 비디오를 업로드하는 동안 발생한 오류를 수정했습니다.
+* 모바일 앱에서 강의를 여는 문제(웹 버전이 올바르게 작동함)를 해결했습니다.
+* Safari에서 작업 지원 및 기타 리소스를 보는 데 발생하는 문제를 해결했습니다.
+* 사용자가 모바일 앱에서 작업 지원을 다운로드할 수 없던 문제가
+* 패치 사용자 API에 대한 설명서에서 오류를 수정했습니다.
+* 강의에서 세션이 삭제되었을 때 주최자가 전자 메일 알림을 받지 못하던 문제를 수정했습니다.
+* 모듈이 강의에서 제거되고 다시 게시될 때 주최자가 세션 취소 이메일을 받지 못하는 문제를 수정했습니다.
+* 외부 사용자 생성 시 이메일 주소에 특수 문자 &quot;+&quot; 및 &quot;-&quot;를 포함할 수 있도록 지원이 추가되었습니다.
+* 사용자 스킬 보고서에 CSV 레코드 값에 큰따옴표가 포함된 경우 Marketo 커넥터 통합 보고서 동기화가 실패하는 문제를 수정했습니다.
+* `/skills` 끝점이 관리자 API에 대해 올바른 상태를 반환하지만 학습자 API에 잘못되거나 캐시된 데이터가 일관되게 표시되는 문제를 수정했습니다.
+* 계정에 Go1 커넥터가 설정되지 않은 경우 프리미엄 강의의 Go1 온보딩 실패 문제를 해결했습니다.
+* 학습자가 이미 학습 경로(LP)를 완료한 경우 마이그레이션을 통해 해당 강의에 액세스할 수 없는 문제를 수정했습니다.
+* 사용자의 관리자와 건너뛰기 수준 관리자가 모두 관리자 대신 SU(슈퍼 사용자)로 설정되어 CSV에 포함되지 않은 경우 증분 사용자 CSV가 실패하는 문제를 수정했습니다.
+* 대시보드 보고서의 스토어 관리자에 대한 범위 문제를 수정했습니다.
+* 초안 강의를 삭제할 때 xapi_iri가 제거되지 않는 문제를 수정했습니다.
+* 특정 시나리오에서 고유 LO ID를 추가할 수 없는 문제를 수정했습니다.
+* 학습 계획의 포함 가능 속성이 공유 학습 계획에서 올바르게 업데이트되지 않았던 문제를 수정했습니다.
+* 학습자 보기에서 학습 경로의 총 표시 기간에 영향을 주는 문제를 해결했습니다.
+* 학습자의 계정이 삭제된 후에도 자가 등록 링크를 통해 등록하거나 등록할 수 있도록 허용한 문제를 수정했습니다.
+* 강의를 만드는 동안 강의 설명에 링크를 추가할 때 `www`이(가) 제거되는 문제를 수정했습니다.
+* 정보 숨기기 및 작업 지원 다운로드가 제대로 작동하지 않던 문제가
+* IP ID가 있는 자체 등록 링크를 통해 추가된 새 사용자에 대해 SSO(Single Sign-On)가 작동하지 않던 문제가
+* 공지가 삭제된 후 알림 메시지 데이터를 가져올 수 없는 문제를 수정했습니다.
+* 이메일로 사용자를 검색할 때 검색 결과가 충분하지 않는 문제를 수정했습니다.
 
 ## 시스템 요구 사항
 
@@ -356,5 +539,5 @@ Mobile Offline Player가 HTML5 콘텐츠를 로드하지 않습니다.
 
 ## Adobe Learning Manager의 이전 릴리스
 
+* [2024년 7월 릴리스](/help/migrated/whats-new-july-2024.md)
 * [2024년 3월 릴리스](/help/migrated/whats-new-march-2024.md)
-* [2023년 11월 릴리스](/help/migrated/whats-new-november-2023.md)

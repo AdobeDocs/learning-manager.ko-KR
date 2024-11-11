@@ -4,10 +4,10 @@ title: 카탈로그
 description: 카탈로그는 강의, 학습 프로그램, 인증 등 학습 항목의 컬렉션입니다. 카탈로그를 사용하여 학습자에게 사용자 정의된 학습 집합에 대한 액세스를 제공하십시오. 새로운 카탈로그 생성 중 학습을 카탈로그에 연결할 수 있습니다.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 01215811307ef3fa2a365020c6f42fe3ea5a0240
 workflow-type: tm+mt
-source-wordcount: '2498'
-ht-degree: 73%
+source-wordcount: '2552'
+ht-degree: 72%
 
 ---
 
@@ -96,6 +96,10 @@ ht-degree: 73%
    추가한 작업 지원이 **[!UICONTROL 작업 지원]** 탭에 나타납니다.
 
 계정에서 사용할 수 있는 콘텐트가 있는 경우, 이 탭 중 하나에 나타납니다. 그렇지 않으면 먼저 콘텐트를 생성해야 합니다. 예를 들어 Learning Manager 응용 프로그램에 추가한 강의나 학습 프로그램이 없는 경우, 먼저 강의나 학습 프로그램 생성을 시작해야 합니다.
+
+## 강의, 학습 경로 또는 작업 지원의 일괄 제거
+
+관리자 또는 사용자 정의 관리자는 강의, 학습 경로 또는 작업 지원을 대량으로 제거할 수 있습니다. **[!UICONTROL 카탈로그]**(으)로 이동하여 카탈로그를 선택하십시오. **[!UICONTROL 콘텐츠]** 페이지에서 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 선택합니다. 그런 다음 강의, 학습 경로 또는 작업 지원 옆의 **[!UICONTROL 제거]** 옵션을 선택하고 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 ## 학습자를 위한 카탈로그의 딥 링크 {#deep-link}
 

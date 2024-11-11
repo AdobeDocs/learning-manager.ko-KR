@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 세션 학습자 관리
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 91%
+source-wordcount: '1029'
+ht-degree: 84%
 
 ---
 
@@ -41,6 +41,32 @@ ht-degree: 91%
 
 ![](assets/unenroll-learners.png)
 *학습자 등록 취소*
+
+### 대기자 명단 보고서
+
+Adobe Learning Manager의 새로운 **[!UICONTROL 대기자 명단 보고서]**&#x200B;를 통해 강사는 모든 강의 인스턴스에 대해 대기자 명단에 등록된 학습자 목록을 다운로드할 수 있습니다. 강사는 **[!UICONTROL 세션 개요]** 페이지의 **[!UICONTROL 대기자 명단]** 섹션에서 이 보고서에 액세스할 수 있습니다.
+
+대기자 명단 보고서에서 사용할 수 있는 열을 따릅니다.
+
+* 강의 이름
+* 인스턴스 이름
+* 인스턴스 ID
+* 인스턴스 상태
+* 사용자 이름
+* 이메일
+* 고유 사용자 ID
+* 등록 날짜(UTC 시간대)
+* 상태
+* 대기자 명단 수
+* 대기자 명단 제한
+* 시트 제한
+
+강사 섹션에서 보고서를 다운로드하려면 다음을 수행하십시오.
+
+1. **[!UICONTROL 강사]**(으)로 로그인합니다.
+2. 홈 페이지에서 세션을 선택합니다.
+3. **[!UICONTROL 세션 개요]** 페이지에서 **[!UICONTROL 대기자 명단]** 옵션을 선택합니다.
+4. **[!UICONTROL 작업]** > **[!UICONTROL 보고서 내보내기]**&#x200B;를 선택하여 **[!UICONTROL 대기자 명단]** 보고서를 다운로드합니다.
 
 ## 세션 출석 표시 {#markattendanceforyoursession}
 

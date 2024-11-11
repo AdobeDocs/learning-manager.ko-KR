@@ -4,10 +4,10 @@ title: 응용 프로그램 개발자 설명서
 description: Learning Manager V1 API는 이제 더 이상 사용되지 않습니다. V1 API는 2021년 2월 28일부터 운영이 중단됩니다. Learning Manager와 상호 작용할 V2 API를 사용하는 것이 좋습니다.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
 workflow-type: tm+mt
-source-wordcount: '3385'
-ht-degree: 62%
+source-wordcount: '3377'
+ht-degree: 63%
 
 ---
 
@@ -134,7 +134,7 @@ API 요청이 실패하면, 오류 응답을 획득합니다. 응답에서 반�
 
 API 객체 속성 및 그 관계는 집합적으로 필드라고 합니다. 자세한 내용은 [JSON API를 참조하십시오.](http://jsonapi.org/format/#document-resource-object-fields) 모델에서 하나 이상의 특정 특성을 가져오는 API 호출 시 필드를 매개 변수로 사용할 수 있습니다. 필드 매개 변수가 없는 경우, API 호출은 모델에서 사용 가능한 모든 속성을 가져옵니다. 예를 들어 다음 API 호출에서 fields[skill]=name은 스킬 모델의 이름 특성만 가져옵니다.
 
-https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&amp;fields[skill]=name
+`https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&fields[skill]=name `
 
 **번호 매기기**
 

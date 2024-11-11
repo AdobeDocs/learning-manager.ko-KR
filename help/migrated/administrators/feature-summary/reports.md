@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 보고서
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '7133'
-ht-degree: 57%
+source-wordcount: '7828'
+ht-degree: 52%
 
 ---
 
@@ -289,63 +289,107 @@ _준수 대시보드-관리자 보기_
 >
 >새 대시보드를 공유하면 선택한 관리자의 앱에 있는 기존 대시보드를 덮어씁니다. 관리자는 관리자가 새로 공유한 대시보드를 볼 수 있습니다.
 
-<!--In the final visualization, you can check the compliance status of learners, and take appropriate action.
+#### 관리자 및 사용자 정의 관리자와 준수 대시보드 공유
 
-Also, an Admin can view individual training data in the **[!UICONTROL Compliance Dashboard]**.
+관리자는 대시보드를 다른 관리자 및 맞춤형 관리자와 공유하여 모든 준수 대시보드에 즉시 액세스할 수 있습니다.
 
-For instance, the Administrator has identified three trainings to track compliance. Learning Manager provides the compliance snapshot for all three trainings at once.
+관리자 및 사용자 정의 관리자와 대시보드를 공유하려면 다음 단계를 따르십시오.
 
-Now an Admin can click on any training and quickly view the compliance for the selected training.
+1. **[!UICONTROL 관리자]**(으)로 로그인합니다.
+2. **[!UICONTROL 보고서]** > **[!UICONTROL 학습 요약]**&#x200B;으로 이동합니다.
+3. **[!UICONTROL 준수 대시보드]** 섹션에서 **[!UICONTROL 관리자 보기]**&#x200B;를 선택합니다.
+4. **[!UICONTROL 대시보드 공유]** 단추를 선택합니다.
 
-![](assets/compliance-dashboard.png)
-*View Compliance dashboard*
+   ![](assets/share-dashboard.png)
+   _대시보드 공유 - 관리자_
 
-You can also see the compliance status for each internal team.
+5. **[!UICONTROL 사용자 지정 준수 선택]** 드롭다운 메뉴에서 준수 레이블을 선택합니다. 이 옵션은 선택한 준수 레이블이 있는 모든 강의를 선택합니다.
+6. 관리자와 공유하려는 추가 강의, 학습 경로 또는 인증을 선택합니다.
 
-Click the link **[!UICONTROL Compliance Status Details]** on the bottom of the visualization. 
+   ![](assets/share-button.png)
+   _준수 대시보드 공유_
 
-You can see that, for a team, the number of learners in the team are violating or honoring the learning compliance.
+7. 대시보드를 공유할 사용자 또는 사용자 그룹을 선택하고 **[!UICONTROL 공유]**&#x200B;를 선택합니다.
 
-![](assets/compliance-statusofateam.png)
-*Compliance status of a team*
+##### 준수 대시보드 보기 - 사용자 정의 관리자 및 기타 관리자
 
-### Share training with managers
+선택한 사용자 그룹의 모든 사용자 정의 책임자 및 기타 관리자는 앱에서 준수 대시보드를 볼 수 있습니다.
 
-Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
+준수 대시보드를 보려면 다음 단계를 따르십시오.
 
-In Learning Manager, the **[!UICONTROL Share with Managers]** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
+1. **[!UICONTROL 보고서]** > **[!UICONTROL 학습 요약]** > **[!UICONTROL 준수 대시보드]**&#x200B;로 이동합니다.
+2. **[!UICONTROL 준수 대시보드]** 섹션에서 **[!UICONTROL 내 보기]**&#x200B;를 선택합니다.
+3. **[!UICONTROL 준수 대시보드로 이동]** 옵션을 선택하면 관리자가 공유한 새 준수 대시보드가 표시됩니다.
 
-An Administrator can share a set of training courses with managers individually or with a group. This sharing can help a manager easily track the compliance of his/her team for the specified training.
+   ![](assets/compliance-custom-view.png)
+   _준수 대시보드 보기 - 사용자 지정 관리자_
 
-The Administrator can "push" a default list of compliance training to be viewed in the manager's compliance dashboard.
+#### 스토어 관리자와 공유
 
-### Share training
+관리자는 스토어 관리자와 준수 대시보드를 공유하여 학습자의 준수 진행률을 모니터링할 수 있습니다.
 
-1. In **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**, scroll down, and click the tab **[!UICONTROL Share with Managers]**. 
+스토어 관리자와 대시보드를 공유하려면 다음 단계를 따르십시오.
 
-   ![](assets/share-with-managers.png)
-   *Share training with managers*
+1. **[!UICONTROL 관리자]**(으)로 로그인합니다.
+2. **[!UICONTROL 보고서]** > **[!UICONTROL 학습 요약]** > **[!UICONTROL 준수 대시보드]**&#x200B;로 이동합니다.
+3. **[!UICONTROL 준수 대시보드]** 섹션에서 **[!UICONTROL 관리자 보기]**&#x200B;를 선택합니다.
+4. **[!UICONTROL 대시보드 공유]** 단추를 선택합니다.
 
-1. To add training or multiple training, click **[!UICONTROL Share more]**.   
+   ![](assets/share-manager.png)
+   _관리자와 준수 대시보드 공유_
 
-1. In the **[!UICONTROL Share with Managers]** dialog, choose the training(s) and the manager(s).
+5. **[!UICONTROL 사용자 지정 준수 선택]** 드롭다운 메뉴에서 준수 레이블을 선택합니다.
+이 옵션은 선택한 준수 레이블이 있는 모든 강의를 선택합니다.
+6. 관리자와 공유하려는 추가 강의, 학습 경로 또는 인증을 선택합니다.
+7. 대시보드를 공유할 사용자 또는 사용자 그룹을 선택하고 **[!UICONTROL 공유]**&#x200B;를 선택합니다.
 
-   ![](assets/select-training.png)
-   *Select training to share with managers*
+##### 준수 대시보드 보기 - 관리자
 
-1. Click **[!UICONTROL Share]**.
+자세한 내용은 이 문서 [준수 대시보드 보기](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard)를 참조하십시오.
 
-The training is now shared with the specified manager.
+#### 대시보드 편집
 
-### View training
+준수 대시보드를 편집하려면 다음 단계를 따르십시오.
 
-In the list of shared training, click **[!UICONTROL View]**. You can view the training that is assigned to a manager or some managers.
+1. **[!UICONTROL 관리자]**(으)로 로그인합니다.
+2. **[!UICONTROL 보고서]** > **[!UICONTROL 학습 요약]** > **[!UICONTROL 준수 대시보드]**&#x200B;로 이동합니다.
+3. **[!UICONTROL 준수 대시보드]** 섹션에서 **[!UICONTROL 관리자 보기]** 또는 **[!UICONTROL 관리자 보기]**&#x200B;를 선택합니다. 이 섹션에서 준수 대시보드를 볼 수 있습니다.
+4. 편집하려는 준수 대시보드에서 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
-### Withdraw training
+   ![](assets/edit.png)
+   _준수 대시보드 편집_
 
-1. To withdraw training from a manager, click **[!UICONTROL Withdraw]**.  
+5. 필요한 세부 정보를 변경하고 **[!UICONTROL 공유]**&#x200B;를 선택합니다.
+6. 준수 대시보드가 선택한 관리자와 공유됩니다.
 
-1. Click **[!UICONTROL Proceed]**. This withdraws previously shared training from the Manager's compliance dashboard.-->
+#### 대시보드 회수 - 관리자
+
+준수 대시보드를 철회하려면 다음 단계를 따르십시오.
+
+1. **[!UICONTROL 관리자]**(으)로 로그인합니다.
+2. **[!UICONTROL 보고서]** > **[!UICONTROL 학습 요약]** > **[!UICONTROL 준수 대시보드]**&#x200B;로 이동합니다.
+3. **[!UICONTROL 준수 대시보드]** 섹션에서 **[!UICONTROL 관리자 보기]** 또는 **[!UICONTROL 관리자 보기]**&#x200B;를 선택합니다. 이 섹션에서 준수 대시보드를 볼 수 있습니다.
+4. 제거하려는 준수 대시보드에서 **[!UICONTROL 철회]**&#x200B;를 선택하고 **[!UICONTROL 진행]**&#x200B;을 선택합니다.
+5. 이 작업을 수행하면 관리자의 앱에서 공유 준수 대시보드가 제거됩니다.
+
+   ![](assets/manager-edit.png)
+   _준수 대시보드 회수_
+
+#### 학습자용 기본 준수 위젯 설정
+
+학습자를 위한 기본 준수 위젯을 설정하려면 다음 단계를 따르십시오.
+
+1. **[!UICONTROL 관리자]**(으)로 로그인합니다.
+2. **[!UICONTROL 보고서]** > **[!UICONTROL 학습 요약]** > **[!UICONTROL 준수 대시보드]**&#x200B;로 이동합니다.
+3. **[!UICONTROL 준수 대시보드]** 섹션에서 **[!UICONTROL 학습자 보기]**&#x200B;를 선택합니다.
+4. **[!UICONTROL 학습자 보기]** 섹션에서 **[!UICONTROL 변경]**&#x200B;을 선택합니다.
+
+   ![](assets/learner-widget.png)
+   _학습자용 기본 준수 위젯 설정_
+5. **[!UICONTROL 사용자 지정 준수]** 드롭다운에서 준수 레이블을 선택합니다. 이 옵션은 선택한 준수 레이블이 있는 모든 강의를 선택합니다.
+6. **[!UICONTROL 계속]**&#x200B;을 선택하여 기본 준수 위젯을 설정합니다.
+
+학습자는 홈페이지의 준수 위젯에서 선택한 강의 또는 학습 경로를 볼 수 있습니다. 자세한 내용은 [준수 대시보드 위젯](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget)을(를) 참조하십시오.
 
 ## 사용자 정의 보고서
 
@@ -533,7 +577,7 @@ Excel 보고서의 학습자 성적 증명서에는 필요한 점수 및 획득�
 
 * 객체 ID
 * 객체 이름
-* 객체 유형
+* 오브젝트 유형
 * 수정 유형
 * 설명
 * 참조한 객체 ID
@@ -846,6 +890,34 @@ Learning Manager는 책임자가 교육 세부 정보와 작성자, 게시된 �
 * 학습 요소 알림 메시지
 * 범위-카탈로그
 * 범위-사용자 그룹
+
+### 사용자 정의 역할에 대한 감사 추적
+
+관리자는 사용자 정의 역할 감사 보고서를 다운로드하여 사용자 정의 역할 및 해당 역할과 관련된 기능 액세스의 생성, 수정 및 삭제를 포함하여 사용자 정의 역할에 대한 모든 변경 사항을 추적할 수 있습니다.
+
+보고서를 다운로드하려면 다음 단계를 따르십시오.
+
+1. 관리자로 로그인합니다.
+2. [보고서] > [사용자 정의 보고서]를 선택합니다.
+3. 사용자 정의 역할 감사 추적을 선택하고 날짜 범위를 선택합니다.
+4. 생성 을 선택하여 보고서를 다운로드합니다.
+
+사용자 정의 역할 감사 추적 보고서에는 다음 필드가 포함되어 있습니다.
+
+* 역할 ID
+* 역할 이름
+* 활동 유형
+* 수정 유형
+* 설명
+* 참조한 개체 유형
+* 참조한 개체 ID
+* 참조한 개체 이름
+* 참조한 개체 전자 메일
+* 사용자 이름으로 수정됨
+* 사용자 UUID에 의해 수정됨
+* 사용자 전자 메일로 수정됨
+* 수정한 날짜(UTC 시간대)
+* 소스
 
 ## 전자 메일 구독 {#emailsubscriptions}
 

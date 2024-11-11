@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 사용자 추가 및 사용자 그룹 만들기
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '4061'
-ht-degree: 61%
+source-wordcount: '4150'
+ht-degree: 60%
 
 ---
 
@@ -195,8 +195,6 @@ Adobe Learning Manager에서는 사용자 특성과 해당 값의 대/소문자 
 ## 자가 등록 링크 만들기 {#createaselfregistrationlink}
 
 관리자의 지원 없이 조직의 직원이 직접 Adobe Learning Manager 계정에 학습자로 등록할 수 있도록 활성화할 수도 있습니다. 책임자는 자체 등록 링크를 만들어 직원과 공유할 수 있으며, 직원은 Adobe 자격 증명을 사용하여 Learning Manager에 추가로 등록할 수 있습니다.
-
-
 
 페이지의 오른쪽 상단 모서리에서 **[!UICONTROL 추가]**&#x200B;를 클릭하고 **[!UICONTROL 자체 등록]**&#x200B;을 선택합니다.
 
@@ -575,6 +573,27 @@ CSV에는 다음 필드가 포함되어 있습니다.
 관리자는 자동 생성된 활성 필드를 추가하고 사용자 활동과 교육 보고서를 구성할 수 있습니다.
 
 학습자 성적 증명서 보고서에는 모든 활성 필드와 쉼표로 구분된 값이 포함됩니다. 이때 관리자는 그에 따라 데이터를 필터링할 수 있습니다.
+
+## 사용자 그룹 보고서
+
+Adobe Learning Manager의 새로운 사용자 그룹 보고서를 사용하면 관리자가 나갔을 때 관리되지 않고 남아 있는 그룹을 확인할 수 있으므로 사용자 그룹을 관리하는 데 도움이 됩니다. 관리자는 **[!UICONTROL 사용자]** > **[!UICONTROL 사용자 그룹]** 섹션의 보고서에 액세스할 수 있습니다. 다음을 포함하여 각 그룹에 대한 자세한 정보를 제공합니다.
+
+* 사용자 그룹 유형
+* 그룹 이름
+* 설명
+* 제작자 (이름)
+* 제작자(이메일)
+* 만든 날짜(UTC 시간대)
+* 사용자 수
+
+보고서를 다운로드하려면 다음 단계를 따르십시오.
+
+1. **[!UICONTROL 관리자]**(으)로 로그인합니다.
+2. **[!UICONTROL 사용자]** > **[!UICONTROL 사용자 그룹]**&#x200B;을 선택합니다.
+3. **[!UICONTROL 작업]** > **[!UICONTROL 사용자 그룹 보고서 다운로드]**&#x200B;를 선택합니다.
+
+![](assets/download-user-group-report.png)
+_사용자 그룹 보고서 다운로드_
 
 ## 자주 묻는 질문 {#faq}
 

@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 8c4d00ed9213c21463a046f74d1db17b331da85f
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 87%
+source-wordcount: '618'
+ht-degree: 85%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 87%
 * [Learning Manager 사용자 가이드](user-guide.md)
 * {#introduction} 소개
    * [새로운 기능 요약](whats-new.md)
+   * [새로운 기능 요약 2024년 7월](whats-new-july-2024.md)
    * [새로운 기능 2024년 3월](whats-new-march-2024.md)
    * [새로운 기능 2023년 11월](whats-new-november-2023.md)
    * [새로운 기능 2023년 7월](whats-new-2023-july.md)
    * [새로운 기능 2023년 4월](whats-new-2023-april.md)
-   * [새로운 기능 2022년 11월](whats-new-2022-november.md)
    * [릴리스 정보](release-note/release-notes.md)
    * [시스템 요구 사항](system-requirements.md)
    * [AEM Sites에 대한 ALM 참조 사이트 패키지](adobe-learning-manager-integration-aem.md)
@@ -88,6 +88,9 @@ ht-degree: 87%
    * [마이그레이션 설명서](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager 커넥터](integration-admin/feature-summary/connectors.md)
    * [로그인하지 않은 API](integration-admin/feature-summary/non-logged-in-apis.md)
+   * [Webhook](integration-admin/feature-summary/webhooks.md)
+   * [신빙하](integration-admin/feature-summary/credly-integration.md)
+   * [학습 도구 상호 운용성](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [AEM으로 Learning Manager 통합](integrate-aem-learning-manager.md)
    * [Learning Manager에서 Salesforce 패키지 설치](integration-admin/feature-summary/install-salesforce-package.md)
    * [Microsoft Teams 커넥터 설치](integration-admin/feature-summary/install-microsoft-teams-connector.md)
@@ -127,6 +130,7 @@ ht-degree: 87%
    * [사용자 알림](learners/feature-summary/user-notifications.md)
    * [공지](learners/feature-summary/announcements.md)
    * [대기자 및 출석자 관리](learners/feature-summary/waitlist-attendance-management.md)
+   * [Adobe Learning Manager에서 AI 기반 검색](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Salesforce용 Learning Manager 앱](learners/feature-summary/sfdc-app.md)
    * [Adobe Connect 통합](learners/feature-summary/adobeconnect-integration.md)
    * [모바일 및 태블릿 학습자 앱](learners/feature-summary/ipad-android-tablet-users.md)
