@@ -2,9 +2,9 @@
 description: Adobe Learning Manager 2024년 11월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다
 jcr-language: en_us
 title: 새로운 기능 요약
-source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
+source-git-commit: bfe77d838340f94e072f9d7346576e3034a66a66
 workflow-type: tm+mt
-source-wordcount: '3034'
+source-wordcount: '3133'
 ht-degree: 2%
 
 ---
@@ -494,17 +494,19 @@ curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --h
 
 **[!UICONTROL 학습 성적 증명서]** 보고서에는 두 개의 새 열이 포함됩니다.
 
-* 모듈 ID
-* 강의 인스턴스 ID
+* **[!UICONTROL 모듈 ID]**: 각 모듈의 고유 식별자를 표시합니다. 이 새 열은 기존 **[!UICONTROL 모듈]** 열 뒤에 추가되었습니다.
+* **[!UICONTROL 강의 인스턴스 ID]**: 각 강의 인스턴스에 대한 고유 식별자를 표시합니다. 이 새 열은 기존 **[!UICONTROL 인스턴스]** 열 뒤에 추가되었습니다.
+* **[!UICONTROL 완료 설명]**: 이 열은 관리자가 사용자 완료를 표시할 때 입력한 설명을 캡처합니다. 이 새 열은 보고서 끝에 추가되었습니다.
+
 
 ### 세션 요약 보고서
 
 **[!UICONTROL 세션 요약]** 보고서에는 세 개의 새 열이 포함됩니다.
 
-* 모듈 ID
-* 세션 ID
-* 강의 인스턴스 ID
-* 완료 횟수
+* **[!UICONTROL 모듈 ID]** 열이 **[!UICONTROL 세션 이름]** 열 앞에 추가되었습니다.
+* **[!UICONTROL 세션 ID]** 열이 **[!UICONTROL 세션 이름]** 열 앞에 추가되었습니다.
+* **[!UICONTROL 강의 인스턴스 ID]** 열이 **[!UICONTROL 인스턴스 이름]** 열 뒤에 추가되었습니다.
+* **[!UICONTROL 완료 횟수]** 열이 **[!UICONTROL 등록 횟수]** 열 뒤에 추가되었습니다.
 
 ## 이번 업데이트에서 수정된 문제
 
