@@ -2,7 +2,7 @@
 description: Adobe Learning Manager 2024년 11월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다
 jcr-language: en_us
 title: 새로운 기능 요약
-source-git-commit: b965b67bf7c730b3d9667cb6bbc9e8aeff664972
+source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
 workflow-type: tm+mt
 source-wordcount: '3034'
 ht-degree: 2%
@@ -223,7 +223,7 @@ Adobe Learning Manager은 이제 힌디어를 플랫폼의 인터페이스 언�
 3. `quizData`:
 
    * 데이터 형식은 문자열 값이어야 하며 지원되는 값은 `QUIZ_ATTEMPTED`, `QUIZ_PASSED` 및 `QUIZPASSED_OR_LIMITREACHED`입니다.
-   * `completionCriteria`이(가) `QUIZ`(으)로 설정되어 있으면 이 열에 적절한 퀴즈 값을 입력하거나 비워 두십시오.
+   * `completionCriteria`이(가) `QUIZ`(으)로 설정되면 `quizData` 열에 적절한 퀴즈 값을 입력합니다.
 
 자세한 내용은 [module_version csv 사양](assets/4-module_version.xlsx) 파일을 참조하십시오.
 
@@ -239,7 +239,7 @@ Adobe Learning Manager은 이제 힌디어를 플랫폼의 인터페이스 언�
 * `completionCriteria`을(를) `SELECTEDMODULES`(으)로 설정하는 경우 [course_module.csv](assets/course_module.csv) 파일에서 필수 모듈을 표시해야 합니다.
 * `optionalCriteria` 열에서 `TRUE` 또는 `FALSE`을(를) 입력합니다. 값을 `TRUE`(으)로 설정하면 모듈이 필수로 설정됩니다.
 
-자세한 내용은 [강의 csv 사양](assets/3-course.xlsx) 파일을 참조하십시오.
+자세한 내용은 [코스 csv 사양](assets/3-course.xlsx) 및 [코스_모듈 csv 사양](assets/6-course_module.xlsx) 파일을 참조하십시오.
 
 ## API 변경 사항
 
