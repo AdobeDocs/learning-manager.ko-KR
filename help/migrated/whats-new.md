@@ -2,9 +2,9 @@
 description: Adobe Learning Manager 2024년 11월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다
 jcr-language: en_us
 title: 새로운 기능 요약
-source-git-commit: 8deeb3680cd638a33768f048755ee77862c8ef1f
+source-git-commit: b965b67bf7c730b3d9667cb6bbc9e8aeff664972
 workflow-type: tm+mt
-source-wordcount: '3035'
+source-wordcount: '3034'
 ht-degree: 2%
 
 ---
