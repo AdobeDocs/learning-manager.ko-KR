@@ -2,7 +2,7 @@
 jcr-language: en_us
 title: Adobe Learning Manager에서 AI 기반 검색
 description: Adobe Learning Manager의 AI 기반 검색에 대해 알아보기
-source-git-commit: c23a8f958910b130a1e8591c97d323523f864f1b
+source-git-commit: 9005b77444135c2709ca3fc68b9bdd725f521290
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -21,7 +21,7 @@ _AI에 기반한 컨텍스트 검색 결과_
 
 위 스크린샷에서 **photoshop 시작하기**&#x200B;를 검색하면 AI 기반 검색이 해당 키워드에 대한 가장 정확한 결과를 표시합니다.
 
-이 기능은 콘텐츠 및 서드파티 강의 제목, 설명, 태그, 개인화된 참고 및 기타 메타데이터를 검색합니다. 이 알고리즘은 비디오, PDF 및 Adobe Connect 세션의 레코딩과 같은 콘텐츠 유형을 자동으로 받아쓰고 대본 내에서 바로 검색합니다.
+이 기능은 콘텐츠 및 서드파티 강의 제목, 설명, 태그, 개인화된 참고 및 기타 메타데이터를 검색합니다. 이 알고리즘은 비디오, PDF 및 **Adobe Connect** 세션의 녹음 등 콘텐츠 유형에 대해 대본 내에서 자동으로 받아쓰고 바로 검색합니다.
 
 이 알고리즘은 정교한 AI와 NLP(Natural Language Processing)를 사용해 검색 쿼리를 이해하고, 필수 키워드를 표시하고, 검색된 쿼리에서 다른 어구를 논리적으로 확장합니다. 이 쿼리 확장은 관련 용어와 의미적으로 관련된 컨텍스트를 강화하여 강의, 인증서 또는 학습 경로를 보다 지능적으로 검색합니다. 의미 검색은 현재 영어 콘텐츠만 지원합니다.
 
