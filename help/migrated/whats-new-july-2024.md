@@ -3,14 +3,14 @@ description: Adobe Learning Manager 2024년 7월 릴리스의 새로운 기능 �
 jcr-language: en_us
 title: 새로운 기능 요약
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: 685220000be6be524c0829fe400abec911cf067e
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2327'
 ht-degree: 2%
 
 ---
 
-# 새로운 기능 요약 {#new-features-summary}
+# 새로운 기능 요약 2024년 7월 {#new-features-summary-july-2024}
 
 Adobe Learning Manager 2024년 7월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다.
 
