@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: 학습 도구 상호 운용성(LTI)
 description: LTI 통합 ALM에 대해 알아보기
-source-git-commit: 8deeb3680cd638a33768f048755ee77862c8ef1f
+exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1976'
 ht-degree: 1%
 
 ---
@@ -235,6 +236,16 @@ _내보내기 상태_
 * LTI 활성 필드는 단일 값이며 여러 값을 지원하지 않습니다.
 * 핵심 콘텐츠가 없는 강의를 마이그레이션하는 동안 내보내기가 실패한 경우 실패 이유를 사용할 수 없습니다.
 * 외부 LTI 강의 성적이 학습자 성적 증명서에 나타나지 않으며, L2 퀴즈 페이지에 점수가 표시되지 않아 학습자의 성적 추적에 영향을 미칩니다.
+
+## LTI 실행 실패 사례
+
+다음은 시작 링크가 생성된 후 ALM의 최근 변경으로 인해 외부 LTI 플레이어가 시작할 수 없는 강의입니다.
+
+* 인스턴스가 중단된 강의
+* ALM에 등록이 없는 중단된 강의
+* ALM에 등록되었지만 중단된 강의.
+* ALM에서 삭제된 강의입니다.
+* 등록 한도에 도달한 강의입니다.
 
 ## 모범 사례
 

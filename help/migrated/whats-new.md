@@ -3,9 +3,9 @@ description: Adobe Learning Manager 2024년 11월 릴리스의 새로운 기능 
 jcr-language: en_us
 title: 새로운 기능 요약
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: a19e538ed152b3435adf2f3405bff1ae75576978
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3149'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ Adobe Learning Manager의 새로운 **[!UICONTROL 대기자 명단 보고서]**&
 * 대기자 명단 제한
 * 시트 제한
 
-관리자 및 강사 섹션에서 보고서를 다운로드하려면 이 문서 [대기자 명단 보고서](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) 및 [대기자 명단 보고서](/help/migrated/instructors/feature-summary/learners.md#waitlist-report)를 참조합니다.
+관리자 및 강사 섹션에서 보고서를 다운로드하려면 이 문서 [대기자 명단 보고서(관리자)](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) 및 [대기자 명단 보고서(강사)](/help/migrated/instructors/feature-summary/learners.md#waitlist-report)를 참조합니다.
 
 ## 학습자 홈페이지의 접근성
 
@@ -149,6 +149,10 @@ Adobe Learning Manager의 새로운 **[!UICONTROL 대기자 명단 보고서]**&
 ## 힌디어 지원
 
 Adobe Learning Manager은 이제 힌디어를 플랫폼의 인터페이스 언어 중 하나로 도입하고 인도 내 플랫폼의 성장을 지원합니다. 원어민 힌디어 사용자를 지원하면 모든 기능, 보고서 및 전체 사용자 환경에 완전히 액세스할 수 있습니다.
+
+>[!NOTE]
+>
+>시스템에서 PDF 형식으로 생성한 배지 인증서는 힌디어를 지원하지 않습니다.
 
 인터페이스 언어를 변경하려면 다음 단계를 따르십시오.
 
