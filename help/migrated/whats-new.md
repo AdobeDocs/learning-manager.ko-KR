@@ -3,7 +3,7 @@ description: Adobe Learning Manager 2024년 11월 릴리스의 새로운 기능 
 jcr-language: en_us
 title: 새로운 기능 요약
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
+source-git-commit: 269e5532786de90208e23ffd6ef95479a1295c97
 workflow-type: tm+mt
 source-wordcount: '3149'
 ht-degree: 2%
@@ -53,9 +53,9 @@ ALM의 Webhook을 사용하면 한 엔터티가 HTTP를 통해 다른 응용 프
 
 LTI(Learning Tools Interoperability)는 서드파티 도구 및 콘텐츠 공급자가 LMS(교육 관리 시스템)와 연결할 수 있도록 하는 표준입니다. 사용자는 로그인하거나 다른 LMS로 이동하지 않고도 LMS 내에서 직접 외부 콘텐츠 공급자의 외부 학습 콘텐츠에 액세스할 수 있습니다.
 
-도구 공급자로서의 LTI: 도구 공급자로서의 LTI는 외부 시스템을 LMS와 통합할 수 있게 해줍니다. Adobe Learning Manager은 LTI 도구 공급자 역할을 하여 다른 LMS 플랫폼이 해당 LMS 내에서 직접 Adobe Learning Manager의 과정, 인증서 또는 학습 경로에 액세스할 수 있도록 합니다.
+**도구 공급자인 LTI**: 도구 공급자인 LTI를 사용하면 외부 시스템을 LMS와 통합할 수 있습니다. Adobe Learning Manager은 LTI 도구 공급자 역할을 하여 다른 LMS 플랫폼이 해당 LMS 내에서 직접 Adobe Learning Manager의 과정, 인증서 또는 학습 경로에 액세스할 수 있도록 합니다.
 
-도구 소비자로서의 LTI: 도구 소비자로서의 LTI를 사용하면 LMS가 학습 도구 상호 운용성(LTI)을 통해 외부 도구를 통합할 수 있습니다. 이러한 시나리오에서, LMS는 외부 도구에 의해 제공되는 서비스의 소비자이다. Adobe Learning Manager은 LTI 도구 소비자 역할을 하여 서드파티 학습 도구를 통합할 수 있습니다. 이를 통해 Adobe Learning Manager 학습자는 Adobe Learning Manager 내 서드파티 도구의 강의, 인증서 또는 학습 경로를 사용할 수 있습니다.
+**도구 소비자로서의 LTI**: 도구 소비자로서의 LTI를 사용하면 LMS가 학습 도구 상호 운용성(LTI)을 통해 외부 도구를 통합할 수 있습니다. 이러한 시나리오에서, LMS는 외부 도구에 의해 제공되는 서비스의 소비자이다. Adobe Learning Manager은 LTI 도구 소비자 역할을 하여 서드파티 학습 도구를 통합할 수 있습니다. 이를 통해 Adobe Learning Manager 학습자는 Adobe Learning Manager 내 서드파티 도구의 강의, 인증서 또는 학습 경로를 사용할 수 있습니다.
 
 자세한 내용은 이 문서 [학습 도구 상호 운용성](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)을 참조하십시오.
 

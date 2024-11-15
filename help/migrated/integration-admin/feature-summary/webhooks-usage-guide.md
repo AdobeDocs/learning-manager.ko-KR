@@ -4,9 +4,9 @@ title: Webhook 사용 안내서
 description: Webhook 사용, 모범 사례 및 제한 사항에 대해 알아보기
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: fe83420c8e6904e075e7a65622aaab964549c1d5
+source-git-commit: 4b26eddf1285651a13ee9c71fdf677e8b92e6dc3
 workflow-type: tm+mt
-source-wordcount: '3310'
+source-wordcount: '3369'
 ht-degree: 1%
 
 ---
@@ -291,6 +291,8 @@ ALM의 연결 제한 시간은 10초로 구성되어 있고 소켓 제한 시간
 * 세션 변경 사항은 인스턴스 업데이트 이벤트의 일부로 캡처됩니다. 이는 강의에만 적용됩니다. 학습 경로 인스턴스 또는 인증 인스턴스에 대한 하위 수준 엔티티의 상향 전파는 없습니다.
 * 학습 경로에 강의가 포함되어 있고 학습자가 학습 경로를 통해 강의를 완료하면 강의와 학습 경로에 대해 각각 하나씩 두 개의 **LearnerProgress** 이벤트가 생성됩니다.
 * 특정 작업 과정은 기간 및 전달 유형과 같은 학습 객체의 속성을 비동기적으로 계산합니다. 따라서 이러한 학습 객체에 대한 이벤트는 cron 작업 처리가 완료되면 생성됩니다.
+* 상위 학습 프로그램이나 인증을 통해 강의를 등록한 경우 등록, 등록 취소 및 완료 이벤트는 상위 학습 프로그램이나 인증에 대해서만 트리거됩니다. 등록이 간접적으로 발생했으므로 이러한 이벤트는 하위 강의에 트리거되지 않습니다.
+* Webhook은 **[!UICONTROL ACTIVE]** 상태의 계정에 대해서만 지원됩니다. **[!UICONTROL 평가판]** 또는 **[!UICONTROL 비활성]** 계정에는 사용할 수 없습니다.
 
 ## 이벤트에 대한 샘플 페이로드
 
