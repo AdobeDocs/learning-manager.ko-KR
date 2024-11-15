@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Learning Manager에서 AI 기반 검색
 description: Adobe Learning Manager의 AI 기반 검색에 대해 알아보기
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 84d0fc0c8e77999a12b69b949272bdb2d38eab96
+source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 ALM의 검색 기능은 관련 콘텐츠를 효율적으로 찾고 올바른 콘텐츠를 이용하도록 지원하여 사용자 경험을 향상시킵니다.
 
 Adobe Learning Manager이 어휘 검색과 의미 검색이 결합된 AI 기반 검색 기능을 도입했다. 특정 용어를 찾고 그 배후에 있는 문맥과 의도를 이해하기 때문에 이 검색은 더 똑똑합니다. 고급 AI 기반 검색은 쿼리의 의미를 이해하고 관련 결과를 제공합니다.
+
+>[!NOTE]
+>
+>AI 기반 검색은 학습자만 사용할 수 있습니다.
 
 ## 검색이 중요한 이유는 무엇입니까?
 
