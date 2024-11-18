@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager 릴리스 정보
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
+source-git-commit: 81d6ae6c552d8509d311ac9a12eb962968151a60
 workflow-type: tm+mt
-source-wordcount: '26237'
+source-wordcount: '26265'
 ht-degree: 72%
 
 ---
@@ -22,6 +22,15 @@ ht-degree: 72%
   </tr>
  </tbody>
 </table>-->
+
++++업데이트 98: Adobe Learning Manager 2024년 11월 릴리스
+
+**출시일**: 2024년 11월 16일
+
+## 이 릴리스의 새로운 기능
+
+자세한 내용은 [Adobe Learning Manager의 새로운 기능](/help/migrated/whats-new.md)을 참조하십시오.
++++
 
 +++업데이트 97: Adobe Learning Manager 2024년 7월 릴리스
 
