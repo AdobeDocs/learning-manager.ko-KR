@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 9b983d6b3b8526e7d92c74b504403bd76180993b
+source-git-commit: 3fec5b53acc44a713d4523d28f0306323631ff40
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '621'
 ht-degree: 85%
 
 ---
@@ -88,9 +88,8 @@ ht-degree: 85%
    * [마이그레이션 설명서](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager 커넥터](integration-admin/feature-summary/connectors.md)
    * [로그인하지 않은 API](integration-admin/feature-summary/non-logged-in-apis.md)
-   * Webhook {#webhooks}
-      * [Webhook](/help/migrated/integration-admin/feature-summary/webhooks.md)
-      * [Webhook 사용 안내서](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
+   * [Webhook](/help/migrated/integration-admin/feature-summary/webhooks.md)
+   * [Webhook 사용 안내서](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
    * [신빙하](integration-admin/feature-summary/credly-integration.md)
    * [학습 도구 상호 운용성](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [AEM으로 Learning Manager 통합](integrate-aem-learning-manager.md)
