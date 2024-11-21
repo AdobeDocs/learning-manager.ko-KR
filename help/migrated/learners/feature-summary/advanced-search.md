@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Learning Manager에서 AI 기반 검색
 description: Adobe Learning Manager의 AI 기반 검색에 대해 알아보기
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -101,3 +101,4 @@ Adobe Learning Manager의 검색 기능은 업계 선두업체로서, 고품질�
 >
 >1. 헤드리스 구현을 사용하는 고객은 API 설명서에 따라 고급 검색을 활성화해야 합니다
 >2. 현재 Salesforce 앱에서는 고급 검색을 사용할 수 없습니다.
+>3. 콘텐츠 및 대본을 포함한 고객 데이터는 AI 기반 검색을 위한 외부 서비스와 공유되지 않습니다. 모든 컨텐츠는 기존 스토리지 시스템 내에 안전하게 저장됩니다.
