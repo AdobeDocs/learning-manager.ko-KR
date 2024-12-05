@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Manager에 Microsoft Teams 커넥터 설치
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: 6192559436074c3270644850b202589961e7b81b
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 17%
@@ -130,7 +130,7 @@ PowerShell 스크립트를 실행하여 Microsoft Teams 커넥터에 대한 응�
 
 ## Learning Manager에서 Microsoft Teams 커넥터 설정
 
-1. Learning Manager에 통합 책임자로 로그인합니다.
+1. Learning Manager에 **통합 관리자**(으)로 로그인합니다.
 
 1. 커넥터 페이지에서 Microsoft Teams 커넥터를 선택하고 **[!UICONTROL 연결]**&#x200B;을 클릭합니다.
 
