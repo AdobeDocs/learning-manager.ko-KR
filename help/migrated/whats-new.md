@@ -3,9 +3,9 @@ description: Adobe Learning Manager 2024년 11월 릴리스의 새로운 기능 
 jcr-language: en_us
 title: 새로운 기능 요약
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3173'
 ht-degree: 2%
 
 ---
@@ -30,6 +30,10 @@ Adobe Learning Manager 2024년 11월 릴리스의 새로운 기능 및 개선 �
 * **전자 메일 템플릿 최적화**: 강사 할당 및 세션 취소를 위한 전자 메일 템플릿을 결합하고 최적화했습니다.
 * **MS 팀 완료 조건**: VILT 세션의 최소 참석 시간을 설정합니다.
 * **새 마이그레이션 워크플로**: 마이그레이션 변경 사항에는 강의 및 모듈의 완료 기준과 모듈을 폴더로 마이그레이션하는 내용이 포함됩니다.
+
+>[!NOTE]
+>
+>이 릴리스의 새로운 기능에 대해 자세히 알아보려면 이 [웨비나](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course)를 확인하세요.
 
 ## Adobe Learning Manager에서 AI 기반 검색
 
