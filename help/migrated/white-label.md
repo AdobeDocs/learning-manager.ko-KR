@@ -4,9 +4,9 @@ title: Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 description: 흰색 레이블링은 앱 또는 서비스를 자신의 브랜드로 리브랜딩하고 원본 작성자인 것처럼 사용자 정의하는 관행입니다. Adobe Learning Manager에서는 모바일 앱에 흰색 레이블 지정을 적용하여 앱을 다시 브랜딩하고 사용자가 나만의 브랜드로 앱을 사용할 수 있도록 할 수 있습니다.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: c9f2b9f817d4baa04399d58bbc4008d7891e0252
+source-git-commit: eb93f8c5fd3d64366756840789b984ca986dbf0b
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -413,8 +413,17 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
 
 **APK 파일**&#x200B;의 경우
 
+>[!IMPORTANT]
+>
+>`apksigner` 명령을 실행하기 전에 다음 명령을 실행하여 키 저장소 암호 및 키 별칭 암호를 환경 변수로 내보냅니다.
+>
+>```
+>export KS_PASS=your_keystore_password
+>export KEY_PASS=your_key_password
+>```
+
 ```
-sh""" <path>/apksigner sign --ks $storeFile --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile. --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
 ```
 
 >[!NOTE]
