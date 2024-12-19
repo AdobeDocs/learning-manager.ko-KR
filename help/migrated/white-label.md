@@ -4,9 +4,9 @@ title: Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 description: 흰색 레이블링은 앱 또는 서비스를 자신의 브랜드로 리브랜딩하고 원본 작성자인 것처럼 사용자 정의하는 관행입니다. Adobe Learning Manager에서는 모바일 앱에 흰색 레이블 지정을 적용하여 앱을 다시 브랜딩하고 사용자가 나만의 브랜드로 앱을 사용할 수 있도록 할 수 있습니다.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
+source-git-commit: c9f2b9f817d4baa04399d58bbc4008d7891e0252
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1879'
 ht-degree: 0%
 
 ---
@@ -378,23 +378,29 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. `<root>` 폴더(Runner.xcarchive.zip이 있는 위치)로 돌아갑니다.
+4. 다음 명령을 실행하여 서명 정보를 프레임워크 라이브러리로 업데이트합니다.
+
+   ```
+   codesign -f -s "Distribution Certificate Name" Frameworks/*
+   ```
+
+5. `<root>` 폴더(Runner.xcarchive.zip이 있는 위치)로 돌아갑니다.
 
    ```
    cd <root>
    ```
 
-5. xcodebuild를 사용하여 아카이브 내보내기:
+6. xcodebuild를 사용하여 아카이브 내보내기:
 
    ```
    xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
    ```
 
-6. ipa_path 폴더에서 .ipa 파일을 찾습니다.
-7. .ipa 파일을 `Diawi` 웹 사이트에 업로드합니다.
-8. 완전히 업로드되면 **[!UICONTROL 보내기]** 버튼을 선택합니다.
-9. 완료 후 QR 코드와 링크를 받게 됩니다.
-10. Safari에서 바로 QR 코드나 링크를 엽니다.
+7. ipa_path 폴더에서 .ipa 파일을 찾습니다.
+8. .ipa 파일을 `Diawi` 웹 사이트에 업로드합니다.
+9. 완전히 업로드되면 **[!UICONTROL 보내기]** 버튼을 선택합니다.
+10. 완료 후 QR 코드와 링크를 받게 됩니다.
+11. Safari에서 바로 QR 코드나 링크를 엽니다.
 
 디바이스가 프로비저닝 프로파일에 포함되어 있으면 디바이스에서 설치를 진행해야 합니다.
 
@@ -408,8 +414,12 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
 **APK 파일**&#x200B;의 경우
 
 ```
-sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
 ```
+
+>[!NOTE]
+>
+>`apksigner` 도구의 경로는 일반적으로 ~/Library/Android/sdk/build-tools/30.0.3/apksigner과 같이 표시됩니다.
 
 **aab 파일**&#x200B;의 경우
 
@@ -464,6 +474,36 @@ unzip my_app.apks -d output_dir
 **다음 작업**
 
 바이너리를 생성한 후 바이너리를 Play 스토어 또는 App Store에 푸시합니다.
+
+### 검토를 위해 앱을 스토어로 푸시
+
+최종 바이너리를 받은 후 검토를 위해 해당 앱 스토어(iOS 또는 Android)에 업로드할 수 있습니다. 다음 단계에 따라 App Store에 바이너리를 업로드하십시오.
+
+**iOS**
+
+1. App Store 자격 증명으로 Transporter 앱에 로그인합니다.
+2. 왼쪽 상단의 **+** 버튼을 선택하고 프로덕션 인증서(.ipa 파일)를 업로드합니다.
+3. .ipa 파일이 올바르면 App Store에 앱을 업로드하라는 메시지가 표시됩니다.
+4. 앱이 전달되면 App Store에 로그인합니다. 몇 시간 내에 이진이 TestFlight 섹션에 표시됩니다. 앱을 검토하기 전에 TestFlight에서 최종 기밀 테스트를 위해 이 기능을 활성화하고 새 릴리스에 대해 앱을 제출할 때 이 IPA를 바이너리로 사용할 수 있습니다.
+
+**Android**
+
+1. Google Play Store Console을 엽니다.
+2. **[!UICONTROL 대시보드]** > **[!UICONTROL 앱 릴리스 보기]** > **[!UICONTROL 릴리스 대시보드]**&#x200B;로 이동한 다음 **[!UICONTROL 새 릴리스 만들기]**&#x200B;를 선택합니다.
+3. 생성된 .aab 파일을 앱 번들로 업로드하고 버전 번호 및 새로운 기능 정보와 같은 릴리스 세부 정보를 입력합니다.
+4. 변경 사항을 저장하고 검토를 위해 앱을 제출합니다.
+5. 앱 배포를 100%로 설정해야 합니다(Google은 기본적으로 20%로 설정함).
+
+#### 앱 게시에 유용한 링크
+
+**Android**
+
+[앱 만들기 및 설정](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en)
+[검토할 앱 준비](https://support.google.com/googleplay/android-developer/answer/9859455?sjid=2454409340679630327-AP)
+
+**iOS**
+
+[검토를 위해 제출](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-for-review)
 
 ## 변경 사항을 적용하는 방법
 
