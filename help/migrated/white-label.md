@@ -4,9 +4,9 @@ title: Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 description: 흰색 레이블링은 앱 또는 서비스를 자신의 브랜드로 리브랜딩하고 원본 작성자인 것처럼 사용자 정의하는 관행입니다. Adobe Learning Manager에서는 모바일 앱에 흰색 레이블 지정을 적용하여 앱을 다시 브랜딩하고 사용자가 나만의 브랜드로 앱을 사용할 수 있도록 할 수 있습니다.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: eb93f8c5fd3d64366756840789b984ca986dbf0b
+source-git-commit: b7050db4b7129028ada51b15e2d76fce2bb62f64
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '1987'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,14 @@ ht-degree: 0%
 # Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 
 Adobe Learning Manager 모바일 앱은 이제 흰색 레이블 지정을 지원합니다. 즉, 이제 사용자의 브랜딩으로 앱을 출시할 수 있습니다.
+
+ALM은 다음 타임라인에 따라 업데이트된 흰색 레이블의 이진 파일을 사용할 수 있도록 합니다.
+
+1. 모바일 앱의 주요 릴리스의 경우 파일은 2주 전에 사용할 수 있습니다
+2. 긴급한 수정을 위한 계획된 모든 업데이트의 경우 파일은 1주일 전에 사용할 수 있습니다
+3. 계획되지 않은 긴급 및 즉각적인 수정이 필요한 경우 최적의 노력으로 파일을 사용할 수 있습니다.
+
+바이너리는 고객이 지정한 폴더에서 사용할 수 있습니다. 파일에 액세스하려면 CSM에 문의하십시오. 고객은 게시 및 관련 프로세스의 적시에 책임을 집니다.
 
 ## 흰색 레이블이 지정된 앱 실행 준비를 시작하는 방법
 
