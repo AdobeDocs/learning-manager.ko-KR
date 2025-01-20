@@ -4,9 +4,9 @@ title: Salesforce 패키지 설치
 description: Learning Manager에서는 Salesforce 앱 패키지를 제공합니다. SFDC에 Salesforce 앱 패키지를 설치하고 구성한 영업 직원은 SFDC 포털에서 교육 활동을 수행할 수 있습니다. 이 앱을 설치한 SFDC 사용자는 새로운 교육 과정을 탐구하고, 권장 사항을 확인하며, SFDC 포털에서 바로 이와 같은 컨텐츠를 확인할 수 있습니다. 또한 사용자는 책임자가 SFDC 포털의 앱에서 바로 보낸 발행인란 형식의 공지를 받습니다.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: fb946ae98dce45156e2f4c1cf992319405403ea9
+source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1057'
 ht-degree: 47%
 
 ---
@@ -47,11 +47,10 @@ Captivate Prime 패키지를 설치하려면 먼저 Salesforce의 기존 패키�
 >
 >Adobe Learning Manager 앱은 Salesforce Lightning 보기에서만 지원됩니다.
 
-1. [Learning Manager 패키지 URL](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LRvP)을(를) 실행합니다.
+1. [Learning Manager 패키지 URL(M42 패치 2)](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlG)을 실행합니다.
 1. **로그인** 페이지에서 **[!UICONTROL 사용자 지정 도메인 사용]**&#x200B;을 클릭합니다.
-
 1. 패키지 URL을 입력하고 **[!UICONTROL 계속]**&#x200B;을 클릭합니다. 설치 페이지에는 관리자 전용 설치 옵션이 선택되어 있어야 합니다. 이 옵션을 변경하지 마십시오.
-1. **로그인높이**&#x200B;를 클릭합니다. 패키지가 설치되면 **[!UICONTROL 완료]**&#x200B;를 클릭하세요. &#39;설치된 패키지&#39; 페이지로 이동하면 설치된 Adobe Learning Manager 패키지를 확인할 수 있습니다.
+1. **[!UICONTROL 설치]**&#x200B;를 클릭합니다. 패키지가 설치되면 **[!UICONTROL 완료]**&#x200B;를 클릭하세요. &#39;설치된 패키지&#39; 페이지로 이동하면 설치된 Adobe Learning Manager 패키지를 확인할 수 있습니다.
 
 1. &#39;설정&#39; 옆에 있는 &#39;앱 시작 관리자&#39;로 이동하여 &#39;Adobe Learning Manager&#39;를 검색합니다.
 1. 앱을 구성하려면 **[!UICONTROL 구성]**&#x200B;을 클릭하십시오.
