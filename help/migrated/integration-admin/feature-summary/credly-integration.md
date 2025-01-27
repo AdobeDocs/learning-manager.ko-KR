@@ -3,9 +3,10 @@ jcr-language: en_us
 title: 신빙하
 description: 다양한 소셜 미디어 채널에서 플랫폼의 외부 배지를 관리하고 공유하기 위해 ALM과 신뢰할 수 있는 통합에 대해 알아봅니다.
 contentowner: chandrum
-source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
+exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
+source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -41,8 +42,8 @@ Adobe Learning Manager에 Credly 커넥터를 추가하려면 다음 단계를 �
 
 Adobe Learning Manager의 badge.csv를 사용하면 기존 LMS 또는 외부 시스템에서 배지를 마이그레이션할 수 있습니다. badge.csv가 두 개의 새 열로 업데이트되었습니다.
 
-* 외부 배지 ID
-* 외부 배지 공급자.
+* externalBadId
+* externalBadgeProvider
 
 외부 배지 ID는 Credly 플랫폼의 배지 템플릿 ID를 의미하며 외부 배지 공급자는 Credly입니다. 이러한 값을 badge.csv에 추가하고 [마이그레이션 설명서](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure)에 언급된 단계에 따라 csv를 마이그레이션합니다.
 
@@ -55,4 +56,3 @@ Adobe Learning Manager의 badge.csv를 사용하면 기존 LMS 또는 외부 시
 작성자/책임자는 이렇게 공신력 있게 가져온 ALM 배지를 강의, 학습 경로 또는 인증(스킬뿐만 아니라)에 할당할 수 있으며, 이러한 학습 객체를 소비할 때 배지를 획득할 수 있고, Credly 및 ALM 앱에서 볼 수 있습니다.
 
 학습자는 Credly에 로그인하여 Credly 플랫폼에서 배지를 볼 수 있습니다. 크리틀리에서, 그들은 LinkedIn과 다른 소셜 미디어와 같은 외부 플랫폼에서 배지를 공유할 수 있습니다.
-
