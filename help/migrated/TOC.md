@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: eb7dfd6c170830d96ca9581ca023d543d7391c95
+source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 84%
+source-wordcount: '634'
+ht-degree: 83%
 
 ---
 
@@ -54,6 +54,7 @@ ht-degree: 84%
    * [사용자 일괄 추가](administrators/add-users-in-bulk.md)
    * [학습자 및 관리자의 대리 로그인](administrators/feature-summary/impersonation-learner-manager.md)
    * [SSO 다중 로그인](administrators/feature-summary/multiple-sso-logins.md)
+   * [SAML을 통해 인터페이스 언어 설정](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
    * [피어 계정](administrators/feature-summary/peer-account.md)
    * [스킬과 레벨 만들기 및 수정하기](administrators/feature-summary/skills-levels.md)
    * [강의의 AI 기반 추천](ai-based-recommendations.md)

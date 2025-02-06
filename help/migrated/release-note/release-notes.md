@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager 릴리스 정보
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 81d6ae6c552d8509d311ac9a12eb962968151a60
+source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
 workflow-type: tm+mt
-source-wordcount: '26265'
-ht-degree: 72%
+source-wordcount: '26470'
+ht-degree: 71%
 
 ---
 
@@ -22,6 +22,26 @@ ht-degree: 72%
   </tr>
  </tbody>
 </table>-->
+
++++업데이트 99: Adobe Learning Manager 2025년 2월 릴리스
+
+## SAML을 통해 인터페이스 언어 설정
+
+이제 Adobe Learning Manager(ALM)에서 언어에 대한 SAML 속성을 허용합니다. 그런 다음 이 속성이 사용자의 인터페이스 및 콘텐츠 언어 설정에 매핑되어 선호하는 언어로 LMS와 원활한 상호 작용을 보장합니다. 이러한 언어 설정의 구성은 SSO(Single Sign-On)용 SAML을 사용하는 IAM(Identity and Access Management) 플랫폼을 통해 관리됩니다. 이렇게 하면 SP(서비스 공급자) 시작 로그인과 IdP(신원 공급자) 시작 로그인을 모두 지원하여 사용자가 선택한 언어로 인터페이스와 콘텐츠를 볼 수 있습니다.
+
+자세한 내용은 이 [문서](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)를 참조하세요.
+
+## 마이그레이션 API 개선 사항
+
+이전에는 API(`GET /bulkimport/cansync` 및 `POST /bulkimport/startrun`)를 사용하여 마이그레이션된 외부 링크가 있는 활동 모듈이 링크에 액세스한 후 학습자에게 **[!UICONTROL 완료로 표시]** 옵션을 표시하지 않았습니다. 이 문제는 수정되었습니다. 이제 API를 통해 마이그레이션된 외부 링크가 있는 활동 모듈이 학습자용 **[!UICONTROL 완료로 표시]** 옵션을 올바르게 표시합니다.
+
+## 학습자 앱의 정렬 기능
+
+학습자 앱의 정렬 기능은 콘텐츠 및 인터페이스 언어를 기반으로 개인화된 강의 추천 항목을 제공합니다. &#x200B; 이 개선은 학습자가 선호하는 언어로 강의를 찾고 보다 지능적인 정렬 옵션을 활용하는 프로세스를 간소화합니다.
+
+자세한 내용은 이 [문서](/help/migrated/learners/feature-summary/catalogs.md#sorting-functionality-in-the-learner-app)를 참조하세요.
+
++++
 
 +++업데이트 98: Adobe Learning Manager 2024년 11월 릴리스
 

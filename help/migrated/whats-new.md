@@ -3,9 +3,9 @@ description: Adobe Learning Manager 2024년 11월 릴리스의 새로운 기능 
 jcr-language: en_us
 title: 새로운 기능 요약
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
+source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3184'
 ht-degree: 2%
 
 ---
@@ -551,6 +551,10 @@ curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --h
 ## 시스템 요구 사항
 
 [Adobe Learning Manager 시스템 요구 사항](/help/migrated/system-requirements.md)을 확인하십시오.
+
+## 릴리스 정보
+
+최신 릴리스 업데이트는 [릴리스 정보](/help/migrated/release-note/release-notes.md)를 확인하십시오.
 
 ## Adobe Learning Manager의 이전 릴리스
 
