@@ -4,9 +4,9 @@ title: 외부 소스에서 스킬 가져오기
 description: 각 커넥터를 사용하여 LinkedIn 및 Go1과 같은 콘텐츠 공급자에서 스킬을 가져옵니다.  가져온 스킬은 Learning Manager의 책임자 정의 스킬에 추가되며, 강의 생성 워크플로 중에 작성자가 사용할 수 있습니다.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
+source-git-commit: d96b25245daadaa0f5a330bcf8a7ab5bba995876
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### 기본 스킬 레벨
 
-기본 스킬 레벨은 1이고 스킬이 마이그레이션된 후 크레딧은 10입니다. 이후 관리자는 크레딧을 변경할 수 있습니다.
+기본 스킬 레벨은 1이고 스킬이 마이그레이션된 후 크레딧은 10입니다.
 
 스킬 이름 및 설명을 편집하고 외부 스킬에 레벨을 추가할 수 없습니다. 단, 도메인, 배지를 추가하고 크레딧을 편집할 수 있습니다.
 
