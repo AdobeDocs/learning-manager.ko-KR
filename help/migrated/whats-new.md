@@ -3,9 +3,9 @@ description: Adobe Learning Manager 2024년 11월 릴리스의 새로운 기능 
 jcr-language: en_us
 title: 새로운 기능 요약
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e11a51273d27e6c871a45a52ddb2536baccc57be
+source-git-commit: 537d324d6e266552fdfdd9ba16557fd3228870b7
 workflow-type: tm+mt
-source-wordcount: '3255'
+source-wordcount: '3260'
 ht-degree: 2%
 
 ---
@@ -207,7 +207,7 @@ Adobe Learning Manager은 이제 힌디어를 플랫폼의 인터페이스 언�
 
 >[!NOTE]
 >
->필요한 경우 IT 팀과 협력하여 새 IP 주소를 화이트리스트에 추가하는 것이 좋습니다.
+>필요한 경우 IT 팀과 협력하여 허용된 URL 목록에 IP 주소를 추가하는 것이 좋습니다.
 
 ## 마이그레이션 변경 사항
 
