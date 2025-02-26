@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Learning Manager에서 AI 기반 검색
 description: Adobe Learning Manager의 AI 기반 검색에 대해 알아보기
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
+source-git-commit: e25c92f9d91768db607cb153138cd02d1fbe28aa
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ _의미 체계 검색_
 
 ### 내용 내 검색
 
-Adobe Learning Manager의 검색 기능이 향상되어 실제 콘텐츠를 검색할 수 있습니다. 비디오, 오디오 파일 및 PDF을 자동으로 받아쓰기하여 이러한 받아쓰기를 검색 결과에 통합합니다. 또한 Adobe Connect 회의 녹음을 활용하여 보다 포괄적이고 관련 있는 결과를 제공합니다. 이러한 개선은 비디오 및 회의 메모와 같은 풍부한 콘텐츠가 포함된 강의를 포함하도록 하여 검색 정확도와 효율성을 크게 개선합니다.
+Adobe Learning Manager의 검색 기능이 향상되어 실제 콘텐츠를 검색할 수 있습니다. 비디오, 오디오 파일, PDF, 문서, ppt 및 xl을 자동으로 받아쓰기하여 이러한 받아쓰기를 검색 결과에 통합합니다. 또한 Adobe Connect 회의 녹음을 활용하여 보다 포괄적이고 관련 있는 결과를 제공합니다. 이러한 개선은 비디오 및 회의 메모와 같은 풍부한 콘텐츠가 포함된 강의를 포함하도록 하여 검색 정확도와 효율성을 크게 개선합니다. 내용 내 매칭은 전통적인 구문 매칭과 의미론적 매칭을 통해 검색된 결과물을 증폭시켜 검색 결과 순위를 향상하는 데 도움이 된다.
 
 >[!NOTE]
 >
