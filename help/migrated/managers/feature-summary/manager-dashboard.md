@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 관리자 대시보드
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
 workflow-type: tm+mt
-source-wordcount: '1432'
-ht-degree: 49%
+source-wordcount: '1486'
+ht-degree: 47%
 
 ---
 
@@ -84,6 +84,10 @@ Excel 보고서를 생성하려면 **[!UICONTROL 작업] > [!UICONTROL 보고서
 ## 준수 상태 {#compliancestatus}
 
 준수 대시보드에서 관리자는 특정 범주(예: 영업, 마케팅 및 법률)에 걸쳐 구성된 학습에 대한 팀의 전반적인 준수 상태를 볼 수 있습니다. 관리자는 준수 과정, 학습 경로 또는 인증이 있는 대시보드를 만들고 관리자와 공유할 수 있습니다. 관리자는 해당 인스턴스에서 관리자가 공유한 대시보드를 볼 수 있습니다.
+
+사용자 A는 사용자 B, 사용자 C, 사용자 D, 사용자 E의 관리자입니다. 사용자 B와 사용자 C는 각 팀의 관리자입니다.
+
+사용자 A는 부하직원(사용자 B, 사용자 C, 사용자 D 및 사용자 E)과 사용자 B 및 사용자 C가 관리하는 팀에 대한 보고서를 볼 수 있습니다.
 
 ### 대시보드 보기
 
