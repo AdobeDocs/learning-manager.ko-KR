@@ -4,7 +4,7 @@ title: 학습 경로
 description: Learning Manager의 책임자용 학습 계획을 생성합니다.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: 62efe11497408ad637f8559adeb0539c89b8f4d4
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 37%
