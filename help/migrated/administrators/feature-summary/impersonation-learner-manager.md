@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 학습자 및 관리자의 대리 로그인
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: ba0c87447755729cd98cea1d40083e05f2159f37
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 71%
+source-wordcount: '547'
+ht-degree: 70%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 71%
 * 책임자는 자신을 대신해 로그인할 수 없습니다.
 * 사용자 페이지에 대한 액세스 권한이 있는 사용자 정의 책임자는 사용자를 대신해 로그인할 수 있습니다.
 * 책임자/사용자 정의 책임자의 대리 로그인 시간은 최대 60분으로 제한됩니다.
+* 읽기 전용 액세스 권한이 있는 사용자 정의 관리자는 사용자를 대신해 로그인할 수 없습니다.
 
 ## 사용자 대리 로그인
 
