@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 강의 생성, 수정 및 게시
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '7145'
-ht-degree: 72%
+source-wordcount: '7163'
+ht-degree: 71%
 
 ---
 
@@ -699,7 +699,7 @@ Learning Manager 강의, 인증, 학습 프로그램을 생성하는 방법을 �
 
 ## 강의 중단 {#retireacourse}
 
-강의를 중단하는 경우 새 학습자를 강의에 등록할 수 없습니다. 이미 등록한 학습자는 강의를 수강할 수 있습니다.
+강의를 중단하면 학습자가 등록했거나 이미 완료한 경우에도 숨겨집니다. 강의를 중단하는 경우 새 학습자를 강의에 등록할 수 없습니다. 이미 등록한 학습자는 강의를 수강할 수 있습니다.
 
 강의를 중단하려면 강의 카드에서 옵션에 마우스를 가져가 강의 중단을 클릭합니다.
 

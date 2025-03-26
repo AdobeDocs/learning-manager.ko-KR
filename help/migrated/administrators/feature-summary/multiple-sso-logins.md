@@ -3,10 +3,10 @@ description: Adobe Learning Manager은 다중 SSO 구성을 통해 내부 및 �
 title: SSO 다중 로그인
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 39%
+source-wordcount: '794'
+ht-degree: 38%
 
 ---
 
@@ -26,14 +26,19 @@ ht-degree: 39%
 
 SSO 다중 로그인을 활성화하려면 **설정** > **로그인 방법**&#x200B;을 선택하십시오.
 
-설정 페이지에서 내부 또는 외부 사용자에 대해 &#39;싱글 사인온(SSO) 다중 로그인 활성화&#39; 확인란을 선택합니다.
+설정 페이지에서 내부 또는 외부 사용자에 대해 &#39;**[!UICONTROL 다중 SSO(Single Sign-On) 활성화]**&#39; 확인란을 선택합니다.
 
 다중 SSO가 활성화되면 &#39;기본 로그인 방법&#39;으로 선택한 로그인 방법이 SSO 구성에 연결되지 않은 사용자 그룹/프로필의 기본 로그인 유형이 됩니다. Adobe ID, SSO 또는 ALM ID(외부 사용자)을 기본적인 로그인 방식으로 설정할 수 있습니다.
+
+>[!NOTE]
+>
+>필요한 권한을 가진 관리자 및 사용자 정의 관리자는 다음 단계를 수행할 수 있습니다.
 
 SSO를 구성하려면 다음 단계를 따르십시오.
 
 1. &#39;싱글 사인온(SSO) 구성&#39;을 클릭합니다.
-1. &#39;새 SSO 구성 추가&#39;를 클릭합니다.
+1. &#39;새 SSO 구성 추가&#39;를 클릭합니다.\
+   ![](assets/sso.png)
 1. &#39;SSO 구성&#39; 대화 상자에서 다음을 추가합니다.
 
    * SSO의 이름을 입력합니다.

@@ -4,10 +4,10 @@ title: 학습 경로
 description: Learning Manager의 책임자용 학습 계획을 생성합니다.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 62efe11497408ad637f8559adeb0539c89b8f4d4
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 37%
+source-wordcount: '1334'
+ht-degree: 35%
 
 ---
 
@@ -111,15 +111,13 @@ ht-degree: 37%
 
 변경을 마친 후 학습 경로를 게시하려면 Publish을 클릭합니다.
 
-## 학습 경로 중첩
+## 중첩 또는 향상된 학습 경로
 
-학습 경로 안에 다른 학습 경로를 삽입할 수 있지만, 학습 경로 안에는 최대 하나의 학습 경로만 중첩할 수 있습니다.
-
-강의를 삽입하듯이 학습 경로를 삽입할 수 있습니다.
+중첩 또는 향상된 학습 경로는 학습 경로 내에 여러 학습 경로가 포함된 학습 경로입니다. 학습 경로를 삽입하려면 학습 경로 내에 강의를 추가하는 것과 동일한 프로세스를 따르십시오.
 
 ![](assets/nested-learning-path.png)
 
-*학습 경로 내에 학습 경로 추가*
+*중첩 또는 향상된 학습 경로*
 
 ## 학습 경로 설정
 

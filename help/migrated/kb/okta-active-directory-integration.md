@@ -4,10 +4,10 @@ title: Adobe Learning Manager와 Okta Active Directory 통합
 description: Adobe Learning Manager와 Okta Active Directory 통합
 contentowner: nluke
 exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 57%
+source-wordcount: '561'
+ht-degree: 55%
 
 ---
 
@@ -23,7 +23,12 @@ Adobe Learning Manager는 IdP(Identity Provider) 및 SP(Service Provider) 관리
 
 ## OKTA에서 응용 프로그램 생성
 
-1. Okta AD에서 관리자로 로그인합니다.
+1. Okta AD에 로그인합니다.
+
+   >[!NOTE]
+   >
+   >애플리케이션을 만들고 IDP를 설정하기 위해 ALM 관리자 액세스 권한이 필요하지 않습니다.
+
 1. **[!UICONTROL 응용 프로그램]**&#x200B;을 클릭합니다. 그러면 Okta에서 응용 프로그램 스토어가 열립니다.
 
    ![](assets/cp-application-store.png)

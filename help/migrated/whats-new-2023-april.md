@@ -3,10 +3,10 @@ title: 이 릴리스(2023년 4월)의 새로운 기능
 description: Adobe Learning Manager의 새로운 기능과 개선 사항 알아보기
 hidefromtoc: true
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '3158'
-ht-degree: 62%
+source-wordcount: '3205'
+ht-degree: 61%
 
 ---
 
@@ -216,13 +216,20 @@ QR 코드 기반 워크플로우 개선 사항으로, 이 릴리스 이전에 �
 
 학습자가 **전체 인스턴스 보기**&#x200B;를 선택하면, 전체 강의 인스턴스를 확인할 수 있습니다.
 
-![모든 인스턴스 보기](assets/view-all-instances-new.png)
+![대체 텍스트](assets/view-all-instance.png)
 
-책임자는 학습자용 인스턴스를 전환할 수 있습니다.
+_학습자 콘솔에서 모든 인스턴스 페이지 보기_
 
-![인스턴스 전환](assets/switch-instances.png)
+![](assets/switch-instance-learner.png)
+_학습자 페이지에서 인스턴스 전환_
+
+책임자는 학습자용 인스턴스를 전환할 수 있습니다. Admin Console에서 강의를 선택하고 **[!UICONTROL 학습자]** 섹션으로 이동하여 사용자를 선택한 다음 **[!UICONTROL 작업]** 버튼을 선택합니다. 그런 다음 **[!UICONTROL 인스턴스 전환]**&#x200B;을 선택하고 원하는 인스턴스를 선택합니다.
+
+![대체 텍스트](assets/switch-instance-admin.png)
+_Admin Console에서 인스턴스 전환_
 
 ![선택한 인스턴스 전환](assets/switch-instances-select.png)
+_인스턴스 프롬프트 전환_
 
 학습자 또는 책임자 앱에서 강의 인스턴스가 완료될 때까지 인스턴스를 전환할 수 없습니다.
 

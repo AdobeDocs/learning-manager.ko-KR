@@ -4,10 +4,10 @@ title: 사용자 일괄 추가
 description: 한 번에 여러 사용자를 추가하는 방법을 알아봅니다.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 25%
+source-wordcount: '341'
+ht-degree: 23%
 
 ---
 
@@ -38,6 +38,10 @@ ht-degree: 25%
 CSV에 사용자의 프로필과 관리자의 이메일 ID를 추가할 필요는 없습니다. 사용자 이름 및 사용자의 이메일 ID 만 필수 필드입니다.
 
 이 경우 기본적으로 회사의 관리자는 사용자의 관리자로 간주됩니다. 기본적으로 직원은 사용자의 프로필로 간주됩니다.
+
+>[!NOTE]
+>
+>새 사용자를 추가하려면 해당 사용자의 세부 정보가 포함된 새 CSV 파일을 만들고 업로드합니다. 기존 CSV 파일은 업데이트하고 다시 업로드할 수 없습니다.
 
 **샘플 CSV**
 

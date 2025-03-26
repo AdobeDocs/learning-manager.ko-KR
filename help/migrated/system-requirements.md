@@ -4,10 +4,10 @@ title: 시스템 요구 사항
 description: Adobe Learning Manager에 대한 시스템 요구 사항
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: 4096b80a5e939ef72a9bbe2aede3d9d91402e4ee
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 64%
+source-wordcount: '590'
+ht-degree: 61%
 
 ---
 
@@ -85,7 +85,10 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
 
 ## 이미지의 권장 크기 {#recommendedsizeofimages}
 
-* 발행인란: 1280 x 360픽셀입니다.
+* 발행인란:
+   * 크게 설정한 경우: 1280 x 360PX
+   * 설정(보통): 1280 x 273픽셀
+   * 작게 설정된 경우: 1280 x 187PX
 * 카탈로그 카드의 이미지: 280 x 100픽셀
 * 교육 카드의 크기: 300 x 240픽셀
 * 소셜 배너: 1600 x 240픽셀

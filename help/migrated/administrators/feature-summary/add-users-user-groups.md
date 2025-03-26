@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 사용자 추가 및 사용자 그룹 만들기
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '4150'
-ht-degree: 60%
+source-wordcount: '4231'
+ht-degree: 59%
 
 ---
 
@@ -358,6 +358,16 @@ Adobe Learning Manager에는 2개의 그룹 유형(사용자 정의 및 자동 �
 1. 사용자 그룹을 생성하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 이제 이 사용자 정의 그룹이 생성되어 프로필에 추가됩니다. 생성한 사용자 그룹은 기본적으로 동적입니다. 유사한 속성의 새로운 사용자가 추가되면 사용자 그룹에 자동으로 추가됩니다.
+
+사용자가 속한 그룹 목록을 보려면 **[!UICONTROL 사용자]** > **[!UICONTROL 사용자 그룹]**(으)로 이동하여 사용자 이름을 검색한 후 선택합니다. 이렇게 하면 사용자가 속한 모든 그룹이 표시됩니다.
+
+![](assets/list-of-group.png)
+
+### 사용자 그룹의 사용자 목록 다운로드
+
+특정 사용자 그룹의 사용자 목록을 다운로드하려면 **[!UICONTROL 사용자]** > **[!UICONTROL 사용자 그룹]**&#x200B;으로 이동하고 그룹 옆에 있는 **[!UICONTROL 다운로드 아이콘]**&#x200B;을 선택합니다. 이렇게 하면 해당 그룹의 사용자 목록이 포함된 CSV 파일이 생성됩니다.
+
+![](assets/download-list-of-user.png)
 
 ## 사용자 그룹 제외
 

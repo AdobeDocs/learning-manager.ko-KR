@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 로그인
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 58%
+source-wordcount: '196'
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,14 @@ ht-degree: 58%
 
 Learning Manager에 학습자로 로그인합니다.
 
-Adobe Learning Manager를 처음 사용한다면 다음 단계에 따라 계정을 생성해야 합니다.
+Adobe Learning Manager을 처음 사용할 때 학습자는 계정을 만들어야 합니다. 다음 두 가지 방법 중 하나로 이 작업을 수행할 수 있습니다.
+
+* 자체 등록: 시작 이메일에 제공된 URL을 사용하여 계정을 만듭니다.
+* 관리자가 생성한 계정: 관리자는 사용자를 대신하여 계정을 만들 수 있습니다.
+
+## 환영 전자 메일 URL을 사용하여 계정 생성
+
+시작 이메일의 URL을 사용하여 계정을 만들려면 다음 단계를 따르십시오.
 
 1. 책임자가 보낸 환영 전자 메일에 포함된 안전한 링크를 통해 Adobe Learning Manager를 실행합니다.
 

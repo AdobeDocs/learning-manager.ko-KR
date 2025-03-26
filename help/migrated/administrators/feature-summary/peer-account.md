@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 피어 계정
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 62%
+source-wordcount: '638'
+ht-degree: 57%
 
 ---
 
@@ -31,6 +31,18 @@ Learning Manager에서는 피어 계정 기능을 사용하면 구입한 시트�
    ![](assets/addpeer.png)
 
    *하위 도메인 추가*
+
+>[!NOTE]
+>
+>다른 계정의 하위 도메인을 찾으려면 계정의 URL을 확인하십시오. 하위 도메인은 기본 도메인 앞에 표시되며 특정 계정을 식별하는 데 도움을 줍니다.
+>
+>For example:
+>
+>URL [https://www.learningmanager.com/accountname](https://www.learningmanager.com/accountname)에서 하위 도메인은 **accountname**&#x200B;입니다.
+>
+>URL [https://www.accountname.learningmanager.com](https://www.accountname.learningmanager.com)에서 하위 도메인도 **accountname**&#x200B;입니다.
+>
+>하위 도메인은 각 계정에 고유하며 해당 Learning Manager 인스턴스에 액세스하는 데 사용됩니다.
 
 1. 피어 계정 요청을 수락하거나 거부할 책임자의 이메일 ID를 입력합니다.
 1. 동료와 공유할 시트 수를 지정합니다. 피어 계정과 시트를 공유하면 피어 계정은 받은 시트 또는 피어 자체 구매 시트와 함께 활성 상태로 전환됩니다.
