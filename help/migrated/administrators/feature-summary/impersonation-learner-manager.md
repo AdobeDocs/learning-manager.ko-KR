@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 학습자 및 관리자의 대리 로그인
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: 1693bb3905895be0c9a883339a1a5c7d71bb3f33
+source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 64%
+source-wordcount: '532'
+ht-degree: 59%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 64%
 
 **가장된 세션은 60분 동안 유지됩니다.**
 
-학습자 또는 책임자 역할로 변경하면 책임자/사용자 정의 책임자가 사용자 대리 로그인 상태에 있다는 메시지가 표시됩니다.
+학습자 또는 관리자 역할로 변경하면 책임자가 사용자의 대리 로그인 상태에 있다는 메시지가 표시됩니다.
 
 ## 로그인 및 액세스 보고서
 
