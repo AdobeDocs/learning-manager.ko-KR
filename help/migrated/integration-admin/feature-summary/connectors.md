@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager 커넥터
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '15848'
+source-wordcount: '15865'
 ht-degree: 59%
 
 ---
@@ -1084,6 +1084,10 @@ Adobe Learning Manager는 다음과 같은 범위가 필요하며 해당 범위�
 * 보고서 데이터 `/report:read:admin` 보기
 * 모든 사용자 정보 보기 `/user:read:admin`
 * 사용자 정보를 보고 사용자 `/user:write:admin` 관리
+* 모임 등록자 `/meeting:write:registrant:admin` 추가
+* 모든 모임 등록자 `/meeting:read:list_registrants:admin` 나열
+* 하위 계정의 사용자 모임 보기 및 관리 `/meeting:write:meeting:master`
+* 보고서 데이터 `/report:read:list_meeting_participants:admin` 보기
 
 ## Box 커넥터 {#box_connector}
 

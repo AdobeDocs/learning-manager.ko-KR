@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 세션 학습자 관리
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 84%
+source-wordcount: '1056'
+ht-degree: 82%
 
 ---
 
@@ -92,6 +92,12 @@ Adobe Learning Manager의 새로운 **[!UICONTROL 대기자 명단 보고서]**&
 
 * 특정 출석자에게 전자 메일을 보내려면 출석자를 선택한 다음 &#39;동작&#39; > &#39;선택한 사용자에게 전자 메일 전송&#39;을 클릭합니다.
 * 모든 참석자에게 강의 자료 또는 과제를 전송하려면 &#39;동작&#39; > &#39;모두에게 전자 메일 전송&#39;을 클릭합니다.
+
+## 초대 응답 캡처
+
+학습자 섹션에서 초대 응답을 볼 수 있습니다. 아무 세션으로 이동하여 **[!UICONTROL 학습자]**&#x200B;를 선택한 다음 드롭다운 메뉴에서 초대 응답을 선택합니다.
+
+![](assets/invitation-status.png)
 
 ## 학습자 목록 내보내기 {#exportinglearnerslist}
 

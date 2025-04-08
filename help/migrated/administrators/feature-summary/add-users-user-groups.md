@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 사용자 추가 및 사용자 그룹 만들기
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '4231'
-ht-degree: 59%
+source-wordcount: '4290'
+ht-degree: 58%
 
 ---
 
@@ -172,6 +172,8 @@ Adobe Learning Manager에서 다음 역할을 수행할 수 있습니다.
 
 ## 활성 필드
 
+Adobe Learning Manager의 활성 필드 는 사용자 특정 정보를 저장하고 관리하는 데 사용되는 사용자 정의 가능한 메타데이터 필드입니다. 이러한 필드는 시스템의 각 사용자와 연관된 주요 속성 또는 특성을 정의하는 데 도움이 됩니다.
+
 ### 사용자 속성 관리
 
 >[!INFO]
@@ -329,6 +331,10 @@ Learning Manager에 외부 사용자 그룹을 추가한 후 외부 사용자 �
 ## 역할 제거 {#Removearole-1}
 
 사용자를 선택하고 오른쪽 상단에서 **[!UICONTROL 작업]** > **[!UICONTROL 역할 제거]** > **제거`<role>`**&#x200B;를 클릭합니다. 선택한 역할이 사용자에게 할당되었던 역할 목록에서 제거됩니다.
+
+>[!NOTE]
+>
+>새 역할을 할당해도 사용자 정의 사용자 그룹에는 영향을 주지 않습니다. 그러나 모든 관리자, 모든 작성자 및 유사한 역할 기반 그룹과 같은 자동 생성된 사용자 그룹에 영향을 줍니다.
 
 ## 사용자 그룹 만들기 {#createusergroups}
 

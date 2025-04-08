@@ -4,10 +4,10 @@ title: 대기자 및 출석자 관리
 description: 책임자는 출석과 강의 대기자를 관리할 수 있습니다.
 contentowner: manochan
 exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 76%
+source-wordcount: '325'
+ht-degree: 72%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 76%
 
 1. 강의 세부 정보 페이지의 왼쪽 창에서 **[!UICONTROL 대기자 명단]**&#x200B;을 클릭합니다. 페이지에 대기자 명단에 등록된 학습자 명단이 나타납니다.
 1. 학습자를 선택하고 **[!UICONTROL 시트 할당]**&#x200B;을 클릭하여 시트 제한을 초과하는 강의에 학습자를 직접 등록합니다.
+
+>[!NOTE]
+>
+>등록된 학습자는 대기자 명단으로 이동할 수 없으며 다른 학습자에게 시트를 재할당할 수 없습니다.
 
 ## 출석 관리 {#attendancemanagement}
 

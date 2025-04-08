@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 1985b1db6e4ec5fdbe3cfa939ce404e9cf3a6ee9
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 83%
@@ -27,7 +27,6 @@ ht-degree: 83%
    * [Learning Manager는 GDPR을 준수함](kb/prime-gdpr.md)
    * [Learning Manager의 접근성](accessibility-learning-manager.md)
    * [사용자 정의 도메인 지원](custom-domain.md)
-   * [Adobe Learning Manager 추천](recommendations-adobe-learning-manager.md)
    * [Adobe FTP Manager에서 전환](transition-from-ftp-manager.md)
    * [Adobe Learning Manager에서 지원되는 언어](/help/migrated/languages-supported.md)
    * [Adobe Learning Manager에서 API 사용 중단 및 변경 사항](api-deprecations-list.md)
@@ -58,6 +57,7 @@ ht-degree: 83%
    * [SAML을 통해 인터페이스 언어 설정](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
    * [피어 계정](administrators/feature-summary/peer-account.md)
    * [스킬과 레벨 만들기 및 수정하기](administrators/feature-summary/skills-levels.md)
+   * [Adobe Learning Manager 추천](recommendations-adobe-learning-manager.md)
    * [강의의 AI 기반 추천](ai-based-recommendations.md)
    * [스킬 가져오기](administrators/feature-summary/import-skills-external-sources.md)
    * [게임화](administrators/feature-summary/gamification.md)
