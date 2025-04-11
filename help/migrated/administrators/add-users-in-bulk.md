@@ -4,7 +4,7 @@ title: 사용자 일괄 추가
 description: 한 번에 여러 사용자를 추가하는 방법을 알아봅니다.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 23%
@@ -15,7 +15,7 @@ ht-degree: 23%
 
 이 교육에서는 CSV를 통해 사용자를 일괄 추가하는 방법을 알아봅니다.
 
-[![단추](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
+[![단추](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)
 
 교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 

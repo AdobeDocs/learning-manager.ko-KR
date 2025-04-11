@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 태그
 contentowner: dvenkate
 exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 63%
@@ -23,7 +23,7 @@ ht-degree: 63%
 
 이 교육에서는 태그를 추가, 편집, 바꾸기, 추가 및 삭제하는 방법에 대해 알아봅니다. 권한 설정을 변경하고 태그 필터를 사용하는 방법도 알아봅니다.
 
-[![단추](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318920)
 
 교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 

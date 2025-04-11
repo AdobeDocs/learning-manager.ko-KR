@@ -4,10 +4,10 @@ title: 관리자를 위한 자주 묻는 질문(FAQ)
 description: Adobe Learning Manager 관리자를 위한 자주 묻는 질문
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 2548370c5b943964e200b6c1d5a4d0d9ca386ba6
 workflow-type: tm+mt
-source-wordcount: '2515'
-ht-degree: 52%
+source-wordcount: '2612'
+ht-degree: 50%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 52%
   </tr>
  </tbody>
 </table>
+
++++새 Experience League 공지
+
+Adobe 솔루션 제품군과 더욱 효과적으로 연결될 수 있도록 하는 여정에 Adobe Learning Manager이 지원 접수 프로세스에 하나의 채널을 더 추가할 예정임을 알려 드리게 되어 기쁩니다. 2025년 5월 12일부터 Adobe Experience League에서 직접 사례를 만들 수 있습니다. Experience League은 현재 Adobe Learning Manager 자가 해결 설명서, 사용 안내서 및 모범 사례를 제공하며 자가 서비스에서 상담사 주도 커뮤니케이션에 이르기까지 모든 지원 요구 사항을 위한 기본 리소스가 됩니다. 이렇게 중요한 전환을 진행하면서 이해해주시고 지원해주셔서 감사합니다.
+
++++
 
 +++사용자를 일괄 추가할 수 있습니까? 어떻게 해야 합니까?
 

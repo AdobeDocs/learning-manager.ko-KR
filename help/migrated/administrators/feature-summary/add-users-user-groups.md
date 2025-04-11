@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 사용자 추가 및 사용자 그룹 만들기
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '4290'
 ht-degree: 58%
@@ -22,7 +22,7 @@ Learning Manager 응용 프로그램에서 사용자 또는 사용자 그룹을 
 
 >[!INFO]
 >
->이 교육에서는 이름, 이메일 ID 및 여러 자동 생성된 사용자 그룹을 결합하여 사용자 그룹을 만드는 방법에 대해 학습합니다.<br><br>[![단추](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)</br></br>
+>이 교육에서는 이름, 이메일 ID 및 여러 자동 생성된 사용자 그룹을 결합하여 사용자 그룹을 만드는 방법에 대해 학습합니다.<br><br>[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
 
 <!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
@@ -53,7 +53,7 @@ Adobe Learning Manager에서 다음 역할을 수행할 수 있습니다.
 
 >[!INFO]
 >
->이 교육에서는 Adobe Learning Manager에 내부 학습자를 추가하는 방법에 대해 학습합니다.<br><br>[![단추](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)</br></br>
+>이 교육에서는 Adobe Learning Manager에 내부 학습자를 추가하는 방법에 대해 학습합니다.<br><br>[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br></br>
 
 
 교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
@@ -83,7 +83,7 @@ Adobe Learning Manager에서 다음 역할을 수행할 수 있습니다.
 
 이 교육에서는 역할을 할당 및 제거하고, 시작 이메일을 보내고, 사용자를 삭제 및 제거하는 방법에 대해 학습합니다.
 
-[![단추](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
 
 교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 
@@ -178,7 +178,7 @@ Adobe Learning Manager의 활성 필드 는 사용자 특정 정보를 저장하
 
 >[!INFO]
 >
->이 교육에서는 활성 필드를 추가, 사용자 정의 및 구성하는 방법에 대해 알아봅니다.<br><br>[![단추](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)</br></br>
+>이 교육에서는 활성 필드를 추가, 사용자 정의 및 구성하는 방법에 대해 알아봅니다.<br><br>[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br></br>
 
 교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 

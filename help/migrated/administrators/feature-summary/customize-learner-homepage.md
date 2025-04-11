@@ -4,7 +4,7 @@ title: 학습자 홈페이지 사용자 정의
 description: 책임자는 학습자의 홈페이지를 사용자 정의하여 학습자에게 개인화된 최신 콘텐츠 기반으로 만들 수 있습니다.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: f09c93374673a3da92199d5bbc858f934d6cbba2
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1139'
 ht-degree: 46%
@@ -25,7 +25,7 @@ ht-degree: 46%
 
 이 교육에서는 학습자 홈페이지를 사용자 정의하는 방법을 살펴봅니다.
 
-[![단추](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
+[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318825)
 
 교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 

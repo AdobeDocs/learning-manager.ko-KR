@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 강의 인스턴스 및 학습 경로 만들기
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '5111'
 ht-degree: 58%
@@ -27,7 +27,7 @@ ht-degree: 58%
 
 >[!INFO]
 >
->이 교육에서는 인스턴스 세부 정보와 인스턴스 속성을 편집하는 방법에 대해 알아봅니다.<br><br>[![단추](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
+>이 교육에서는 인스턴스 세부 정보와 인스턴스 속성을 편집하는 방법에 대해 알아봅니다.<br><br>[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
 
 
 교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
@@ -137,7 +137,7 @@ ht-degree: 58%
 
 이 교육에서는 학습자를 등록, 등록 취소 및 다시 등록하는 방법에 대해 학습합니다.
 
-[![단추](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
+[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318916)
 
 교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 

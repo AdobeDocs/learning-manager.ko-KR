@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 보고서
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '7828'
 ht-degree: 52%
@@ -191,7 +191,7 @@ Learning Manager는 매주 시스템에 등록된 사용자 수를 기록합니�
 
 >[!INFO]
 >
->이 교육에서는 데이터베이스에서 대시보드 보고서를 생성하는 방법에 대해 알아봅니다.<br><br>[![단추](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)</br></br>
+>이 교육에서는 데이터베이스에서 대시보드 보고서를 생성하는 방법에 대해 알아봅니다.<br><br>[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318854)</br></br>
 
 
 교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
@@ -927,7 +927,7 @@ Learning Manager는 책임자가 교육 세부 정보와 작성자, 게시된 �
 
 >[!INFO]
 >
->이 교육에서는 대시보드 보고서에 대한 이메일 구독을 설정하는 방법에 대해 알아봅니다.<br><br>[![단추](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)</br></br>
+>이 교육에서는 대시보드 보고서에 대한 이메일 구독을 설정하는 방법에 대해 알아봅니다.<br><br>[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
 
 
 교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
@@ -1179,7 +1179,7 @@ X축에서 사용자 특성 옵션을 선택하고 옆에 있는 **선택** 드�
 
 >[!INFO]
 >
->이 교육에서는 강의 보고서를 내보내고 이러한 보고서에 대한 이메일 구독을 설정하는 방법에 대해 알아봅니다.<br><br>[![단추](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)</br></br>
+>이 교육에서는 강의 보고서를 내보내고 이러한 보고서에 대한 이메일 구독을 설정하는 방법에 대해 알아봅니다.<br><br>[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
 
 
 교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.

@@ -4,7 +4,7 @@ title: 학습 경로
 description: Learning Manager의 책임자용 학습 계획을 생성합니다.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 35%
@@ -25,7 +25,7 @@ ht-degree: 35%
 
 이 교육에서는 학습 경로를 생성하고 여기에 강의를 추가하고 학습 경로를 게시 및 폐기하고 학습 경로 내의 인스턴스를 구성하는 방법에 대해 학습합니다.
 
-[![단추](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318919)
 
 교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 

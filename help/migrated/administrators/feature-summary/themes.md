@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 색상 테마
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1203'
 ht-degree: 45%
@@ -21,7 +21,7 @@ Learning Manager에서는 조직의 브랜딩 요구 사항에 맞춰 응용 프
 
 이 교육에서는 조직의 브랜딩 요구 사항과 일치하도록 인터페이스의 모양을 사용자 정의하는 방법을 살펴봅니다.
 
-[![단추](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
+[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318823)
 
 교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 

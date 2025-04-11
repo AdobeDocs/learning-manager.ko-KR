@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 전자 메일 템플릿
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 58%
@@ -25,7 +25,7 @@ Learning Manager 응용 프로그램은 이벤트를 기반으로 하여 여러 
 
 이 교육에서는 개별 이메일 템플릿을 사용자 정의하고 이메일 템플릿에 대한 과정 수준 및 계정 수준 설정을 사용자 정의하는 방법에 대해 알아봅니다.
 
-[![단추](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QYL4NT4P&amp;mv=display&amp;mv2=display#/course/8318925)
+[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318925)
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
@@ -223,7 +223,7 @@ Learning Manager의 전자 메일 템플릿에는 편집 가능한 섹션이 포
 
 이 교육에서는 인스턴스 기본값을 설정하고, 새 인스턴스를 추가하고, 인스턴스를 폐기하고 다시 열고, 인스턴스에 대한 전자 메일 템플릿을 구성하는 방법에 대해 학습합니다.
 
-[![단추](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
+[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
 
 교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 
