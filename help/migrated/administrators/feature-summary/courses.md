@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 강의 인스턴스 및 학습 경로 만들기
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
-source-wordcount: '5111'
+source-wordcount: '5153'
 ht-degree: 58%
 
 ---
@@ -23,12 +23,11 @@ ht-degree: 58%
 
 ## 강의 인스턴스 만들기 {#createinstanceofacourse}
 
-### 인스턴스 관리
+### 인스턴스 설정
 
->[!INFO]
->
->이 교육에서는 인스턴스 세부 정보와 인스턴스 속성을 편집하는 방법에 대해 알아봅니다.<br><br>[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+이 교육에서는 인스턴스 기본값을 설정하고, 새 인스턴스를 추가하고, 인스턴스를 폐기하고 다시 열고, 인스턴스에 대한 전자 메일 템플릿을 구성하는 방법에 대해 학습합니다.
 
+[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
 
 교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 
@@ -76,6 +75,14 @@ ht-degree: 58%
 >[!NOTE]
 >
 >관리자는 인스턴스 > 세션으로 이동하여 세션 취소를 선택하여 세션을 취소합니다.
+
+### 인스턴스 관리
+
+>[!INFO]
+>
+>이 교육에서는 인스턴스 세부 정보와 인스턴스 속성을 편집하는 방법에 대해 알아봅니다.<br><br>[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+
+교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 
 ### 인스턴스 중단 {#retireaninstance}
 
