@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 사용자 추가 및 사용자 그룹 만들기
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
+source-git-commit: 81b3b2ef5f430968b107d3e9d67fea672c6dea98
 workflow-type: tm+mt
-source-wordcount: '4296'
+source-wordcount: '4290'
 ht-degree: 58%
 
 ---
@@ -15,7 +15,22 @@ ht-degree: 58%
 
 Learning Manager 응용 프로그램에서 사용자 또는 사용자 그룹을 추가하는 방법을 알아보십시오.
 
+
 <!--![](assets/user-mgmt-new.png)-->
+
+## 사용자 그룹 관리
+
+>[!INFO]
+>
+>이 교육에서는 이름, 이메일 ID 및 여러 자동 생성된 사용자 그룹을 결합하여 사용자 그룹을 만드는 방법에 대해 학습합니다.<br><br>[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
+
+<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 
 ## 개요 {#overview}
 
@@ -49,6 +64,9 @@ Adobe Learning Manager에서 다음 역할을 수행할 수 있습니다.
 1. 홈 페이지에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다. 이 페이지에서는 CSV를 사용하여 단일 사용자 또는 한 번에 여러 사용자를 추가할 수 있습니다. 또한 내부 직원용 자체 등록 링크 또는 외부 학습자 프로필을 만들 수도 있습니다.
 1. 단일 사용자를 추가하려면 오른쪽 상단 모서리에서 **[!UICONTROL 추가]**&#x200B;를 클릭하고 **[!UICONTROL 단일 사용자]** 옵션을 선택합니다.
 
+1. 단일 사용자를 추가하려면 오른쪽 상단 모서리에서 **[!UICONTROL 추가]**&#x200B;를 클릭하고 **단일 사용자** 옵션을 선택합니다.
+
+
    ![](assets/single-user.png)
    *단일 내부 사용자 추가*
 
@@ -61,7 +79,16 @@ Adobe Learning Manager에서 다음 역할을 수행할 수 있습니다.
 
 ## 사용자 일괄 추가 {#addusersinbulk}
 
+### 사용자 관리
+
+이 교육에서는 역할을 할당 및 제거하고, 시작 이메일을 보내고, 사용자를 삭제 및 제거하는 방법에 대해 학습합니다.
+
+[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
+
+교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
+
 일반적으로 대부분의 조직은 직함, 위치, 참여 날짜, 직원 체계와 같은 모든 직원 기록을 관리하는 HRMS(HR 관리 시스템)을 사용해 업무를 수행합니다. 이러한 데이터는 CSV 형식으로 내보낼 수 있습니다. CSV를 가져오려면 아래 단계를 따르십시오.
+
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL 추가]**&#x200B;를 클릭하고 **[!UICONTROL CSV 업로드]** 옵션을 선택합니다.
 
@@ -108,25 +135,11 @@ Adobe Learning Manager에서 다음 역할을 수행할 수 있습니다.
 
 사용자를 선택한 후 다음을 수행할 수 있습니다.
 
->[!INFO]
->
->이 교육에서는 CSV를 통해 사용자를 일괄 추가하는 방법을 알아봅니다.<br><br>[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
-
-교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
-
 ## 사용자 등록 {#registerauser}
 
 사용자를 선택한 상태에서 오른쪽 상단 모서리에 있는 **[!UICONTROL 작업]**&#x200B;을 클릭하고 **[!UICONTROL 등록]**&#x200B;을 클릭하십시오.
 
 선택한 사용자에게 환영 전자 메일이 전송됩니다. 기존 Adobe ID가 있는 학습자는 이 링크를 클릭할 수 있습니다. 기존 Adobe ID이 없는 경우에는 시작 링크를 클릭하여 Adobe ID을 만들고 Learning Manager 계정에 연결할 수 있습니다.
-
-### 사용자 관리
-
-이 교육에서는 역할을 할당 및 제거하고, 시작 이메일을 보내고, 사용자를 삭제 및 제거하는 방법에 대해 학습합니다.
-
-[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
-
-교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 
 ## 역할 할당 {#assignarole}
 
@@ -326,18 +339,6 @@ Learning Manager에 외부 사용자 그룹을 추가한 후 외부 사용자 �
 ## 사용자 그룹 만들기 {#createusergroups}
 
 사용자 그룹은 범주와 관련된 사용자 집합입니다. 사용자 그룹을 통해 책임자는 속성을 기반으로 조직에서 학습자를 선택하고 학습 콘텐츠를 해당 학습자에게 할당할 수 있습니다. 또한 사용자 정의된 로고 및 카탈로그를 학습자에게 할당하고 진행률에 사용자 정의된 보고서를 표시할 수도 있습니다.
-
->[!INFO]
->
->이 교육에서는 이름, 이메일 ID 및 여러 자동 생성된 사용자 그룹을 결합하여 사용자 그룹을 만드는 방법에 대해 학습합니다.<br><br>[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
-
-<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
-
-<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 
 사용자 그룹에 액세스하려면 왼쪽 탐색 창에서 **[!UICONTROL 사용자 그룹]**&#x200B;을 클릭합니다.
 
