@@ -4,7 +4,7 @@ title: 사용자 일괄 추가
 description: 한 번에 여러 사용자를 추가하는 방법을 알아봅니다.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 96602899dd76eae14a6b7e1808d529756657e7b8
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 23%
@@ -13,9 +13,9 @@ ht-degree: 23%
 
 # 사용자 일괄 추가
 
-이 교육에서는 CSV를 통해 사용자를 일괄 추가하는 방법을 알아봅니다.
-
-[![단추](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)
+>[!INFO]
+>
+>이 교육에서는 CSV를 통해 사용자를 일괄 추가하는 방법을 알아봅니다.<br><br>[![단추](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
 교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 
@@ -56,7 +56,7 @@ CSV에 사용자의 프로필과 관리자의 이메일 ID를 추가할 필요�
 
 *업로드를 위한 CSV 템플릿*
 
-또한 조직 책임자는 자신을 사원으로 추가하고 관리자의 이메일 ID를 루트로 언급할 수 있습니다.
+또한 조직 관리자는 **본인**&#x200B;을(를) 직원으로 추가하고 관리자의 전자 메일 ID를 루트로 언급할 수 있습니다.
 
 **샘플 CSV**
 
