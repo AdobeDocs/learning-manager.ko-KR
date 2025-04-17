@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
+source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 83%
 # Learning Manager 가이드 {#using}
 
 * [Learning Manager 사용자 가이드](user-guide.md)
-* {#introduction} 소개
+* 소개 {#introduction}
    * [새로운 기능 요약](/help/migrated/whats-new.md)
    * [새로운 기능 요약 2024년 7월](whats-new-july-2024.md)
    * [새로운 기능 2024년 3월](whats-new-march-2024.md)
@@ -32,13 +32,13 @@ ht-degree: 83%
    * [Adobe Learning Manager에서 API 사용 중단 및 변경 사항](api-deprecations-list.md)
    * [Adobe Learning Manager의 화이트레이블 지정](white-label.md)
    * [포함된 플레이어 상호 작용 API 설명서](/help/migrated/embedded-player-interaction.md)
-* {#get-started} 시작
+* 시작하기 {#get-started}
    * [관리자로 시작하기](administrators/feature-summary/getting-started-admin.md)
    * [작성자로 시작](authors/feature-summary/getting-started-author.md)
    * [학습자로 시작하기](learners/feature-summary/getting-started-learner.md)
    * [관리자로 시작하기](managers/feature-summary/getting-started-manager.md)
    * [강사로 Learning Manager 시작하기](instructors/feature-summary/getting-started.md)
-* 관리자 {#admin}
+* 책임자 {#admin}
    * [사용자 로그인](administrators/feature-summary/user-login.md)
    * [사용자 추가 및 사용자 그룹 만들기](administrators/feature-summary/add-users-user-groups.md)
    * [강의실 위치 추가](administrators/feature-summary/classroom.md)
