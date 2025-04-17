@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 사용자 추가 및 사용자 그룹 만들기
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f5998c7e7a05d6f48e094b359d157603f4a95e5c
+source-git-commit: ae99efd330f27fe36970c9324b0b064d9c7a85e5
 workflow-type: tm+mt
-source-wordcount: '4290'
+source-wordcount: '4305'
 ht-degree: 58%
 
 ---
@@ -110,7 +110,11 @@ Adobe Learning Manager에서 다음 역할을 수행할 수 있습니다.
 >
 >자세한 내용은 [사용자 일괄 추가](../add-users-in-bulk.md) FAQ를 참조하십시오.
 
-사용자를 선택한 후 다음을 수행할 수 있습니다.
+>[!INFO]
+>
+>이 교육에서는 CSV를 통해 사용자를 일괄 추가하는 방법을 알아봅니다.<br><br>[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+
+교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 
 ## 사용자 등록 {#registerauser}
 
