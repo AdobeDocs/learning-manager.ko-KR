@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 사용자 추가 및 사용자 그룹 만들기
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 81b3b2ef5f430968b107d3e9d67fea672c6dea98
+source-git-commit: f5998c7e7a05d6f48e094b359d157603f4a95e5c
 workflow-type: tm+mt
 source-wordcount: '4290'
 ht-degree: 58%
@@ -15,22 +15,7 @@ ht-degree: 58%
 
 Learning Manager 응용 프로그램에서 사용자 또는 사용자 그룹을 추가하는 방법을 알아보십시오.
 
-
 <!--![](assets/user-mgmt-new.png)-->
-
-## 사용자 그룹 관리
-
->[!INFO]
->
->이 교육에서는 이름, 이메일 ID 및 여러 자동 생성된 사용자 그룹을 결합하여 사용자 그룹을 만드는 방법에 대해 학습합니다.<br><br>[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
-
-<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
-
-<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 
 ## 개요 {#overview}
 
@@ -78,14 +63,6 @@ Adobe Learning Manager에서 다음 역할을 수행할 수 있습니다.
 1. Learning Manager에서 새로운 사용자를 추가하려면 **[!UICONTROL 추가]**&#x200B;를 클릭합니다. 사용자가 추가되면 사용자에게 확인 메일이 전송됩니다. 그러면 학습자가 계정을 활성화하고 Learning Manager 사용을 시작합니다. 이 워크플로우는 Learning Manager 계정에 제한된 수의 학습자를 추가해야 하는 경우 유용합니다. 그러나 대규모 조직의 모든 직원을 등록하려는 경우 한 번에 추가할 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
 
 ## 사용자 일괄 추가 {#addusersinbulk}
-
-### 사용자 관리
-
-이 교육에서는 역할을 할당 및 제거하고, 시작 이메일을 보내고, 사용자를 삭제 및 제거하는 방법에 대해 학습합니다.
-
-[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
-
-교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 
 일반적으로 대부분의 조직은 직함, 위치, 참여 날짜, 직원 체계와 같은 모든 직원 기록을 관리하는 HRMS(HR 관리 시스템)을 사용해 업무를 수행합니다. 이러한 데이터는 CSV 형식으로 내보낼 수 있습니다. CSV를 가져오려면 아래 단계를 따르십시오.
 
@@ -140,6 +117,14 @@ Adobe Learning Manager에서 다음 역할을 수행할 수 있습니다.
 사용자를 선택한 상태에서 오른쪽 상단 모서리에 있는 **[!UICONTROL 작업]**&#x200B;을 클릭하고 **[!UICONTROL 등록]**&#x200B;을 클릭하십시오.
 
 선택한 사용자에게 환영 전자 메일이 전송됩니다. 기존 Adobe ID가 있는 학습자는 이 링크를 클릭할 수 있습니다. 기존 Adobe ID이 없는 경우에는 시작 링크를 클릭하여 Adobe ID을 만들고 Learning Manager 계정에 연결할 수 있습니다.
+
+### 사용자 관리
+
+이 교육에서는 역할을 할당 및 제거하고, 시작 이메일을 보내고, 사용자를 삭제 및 제거하는 방법에 대해 학습합니다.
+
+[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
+
+교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 
 ## 역할 할당 {#assignarole}
 
@@ -344,6 +329,14 @@ Learning Manager에 외부 사용자 그룹을 추가한 후 외부 사용자 �
 
 ![](assets/user-groups.png)
 *사용자 그룹 만들기*
+
+### 사용자 그룹 관리
+
+>[!INFO]
+>
+>이 교육에서는 이름, 이메일 ID 및 여러 자동 생성된 사용자 그룹을 결합하여 사용자 그룹을 만드는 방법에 대해 학습합니다.<br><br>[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
+
+교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 
 Adobe Learning Manager에는 2개의 그룹 유형(사용자 정의 및 자동 생성)이 있습니다. 학습자를 계정에 추가하면 공통 속성에 기반하여 몇 개 그룹이 자동으로 생성됩니다.
 
