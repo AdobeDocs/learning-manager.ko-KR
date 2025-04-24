@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: dd6143bc9c9a2bd564ae0925f5103073325c5d8a
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 85%
+source-wordcount: '652'
+ht-degree: 84%
 
 ---
 
@@ -160,6 +160,7 @@ ht-degree: 85%
    * [관리자를 위한 자주 묻는 질문(FAQ)](managers/frequently-asked-questions-for-managers.md)
    * [학습자를 위한 자주 묻는 질문(FAQ)](learners/frequently-asked-questions-for-learners.md)
    * [새로운 Experience 리그 공지 사항](/help/migrated/new-experience-league-announcement.md)
+   * [Experience League에서 지원 티켓을 제출하는 방법](/help/migrated/how-to-submit-support-ticket.md)
 * 기술 자료 {#knowledge-base}
    * [Learning Manager에 로그인할 수 없음](kb/unable-log-in-learning-manager.md)
    * [학습 요약이 현재 데이터에 표시되지 않음](kb/learning-summary-not-display-data.md)
