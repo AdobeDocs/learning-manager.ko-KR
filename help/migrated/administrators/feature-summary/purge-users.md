@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 사용자 제거
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 75%
+source-wordcount: '883'
+ht-degree: 72%
 
 ---
 
@@ -60,6 +60,10 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
    *사용자를 삭제한 후 확인 메시지*
 
 1. 확인 후 &#39;제거&#39;를 클릭하면 &#39;제거&#39; 요청이 수락됩니다. 작업이 완료되면 알림을 받습니다. 제거 요청 ID도 제공됩니다. 이 ID를 CSM에 제공하여 요청을 추적할 수 있습니다.
+
+>[!NOTE]
+>
+>삭제한 사용자를 시스템에 다시 추가하면 이전 역할(예: 관리자, 작성자, 강사 등)이 유지되지 않습니다. 학습자 역할로 추가됩니다.
 
 ## 사용자 일괄 제거
 

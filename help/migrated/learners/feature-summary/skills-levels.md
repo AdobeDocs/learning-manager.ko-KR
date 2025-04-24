@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 스킬 및 레벨
 contentowner: manochan
 exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 90%
+source-wordcount: '326'
+ht-degree: 86%
 
 ---
 
@@ -38,6 +38,10 @@ Adobe Learning Manager에서는 스킬 위젯을 사용하여 스킬을 기반�
 *각 스킬 보기*
 
 책임자만 스킬을 생성하여 학습자에게 할당할 수 있습니다. 학습자는 등록된 강의/학습 프로그램에 따라 스킬에 자동으로 할당됩니다.
+
+>[!NOTE]
+>
+>학습자는 클래식 학습자 앱에서만 피어 레벨 스킬을 볼 수 있습니다.
 
 ## 스킬 달성 {#achieveskill}
 

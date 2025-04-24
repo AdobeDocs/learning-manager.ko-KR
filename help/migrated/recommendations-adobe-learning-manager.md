@@ -2,16 +2,16 @@
 title: Adobe Learning Manager 추천
 description: 추천 엔진의 핵심은 Learning Manager의 새로운 '강의 순위 알고리즘'에 의해 제어됩니다. 이 알고리즘은 5천만 개의 데이터 포인트와 5년간의 누적 학습 데이터를 수백만 명의 사용자에게 사용하여 등록 가능성에 따라 강의 순위를 지정합니다. 이 평가는 등록 가능성이 가장 많은 강의가 학습자 앞에 표시되도록 합니다.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 58%
+source-wordcount: '1483'
+ht-degree: 57%
 
 ---
 
 # Adobe Learning Manager 추천
 
-Adobe Learning Manager에 강의에 대한 새롭게 개선된 추천 시스템을 도입했습니다. 이 추천 기능은 AI 알고리즘과 제품, 역할, 레벨 등 사용자의 관심사를 활용해 개인화된 콘텐츠 추천을 제공한다.
+Adobe Learning Manager에 강의에 대한 새롭게 개선된 추천 시스템을 도입했습니다. 이 추천 기능은 AI 알고리즘과 제품, 역할, 레벨 등 사용자의 관심사를 활용해 개인화된 콘텐츠 추천을 제공한다. 관리자는 제품, 역할 및 수준에 따라 계정을 설정할 수 있습니다.
 
 새로운 추천 시스템을 사용하면 학습자가 개인화된 추천을 받을 때 선택할 수 있는 사용자 정의 매개 변수를 생성할 수 있습니다. 이러한 추천은 학습자의 홈페이지 피드에 강의, 학습 경로 및 인증으로 표시됩니다.
 
