@@ -197,7 +197,7 @@ Learning Manager 소셜 학습 웹 페이지에서 새 게시물을 클릭하고
 
 Learning Manager의 알림은 학습자가 Learning Manager 웹 응용 프로그램에 로그인했는지 여부와 상관없이 알림 창에 나타납니다. 알림에는 사용자가 생성했거나 팔로우 중이거나 참여한 게시물 또는 게시판이 포함됩니다. 알림을 클릭하면 사용자가 Learning Manager 소셜 학습 웹으로 이동합니다.
 
-알림을 음소거하려면 **[!UICONTROL 프로필 메뉴*]* > **[!UICONTROL 설정] > **[!UICONTROL 알림 음소거]**&#x200B;를 클릭합니다.
+알림을 음소거하려면 **[!UICONTROL 프로필 메뉴*]* > &#x200B;** [!UICONTROL 설정] > **[!UICONTROL 알림 음소거]**&#x200B;를 클릭합니다.
 
 ## Adobe Learning Manager 데스크탑 응용 프로그램의 설정 {#settingsinadobecaptivateprimedesktopapplication}
 

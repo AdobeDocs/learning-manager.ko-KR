@@ -35,5 +35,5 @@ ht-degree: 91%
 * [보고서](managers/feature-summary/reports.md)
 * [설정](managers/feature-summary/settings.md)
 * [사용자 로그인](managers/feature-summary/user-login.md)
-* [사용자 알림](managers/feature-summary/user-notifications.md) [](managers/feature-summary/settings.md)
+* [사용자 알림](managers/feature-summary/user-notifications.md) [&#128279;](managers/feature-summary/settings.md)
 * [학습 객체](managers/feature-summary/learning-objects.md)

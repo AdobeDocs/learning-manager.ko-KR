@@ -105,15 +105,15 @@ ht-degree: 53%
 1. **폴더로 이동** 대화 상자를 열려면 **Cmd + Shift + G** 키를 누릅니다.
 1. &quot;**/var/folders**&quot;(따옴표 제외)을 입력하고 Enter 키를 누릅니다.
 1. 검색 창에서 &quot;**elthor**&quot;을(를) 검색하고 폴더를 엽니다.
-1. **수정한 날짜**를 기준으로 폴더를 정렬하고 가장 최근 폴더를 엽니다. 이 폴더에는 최신 응용 프로그램 로그가 포함되어 있습니다.
+1. **수정한 날짜**&#x200B;를 기준으로 폴더를 정렬하고 가장 최근 폴더를 엽니다. 이 폴더에는 최신 응용 프로그램 로그가 포함되어 있습니다.
 
 ## 고급 로깅을 사용하는 방법 {#howtoenableadvancedlogging}
 
 ### Windows {#Windows-1}
 
-1. [실행] 대화 상자를 열려면 **Windows 키 + R**&#x200B;을(를) 누릅니다.****
-1. &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot;(따옴표 제외)을 입력하고 Enter 키를 누릅니다.****
-1. **preferences.json** 파일을 백업한 다음, 텍스트 편집기에서 엽니다.****
+1. [실행] 대화 상자를 열려면 **Windows 키 + R**&#x200B;을(를) 누릅니다.**&#x200B;**
+1. &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot;(따옴표 제외)을 입력하고 Enter 키를 누릅니다.**&#x200B;**
+1. **preferences.json** 파일을 백업한 다음, 텍스트 편집기에서 엽니다.**&#x200B;**
 1. **debugMode** 키를 검색하고 이 키의 값 속성을 &quot;**true**&quot;(따옴표 제외)로 변경합니다.
 
 ### Mac {#MacOSX-2}

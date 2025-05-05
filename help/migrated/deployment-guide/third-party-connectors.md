@@ -301,7 +301,7 @@ getAbstract 커넥터는 학습자가 getAbstract의 내용을 확인하고 사�
 
    모든 유형의 동기화가 작동하려면 동기화에 지정된 날짜에 대한 사용자 피드가 getAbstract FTP 폴더에 있어야 합니다.
 
-   getAbstract의 샘플 사용자 피드 파일인 다음 엑셀 시트를 참조합니다. 파일 이름은 다음 형식을 따라야 합니다:** report_export_yyyy_MM_dd_HHmmss.xlsx** 또는 **report_export_yyyy_MM_dd.xlsx**.
+   getAbstract의 샘플 사용자 피드 파일인 다음 엑셀 시트를 참조합니다. 파일 이름은 다음 형식을 따라야 합니다:**&#x200B; report_export_yyyy_MM_dd_HHmmss.xlsx** 또는 **report_export_yyyy_MM_dd.xlsx**.
    [getAbstract 사용자 피드 샘플 Excel 시트](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor 커넥터 {#hmmconnector}

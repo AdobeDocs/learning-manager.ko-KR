@@ -29,7 +29,7 @@ ht-degree: 88%
 
 ## 사용자 인터페이스에서 학습자 성적 증명서 가져오기 {#fetchlearnertranscriptfromtheuserinterface}
 
-프로필 설정에서 학습자는 성적 증명서를 다운로드할 수 있습니다. 자세한 내용은 {***}학습자 성적 증명서 다운로드](../../administrators/feature-summary/learner-transcripts.md)를 ***.[
+프로필 설정에서 학습자는 성적 증명서를 다운로드할 수 있습니다. 자세한 내용은 {***}학습자 성적 증명서 다운로드[&#128279;](../../administrators/feature-summary/learner-transcripts.md)를 &#x200B;***.
 
 책임자는 전체 조직, 특정 사용자 집합 또는 특정 학습자 개체 집합 또는 특정 사용자 및 학습 개체 집합에 대한 학습자 성적 증명서를 생성할 수 있습니다. 또한 시간 기간에 대한 모든 학습 기록을 가져오고 모듈 레벨 정보가 필요한지를 나타낼 수도 있습니다(기본적으로 모듈 레벨 정보는 생략됨). 자세한 내용은 [***학습자 성적 증명서 다운로드***](../../administrators/feature-summary/learner-transcripts.md)&#x200B;를 참조하십시오.
 
