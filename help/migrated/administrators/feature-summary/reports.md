@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 보고서
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: f6bc1fa9384fc728f6abca7bb0fd9f62bb1f9e04
 workflow-type: tm+mt
-source-wordcount: '7828'
+source-wordcount: '7809'
 ht-degree: 52%
 
 ---
@@ -418,10 +418,6 @@ _준수 대시보드-관리자 보기_
 * 로그인/액세스 보고서
 * 게임화 성적 증명서
 * 게임화 감사 추적
-
-### 학습자 성적 증명서 {#learnertranscripts}
-
-Excel 보고서의 학습자 성적 증명서에는 필요한 점수 및 획득한 점수 열이 소수점 표시 십진수로 표시됩니다.
 
 ### 강의 보고서 {#coursereports}
 
