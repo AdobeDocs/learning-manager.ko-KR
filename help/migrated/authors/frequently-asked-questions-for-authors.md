@@ -43,16 +43,16 @@ ht-degree: 52%
 
 자세한 내용은 [Adobe Learning Manager: Adobe Captivate 9의 Publish 모듈](http://primehelp.adobe.com/kr/publish-modules-from-adobe-captivate9/)비디오를 참조하십시오.
 
-자세한 절차는 Adobe Captivate 9 [도움말 내용](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html)을 참조할 수도 있습니다.
+자세한 절차는 Adobe Captivate 9 [도움말 내용](http://helpx.adobe.com/kr/captivate/using/publish-project-to-captivate-prime.html)을 참조할 수도 있습니다.
 
 참고\
-Adobe Captivate 9 [도움말 내용](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html)은(는) Learning Manager 도움말 응용 프로그램의 외부에 있습니다.
+Adobe Captivate 9 [도움말 내용](http://helpx.adobe.com/kr/captivate/using/publish-project-to-captivate-prime.html)은(는) Learning Manager 도움말 응용 프로그램의 외부에 있습니다.
 
 +++
 
 +++Learning Manager에서 강의 모듈을 선택하는 방법
 
-강의 모듈을 선택하는 방법을 알아보려면 [여기](https://helpx.adobe.com/content/help/en/captivate-prime/authors/how-to-choose-modules.html)를 클릭하십시오.
+강의 모듈을 선택하는 방법을 알아보려면 [여기](https://helpx.adobe.com/content/help/kr/captivate-prime/authors/how-to-choose-modules.html)를 클릭하십시오.
 
 +++
 
@@ -163,7 +163,7 @@ Adobe Captivate 9 [도움말 내용](http://helpx.adobe.com/captivate/using/publ
 
 +++필터링하여 특정 강의의 세트를 보려면 어떻게 해야 합니까?
 
-강의를 필터링하려면 상태 옵션의 강의 필터를 사용합니다. 자세한 내용은 [강의를 검색하려면 어떻게 해야 합니까?](https://helpx.adobe.com/content/help/en/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)를 확인하십시오.
+강의를 필터링하려면 상태 옵션의 강의 필터를 사용합니다. 자세한 내용은 [강의를 검색하려면 어떻게 해야 합니까?](https://helpx.adobe.com/content/help/kr/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)를 확인하십시오.
 
 +++
 

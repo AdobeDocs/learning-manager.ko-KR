@@ -45,11 +45,11 @@ Adobe Learning Manager의 badge.csv를 사용하면 기존 LMS 또는 외부 시
 * externalBadId
 * externalBadgeProvider
 
-외부 배지 ID는 Credly 플랫폼의 배지 템플릿 ID를 의미하며 외부 배지 공급자는 Credly입니다. 이러한 값을 badge.csv에 추가하고 [마이그레이션 설명서](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure)에 언급된 단계에 따라 csv를 마이그레이션합니다.
+외부 배지 ID는 Credly 플랫폼의 배지 템플릿 ID를 의미하며 외부 배지 공급자는 Credly입니다. 이러한 값을 badge.csv에 추가하고 [마이그레이션 설명서](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/migration-manual#migrationprocedure)에 언급된 단계에 따라 csv를 마이그레이션합니다.
 
 ## 스킬 생성 - 관리자
 
-배지를 Adobe Learning Manager으로 가져오면 관리자는 스킬로 이 배지를 만들 수 있습니다. 스킬을 만드는 방법을 알아보려면 [스킬 만들기 및 수정](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels)을 참조하세요.
+배지를 Adobe Learning Manager으로 가져오면 관리자는 스킬로 이 배지를 만들 수 있습니다. 스킬을 만드는 방법을 알아보려면 [스킬 만들기 및 수정](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/skills-levels)을 참조하세요.
 
 ### 학습 개체에 스킬/배지 할당 - 작성자
 

@@ -15,13 +15,13 @@ ht-degree: 6%
 
 ## Adobe 콘텐츠에 대한 기여 정보
 
-다음을 참조하십시오. [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+다음을 참조하십시오. [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ko).
 
 참가 방법은 참가 대상 및 참가할 변경 내용에 따라 다릅니다.
 
 ### 사소한 변경 사항
 
-좋은 마음으로 작은 업데이트 사항을 전하고 있다면 문서를 방문하여 **편집** 문서의 GitHub 소스로 연결되는 문서의 링크입니다. 그런 다음 GitHub UI를 사용하여 업데이트하십시오. 일반 사항 보기 [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) 를 참조하십시오.
+좋은 마음으로 작은 업데이트 사항을 전하고 있다면 문서를 방문하여 **편집** 문서의 GitHub 소스로 연결되는 문서의 링크입니다. 그런 다음 GitHub UI를 사용하여 업데이트하십시오. 일반 사항 보기 [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ko) 를 참조하십시오.
 
 이 보고서의 문서 및 코드 예제를 위해 제출하는 사소한 수정 또는 설명은 Adobe 사용 약관의 적용을 받습니다.
 
@@ -43,7 +43,7 @@ Adobe Experience Cloud 솔루션 제품 팀의 기술 작성자, 프로그램 �
 
 커뮤니티 참여자는 기본 편집에 GitHub UI를 사용하거나 리포지토리를 포크하여 주요 기여를 할 수 있습니다.
 
-다음을 참조하십시오. [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) 를 참조하십시오.
+다음을 참조하십시오. [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ko) 를 참조하십시오.
 
 ## 마크다운을 사용하여 주제 서식을 지정하는 방법
 

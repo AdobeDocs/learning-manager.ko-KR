@@ -2235,7 +2235,7 @@ Adobe Commerce에서 데이터가 동기화될 때까지 과정 또는 학습 �
 
 >[!NOTE]
 >
->Adobe Learning Manager의 2024년 3월 릴리스에서는 [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en)에 대한 지원이 도입되었습니다.
+>Adobe Learning Manager의 2024년 3월 릴리스에서는 [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=ko)에 대한 지원이 도입되었습니다.
 
 
 1. **[!UICONTROL 교육 메타데이터 내보내기]** > **[!UICONTROL 온디맨드]**&#x200B;를 클릭합니다.
