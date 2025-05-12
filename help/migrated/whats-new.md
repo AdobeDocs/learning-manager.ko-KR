@@ -2,15 +2,15 @@
 description: Adobe Learning Manager 2025년 5월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다
 jcr-language: en_us
 title: 새로운 기능 요약
-source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
+source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2481'
 ht-degree: 0%
 
 ---
 
 
-# 새로운 기능 요약
+# 새로운 기능 요약 2025년 5월
 
 Adobe Learning Manager의 이번 릴리스에서는 플랫폼을 간소화하고 기능을 향상시키기 위한 다양한 새로운 기능과 개선 사항을 소개합니다.
 
@@ -108,7 +108,7 @@ Adobe Learning Manager 기본 플랫폼 사용자의 경우 이 향상된 기능
 
 이제 Adobe Learning Manager은 Connect에서 VC 세션을 설정하는 동안 Adobe Connect에서 세미나 회의실 선택도 지원합니다. 이전에는 책임자가 회의실 유형만 선택할 수 있었습니다. 이러한 향상된 기능을 통해 유효한 세미나 라이선스를 보유한 책임자는 Adobe Learning Manager 내에서 일회성 또는 대규모 이벤트(최대 1,500명 참석자)를 예약하고 관리할 수 있습니다.
 
-세미나 방에 대한 자세한 내용은 이 [문서](https://helpx.adobe.com/kr/adobe-connect/using/creating-seminars.html)를 참조하세요.
+세미나 방에 대한 자세한 내용은 이 [문서](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)를 참조하세요.
 
 ### 세션 분석에 대한 액세스 지원
 
