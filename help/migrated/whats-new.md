@@ -2,7 +2,7 @@
 description: Adobe Learning Manager 2025년 5월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다
 jcr-language: en_us
 title: 새로운 기능 요약
-source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
+source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 0%
@@ -77,6 +77,7 @@ Adobe Learning Manager은 콘텐츠 획득을 위한 새로운 구매 모델을 
 ## FTP, 사용자 정의 FTP 및 Box의 로그인 액세스 보고서 {#log-in-access-report}
 
 이제 기존 작업 API에 더해 Box, FTP 및 사용자 정의 FTP 커넥터에 대한 로그인 액세스 보고서를 사용할 수 있습니다. 이 보고서는 실행 상태, 압축 설정 및 예약 옵션을 포함하여 사용자 로그인 활동에 대한 자세한 정보를 제공합니다. 보고서는 필요에 따라 생성하거나 예약할 수 있으며 데이터는 쉽게 액세스하고 분석할 수 있도록 지정된 커넥터에 저장됩니다. 이러한 기능 향상으로 사용자 로그인 활동을 모니터링하고 감사하는 기능이 향상되어 보안 및 규정 준수 추적이 향상됩니다.
+
 이제 사용자 정의 FTP, FTP 및 Box에서 학습자 진행률 및 강의 완료 등의 기존 보고서와 함께 보고서를 사용할 수 있습니다. 이러한 통합을 통해 관리자는 단일 소스에서 필요한 모든 보고서에 액세스할 수 있으므로 보다 나은 데이터 관리 및 분석이 가능합니다.
 
 이 보고서는 로그인 및 액세스 데이터를 FTP로 내보내고 다른 보고서와 연결하여 포괄적인 대시보드를 만들 수 있도록 함으로써 자동화에 도움이 됩니다. 이 기능은 데이터 분석 및 보고를 위해 자동화된 프로세스를 사용하는 조직에 특히 유용합니다.
@@ -108,7 +109,7 @@ Adobe Learning Manager 기본 플랫폼 사용자의 경우 이 향상된 기능
 
 이제 Adobe Learning Manager은 Connect에서 VC 세션을 설정하는 동안 Adobe Connect에서 세미나 회의실 선택도 지원합니다. 이전에는 책임자가 회의실 유형만 선택할 수 있었습니다. 이러한 향상된 기능을 통해 유효한 세미나 라이선스를 보유한 책임자는 Adobe Learning Manager 내에서 일회성 또는 대규모 이벤트(최대 1,500명 참석자)를 예약하고 관리할 수 있습니다.
 
-세미나 방에 대한 자세한 내용은 이 [문서](https://helpx.adobe.com/kr/adobe-connect/using/creating-seminars.html)를 참조하세요.
+세미나 방에 대한 자세한 내용은 이 [문서](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)를 참조하세요.
 
 ### 세션 분석에 대한 액세스 지원
 
