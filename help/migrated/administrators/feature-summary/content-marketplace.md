@@ -4,104 +4,192 @@ title: 콘텐츠 마켓플레이스
 description: Learning Manager에서는 이제 교육을 탐색하고 구입할 수 있는 콘텐츠 마켓플레이스를 제공합니다. 광범위한 주제를 다루고 여러 형식으로 제공되는 70,000개 이상의 강의를 살펴보십시오. 다양한 역할에 맞고 학습 및 역량을 충족시키는 큐레이트된 플레이리스트에서 선택하십시오.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 69%
+source-wordcount: '733'
+ht-degree: 9%
 
 ---
 
 # 콘텐츠 마켓플레이스
 
-Learning Manager에서는 이제 교육을 탐색하고 구입할 수 있는 콘텐츠 마켓플레이스를 제공합니다. 광범위한 주제를 다루고 여러 형식으로 제공되는 70,000개 이상의 강의를 살펴보십시오. 다양한 역할에 맞고 학습 및 역량을 충족시키는 큐레이트된 플레이리스트에서 선택하십시오.
+학습 책임자는 양질의 콘텐츠를 소싱 및 업로드하는 데 종종 어려움을 겪습니다. Adobe Learning Manager의 콘텐츠 마켓플레이스는 신뢰할 수 있는 공급자의 프리미엄 과정에 대한 라이선스를 허용하여 이를 간소화하고 더 빠르고 확장 가능한 학습 전달을 활성화합니다. 콘텐츠 마켓플레이스를 사용하여 관리자는 공급자의 서드파티 강의를 찾아보고, 미리 보고, 라이선스를 부여할 수 있습니다.
 
-관리자 앱의 왼쪽 패널에는 새로운 옵션 **[!UICONTROL 콘텐츠 마켓플레이스]**&#x200B;가 있습니다.
+콘텐츠 마켓플레이스에서는 콘텐츠 획득을 위한 다음과 같은 플랜을 제공합니다.
 
-사용자는 다양한 주제를 다루는 큐레이트된 플레이리스트에서 구매하거나 전체 카탈로그를 구매할 수 있습니다.
+* **[!UICONTROL 프리미엄 필수 정보]**
+* **[!UICONTROL 프리미엄 필수 패키지]**
 
-페이지에 기업 교육과 Creative Cloud 교육, 두 개의 타일이 있습니다. 첫 번째 타일은 학습자용 강의를 얻을 수 있는 마켓플레이스를 실행합니다. 후자는 콘텐츠 카탈로그를 실행합니다.
+| **[!UICONTROL 프리미엄 필수 정보]** | **[!UICONTROL 프리미엄 필수 패키지]** |
+|---|---|
+| 90,000개 이상의 강의 이용 | 100,000개 이상의 강의 이용 |
+| 250개 이상의 공급자의 콘텐츠 | 모든 프리미엄 필수 콘텐츠 포함 |
+| 신뢰할 수 있는 공급자의 전용 콘텐츠:<li>이지라마</li><li>스킬슈브</li><li>톰슨 로이터</li><li>엠트레인</li><li>Harvard ManageMentor</li> | 다음과 같은 최상위 공급자의 전용 강의: <li>블린키스트</li><li>Pluralsight</li>Skillsoft</li><li>탄력 있는</li><li>쿠르세라</li> |
 
-관리자 앱의 기업 교육 페이지를 사용하여 사용자를 초대하고 관심 표현 보고서를 다운로드하고, 전체 카탈로그 또는 큐레이트된 플레이리스트를 구매할 수도 있습니다.
+<!--**[!UICONTROL Premium Essentials]**:
+A cost-effective solution designed to enhance employee engagement. 
 
-**사용자 초대**
+* Access to over 90,000 courses
+* Content from more than 250 providers
+* Focus on compliance and skill improvement
+* Exclusive content from trusted providers such as:
+   * EasyLlama
+   * Skillshub
+   * Thomson Reuters
+   * Emtrain
+   * Harvard ManageMentor
 
-콘텐츠 마켓플레이스에 사용자를 초대하여 콘텐츠를 살펴보고 관심을 표현하십시오. 관리자는 계정의 모든 학습자를 초대하거나 선택한 학습자를 초대할 수 있습니다. 학습자에게 액세스를 부여하려면 학습자를 초대해야 합니다.
+**[!UICONTROL Premium Essentials Plus]**:
 
-또한 콘텐츠 마켓플레이스 옵션에서 학습자를 취소할 수도 있습니다. 액세스를 취소하려면 **[!UICONTROL 액세스 취소]** 링크를 클릭하십시오.  사용자는 더 이상 학습자 앱에서 콘텐츠 마켓플레이스 페이지를 볼 수 없습니다.
+* Access to more than 100,000 courses
+* Includes all Premium Essentials content
+* Exclusive courses from top providers like:
+   * Blinkist
+   * Pluralsight
+   * Skillsoft
+   * Traliant
+   * Coursera
 
-이 옵션은 모든 새 계정에 대해 기본적으로 선택됩니다. 기존 계정의 경우, 관리자는 마켓플레이스를 탐색하려면 사용자를 초대해야 합니다.
+Select the plan that best meets your organization's learning goals and budget.-->
 
-## 구매
+## 공급자로부터 콘텐츠 획득
 
-강의 전체 라이브러리에 대한 무제한 액세스를 얻습니다. **[!UICONTROL 구매]** 단추를 클릭하여 구매 요청 양식을 다운로드하십시오.
+콘텐츠 공급자로부터 콘텐츠를 검색하고 얻으려면 다음 단계를 따르십시오.
+
+1. 관리자 홈 페이지에서 **[!UICONTROL 콘텐츠 마켓플레이스]**&#x200B;를 선택합니다. **[!UICONTROL 콘텐츠 마켓플레이스]** 페이지가 나타납니다.
+
+   ![](assets/purchase-plans.png)
+   _콘텐츠 마켓플레이스 페이지에서 구매 플랜 보기_
+
+2. 관리자는 **[!UICONTROL 프리미엄 필수]** 및 **[!UICONTROL 프리미엄 필수 플러스]** 플랜에 대한 콘텐츠 허브를 미리 보고 탐색할 수 있습니다.
+
+콘텐츠 제공업체는 오래된 콘텐츠 제거를 관리하여 사전 통지 없이 사용 중지되는 학습 자료가 없도록 합니다.
+
+<!--Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.
+
+In the Administrator app, there is a new option **[!UICONTROL Content Marketplace]**, which you'll find on the left panel.
+
+Users can purchase from curated playlists covering various topics or purchase the entire catalog. 
+
+On the page, you can see two tiles, Enterprise Training and Creative Cloud Training. The first tile launches the marketplace, using which you can acquire courses for your learners. The latter launches the content catalog.
+
+The Enterprise Training page in the Administrator app enables you to invite users and download the Express Interest report, and also purchase the entire catalog or curated playlist.-->
+
+## 견적 요청
+
+관리자는 Premium Essentials 또는 Premium Essentials Plus 와 같은 플랜을 선택하고, 필요한 시트 수를 지정하고, 다운로드 가능한 Quote 요청 양식을 생성할 수 있습니다. 완료되면 처리를 위해 양식이 Adobe Learning Manager 영업팀으로 전송됩니다. Request for Quote 프로세스를 통해 Adobe은 조직의 요구 사항에 따라 사용자 정의된 Pricing 을 제공할 수 있습니다.
+
+견적 요청을 다운로드하려면 다음 단계를 수행합니다.
+
+1. 관리자 홈페이지에서 **[!UICONTROL 콘텐츠 마켓플레이스]**&#x200B;를 선택합니다.
+
+2. 라이선스 유형을 선택하고 **[!UICONTROL 견적 요청]** 섹션에서 견적을 생성할 시트 수를 입력합니다.
+
+3. 견적을 다운로드하려면 **[!UICONTROL 견적 요청 다운로드]**&#x200B;를 선택하십시오.
+
+![](assets/purchase-plans-go1.png)
+_플랜 선택 후 견적 요청 다운로드_
+
+견적을 [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com)에 보내 라이선스를 활성화하십시오. Adobe 고객 성공 관리자에게 문의하여 구매 프로세스를 시작할 수도 있습니다.
+
+## 콘텐츠 허브에 학습자 초대
+
+콘텐츠 마켓플레이스에 학습자를 초대하여 콘텐츠를 살펴보고 관심을 표현하십시오. 관리자는 계정의 모든 학습자를 초대하거나 선택한 학습자를 초대할 수 있습니다. 학습자가 콘텐츠를 살펴보려면 먼저 초대해야 합니다. 콘텐츠 허브에 대한 자세한 내용은 [문서](/help/migrated/administrators/feature-summary/content-marketplace.md#content-hub)를 참조하십시오.
+
+학습자를 초대하려면 다음 작업을 수행하십시오.
+
+1. 관리자 홈페이지에서 **[!UICONTROL 콘텐츠 마켓플레이스]**&#x200B;를 선택합니다.
+2. **[!UICONTROL 학습자 초대]**&#x200B;를 선택하고 필요한 학습자를 선택합니다.
+3. **[!UICONTROL 학습자 초대]**&#x200B;를 선택합니다.
+
+관리자는 **[!UICONTROL 모든 사용자 액세스 제거]** 링크를 선택하여 **[!UICONTROL 콘텐츠 허브]**&#x200B;에 대한 액세스 권한을 해지할 수도 있습니다. 액세스가 취소되면 학습자 앱에서 콘텐츠 허브 페이지가 더 이상 표시되지 않습니다.
+
+![](assets/invite-users.png)
+_콘텐츠 허브에 액세스하도록 사용자 초대_
+
+기본적으로 이 옵션은 모든 새 계정에 대해 활성화됩니다. 기존 계정의 경우 관리자는 학습자가 콘텐츠 마켓플레이스에 액세스하도록 수동으로 초대해야 합니다.
+
+<!--## Purchase
+
+You get unlimited access to the entire library of courses. Click the **[!UICONTROL Purchase]** button to download a Purchase Request form.
 
 ![](assets/purchase-request.png)
 
-*구매할 시트 수 입력*
+*Enter the number of seats to purchase*
 
-강의를 구매할 시트 수를 지정합니다. 구매 요청 양식을 다운로드한 다음 양식을 Learning Manager의 영업팀에 보내십시오.
+Specify the number of seats for which you want to purchase the courses for. Download the purchase request form and then send the form to the sales team of Learning Manager.
 
-팀이 정보를 검증한 다음 키를 생성하여 제공해드립니다. 이는 사용자에게 제공되는 콘텐츠에 대한 액세스 권한을 부여하는 데 사용하는 활성화 키입니다.
+The team will then validate the information and then generate a key, which will be provided to you. This is the activation key using which you'll grant access to your users to the content offering.
 
-CSAM 팀이 키를 생성하면 책임자가 이 키를 사용하여 강의를 가져오고, 강의를 기존 카탈로그 또는 새 카탈로그에 마이그레이션할 수 있습니다.
+After the key is generated by the CSAM team, the Administrator can use the key to import the courses, and migrate the courses into the existing catalog or the new catalog.
 
-강의 마이그레이션 중 상태는 **[!UICONTROL 코스 가져오기]**&#x200B;로 표시됩니다. 마이그레이션이 완료되면 관리자는 마이그레이션이 완료되고 성공했다는 알림을 받습니다.
+During migration of courses, the status displays as **[!UICONTROL Importing Courses]**. Once the migration completes, the Administrator gets a notification that migration is complete and successful.
 
-그런 다음 **[!UICONTROL 라이선스]** 섹션은 계정에 대해 획득된 모든 라이선스를 표시합니다.
+The **[!UICONTROL Licenses]** section then displays all the licenses that are acquired for the account.
 
-관리자는 카탈로그 개요 페이지에서 구매한 카탈로그 링크를 볼 수 있습니다.
+The Administrator can see the links of the purchased catalogs in the Catalog Overview page.
 
-강의가 카탈로그에 추가되면 책임자는 다양한 사용자 또는 사용자 그룹에 교육에 대한 액세스를 부여할 수 있습니다.
+Once the courses are added to the catalog, the Administrator can then grant access to the trainings to various user or user groups.
 
 ![](assets/licenses.png)
 
-*사용자 및 사용자 그룹에 대한 교육 액세스 권한 부여*
+*Grant access to training to users and user groups*-->
 
-## 관심 표현 보고서
+<!--## Express interest report
 
-학습자가 학습자 앱에서 &#39;카탈로그에 관심 표현&#39;을 클릭하면 관심은 관심 표현 보고서에 기록됩니다. 관리자는 보고서를 다운로드할 수 있습니다. 보고서(csv)는 다음 필드를 포함합니다.
+When a learner clicks Express interest to Catalog in the Learner app, the interest is recorded in an Express interest report. The Administrator can download the report. The report (csv) contains the following fields:
 
-* 카탈로그의 이름
-* 관심을 표현하는 사용자 수
-* 관심을 표현하는 사용자의 전자 메일
+* Name of the catalog
+* Number of users expressing interest
+* Email of the user expressing interest-->
+
+## 콘텐츠 허브
+
+콘텐츠 허브를 통해 책임자는 학습자 앱의 필수 플레이리스트를 관심 목록에 추가할 수 있습니다. 학습자 역할의 관리자에게는 콘텐츠 허브 페이지가 매번 표시되므로 플레이리스트를 쉽게 관심 목록에 추가할 수 있습니다. 책임자는 본인의 계정에 있는 일부 SME에게만 이 페이지에 대한 액세스를 허용하여 적합한 플레이리스트를 관심 목록에 추가하도록 도울 수 있습니다.
+
+Adobe Learning Manager은 콘텐츠 허브와 정기적으로 동기화하여 새로운 추가 및 업데이트가 플랫폼에 자동으로 반영되도록 합니다.
+
+모든 컨텐츠가 지원되는 언어로 매핑되므로 관리자가 언어 환경 설정에 따라 컨텐츠를 보다 효과적으로 필터링하고 관리할 수 있습니다.
 
 ## 전자 메일 템플릿
 
-이 워크플로우를 지원하기 위해 사용자가 사용할 수 있는 세 가지 전자 메일 템플릿이 있습니다.
+Adobe Learning Manager은 관리자와 학습자에게 콘텐츠 구매, 시스템 업데이트 및 학습 활동을 알리는 사전 구성된 이메일 템플릿을 제공합니다.
 
-1. **[!UICONTROL 콘텐츠 활성화 성공]:** 키 이름을 가진 콘텐츠 구매가 성공할 때 발송됩니다. 이제 구매된 모든 교육을 사용할 수 있습니다.
-1. **[!UICONTROL 자동 사용자 업로드 실패]:** 이것은 일부 이유로 인해 계정의 CSV 자동 업데이트가 실패할 경우 발송됩니다.
-1. **[!UICONTROL 콘텐츠를 살펴보려면 사용자 초대]:** 관리자가 강의를 구매할 때 학습자들에게 보낸 초대 전자 메일입니다. 관리자는 관심 표현 보고서를 보고 전체 요구 사항을 이해하고 구매 결정을 내릴 수 있습니다.
+사용할 수 있는 전자 메일 템플릿은 세 가지입니다.
 
-1. 구매한 강의는 반복 인증서에서 추가할 수 없습니다.
-1. 구매한 강의는 피어 계정에 공유할 수 없습니다.
-1. 구매한 강의는 액세스를 가지는 모든 사용자가 사용할 수 있습니다. 구매한 강의 가시성을 제한된 사용자로 제한하도록 카탈로그 가시성을 구성하십시오.
-1. 활성화 키가 만료되면 구매한 강의를 사용할 수 없습니다. 사용을 허용하려면 다른 키를 구매/활성화하십시오.
+1. **[!UICONTROL 콘텐츠 활성화 성공]:** 타사 콘텐츠를 성공적으로 구매한 후 관리자에게 보냈습니다. 이 알림은 활성화가 완료되었으며 시스템에서 학습자 할당을 위해 구매한 콘텐츠를 사용할 수 있음을 확인합니다.
+2. CSV를 통한 자동 사용자 가져오기가 실패하면 **[!UICONTROL 자동 사용자 업로드 실패]:**&#x200B;가 트리거됩니다. 이 경고는 관리자가 예약된 사용자 업데이트 문제를 빠르게 식별하여 수정 작업을 수행할 수 있도록 합니다.
+3. **[!UICONTROL 콘텐츠를 살펴보려면 사용자 초대]:** 관리자가 마켓플레이스에서 콘텐츠를 구매하면 학습자에게 전송되는 초대 전자 메일입니다. 이후 사용자는 학습 여정을 즉시 시작할 수 있습니다.
 
-## 콘텐츠 마켓플레이스의 콘텐츠 허브
+<!--Purchased courses cannot be added in recurring certificates.
+Purchased courses cannot be shared to peer accounts.
+Purchased courses can be consumed by all users who get access to it. Configure the catalog visibility to restrict the visibility of purchased courses to limited users.
+Purchased courses cannot be consumed once the activation key expires. Please purchase/activate another key to allow consumption.-->
 
-콘텐츠 허브를 통해 책임자와 SME(주제전문가)는 학습자 앱의 필수 플레이리스트를 관심 목록에 추가할 수 있습니다. 플레이리스트를 관심 목록에 추가한 책임자는 구매 요청 양식을 다운로드하여 Adobe 영업 담당자와 공유할 수 있습니다.
+<!--## Content Hub in Content Marketplace
 
-책임자는 SME에게 관심이 있는 플레이리스트를 관심 목록에 추가하라고 권유할 있습니다.
+Content Hub allows Administrators and Subject Matter Experts (SMEs) to shortlist required playlists from learner app. Once shortlisted, Admins can download the Purchase Request Form and share it with the Adobe Sales agent.
+
+An Admin can invite SMEs to shortlist the playlist which they are interested in. 
 
 ![](assets/content-hub.png)
 
-*마켓플레이스에서 콘텐츠 허브 시작*
+*Launch Content Hub from the marketplace*
 
-학습자 역할의 책임자라면 누구나 콘텐츠 허브를 사용할 수 있습니다. 책임자가 허용할 경우 SME는 구매 의사가 있는 플레이리스트를 관심 목록에 추가할 수 있습니다.
+Content Hub is available in Learner role for all Administrators. Administrators allow SMEs to shortlist the playlist which they are interested in purchasing.
 
-학습자 역할의 관리자에게는 콘텐츠 허브 페이지가 매번 표시되므로 플레이리스트를 쉽게 관심 목록에 추가할 수 있습니다. 책임자는 본인의 계정에 있는 일부 SME에게만 이 페이지에 대한 액세스를 허용하여 적합한 플레이리스트를 관심 목록에 추가하도록 도울 수 있습니다. 책임자 권한으로 기업 교육 페이지를 방문하면 손쉽게 액세스 권한을 부여할 수 있습니다.
+The Content Hub page is visible to Administrators in their learner role all the time as it allows them to shortlist playlists easily. To help you in shortlisting the right playlist, Admins can make this page accessible to limited Subject matter experts in their account. Just visit the Enterprise Training page on Admin side and take steps to provide access.  
 
 ![](assets/content-hub-resources.png)
 
-*콘텐츠 허브의 리소스 보기*
+*View resources in the Content hub*
 
-또한 Learning Manager를 사용하는 책임자는 관심 목록에 추가한 플레이리스트를 다운로드하여 Adobe 영업팀과 공유할 수 있습니다. 관심 목록을 다운로드하기 전에 콘텐츠 허브를 방문하여 라이브러리에 플레이리스트를 추가하면 플레이리스트가 관심 목록에 추가됩니다.
+Learning Manager also enables Administrators to download a shortlisted playlist and share it with Adobe Sales team. Before downloading the shortlist, visit the Content Hub and shortlist a playlist by adding a playlist to your library. 
 
-그런 다음 책임자 권한으로 **[!UICONTROL 콘텐츠 마켓플레이스]** > **[!UICONTROL 기업 교육]** > **[!UICONTROL 구매 섹션]** > **[!UICONTROL 큐레이트된 플레이리스트]**&#x200B;를 클릭합니다. **[!UICONTROL 구매]** 버튼을 클릭하여 관심 목록에 추가한 플레이리스트의 세부 정보가 기재된 구매 요청 양식을 다운로드합니다.
+Then as Administrator, click **[!UICONTROL Content Marketplace]** > **[!UICONTROL Enterprise Training]** > **[!UICONTROL Purchase section]** > **[!UICONTROL Curated Playlists]**. Click the **[!UICONTROL Purchase]** button to download the Purchase request form which contains the details of your shortlisted playlist.
 
 ![](assets/download-purchase-request.png)
 
-*구매 요청 양식 다운로드*
+*Download the Purchase Request form*
 
-콘텐츠 허브에 표시되는 강의와 플레이리스트는 콘텐츠 마켓플레이스에 표시되는 것과 동일합니다. 다만, 콘텐츠 허브에 액세스한 책임자와 SME는 구매할 플레이리스트를 손쉽게 관심 목록에 추가할 수 있습니다.
+The courses and Playlist which you see in the Content Hub are the same as what you see in the Content Marketplace. Content Hub simply provides an ability for Administrators and limited SMEs to shortlist playlist easily for purchase.-->

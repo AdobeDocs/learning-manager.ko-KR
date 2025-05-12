@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: dd6143bc9c9a2bd564ae0925f5103073325c5d8a
+source-git-commit: 7c06bc9f7b5c7c36dda06985b4327898ea776597
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 84%
+source-wordcount: '664'
+ht-degree: 82%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 84%
 * [Learning Manager 사용자 가이드](user-guide.md)
 * 소개 {#introduction}
    * [새로운 기능 요약](/help/migrated/whats-new.md)
+   * [새로운 기능 요약 2024년 11월](/help/migrated/whats-new-nov-24.md)
    * [새로운 기능 요약 2024년 7월](whats-new-july-2024.md)
    * [새로운 기능 2024년 3월](whats-new-march-2024.md)
    * [새로운 기능 2023년 11월](whats-new-november-2023.md)
    * [새로운 기능 2023년 7월](whats-new-2023-july.md)
-   * [새로운 기능 2023년 4월](whats-new-2023-april.md)
    * [릴리스 정보](release-note/release-notes.md)
    * [시스템 요구 사항](system-requirements.md)
    * [AEM Sites에 대한 ALM 참조 사이트 패키지](adobe-learning-manager-integration-aem.md)
@@ -39,12 +39,14 @@ ht-degree: 84%
    * [관리자로 시작하기](managers/feature-summary/getting-started-manager.md)
    * [강사로 Learning Manager 시작하기](instructors/feature-summary/getting-started.md)
 * 책임자 {#admin}
+   * [Adobe Learning Manager의 Admin AI Assistant (Beta)](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [사용자 로그인](administrators/feature-summary/user-login.md)
    * [사용자 추가 및 사용자 그룹 만들기](administrators/feature-summary/add-users-user-groups.md)
    * [강의실 위치 추가](administrators/feature-summary/classroom.md)
    * [강의 인스턴스 및 학습 경로 만들기](administrators/feature-summary/courses.md)
    * [콘텐츠 마켓플레이스](administrators/feature-summary/content-marketplace.md)
    * [보고서](administrators/feature-summary/reports.md)
+   * [그룹 성공 대시보드](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [학습 경로](administrators/feature-summary/learning-paths.md)
    * [학습 계획](administrators/feature-summary/learning-plans.md)
    * [Learning Manager 주문 및 청구 정보 관리](administrators/feature-summary/billing-management.md)

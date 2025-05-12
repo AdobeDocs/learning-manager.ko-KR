@@ -2,10 +2,11 @@
 jcr-language: en_us
 title: Adobe Learning Manager에서 지원되는 언어
 description: Adobe Learning Manager(ALM)에서 지원되는 인터페이스 및 콘텐츠 언어 살펴보기
-source-git-commit: d82d408cbe33ecfb099aa0c7677b0960f80991ef
+exl-id: 92eaa510-cb44-4e9b-b956-fde876aa48f2
+source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 49%
+source-wordcount: '261'
+ht-degree: 48%
 
 ---
 
@@ -81,4 +82,10 @@ Adobe Learning Manager은 다음 인터페이스 및 콘텐츠 언어를 지원�
 | 불가리아어 | - | bg |
 | 네덜란드어(벨기에) | - | nl-be |
 | 포르투갈어 포르투갈 | - | pt-PT |
+| 중국어(번체, 홍콩) | - | 홍콩 |
+| 노르웨이 보크몰 | - | nb-NO |
+| 타밀어 | - | 타인 |
+| 텔루구어 | - | 원인 |
+| 칸나다어 | - | kn-IN |
+| 말라얄람어 | - | ml-IN |
 
