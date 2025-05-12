@@ -37,7 +37,7 @@ Adobe Learning Manager의 GSD(Group Success Dashboard)를 사용하면 관리자
 책임자는 계정에 대해 그룹 성공 대시보드를 활성화해야 합니다. 그룹 성공 대시보드를 활성화하려면 다음 단계를 따르십시오.
 
 1. 관리자로 로그인합니다.
-2. **[!UICONTROL 설정]**을 선택한 다음 **[!UICONTROL 보고서]**&#x200B;를 선택합니다.
+2. **[!UICONTROL 설정]**&#x200B;을 선택한 다음 **[!UICONTROL 보고서]**&#x200B;를 선택합니다.
 3. **[!UICONTROL 대시보드 표시 여부]** 토글을 선택합니다.
 4. 대시보드 이름(예: **[!UICONTROL 저장소 관리자 대시보드]**)을 입력하십시오.
    ![](assets/enable-gsd.png)
@@ -93,7 +93,7 @@ Adobe Learning Manager의 GSD(Group Success Dashboard)를 사용하면 관리자
 대시보드를 생성한 후 관리자는 다음 단계에 따라 대시보드를 볼 수 있습니다.
 
 1. 관리자로 로그인합니다.
-2. **[!UICONTROL 보고서]**&#x200B;를 선택한 다음 **[!UICONTROL 그룹 성공 대시보드]**를 선택합니다.
+2. **[!UICONTROL 보고서]**&#x200B;를 선택한 다음 **[!UICONTROL 그룹 성공 대시보드]**&#x200B;를 선택합니다.
 대시보드의 이름은 스토어 관리자 대시보드입니다.
 3. **[!UICONTROL 내 대시보드]** 섹션의 **[!UICONTROL 대시보드 선택]** 드롭다운에서 만든 대시보드를 선택합니다.
 4. 대시보드는 다음과 같이 구분됩니다.
