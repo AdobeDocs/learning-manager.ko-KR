@@ -109,7 +109,7 @@ Adobe Learning Manager 기본 플랫폼 사용자의 경우 이 향상된 기능
 
 이제 Adobe Learning Manager은 Connect에서 VC 세션을 설정하는 동안 Adobe Connect에서 세미나 회의실 선택도 지원합니다. 이전에는 책임자가 회의실 유형만 선택할 수 있었습니다. 이러한 향상된 기능을 통해 유효한 세미나 라이선스를 보유한 책임자는 Adobe Learning Manager 내에서 일회성 또는 대규모 이벤트(최대 1,500명 참석자)를 예약하고 관리할 수 있습니다.
 
-세미나 방에 대한 자세한 내용은 이 [문서](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)를 참조하세요.
+세미나 방에 대한 자세한 내용은 이 [문서](https://helpx.adobe.com/kr/adobe-connect/using/creating-seminars.html)를 참조하세요.
 
 ### 세션 분석에 대한 액세스 지원
 
