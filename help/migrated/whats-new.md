@@ -2,13 +2,13 @@
 description: Adobe Learning Manager 2025년 5월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다
 jcr-language: en_us
 title: 새로운 기능 요약
-source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
+exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
+source-git-commit: 168e521d3922ec75c7ca06dd9a15ae67f929c069
 workflow-type: tm+mt
-source-wordcount: '2481'
+source-wordcount: '2492'
 ht-degree: 0%
 
 ---
-
 
 # 새로운 기능 요약 2025년 5월
 
@@ -109,7 +109,7 @@ Adobe Learning Manager 기본 플랫폼 사용자의 경우 이 향상된 기능
 
 이제 Adobe Learning Manager은 Connect에서 VC 세션을 설정하는 동안 Adobe Connect에서 세미나 회의실 선택도 지원합니다. 이전에는 책임자가 회의실 유형만 선택할 수 있었습니다. 이러한 향상된 기능을 통해 유효한 세미나 라이선스를 보유한 책임자는 Adobe Learning Manager 내에서 일회성 또는 대규모 이벤트(최대 1,500명 참석자)를 예약하고 관리할 수 있습니다.
 
-세미나 방에 대한 자세한 내용은 이 [문서](https://helpx.adobe.com/kr/adobe-connect/using/creating-seminars.html)를 참조하세요.
+세미나 방에 대한 자세한 내용은 이 [문서](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)를 참조하세요.
 
 ### 세션 분석에 대한 액세스 지원
 
@@ -155,7 +155,7 @@ Webhook이 변경됩니다.
 
 ### 마이그레이션을 사용하는 콘텐츠에 대한 콘텐츠 고유 ID 및 만료 날짜 추가
 
-이제 마이그레이션 중 콘텐츠 고유 ID 및 만료 날짜가 지원됩니다. 이 기능을 활성화하기 위해 expiryDate 및 uniqueContentId 열이 module_version.csv 파일에 추가되었습니다.
+이제 마이그레이션 중 콘텐츠 고유 ID 및 만료 날짜가 지원됩니다. 이 기능을 활성화하기 위해 expiryDate 및 uniqueContentId 열이 module_version.csv 파일에 추가되었습니다. 자세한 내용은 이 [샘플 CSV](assets/module_version_content.csv) 및 [CSV 사양 파일](assets/4-module_version_content.xlsx)을 참조하세요.
 
 마이그레이션 프로세스에 대한 자세한 내용은 이 [문서](/help/migrated/integration-admin/feature-summary/migration-manual.md)를 참조하세요.
 
