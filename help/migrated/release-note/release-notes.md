@@ -1498,7 +1498,7 @@ Learning Manager 2020년 4월 릴리스는 다음 사항에 초점을 맞추었�
 
 학습자는 외부 인증서를 열고 pdf, 텍스트 또는 이미지 파일과 같은 에셋을 업로드할 수 있습니다.
 
-자세한 내용은 [***외부 인증서 에셋 업로드***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;를 참조하세요.****
+자세한 내용은 [***외부 인증서 에셋 업로드***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;를 참조하세요.**&#x200B;**
 
 ### 이번 릴리스에서 수정된 문제 {#issuesfixedinthisrelease}
 
@@ -1817,7 +1817,7 @@ Adobe Connect에서 고객은 Connect에서 이미 만든 기존 회의실을 �
 
 ### 새로운 기능 및 향상된 기능 {#Newandenhancedfeatures-5}
 
-**내부 및 외부 사용자에 대한 소셜 학습에서 범위 분리**&#x200B;책임자는 내부 및 외부 학습자에 대해 별도의 범위를 정의할 수 있습니다. 두 가지 새로운 내부 사용자와 외부 사용자용 섹션이 있습니다. 두 섹션 모두에서 학습자 그룹에 대한 범위를 정의할 수 있습니다. 내부 사용자에 대해 사용자 특성 값을 정의할 수 있습니다. 외부 사용자의 경우 학습자가 같은 소셜 공간을 공유할 수 있는 외부 프로필을 정의할 수 있습니다. 자세한 내용은 [***범위 설정***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)&#x200B;을 참조하세요.  **소셜 보드의 소셜 제한 생성**&#x200B;모든 학습자의 보드 생성을 제한하고 보드를 효과적으로 중재하려면 관리자는 선택한 사용자 그룹에게 보드를 생성할 수 있는 권한을 부여할 수 있습니다. 관리자는 소셜 학습에 참여하는 모든 학습자가 아닌, 선택한 그룹만 보드를 생성할 수 있도록 제한할 수 있습니다. 자세한 내용은 [***보드 만들기 권한***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)&#x200B;을 참조하세요.  **학습자에게 비어있는 활성 필드만 표시**&#x200B;관리자는 값이 입력된 후에 활성 필드를 표시하거나 숨기는 것을 선택할 수 있습니다. 자세한 내용은 [***사용자 표시***](../administrators/feature-summary/add-users-user-groups.md#activefields)&#x200B;를 참조하세요.  **내부 사용자가 지정된 비활성화 기간에 삭제됨**&#x200B;관리자가 학습자가 지정된 기간 동안 비활성화를 유지하는 경우 내부 학습자를 삭제하는 기간(일별로)을 설정할 수 있습니다. 자세한 내용은 ***[사용자 자동 삭제](../administrators/feature-summary/settings.md#autodelete)를 ***.  **바닥글의 사용자 지정**&#x200B;관리자는 바닥글에 링크를 추가하고 사용자 지정할 수 있습니다. 링크는 다양한 로케일에 대해 사용자 정의될 수도 있습니다. 또한 바닥글에 &#39;책임자에게 문의&#39; 링크를 추가하는 기존 방법을 **바닥글 링크** 섹션에서 사용할 수 있습니다. 자세한 내용은 [***바닥글 링크 사용자 지정***](../administrators/feature-summary/settings.md#footer)&#x200B;을 참조하세요.
+**내부 및 외부 사용자에 대한 소셜 학습에서 범위 분리**&#x200B;책임자는 내부 및 외부 학습자에 대해 별도의 범위를 정의할 수 있습니다. 두 가지 새로운 내부 사용자와 외부 사용자용 섹션이 있습니다. 두 섹션 모두에서 학습자 그룹에 대한 범위를 정의할 수 있습니다. 내부 사용자에 대해 사용자 특성 값을 정의할 수 있습니다. 외부 사용자의 경우 학습자가 같은 소셜 공간을 공유할 수 있는 외부 프로필을 정의할 수 있습니다. 자세한 내용은 [***범위 설정***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)&#x200B;을 참조하세요.  **소셜 보드의 소셜 제한 생성**&#x200B;모든 학습자의 보드 생성을 제한하고 보드를 효과적으로 중재하려면 관리자는 선택한 사용자 그룹에게 보드를 생성할 수 있는 권한을 부여할 수 있습니다. 관리자는 소셜 학습에 참여하는 모든 학습자가 아닌, 선택한 그룹만 보드를 생성할 수 있도록 제한할 수 있습니다. 자세한 내용은 [***보드 만들기 권한***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)&#x200B;을 참조하세요.  **학습자에게 비어있는 활성 필드만 표시**&#x200B;관리자는 값이 입력된 후에 활성 필드를 표시하거나 숨기는 것을 선택할 수 있습니다. 자세한 내용은 [***사용자 표시***](../administrators/feature-summary/add-users-user-groups.md#activefields)&#x200B;를 참조하세요.  **내부 사용자가 지정된 비활성화 기간에 삭제됨**&#x200B;관리자가 학습자가 지정된 기간 동안 비활성화를 유지하는 경우 내부 학습자를 삭제하는 기간(일별로)을 설정할 수 있습니다. 자세한 내용은 ***[사용자 자동 삭제](../administrators/feature-summary/settings.md#autodelete)를 &#x200B;***.  **바닥글의 사용자 지정**&#x200B;관리자는 바닥글에 링크를 추가하고 사용자 지정할 수 있습니다. 링크는 다양한 로케일에 대해 사용자 정의될 수도 있습니다. 또한 바닥글에 &#39;책임자에게 문의&#39; 링크를 추가하는 기존 방법을 **바닥글 링크** 섹션에서 사용할 수 있습니다. 자세한 내용은 [***바닥글 링크 사용자 지정***](../administrators/feature-summary/settings.md#footer)&#x200B;을 참조하세요.
 
 ### 이 릴리스의 알려진 문제 {#Knownissuesinthisrelease-2}
 
@@ -2500,7 +2500,7 @@ Fluidic Player의 개선 사항은 비디오에만 적용됩니다.
 
 ### 향상된 성능 {#enhancement}
 
-이 업데이트의 일부로 Learning Manager는 끝점 [PATCH/사용자/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!)을 제공합니다./user/patch_users_id) - 응용 프로그램의 사용자를 업데이트합니다. 책임자 역할이라면 이 API 엔드포인트에 접근할 수 있습니다. 이 엔드포인트**** 사용하여 다음과 같은 Learning Manager 사용자 정보를 업데이트할 수 있습니다.
+이 업데이트의 일부로 Learning Manager는 끝점 [PATCH/사용자/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!)을 제공합니다./user/patch_users_id) - 응용 프로그램의 사용자를 업데이트합니다. 책임자 역할이라면 이 API 엔드포인트에 접근할 수 있습니다. 이 엔드포인트&#x200B;**&#x200B;** 사용하여 다음과 같은 Learning Manager 사용자 정보를 업데이트할 수 있습니다.
 
 * 이름
 * 이메일
@@ -3010,7 +3010,7 @@ FTP를 사용한 CSV 자동 업로드 기능의 경우 관리자는 CSV 업로�
 
 **전자 메일 템플릿**
 
-* 외부 그룹을 나타내는 데 사용된 **파트너,**&#x200B;라는 단어,**** is ****&#x200B;이(가) 전자 메일 템플릿 제목과 본문에서 제거되었습니다. 외부 그룹을 반드시 파트너라고 부르지는 않습니다.\
+* 외부 그룹을 나타내는 데 사용된 **파트너,**&#x200B;라는 단어,**&#x200B;** is **&#x200B;**&#x200B;이(가) 전자 메일 템플릿 제목과 본문에서 제거되었습니다. 외부 그룹을 반드시 파트너라고 부르지는 않습니다.\
   **참고:** 기본 템플릿이 이미 수정된 경우에는 이 업데이트된 템플릿이 나타나지 않습니다. 업데이트된 템플릿을 보려면 **템플릿 미리 보기** 대화 상자에서 **을(를) 원본**&#x200B;으로 되돌리기를 클릭합니다.
 
 * **생성된 프로필(자가 등록)**&#x200B;과&#x200B;**생성된 프로필(외부 사용자/파트너)** 전자 메일 템플릿을 편집하면 관리자가 받은 전자 메일에 있는 URL을 클릭할 수 없습니다. 이 문제는 수정되었습니다.
