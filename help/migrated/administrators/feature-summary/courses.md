@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 강의 인스턴스 및 학습 경로 만들기
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
 workflow-type: tm+mt
 source-wordcount: '5674'
 ht-degree: 52%
@@ -613,7 +613,7 @@ CSV 보고서에는 다음과 같은 필드가 포함됩니다.
 2. **[!UICONTROL 강의]** 페이지로 이동하여 강의를 선택합니다.
 3. 강의 페이지에서 **[!UICONTROL 학습자]**&#x200B;를 선택합니다.
 4. 개별 학습자 또는 여러 학습자를 선택합니다.
-5. **[!UICONTROL 작업]**&#x200B;을 선택한 다음 선택&#x200B;**[!UICONTROL &#x200B; 완료 표시]를 &#x200B;**.
+5. **[!UICONTROL 작업]**&#x200B;을 선택한 다음 **[!UICONTROL 완료 표시]**&#x200B;를 선택합니다.
 6. 대화 상자에 완료 주석을 입력합니다.
 
    ![](assets/comments.png)
