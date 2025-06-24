@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 12df028fee2cf055bc4ce7761804db55389cb09a
+source-git-commit: 7d2f7fed5ef924ac74559192cd692cb011561e3c
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 81%
+source-wordcount: '676'
+ht-degree: 80%
 
 ---
 
@@ -41,8 +41,11 @@ ht-degree: 81%
    * [강사로 Learning Manager 시작하기](instructors/feature-summary/getting-started.md)
 * 책임자 {#admin}
    * [Adobe Learning Manager의 Admin AI Assistant (Beta)](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
-   * [사용자 로그인](administrators/feature-summary/user-login.md)
-   * [사용자 추가 및 사용자 그룹 만들기](administrators/feature-summary/add-users-user-groups.md)
+   * [Learning Manager의 관리자로](administrators/feature-summary/user-login.md)
+   * 사용자 관리 {#user-management}
+      * [Adobe Learning Manager에서 사용자 추가](administrators/feature-summary/add-users-user-groups.md)
+      * [Adobe Learning Manager의 사용자 그룹](/help/migrated/administrators/feature-summary/user-group.md)
+      * [활성 필드](/help/migrated/administrators/feature-summary/active-fields.md)
    * [강의실 위치 추가](administrators/feature-summary/classroom.md)
    * [강의 인스턴스 및 학습 경로 만들기](administrators/feature-summary/courses.md)
    * [콘텐츠 마켓플레이스](administrators/feature-summary/content-marketplace.md)
