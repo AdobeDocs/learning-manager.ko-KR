@@ -2,10 +2,10 @@
 title: Adobe Learning Manager 다중 등록
 description: 계정 책임자의 주요 임무 중 하나는 여러 시간대에 걸쳐 다양한 VILT 세션 인스턴스를 생성하고 특정 사용자 그룹에 대한 세션을 만드는 것입니다.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 65%
+source-wordcount: '604'
+ht-degree: 63%
 
 ---
 
@@ -39,6 +39,7 @@ Adobe Learning Manager의 다중 등록 기능을 사용하면 책임자가 이�
 * 다중 등록은 강의에 여러 인스턴스가 있는 경우에만 적용됩니다.
 * 다중 등록 옵션이 활성화되고 사용자가 여러 인스턴스에 등록되면 학습자 성적 증명서 보고서의 각 강의에 대해 새 행이 생성됩니다(각 인스턴스와 각 학습자에 대해 하나의 행이 생성됨)
 * 강의당 하나의 행만 처리하는 보고 자동화가 설정되어 있는 경우 다중 등록 기능을 활성화하기 전에 보고 자동화에 필요한 조정을 진행해야 합니다.
+* 관리자 API는 다중 등록 시나리오를 지원하지 않습니다. 요구 사항이 있는 경우 CSM에 문의하십시오.
 
 ## 다중 등록을 활성화하는 방법
 
