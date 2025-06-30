@@ -4,9 +4,9 @@ title: AEM으로 Learning Manager 통합
 description: Learning Manager는 학습 콘텐츠 관리 시스템이 내장된 학습 관리 시스템입니다. 사용자가 Learning Manager에 업로드하여 학습 콘텐츠를 관리하면 Learning Manager는 이전 파일 보관, 강좌에 학습자 배정, 학습자에 대해 가시성 정의, 소비 이력 추적, 관리자에게 보고 같은 작업을 책임집니다.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 45e9b9cd291e180a3d29d6635ec81bc362eb3e96
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1082'
 ht-degree: 45%
 
 ---
@@ -31,7 +31,7 @@ AEM 패키지 관리자를 사용하여 Learning Manager 콘텐츠 패키지 설
 
 >[!NOTE]
 >
->패키지 설치에 대한 자세한 내용은 [***패키지를 사용하여 작업하는 방법***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ko#how-to-work-with-packages)을 참조하세요.
+>패키지 설치에 대한 자세한 내용은 [***패키지를 사용하여 작업하는 방법***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)을 참조하세요.
 
 1. AEM 작성자는 AEM 패키지 관리자를 엽니다.
 1. **[!UICONTROL 패키지 업로드]** 버튼을 클릭합니다.
@@ -125,13 +125,15 @@ Skyline은 클라우드 버전의 AEM입니다. 패키지 관리자에서 Skylin
 
 Skyline을 구성하는 단계는 [GitHub 리포지토리](https://github.com/adobe/captivate-prime-aem-components)에 설명되어 있습니다.
 
-## 카탈로그 위젯
+## 내 학습 위젯
 
-카탈로그 위젯은 특정 카탈로그나 일련의 카탈로그에서 가져온 교육 과정을 사용자에게 표시합니다. 페이지 속성의 &#39;속성&#39; 섹션에 나열된 옵션에서 &#39;카탈로그&#39;를 선택합니다.
+**[!UICONTROL 내 학습]** 위젯을 사용하면 특정 카탈로그 또는 카탈로그 집합의 교육을 사용자에게 표시할 수 있습니다.
+
+페이지 속성의 **[!UICONTROL 속성]** 섹션에서 나열된 옵션에서 **[!UICONTROL 카탈로그]**&#x200B;를 선택합니다.
 
 <!--![](assets/catalog-widget.png)-->
 
-카탈로그 위젯에는 다음과 같은 옵션이 있습니다.
+카탈로그 옵션에는 다음과 같은 옵션이 있습니다.
 
 * **[!UICONTROL 카탈로그 ID]:** 쉼표로 구분된 ID로서 교육 과정을 표시해야 합니다.
 * 교육에 대한 **[!UICONTROL 정렬]:** 정렬 순서. 옵션은 이름, 날짜, 생성일, 등록일 등입니다.
