@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 7d2f7fed5ef924ac74559192cd692cb011561e3c
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 80%
+source-wordcount: '682'
+ht-degree: 79%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 80%
 * [Learning Manager 사용자 가이드](user-guide.md)
 * 소개 {#introduction}
    * [새로운 기능 요약 2025년 5월](/help/migrated/whats-new.md)
+   * [Adobe Learning Manager에서 예정된 변경 사항](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [새로운 기능 요약 2024년 11월](/help/migrated/whats-new-nov-24.md)
    * [새로운 기능 요약 2024년 7월](whats-new-july-2024.md)
    * [새로운 기능 2024년 3월](whats-new-march-2024.md)
@@ -92,7 +93,8 @@ ht-degree: 80%
    * [학습자용 임시 방문 모드](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [학습 프로그램](administrators/feature-summary/learning-programs.md)
    * [제품 용어](administrators/feature-summary/product-terminology.md)
-* 통합 관리자 {#integration}
+* 통합 책임자 {#integration}
+   * [응용 프로그램 개발자 설명서](integration-admin/feature-summary/developer-manual.md)
    * [마이그레이션 설명서](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager 커넥터](integration-admin/feature-summary/connectors.md)
    * [로그인하지 않은 API](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -104,7 +106,6 @@ ht-degree: 80%
    * [AEM으로 Learning Manager 통합](integrate-aem-learning-manager.md)
    * [Learning Manager에서 Salesforce 패키지 설치](integration-admin/feature-summary/install-salesforce-package.md)
    * [Microsoft Teams 커넥터 설치](integration-admin/feature-summary/install-microsoft-teams-connector.md)
-   * [응용 프로그램 개발자 설명서](integration-admin/feature-summary/developer-manual.md)
    * [Salesforce용 Learning Manager 앱](integration-admin/feature-summary/sfdc-app.md)
    * [설정](integration-admin/feature-summary/settings.md)
    * [CSV 파일을 통해 사용자 정의 역할 관리](integration-admin/feature-summary/configure-role-csv-files.md)
