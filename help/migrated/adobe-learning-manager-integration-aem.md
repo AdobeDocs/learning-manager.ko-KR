@@ -4,10 +4,10 @@ title: AEM 사이트에 대한 Adobe Learning Manager 참조 사이트(ALM 참�
 description: Adobe Learning Manager(ALM)는 Adobe Experience Manager(AEM) 사이트와 통합됩니다. 이렇게 하면 최소한의 코딩 노력으로 Adobe Learning Manager에 대한 자신의 웹사이트 및 반응형 모바일 인터페이스를 생성할 수 있습니다. 이 통합을 통해 사용자를 대상으로 사용자 정의된 학습 경험을 만들 수 있습니다.
 contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
-source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
+source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
 workflow-type: tm+mt
-source-wordcount: '2146'
-ht-degree: 67%
+source-wordcount: '2207'
+ht-degree: 65%
 
 ---
 
@@ -21,9 +21,13 @@ Adobe Learning Manager(ALM)는 Adobe Experience Manager(AEM) 사이트와 통합
 
 ALM 참조 사이트 패키지를 설치한 후, AEM 사이트 인스턴스에서 호스팅할 수 있는 Adobe Learning Manager에 대한 웹 사이트 구축을 시작할 수 있습니다. 그런 다음 사용자는 웹 사이트에 구성 요소를 끌어 놓을 수 있습니다.
 
-ALM 참조 사이트 패키지 설치
+>[!IMPORTANT]
+>
+>AEM Sites용 Adobe Learning Manager(ALM) 패키지는 구현을 위한 빠른 시작 코드 블록을 제공합니다. 이 패키지는 헤드리스 배포용으로 설계되었습니다. 제공된 코드 베이스를 사용하고 나면 Adobe Learning Manager 기반의 헤드리스 애플리케이션을 사용하는 표준 사례처럼 코드 베이스를 추가로 유지 관리하고 개발하는 것은 사용자의 책임입니다. 기본 API는 Adobe Learning Manager에서 계속 지원됩니다.
 
-## 필수 구성 요소
+## ALM 참조 사이트 패키지 설치
+
+### 필수 구성 요소
 
 * AEM 사이트 및 Adobe Commerce용 라이선스.
 * AEM 온-프레미스 6.5 또는 Adobe Experience Manager - Cloud Service

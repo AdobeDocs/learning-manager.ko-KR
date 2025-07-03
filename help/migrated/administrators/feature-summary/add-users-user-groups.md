@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Manager에서 사용자 추가
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 48896c0a6f2d4631005c8d0185d69e0e31f19776
+source-git-commit: c2a4a0ea8c9a4a5f28427a95caf63f0690b6dcc7
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 1%
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Adobe Learning Manager에서 사용자 추가
 
-Adobe Learning Manager에서 사용자는 학습 또는 교육을 위해 플랫폼을 사용하는 사람입니다. 사용자의 유형은 내부 사용자와 외부 사용자라는 두 가지입니다.
+Adobe Learning Manager에서 사용자는 학습 또는 교육 플랫폼을 사용하는 학습자입니다. 사용자의 유형은 내부 사용자와 외부 사용자라는 두 가지입니다.
 
 내부 사용자는 조직의 직원 또는 팀원입니다.
 
-외부 사용자는 고객, 파트너, 공급업체 또는 클라이언트와 같이 학습 콘텐츠에 액세스할 수 있는 회사 외부의 사람입니다.
+외부 사용자는 고객, 파트너, 공급업체 또는 클라이언트와 같이 학습 콘텐츠에 액세스할 수 있는 회사 외부의 학습자입니다.
 
 Adobe Learning Manager(ALM)을 사용하면 관리자가 수동 입력, CSV 업로드, 자가 등록 및 시스템 통합을 포함한 다양한 방법을 사용하여 내부 및 외부 사용자를 모두 온보딩하고 관리할 수 있습니다.
 
@@ -65,7 +65,7 @@ Adobe Learning Manager에 단일 사용자를 추가하려면 다음을 수행�
    ![](assets/add-a-user-prompt.png)
    _새 사용자의 이름, 전자 메일, 고유 식별자 및 프로필을 입력할 필드_
 5. 사용자의 관리자를 검색하고 관리자 목록에서 이름을 선택합니다.
-6. **추가**&#x200B;를 선택합니다.
+6. **추가**를 선택합니다.
 사용자는 액세스할 로그인 URL이 포함된 시작 이메일을 받습니다.
 
 
@@ -248,7 +248,7 @@ _외부 프로필의 등록 URL 복사_
 | 내부 사용자 | 외부 사용자 |
 |---|---|
 | Adobe ID 또는 SSO 자격 증명을 사용하여 로그인할 수 있습니다. | 모든 전자 메일 ID를 사용하여 로그인할 수 있습니다. |
-| 게임화를 사용할 수 있습니다. | 게임화 기능을 사용할 수 있습니다. 책임자는 [게임화 설정](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/gamification)에서 외부 학습자에 대한 게임화를 활성화해야 합니다. |
+| 게임화를 사용할 수 있습니다. | 게임화 기능을 사용할 수 있습니다. 책임자는 [게임화 설정](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)에서 외부 학습자에 대한 게임화를 활성화해야 합니다. |
 
 ### 외부 등록 프로필 일시 중지
 

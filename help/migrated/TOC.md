@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '684'
 ht-degree: 79%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 79%
    * [새로운 기능 2023년 7월](whats-new-2023-july.md)
    * [릴리스 정보](release-note/release-notes.md)
    * [시스템 요구 사항](system-requirements.md)
-   * [AEM Sites에 대한 ALM 참조 사이트 패키지](adobe-learning-manager-integration-aem.md)
    * [Microsoft Teams용 Adobe Learning Manager 앱](adobe-learning-manager-app-microsoft-teams.md)
    * [Learning Manager는 GDPR을 준수함](kb/prime-gdpr.md)
    * [Learning Manager의 접근성](accessibility-learning-manager.md)
@@ -103,7 +102,9 @@ ht-degree: 79%
       * [Webhook 사용 안내서](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
    * [신빙하](integration-admin/feature-summary/credly-integration.md)
    * [학습 도구 상호 운용성](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
-   * [AEM으로 Learning Manager 통합](integrate-aem-learning-manager.md)
+   * AEM Sites {#aem-sites}
+      * [AEM Sites에 대한 ALM 참조 사이트 패키지](/help/migrated/adobe-learning-manager-integration-aem.md)
+      * [AEM으로 Learning Manager 통합](integrate-aem-learning-manager.md)
    * [Learning Manager에서 Salesforce 패키지 설치](integration-admin/feature-summary/install-salesforce-package.md)
    * [Microsoft Teams 커넥터 설치](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [Salesforce용 Learning Manager 앱](integration-admin/feature-summary/sfdc-app.md)
