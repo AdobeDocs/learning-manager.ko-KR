@@ -74,7 +74,7 @@ Learning Manager 응용 프로그램은 이벤트를 기반으로 하여 여러 
 1. **[!UICONTROL 설정]**&#x200B;을 클릭하여 설정 페이지를 엽니다. 이제 전자 메일 템플릿을 사용자 정의할 수 있습니다.
 1. 학습자가 전자 메일을 받을 이름 및 전자 메일 ID를 사용자 지정하려면 **[!UICONTROL 보낸 사람 이름 및 주소]을(를) 편집하세요.**
 
-   이러한 세부 정보를 구성하거나 변경하려면 [***Adobe 지원***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)에 문의하세요.
+   이러한 세부 정보를 구성하거나 변경하려면 [***Adobe 지원***](https://helpx.adobe.com/kr/contact/enterprise-support.other.html#learning-manager)에 문의하세요.
 
 1. **[!UICONTROL 전자 메일 배너]** 옵션에서 전자 메일 배너를 사용자 지정합니다. **[!UICONTROL 배너 배경]**&#x200B;을 선택하여 배너 색상을 변경합니다.
 
@@ -163,7 +163,7 @@ DND 목록에서 학습자는 다이제스트 전자 메일에 대한 사용자 
 
 ## 전자 메일 도메인 사용자 정의 {#customizeemaildomain}
 
-학습자가 알림을 받을 전자 메일 도메인과 전자 메일 ID를 사용자 정의하려면 [***Learning Manager 지원***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)에 문의하여 추가할 도메인에 대한 세부 정보 및 새 전자 메일 ID를 알려 주십시오.
+학습자가 알림을 받을 전자 메일 도메인과 전자 메일 ID를 사용자 정의하려면 [***Learning Manager 지원***](https://helpx.adobe.com/kr/contact/enterprise-support.other.html#learning-manager)에 문의하여 추가할 도메인에 대한 세부 정보 및 새 전자 메일 ID를 알려 주십시오.
 
 귀하의 요청이 처리되면 확인 링크가 담긴 전자 메일이 귀하가 기재한 새로운 전자 메일 주소로 발송됩니다. 전자 메일에 있는 인증 링크를 클릭하여 인증 절차를 확인하고 완료합니다.
 
@@ -260,6 +260,6 @@ Learning Manager 사용자는 이제 인라인 전자 메일 초대를 수신합
 
 +++템플릿에서 전송자 이름 및 주소를 변경하려면 어떻게 해야 합니까?
 
-보낸 사람 이름과 전자 메일 주소를 변경하려면 [Adobe Learning Manager 지원](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)에 문의하세요.
+보낸 사람 이름과 전자 메일 주소를 변경하려면 [Adobe Learning Manager 지원](https://helpx.adobe.com/kr/contact/enterprise-support.other.html#learning-manager)에 문의하세요.
 
 +++
