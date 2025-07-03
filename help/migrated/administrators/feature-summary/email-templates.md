@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 전자 메일 템플릿
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 67e1a5f7140f9fe268059368918ccf6da6f16c4d
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 55%
+source-wordcount: '1512'
+ht-degree: 58%
 
 ---
 
@@ -41,21 +41,23 @@ Learning Manager 응용 프로그램은 이벤트를 기반으로 하여 여러 
 
    *일반 탭 선택*
 
-1. 전자 메일 템플릿 목록을 보려면 아무 탭이나 클릭합니다.
+2. 특정 역할에 대한 전자 메일 템플릿을 대량으로 활성화하거나 비활성화하려면 열 머리글에서 줄임표(...)를 선택하고 **[!UICONTROL 전자 메일 받는 사람]**&#x200B;에서 모든 해당 역할을 활성화하십시오.
 
-   ![](assets/email-templates-ingeneraltab.png)
+   ![](assets/email-template-role.png)
+   _역할 수준에서 모든 전자 메일 템플릿 보내기_
 
-   *전자 메일 템플릿 목록 보기*
+3. 역할에 대한 특정 전자 메일 템플릿을 활성화하거나 비활성화하려면 해당 템플릿의 줄임표(...)를 선택하고 역할을 선택하거나 선택 해제합니다.
 
-   토글 버튼을 클릭하여 이러한 전자 메일 알림을 쉽게 활성화하거나 비활성화할 수 있습니다.
+   ![](assets/email-template-role-1.png)
+   _역할 수준에서 전자 메일 템플릿 보내기_
 
-1. 템플릿의 콘텐츠를 수정하려면 템플릿 이름을 클릭합니다. 여기서 다른 유형의 사용자에 대해 서로 다른 템플릿을 사용할 수 있음을 확인할 수 있습니다.
+4. 템플릿의 콘텐츠를 수정하려면 템플릿 이름을 클릭합니다. 여기서 다른 유형의 사용자에 대해 서로 다른 템플릿을 사용할 수 있음을 확인할 수 있습니다.
 
    ![](assets/preview-of-an-emailtemplate.png)
 
    *전자 메일 템플릿 보기*
 
-1. 이 전자 메일 템플릿의 콘텐츠를 수정하려면 전자 메일 본문을 클릭합니다. 이제 템플릿을 변경하십시오. 텍스트를 수정할 수 있으며 전자 메일에서 이러한 변수 중 하나를 사용할 수도 있습니다. 본문 섹션의 변경 사항은 이 전자 메일 템플릿에만 적용할 수 있습니다. 하지만 이 전자 메일의 서명을 변경하면 변경 사항이 모든 템플릿에 전역적으로 적용됩니다.
+5. 이 전자 메일 템플릿의 콘텐츠를 수정하려면 전자 메일 본문을 클릭합니다. 이제 템플릿을 변경하십시오. 텍스트를 수정할 수 있으며 전자 메일에서 이러한 변수 중 하나를 사용할 수도 있습니다. 본문 섹션의 변경 사항은 이 전자 메일 템플릿에만 적용할 수 있습니다. 하지만 이 전자 메일의 서명을 변경하면 변경 사항이 모든 템플릿에 전역적으로 적용됩니다.
 
    마우스를 각 아이콘 위로 가져가면 이름이 표시됩니다.
 
@@ -65,14 +67,14 @@ Learning Manager 응용 프로그램은 이벤트를 기반으로 하여 여러 
 
    템플릿 위에 있는 **[!UICONTROL 원래로 돌아가기]** 링크를 클릭하면 메시지 본문을 기본 콘텐츠로 재설정할 수 있습니다.
 
-1. 이 템플릿에 적용된 변경 사항을 확인하려면 저장을 클릭하십시오. 이제 사용자는 수정된 전자 메일 템플릿을 사용하여 전자 메일 알림을 받을 수 있습니다.
+6. 이 템플릿에 적용된 변경 사항을 확인하려면 저장을 클릭하십시오. 이제 사용자는 수정된 전자 메일 템플릿을 사용하여 전자 메일 알림을 받을 수 있습니다.
 
 ## 전자 메일 템플릿 설정 사용자 정의 설정 {#customizesettingsofanemailtemplate}
 
 1. **[!UICONTROL 설정]**&#x200B;을 클릭하여 설정 페이지를 엽니다. 이제 전자 메일 템플릿을 사용자 정의할 수 있습니다.
 1. 학습자가 전자 메일을 받을 이름 및 전자 메일 ID를 사용자 지정하려면 **[!UICONTROL 보낸 사람 이름 및 주소]을(를) 편집하세요.**
 
-   이러한 세부 정보를 구성하거나 변경하려면 [***Adobe 지원***](https://helpx.adobe.com/kr/contact/enterprise-support.other.html#learning-manager)에 문의하세요.
+   이러한 세부 정보를 구성하거나 변경하려면 [***Adobe 지원***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)에 문의하세요.
 
 1. **[!UICONTROL 전자 메일 배너]** 옵션에서 전자 메일 배너를 사용자 지정합니다. **[!UICONTROL 배너 배경]**&#x200B;을 선택하여 배너 색상을 변경합니다.
 
@@ -100,23 +102,6 @@ Learning Manager 응용 프로그램은 이벤트를 기반으로 하여 여러 
 
 1. 관리자가 **[!UICONTROL 선택적 관리자 전자 메일]** 옵션 아래의 확인란을 사용하여 부하 직원에게 보내는 전자 메일도 받아야 하는지 여부를 구성합니다.
 
-## 역할 수준에서 이메일 활성화 또는 비활성화
-
-책임자는 학습자, 관리자 또는 강사와 같은 수신자의 역할에 따라 이메일 템플릿을 활성화하거나 비활성화할 수 있습니다. 이를 통해 관리자는 어떤 알림이 전송되는지 보다 효과적으로 제어할 수 있으며, 통신의 유형 및 빈도를 관리하는 데 도움이 됩니다.
-
-전자 메일 템플릿을 활성화 또는 비활성화하려면:
-
-1. 관리자로 Adobe Learning Manager에 로그인합니다.
-2. 왼쪽 창에서 **[!UICONTROL 전자 메일 템플릿]**&#x200B;을 선택합니다.
-3. 특정 역할에 대한 전자 메일 템플릿을 대량으로 활성화하거나 비활성화하려면 열 머리글에서 줄임표(...)를 선택하고 **[!UICONTROL 전자 메일 받는 사람]**&#x200B;에서 모든 해당 역할을 활성화하십시오.
-
-   ![](assets/email-template-role.png)
-   _역할 수준에서 모든 전자 메일 템플릿 보내기_
-
-4. 역할에 대한 특정 전자 메일 템플릿을 활성화하거나 비활성화하려면 해당 템플릿의 줄임표(...)를 선택하고 역할을 선택하거나 선택 해제합니다.
-
-   ![](assets/email-template-role-1.png)
-   _역할 수준에서 전자 메일 템플릿 보내기_
 
 ## 다이제스트 전자 메일 빈도 설정 {#setfrequencyofdigestemails}
 
@@ -178,7 +163,7 @@ DND 목록에서 학습자는 다이제스트 전자 메일에 대한 사용자 
 
 ## 전자 메일 도메인 사용자 정의 {#customizeemaildomain}
 
-학습자가 알림을 받을 전자 메일 도메인과 전자 메일 ID를 사용자 정의하려면 [***Learning Manager 지원***](https://helpx.adobe.com/kr/contact/enterprise-support.other.html#learning-manager)에 문의하여 추가할 도메인에 대한 세부 정보 및 새 전자 메일 ID를 알려 주십시오.
+학습자가 알림을 받을 전자 메일 도메인과 전자 메일 ID를 사용자 정의하려면 [***Learning Manager 지원***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)에 문의하여 추가할 도메인에 대한 세부 정보 및 새 전자 메일 ID를 알려 주십시오.
 
 귀하의 요청이 처리되면 확인 링크가 담긴 전자 메일이 귀하가 기재한 새로운 전자 메일 주소로 발송됩니다. 전자 메일에 있는 인증 링크를 클릭하여 인증 절차를 확인하고 완료합니다.
 
@@ -275,6 +260,6 @@ Learning Manager 사용자는 이제 인라인 전자 메일 초대를 수신합
 
 +++템플릿에서 전송자 이름 및 주소를 변경하려면 어떻게 해야 합니까?
 
-보낸 사람 이름과 전자 메일 주소를 변경하려면 [Adobe Learning Manager 지원](https://helpx.adobe.com/kr/contact/enterprise-support.other.html#learning-manager)에 문의하세요.
+보낸 사람 이름과 전자 메일 주소를 변경하려면 [Adobe Learning Manager 지원](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)에 문의하세요.
 
 +++
