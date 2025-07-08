@@ -4,9 +4,9 @@ title: 응용 프로그램 개발자 설명서
 description: OAuth 2.0 인증, API 사용 시나리오 및 데이터 모델과 같은 필수 항목을 다루는 RESTful API를 사용하여 애플리케이션을 통합하고 사용자 정의하는 방법에 대해 알아봅니다. 강의 생성, 학습자 진행 추적, 스킬 매핑, 인증, 게임화 등의 기능으로 기업 애플리케이션을 개선하세요. 이 안내서는 개발자가 원활하고 효율적인 워크플로우를 만드는 데 도움이 되는 단계별 지침과 실제 예제를 제공합니다. Adobe Learning Manager의 기능을 활용하여 학습자 중심의 애플리케이션을 만들려는 개발자에게 적합합니다.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: fc5f551dac574cae748d36d819745c5f9149afd7
+source-git-commit: 15a05e801d4a05f99529fa2dd1afe11f97e77568
 workflow-type: tm+mt
-source-wordcount: '4420'
+source-wordcount: '4504'
 ht-degree: 6%
 
 ---
@@ -1315,9 +1315,10 @@ curl --location --request POST 'https://learningmanager.adobe.com/oauth/o/learne
 }'
 ```
 
-### 학습자 성적 증명서 생성
 
-**오류 코드**
+### 오류 코드
+
+Adobe Learning Manager(ALM) API로 작업할 때 개발자는 요청 중에 다양한 HTTP 오류 코드가 발생할 수 있습니다. 이러한 오류는 발생한 문제와 해결 방법에 대한 중요한 피드백을 제공합니다. 이러한 코드를 이해하면 개발자가 문제를 빠르게 해결하고, API 안정성을 향상시키며, 더 원활한 통합을 보장할 수 있습니다. 다음 표는 ALM API에서 반환된 일반적인 HTTP 오류 코드에 대한 설명 및 이러한 코드가 발생하는 일반적인 시나리오에 대한 안내입니다. 이 섹션은 ALM에 연결되는 응용 프로그램을 빌드, 테스트 또는 디버깅하는 모든 사용자에게 필수적입니다.
 
 | HTTP 상태 | 의미 | 문제 해결 |
 |---|---|---|
