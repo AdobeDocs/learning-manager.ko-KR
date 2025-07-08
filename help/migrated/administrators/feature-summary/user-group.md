@@ -3,7 +3,7 @@ description: Adobe Learning Manager에서 사용자 그룹을 만들고 관리�
 jcr-language: en_us
 title: Adobe Learning Manager에서 사용자 그룹 관리 | 학습자 구성 및 할당
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -215,3 +215,4 @@ OR 논리를 사용하면 Adobe Learning Manager에서 영업팀에 있거나 �
 
 ![](assets/or-logic.png)
 _OR 논리를 사용하여 결합된 여러 그룹 표시 예_
+
