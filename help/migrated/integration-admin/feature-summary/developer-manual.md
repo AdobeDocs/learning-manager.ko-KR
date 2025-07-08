@@ -4,9 +4,9 @@ title: 응용 프로그램 개발자 설명서
 description: OAuth 2.0 인증, API 사용 시나리오 및 데이터 모델과 같은 필수 항목을 다루는 RESTful API를 사용하여 애플리케이션을 통합하고 사용자 정의하는 방법에 대해 알아봅니다. 강의 생성, 학습자 진행 추적, 스킬 매핑, 인증, 게임화 등의 기능으로 기업 애플리케이션을 개선하세요. 이 안내서는 개발자가 원활하고 효율적인 워크플로우를 만드는 데 도움이 되는 단계별 지침과 실제 예제를 제공합니다. Adobe Learning Manager의 기능을 활용하여 학습자 중심의 애플리케이션을 만들려는 개발자에게 적합합니다.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: adba903c3edddbc9ce11481e75b1e03ffe4da956
+source-git-commit: 334fb7dcc73e21679d3f95d36456da4e33226773
 workflow-type: tm+mt
-source-wordcount: '4521'
+source-wordcount: '4520'
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ Adobe Learning Manager을 외부 애플리케이션과 통합하여 다용성을
 
 ## 액세스 토큰 획득
 
-### 리디렉션에서 인증 코드 가져오기
+### 인증 코드 받기
 
 클라이언트 ID 및 클라이언트 암호를 받은 후 이를 사용하여 API 호출을 인증하는 데 사용되는 액세스 토큰을 요청합니다.
 
@@ -285,8 +285,8 @@ API URL에 include 매개 변수를 추가하고 포함할 관련 엔터티를 �
 | instances.loResources.resources | 인스턴스 내에 모듈 및 리소스 가져오기 |
 | supplementaryResources | 관련 보충 리소스를 반환합니다. |
 | skills.skillLevel.badge | 스킬 레벨 및 관련 배지 가져오기 |
-| prerequisiteLO | 필수 구성 요소 학습 개체 포함 |
-| subLO | 하위 학습 객체 가져오기(LP 또는 인증에 사용) |
+| prerequisiteLO | 필수 학습 객체 포함 |
+| subLO | 하위 학습 객체 가져오기(LP 또는 인증에 사용됨) |
 | subLOs.enrollment | 하위 학습 개체 등록 |
 | instances.badge | 강의 인스턴스 완료를 위해 할당된 배지 |
 | subLOs.subLOs.instances.loResources.resources | sub-sub-LO 인스턴스 내에 깊게 중첩된 리소스 |
@@ -1535,7 +1535,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>user</p></td>
    <td>
-    <p>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
+    <p>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume Learning Objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
   </tr>
   <tr>
    <td>
@@ -1543,7 +1543,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>course</p></td>
    <td>
-    <p>Course is one of the learning objects supported in Learning Manager, that consists of one or more modules. </p></td>
+    <p>Course is one of the Learning Objects supported in Learning Manager, that consists of one or more modules. </p></td>
   </tr>
   <tr>
    <td>
@@ -1551,7 +1551,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>module</p></td>
    <td>
-    <p>Module is a building block to create learning objects in Learning Manager. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
+    <p>Module is a building block to create Learning Objects in Learning Manager. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
   </tr>
   <tr>
    <td>
@@ -1718,13 +1718,13 @@ Following are the various elements of the Learning Manager class diagram in V2 A
    <td><code>
      catalog
     </code></td>
-   <td>Catalog is a collection of learning objects.</td>
+   <td>Catalog is a collection of Learning Objects.</td>
   </tr>
   <tr>
    <td><code>
      user
     </code></td>
-   <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
+   <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume Learning Objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
   </tr>
   <tr>
    <td>resource</td>
