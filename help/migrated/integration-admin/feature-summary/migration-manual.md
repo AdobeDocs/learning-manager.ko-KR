@@ -3,7 +3,7 @@ description: 기존 LMS를 Adobe Learning Manager LMS로 마이그레이션하�
 jcr-language: en_us
 title: 마이그레이션 설명서
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 899ef06789f818e0286589263ebb5fad0c90c9d2
+source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
 workflow-type: tm+mt
 source-wordcount: '3617'
 ht-degree: 72%
@@ -582,5 +582,5 @@ X가 사용자 A, B, C의 관리자라는 시나리오를 생각해 봅시다. X
 
 이 항목에 대한 자세한 내용은 다음 도움말 내용을 참조하십시오.
 
-* [CSV 업로드 관련 자주 묻는 질문](/help/migrated/administrators/add-users-in-bulk.md)
+* [CSV 업로드 관련 자주 묻는 질문](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users/)
 * [사용자 추가 기능 도움말](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
