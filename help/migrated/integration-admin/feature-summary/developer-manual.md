@@ -4,9 +4,9 @@ title: 응용 프로그램 개발자 설명서
 description: OAuth 2.0 인증, API 사용 시나리오 및 데이터 모델과 같은 필수 항목을 다루는 RESTful API를 사용하여 애플리케이션을 통합하고 사용자 정의하는 방법에 대해 알아봅니다. 강의 생성, 학습자 진행 추적, 스킬 매핑, 인증, 게임화 등의 기능으로 기업 애플리케이션을 개선하세요. 이 안내서는 개발자가 원활하고 효율적인 워크플로우를 만드는 데 도움이 되는 단계별 지침과 실제 예제를 제공합니다. Adobe Learning Manager의 기능을 활용하여 학습자 중심의 애플리케이션을 만들려는 개발자에게 적합합니다.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
+source-git-commit: fc5f551dac574cae748d36d819745c5f9149afd7
 workflow-type: tm+mt
-source-wordcount: '4396'
+source-wordcount: '4420'
 ht-degree: 6%
 
 ---
@@ -31,7 +31,7 @@ Adobe Learning Manager은 개발자가 애플리케이션이나 워크플로우�
 
 ## API 사용 시나리오
 
-개발자는 Learning Manager API를 사용하여 Learning Manager를 개선하거나 다른 기업 응용 프로그램과 통합할 수 있습니다. 모든 기술을 사용하여 웹, 데스크탑 또는 모바일 앱을 만들 수 있습니다. 개발자는 Learning Manager에서 응용 프로그램 데이터에 액세스할 수 있지만 배포는 외부적이며 사용자가 완전히 제어합니다. 앱은 일반적으로 고객 조직이 자체 계정을 위해 개발하는 반면 Adobe 파트너는 일반적인 애플리케이션을 만들어 더 다양하게 사용할 수 있습니다.
+개발자는 Learning Manager API를 사용하여 Learning Manager를 개선하거나 다른 기업 응용 프로그램과 통합할 수 있습니다. 모든 기술을 사용하여 웹, 데스크탑 또는 모바일 앱을 만들 수 있습니다. 개발자는 Learning Manager 데이터에 액세스할 수 있지만 사용자가 앱을 사용하는 위치와 방법을 제어합니다.
 
 ## OAuth 2.0을 사용한 인증
 
@@ -79,7 +79,7 @@ Adobe Learning Manager을 외부 애플리케이션과 통합하여 다용성을
 
 클라이언트 ID 및 클라이언트 암호를 받은 후 이를 사용하여 API 호출을 인증하는 데 사용되는 액세스 토큰을 요청합니다.
 
-인증 코드 흐름을 시작하려면 브라우저에서 다음 URL을 사용자에게 안내하십시오.
+인증 코드 흐름을 시작하려면 브라우저에 다음 URL을 추가하십시오.
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<one or more comma separated scopes>&response_type=CODE 
@@ -134,7 +134,17 @@ GET https://learningmanager.adobe.com/oauth/token/check?access_token=<access_tok
 
 ### 테스트 및 개발용 액세스 토큰 얻기
 
-Adobe Learning Manager(ALM) 토큰 생성 도구를 사용하여 테스트 및 개발용 액세스 토큰을 빠르게 생성합니다. 이러한 토큰은 개발 및 디버깅 단계 중에 개인적인 용도로 사용됩니다. 테스트 토큰은 ALM 데이터에 대한 액세스 권한을 부여하므로 안전하게 처리하는 것이 중요합니다. 테스트 토큰을 다른 사람과 공유하거나, 프로덕션 애플리케이션에서 사용하거나, 공용 코드 리포지토리에 포함하지 마십시오. 이를 암호처럼 취급하여 계정과 데이터의 보안을 보장합니다.
+Adobe Learning Manager(ALM) API로 작업할 때 개발자는 API 요청을 인증하려면 유효한 OAuth 2.0 액세스 토큰이 필요합니다. 표준 OAuth 흐름을 통해 이 토큰을 생성하는 것은 특히 빠른 테스트, 학습 또는 개발을 위해 복잡하고 시간이 많이 걸릴 수 있습니다. Adobe Learning Manager은 이 프로세스를 단순화하기 위한 토큰 생성 도구를 제공합니다.
+
+이 도구는 다음 경우에 이상적입니다.
+
+* POC(개념 증명) 빌드
+
+* 초기 단계 개발
+
+* API 통합 문제 해결
+
+이러한 토큰은 개발 및 디버깅 단계 중에 개인적인 용도로 사용됩니다. 테스트 토큰은 ALM 데이터에 대한 액세스 권한을 부여하므로 안전하게 처리하는 것이 중요합니다. 테스트 토큰을 다른 사람과 공유하거나, 프로덕션 애플리케이션에서 사용하거나, 공용 코드 리포지토리에 포함하지 마십시오. 이를 암호처럼 취급하여 계정과 데이터의 보안을 보장합니다.
 
 1. 통합 책임자로 Adobe Learning Manager에 로그인합니다.
 2. **[!UICONTROL 개발자 리소스]**&#x200B;를 선택한 다음 **[!UICONTROL 테스트 및 개발용 액세스 토큰 선택]**&#x200B;을 선택합니다.
