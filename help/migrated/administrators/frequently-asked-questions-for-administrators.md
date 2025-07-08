@@ -4,9 +4,9 @@ title: 관리자를 위한 자주 묻는 질문(FAQ)
 description: Adobe Learning Manager 관리자를 위한 자주 묻는 질문
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2517'
 ht-degree: 52%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 52%
 
 +++사용자를 일괄 추가할 수 있습니까? 어떻게 해야 합니까?
 
-예. CSV 업로드 기능으로 사용자를 일괄 추가할 수 있습니다. 자세한 내용을 보려면 [여기](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users)를 클릭하십시오.
+예. CSV 업로드 기능으로 사용자를 일괄 추가할 수 있습니다. 자세한 내용은 이 [문서](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users)를 참조하세요.
 
 +++
 
@@ -257,7 +257,7 @@ Adobe Learning Manager 1.0 릴리스에는 강의에 대한 달력을 설정할 
 관리자, 작성자, 학습자는 강의 활동에 따라 알림을 볼 수 있습니다. 관리자는 다음 단계를 따라서 모든 사용자에 대한 알림을 활성화/비활성화할 수 있습니다.
 
 1. 왼쪽 창에서 전자 메일 템플릿 을 클릭하고 일반, 사용자 등록, 완료 및 피드백 탭을 선택합니다.
-1. 아래에 나열된 이벤트에서 **각 &#x200B;** 이벤트 옆에 있는 아니요/예 전환 버튼을 클릭하고 예를 선택하여 알림을 활성화합니다. 특정 이벤트에 대해 알림 전송을 비활성화하려면 &#39;아니오&#39;를 클릭합니다.
+1. 아래에 나열된 이벤트에서 각 이벤트 옆에 있는 아니오/예 전환 버튼을 클릭하고 예를 선택하여 알림을 활성화합니다. 특정 이벤트에 대해 알림 전송을 비활성화하려면 &#39;아니오&#39;를 클릭합니다.
 
 +++
 

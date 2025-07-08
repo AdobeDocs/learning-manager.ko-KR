@@ -2,13 +2,13 @@
 description: Adobe Learning Manager에서 사용자 그룹을 만들고 관리하는 방법을 알아봅니다. 사용자를 그룹화하여 강의를 할당하고 진행 상황을 추적하고 학습 워크플로우를 효율적으로 자동화하는 방법에 대해 알아봅니다.
 jcr-language: en_us
 title: Adobe Learning Manager에서 사용자 그룹 관리 | 학습자 구성 및 할당
-source-git-commit: 03797a208195f4cc11cb5cceb2775d341befe2a0
+exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Learning Manager의 사용자 그룹
 
@@ -153,7 +153,7 @@ _사용자 그룹 이름, 설명 또는 멤버십 규칙을 수정하는 필드_
    ![](assets/delete-a-group.png)
    _사용자 그룹을 제거하려면 [동작] 메뉴에서 옵션을 삭제하십시오_
 
-4. 메시지가 표시되면 삭제를 확인합니다. 사용자 그룹이 Adobe Learning Manager에서 삭제됩니다.
+4. 메시지가 표시되면 삭제를 확인합니다. 사용자 그룹이 삭제됩니다.
 
 ## 사용자 그룹 보고서 다운로드
 

@@ -4,7 +4,7 @@ title: 응용 프로그램 개발자 설명서
 description: OAuth 2.0 인증, API 사용 시나리오 및 데이터 모델과 같은 필수 항목을 다루는 RESTful API를 사용하여 애플리케이션을 통합하고 사용자 정의하는 방법에 대해 알아봅니다. 강의 생성, 학습자 진행 추적, 스킬 매핑, 인증, 게임화 등의 기능으로 기업 애플리케이션을 개선하세요. 이 안내서는 개발자가 원활하고 효율적인 워크플로우를 만드는 데 도움이 되는 단계별 지침과 실제 예제를 제공합니다. Adobe Learning Manager의 기능을 활용하여 학습자 중심의 애플리케이션을 만들려는 개발자에게 적합합니다.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 01b5f339fb17db9c1af4e3e1121f9034c84fb974
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
 source-wordcount: '4375'
 ht-degree: 6%
@@ -392,7 +392,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
 **기타 포함 필터**
 
 <table>
- <tbody>
+  <tbody>
   <tr>
    <td>
     <p style="text-align: left;"><b>학습 프로그램</b></p></td>
@@ -406,6 +406,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instances.loResources.resources</br><br>supplementaryLOs.instances.loResources.resources</br><br>supplementaryResources</br><br>instances.badge</br><br>skill.skillLevel.badge</br><br>skill.skill</br><br>instances.loResources.room</br><br>prerequisiteLOs.enrollment</br><br>enrollment.loResourceGrades</br>
   </td>
   </tr>
+  </table>
 
 #### 필드
 
@@ -520,7 +521,7 @@ Adobe Learning Manager API를 사용하면 개발자가 RESTful 리소스로 Lea
 | 사용자 배지 | 사용자 배지는 단일 배지를 단일 사용자와 연결합니다. 달성 시기, 검증 URL 등의 세부 정보가 포함됩니다. |
 | 스킬 | 스킬 모델은 레벨과 점수로 구성됩니다. 학습자는 관련 강의를 완료하면 스킬을 획득합니다. |
 | 스킬 레벨 | 스킬 레벨은 레벨 관련 점수 및 레벨을 획득하기 위해 수료하는 하나 이상의 강의로 구성됩니다. |
-| 학습 객체 | 학습 객체는 사용자가 등록하고 학습할 수 있는 다양한 종류의 객체에 대한 추상적 개념입니다. 현재 Learning Manager에는 네 가지 유형의 학습 객체가 있습니다(강의, 인증, 학습 프로그램 및 작업 지원). |
+| 학습 객체 | 학습 객체는 사용자가 등록하고 학습할 수 있는 다양한 종류의 객체에 대한 추상적 개념입니다. 현재 Learning Manager에는 네 가지 유형의 학습 객체인 과정, 인증, 학습 프로그램 및 작업 지원이 있습니다. |
 | 학습 객체 인스턴스 | 학습 객체의 특성 인스턴스입니다. |
 | 학습 객체 리소스 | 이는 모듈 의 개념과 동일합니다. 강의는 하나 이상의 모듈로 구성됩니다. Learning Manager에서는 여러 동등한 방법으로 모듈을 전송할 수 있습니다. 따라서 loResource 는 기본적으로 동등한 모든 리소스를 압축합니다. |
 | 학습 객체 리소스 등급 | 사용자가 등록한 학습 객체의 컨텍스트에 있는 특정 리소스를 수료한 결과를 압축합니다. 사용자가 리소스에서 사용한 기간, 사용자가 수행한 진행률, 합격/불합격 상태 및 사용자가 모든 관련 퀴즈에서 획득한 점수와 같은 정보가 있습니다. |

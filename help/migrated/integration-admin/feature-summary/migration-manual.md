@@ -3,9 +3,9 @@ description: 기존 LMS를 Adobe Learning Manager LMS로 마이그레이션하�
 jcr-language: en_us
 title: 마이그레이션 설명서
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3619'
 ht-degree: 72%
 
 ---
@@ -546,7 +546,7 @@ Box 계정의 *CSV 위치*
 
 ## 마이그레이션 문제 해결 {#troubleshootingmigrationissues}
 
-[여기를 클릭](../../kb/troubleshooting-migration.md)하여 통합 책임자가 기존 LMS에서 Learning Manager 응용 프로그램으로 데이터와 콘텐츠를 마이그레이션 하는 중 마주칠 수 있는 문제에 대한 해결 방법/솔루션에 대해 알아보십시오.
+통합 책임자가 기존 LMS에서 Learning Manager 응용 프로그램으로 데이터와 콘텐츠를 마이그레이션하는 중 마주칠 수 있는 문제에 대한 해결 방법/솔루션에 대한 자세한 내용은 이 [문서](../../kb/troubleshooting-migration.md)를 참조하십시오.
 
 ## 사용자 관리에 대한 팁 {#usermanagement}
 

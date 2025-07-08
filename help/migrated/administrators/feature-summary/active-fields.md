@@ -2,17 +2,17 @@
 description: Adobe Learning Manager의 활성 필드 를 사용하여 사용자 정의 사용자 정보를 캡처하고, 구성하고, 관리하는 방법을 알아봅니다. 유연한 필드 구성을 통해 보고, 필터링 및 사용자 세그먼테이션을 개선합니다.
 jcr-language: en_us
 title: Adobe Learning Manager의 활성 필드 구성
-source-git-commit: 03797a208195f4cc11cb5cceb2775d341befe2a0
+exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 0%
 
 ---
 
-
 # 활성 필드
 
-Adobe Learning Manager의 활성 필드는 관리자가 사용자를 효과적으로 구성하고 관리하는 데 도움이 되는 사용자 정의 사용자 속성입니다. 부서, 위치 또는 직책과 같은 사용자에 대한 추가 정보를 캡처할 수 있습니다. 관리자는 이 데이터를 사용하여 사용자 그룹을 만들고, 학습을 개인화하고, 보고서를 더 효과적으로 필터링할 수 있습니다.
+Adobe Learning Manager의 활성 필드는 관리자가 사용자를 효과적으로 구성하고 관리하는 데 도움이 되는 사용자 정의 사용자 속성입니다. 부서, 위치 또는 직책과 같은 사용자에 대한 추가 정보를 캡처할 수 있습니다. 책임자는 이 데이터를 사용하여 사용자 그룹을 만들고, 학습을 개인화하고, 보고서를 더욱 효과적으로 필터링할 수 있습니다.
 
 사용자 속성은 사용자의 이름, 성, 이메일 주소 등의 정보입니다. 이러한 속성을 통해 관리자는 다음을 수행할 수 있습니다.
 
@@ -122,6 +122,4 @@ _CSV 업로드 중 값 제한을 활성화하는 확인란_
 
 CSV 파일에 모든 활성 필드가 포함되지 않은 경우 관리자는 가져오기 후 누락된 값을 수동으로 입력해야 합니다.
 
-기본적으로 모든 활성 필드는 소스 CSV의 해당 필드에 매핑되어야 합니다. 그러나 CSV의 열에 특정 활성 필드를 매핑하지 않으려는 경우 Box 및 FTP 가져오기 프로세스 중에 드롭다운 목록에서 **DontImportFromSource** 값을 선택할 수 있습니다. 이 옵션은 FTP 또는 Box 커넥터를 통해 사용자를 가져올 때 사용할 수 있습니다. 커넥터에 대한 자세한 내용은 이 [문서](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/connectors)를 참조하십시오.
-
-
+기본적으로 모든 활성 필드는 소스 CSV의 해당 필드에 매핑되어야 합니다. 그러나 CSV의 열에 특정 활성 필드를 매핑하지 않으려는 경우 Box 및 FTP 가져오기 프로세스 중에 드롭다운 목록에서 **DontImportFromSource** 값을 선택할 수 있습니다. 이 옵션은 FTP 또는 Box 커넥터를 통해 사용자를 가져올 때 사용할 수 있습니다. 커넥터에 대한 자세한 내용은 이 [문서](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors)를 참조하십시오.
