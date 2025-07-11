@@ -4,16 +4,16 @@ title: Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 description: 흰색 레이블링은 앱 또는 서비스를 자신의 브랜드로 리브랜딩하고 원본 작성자인 것처럼 사용자 정의하는 관행입니다. Adobe Learning Manager에서는 모바일 앱에 흰색 레이블 지정을 적용하여 앱을 다시 브랜딩하고 사용자가 나만의 브랜드로 앱을 사용할 수 있도록 할 수 있습니다.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
+source-git-commit: 0c97b147a1e4c6e1a4a0cc69f56f8e9420c4602b
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
 
 # Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 
-Adobe Learning Manager 모바일 앱은 이제 흰색 레이블 지정을 지원합니다. 즉, 이제 사용자의 브랜딩으로 앱을 출시할 수 있습니다.
+이제 Adobe Learning Manager 모바일 앱에서 흰색 레이블 지정을 지원합니다. 즉, 이제 고유한 브랜딩으로 앱을 출시할 수 있습니다.
 
 ALM은 다음 타임라인에 따라 업데이트된 흰색 레이블의 이진 파일을 사용할 수 있도록 합니다.
 
@@ -46,109 +46,213 @@ ALM은 다음 타임라인에 따라 업데이트된 흰색 레이블의 이진 
 ### 필드
 
 <table>
+
  <tbody>
+
   <tr>
+
    <td>
+
     <p>계정 ID</p>
+
    </td>
+
    <td>
+
     <p>계정의 ID입니다. 흰색 레이블이 지정된 앱은 다른 계정에 속하는 학습자는 액세스할 수 없습니다.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>추가 계정 ID</p>
+
    </td>
+
    <td>
+
     <p>원하는 경우 여러 계정(하위 도메인)을 추가합니다. 하위 도메인을 공백 없이 쉼표로 구분된 하위 도메인으로 추가합니다. 예를 들어 acc01,acc02,acc03 등이 있습니다.<br> <b>참고:</b> 하위 도메인을 지정할 때 계정 ID를 추가해야 합니다.</br> </p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>앱 이름</p></td>
+
    <td>
+
     <p>앱에 사용할 이름입니다.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>앱 짧은 이름</p>
+
    </td>
+
    <td>
+
     <p>앱 이름이 긴 경우 디바이스에 표시되는 짧은 이름을 앱에 지정합니다.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>내부 앱 이름</p></td>
+
    <td>
+
     <p>OS가 앱을 식별하는 데 사용되는 이름입니다. 일반적으로 사용되는 형식은 com.company-name.product-name입니다.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>내부 앱 이름-iOS</p>
+
    </td>
+
    <td>
+
     <p>사용자가 iOS을 사용하는 경우 앱의 이름을 다르게 지정합니다. iOS과 Android 모두에 동일한 이름을 사용하는 것이 좋습니다.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>앱 아이콘</p>
+
    </td>
+
    <td>
+
     <p>앱 아이콘(png). 이 아이콘은 앱에 표시됩니다. 이름 형식은 account-id_appIcon.png입니다. 앱 아이콘의 크기는 512 × 512픽셀입니다.<div>Apple은 앱 아이콘에서 Alpha 채널을 허용하지 않습니다. 따라서 제출하기 전에 에셋에서 Alpha 채널을 제거해야 합니다.</div></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>앱 시작 화면</p></td>
+
    <td>
+
     <p>앱의 시작 화면에 사용자가 앱을 실행할 때 표시되는 이미지(png)를 제공합니다. 이름을 지정할 형식은 account-id_splashIcon.png입니다. 정사각형 기반 스플래시 화면의 크기는 1052 × 1052 픽셀이며 원형 기반 스플래시 화면은 768 x 768 픽셀입니다.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>클라이언트 ID 및 클라이언트 암호</p>
+
    </td>
+
    <td>
+
     <p>앱을 등록하는 동안 계정의 통합 관리자가 세부 정보를 제공합니다. 통합 책임자는 다음을 사용해야 합니다.<ul><li>학습자:읽기,학습자:역할로 쓰기</li><li>내부 앱 name://redirect 리디렉션 URL</li></ul></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>계정 로고</p>
+
    </td>
+
    <td>
+
     <p>조직의 로고를 호스팅하는 URL입니다. 계정 로고로 cpcontents 링크를 제공합니다. URL은 웹으로 인코딩해야 합니다.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>앱의 앱 스토어 ID(iOS)</p>
+
    </td>
+
    <td>
+
     <p>강제 업데이트를 구현하는 데 필요한 ID입니다. 앱을 업데이트하려면 학습자가 App Store로 리디렉션되어야 함을 앱이 알아야 합니다.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>앱의 Google play 스토어 id(Android)</p>
+
    </td>
+
    <td>
+
     <p>강제 업데이트를 구현하는 데 필요한 ID입니다.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>딥 링크용 호스트 이름</p>
+
    </td>
+
    <td>
+
     <p>딥 링크를 호스팅하려면 learningmanager를 사용합니다. 다른 호스트 이름 URL을 딥 링크로 사용하려면 호스트의 URL을 제공합니다. 예: learningmanager.adobe.com.</p>
+
    </td>
+
   </tr>
+
  </tbody>
+
 </table>
 
 >[!NOTE]
@@ -156,19 +260,42 @@ ALM은 다음 타임라인에 따라 업데이트된 흰색 레이블의 이진 
 >사용자 지정 앱 바이너리에 추가할 수 있도록 CSAM에 데이터를 제공합니다.
 
 
-#### 사용자 지정 라이브러리를 처리하도록 사이트 연결 업데이트
+#### 사용자 정의 딥 링크를 처리하도록 사이트 연결 업데이트
 
 사용자 정의 도메인 또는 learningmanager\*.adobe.com을 호스트로 사용하는 경우 별도의 조치를 취할 필요가 없습니다. 그러나 URL에 대해 사용자 정의 솔루션 또는 특정 호스트 이름을 사용하는 경우 사이트 연결 파일을 추가합니다.
 
 >[!CAUTION]
 >
->파일이 없으면 심도가 작동하지 않습니다. 파일이 있는지 확인합니다.
+>파일이 없으면 딥 링크가 작동하지 않습니다. 파일이 있는지 확인합니다.
 
 
 자세한 내용은 다음 링크를 참조하십시오.
 
 * [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
 * [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+
+## App Store의 팀 ID 가져오기
+
+팀 ID를 가져오려면:
+
+1. **[!UICONTROL Apple 개발자]** 계정에 로그인합니다.
+2. 페이지 상단의 **[!UICONTROL 멤버십 세부 사항]**&#x200B;을 선택하고 팀 ID를 복사합니다.
+
+이 ID는 딥 링크를 활성화하기 위해 메타데이터 파일에 흰색 레이블이 지정된 앱 항목을 추가하는 데 필요합니다.
+
+## Android용 SHA-256 지문 인식
+
+흰색 레이블이 지정된 앱 항목을 추가할 때 Android 서명 인증서의 SHA-256 지문이 필요합니다.
+
+SHA-256 지문을 생성하려면:
+
+1. 다음 명령을 실행합니다.
+
+```
+keytool -list -v -keystore <keystore/jks file> -alias <aliaskey> -storepass <storepassword> -keypass <keypassword>
+```
+
+출력에서 인증서 지문을 찾은 다음 SHA-256 값을 복사합니다. 딥 링크 구성을 위해 필요에 따라 이 지문을 공유하십시오.
 
 ## 푸시 알림 생성
 
