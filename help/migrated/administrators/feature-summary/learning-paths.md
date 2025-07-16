@@ -4,10 +4,10 @@ title: 학습 경로
 description: Learning Manager의 책임자용 학습 계획을 생성합니다.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: c365dca377e8c6ad7bb9489c6fe043e72660c54e
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 35%
+source-wordcount: '1430'
+ht-degree: 32%
 
 ---
 
@@ -138,6 +138,10 @@ ht-degree: 35%
 ![](assets/default-instance.png)
 
 *학습 경로 인스턴스*
+
+강의는 유연하고 학습자가 세션을 선택해야 하는 경우에도 책임자나 학습 계획을 통해 강의에 등록할 수 있습니다. 이 경우 시스템은 시트 제한에 도달해도 학습자가 등록할 수 있도록 허용하지만 시트가 나올 때까지 과정을 시작할 수 없습니다.
+
+대기자 명단 기능은 학습자가 자가 자가 등록한 경우에만 적용됩니다. 세션이 시트 제한에 도달하면 강사는 대기자 명단에 등록된 학습자 목록을 볼 수 있습니다. 시트를 사용할 수 있게 되면 강사는 대기자 명단에 등록된 학습자를 추가하여 세션이 다시 용량이 될 때까지 추가할 수 있습니다.
 
 ## 알림
 
