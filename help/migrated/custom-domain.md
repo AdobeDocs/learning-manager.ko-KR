@@ -4,10 +4,10 @@ title: 사용자 정의 도메인 지원
 description: 사용자 정의 도메인은 Learning Manager의 Azure 인스턴스에서 지원되지 않습니다.
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 67%
+source-wordcount: '459'
+ht-degree: 65%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 67%
 
 이렇게 하면 고객은 로그인 및 액세스 환경을 화이트 레이블링할 수 있어 사용자는 Adobe 또는 Adobe Learning Manager의 존재를 보지 못합니다.
 
-예를 들어, 사용자가 Adobe 도메인에 있는 것과 동일한 환경을 얻을 수 있도록 도메인을 사용자 정의하려는 경우. ABC Inc에서 고객을 교육하려면 `learningmanager.adobe.com/abc-inc/mylearning`이(가) 아닌 `abc.com/mylearning`이라는 도메인에 로그인해야 합니다.
+예를 들어, 사용자가 Adobe 도메인에 있는 것과 동일한 환경을 얻을 수 있도록 도메인을 사용자 정의하려는 경우. ABC Inc에서 고객을 교육하려면 `abc.com/mylearning`이(가) 아닌 `learningmanager.adobe.com/abc-inc/mylearning`이라는 도메인에 로그인해야 합니다.
 
 >[!NOTE]
 >
@@ -32,6 +32,7 @@ ht-degree: 67%
 
 * 학습자 역할의 경우 도메인이 `https://cdn.<customer_custom_domain>/`(예: `https://cdn.elearningstage1.cpdomaintest.in/`)으로 시작합니다.
 * 다른 모든 역할의 경우 도메인이 `https://<customer_custom_domain>/`(으)로 시작합니다. For example, `https://elearningstage1.cpdomaintest.in/`
+* 실제 로그인 URL은 `https://<customer_custom_domain>/acapindex` 또는 `https://<customer_custom_domain>/login`입니다. `<customer_custom_domain>`을(를) 조직의 실제 도메인으로 바꿉니다.
 
 `<customer_custom_domain>`은(는) 사용자 지정 가능한 부분입니다.
 

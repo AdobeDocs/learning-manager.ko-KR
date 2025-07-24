@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 강의 인스턴스 및 학습 경로 만들기
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
+source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
 workflow-type: tm+mt
-source-wordcount: '5674'
+source-wordcount: '5673'
 ht-degree: 52%
 
 ---
@@ -243,7 +243,7 @@ Excel 파일에는 각 인스턴스에 대한 워크시트가 포함되어 있�
 
 Adobe Learning Manager의 일괄 등록 기능을 사용하면 관리자는 CSV 파일을 업로드하여 대규모 학습자 그룹을 강의, 인증 또는 학습 프로그램에 효율적으로 등록할 수 있습니다. 이 프로세스는 시간을 절약하고 일관성을 보장하며 조직의 확장성을 지원합니다. 또한 관리자와 강사는 CSV 업로드를 통해 학습자 정보, 출석 및 완료 내용을 대량으로 업데이트할 수 있어 수동 작업을 최소화하고 데이터의 정확성을 보장할 수 있습니다.
 
-등록, 출석 및 완료에 동일한 CSV 파일 형식을 사용할 수 있습니다. &quot;이메일&quot; 열 아래에 학습자 이메일 ID를 입력하고 파일을 작업에 따른 이름(예: bulk_enrollment.csv, bulk_attendance.csv 또는 bulk_completion.csv)으로 저장하십시오. CSV 형식만 지원됩니다. UTF-8 형식은 지원되지 않습니다. 샘플 csv [여기](assets/Sample-Bulk-Action-CSV.csv)를 다운로드합니다.
+등록, 출석 및 완료에 동일한 CSV 파일 형식을 사용할 수 있습니다. &quot;이메일&quot; 열 아래에 학습자 이메일 ID를 입력하고 파일을 작업에 따른 이름(예: bulk_enrollment.csv, bulk_attendance.csv 또는 bulk_completion.csv)으로 저장하십시오. CSV 형식만 지원됩니다. UTF-8 형식은 지원되지 않습니다. [샘플 csv](assets/Sample-Bulk-Action-CSV.csv)를 다운로드합니다.
 
 ### CSV를 사용하여 학습자 일괄 등록
 
