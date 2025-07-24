@@ -4,10 +4,10 @@ title: 사용자 정의 도메인 지원
 description: 사용자 정의 도메인은 Learning Manager의 Azure 인스턴스에서 지원되지 않습니다.
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
+source-git-commit: a09c81a6dacbfc4bb55db39e64820ba87ce53d09
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 65%
+source-wordcount: '455'
+ht-degree: 66%
 
 ---
 
@@ -32,9 +32,11 @@ ht-degree: 65%
 
 * 학습자 역할의 경우 도메인이 `https://cdn.<customer_custom_domain>/`(예: `https://cdn.elearningstage1.cpdomaintest.in/`)으로 시작합니다.
 * 다른 모든 역할의 경우 도메인이 `https://<customer_custom_domain>/`(으)로 시작합니다. For example, `https://elearningstage1.cpdomaintest.in/`
-* 실제 로그인 URL은 `https://<customer_custom_domain>/acapindex` 또는 `https://<customer_custom_domain>/login`입니다. `<customer_custom_domain>`을(를) 조직의 실제 도메인으로 바꿉니다.
+* 실제 로그인 URL은 `https://<customer_custom_domain>/acapindex` 또는 `https://<customer_custom_domain>/login`입니다.
 
-`<customer_custom_domain>`은(는) 사용자 지정 가능한 부분입니다.
+>[!NOTE]
+>
+>`<customer_custom_domain>`을(를) 조직의 실제 도메인으로 바꿉니다.
 
 ## 계정에서 사용자 정의 도메인을 설정하는 방법 {#howtosetupacustomdomainonanaccount}
 
