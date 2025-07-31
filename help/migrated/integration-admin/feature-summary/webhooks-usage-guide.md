@@ -4,7 +4,7 @@ title: Webhook 사용 안내서
 description: Webhook 사용, 모범 사례 및 제한 사항에 대해 알아보기
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: 4b26eddf1285651a13ee9c71fdf677e8b92e6dc3
+source-git-commit: 4c04757d78d599ca30e3cd26257a967d5b9e3fdc
 workflow-type: tm+mt
 source-wordcount: '3369'
 ht-degree: 1%
@@ -17,7 +17,7 @@ Webhook은 웹 응용 프로그램이 실시간으로 자동으로 서로 통신
 
 사용자가 정보를 요청하면 대기하는 기존 API와 달리 실시간 API는 그 순간 데이터를 공유한다. Webhook은 실시간 API로 작동하며 지정된 이벤트가 발생할 때마다 데이터를 즉시 공유하도록 지원합니다.
 
-## 개체로 이동
+## 개체
 
 Webhook 이벤트를 이해하려면 먼저 관련 엔티티와 이러한 이벤트의 트리거 조건을 인식해야 합니다.
 
@@ -566,7 +566,7 @@ ALM의 연결 제한 시간은 10초로 구성되어 있고 소켓 제한 시간
   "events": [
     {
       "eventId": "123472ec1-4576-4ec5-a057-3a6f078cc9d6",
-      "eventName": "COURSE_ENROLLMENT_BATCH",
+      "eventName": "CERTIFICATION_ENROLLMENT_BATCH",
       "timestamp": "2024-11-08T03:49:52.000Z",
       "eventInfo": "1234524713000-040366-10488-0",
       "data": {
