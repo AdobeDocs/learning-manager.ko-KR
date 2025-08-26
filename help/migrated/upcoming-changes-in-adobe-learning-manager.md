@@ -52,7 +52,7 @@ Adobe Learning Manager의 2025년 10월 릴리스에는 보고 정확도를 개�
 
 학습자 성적 증명서를 다운로드하는 방법을 알아보려면 이 [문서](/help/migrated/administrators/feature-summary/learner-transcripts.md)를 참조하십시오.
 
-다운로드한 학습자 성적 증명서 보고서에는 새 열([완료 날짜 표시](UTC 시간대))이 포함됩니다.
+다운로드한 학습자 성적 증명서 보고서에는 새 열([완료 날짜 표시] (UTC 시간대))이 포함됩니다.
 
 ![Adobe 학습에서 강의 완료 추적을 위한 완료 날짜(노란색으로 강조 표시됨)가 표시된 학습자 성적 증명서 보고서](/help/migrated/assets/mark-completion-column.png)
 _학습자 성적 증명서 보고서에 각 사용자의 개별 완료 날짜를 강조하는 새 열이 노란색으로 표시됩니다_
@@ -169,7 +169,7 @@ FTP 폴더에서 다운로드한 사용자 보고서에는 새 열인 내부 사
    ![](/help/migrated/assets/create-add-announcement.png)
    관리자가 대상 사용자 그룹에 대한 공지를 만들고 관리할 수 있는 Adobe Learning Manager의 _공지 페이지_
 
-4. 드롭다운 메뉴에서 **[!UICONTROL 공지 유형]**을 선택합니다.
+4. 드롭다운 메뉴에서 **[!UICONTROL 공지 유형]**&#x200B;을 선택합니다.
 a. **[!UICONTROL 알림으로]**
 b. **[!UICONTROL 발행인란으로]**
 c. **[!UICONTROL 권장 사항]**
@@ -876,7 +876,7 @@ Go1 통합이 개선되어 미리 보기 및 구매 콘텐츠 모델로 전환�
    _Adobe Learning Manager에서 콘텐츠 마켓플레이스를 선택하여 상위 Go1 과정을 탐색하고 플레이리스트에 추가_
 
 3. **[!UICONTROL 콘텐츠 허브]**&#x200B;를 선택한 다음 **[!UICONTROL 라이브러리]**&#x200B;를 선택하십시오.
-4. **[!UICONTROL 재생 목록 만들기]**를 선택하고 다음 중 하나를 선택합니다.
+4. **[!UICONTROL 재생 목록 만들기]**&#x200B;를 선택하고 다음 중 하나를 선택합니다.
 a. **[!UICONTROL AI로]**: AI를 사용하여 재생 목록을 만듭니다.
 b. **[!UICONTROL 직접]**: 강의를 수동으로 추가하여 재생 목록을 만듭니다.
 
