@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 세션 학습자 관리
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 82%
+source-wordcount: '1223'
+ht-degree: 71%
 
 ---
 
@@ -83,6 +83,26 @@ Adobe Learning Manager의 새로운 **[!UICONTROL 대기자 명단 보고서]**&
 
    ![](assets/markattendance.png)
    *학습자 출석 표시*
+
+## 학습자 성공 표시
+
+강사는 학습자 페이지에서 직접 각 학습자의 성공 상태를 합격 또는 불합격으로 표시할 수 있습니다. 이 기능을 통해 강사는 학습자 성과를 기반으로 강의실 또는 가상 강의실 세션의 결과를 정확하게 기록할 수 있습니다.
+
+학습자의 성공을 표시하려면 다음을 수행합니다.
+
+1. 강사로 Adobe Learning Manager에 로그인합니다.
+2. 왼쪽 탐색 창에서 **[!UICONTROL 예정된 세션]**&#x200B;을 선택합니다.
+3. **[!UICONTROL 학습자]**&#x200B;를 선택합니다.
+4. 학습자를 선택한 다음 **[!UICONTROL 동작]**&#x200B;을 선택합니다.
+5. 다음 옵션 중 하나를 선택하여 선택한 학습자의 성공을 표시합니다.
+
+   * **[!UICONTROL 출석 및 합격 표시]**: 합격으로 표시된 학습자가 모듈을 완료했습니다.
+   * **[!UICONTROL 출석 및 불합격 표시]**: 불합격으로 표시된 학습자가 모듈을 완료했지만 통과하지 못했습니다.
+
+   ![강사가 각 학습자의 성공 상태를 설정할 수 있도록 &#39;출석 및 합격 표시&#39; 및 &#39;출석 및 불합격 표시&#39; 옵션을 강조하는 작업 드롭다운 메뉴](/help/migrated/instructors/feature-summary/assets/mark-success-instructor.png)
+   _학습자 결과 기록을 위해 [동작] 메뉴에 [출석 표시], [합격 표시] 및 [출석 표시] 및 [불합격 표시] 옵션이 강조 표시된 학습자 페이지_
+
+6. 확인 프롬프트에서 **[!UICONTROL 예]**&#x200B;를 선택합니다.
 
 ## 학습자에게 전자 메일 전송 {#sendemailstolearners}
 

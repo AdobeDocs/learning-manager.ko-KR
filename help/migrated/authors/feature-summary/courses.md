@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 강의 생성, 수정 및 게시
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '7163'
+source-wordcount: '7321'
 ht-degree: 71%
 
 ---
@@ -600,6 +600,26 @@ Learning Manager 강의, 인증, 학습 프로그램을 생성하는 방법을 �
 
 1. 업데이트를 사용하여 강의를 다시 게시하려면 **[!UICONTROL 다시 게시]**&#x200B;를 클릭하세요.
 
+### 강사가 성공을 표시할 수 있도록 허용
+
+Adobe Learning Manager을 통해 강사는 강의실 또는 가상 강의실 모듈에서 학습자의 성공 상태를 표시할 수 있습니다. 작성자는 강의실 또는 가상 강의실 모듈을 생성할 때 강사에게 학습자의 성공 상태를 표시할 수 있는 권한을 부여할 수 있습니다. 강사는 학습자를 합격 또는 불합격으로 표시하여 진행률이 적절하게 업데이트되도록 하여 성공을 표시할 수 있습니다.
+
+강사가 학습자의 성공을 표시할 수 있도록 하려면 다음을 수행합니다.
+
+1. 작성자로 Adove Learning Manager에 로그인합니다.
+2. 홈페이지에서 **[!UICONTROL 강의 만들기]**&#x200B;를 선택합니다.
+3. **[!UICONTROL 추가]**&#x200B;를 선택합니다.
+4. 필요한 세부 정보를 입력하고 **[!UICONTROL 모듈 추가]**&#x200B;를 선택합니다.
+5. **[!UICONTROL 가상 강의실 모듈]** 또는 **[!UICONTROL 강의실 모듈]**&#x200B;을 선택합니다.
+6. 필요한 세부 정보를 입력하고 날짜를 선택합니다.
+7. **[!UICONTROL 강사가 성공을 표시할 수 있도록 허용]** 옵션을 선택합니다.
+
+   ![강사가 성공을 표시할 수 있도록 허용하시겠습니까?&quot; 확인란이 강조 표시되어 강사가 모듈](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)의 학습자 성공 상태를 기록할 수 있도록 합니다.
+   _강사가 강의실 또는 가상 강의실 모듈에 대해 성공을 표시할 수 있도록 허용 옵션이 강조 표시된 세션 세부 정보 화면_
+
+8. **[!UICONTROL 완료]**&#x200B;를 선택합니다.
+
+
 ## 관찰 체크리스트
 
 이제 강사뿐만 아니라 관리자도 체크리스트 모듈을 검토할 수 있습니다. 인력 관리자 및 스토어 관리자 또는 위치 관리자와 같은 비계층 관리자도 체크리스트를 검토하고 완료할 수 있습니다.
@@ -805,7 +825,7 @@ Adobe Captivate 및 Adobe Presenter 소프트웨어에서 &#39;게시&#39; 메�
 1. Adobe 자격 증명으로 로그인합니다. Adobe ID가 없다면 **[!UICONTROL 계정 만들기]**&#x200B;를 클릭합니다. 인증을 하면 모듈 게시 페이지로 이동합니다.
 1. 모듈에 대한 기본 정보를 입력한 다음 &#39;게시&#39;를 클릭합니다.
 
-Learning Manager 모듈 페이지에 게시된 모듈이 표시됩니다. 자세한 내용은 [Adobe Learning Manager에 프로젝트 게시](https://helpx.adobe.com/kr/captivate/classic/publish-project-to-captivate-prime.html)를 참조하십시오.
+Learning Manager 모듈 페이지에 게시된 모듈이 표시됩니다. 자세한 내용은 [Adobe Learning Manager에 프로젝트 게시](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)를 참조하십시오.
 
 ## 강의 효과 {#courseeffectiveness}
 
@@ -850,7 +870,7 @@ Learning Manager 초기 릴리스에서는 외부 인증에서 학습자가 강�
 
 ## 자주 묻는 질문 {#frequentlyaskedquestions}
 
-+++강의의 &#39;관리자 지정 검색&#39;을 제거하려면 어떻게 해야 합니까?
++++과정에 대한 &#39;관리자 지정 검색&#39;을 제거하려면 어떻게 해야 합니까?
 
 다음 단계를 수행하십시오.
 
@@ -863,7 +883,7 @@ Learning Manager 초기 릴리스에서는 외부 인증에서 학습자가 강�
 
 +++
 
-+++과정을 결합하는 방법?
++++강의를 결합하려면 어떻게 해야 합니까?
 
 학습 프로그램을 통해 강의를 결합할 수 있습니다.
 
@@ -882,7 +902,7 @@ Learning Manager 초기 릴리스에서는 외부 인증에서 학습자가 강�
 
 +++
 
-+++모든 학습자가 모든 강의를 볼 수 없도록 하려면 어떻게 해야 합니까?
++++일부 학습자만 모든 강의를 볼 수 있도록 하려면 어떻게 해야 합니까?
 
 카탈로그를 통해 설정할 수 있습니다. 기본 카탈로그에는 기본적으로 Learning Manager에 추가된 모든 강의가 포함됩니다.
 
