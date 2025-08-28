@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 색상 테마
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 45%
+source-wordcount: '1217'
+ht-degree: 44%
 
 ---
 
@@ -174,7 +174,7 @@ Adobe Learning Manager에서는 계정을 사용자 정의하여 향상된 사�
    <td>
     <p>글꼴</p></td>
    <td>
-    <p>글꼴을 적용하려면 CDN은 필수입니다. 적용할 글꼴 모음도 공유해야 합니다.</p>
+    <p>관리자는 글꼴을 변경하려면 Adobe Learning Manager 지원팀(<a ref="mailto:learningmanagersupport@adobe.com"> learningmanagersupport@adobe.com</a>)에 문의할 수 있습니다. 글꼴을 적용하려면 CDN은 필수입니다. 적용할 글꼴 모음도 공유해야 합니다.</p>
     <p><b>참고:</b> 글꼴 모음은 모든 브라우저에서 지원되어야 합니다.</p></td>
   </tr>
   <tr>

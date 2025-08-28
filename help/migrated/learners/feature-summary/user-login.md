@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 로그인
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 291d32a92e4adc44b2da71d980b2ae7261a189a0
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 33%
+source-wordcount: '221'
+ht-degree: 24%
 
 ---
 
@@ -28,19 +28,24 @@ Adobe Learning Manager을 처음 사용할 때 학습자는 계정을 만들어�
 
    로그인 화면이 나타납니다.
 
-1. &#39;로그인&#39;을 클릭합니다.
+1. [로그인]을 선택합니다.
 
-   ![](assets/adobeid-signin.png)
+   ![](assets/login-page.png)
 
    *사용자 이름 및 암호로 로그인*
 
-1. Adobe ID와 암호를 입력하고 &#39;로그인&#39;을 클릭합니다.
+1. Adobe ID과 암호를 입력하고 로그인 을 클릭합니다.
 
    암호를 잊으셨다면, 암호를 잊으셨습니까?를 클릭합니다. Adobe ID 제작에 사용한 내 이메일 id를 링크 및 입력합니다.
 
-<!--
+   <!--
    If you do not have an Adobe ID, [click here](../../../manage-account.md) to learn how to create an Adobe ID.
--->
+   -->
+
+1. 활성 필드에 정보를 입력하여 프로필을 완료합니다.
+
+   ![](assets/complete-the-profile.png)
+   _프로필 설정을 완료하려면 활성 필드에 정보를 입력하십시오._
 
 1. 또는 Enterprise ID으로 로그인 링크를 클릭하여 Enterprise ID을 사용할 수도 있습니다.
 

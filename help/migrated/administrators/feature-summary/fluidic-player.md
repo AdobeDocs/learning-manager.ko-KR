@@ -4,10 +4,10 @@ title: Fluidic Player
 description: Fluidic Player는 끊김 없는 혼합 학습 경험을 제공하는 학습자용 콘텐트 수료 플랫폼입니다. 지원되는 모든 형식은 이 플레이어에서 일관되게 재생됩니다. 작성자 및 책임자는 플레이어를 사용하여 콘텐트를 미리 보기할 수 있습니다.
 contentowner: manochan
 exl-id: 4cd7197d-d4be-4755-b364-48f9e713c7e2
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 57%
+source-wordcount: '225'
+ht-degree: 49%
 
 ---
 
@@ -26,3 +26,8 @@ Fluidic Player는 끊김 없는 혼합 학습 경험을 제공하는 학습자�
 **탐색 단추** 위쪽/아래쪽 화살표를 클릭하여 pdf, docx 및 pptx 콘텐츠의 슬라이드 사이를 이동할 수 있습니다. 모든 유형의 콘텐트에서 다음 주제로 이동할 때 슬라이드 화살표가 사용됩니다.
 
 **강의 닫기:** 플레이어의 오른쪽 상단 모서리에 있는 닫기(x) 아이콘을 클릭하여 강의에서 나갑니다.
+
+>[!NOTE]
+>
+>Adobe Learning Manager의 Fluidic Player에는 비디오가 자동으로 재생되지 않도록 하는 옵션이 내장되어 있지 않습니다. 비디오 자동 재생 여부는 플레이어 자체가 아니라 브라우저 설정에 따라 달라집니다.
+

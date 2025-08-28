@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Fluidic Player
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
-source-git-commit: de57d96488851c31c380b34672767a803379842e
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 51%
+source-wordcount: '572'
+ht-degree: 48%
 
 ---
 
@@ -60,6 +60,8 @@ Fluidic Player는 끊김 없는 혼합 학습 경험을 제공하는 학습자�
 
 강의 종료 후 강의 설명 페이지의 **재방문** / **계속** 단추를 클릭하여 강의를 다시 방문할 수 있습니다.
 
+**자동 재생**: Adobe Learning Manager의 Fluidic Player에는 비디오 자동 재생을 중지하는 옵션이 내장되어 있지 않습니다. 비디오 자동 재생 여부는 플레이어 자체가 아니라 브라우저 설정에 따라 달라집니다.
+
 Learning Manager API를 사용하여 Fluidic Player를 외부 웹 사이트나 응용 프로그램에 내장할 수도 있습니다.
 
 Mobile Fluidic Player에는 다음과 같은 기능이 있습니다.
@@ -67,3 +69,4 @@ Mobile Fluidic Player에는 다음과 같은 기능이 있습니다.
 * 화면을 터치하거나 탭해도 플레이어가 일시 중지되지 않습니다. 대신 플레이어 탐색 막대를 불러와야 합니다.
 * 내비게이션 바를 연동하지 않으면 3초 후에 사라집니다.
 * 탐색 막대는 탐색 메뉴 항목(목차, 메모, 설정)이 닫힐 때까지 활성 상태로 유지됩니다.
+
