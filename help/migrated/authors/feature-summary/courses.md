@@ -843,7 +843,7 @@ Adobe Captivate 및 Adobe Presenter 소프트웨어에서 &#39;게시&#39; 메�
 1. Adobe 자격 증명으로 로그인합니다. Adobe ID가 없다면 **[!UICONTROL 계정 만들기]**&#x200B;를 클릭합니다. 인증을 하면 모듈 게시 페이지로 이동합니다.
 1. 모듈에 대한 기본 정보를 입력한 다음 &#39;게시&#39;를 클릭합니다.
 
-Learning Manager 모듈 페이지에 게시된 모듈이 표시됩니다. 자세한 내용은 [Adobe Learning Manager에 프로젝트 게시](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)를 참조하십시오.
+Learning Manager 모듈 페이지에 게시된 모듈이 표시됩니다. 자세한 내용은 [Adobe Learning Manager에 프로젝트 게시](https://helpx.adobe.com/kr/captivate/classic/publish-project-to-captivate-prime.html)를 참조하십시오.
 
 ## 강의 효과 {#courseeffectiveness}
 
