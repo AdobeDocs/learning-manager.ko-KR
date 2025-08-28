@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 강의 생성, 수정 및 게시
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: a3a36fb1c68fb48809ad77b0d0a7ffa3daebe79e
 workflow-type: tm+mt
 source-wordcount: '7433'
 ht-degree: 70%
@@ -507,12 +507,6 @@ Learning Manager 강의, 인증, 학습 프로그램을 생성하는 방법을 �
 
 1. **[!UICONTROL 추가]**&#x200B;를 선택하고 과정을 게시합니다.
 
-## 체크리스트 {#create-checklist}
-
-평가는 LMS의 중요한 측면입니다. 온라인 평가는 주제에 대한 학습자의 이해를 평가하는 가장 좋은 방법 중 하나입니다. 그러나 종종, 그 사람이 그 일을 하는 동안, 그가 필요한 일을 수행하는 것을 관찰함으로써 그 사람의 이해력을 평가하는 것이 필요합니다.
-
-일별 기준으로 수행해야 하는 작업에 대한 평가를 받는 상점 직원 또는 창고 근무자를 고려하십시오. 커피 머신을 수리하기 위해 수행된 단계 또는 재료 포장에 포함된 단계가 될 수 있습니다. 강사는 체크리스트를 기반으로 이러한 작업에 대한 직원을 평가하고 평가 활동에서 합격 또는 불합격으로 평가할 수 있습니다.
-
 ### 게시된 강의의 모듈 교체
 
 Adobe Learning Manager은 작성자에게 여러 콘텐츠 모듈로 구성된 강의를 생성, 편집 및 관리할 수 있는 도구를 제공합니다. 강의 콘텐츠를 업데이트하거나 개선해야 할 경우 작성자는 학습자 진행률을 방해하지 않고 기존 모듈을 대체할 수 있습니다.
@@ -530,6 +524,12 @@ Adobe Learning Manager은 작성자에게 여러 콘텐츠 모듈로 구성된 �
 8. **[!UICONTROL 게시]**&#x200B;를 선택합니다.
 
 학습자는 다른 모듈에서 진행률을 유지하지만 강의를 완료하려면 새 모듈을 완료해야 합니다.
+
+## 체크리스트 {#create-checklist}
+
+평가는 LMS의 중요한 측면입니다. 온라인 평가는 주제에 대한 학습자의 이해를 평가하는 가장 좋은 방법 중 하나입니다. 그러나 종종, 그 사람이 그 일을 하는 동안, 그가 필요한 일을 수행하는 것을 관찰함으로써 그 사람의 이해력을 평가하는 것이 필요합니다.
+
+일별 기준으로 수행해야 하는 작업에 대한 평가를 받는 상점 직원 또는 창고 근무자를 고려하십시오. 커피 머신을 수리하기 위해 수행된 단계 또는 재료 포장에 포함된 단계가 될 수 있습니다. 강사는 체크리스트를 기반으로 이러한 작업에 대한 직원을 평가하고 평가 활동에서 합격 또는 불합격으로 평가할 수 있습니다.
 
 ### 체크리스트 만들기 {#createachecklist}
 
@@ -843,7 +843,7 @@ Adobe Captivate 및 Adobe Presenter 소프트웨어에서 &#39;게시&#39; 메�
 1. Adobe 자격 증명으로 로그인합니다. Adobe ID가 없다면 **[!UICONTROL 계정 만들기]**&#x200B;를 클릭합니다. 인증을 하면 모듈 게시 페이지로 이동합니다.
 1. 모듈에 대한 기본 정보를 입력한 다음 &#39;게시&#39;를 클릭합니다.
 
-Learning Manager 모듈 페이지에 게시된 모듈이 표시됩니다. 자세한 내용은 [Adobe Learning Manager에 프로젝트 게시](https://helpx.adobe.com/kr/captivate/classic/publish-project-to-captivate-prime.html)를 참조하십시오.
+Learning Manager 모듈 페이지에 게시된 모듈이 표시됩니다. 자세한 내용은 [Adobe Learning Manager에 프로젝트 게시](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)를 참조하십시오.
 
 ## 강의 효과 {#courseeffectiveness}
 
