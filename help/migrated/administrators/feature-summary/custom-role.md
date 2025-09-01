@@ -4,7 +4,7 @@ title: 사용자 정의 역할
 description: 학습 경로 기능을 사용하면 사용자 정의 역할을 정의하고 사용자 집합에 특정 책임을 할당할 수 있습니다. 이 기능을 사용하면 개인의 기존 역할 범위 외부에서 권한을 지정할 수 있습니다.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
 workflow-type: tm+mt
 source-wordcount: '3466'
 ht-degree: 32%
@@ -300,7 +300,7 @@ Adobe Learning Manager의 Admin Console을 통해 여러 사용자 정의 역할
 
 1. 관리자로 로그인하고 **[!UICONTROL 사용자]**&#x200B;를 선택합니다.
 2. 왼쪽 패널에서 **[!UICONTROL 사용자 지정 역할]**&#x200B;을 선택합니다.
-3. 새 사용자 정의 역할을 만들고 계정 권한, 카탈로그, 학습 객체 또는 범위를 추가합니다. [여기](#create-a-custom-role)에 언급된 단계를 참조하십시오.
+3. 새 사용자 정의 역할을 만들고 계정 권한, 카탈로그, 학습 객체 또는 범위를 추가합니다. [여기에 언급된 단계](#create-a-custom-role)를 참조하십시오.
 4. 사용자 정의 역할에 사용자를 추가합니다.
 
    ![](assets/add-users-in-custom-roles.png)
@@ -322,8 +322,8 @@ Adobe Learning Manager에서 CSV 파일을 업로드하면 사용자 정의 역�
 
 이제 Box에 두 개의 파일을 업로드하여 CSV 가져오기를 통해 사용자에게 여러 역할을 할당할 수 있습니다.
 
-* role.csv
-* user_role.csv.
+* [role.csv](assets/role.csv)
+* [user_role.csv](assets/user_role.csv)
 
 user_role.csv 파일에는 사용자 정의 역할 및 사용자 ID 필드가 포함되어 있습니다.
 
