@@ -126,6 +126,6 @@ _CSV 업로드 중 값 제한을 활성화하는 확인란_
 
 CSV 파일에 모든 활성 필드가 포함되지 않은 경우 관리자는 가져오기 후 누락된 값을 수동으로 입력해야 합니다.
 
-기본적으로 모든 활성 필드는 소스 CSV의 해당 필드에 매핑되어야 합니다. 그러나 CSV의 열에 특정 활성 필드를 매핑하지 않으려는 경우 Box 및 FTP 가져오기 프로세스 중에 드롭다운 목록에서 **DontImportFromSource** 값을 선택할 수 있습니다. 이 옵션은 FTP 또는 Box 커넥터를 통해 사용자를 가져올 때 사용할 수 있습니다. 커넥터에 대한 자세한 내용은 이 [문서](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors)를 참조하십시오.
+기본적으로 모든 활성 필드는 소스 CSV의 해당 필드에 매핑되어야 합니다. 그러나 CSV의 열에 특정 활성 필드를 매핑하지 않으려는 경우 Box 및 FTP 가져오기 프로세스 중에 드롭다운 목록에서 **DontImportFromSource** 값을 선택할 수 있습니다. 이 옵션은 FTP 또는 Box 커넥터를 통해 사용자를 가져올 때 사용할 수 있습니다. 커넥터에 대한 자세한 내용은 이 [문서](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/connectors)를 참조하십시오.
 
 
