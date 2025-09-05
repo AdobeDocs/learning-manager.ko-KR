@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 세션 학습자 관리
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 71%
+source-wordcount: '1256'
+ht-degree: 69%
 
 ---
 
@@ -115,7 +115,9 @@ Adobe Learning Manager의 새로운 **[!UICONTROL 대기자 명단 보고서]**&
 
 ## 초대 응답 캡처
 
-학습자 섹션에서 초대 응답을 볼 수 있습니다. 아무 세션으로 이동하여 **[!UICONTROL 학습자]**&#x200B;를 선택한 다음 드롭다운 메뉴에서 초대 응답을 선택합니다.
+강사는 ACAP 관리자가 **[!UICONTROL 회신 초대]** 옵션을 활성화한 경우에만 학습자의 초대 응답을 캡처할 수 있습니다. 이 기능을 사용하려면 관리자가 [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com)의 지원 팀에 문의해야 합니다.
+
+완료되면 **[!UICONTROL 학습자]** 섹션에서 초대 응답을 볼 수 있습니다. 아무 세션으로 이동하여 **[!UICONTROL 학습자]**&#x200B;를 선택한 다음 드롭다운 메뉴에서 초대 응답을 선택합니다.
 
 ![](assets/invitation-status.png)
 

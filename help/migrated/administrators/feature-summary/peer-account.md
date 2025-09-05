@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 피어 계정
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 57%
+source-wordcount: '696'
+ht-degree: 52%
 
 ---
 
@@ -53,6 +53,18 @@ Learning Manager에서는 피어 계정 기능을 사용하면 구입한 시트�
 1. 피어 계정을 추가하려면 &#39;추가&#39;를 클릭합니다.
 
    책임자가 동료와 좌석을 공유하면 동료는 다른 사람과 좌석을 공유할 수 없습니다. 그러나 동료가 일부 좌석을 별도로 구입하여 공유할 수 있습니다.
+
+## 피어 계정에서 공유한 시트 보기
+
+책임자는 책임자 인터페이스에서 피어 계정이 공유한 시트 수를 볼 수 있습니다.
+
+피어 계정에서 공유한 시트를 보려면:
+
+1. 관리자 권한으로 Adobe Learning Manager에 로그인합니다.
+2. **[!UICONTROL 사용자]**&#x200B;를 선택한 다음 **[!UICONTROL 내부]**&#x200B;를 선택합니다.
+
+![](assets/peer-account-seats.png)
+_피어 계정에서 공유한 시트 수를 보여 주는 사용자 섹션_
 
 ## 피어 계정 관련 보고서 보기 {#viewreportsassociatedwithpeeraccounts}
 
