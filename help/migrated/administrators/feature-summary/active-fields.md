@@ -3,9 +3,9 @@ description: Adobe Learning Manager의 활성 필드 를 사용하여 사용자 
 jcr-language: en_us
 title: Adobe Learning Manager의 활성 필드 구성
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,10 @@ Adobe Learning Manager의 활성 필드는 관리자가 사용자를 효과적�
 
 3. **저장**&#x200B;을 선택하여 변경 내용을 적용합니다.
 
+>[!NOTE]
+>
+>새 역할을 할당해도 사용자 정의 사용자 그룹에는 영향을 주지 않습니다. 그러나 모든 관리자, 모든 작성자 및 유사한 역할 기반 그룹과 같은 자동 생성된 사용자 그룹에 영향을 줍니다.
+
 ## 다중 값 활성 필드
 
 다중 값 활성 필드를 사용하면 위치, 직책 또는 프로젝트 팀과 같은 단일 사용자 속성에 여러 값을 할당할 수 있습니다. 이를 통해 보다 세부적이고 유연한 사용자 정보를 캡처할 수 있습니다.
@@ -118,8 +122,10 @@ _CSV 업로드 중 값 제한을 활성화하는 확인란_
 
 ## 사용자 CSV 가져오기에서 누락된 활성 필드 관리
 
-경우에 따라 책임자는 학습자가 Adobe Learning Manager에 로그인할 때 특정 활성 필드를 수동으로 채우는 것을 선호합니다. CSV 파일을 통해 가져온 사용자에 대해 지원됩니다. 사용자를 대량으로 추가하는 방법은 이 [문서](/help/migrated/administrators/feature-summary/add-users-user-groups.md)를 참조하십시오.
+경우에 따라 책임자는 학습자가 Adobe Learning Manager에 로그인할 때 특정 활성 필드를 수동으로 채우는 것을 선호합니다. CSV 파일을 통해 가져온 사용자에 대해 지원됩니다. 사용자를 대량으로 추가하는 방법은 이 [문서](/help/migrated/administrators/feature-summary/add-users-user-groups.md)를 참조하십시오. Box FTP 필드 값에 따라 활성 필드 또는 역할 기반 그룹에 사용자가 자동으로 추가됩니다. 사용자 정의 그룹에는 추가할 수 없습니다.
 
 CSV 파일에 모든 활성 필드가 포함되지 않은 경우 관리자는 가져오기 후 누락된 값을 수동으로 입력해야 합니다.
 
-기본적으로 모든 활성 필드는 소스 CSV의 해당 필드에 매핑되어야 합니다. 그러나 CSV의 열에 특정 활성 필드를 매핑하지 않으려는 경우 Box 및 FTP 가져오기 프로세스 중에 드롭다운 목록에서 **DontImportFromSource** 값을 선택할 수 있습니다. 이 옵션은 FTP 또는 Box 커넥터를 통해 사용자를 가져올 때 사용할 수 있습니다. 커넥터에 대한 자세한 내용은 이 [문서](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/connectors)를 참조하십시오.
+기본적으로 모든 활성 필드는 소스 CSV의 해당 필드에 매핑되어야 합니다. 그러나 CSV의 열에 특정 활성 필드를 매핑하지 않으려는 경우 Box 및 FTP 가져오기 프로세스 중에 드롭다운 목록에서 **DontImportFromSource** 값을 선택할 수 있습니다. 이 옵션은 FTP 또는 Box 커넥터를 통해 사용자를 가져올 때 사용할 수 있습니다. 커넥터에 대한 자세한 내용은 이 [문서](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors)를 참조하십시오.
+
+

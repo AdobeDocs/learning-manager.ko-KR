@@ -4,9 +4,9 @@ title: Learning Manager는 GDPR을 준수함
 description: Adobe Learning Manager의 GDPR 준수
 contentowner: dvenkate
 exl-id: 8ea31464-b4ce-49e8-b471-5630f0216aa4
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '678'
 ht-degree: 39%
 
 ---
@@ -17,19 +17,23 @@ ht-degree: 39%
 >
 >본 문서의 내용은 법률자문이 아니며, 법률자문을 대신하는 것이 아니다. GDPR에 관한 자세한 내용은 회사 법무 부서에 문의하십시오.
 
-+++GDPR이란 무엇입니까?
+Adobe Learning Manager은 GDPR 준수를 준수하여 사용자 데이터가 안전하고 투명하게 관리되도록 합니다. 사용자 삭제(모든 개인 데이터 영구 삭제) 기능과 같은 필수 GDPR 기능을 제공하고 책임자가 요청 시 사용자와 정보를 공유하기 위한 학습자 성적 증명서를 생성할 수 있도록 합니다.
+
+모든 사용자 데이터는 SHA-256과 같은 표준을 사용하여 전송 및 저장 중에 강력한 암호화로 보호됩니다. 일부 통합의 경우 학습자는 데이터를 공유하기 전에 동의를 얻는지 확인하여 인증해야 합니다. 이러한 개인 정보 보호 및 보안 제어는 Adobe Learning Manager을 사용하는 조직이 GDPR을 준수하고 학습자 정보를 보호하는 데 도움이 됩니다.
+
++++GDPR은 무엇입니까?
 
 GDPR은 2018년 5월 25일부터 시행되는 유럽 연합의 새로운 규정입니다. GDPR은 데이터 개인 정보 보호에 대한 강력한 규제를 적용하고 최종 사용자가 자신의 개인 데이터에 대해 책임질 수 있도록 합니다.
 
 +++
 
-+++Adobe Learning Manager 고객인 경우 어떻게 또는 왜 적용됩니까?
++++GDPR은 Adobe Learning Manager 고객에게 어떤 방식과 이유로 적용됩니까?
 
 GDPR은 EU 규정이지만 EU 거주자가 될 수 있는 모든 사용자의 개인 정보를 수집하는 전 세계 기업에 적용됩니다.  Learning Manager 고객인 경우 GDPR이 귀사에 적용될 수 있는지 검토하십시오.
 
 +++
 
-+++Adobe은 Learning Manager의 공급업체로서 어떤 역할을 수행합니까?
++++Adobe는 Learning Manager의 공급업체로서 어떤 역할을 수행합니까?
 
 GDPR에 따라 기업에서 EU 거주자에게 제품 또는 서비스를 제공하고 개인정보를 수집, 추적 및 모니터링하는 방법과 이유를 결정하는 경우 [데이터 컨트롤러](https://gdpr-info.eu/art-24-gdpr/)로 간주됩니다. Adobe Learning Manager 고객의 경우 이러한 활동 중 하나를 수행한다면 데이터 컨트롤러로 간주됩니다.
 

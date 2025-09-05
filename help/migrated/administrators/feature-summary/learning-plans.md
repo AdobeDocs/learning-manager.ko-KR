@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 학습 계획
 contentowner: manochan
 exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 61%
+source-wordcount: '1629'
+ht-degree: 60%
 
 ---
 
@@ -34,7 +34,8 @@ Learning Manager의 책임자용 학습 계획을 생성합니다.
 
    ![](assets/add-learning-plandialog.png)
 
-1. **[!UICONTROL 다음과 같은 경우 발생]** 드롭다운 목록에서 필요한 이벤트를 선택합니다. 옵션은 학습자가 강의를 언제 수강할지 결정합니다. 이벤트 유형을 선택한 후 적절한 교육, 강의, 학습 프로그램 또는 인증을 선택합니다.
+1. **[!UICONTROL 다음과 같은 경우 발생]** 드롭다운 목록에서 필요한 이벤트를 선택합니다. 관리자는 한 번에 하나의 이벤트를 추가할 수 있습니다.
+옵션은 학습자가 강의를 언제 수강할지 결정합니다. 이벤트 유형을 선택한 후 적절한 교육, 강의, 학습 프로그램 또는 인증을 선택합니다.
 
 >[!NOTE]
 >

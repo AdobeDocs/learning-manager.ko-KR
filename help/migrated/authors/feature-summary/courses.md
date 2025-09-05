@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 강의 생성, 수정 및 게시
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: a3a36fb1c68fb48809ad77b0d0a7ffa3daebe79e
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '7433'
-ht-degree: 70%
+source-wordcount: '7540'
+ht-degree: 69%
 
 ---
 
@@ -737,7 +737,19 @@ Adobe Learning Manager을 통해 강사는 강의실 또는 가상 강의실 모
 
 ## 강의 중단 {#retireacourse}
 
+관리자는 Adobe Learning Manager 계정에 대해 사용 중지 옵션을 활성화할 수 있습니다. 이 기능을 사용하면 관리자가 강의를 중단할 수 있으며, 현재 등록된 학습자가 액세스 권한을 유지하면서 새로운 등록에는 사용할 수 없습니다.
+
 강의를 중단하면 학습자가 등록했거나 이미 완료한 경우에도 숨겨집니다. 강의를 중단하는 경우 새 학습자를 강의에 등록할 수 없습니다. 이미 등록한 학습자는 강의를 수강할 수 있습니다.
+
+Adobe Learning Manager 계정에 대해 사용 중지 옵션을 사용하려면 다음을 수행하십시오.
+
+1. 관리자 권한으로 Adobe Learning Manager에 로그인합니다.
+2. **[!UICONTROL 설정]**&#x200B;을 선택한 다음 **[!UICONTROL 일반]**&#x200B;을 선택합니다.
+3. 다음에서 사용 중지 옵션을 선택합니다.
+   * 지원이 중단되면 등록된 학습자는 작업을 보고 수행할 수 있지만 아직 등록되지 않은 학습자는 액세스 권한을 잃게 됩니다.
+   * 지원이 중지되면 등록된 학습자와 아직 등록되지 않은 학습자 모두 액세스 권한을 잃게 됩니다.
+
+관리자는 **[!UICONTROL 강의]** 페이지에서 강의를 취소할 수 있습니다.
 
 강의를 중단하려면 강의 카드에서 옵션에 마우스를 가져가 강의 중단을 클릭합니다.
 
@@ -843,7 +855,7 @@ Adobe Captivate 및 Adobe Presenter 소프트웨어에서 &#39;게시&#39; 메�
 1. Adobe 자격 증명으로 로그인합니다. Adobe ID가 없다면 **[!UICONTROL 계정 만들기]**&#x200B;를 클릭합니다. 인증을 하면 모듈 게시 페이지로 이동합니다.
 1. 모듈에 대한 기본 정보를 입력한 다음 &#39;게시&#39;를 클릭합니다.
 
-Learning Manager 모듈 페이지에 게시된 모듈이 표시됩니다. 자세한 내용은 [Adobe Learning Manager에 프로젝트 게시](https://helpx.adobe.com/kr/captivate/classic/publish-project-to-captivate-prime.html)를 참조하십시오.
+Learning Manager 모듈 페이지에 게시된 모듈이 표시됩니다. 자세한 내용은 [Adobe Learning Manager에 프로젝트 게시](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)를 참조하십시오.
 
 ## 강의 효과 {#courseeffectiveness}
 

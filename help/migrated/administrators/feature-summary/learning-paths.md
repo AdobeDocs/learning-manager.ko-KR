@@ -4,9 +4,9 @@ title: 학습 경로
 description: Learning Manager의 책임자용 학습 계획을 생성합니다.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: c365dca377e8c6ad7bb9489c6fe043e72660c54e
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1442'
 ht-degree: 32%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 32%
 
 **강의** 타일에서 이 인스턴스에 등록된 학습자에게 표시되는 강의 인스턴스를 볼 수 있습니다.
 
-**[!UICONTROL 학습자가 인스턴스를 선택할 수 있도록 설정(유연 학습 경로)]** 확인란은 강의에만 적용할 수 있습니다. 모든 하위 학습 경로에는 학습 프로그램 인스턴스를 학습 경로와 매핑할 수 있는 옵션이 주어집니다. 기본적으로 매핑은 기본 인스턴스로 설정됩니다.
+**[!UICONTROL 학습자가 인스턴스를 선택할 수 있도록 설정(유연 학습 경로)]** 확인란은 강의에만 적용할 수 있습니다. 이 옵션을 통해 학습자는 학습 경로에서 인스턴스를 전환할 수 있습니다. 모든 하위 학습 경로에는 학습 프로그램 인스턴스를 학습 경로와 매핑할 수 있는 옵션이 주어집니다. 기본적으로 매핑은 기본 인스턴스로 설정됩니다.
 
 ![](assets/default-instance.png)
 
