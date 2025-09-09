@@ -4,10 +4,10 @@ title: AEM과 Adobe Learning Manager 통합
 description: Learning Manager는 학습 콘텐츠 관리 시스템이 내장된 학습 관리 시스템입니다. 사용자가 Learning Manager에 업로드하여 학습 콘텐츠를 관리하면 Learning Manager는 이전 파일 보관, 강좌에 학습자 배정, 학습자에 대해 가시성 정의, 소비 이력 추적, 관리자에게 보고 같은 작업을 책임집니다.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: d487d87015e51f1b54ee3a2ed0a97398cfc09686
+source-git-commit: 65573768ca55978982d0c7bcdb0cd9009772197f
 workflow-type: tm+mt
-source-wordcount: '3006'
-ht-degree: 57%
+source-wordcount: '3117'
+ht-degree: 55%
 
 ---
 
@@ -52,7 +52,7 @@ AEM 패키지 관리자를 사용하여 Learning Manager 콘텐츠 패키지 설
 
 >[!NOTE]
 >
->패키지 설치에 대한 자세한 내용은 [***패키지를 사용하여 작업하는 방법***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ko#how-to-work-with-packages)을 참조하세요.
+>패키지 설치에 대한 자세한 내용은 [***패키지를 사용하여 작업하는 방법***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)을 참조하세요.
 
 1. AEM 작성자는 AEM 패키지 관리자를 엽니다.
 1. **[!UICONTROL 패키지 업로드]** 버튼을 클릭합니다.
@@ -322,7 +322,7 @@ Learning Manager 구성 요소를 사용하려면 위 단계에서 생성된 구
 
 학습자는 페이지에서 강좌를 수강할 수 있습니다.
 
-Learning Manager 위젯에 액세스하려면 학습자가 AEM 사용자로 로그인해야 합니다. 또한 학습자의 rep:User 노드에 속한 &#39;/profile&#39; 노드에 **전자 메일** 속성이 있어야 합니다. 이 전자 메일은 Learning Manager 계정에 있는 전자 메일과 정확히 동일해야 합니다.
+Learning Manager 위젯에 액세스하려면 학습자가 AEM 사용자로 로그인해야 합니다. 또한 **전자 메일** 속성은 학습자의 rep:User 노드의 &quot;/profile&quot; 노드에 있어야 합니다. 이 전자 메일은 Learning Manager 계정에 있는 전자 메일과 정확히 동일해야 합니다.
 
 학습자는 페이지에서 강좌를 수강할 수 있습니다.
 
@@ -397,6 +397,22 @@ widgets.html을 사용하면 레이아웃의 외형과 느낌을 원하는 대�
  } 
 }
 ```
+
+### AEM 사이트에 내 저장된 강의 위젯 구성
+
+내 저장된 강의 위젯을 통해 학습자는 책갈피가 있거나 저장된 강의를 학습 페이지에서 직접 볼 수 있으며, 이를 통해 나중에 다시 방문하거나 완료하고자 하는 강의에 쉽게 액세스할 수 있습니다.
+
+AEM 사이트에 내 저장된 강의 위젯을 구성하려면 다음을 수행하십시오.
+
+1. AEM 사이트를 실행합니다.
+2. 페이지를 **[!UICONTROL 편집]** 모드로 엽니다.
+3. **[!UICONTROL 구성 요소 브라우저]**&#x200B;로 이동하여 **[!UICONTROL 내 학습 위젯]**&#x200B;을 페이지에 추가합니다.
+4. 구성 요소를 선택한 다음 **[!UICONTROL 구성]**&#x200B;을 선택합니다.
+5. **[!UICONTROL 속성]**&#x200B;의 드롭다운 메뉴에서 **[!UICONTROL 내 저장된 과정]**&#x200B;을 선택합니다.
+6. **[!UICONTROL 완료]**&#x200B;를 선택한 다음 **[!UICONTROL 미리 보기]** 또는 **[!UICONTROL Publish]** 모드에서 페이지를 새로 고칩니다.
+
+위젯에 저장된 강의가 학습자에게 표시됩니다.
+
 
 ### 상위 LO 등록 무시
 
