@@ -4,10 +4,10 @@ title: AEM과 Adobe Learning Manager 통합
 description: Learning Manager는 학습 콘텐츠 관리 시스템이 내장된 학습 관리 시스템입니다. 사용자가 Learning Manager에 업로드하여 학습 콘텐츠를 관리하면 Learning Manager는 이전 파일 보관, 강좌에 학습자 배정, 학습자에 대해 가시성 정의, 소비 이력 추적, 관리자에게 보고 같은 작업을 책임집니다.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: aa8a45427e7e78ac66a21531a9511bf9a21d03b4
+source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '3116'
-ht-degree: 55%
+source-wordcount: '3138'
+ht-degree: 54%
 
 ---
 
@@ -36,7 +36,7 @@ ALM 참조 사이트 패키지를 설치한 후, AEM 사이트 인스턴스에�
 
 AEM 사이트의 보안 환경을 확인한 후, ALM 참조 사이트 패키지를 설치해야 합니다. 이 패키지는 학습 플랫폼 구성에 도움을 주는 AEM 웹 페이지 및 웹 사이트 구성 요소를 포함합니다.
 
-참조 사이트 패키지는 [**GitHub 저장소**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0)에 호스팅되어 있습니다.
+참조 사이트 패키지는 [**GitHub 저장소**](https://github.com/adobe/adobe-learning-manager-reference-site/releases)에 호스팅되어 있습니다.
 
 자세한 내용은 README를 참조하십시오.
 
@@ -52,7 +52,7 @@ AEM 패키지 관리자를 사용하여 Learning Manager 콘텐츠 패키지 설
 
 >[!NOTE]
 >
->패키지 설치에 대한 자세한 내용은 [***패키지를 사용하여 작업하는 방법***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ko#how-to-work-with-packages)을 참조하세요.
+>패키지 설치에 대한 자세한 내용은 [***패키지를 사용하여 작업하는 방법***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)을 참조하세요.
 
 1. AEM 작성자는 AEM 패키지 관리자를 엽니다.
 1. **[!UICONTROL 패키지 업로드]** 버튼을 클릭합니다.
@@ -413,6 +413,7 @@ AEM 사이트에 내 저장된 강의 위젯을 구성하려면 다음을 수행
 
 위젯에 저장된 강의가 학습자에게 표시됩니다.
 
+카탈로그에서 다른 필터를 적용하면 해당 필터와 일치하는 결과만 표시됩니다. 책갈피가 지정된 항목은 자동으로 포함되지 않습니다.
 
 ### 상위 LO 등록 무시
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 색상 테마
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '1261'
-ht-degree: 44%
+source-wordcount: '1295'
+ht-degree: 43%
 
 ---
 
@@ -86,6 +86,8 @@ Prime 기본값 테마를 제외하고 테마의 상단 바 색상, 강조 색�
 변경 사항을 실시간 미리 보기하고 있을 때도 실시간 테마 미리 보기 팝업이 여전히 화면 하단에 나타납니다. 팝업 최소화를 선택할 수 있습니다.
 
 ## 다중 브랜딩 {#multiple-branding}
+
+책임자는 조직 내에서 여러 브랜딩 스타일을 적용할 수 있습니다. 브랜딩은 활성 필드를 기반으로 사용자 정의할 수 있으며, 이를 통해 다양한 사용자 그룹이 프로필 또는 역할에 맞는 브랜딩을 경험할 수 있습니다.
 
 다음은 여러 브랜딩을 구현하는 방법입니다.
 
