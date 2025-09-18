@@ -4,9 +4,9 @@ title: AEM과 Adobe Learning Manager 통합
 description: Learning Manager는 학습 콘텐츠 관리 시스템이 내장된 학습 관리 시스템입니다. 사용자가 Learning Manager에 업로드하여 학습 콘텐츠를 관리하면 Learning Manager는 이전 파일 보관, 강좌에 학습자 배정, 학습자에 대해 가시성 정의, 소비 이력 추적, 관리자에게 보고 같은 작업을 책임집니다.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
+source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
 workflow-type: tm+mt
-source-wordcount: '3138'
+source-wordcount: '3163'
 ht-degree: 54%
 
 ---
@@ -52,7 +52,7 @@ AEM 패키지 관리자를 사용하여 Learning Manager 콘텐츠 패키지 설
 
 >[!NOTE]
 >
->패키지 설치에 대한 자세한 내용은 [***패키지를 사용하여 작업하는 방법***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ko#how-to-work-with-packages)을 참조하세요.
+>패키지 설치에 대한 자세한 내용은 [***패키지를 사용하여 작업하는 방법***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)을 참조하세요.
 
 1. AEM 작성자는 AEM 패키지 관리자를 엽니다.
 1. **[!UICONTROL 패키지 업로드]** 버튼을 클릭합니다.
@@ -411,7 +411,7 @@ AEM 사이트에 내 저장된 강의 위젯을 구성하려면 다음을 수행
 5. **[!UICONTROL 속성]**&#x200B;의 드롭다운 메뉴에서 **[!UICONTROL 내 저장된 과정]**&#x200B;을 선택합니다.
 6. **[!UICONTROL 완료]**&#x200B;를 선택한 다음 **[!UICONTROL 미리 보기]** 또는 **[!UICONTROL Publish]** 모드에서 페이지를 새로 고칩니다.
 
-위젯에 저장된 강의가 학습자에게 표시됩니다.
+학습자는 학습자 홈페이지의 **[!UICONTROL 내가 저장함]** 스트립에서 저장된 강의를 볼 수 있습니다. **[!UICONTROL 내가 저장함]** 스트립을 선택하면 학습자가 카탈로그 페이지로 이동하며 책갈피가 지정된 강의의 정확한 수를 표시합니다.
 
 카탈로그에서 다른 필터를 적용하면 해당 필터와 일치하는 결과만 표시됩니다. 책갈피가 지정된 항목은 자동으로 포함되지 않습니다.
 
