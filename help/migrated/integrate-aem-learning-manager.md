@@ -4,10 +4,10 @@ title: AEM과 Adobe Learning Manager 통합
 description: Learning Manager는 학습 콘텐츠 관리 시스템이 내장된 학습 관리 시스템입니다. 사용자가 Learning Manager에 업로드하여 학습 콘텐츠를 관리하면 Learning Manager는 이전 파일 보관, 강좌에 학습자 배정, 학습자에 대해 가시성 정의, 소비 이력 추적, 관리자에게 보고 같은 작업을 책임집니다.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
+source-git-commit: 976dc0123cd44b7601b5a53e75dca7af5fadabca
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 54%
+source-wordcount: '3274'
+ht-degree: 52%
 
 ---
 
@@ -52,7 +52,7 @@ AEM 패키지 관리자를 사용하여 Learning Manager 콘텐츠 패키지 설
 
 >[!NOTE]
 >
->패키지 설치에 대한 자세한 내용은 [***패키지를 사용하여 작업하는 방법***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ko#how-to-work-with-packages)을 참조하세요.
+>패키지 설치에 대한 자세한 내용은 [***패키지를 사용하여 작업하는 방법***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)을 참조하세요.
 
 1. AEM 작성자는 AEM 패키지 관리자를 엽니다.
 1. **[!UICONTROL 패키지 업로드]** 버튼을 클릭합니다.
@@ -360,7 +360,20 @@ Skyline을 구성하는 단계는 [GitHub 리포지토리](https://github.com/ad
 카탈로그 옵션에는 다음과 같은 옵션이 있습니다.
 
 * **[!UICONTROL 카탈로그 ID]:** 쉼표로 구분된 ID로서 교육 과정을 표시해야 합니다.
-* 교육에 대한 **[!UICONTROL 정렬]:** 정렬 순서. 옵션은 이름, 날짜, 생성일, 등록일 등입니다.
+* 교육에 대한 **[!UICONTROL 정렬]:** 정렬 순서. 정렬 옵션은 다음과 같습니다.
+   * 이름: 학습 객체를 A에서 Z까지 알파벳순으로 정렬합니다.
+   * -name: 학습 개체를 Z부터 A까지 알파벳순으로 정렬합니다.
+   * 날짜: 날짜별로 오름차순으로 정렬합니다.
+   * -date: 날짜별로 내림차순으로 정렬합니다(가장 늦은 우선).
+   * 생성 날짜: 학습 객체의 생성 날짜(가장 오래된 항목 먼저)별로 정렬합니다.
+   * -dateCreated: 작성 날짜별로 정렬합니다(최신 항목 먼저).
+   * 등록일: 학습자의 등록 날짜(가장 이른 먼저)를 기준으로 정렬합니다.
+   * -dateEnrolled: 등록 날짜(최근 첫 번째 날짜)별로 정렬합니다.
+   * 등급: 학습자 등급(가장 낮은 등급에서 가장 높은 등급)별로 정렬합니다.
+   * -rating: 등급(최고 ~ 최저)별로 정렬합니다.
+   * dueDate: 강의의 예정 날짜(가장 빠른 마감일 먼저)를 기준으로 정렬합니다.
+   * 효과: 학습자 피드백을 기반으로 효과 점수별로 정렬합니다.
+   * 진행률: 학습자 진행률(가장 낮은 진행률부터 가장 높은 진행률까지)별로 정렬합니다.
 * **[!UICONTROL 학습자 상태]:** 모든 교육 과정을 등록, 시작, 완료 및 미등록 필터로 사용합니다. 정렬 옵션이 dateEnrolled, dueDate 또는 dateEnrolled인 경우 검색 결과가 표시되지 않습니다.
 * **[!UICONTROL 스킬 이름]:** 교육 과정을 정확하게 필터링하는 데 사용되는 스킬입니다.
 * **[!UICONTROL 태그 이름]:** 정확한 결과를 필터링하는 데 사용되는 태그입니다.
