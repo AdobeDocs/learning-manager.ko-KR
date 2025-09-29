@@ -2,9 +2,9 @@
 title: Adobe Learning Manager 10월 릴리스의 새로운 기능
 description: Adobe Learning Manager 2025년 10월 릴리스의 새로운 기능, 개선 사항 및 중요 업데이트에 대해 알아봅니다.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
+source-git-commit: 40071158037ece57c8511a554ae69ca5701f32ad
 workflow-type: tm+mt
-source-wordcount: '8361'
+source-wordcount: '8349'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Adobe Learning Manager의 2025년 10월 릴리스에는 보고 정확도를 개�
 
 학습자 성적 증명서를 다운로드하는 방법을 알아보려면 이 [문서](/help/migrated/administrators/feature-summary/learner-transcripts.md)를 참조하십시오.
 
-다운로드한 학습자 성적 증명서 보고서에는 새 열([완료 날짜 표시] (UTC 시간대))이 포함됩니다.
+다운로드한 학습자 성적 증명서 보고서에는 새 열([완료 날짜 표시](UTC 시간대))이 포함됩니다.
 
 ![Adobe 학습에서 강의 완료 추적을 위한 완료 날짜(노란색으로 강조 표시됨)가 표시된 학습자 성적 증명서 보고서](/help/migrated/assets/mark-completion-column.png)
 _학습자 성적 증명서 보고서에 각 사용자의 개별 완료 날짜를 강조하는 새 열이 노란색으로 표시됩니다_
@@ -163,7 +163,7 @@ FTP 폴더에서 다운로드한 사용자 보고서에는 새 열인 내부 사
    ![](/help/migrated/assets/create-add-announcement.png)
    관리자가 대상 사용자 그룹에 대한 공지를 만들고 관리할 수 있는 Adobe Learning Manager의 _공지 페이지_
 
-4. 드롭다운 메뉴에서 **[!UICONTROL 공지 유형]**&#x200B;을 선택합니다.
+4. 드롭다운 메뉴에서 **[!UICONTROL 공지 유형]**을 선택합니다.
 a. **[!UICONTROL 알림으로]**
 b. **[!UICONTROL 발행인란으로]**
 c. **[!UICONTROL 권장 사항]**
@@ -918,7 +918,7 @@ Go1 통합이 향상되어 Adobe Learning Manager 내에서 학습 프로그램(
    ![대체 텍스트](assets/select-go1-courses.png)
    _영업 엔지니어의 기술 개발 플레이리스트에 Go1 강의를 추가하여 선별된 서드파티 콘텐츠로 학습 옵션을 확장하세요._
 
-6. **[!UICONTROL 라이브러리]**&#x200B;에서 **[!UICONTROL 재생 목록 만들기]**&#x200B;를 검색하고 선택한 후 다음 중 하나를 선택하십시오.
+6. **[!UICONTROL 라이브러리]**&#x200B;에서 **[!UICONTROL 재생 목록 만들기]**를 검색하고 선택한 후 다음 중 하나를 선택하십시오.
 a. **[!UICONTROL AI로]**: AI를 사용하여 재생 목록을 만듭니다.
 b. **[!UICONTROL 직접]**: 강의를 수동으로 추가하여 재생 목록을 만듭니다.
 
@@ -1259,8 +1259,6 @@ Adobe Learning Manager에서 페이지를 만들려면 다음을 수행하십시
 10. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 페이지가 만들어지고 [사용자 정의 페이지] 섹션에 초안으로 저장됩니다. 관리자는 위젯을 사용하여 초안 페이지를 편집하고 디자인할 수 있습니다.
-
-Illustrator과 같은 다른 제품의 페이지를 만들려면 동일한 단계를 따르십시오.
 
 #### Experience Builder의 디자인 페이지
 
@@ -1728,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/ko/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
