@@ -131,7 +131,7 @@ Fluidic Player에 대한 자세한 내용은 이 [문서](/help/migrated/learner
 
 * 콘텐츠 모듈을 새 버전으로 업데이트한 후 강의를 완료한 학습자가 강의를 다시 방문할 때 흰색 화면이 표시되는 문제를 수정했습니다.
 
-또한 Adobe Learning Manager에 적용 예정인 변경 사항에 대한 자세한 내용은 이 [문서](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)를 참조하세요.
+또한 Adobe Learning Manager에 적용 예정인 변경 사항에 대한 자세한 내용은 이 [문서](https://experienceleague.adobe.com/ko/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)를 참조하세요.
 
 +++
 
