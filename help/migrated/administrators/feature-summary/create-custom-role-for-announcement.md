@@ -62,7 +62,7 @@ ht-degree: 0%
    ![](/help/migrated/assets/create-add-announcement.png)
    관리자가 대상 사용자 그룹에 대한 공지를 만들고 관리할 수 있는 Adobe Learning Manager의 _공지 페이지_
 
-4. 드롭다운 메뉴에서 **[!UICONTROL 공지 유형]**을 선택합니다.
+4. 드롭다운 메뉴에서 **[!UICONTROL 공지 유형]**&#x200B;을 선택합니다.
 a. **[!UICONTROL 알림으로]**
 b. **[!UICONTROL 발행인란으로]**
 c. **[!UICONTROL 권장 사항]**
