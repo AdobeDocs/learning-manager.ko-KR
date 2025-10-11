@@ -4,10 +4,10 @@ title: 콘텐츠 마켓플레이스
 description: Learning Manager에서는 이제 교육을 탐색하고 구입할 수 있는 콘텐츠 마켓플레이스를 제공합니다. 광범위한 주제를 다루고 여러 형식으로 제공되는 70,000개 이상의 강의를 살펴보십시오. 다양한 역할에 맞고 학습 및 역량을 충족시키는 큐레이트된 플레이리스트에서 선택하십시오.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 9%
+source-wordcount: '683'
+ht-degree: 10%
 
 ---
 
@@ -145,11 +145,9 @@ When a learner clicks Express interest to Catalog in the Learner app, the intere
 
 ## 콘텐츠 허브
 
-콘텐츠 허브를 통해 책임자는 학습자 앱의 필수 플레이리스트를 관심 목록에 추가할 수 있습니다. 학습자 역할의 관리자에게는 콘텐츠 허브 페이지가 매번 표시되므로 플레이리스트를 쉽게 관심 목록에 추가할 수 있습니다. 책임자는 본인의 계정에 있는 일부 SME에게만 이 페이지에 대한 액세스를 허용하여 적합한 플레이리스트를 관심 목록에 추가하도록 도울 수 있습니다.
+관리자는 Adobe Learning Manager 내에서 직접 Go1 플랫폼에 액세스할 수 있습니다. **[!UICONTROL 콘텐츠 마켓플레이스]**(으)로 이동한 다음 **[!UICONTROL 콘텐츠 허브]**&#x200B;를 선택합니다.
 
-Adobe Learning Manager은 콘텐츠 허브와 정기적으로 동기화하여 새로운 추가 및 업데이트가 플랫폼에 자동으로 반영되도록 합니다.
-
-모든 컨텐츠가 지원되는 언어로 매핑되므로 관리자가 언어 환경 설정에 따라 컨텐츠를 보다 효과적으로 필터링하고 관리할 수 있습니다.
+콘텐츠 허브는 Go1 플랫폼을 복제하여 관리자가 강의를 찾아보고, 여러 플레이리스트를 만들고, 콘텐츠를 탐색할 수 있도록 하여 Adobe Learning Manager 내에서 원활한 Go1 경험을 제공합니다.
 
 ## 전자 메일 템플릿
 

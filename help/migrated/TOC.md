@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 77%
+source-wordcount: '760'
+ht-degree: 71%
 
 ---
 
@@ -14,13 +14,14 @@ ht-degree: 77%
 
 * [Learning Manager 사용자 가이드](user-guide.md)
 * 소개 {#introduction}
-   * [Adobe Learning Manager 2025년 10월 릴리스의 새로운 기능](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
-   * [새로운 기능 요약 2025년 5월](/help/migrated/whats-new.md)
+   * [새로운 기능 요약 2025년 10월](/help/migrated/whats-new.md)
+   * [새로운 기능 요약 2025년 5월](/help/migrated/whats-new-may-2025.md)
    * [새로운 기능 요약 2024년 11월](/help/migrated/whats-new-nov-24.md)
    * [새로운 기능 요약 2024년 7월](whats-new-july-2024.md)
    * [새로운 기능 2024년 3월](whats-new-march-2024.md)
    * [새로운 기능 2023년 11월](whats-new-november-2023.md)
    * [새로운 기능 2023년 7월](whats-new-2023-july.md)
+   * [Adobe Learning Manager에서 예정된 변경 사항](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [릴리스 정보](release-note/release-notes.md)
    * [시스템 요구 사항](system-requirements.md)
    * [Microsoft Teams용 Adobe Learning Manager 앱](adobe-learning-manager-app-microsoft-teams.md)
@@ -48,7 +49,25 @@ ht-degree: 77%
       * [활성 필드](/help/migrated/administrators/feature-summary/active-fields.md)
    * [강의실 위치 추가](administrators/feature-summary/classroom.md)
    * [강의 인스턴스 및 학습 경로 만들기](administrators/feature-summary/courses.md)
-   * [콘텐츠 마켓플레이스](administrators/feature-summary/content-marketplace.md)
+   * Adobe Learning Manager의 Experience Builder {#experience-builder}
+      * [개요](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
+      * [Experience Builder의 핵심 구성 요소](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
+      * Experience Builder의 페이지 {#pages-in-experience-builder}
+         * [개요](/help/migrated/administrators/feature-summary/experience-builder/pages-overview.md)
+         * [Experience Builder에서 사용자 정의 페이지 만들기](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md)
+      * Experience Builder의 위젯 {#widgets-in-experience-builder}
+         * [개요](/help/migrated/administrators/feature-summary/experience-builder/widget-overview.md)
+         * [위젯 추가 및 구성](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md)
+      * Experience Builder의 메뉴 {#menu-in-experience-builder}
+         * [개요](/help/migrated/administrators/feature-summary/experience-builder/menu-overview.md)
+         * [메뉴 만들기](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md)
+      * Experience Builder의 사용자 정의 {#customization-in-experience-builder}
+         * [개요](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
+         * [Experience Builder 사용자 정의](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
+      * [Experience Builder 지침 및 제한 사항](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
+   * 콘텐츠 마켓플레이스 {#content-marketplace}
+      * [콘텐츠 마켓플레이스](administrators/feature-summary/content-marketplace.md)
+      * [학습 경로에 Go1 과정 큐레이션](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [보고서](administrators/feature-summary/reports.md)
    * [그룹 성공 대시보드](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [학습 경로](administrators/feature-summary/learning-paths.md)
@@ -81,6 +100,7 @@ ht-degree: 77%
    * [태그](administrators/feature-summary/tags.md)
    * [Learning Manager 콘텐츠 카탈로그](administrators/feature-summary/content-catalogs.md)
    * [사용자 정의 역할](administrators/feature-summary/custom-role.md)
+   * [공지 권한에 대한 사용자 정의 역할](/help/migrated/administrators/feature-summary/create-custom-role-for-announcement.md)
    * [카탈로그 레이블](administrators/feature-summary/catalog-labels.md)
    * [Learning Manager의 xAPI](authors/feature-summary/xapi.md)
    * [관리자로 소셜 학습 모니터링 및 중재](administrators/feature-summary/social-learning-configurations-as-an-admin.md)

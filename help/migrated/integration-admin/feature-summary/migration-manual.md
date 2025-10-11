@@ -3,10 +3,10 @@ description: 기존 LMS를 Adobe Learning Manager LMS로 마이그레이션하�
 jcr-language: en_us
 title: 마이그레이션 설명서
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
 workflow-type: tm+mt
-source-wordcount: '3619'
-ht-degree: 72%
+source-wordcount: '3850'
+ht-degree: 67%
 
 ---
 
@@ -523,6 +523,89 @@ Box 계정의 *CSV 위치*
 ## 마이그레이션 인증 {#registration}
 
 조직의 레거시 LMS에서 학습 데이터 및 콘텐츠 마이그레이션을 한 후, 다양한 학습 객체 기능을 사용하여 가져온 데이터와 콘텐츠를 확인할 수 있습니다. 예를 들어 책임자로 Learning Manager에 로그인하여 가져온 모듈과 강의 데이터 및 콘텐츠를 사용할 수 있는지 확인할 수 있습니다.
+
+### API를 통한 마이그레이션 확인
+
+새 마이그레이션 API `runStatus`을(를) 사용하면 통합 관리자가 API를 통해 트리거된 마이그레이션 실행의 진행률을 추적할 수 있습니다.
+
+`runStatus` API는 완료된 실행을 위해 오류 로그를 CSV 형식으로 다운로드할 수 있는 직접 링크도 제공합니다. 다운로드 링크는 7일 동안 활성 상태로 유지되며 로그는 1개월 동안 유지됩니다.
+
+**샘플 컬**
+
+**엔드 포인트**
+
+```
+GET /bulkimport/runStatus
+```
+
+**매개 변수**
+
+* **migrationProjectId**: (필수). 마이그레이션 프로젝트의 고유 식별자입니다. 마이그레이션 프로젝트는 기존 LMS(교육 관리 시스템)에서 Adobe Learning Manager으로 데이터와 콘텐츠를 전송하는 데 사용됩니다. 각 마이그레이션 프로젝트는 마이그레이션 작업 단위의 작은 스프린트인 다중 스프린트로 구성될 수 있습니다.
+
+* **sprintId**: (필수). 마이그레이션 프로젝트 내 스프린트의 고유 식별자입니다. 스프린트는 기존 LMS에서 Adobe Learning Manager으로 마이그레이션할 특정 학습 항목(예: 강의, 모듈, 학습자 기록)이 포함된 마이그레이션 작업의 하위 집합입니다. 각 스프린트는 독립적으로 실행될 수 있어 단계적인 마이그레이션이 가능합니다.
+
+* **sprintRunId**:(필수). 마이그레이션 프로젝트 내에서 특정 스프린트의 실행을 추적하는 데 사용되는 고유 식별자입니다. 스프린트에 정의된 항목의 실제 마이그레이션 프로세스와 연결됩니다. sprintRunId는 마이그레이션 작업을 모니터링, 문제 해결 및 관리하는 데 유용합니다.
+
+**응답**
+
+```
+{
+  "sprintId": 2510080,
+  "sprintRunId": 2740845,
+  "migrationProjectId": 2509173,
+  "startTime": 1746524711052,
+  "endTime": 1746524711052,
+  [
+    {
+      "id": 2609923,
+      "lastHeartbeatTime": 1746524711052,
+      "objectName": "content",
+      "jobState": "COMPLETED",
+      "errorCsvLink": "",
+      "errorLogLink": "migration/5830/2509173/2510080/2740845/content_err.csv",
+      "sequenceNumber": 1
+    },
+    {
+      "id": 2609922,
+      "lastHeartbeatTime": 1746524713577,
+      "objectName": "course",
+      "jobState": "WAITING_IN_QUEUE",
+      "errorCsvLink": "",
+      "errorLogLink": null,
+      "sequenceNumber": 2
+    }
+  ]
+}
+```
+
+또한 이제 `startRun` API 응답에는 새 상태 끝점을 쿼리하는 데 필요한 마이그레이션 프로젝트 ID, 스프린트 ID 및 스프린트 실행 ID가 포함됩니다.
+
+```
+curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/primeapi/v2/bulkimport/runStatus?migrationProjectId=001&sprintId=10001&sprintRunId=7'
+```
+
+다음 응답을 생성합니다. 응답에는 다음이 포함됩니다.
+
+* `migrationId`
+* `sprintId`
+* `sprintRunId`
+
+**응답**
+
+```
+{
+  "status": "OK",
+  "title": "BULKIMPORT_RUN_INITIATED_SUCCESSFULLY",
+  "source": {
+    "info": "Success",
+    "migrationInfo": {
+      "migrationProjectId": "001",
+      "sprintId": "10001",
+      "sprintRunId": "7"
+    }
+  }
+}
+```
 
 ## 마이그레이션 보강 {#retrofittinginmigration}
 

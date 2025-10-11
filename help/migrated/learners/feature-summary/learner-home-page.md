@@ -4,10 +4,10 @@ title: 학습자 홈페이지
 description: 책임자가 몰입형 레이아웃을 활성화하면 학습자가 앱에 로그인한 후 완전히 개선된 사용자 인터페이스를 표시합니다.
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
-source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
+source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 40%
+source-wordcount: '1203'
+ht-degree: 39%
 
 ---
 
@@ -143,7 +143,11 @@ _준수 대시보드 위젯_
 * 월별 교육입니다. 왼쪽 또는 오른쪽으로 스크롤합니다.
 * 등록할 수 있는 향후 강의실 또는 VC 교육입니다.
 * 등록한 향후 강의실 또는 VC 교육입니다.
+* 완료된 강의실 또는 VC 세션
 * 관리자가 승인한 강의실 또는 VC 교육입니다.
+
+**[!UICONTROL 등록된 세션만 보기]** 필터를 적용하여 캘린더에 등록된 세션만 볼 수 있습니다.
+
 
 ## 소셜 피드 {#socialfeed}
 

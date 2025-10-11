@@ -4,10 +4,10 @@ title: Salesforce용 Learning Manager 앱
 description: Salesforce&trade;는 영업 및 마케팅 팀 사이에서 가장 인기 있는 CRM 솔루션입니다. 학습자는 Salesforce에서 Adobe Learning Manager 앱을 사용하여 Salesforce 인터페이스에서 학습 콘텐츠에 액세스할 수 있습니다. 학습자는 Salesforce에서 강의, 학습 프로그램, 작업 지원 등 할당된 학습 콘텐트에 접속할 수 있습니다. 사용자는 등록에 대한 알림 및 책임자의 공지를 받을 수도 있습니다.
 contentowner: jayakarr
 exl-id: 4de04fbe-af45-427e-9a2f-11990e1c6fe7
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 75%
+source-wordcount: '500'
+ht-degree: 62%
 
 ---
 
@@ -48,3 +48,14 @@ Learning Manager 앱을 연결하여 Salesforce 내에서 사용할 수 있습�
 Adobe Learning Manager 앱에서 **연결 해제**&#x200B;하려면 위에 있는 스냅샷에 표시된 것처럼 학습자 페이지의 하단에 있는 연결 해제 링크를 클릭합니다. 연결 해제하면 Adobe Learning Manager 앱의 시작 페이지로 리디렉션됩니다.
 
 언제나 횟수 제한 없이 앱을 연결 및 연결 해제할 수 있습니다.
+
+## Salesforce 앱의 권장 사항 재설정
+
+학습자는 Salesforce를 종료하거나 기본 Adobe Learning Manager 앱에 로그인할 필요 없이 자신의 역할과 학습 환경 설정을 재설정할 수 있습니다. 이제 Adobe Learning Manager Salesforce 앱에는 **[!UICONTROL 관심 항목 재설정]** 단추가 포함됩니다.
+
+Salesforce 앱의 관심 사항 및 권장 사항을 재설정하려면:
+
+1. 학습자로 Salesforce용 Adobe Learning Manager 앱에 로그인합니다.
+2. 하단의 **[!UICONTROL 관심 항목 재설정]** 옵션을 선택합니다.
+
+학습자의 권장 사항 또는 관심은 Adobe Learning Manager Salesforce 앱에서 재설정됩니다.

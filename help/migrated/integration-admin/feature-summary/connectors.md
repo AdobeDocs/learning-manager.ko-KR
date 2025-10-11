@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager 커넥터
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: aecc98cff7a46193627c961222f7e64f858dfa2c
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '15862'
+source-wordcount: '15810'
 ht-degree: 59%
 
 ---
@@ -145,9 +145,9 @@ Learning Manager에서 학습 기록을 내보내기 전에 Salesforce에서 사
 
 1. 사용자 정의 개체를 만들기 위해 패키지를 다운로드 및 설치합니다.
 
-   * [패키지 1](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPJ)
-   * [패키지 2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPT)
-   * [패키지 3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi)
+   * [패키지 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlL)
+   * [패키지 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtK9)
+   * [패키지 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtKE)
 
 1. Salesforce에서 사용자 정의 개체 이름을 바꿉니다.
 1. 이벤트를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
@@ -183,7 +183,7 @@ Learning Manager에서는 Salesforce 앱 패키지를 제공합니다. SFDC에 S
 1. Salesforce 앱 페이지의 설명란에 명시된 응용 프로그램 ID(클라이언트 ID라고도 함)와 클라이언트 비밀번호를 메모합니다.
 1. **[!UICONTROL 승인]**&#x200B;을 클릭하면 앱을 성공적으로 승인해야 합니다.
 1. **[!UICONTROL 개발자 리소스]** > **[!UICONTROL 테스트 및 개발용 액세스 토큰]**&#x200B;을 클릭합니다.
-1. OAuth 코드 얻기 섹션에서 클라이언트 ID 및 범위를 - admin:read,admin:write 로 설정해야 합니다. **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+1. OAuth 코드 가져오기 섹션에서 클라이언트 ID 및 범위를 &quot;- admin:read,admin:write&quot;(으)로 설정해야 합니다. **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 1. 새로 고침 토큰 얻기 섹션에 클라이언트 ID와 클라이언트 비밀번호를 입력합니다. **[!UICONTROL 제출]**&#x200B;을 클릭하고 새로 고침 토큰을 확인합니다.
 
 ### Salesforce 앱에서 계정 개설 {#create-account-in-salesforce-app}
@@ -337,7 +337,7 @@ Learning Manager와 임시 외부 시스템을 통합하는 FTP 커넥터를 사
 
 데이터 내보내기를 사용하면 사용자 스킬과 학습자 성적 증명서를 FTP 위치로 내보내 타사 시스템과 통합할 수 있습니다.
 
-#### 스케줄링 {#scheduling}
+#### 예약 {#scheduling}
 
 책임자는 조직의 요구 사항에 따라 스케줄링 작업을 설정할 수 있으며, 일정에 따라 Learning Manager 응용 프로그램의 사용자는 최신 상태를 유지합니다. 마찬가지로, 통합 책임자는 외부 시스템과 통합되도록 적시에 스킬 내보내기를 예약할 수 있습니다. 동기화는 Learning Manager 응용 프로그램에서 매일 수행할 수 있습니다.
 
@@ -424,13 +424,13 @@ FTP 클라이언트를 사용하여 FTP 서버에 연결하려면 다음 정보�
 
 ### 내부 사용자 {#import}
 
-+++내부 사용자
++++가져오기
 
 내부 사용자 가져오기 옵션을 통해 요구 시 또는 일정에 따라 사용자를 csv에서 Learning Manager로 가져올 수 있습니다.
 
 +++
 
-+++Map 속성
++++맵 속성
 
 연결 설정이 성공하면 CSV 파일의 열을 매핑할 수 있습니다. Learning Manager 해당 속성이 FTP 폴더로 이동합니다. 이 과정은 꼭 필요합니다.
 
@@ -447,7 +447,7 @@ FTP 클라이언트를 사용하여 FTP 서버에 연결하려면 다음 정보�
 
 +++
 
-+++Learning Manager FTP 커넥터 사용
++++Learning Manager FTP 커넥터 사용하기
 
 1. 외부 시스템의 CSV 파일은 다음 경로에 배치되어야 합니다.
 
@@ -475,7 +475,7 @@ xAPI 가져오기 옵션을 사용하면 온디맨드로 제3자 서비스에서
 
 +++
 
-+++xAPI를 가져오는 데 필요한 구성
++++xAPI 가져오기에 필요한 구성
 
 1. 구성 페이지에서 구성 목록에서 사용 가능한 기존 구성을 선택하여 CSV에서 xAPI 명령문을 가져옵니다. 편집 또는 **새 구성 추가** 링크를 클릭하여 소스 가져오기 구성 페이지로 이동합니다.
 
@@ -803,7 +803,7 @@ Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적�
 * Workday을 통해 입력된 UUID 필드는 클라이언트가 LMS 관리자가 있는 경우 삭제할 수 없습니다. 값을 변경하려면 Adobe Learning Manager 온보딩 또는 지원 팀에 문의하십시오.
 * 사용자 제거는 실행당 제거할 사용자를 50명만 지원하므로 사용자 제거 옵션도 작동하지 않을 수 있습니다. UUID를 통해 사용자를 업로드하는 동안 매우 주의해야 합니다.
 
-### 스케줄링 {#Scheduling-1}
+### 예약 {#Scheduling-1}
 
 책임자는 조직 요구에 따라 스케줄링 작업을 설정할 수 있으며, 일정에 따라 Learning Manager 응용 프로그램의 사용자는 최신 상태를 유지합니다. 마찬가지로, 통합 책임자는 외부 시스템과 통합되도록 적시에 스킬 내보내기를 예약할 수 있습니다. Learning Manager 응용 프로그램에서 매일 동기화를 수행할 수 있습니다.
 
@@ -876,7 +876,7 @@ Learning Manager에는 두 가지 레벨의 계층구조가 있는 반면, Workd
 >
 >추가 Workday 속성을 추가할 수 있습니다. CSAM에 연락하여 속성을 추가하십시오.
 
-+++지원되는 Workday 속성 목록
++++지원하는 Workday 속성 목록
 
 wd:User_ID
 wd:Worker_ID
@@ -907,12 +907,12 @@ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Position_Title
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Title
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Name
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.@wd:Formatted_Address
-wd:Job_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1.$
-wd:Job_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1.$
-wd:Job_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Name
-wd:Job_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Formatted_Address
@@ -922,7 +922,7 @@ wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Retired
-wd:Employment_Data.wd:Worker_Status_Data.wd:Retival_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Terminated
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Last_Day_of_Work
@@ -943,7 +943,7 @@ wd:Organization_Subtype_Reference_Division
 wd:Universal_ID
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2.$
-wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Community
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipality
 
 +++
 
@@ -952,7 +952,7 @@ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Community
 사용자가 달성한 모든 스킬을 Learning Manager에서 Workday로 내보낼 수 있습니다. 모든 활성 사용자 스킬만 내보내고 Learning Manager는 비활성화된 스킬을 내보내지 않습니다. 여러 Learning Manager를 연결할 수도 있습니다\
 계정을 동일한 Workday 커넥터에 연결합니다. 두 Learning Manager 계정에서 스킬 이름이 동일한 경우, Workday에서 동일한 스킬에 매핑됩니다. Workday에서 스킬을 업데이트하기 전에 두 Learning Manager 계정이 동일한 Workday 계정을 사용하는 경우 모든 Learning Manager 계정의 스킬 이름을 업데이트하는 것이 좋습니다.
 
-+++사용자 스킬 - 구성
++++사용자 스킬 내보내기 - 일정 구성
 
 이 옵션을 사용하면 보고서 추출 스케줄을 지정할 수 있습니다. 이 연결을 사용하여 사용자 스킬 내보내기 사용 확인란이 활성화되어 있는지 확인합니다. &#39;예약 사용&#39; 확인란을 선택하고 시작 날짜와 시간을 지정합니다. 보고서를 생성하고 전송하는 시간 간격을 지정할 수도 있습니다. 예약 사용 확인란을 선택하고 시작 날짜와 시간을 지정하십시오. &#39;저장&#39;을 클릭합니다.
 
@@ -961,7 +961,7 @@ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Community
 
 +++
 
-+++사용자 스킬 - 주문형
++++사용자 스킬 - 온디맨드
 
 온디맨드: 이 옵션을 사용하면 시작 날짜를 지정하고 보고서를 내보낼 수 있습니다. 보고서는 입력된 날짜로부터 현재 날짜까지 추출됩니다. 보고서 생성을 시작할 날짜를 입력하고 실행을 클릭합니다.
 
@@ -1144,7 +1144,7 @@ Box 커넥터와 Learning Manager를 통합하려면 다음 과정을 배워봅�
 
 +++
 
-+++Map 특성
++++맵 속성
 
 한 번 연결이 되면 Box 폴더에 위치한 CSV 파일의 열을 Learning Manager의 해당 속성에 매핑할 수 있습니다. 이 과정은 꼭 필요합니다.
 
@@ -1165,7 +1165,7 @@ xAPI 보고서 활동 옵션을 사용하면 제3자 서비스에서 xAPI 명령
 
 +++
 
-+++xAPI를 가져오는 데 필요한 구성
++++xAPI 가져오기에 필요한 구성
 
 1. 구성 페이지에서 구성 목록에서 사용 가능한 기존 구성을 선택하여 CSV에서 xAPI 명령문을 가져옵니다. 편집 또는 **새 구성 추가** 링크를 클릭하여 xAPI 명령문 구성 소스 파일 가져오기 페이지로 이동합니다.
 
@@ -1241,7 +1241,7 @@ xAPI 보고서 활동 옵션을 사용하면 제3자 서비스에서 xAPI 명령
 
 ## 내보내기 {#export-2}
 
-+++스킬
++++내보내기
 
 사용자 스킬 보고서를 내보낼 수 있는 방법은 두 가지가 있습니다.
 
@@ -1474,7 +1474,7 @@ PowerBI-xAPI 기능 페이지에서 **[!UICONTROL xAPI 활동 보고서 내보�
 
 * 이 연결을 사용하여 xAPI 명령문 내보내기 사용을 클릭합니다.
 * **[!UICONTROL &#39;예약 사용&#39;]** 확인란을 클릭하고 시작 날짜와 시간을 지정합니다. 내보내기를 반복 및 전송하려는 간격(일)을 지정할 수도 있습니다.
-* **[!UICONTROL &#39;저장&#39;]** 버튼을 클릭하여 예약 구성 설정을 저장합니다.
+*  **[!UICONTROL &#39;저장&#39;]** 버튼을 클릭하여 예약 구성 설정을 저장합니다.
 
 ![](assets/configure-schedule.png)
 *xAPI 내보내기 구성 일정*
@@ -2111,7 +2111,7 @@ API를 사용하여 Adobe Learning Manager에서 데이터 검색 및 검색 활
    ![](assets/types-of-interface.png)
 인터페이스 유형
 
-1. **[!UICONTROL 연결]**&#x200B;을 선택합니다. 기본 URL과 CDN URL이 자동으로 생성됩니다.
+1. **[!UICONTROL 연결]**을 선택합니다. 기본 URL과 CDN URL이 자동으로 생성됩니다.
 이러한 URL을 사용하여 API를 사용하여 데이터를 검색할 수 있습니다.
 
    >[!NOTE]
@@ -2124,7 +2124,7 @@ API를 사용하여 Adobe Learning Manager에서 데이터 검색 및 검색 활
 1. 연결을 활성화하면 모든 과정, 학습 경로 및 인증서의 이미지가 CDN으로 마이그레이션됩니다.
 1. 과정, 학습 경로 및 인증서의 메타데이터를 검색 및 검색 서비스로 내보냅니다.
 1. 예약 사용 옵션을 선택하여 메타데이터 내보내기를 예약할 수 있습니다. 프리미엄 플랜의 경우 3시간마다 일정이 자동으로 진행됩니다.
-1. 온디맨드 보고서의 경우 **[!UICONTROL 온디맨드]**(으)로 이동하고 **[!UICONTROL 시작 날짜]**&#x200B;를 선택한 다음 **[!UICONTROL 실행]**&#x200B;을 클릭하세요.
+1. 온디맨드 보고서의 경우 **[!UICONTROL 온디맨드]**(으)로 이동하고 **[!UICONTROL 시작 날짜]**&#x200B;를 선택한 다음 **[!UICONTROL 실행]**을 클릭하세요.
 **[!UICONTROL 실행 상태]** 페이지에서 보고서 실행 상태를 확인할 수 있습니다.
 
 ### AEM에서 웹 사이트 생성 {#create-website-in-aem}
@@ -2235,7 +2235,7 @@ Adobe Commerce에서 데이터가 동기화될 때까지 과정 또는 학습 �
 
 >[!NOTE]
 >
->Adobe Learning Manager의 2024년 3월 릴리스에서는 [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=ko)에 대한 지원이 도입되었습니다.
+>Adobe Learning Manager의 2024년 3월 릴리스에서는 [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en)에 대한 지원이 도입되었습니다.
 
 
 1. **[!UICONTROL 교육 메타데이터 내보내기]** > **[!UICONTROL 온디맨드]**&#x200B;를 클릭합니다.

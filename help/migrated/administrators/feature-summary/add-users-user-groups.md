@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager에서 사용자 추가
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 4350c192a70005fe37620e1ea083c6db8ece30e3
+source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
 workflow-type: tm+mt
-source-wordcount: '2216'
-ht-degree: 1%
+source-wordcount: '2451'
+ht-degree: 2%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Learning Manager에 단일 사용자를 추가하려면 다음을 수행�
    ![](assets/add-a-user-prompt.png)
    _새 사용자의 이름, 전자 메일, 고유 식별자 및 프로필을 입력할 필드_
 5. 사용자의 관리자를 검색하고 관리자 목록에서 이름을 선택합니다.
-6. **추가**&#x200B;를 선택합니다.
+6. **추가**를 선택합니다.
 사용자는 액세스할 로그인 URL이 포함된 시작 이메일을 받습니다.
 
 
@@ -172,6 +172,37 @@ _내부 사용자가 사용할 수 있는 기존 자체 등록 URL을 표시하�
 
 확인 이메일이 사용자에게 전송됩니다. 사용자는 이메일을 통해 링크를 선택해야 계정을 활성화하고 Adobe Learning Manager 사용을 시작할 수 있습니다.
 
+### 사용자 보고서 다운로드
+
+책임자는 사용자 데이터를 종합적인 보고서로 내보내고 다운로드할 수 있습니다. 이 데이터를 내보내면 관리자는 학습자 활동을 추적하고, 계정 수명 주기를 모니터링하고, 비활성 사용자를 식별하고, 준수, 감사 및 보고 목적으로 정확한 기록을 유지할 수 있습니다.
+
+사용자 보고서를 다운로드하려면:
+
+1. 관리자 권한으로 Adobe Learning Manager에 로그인합니다.
+2. **사용자**&#x200B;를 선택한 다음 **내부**&#x200B;를 선택합니다.
+3. **사용자 데이터 내보내기**&#x200B;를 선택합니다. 보고서가 준비되면 알림을 받게 됩니다.
+
+   ![](assets/select-export-user-data.png)
+   _내부 사용자 섹션에는 사용자 보고서를 내보내고 다운로드하는 옵션이 표시됩니다._
+4. 알림을 선택하고 사용자 보고서를 다운로드합니다.
+
+보고서에는 다음과 같은 정보가 포함됩니다.
+
+* 이름
+* 이메일
+* 상태
+* 추가된 날짜(UTC 시간대)
+* 삭제 날짜(UTC 시간대)
+* 마지막 로그인 날짜(UTC 시간대)
+* Adobe ID
+* 사용자 상태
+* profile
+* 인터페이스 언어
+* 콘텐츠 언어
+* 시간대
+* 내부 사용자 ID
+* 관리자 이메일
+
 ## 외부 사용자
 
 Adobe Learning Manager을 사용하면 회사 외부의 사용자(예: 고객, 파트너, 공급업체 또는 클라이언트)를 추가하여 학습 콘텐츠에 액세스할 수 있습니다. 강사가 추가되면 강의를 그룹화하고, 강의를 할당하고 학습 진행률을 추적할 수 있습니다.
@@ -239,7 +270,7 @@ _외부 프로필의 등록 URL 복사_
 | 내부 사용자 | 외부 사용자 |
 |---|---|
 | Adobe ID 또는 SSO 자격 증명을 사용하여 로그인할 수 있습니다. | 모든 전자 메일 ID를 사용하여 로그인할 수 있습니다. |
-| 게임화를 사용할 수 있습니다. | 게임화 기능을 사용할 수 있습니다. 책임자는 [게임화 설정](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/gamification)에서 외부 학습자에 대한 게임화를 활성화해야 합니다. |
+| 게임화를 사용할 수 있습니다. | 게임화 기능을 사용할 수 있습니다. 책임자는 [게임화 설정](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)에서 외부 학습자에 대한 게임화를 활성화해야 합니다. |
 
 ### 외부 등록 프로필 일시 중지
 
@@ -266,6 +297,32 @@ _작업 메뉴에서 기존 외부 등록 프로필을 일시 중지하는 옵�
 
 ![](assets/resume-an-external-user.png)
 _이전에 일시 중지된 외부 등록 프로필을 다시 시작하는 옵션_
+
+### 외부 프로필 변경
+
+책임자는 학습자를 한 외부 프로필에서 다른 프로필로 재할당할 수 있습니다.
+
+외부 프로필을 변경하려면 다음을 수행하십시오.
+
+1. 관리자로 Adobe Learning Manager에 로그인합니다.
+2. **[!UICONTROL 사용자]**&#x200B;를 선택한 다음 **[!UICONTROL 외부]**&#x200B;를 선택합니다.
+3. 외부 프로필 목록에서 **[!UICONTROL 사용된 시트]**&#x200B;를 선택합니다.
+
+   ![](assets/select-learners-external-profile.png)
+   _사용된 시트 수를 보여 주는 외부 프로필 섹션_
+
+4. 학습자를 선택한 다음 **[!UICONTROL 작업]**&#x200B;을 선택합니다.
+
+   ![](assets/select-change-profile-external-learner.png)
+   _프로필 변경 옵션을 강조 표시하는 외부 프로필 페이지에서 학습자를 다른 프로필로 이동_
+
+5. **[!UICONTROL 프로필 변경]**&#x200B;을 선택합니다.
+6. 다른 외부 프로필을 검색하여 선택합니다.
+
+   ![](assets/search-and-select-profile.png)
+   _프로필 변경 프롬프트에 외부 프로필을 검색하는 옵션이 표시됨_
+
+선택한 학습자가 선택한 외부 프로필로 이동합니다.
 
 ### 외부 시트 사용 모니터링
 
