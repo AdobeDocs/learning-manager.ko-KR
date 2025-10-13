@@ -2,7 +2,7 @@
 description: Adobe Learning Manager 2025년 10월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다.
 jcr-language: en_us
 title: Adobe Learning Manager 2025년 10월 릴리스의 새로운 기능
-source-git-commit: 2df852f933fb0fb7b010dec5426a886b9e7b8ad5
+source-git-commit: c1a201e97a8944dddb6361aade0017f5745f933c
 workflow-type: tm+mt
 source-wordcount: '5638'
 ht-degree: 0%
@@ -830,3 +830,5 @@ _작업 지원 보고서에는 직접 다운로드 링크가 표시되므로 Ado
 
 * [Adobe Learning Manager 2025년 5월 릴리스](/help/migrated/whats-new-may-2025.md)
 * [Adobe Learning Manager 2025년 11월 릴리스](/help/migrated/whats-new-nov-24.md)
+
+
