@@ -16,7 +16,7 @@ Adobe Learning Manager(이전의 Adobe Captivate Prime)의 최신 제공 기능�
 
 ## 대화 참여 {#jointheconversation}
 
-[Adobe Learning Manager 사용자 커뮤니티](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)를 방문하여 영감을 얻고 주요 질문에 대한 답변을 얻으십시오.
+[Adobe Learning Manager 사용자 커뮤니티](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&sort=latest_replies&lang=all&tabid=all)를 방문하여 영감을 얻고 주요 질문에 대한 답변을 얻으십시오.
 
 ## 인기 항목 {#populartopics}
 

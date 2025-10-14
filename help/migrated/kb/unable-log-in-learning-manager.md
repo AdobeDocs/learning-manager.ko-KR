@@ -31,7 +31,7 @@ Adobe Learning Manager에 로그인하려고 하면 다음 오류 메시지가 �
 
 아래 링크는 브라우저 별 캐시 삭제 가이드입니다.
 
-* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&amp;hl=ko)
+* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=ko)
 * [Internet Explorer](https://kb.wisc.edu/page.php?id=1514)
 * [Microsoft Edge](https://www.bitdefender.com/support/how-to-clear-the-cache-and-cookies%C2%A0in-microsoft-edge-1914.html)
 * [Firefox](https://kb.iu.edu/d/ahic)
@@ -39,7 +39,7 @@ Adobe Learning Manager에 로그인하려고 하면 다음 오류 메시지가 �
 
 ## 시크릿 모드 사용
 
-브라우저에서 시크릿 모드를 사용하여 Adobe Learning Manager에 로그인합니다. 자세한 내용은 [지침](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&amp;hl=ko&amp;oco=0)을 참조하십시오.
+브라우저에서 시크릿 모드를 사용하여 Adobe Learning Manager에 로그인합니다. 자세한 내용은 [지침](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=ko&oco=0)을 참조하십시오.
 
 ## 관리자에게 문의
 

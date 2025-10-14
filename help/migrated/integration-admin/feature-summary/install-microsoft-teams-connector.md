@@ -51,7 +51,7 @@ Microsoft Teams 커넥터는 Learning Manager와 Microsoft Teams 시스템을 �
 
 Office 365 E3 또는 Office 365 E5가 있는 경우 Microsoft Teams 커넥터에 액세스할 수 있습니다. Office 365 E5를 사용하는 것이 좋습니다.
 
-* [Microsoft 요금제 페이지](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE)를 방문하세요. 웹페이지에서 E3 또는 E5 계정을 구매하거나 무료 평가판을 클릭합니다.
+* [Microsoft 요금제 페이지](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&lnkd=Google_O365SMB_Brand&gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE)를 방문하세요. 웹페이지에서 E3 또는 E5 계정을 구매하거나 무료 평가판을 클릭합니다.
 * 필수 정보를 제공하여 계정을 만듭니다.
 
 >[!NOTE]

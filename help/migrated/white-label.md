@@ -372,7 +372,7 @@ Firebase에서 [프로젝트를 추가](https://learn.microsoft.com/en-us/xamari
 
 ### iOS
 
-[Firebase에 ](https://firebase.google.com/docs/ios/setup) 프로젝트를 추가하고 ***GoogleService-Info.plist*** 파일을 검색합니다.
+[Firebase에 &#x200B;](https://firebase.google.com/docs/ios/setup) 프로젝트를 추가하고 ***GoogleService-Info.plist*** 파일을 검색합니다.
 
 >[!IMPORTANT]
 >

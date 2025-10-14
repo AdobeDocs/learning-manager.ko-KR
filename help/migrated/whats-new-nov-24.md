@@ -33,7 +33,7 @@ Adobe Learning Manager 2024년 11월 릴리스의 새로운 기능 및 개선 �
 
 >[!NOTE]
 >
->이 릴리스의 새로운 기능에 대해 자세히 알아보려면 이 [웨비나](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course)를 확인하세요.
+>이 릴리스의 새로운 기능에 대해 자세히 알아보려면 이 [웨비나](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&loId=11231360&loType=course)를 확인하세요.
 
 ## Adobe Learning Manager에서 AI 기반 검색
 

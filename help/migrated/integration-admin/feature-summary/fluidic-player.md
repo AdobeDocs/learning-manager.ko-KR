@@ -183,7 +183,7 @@ Learning Manager Fluidic Player에서 사용하는 스트리밍 기술은 비디
 
    통합 책임자에 포함 가능한 Fluidic Player를 설정하여 토큰을 가져올 수 있습니다. 액세스 토큰으로 사용할 수 있는 인증 토큰을 받을 수 있습니다.
 
-   생성된 URL의 예: https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&amp;access_token=&quot;+accToken
+   생성된 URL의 예: https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&access_token=&quot;+accToken
 
    여기서 lo_id 는 강의, 학습 프로그램, 인증 및 작업 지원 의 ID입니다.
 
