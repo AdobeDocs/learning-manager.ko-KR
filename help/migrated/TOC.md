@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 3120756396fa20170f9a5b96861cbdaa4d4bb8c8
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '763'
 ht-degree: 71%
 
 ---
@@ -68,6 +68,7 @@ ht-degree: 71%
    * 콘텐츠 마켓플레이스 {#content-marketplace}
       * [콘텐츠 마켓플레이스](administrators/feature-summary/content-marketplace.md)
       * [학습 경로에 Go1 과정 큐레이션](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
+   * [L1 피드백 양식](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
    * [보고서](administrators/feature-summary/reports.md)
    * [그룹 성공 대시보드](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [학습 경로](administrators/feature-summary/learning-paths.md)
