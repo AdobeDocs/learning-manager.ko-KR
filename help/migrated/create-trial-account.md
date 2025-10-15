@@ -16,7 +16,7 @@ Adobe Learning Manager에서 무료 30일 평가판 계정을 쉽게 설정하�
 
 체험판 계정을 만들려면 다음을 수행하십시오.
 
-1. [Adobe Learning Manager](https://business.adobe.com/products/learning-manager/adobe-learning-manager.html)&#x200B;(으)로 이동합니다.
+1. [Adobe Learning Manager](https://business.adobe.com/kr/products/learning-manager/adobe-learning-manager.html)&#x200B;(으)로 이동합니다.
 2. **[!UICONTROL 30일 무료 평가판]**&#x200B;을 선택합니다.
 
    ![](assets/free-trial.png)
