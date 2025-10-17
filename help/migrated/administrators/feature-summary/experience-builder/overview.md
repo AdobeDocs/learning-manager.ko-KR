@@ -2,9 +2,9 @@
 description: 관리자가 기술 전문 지식 없이도 사용자 친화적인 브랜디드 페이지를 디자인 및 게시할 수 있는 Adobe Learning Manager의 코드 없는/코드 없는 도구인 Experience Builder에 대해 자세히 알아보십시오.
 jcr-language: en_us
 title: Adobe Learning Manager의 Experience Builder
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -54,3 +54,26 @@ Experience Builder는 내부 직원 및 외부 사용자와 관련된 다양한 
 * **역할 기반 교육 포털**: 영업 팀과 고객 성공 팀이 따로 있는 금융 회사와 같이 특정 부서의 교육 요구 사항이 있는 조직은 콘텐츠의 관련성을 높이기 위해 각 그룹에 대한 전용 학습 페이지를 만들 수 있습니다.
 * **이벤트별 학습 페이지**: Tech Summit 또는 Sales Kick Off와 같은 기업 이벤트에 대한 임시 전문 페이지를 만들 수 있습니다. 이러한 페이지에는 세션 정보, 발표자 목록 및 이벤트 달력 위젯이 포함될 수 있으며 표준 포털 환경으로 돌아가기 전에 특정 기간 동안 관련 팀만 대상으로 지정할 수 있습니다.
 * **고객 아카데미**: Experience Builder를 통해 기관은 브랜드 아이덴티티를 반영하는 고객 대면 아카데미를 제작하여 헤드리스 빌드와 관련된 시간과 비용 없이 사용자 정의 경험을 얻을 수 있습니다.
+
+## 인증된 외부 대면 포털 작업 과정
+
+Experience Builder로 구축된 고객 대면 아카데미는 Adobe Learning Manager 내에서 전적으로 관리됩니다. 이러한 포털은 Adobe Learning Manager의 내장된 인증, 권한 및 보안 프레임워크를 사용합니다.
+
+모든 외부 학습자는 Adobe Learning Manager에 로그인하고 최소 하나 이상의 사용자 그룹 구성원이어야 합니다. 현재 Experience Builder는 인증되지 않았거나 공개적인 포털을 지원하지 않습니다. 개인화된 모든 경험을 사용하려면 학습자가 Adobe Learning Manager에 로그인해야 합니다.
+
+관리자는 Experience Builder **[!UICONTROL 메뉴]** 옵션을 사용하여 사용자 정의 작성 페이지를 특정 사용자 그룹의 랜딩 페이지로 할당할 수 있습니다. 해당 그룹의 학습자가 로그인하면 Adobe Learning Manager에서 학습자에게 할당된 랜딩 페이지로 자동으로 안내하여 고객 교육, 파트너 지원 또는 온보딩과 같이 해당 대상자에게 개인화되고 브랜드화된 환경을 제작합니다.
+
+### 요구 사항 및 제한 사항
+
+* 인증 필요: 개인 맞춤화된 콘텐츠, 사용자 정의 페이지 및 메뉴는 Adobe Learning Manager의 인증된 사용자만 사용할 수 있습니다.
+* 사용자 그룹 할당: 지정된 랜딩 페이지 및 메뉴에 액세스하려면 학습자를 올바른 사용자 그룹에 추가해야 합니다.
+* 그룹 기반 랜딩 페이지: 랜딩 페이지 설정은 사용자 그룹의 모든 멤버에 적용되어 유사한 대상자에게 일관된 환경을 제공합니다.
+* 사용자 정의 범위: Experience Builder는 위젯, HTML 및 iFrame을 사용하여 광범위한 UI 및 레이아웃 사용자 정의를 지원합니다. 그러나 전자 상거래, 통합 SSO 또는 외부 데이터 연결과 같은 고급 통합에는 하이브리드 또는 헤드리스 구현이 필요할 수 있습니다.
+
+### 외부 대응 포털 설정 워크플로우
+
+* 사용자 그룹 정의: ALM에서 외부 대상 그룹(예: 고객, 파트너 또는 배포자)을 나타내는 그룹을 생성하거나 식별합니다. 사용자 그룹에 대한 자세한 내용은 [Adobe Learning Manager의 사용자 그룹](/help/migrated/administrators/feature-summary/user-group.md)을 참조하세요.
+* 학습자를 그룹에 할당: 각 외부 학습자를 적절한 사용자 그룹에 추가하여 로그인 후 올바른 포털 환경으로 이동합니다.
+* 포털 페이지 디자인: Experience Builder를 사용하여 Adobe Learning Manager 위젯, HTML 및 iFrame 구성 요소로 브랜디드 페이지를 만듭니다. 자세한 내용은 [Experience Builder에서 사용자 지정 페이지 만들기](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md)를 참조하십시오.
+* 메뉴 및 랜딩 페이지 구성: 메뉴 작성기에서 각 사용자 그룹에 고유한 메뉴를 할당하고 사용자 정의 포털 페이지를 랜딩 페이지로 지정합니다. 자세한 내용은 [메뉴 만들기](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md)를 참조하세요.
+* 테스트 및 Publish: 포털을 게시하기 전에 각 사용자 그룹에 대한 탐색, 콘텐츠 표시 여부 및 페이지 라우팅을 확인합니다.
