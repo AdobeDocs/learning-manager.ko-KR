@@ -43,7 +43,7 @@ Go1 강의로 학습 경로를 생성하려면
 7. 책임자는 다음과 같은 방법으로 재생 목록을 만들 수 있습니다.
 
    * **[!UICONTROL Go1 AI 도우미]**&#x200B;를 사용하고 있습니다. 자세한 내용은 [Go1 AI 도우미](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#go1-ai-assistant)를 참조하세요.
-   * **[!UICONTROL 라이브러리]**&#x200B;에서 **[!UICONTROL 재생 목록 만들기]**를 선택하고 다음 중 하나를 선택합니다.
+   * **[!UICONTROL 라이브러리]**&#x200B;에서 **[!UICONTROL 재생 목록 만들기]**&#x200B;를 선택하고 다음 중 하나를 선택합니다.
 a. **[!UICONTROL AI로]**: AI를 사용하여 플레이리스트를 만듭니다. 자세한 내용은 이 [섹션](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai)을(를) 참조하세요.
 b. **[!UICONTROL 직접]**: 강의를 수동으로 추가하여 재생 목록을 만듭니다. 자세한 내용은 이 [섹션](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually)을(를) 참조하세요.
 
@@ -139,8 +139,8 @@ AI로 플레이리스트를 만들려면 다음을 수행하십시오.
 12. 확인 프롬프트에서 **예**&#x200B;를 선택합니다.
 13. **[!UICONTROL 가져올 재생 목록 선택]**&#x200B;에서 재생 목록을 선택하십시오.
 
-   ![](assets/add-playlist-to-lp.png)
-   _Adobe Learning Manager의 Go1 라이브러리에서 영업 엔지니어 스킬 향상 재생 목록을 선택하고 가져오기_
+    ![](assets/add-playlist-to-lp.png)
+    _Adobe Learning Manager의 Go1 라이브러리에서 영업 엔지니어 스킬 향상 재생 목록을 선택하고 가져오기_
 
 14. **[!UICONTROL 학습 경로에 재생 목록 추가]**&#x200B;를 선택한 다음 **[!UICONTROL Publish]**&#x200B;를 선택합니다.
 
@@ -192,10 +192,10 @@ AI로 플레이리스트를 만들려면 다음을 수행하십시오.
 1. 관리자 권한으로 Adobe Learning Manager에 로그인합니다.
 2. **[!UICONTROL 콘텐츠 마켓플레이스]**&#x200B;를 선택합니다.
 3. **[!UICONTROL 콘텐츠 허브]**&#x200B;를 선택한 다음 **[!UICONTROL 라이브러리]**&#x200B;를 선택하십시오.
-4. 재생 목록을 선택한 다음 **[!UICONTROL 편집]**을 선택합니다.
+4. 재생 목록을 선택한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
    ![](assets/edit-playlist.png)
    재생 목록을 편집하는 옵션을 보여 주는 _Go1 재생 목록 화면_
-5. 줄임표를 선택한 다음 **[!UICONTROL 복제]**를 선택합니다.
+5. 줄임표를 선택한 다음 **[!UICONTROL 복제]**&#x200B;를 선택합니다.
    ![](assets/duplicate-playlist.png)
    _재생 목록 관리 화면, 복제 옵션 강조 표시_
 
@@ -208,10 +208,10 @@ AI로 플레이리스트를 만들려면 다음을 수행하십시오.
 1. 관리자 권한으로 Adobe Learning Manager에 로그인합니다.
 2. **[!UICONTROL 콘텐츠 마켓플레이스]**&#x200B;를 선택합니다.
 3. **[!UICONTROL 콘텐츠 허브]**&#x200B;를 선택한 다음 **[!UICONTROL 라이브러리]**&#x200B;를 선택하십시오.
-4. 재생 목록을 선택한 다음 **[!UICONTROL 편집]**을 선택합니다.
+4. 재생 목록을 선택한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
    ![](assets/edit-playlist.png)
    재생 목록을 편집하는 옵션을 보여 주는 _Go1 재생 목록 화면_
-5. 줄임표를 선택한 다음 **[!UICONTROL 재생 목록 삭제]**를 선택합니다.
+5. 줄임표를 선택한 다음 **[!UICONTROL 재생 목록 삭제]**&#x200B;를 선택합니다.
    ![](assets/delete-playlist.png)
    _재생 목록 관리 화면, 재생 목록 삭제 옵션 강조 표시_
 
