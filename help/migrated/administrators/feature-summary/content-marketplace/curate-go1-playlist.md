@@ -2,7 +2,7 @@
 description: Adobe Learning Manager에서 Go1 플레이리스트를 만들고 학습 경로에 추가하는 방법을 알아봅니다. 이 안내서에서는 플레이리스트 통합을 위한 단계별 지침과 모범 사례를 다룹니다.
 jcr-language: en_us
 title: Adobe Learning Manager 학습 경로에 Go1 플레이리스트 큐레이션
-source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
+source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Go1 강의를 학습 경로 및 인증에 직접 추가합니다. Go1 과정이 
 
 Go1 강의로 학습 경로를 생성하려면
 
-1. 관리자 권한으로 Adobe Learning Manager에 로그인합니다.
+1. 관리자로 **Adobe Learning Manager**&#x200B;에 로그인합니다.
 2. 왼쪽 탐색 창에서 **[!UICONTROL 학습 경로]**&#x200B;를 선택합니다.
 3. **[!UICONTROL 추가]**&#x200B;를 선택합니다.
 
