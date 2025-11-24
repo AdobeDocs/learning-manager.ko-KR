@@ -4,7 +4,7 @@ title: 관리자
 description: 관리자 역할과 관련된 Learning Manager 기능 및 자주 묻는 질문에 대해 알아보려면 계속 읽어보십시오.
 contentowner: manochan
 preview: true
-source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 100%
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 * [색상 테마 및 브랜딩](administrators/feature-summary/themes.md)
 * [Adobe Connect 통합](administrators/feature-summary/adobeconnect-integration.md)
-* [학습자 성적 증명서](/help/migrated/administrators/feature-summary/learner-transcripts.md)
+* [학습자 성적 증명서](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
 * [게임화](administrators/feature-summary/gamification.md)
 * [사용자/사용자 그룹 추가](administrators/feature-summary/add-users-user-groups.md)
 * [배지](administrators/feature-summary/badges.md)

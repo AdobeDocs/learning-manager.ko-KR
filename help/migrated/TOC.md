@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 3120756396fa20170f9a5b96861cbdaa4d4bb8c8
+source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 71%
 
 ---
@@ -88,7 +88,8 @@ ht-degree: 71%
    * [학습자 홈페이지 사용자 정의](administrators/feature-summary/customize-learner-homepage.md)
    * [배지](administrators/feature-summary/badges.md)
    * [색상 테마](administrators/feature-summary/themes.md)
-   * [학습자 성적 증명서](administrators/feature-summary/learner-transcripts.md)
+   * [학습자 성적 증명서](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
+   * [피드백 보고서](/help/migrated/administrators/feature-summary/reports/feedback-report.md)
    * [대기자 및 출석자 관리](administrators/feature-summary/waitlist-attendance-management.md)
    * [Fluidic Player](administrators/feature-summary/fluidic-player.md)
    * [공지](administrators/feature-summary/announcements.md)

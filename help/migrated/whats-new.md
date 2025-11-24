@@ -2,7 +2,7 @@
 description: Adobe Learning Manager 2025년 10월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다.
 jcr-language: en_us
 title: Adobe Learning Manager 2025년 10월 릴리스의 새로운 기능
-source-git-commit: c1a201e97a8944dddb6361aade0017f5745f933c
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '5638'
 ht-degree: 0%
@@ -731,7 +731,7 @@ linkedIn Learning 통합에 대한 자세한 내용은 [LinkedIn Learning](/help
 ![Adobe 학습에서 강의 완료 추적을 위한 완료 날짜(노란색으로 강조 표시됨)가 표시된 학습자 성적 증명서 보고서](/help/migrated/assets/mark-completion-column.png)
 _학습자 성적 증명서 보고서에 각 사용자의 개별 완료 날짜를 강조하는 새 열이 노란색으로 표시됩니다_
 
-학습자 성적 증명서 보고서에 대한 자세한 내용은 [학습자 성적 증명서](/help/migrated/administrators/feature-summary/learner-transcripts.md)를 참조하십시오.
+학습자 성적 증명서 보고서에 대한 자세한 내용은 [학습자 성적 증명서](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)를 참조하십시오.
 
 ### 확장 데이터 필드가 있는 향상된 사용자 보고서
 
@@ -774,7 +774,7 @@ FTP, 사용자 지정 FTP 및 Box 커넥터에 대한 자세한 내용은 [커�
 >
 >이 플래그는 기존 계정에 대해 기본적으로 비활성화되어 있으며 새 계정에 대해 명시적으로 요청해야 합니다.
 
-자세한 내용은 [학습자 성적 증명서](/help/migrated/administrators/feature-summary/learner-transcripts.md) 문서를 참조하십시오.
+자세한 내용은 [학습자 성적 증명서](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) 문서를 참조하십시오.
 
 ### 직접 액세스 링크가 있는 작업 지원 보고서
 
