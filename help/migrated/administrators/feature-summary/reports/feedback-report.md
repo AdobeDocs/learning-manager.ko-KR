@@ -2,9 +2,9 @@
 description: Adobe Learning Manager에서 피드백 보고서에 액세스, 다운로드 및 해석하는 방법을 알아봅니다. 보고서 열, 질문 유형, 관리자 및 학습자 응답, 피드백 인사이트가 교육 평가 및 지속적인 개선을 어떻게 지원하는지 이해합니다.
 jcr-language: en_us
 title: Adobe Learning Manager의 피드백 보고서
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: 339207c1a1d4f365a4c25c4d2ef7e4527b1dfefc
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '856'
 ht-degree: 8%
 
 ---
@@ -32,12 +32,12 @@ Adobe Learning Manager의 피드백 보고서는 학습자가 학습 개체를 �
 ## 피드백 보고서를 다운로드하는 방법
 
 1. 관리자 권한으로 Adobe Learning Manager에 로그인합니다.
-2. 왼쪽 탐색 메뉴에서 **[!UICONTROL 보고서]**&#x200B;를 선택합니다.
+2. 왼쪽 탐색 메뉴에서 **[!UICONTROL 보고서]**를 선택합니다.
    ![](assets/select-report.png)
    _관리자 홈페이지에는 보고서 다운로드를 위해 강조 표시된 보고서 옵션이 표시됩니다_
 
 3. 보고서에서 **[!UICONTROL 사용자 지정 보고서]**&#x200B;를 선택한 다음 **[!UICONTROL Excel 보고서]**&#x200B;를 선택합니다.
-4. **[!UICONTROL 피드백 보고서]**&#x200B;를 선택합니다.
+4. **[!UICONTROL 피드백 보고서]**를 선택합니다.
    ![](assets/select-feedback-report.png)
    _사용자 지정 보고서 섹션은 피드백 보고서를 선택하여 학습자 및 관리자 피드백 데이터에 액세스하는 옵션을 표시합니다_
 
@@ -102,4 +102,6 @@ Adobe Learning Manager의 피드백 보고서는 학습자가 학습 개체를 �
 | 피드백 버전 | 피드백 양식의 버전 번호 |
 | 학습자 언어 | 학습자가 선택한 언어 |
 
-
+>[!NOTE]
+>
+>학습 객체 레벨 보고서에는 피드백 양식에 추가된 질문도 포함됩니다. 각 질문은 열 머리글로 표시되며 해당 질문에 대한 학습자의 응답은 아래의 해당 행에 표시됩니다.
