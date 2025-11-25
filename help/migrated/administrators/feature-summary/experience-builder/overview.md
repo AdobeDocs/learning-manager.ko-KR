@@ -2,23 +2,15 @@
 description: 관리자가 기술 전문 지식 없이도 사용자 친화적인 브랜디드 페이지를 디자인 및 게시할 수 있는 Adobe Learning Manager의 코드 없는/코드 없는 도구인 Experience Builder에 대해 자세히 알아보십시오.
 jcr-language: en_us
 title: Adobe Learning Manager의 Experience Builder
-source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
 
 
 # 개요
-
->[!IMPORTANT]
->
->맞춤형 학습 포털을 만드는 혁신적인 도구인 Experience Builder가 Adobe Learning Manager 2025년 10월 릴리스에 이어 출시될 예정임을 알려 드리게 되어 기쁩니다.
->
->출시일에 가까워지면 추가 업데이트를 기다려주십시오. Experience Builder를 사용하여 학습 포털을 혁신하는 방법을 알아보겠습니다.
->
->질문이나 추가 정보가 필요한 경우 고객 성공 관리자에게 문의하십시오.
 
 Experience Builder는 맞춤화된 학습 포털을 만드는 데 도움이 되는 Adobe Learning Manager의 코드 없는/코드 낮은 도구입니다. 기술 기술이나 광범위한 코딩 지식 없이도 브랜드가 지정된 사용자 친화적인 학습 포털을 디자인할 수 있습니다.
 

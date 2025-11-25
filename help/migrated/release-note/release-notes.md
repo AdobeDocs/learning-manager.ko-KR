@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager 릴리스 정보
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
+source-git-commit: 093092c826b014c2d582c6cc32da08464403a1bf
 workflow-type: tm+mt
-source-wordcount: '27340'
-ht-degree: 70%
+source-wordcount: '27782'
+ht-degree: 69%
 
 ---
 
@@ -18,10 +18,62 @@ ht-degree: 70%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/kr/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>-->
+
++++업데이트 103: Adobe Learning Manager 2025년 11월 릴리스
+
+출시일: 2025년 11월 25일 수요일
+
+## 이 릴리스의 새로운 기능
+
+### Experience Builder
+
+이제 모든 Adobe Learning Manager 계정에서 Experience Builder를 사용할 수 있으므로 고객이 로우 코드 구성 요소와 유연한 레이아웃을 사용하여 완전히 브랜딩된 학습 경험을 만들 수 있습니다. 관리자는 Experience Builder를 사용하여 완전히 모바일 반응형 맞춤형 학습 포털 및 페이지를 만들 수 있습니다.
+
+기존 계정의 경우 Experience Builder 업데이트가 자동으로 실행됩니다. 이전 UI 또는 클래식 UI를 계속 사용하는 계정에는 Experience Builder 기능을 사용할 수 없습니다.
+
+자세한 내용은 [Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/overview.md)를 참조하세요.
+
+### Adobe Learning Manager 모바일 웹 인터페이스
+
+모바일 웹 인터페이스는 최신 코드베이스에 재구축되어 로드 시간이 단축되고 응답성이 향상되었으며 여러 장치에서 보다 직관적인 학습자 경험을 제공합니다.
+
+업데이트된 모바일 웹 경험은 기본적으로 모든 새 계정에 대해 활성화됩니다. 또한 기존 계정은 소셜 학습이 활성화된 경우를 제외하고 자동으로 업그레이드를 받습니다. 이러한 경우 소셜 학습이 새로운 호환 가능한 프레임워크로 마이그레이션될 때까지 이전 모바일 경험이 활성 상태로 유지됩니다.
+
+>[!NOTE]
+>
+>새로운 Adobe Learning Manager 모바일 웹 인터페이스에서는 소셜 학습이 지원되지 않습니다.
+
+### Fluidic Player 개선 사항
+
+이전에는 Fluidic Player의 다음 단추에 예정된 모듈의 제목이 표시되지 않아 학습자가 학습 과정에서 다음 단계를 예측하기 어려웠습니다.
+
+향상된 기능을 통해 이제 다음 버튼에 다음 모듈의 제목이 포함되어 학습자는 다음을 수행할 수 있습니다.
+
+* 계속하기 전에 콘텐츠 내용이 어떻게 표시되는지 파악합니다.
+* 더욱 명확하고 신뢰할 수 있는 모듈 탐색.
+* 과정 흐름 전체에 걸쳐 보다 나은 컨텍스트를 유지합니다.
+
+![](assets/fluidic-player-next.png)
+_이제 Fluidic Player에 예정된 모듈의 제목이 있는 다음 단추가 표시됩니다_
+
+### L1 피드백 양식
+
+L1 피드백은 개별 학습 개체 내에서만 구성할 수 있으므로 유연성이 제한되고 관리자가 카탈로그에서 다른 양식을 사용할 수 없습니다. 이제 관리자는 여러 L1 피드백 양식을 만들고 사용할 수 있으며 각 피드백 양식을 특정 강의, 학습 경로 및 인증에 할당할 수 있습니다. 이 양식은 이제 강의 효과, NPS, 리커트 척도 및 자유 텍스트 질문과 같은 여러 질문 유형을 지원합니다.
+
+피드백 양식은 모든 로케일에서 동일한 질문 구조를 유지하면서 추가 언어로 번역할 수 있습니다. 이제 보고서에는 각 응답을 캡처한 양식을 식별하는 데 도움이 되는 피드백 양식 이름 및 피드백 양식 버전 이 포함됩니다.
+
+**사용 사례**
+
+* 맞춤형 피드백 양식을 다양한 교육 프로그램에 할당합니다. 예를 들어, 영업 강의에서는 NPS 중심 질문을 사용할 수 있고, 규정 준수 강의에서는 강의 효과 및 리커트 규모 질문을 사용하여 명확성과 정책 이해도를 측정할 수 있습니다.
+* 학습 모듈에 따라 별도의 피드백 양식을 사용합니다. 예를 들어, 혼합 모듈, 자가 진행식 모듈 및 강의실 모듈의 세 가지 형태가 있습니다.
+
+자세한 내용은 [L1 피드백 양식](/help/migrated/administrators/feature-summary/l1-feedback-form.md)을 참조하세요.
+
++++
 
 +++업데이트 102: Adobe Learning Manager 2025년 10월 릴리스
 
@@ -131,7 +183,7 @@ Fluidic Player에 대한 자세한 내용은 이 [문서](/help/migrated/learner
 
 * 콘텐츠 모듈을 새 버전으로 업데이트한 후 강의를 완료한 학습자가 강의를 다시 방문할 때 흰색 화면이 표시되는 문제를 수정했습니다.
 
-또한 Adobe Learning Manager에 적용 예정인 변경 사항에 대한 자세한 내용은 이 [문서](https://experienceleague.adobe.com/ko/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)를 참조하세요.
+또한 Adobe Learning Manager에 적용 예정인 변경 사항에 대한 자세한 내용은 이 [문서](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)를 참조하세요.
 
 +++
 
@@ -1610,7 +1662,7 @@ Learning Manager 2020년 4월 릴리스는 다음 사항에 초점을 맞추었�
 
 학습자는 외부 인증서를 열고 pdf, 텍스트 또는 이미지 파일과 같은 에셋을 업로드할 수 있습니다.
 
-자세한 내용은 [***외부 인증서 에셋 업로드***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;를 참조하세요.**&#x200B;**
+자세한 내용은 [***외부 인증서 에셋 업로드***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;를 참조하세요.****
 
 ### 이번 릴리스에서 수정된 문제 {#issuesfixedinthisrelease}
 
@@ -1929,7 +1981,7 @@ Adobe Connect에서 고객은 Connect에서 이미 만든 기존 회의실을 �
 
 ### 새로운 기능 및 향상된 기능 {#Newandenhancedfeatures-5}
 
-**내부 및 외부 사용자에 대한 소셜 학습에서 범위 분리**&#x200B;책임자는 내부 및 외부 학습자에 대해 별도의 범위를 정의할 수 있습니다. 두 가지 새로운 내부 사용자와 외부 사용자용 섹션이 있습니다. 두 섹션 모두에서 학습자 그룹에 대한 범위를 정의할 수 있습니다. 내부 사용자에 대해 사용자 특성 값을 정의할 수 있습니다. 외부 사용자의 경우 학습자가 같은 소셜 공간을 공유할 수 있는 외부 프로필을 정의할 수 있습니다. 자세한 내용은 [***범위 설정***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)&#x200B;을 참조하세요.  **소셜 보드의 소셜 제한 생성**&#x200B;모든 학습자의 보드 생성을 제한하고 보드를 효과적으로 중재하려면 관리자는 선택한 사용자 그룹에게 보드를 생성할 수 있는 권한을 부여할 수 있습니다. 관리자는 소셜 학습에 참여하는 모든 학습자가 아닌, 선택한 그룹만 보드를 생성할 수 있도록 제한할 수 있습니다. 자세한 내용은 [***보드 만들기 권한***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)&#x200B;을 참조하세요.  **학습자에게 비어있는 활성 필드만 표시**&#x200B;관리자는 값이 입력된 후에 활성 필드를 표시하거나 숨기는 것을 선택할 수 있습니다. 자세한 내용은 [***사용자 표시***](../administrators/feature-summary/add-users-user-groups.md#activefields)&#x200B;를 참조하세요.  **내부 사용자가 지정된 비활성화 기간에 삭제됨**&#x200B;관리자가 학습자가 지정된 기간 동안 비활성화를 유지하는 경우 내부 학습자를 삭제하는 기간(일별로)을 설정할 수 있습니다. 자세한 내용은 ***[사용자 자동 삭제](../administrators/feature-summary/settings.md#autodelete)를 &#x200B;***.  **바닥글의 사용자 지정**&#x200B;관리자는 바닥글에 링크를 추가하고 사용자 지정할 수 있습니다. 링크는 다양한 로케일에 대해 사용자 정의될 수도 있습니다. 또한 바닥글에 &#39;책임자에게 문의&#39; 링크를 추가하는 기존 방법을 **바닥글 링크** 섹션에서 사용할 수 있습니다. 자세한 내용은 [***바닥글 링크 사용자 지정***](../administrators/feature-summary/settings.md#footer)&#x200B;을 참조하세요.
+**내부 및 외부 사용자에 대한 소셜 학습에서 범위 분리**&#x200B;책임자는 내부 및 외부 학습자에 대해 별도의 범위를 정의할 수 있습니다. 두 가지 새로운 내부 사용자와 외부 사용자용 섹션이 있습니다. 두 섹션 모두에서 학습자 그룹에 대한 범위를 정의할 수 있습니다. 내부 사용자에 대해 사용자 특성 값을 정의할 수 있습니다. 외부 사용자의 경우 학습자가 같은 소셜 공간을 공유할 수 있는 외부 프로필을 정의할 수 있습니다. 자세한 내용은 [***범위 설정***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)&#x200B;을 참조하세요.  **소셜 보드의 소셜 제한 생성**&#x200B;모든 학습자의 보드 생성을 제한하고 보드를 효과적으로 중재하려면 관리자는 선택한 사용자 그룹에게 보드를 생성할 수 있는 권한을 부여할 수 있습니다. 관리자는 소셜 학습에 참여하는 모든 학습자가 아닌, 선택한 그룹만 보드를 생성할 수 있도록 제한할 수 있습니다. 자세한 내용은 [***보드 만들기 권한***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)&#x200B;을 참조하세요.  **학습자에게 비어있는 활성 필드만 표시**&#x200B;관리자는 값이 입력된 후에 활성 필드를 표시하거나 숨기는 것을 선택할 수 있습니다. 자세한 내용은 [***사용자 표시***](../administrators/feature-summary/add-users-user-groups.md#activefields)&#x200B;를 참조하세요.  **내부 사용자가 지정된 비활성화 기간에 삭제됨**&#x200B;관리자가 학습자가 지정된 기간 동안 비활성화를 유지하는 경우 내부 학습자를 삭제하는 기간(일별로)을 설정할 수 있습니다. 자세한 내용은 ***[사용자 자동 삭제](../administrators/feature-summary/settings.md#autodelete)를 ***.  **바닥글의 사용자 지정**&#x200B;관리자는 바닥글에 링크를 추가하고 사용자 지정할 수 있습니다. 링크는 다양한 로케일에 대해 사용자 정의될 수도 있습니다. 또한 바닥글에 &#39;책임자에게 문의&#39; 링크를 추가하는 기존 방법을 **바닥글 링크** 섹션에서 사용할 수 있습니다. 자세한 내용은 [***바닥글 링크 사용자 지정***](../administrators/feature-summary/settings.md#footer)&#x200B;을 참조하세요.
 
 ### 이 릴리스의 알려진 문제 {#Knownissuesinthisrelease-2}
 
@@ -2612,7 +2664,7 @@ Fluidic Player의 개선 사항은 비디오에만 적용됩니다.
 
 ### 향상된 성능 {#enhancement}
 
-이 업데이트의 일부로 Learning Manager는 끝점 [PATCH/사용자/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!)을 제공합니다./user/patch_users_id) - 응용 프로그램의 사용자를 업데이트합니다. 책임자 역할이라면 이 API 엔드포인트에 접근할 수 있습니다. 이 엔드포인트&#x200B;**&#x200B;** 사용하여 다음과 같은 Learning Manager 사용자 정보를 업데이트할 수 있습니다.
+이 업데이트의 일부로 Learning Manager는 끝점 [PATCH/사용자/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!)을 제공합니다./user/patch_users_id) - 응용 프로그램의 사용자를 업데이트합니다. 책임자 역할이라면 이 API 엔드포인트에 접근할 수 있습니다. 이 엔드포인트**** 사용하여 다음과 같은 Learning Manager 사용자 정보를 업데이트할 수 있습니다.
 
 * 이름
 * 이메일
@@ -3122,7 +3174,7 @@ FTP를 사용한 CSV 자동 업로드 기능의 경우 관리자는 CSV 업로�
 
 **전자 메일 템플릿**
 
-* 외부 그룹을 나타내는 데 사용된 **파트너,**&#x200B;라는 단어,**&#x200B;** is **&#x200B;**&#x200B;이(가) 전자 메일 템플릿 제목과 본문에서 제거되었습니다. 외부 그룹을 반드시 파트너라고 부르지는 않습니다.\
+* 외부 그룹을 나타내는 데 사용된 **파트너,**&#x200B;라는 단어,**** is ****&#x200B;이(가) 전자 메일 템플릿 제목과 본문에서 제거되었습니다. 외부 그룹을 반드시 파트너라고 부르지는 않습니다.\
   **참고:** 기본 템플릿이 이미 수정된 경우에는 이 업데이트된 템플릿이 나타나지 않습니다. 업데이트된 템플릿을 보려면 **템플릿 미리 보기** 대화 상자에서 **을(를) 원본**&#x200B;으로 되돌리기를 클릭합니다.
 
 * **생성된 프로필(자가 등록)**&#x200B;과&#x200B;**생성된 프로필(외부 사용자/파트너)** 전자 메일 템플릿을 편집하면 관리자가 받은 전자 메일에 있는 URL을 클릭할 수 없습니다. 이 문제는 수정되었습니다.

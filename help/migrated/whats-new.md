@@ -2,9 +2,9 @@
 description: Adobe Learning Manager 2025년 10월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다.
 jcr-language: en_us
 title: Adobe Learning Manager 2025년 10월 릴리스의 새로운 기능
-source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '5638'
+source-wordcount: '5573'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,6 @@ Adobe Learning Manager 2025년 10월 릴리스에는 보고 정확도를 개선�
 * 분석 및 마이그레이션을 위한 향상된 API: 새로운 API 및 향상된 API는 더 나은 퀴즈 성능 추적, 마이그레이션 상태 모니터링 및 소셜 학습에서 사용자 태깅 지원을 제공합니다.
 
 ## Experience Builder
-
->[!IMPORTANT]
->
->맞춤형 학습 포털을 만드는 혁신적인 도구인 Experience Builder가 Adobe Learning Manager 2025년 10월 릴리스에 이어 출시될 예정임을 알려 드리게 되어 기쁩니다.
->
->출시일에 가까워지면 추가 업데이트를 기다려주십시오. Experience Builder를 사용하여 학습 포털을 혁신하는 방법을 알아보겠습니다.
->
->질문이나 추가 정보가 필요한 경우 고객 성공 관리자에게 문의하십시오.
 
 Experience Builder는 맞춤화된 학습 포털을 만드는 데 도움이 되는 Adobe Learning Manager의 코드 없는/코드 낮은 도구입니다. 기술 기술이나 광범위한 코딩 지식 없이도 브랜드가 지정된 사용자 친화적인 학습 포털을 디자인할 수 있습니다.
 Experience Builder를 통해 관리자는 페이지, 메뉴 및 위젯을 쉽게 생성하여 대상에 맞는 개인화된 학습 경험을 제공할 수 있습니다.

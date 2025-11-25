@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 강의 인스턴스 및 학습 경로 만들기
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
+source-git-commit: 40cd12c186463517b20017229e44b6864056dedf
 workflow-type: tm+mt
-source-wordcount: '5803'
+source-wordcount: '5832'
 ht-degree: 51%
 
 ---
@@ -355,6 +355,11 @@ PDF에 강사가 보는 것과 동일한 학습자 그룹이 표시됩니다.
 PDF를 다운로드하면 해당 강의 생성 시 사용한 시간대(UTC)를 확인할 수 있습니다.
 
 ## L1 및 L3 피드백 추가 {#addl1andl3feedback}
+
+>[!NOTE]
+>
+>계정에 이 피드백 옵션이 표시되지 않으면 계정이 이미 새로운 L1 피드백 양식으로 업그레이드되었습니다. 자세한 내용은 [L1 피드백 양식](/help/migrated/administrators/feature-summary/l1-feedback-form.md)을 참조하세요.
+
 
 강의를 생성하면서 L1 및 L3 피드백 옵션을 추가할 수 있습니다.
 

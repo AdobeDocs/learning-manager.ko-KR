@@ -2,10 +2,10 @@
 description: Adobe Learning Manager에서 피드백 보고서에 액세스, 다운로드 및 해석하는 방법을 알아봅니다. 보고서 열, 질문 유형, 관리자 및 학습자 응답, 피드백 인사이트가 교육 평가 및 지속적인 개선을 어떻게 지원하는지 이해합니다.
 jcr-language: en_us
 title: Adobe Learning Manager의 피드백 보고서
-source-git-commit: e0553621dd67338d2433bb1f82af43cacc2d8b8c
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 8%
+source-wordcount: '902'
+ht-degree: 7%
 
 ---
 
@@ -32,12 +32,12 @@ Adobe Learning Manager의 피드백 보고서는 학습자가 학습 개체를 �
 ## 피드백 보고서를 다운로드하는 방법
 
 1. 관리자 권한으로 Adobe Learning Manager에 로그인합니다.
-2. 왼쪽 탐색 메뉴에서 **[!UICONTROL 보고서]**&#x200B;를 선택합니다.
+2. 왼쪽 탐색 메뉴에서 **[!UICONTROL 보고서]**를 선택합니다.
    ![](assets/select-report.png)
    _관리자 홈페이지에는 보고서 다운로드를 위해 강조 표시된 보고서 옵션이 표시됩니다_
 
 3. 보고서에서 **[!UICONTROL 사용자 지정 보고서]**&#x200B;를 선택한 다음 **[!UICONTROL Excel 보고서]**&#x200B;를 선택합니다.
-4. **[!UICONTROL 피드백 보고서]**&#x200B;를 선택합니다.
+4. **[!UICONTROL 피드백 보고서]**를 선택합니다.
    ![](assets/select-feedback-report.png)
    _사용자 지정 보고서 섹션은 피드백 보고서를 선택하여 학습자 및 관리자 피드백 데이터에 액세스하는 옵션을 표시합니다_
 
@@ -92,6 +92,16 @@ Adobe Learning Manager의 피드백 보고서는 학습자가 학습 개체를 �
 >[!NOTE]
 >
 >계정 수준 보고서에는 학습자용으로 구성된 활성 필드도 포함됩니다.
+
+## 학습 객체 레벨 보고서 다운로드
+
+학습 객체 레벨 보고서를 다운로드하려면 다음과 같이 하십시오.
+
+1. 관리자 권한으로 Adobe Learning Manager에 로그인합니다.
+2. 왼쪽 탐색 메뉴에서 **[!UICONTROL 과정]**&#x200B;을 선택합니다.
+3. 강의를 선택한 다음 **[!UICONTROL 강의 보기]**&#x200B;를 선택합니다.
+4. **[!UICONTROL L1 피드백]**&#x200B;을 선택합니다.
+5. **[!UICONTROL 보고서 내보내기]**&#x200B;를 선택한 다음 **[!UICONTROL 확인]**&#x200B;을 선택합니다.
 
 학습 객체 레벨 보고서에는 다음 열이 표시됩니다.
 
