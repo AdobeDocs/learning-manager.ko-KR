@@ -32,12 +32,12 @@ Adobe Learning Manager의 피드백 보고서는 학습자가 학습 개체를 �
 ## 피드백 보고서를 다운로드하는 방법
 
 1. 관리자 권한으로 Adobe Learning Manager에 로그인합니다.
-2. 왼쪽 탐색 메뉴에서 **[!UICONTROL 보고서]**를 선택합니다.
+2. 왼쪽 탐색 메뉴에서 **[!UICONTROL 보고서]**&#x200B;를 선택합니다.
    ![](assets/select-report.png)
    _관리자 홈페이지에는 보고서 다운로드를 위해 강조 표시된 보고서 옵션이 표시됩니다_
 
 3. 보고서에서 **[!UICONTROL 사용자 지정 보고서]**&#x200B;를 선택한 다음 **[!UICONTROL Excel 보고서]**&#x200B;를 선택합니다.
-4. **[!UICONTROL 피드백 보고서]**를 선택합니다.
+4. **[!UICONTROL 피드백 보고서]**&#x200B;를 선택합니다.
    ![](assets/select-feedback-report.png)
    _사용자 지정 보고서 섹션은 피드백 보고서를 선택하여 학습자 및 관리자 피드백 데이터에 액세스하는 옵션을 표시합니다_
 
