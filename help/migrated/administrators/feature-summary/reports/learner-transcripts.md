@@ -139,7 +139,7 @@ Adobe Learning Manager의 학습자 성적 증명서는 교육, 규정 준수 �
 | Highest_Quiz_score_max | 이 모듈에 대한 퀴즈에서 받을 수 있는 가장 높은 점수입니다. 학습자가 퀴즈를 풀지 않았거나 콘텐츠에 퀴즈가 없는 경우 비어 있을 수 있습니다. 학습자가 여러 번 시도했을 때 가장 높은 퀴즈 점수 시도와 관련된 최대 점수입니다. 그것은 학습자가 획득한 최고 점수는 아니다. 대신, 그것은 학습자가 가장 높은 점수를 얻은 시도에서 가능한 최대 점수를 캡처한다. |
 | 시도한 횟수 | 학습자가 이 모듈에 지금까지 도전한 총 횟수입니다. |
 | 허용되는 최대 시도 횟수 | 학습자가 이 모듈에 도전할 수 있도록 허용된 최대 횟수입니다. |
-| 제출 의견 | 학습 객체를 완료한 학습자 관리자의 댓글<br>강사가 제공한 제출 의견 데이터는 파일 제출 모듈에 포함되어 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager</a></br>를 참조하세요. |
+| 제출 의견 | 학습 객체를 완료한 학습자 관리자의 댓글<br>강사가 제공한 제출 의견 데이터는 파일 제출 모듈에 포함되어 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager</a></br>를 참조하세요. |
 | 완료 소스 | 학습자의 강의, 학습 경로 또는 인증 완료 여부를 기록하는 기원 또는 방법을 가리킵니다. 이를 통해 관리자는 시스템에서 완료 또는 로그인한 방식을 이해할 수 있습니다. 이 열은 완료를 자체 보고했는지 또는 특정 역할이나 구성으로 촉진했는지 여부를 식별합니다. 참고: VC 커넥터 출석 워크플로우의 경우 학습자가 자동으로 출석으로 표시되면 소스에 &#39;SELF, &lt;learner_email>&#39;이 표시됩니다. |
 | 완료 주석 | 책임자가 강의, 인증 또는 학습 경로를 완료한 후 학습자가 완료로 표시할 때 작성한 주석입니다. 책임자는 한 명 또는 여러 명의 학습자에 대한 완료 주석을 추가할 수 있습니다. |
 
@@ -264,7 +264,7 @@ Adobe Learning Manager의 학습자 성적 증명서는 교육, 규정 준수 �
 
 | 열 | 설명 |
 |---|---|
-| 다음 이후 | 정의된 기간(일) 이전에 스킬을 습득한 학습자 수를 나타내며, 이 기간 이후에는 스킬이 오래되었거나 새로 고침이 필요한 것으로 간주됩니다. 스킬 성취도에 도달했거나 만료된 학습자를 식별하는 데 유용합니다.<br>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/skills-levels"> 스킬 레벨</a>을 참조하세요. |
+| 다음 이후 | 정의된 기간(일) 이전에 스킬을 습득한 학습자 수를 나타내며, 이 기간 이후에는 스킬이 오래되었거나 새로 고침이 필요한 것으로 간주됩니다. 스킬 성취도에 도달했거나 만료된 학습자를 식별하는 데 유용합니다.<br>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels"> 스킬 레벨</a>을 참조하세요. |
 | 이름 | 스킬이 할당된 학습자의 전체 이름 |
 | 관리자 이름 | 학습자의 보고 관리자 이름. |
 | 행 레이블 | 이 행에 나타나는 학습자에게 할당된 특정 스킬 이름 각 스킬 범주 아래에 학습자 스킬 데이터를 요약하는 그룹화 헤더로 사용됩니다. |
