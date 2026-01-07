@@ -3,10 +3,10 @@ description: 기존 LMS를 Adobe Learning Manager LMS로 마이그레이션하�
 jcr-language: en_us
 title: 마이그레이션 설명서
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
+source-git-commit: acef8666ce207fdb81011265814b4d4278da7406
 workflow-type: tm+mt
-source-wordcount: '3850'
-ht-degree: 67%
+source-wordcount: '4438'
+ht-degree: 59%
 
 ---
 
@@ -524,9 +524,117 @@ Box 계정의 *CSV 위치*
 
 조직의 레거시 LMS에서 학습 데이터 및 콘텐츠 마이그레이션을 한 후, 다양한 학습 객체 기능을 사용하여 가져온 데이터와 콘텐츠를 확인할 수 있습니다. 예를 들어 책임자로 Learning Manager에 로그인하여 가져온 모듈과 강의 데이터 및 콘텐츠를 사용할 수 있는지 확인할 수 있습니다.
 
+## API를 사용한 마이그레이션
+
+Adobe Learning Manager(ALM)는 주로 레거시 LMS 플랫폼에서 마이그레이션하는 데 사용되는 외부 시스템의 데이터 또는 콘텐츠를 인제스트하는 마이그레이션 기능을 제공합니다.
+
+그러나 일부 조직에서는 이 프로세스를 일회성 가져오기가 아닌 정규 일정(예: 야간 또는 주간)으로 실행해야 할 수 있습니다.
+
+예를 들어, 가상 고객(NovaFX)이 가상 외부 공급업체(SquareCorp)와 통합되고 예정된 마이그레이션을 자동화하는 방법을 확인할 수 있습니다. 이 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
+
+* SquareCorp 강의가 NovaFX 학습자를 위한 ALM 내의 학습 개체로 나타납니다.
+* NovaFX는 SquareCorp 호스팅 과정에 대한 학습자 진행률을 ALM에서 직접 추적합니다.
+
+### 통합 요구 사항
+
+SquareCorp는 다음을 제공해야 합니다.
+
+* 강의 메타데이터 정보: NovaFX가 액세스할 수 있는 강의 메타데이터를 공유하는 API입니다.
+* 진행률 데이터 정보: 학습자의 진행률 및 완료 정보를 주기적으로 공유하는 API입니다.
+
+### 주요 정의
+
+* **활성 프로젝트:** 프로젝트가 &quot;진행 중&quot; 또는 &quot;초기화됨&quot;인 경우 활성화됩니다.
+* **활성 스프린트:** 스프린트가 &quot;진행 중&quot; 또는 &quot;초기화됨&quot;인 경우 활성화됩니다.
+
+### 스프린트 실행 자동화
+
+일정대로 다음을 수행하는 앱 또는 스크립트를 빌드합니다.
+
+1. SquareCorp에서 과정 메타데이터, 사용자 등록 및 학습자 성적을 가져옵니다.
+2. CSV 파일을 생성합니다.
+3. 파일을 Box 또는 FTP에 업로드합니다.
+4. 마이그레이션 API를 사용하여 스프린트를 트리거합니다.
+
+### API 세부 정보
+
+#### 마이그레이션 실행 시작
+
+**끝점:** POST /primeapi/v2/bulkimport/startrun
+
+매개 변수:
+
+* **lockaccount(부울):** 매개 변수는 실행 시작 시 계정을 잠그는지 여부를 결정합니다. 기본적으로 false로 설정됩니다. 계정을 잠가야 할 정당한 이유가 없으면 이 매개 변수를 사용하지 않는 것이 좋습니다.
+* **카탈로그 ID(정수):** 이 매개 변수를 사용하면 마이그레이션하는 동안 대상 카탈로그를 선택할 수 있습니다. 마이그레이션 프로젝트를 만들 때 설정되지만 개별 실행에 대해 조정할 수 있습니다. 카탈로그 ID가 변경되면 나중에 실행할 때 추가된 학습 객체가 가장 최근에 선택한 카탈로그에 배치됩니다. 마이그레이션 프로젝트를 만드는 동안 선택한 카탈로그로 다시 돌아가야 하는 경우 이 역시 명시적으로 지정해야 합니다.
+* **migrationProjectId(정수):** 계정에서 API 사용 실행이 여러 개 활성화된 경우 특정 마이그레이션 프로젝트를 트리거하기 위해 매개 변수가 필요합니다.
+
+#### 동기화를 시작할 수 있는지 확인
+
+콘텐츠를 스프린트 폴더에 동기화할 수 있는지 확인합니다. 이 API가 성공적인 응답 개체를 반환하지 않는 한 콘텐츠 또는 메타데이터 파일을 FTP 폴더에 복사하지 마십시오.
+
+**끝점:** GET /primeapi/v2/bulkimport/cansync
+
+매개 변수:
+
+* **migrationProjectId(정수)** 계정에서 API 사용 실행이 여러 개 활성화된 경우 특정 마이그레이션 프로젝트를 트리거하기 위해 매개 변수가 필요합니다.
+
+<b>응답 성공</b>
+
+```
+{  
+    "status": "OK",  
+    "title": "BULKIMPORT_CAN_SYNC_NOW",  
+    "source": {  
+        "info": "Yes"  
+    }  
+} 
+```
+
+<b>응답 성공</b>
+
+```
+{ 
+    "status": "BAD_REQUEST", 
+    "title": "BULKIMPORT_ERROR_CANNOT_SYNC", 
+    "source": { 
+        "info": "Error, No active projects" 
+    } 
+} 
+```
+
+<b>가능한 API 응답</b>
+
+| 액션 | 유형 | 메시지 |
+| ------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
+| BULKIMPORT_RUN_INITIATED_SUCCESSFULLY | 성공 | 실행이 시작되었습니다. |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 오류 | 실행이 진행 중입니다. |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 오류 | 하나 이상의 활성 프로젝트가 있습니다. |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 오류 | 스프린트가 두 개 이상 있습니다 |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 오류 | 활성 프로젝트 없음 |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 오류 | 활성 스프린트 없음 |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 오류 | 제공된 카탈로그가 유효한 ID가 아니거나 prime 계정에 속하지 않습니다. |
+| BULKIMPORT_CAN_SYNC_NOW | 정보 | 지금 동기화 가능 |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 오류 | 실행이 진행 중입니다. |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 오류 | 하나 이상의 활성 프로젝트가 있습니다. |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 오류 | 스프린트가 두 개 이상 있습니다 |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 오류 | 활성 프로젝트 없음 |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 오류 | 활성 스프린트 없음 |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 오류 | 폴더에 유효한 파일이 없습니다. |
+
+### 샘플 통합 플로우
+
+1. cansync API를 확인합니다.
+2. CSV 파일을 생성하고 업로드합니다.
+3. startrun API를 사용하여 스프린트를 트리거합니다.
+4. 응답을 모니터링하고 오류를 처리합니다.
+
+### 제한 사항
+
+마이그레이션 API는 스프린트 실행 후 출력 CSV 파일에서 직접 마이그레이션 관련 오류를 확인하는 기능을 제공하지 않습니다. 그러나 이러한 오류는 스프린트 실행 후 통합 관리자 사용자 인터페이스에 액세스하여 CSV 파일 내에서 행으로 검토할 수 있습니다.
+
 ### API를 통한 마이그레이션 확인
 
-새 마이그레이션 API `runStatus`을(를) 사용하면 통합 관리자가 API를 통해 트리거된 마이그레이션 실행의 진행률을 추적할 수 있습니다.
+마이그레이션 API `runStatus`을(를) 사용하면 통합 관리자가 API를 통해 트리거된 마이그레이션 실행의 진행률을 추적할 수 있습니다.
 
 `runStatus` API는 완료된 실행을 위해 오류 로그를 CSV 형식으로 다운로드할 수 있는 직접 링크도 제공합니다. 다운로드 링크는 7일 동안 활성 상태로 유지되며 로그는 1개월 동안 유지됩니다.
 
