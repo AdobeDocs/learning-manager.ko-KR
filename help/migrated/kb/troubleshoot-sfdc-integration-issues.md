@@ -3,13 +3,15 @@ jcr-language: en_us
 title: Adobe Learning Manager과의 Salesforce(SFDC) 통합 문제 해결
 description: 내보내기 실패, SFDC 사용자 정의 개체의 필드 권한 문제, 중요한 SFDC-ALM 호환성 정보 등을 포함하여 Adobe Learning Manager(ALM)과 관련된 일반적인 Salesforce(SFDC) 통합 문제를 해결합니다.
 contentowner: saghosh
-source-git-commit: c57896abd8f00ca4a7b26c981eb490cd53ce437b
+source-git-commit: cedb4acc89e7d972a4752e10c4fb6930c4633f6a
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
+
+# Adobe Learning Manager과의 Salesforce(SFDC) 통합 문제 해결
 
 ## SFDC 내보내기 실패 문제 해결(2~3시간 이상 내보내기 없음)
 
