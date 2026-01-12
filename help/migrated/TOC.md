@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
+source-git-commit: c57896abd8f00ca4a7b26c981eb490cd53ce437b
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 71%
+source-wordcount: '776'
+ht-degree: 70%
 
 ---
 
@@ -198,6 +198,7 @@ ht-degree: 71%
    * [L1 피드백 자동 팝업이 표시되지 않음](kb/l1-feedback-auto-popup-does-not-appear.md)
    * [인증을 생성하는 동안 카탈로그에서 특정 강의를 볼 수 없음](kb/unable-to-view-certain-courses.md)
    * [학습 프로그램을 생성하는 동안 카탈로그에서 특정 강의를 볼 수 없음](kb/unable-view-course-catalog.md)
+   * [Adobe Learning Manager과 Salesforce(SFDC) 통합 문제 해결]&#x200B;(kb/troubleshoot-sfdc-integration-issues.md)
    * [학습 프로그램 중단 문제](kb/issues-retiring-learning-program.md)
    * [배지를 할당할 수 없음](kb/badge-not-assigned.md)
    * [Learning Manager 세션이 만료됨](kb/login-issue.md)
