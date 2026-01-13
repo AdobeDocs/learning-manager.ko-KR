@@ -2,9 +2,9 @@
 title: Experience Builder에서 위젯 추가 및 구성
 description: Adobe Learning Manager 내의 Experience Builder에서 다양한 위젯을 추가, 사용자 정의 및 구성하는 방법을 알아보십시오. 이 안내서에서는 달력, 범주, 준수 상태, 강의 및 경로, 게임화, HTML 콘텐츠, IFrames, 소셜 학습 등과 같이 일반적으로 사용되는 위젯을 다룹니다.
 jcr-language: en-us
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+source-git-commit: 7fe4576e2a90b27f51d035f01a30ce3a818b95c2
 workflow-type: tm+mt
-source-wordcount: '2459'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ ht-degree: 0%
 
 카탈로그 및 권장 구성 방법에 대한 자세한 내용은 [카탈로그](/help/migrated/administrators/feature-summary/catalogs.md) 및 [Recommendations](/help/migrated/recommendations-adobe-learning-manager.md) 문서를 참조하십시오.
 
+<b>참고</b>: 범주 위젯에서 카탈로그를 선택하면 기본적으로 목록이 만든 날짜별로 정렬됩니다. 최근에 생성된 카탈로그가 먼저 표시됩니다.
+
 ### 범주 위젯 추가
 
 금융 서비스 회사의 경우 서로 다른 팀에서 역할별 교육에 액세스해야 하는 경우가 많습니다. 카테고리 위젯을 사용하면 학습 콘텐츠를 명확하고 클릭 가능한 타일로 구성하여 영업팀 및 CSM 팀이 필요한 항목을 더 쉽게 찾을 수 있습니다.
@@ -85,8 +87,8 @@ ht-degree: 0%
 9. **[!UICONTROL 위젯 제목]** 및 **[!UICONTROL 위젯 설명]**&#x200B;을 입력합니다.
 10. **[!UICONTROL 범주 원본]**&#x200B;에서 카탈로그를 검색하고 선택합니다.
 
-    ![](assets/configure-calendar-widget.png)
-    _범주 위젯 옵션을 구성하여 위젯 제목과 설명을 설정하고 범주 소스를 선택합니다_
+   ![](assets/configure-calendar-widget.png)
+   _범주 위젯 옵션을 구성하여 위젯 제목과 설명을 설정하고 범주 소스를 선택합니다_
 
 11. **[!UICONTROL 위젯 추가]**&#x200B;를 선택합니다.
 
@@ -153,7 +155,7 @@ ht-degree: 0%
 
 ![](assets/configure-course-paths.png)
 _책임자가 위젯 제목, 설명을 설정하고 대화형 카드로 표시할 강의 또는 학습 경로를 선택하는 과정 및 경로 위젯_
-&#x200B;11. **[!UICONTROL 위젯 추가]**&#x200B;를 선택합니다.
+11. **[!UICONTROL 위젯 추가]**&#x200B;를 선택합니다.
 
 강의 및 경로 위젯이 페이지에 추가됩니다. 책임자는 다른 위젯을 추가하고 페이지를 게시할 수 있습니다.
 
@@ -182,14 +184,14 @@ Content Box 위젯을 구성하려면 다음을 수행합니다.
 9. **[!UICONTROL 작업 단추 레이블]**&#x200B;에 텍스트를 입력하고 링크를 제공합니다.
 10. 배경 채우기 옵션 중 하나를 선택합니다.
 
-    * **[!UICONTROL 색상]**: 색상 피커에서 색상을 선택하거나 텍스트 필드에 색상 코드를 입력합니다.
-    * **[!UICONTROL 이미지]**: 사진을 찾아 업로드합니다.
+   * **[!UICONTROL 색상]**: 색상 피커에서 색상을 선택하거나 텍스트 필드에 색상 코드를 입력합니다.
+   * **[!UICONTROL 이미지]**: 사진을 찾아 업로드합니다.
 
 11. **[!UICONTROL 콘텐츠 상자 높이]** 옵션을 사용하여 상자 높이를 조정합니다.
 12. 텍스트 서식 옵션을 선택합니다.
 
-    ![](assets/configure-content-box.png)
-    관리자가 제목, 설명, 동작 단추 레이블 및 링크를 입력할 수 있는 _콘텐츠 상자 위젯 사용자 지정 화면_
+   ![](assets/configure-content-box.png)
+   관리자가 제목, 설명, 동작 단추 레이블 및 링크를 입력할 수 있는 _콘텐츠 상자 위젯 사용자 지정 화면_
 
 13. **[!UICONTROL 위젯 추가]**&#x200B;를 선택합니다.
 
