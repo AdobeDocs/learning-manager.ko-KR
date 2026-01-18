@@ -3,10 +3,10 @@ description: 기존 LMS를 Adobe Learning Manager LMS로 마이그레이션하�
 jcr-language: en_us
 title: 마이그레이션 설명서
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: acef8666ce207fdb81011265814b4d4278da7406
+source-git-commit: 8801cee7914c7bea849d47f272b19996a5e28f4d
 workflow-type: tm+mt
-source-wordcount: '4438'
-ht-degree: 59%
+source-wordcount: '4483'
+ht-degree: 58%
 
 ---
 
@@ -27,6 +27,10 @@ Learning Manager는 조직의 통합 책임자가 마이그레이션 작업을 �
 ## 마이그레이션 프로세스 {#apidescription}
 
 마이그레이션에 대한 사전 요구 사항, 마이그레이션 프로세스에 관련된 주요 단계, 마이그레이션 스프린트, 사양, 데이터 및 콘텐츠 마이그레이션 단계는 이 섹션에서 다음과 같이 설명합니다.
+
+### 중요 마이그레이션 자문
+
+마이그레이션 타임라인은 데이터의 품질과 크기에 크게 좌우됩니다. 온보딩 중 마이그레이션이 필요한 경우 미리 이 활동을 계획하고 Adobe Learning Manager 온보딩 팀과 긴밀하게 협력하여 지연을 방지하십시오.
 
 ### 필수 구성 요소 {#prerequisites}
 
