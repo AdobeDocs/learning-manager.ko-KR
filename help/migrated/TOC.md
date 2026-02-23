@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: dd62feee5ad32588fd815c8b86f01935720860ce
+source-git-commit: c7552519ec78a8cec7b8142e5ba3b357694afd18
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '777'
 ht-degree: 70%
 
 ---
@@ -163,6 +163,7 @@ ht-degree: 70%
    * [사용자 알림](learners/feature-summary/user-notifications.md)
    * [공지](learners/feature-summary/announcements.md)
    * [대기자 및 출석자 관리](learners/feature-summary/waitlist-attendance-management.md)
+   * [학습자 AI 지원](learners/feature-summary/ai-buddy.md)
    * [Adobe Learning Manager에서 AI 기반 검색](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Salesforce용 Learning Manager 앱](learners/feature-summary/sfdc-app.md)
    * [Adobe Connect 통합](learners/feature-summary/adobeconnect-integration.md)
