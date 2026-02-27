@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
+source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 70%
+source-wordcount: '784'
+ht-degree: 69%
 
 ---
 
@@ -25,7 +25,8 @@ ht-degree: 70%
    * [릴리스 정보](release-note/release-notes.md)
    * [시스템 요구 사항](system-requirements.md)
    * [Microsoft Teams용 Adobe Learning Manager 앱](adobe-learning-manager-app-microsoft-teams.md)
-   * [Learning Manager는 GDPR을 준수함](kb/prime-gdpr.md)
+   * [Adobe Learning Manager의 GDPR 준수](kb/prime-gdpr.md)
+  <!-- * [Adobe Learning Manager administrative account lifecyle](/help/migrated/alm-administrative-lifecycle.md) -->
    * [Learning Manager의 접근성](accessibility-learning-manager.md)
    * [사용자 정의 도메인 지원](custom-domain.md)
    * [Adobe FTP Manager에서 전환](transition-from-ftp-manager.md)
@@ -147,7 +148,7 @@ ht-degree: 70%
 * 강사 {#instructor}
    * [모듈](instructors/feature-summary/modules.md)
    * [세션 학습자 관리](instructors/feature-summary/learners.md)
-* 학습자 {#learner}
+* Prime에서 {#learner}
    * [로그인](learners/feature-summary/user-login.md)
    * [프로필 설정](learners/feature-summary/settings.md)
    * [카탈로그](learners/feature-summary/catalogs.md)
@@ -163,7 +164,7 @@ ht-degree: 70%
    * [사용자 알림](learners/feature-summary/user-notifications.md)
    * [공지](learners/feature-summary/announcements.md)
    * [대기자 및 출석자 관리](learners/feature-summary/waitlist-attendance-management.md)
-   * [학습자용 AI 지원](learners/feature-summary/ai-buddy.md)
+   * [학습자용 AI 지원](learners/feature-summary/learner-ai-assistant.md)
    * [Adobe Learning Manager에서 AI 기반 검색](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Salesforce용 Learning Manager 앱](learners/feature-summary/sfdc-app.md)
    * [Adobe Connect 통합](learners/feature-summary/adobeconnect-integration.md)
