@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 0e2e87e886e5817546353ade460d1482fab1709a
+source-git-commit: 13b21a8058ccf428f9c6c59cd88ad99a329b7b31
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 69%
+source-wordcount: '796'
+ht-degree: 68%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 69%
    * [시스템 요구 사항](system-requirements.md)
    * [Microsoft Teams용 Adobe Learning Manager 앱](adobe-learning-manager-app-microsoft-teams.md)
    * [Adobe Learning Manager의 GDPR 준수](kb/prime-gdpr.md)
+   * [Adobe Learning Manager 관리 계정 수명 주기](/help/migrated/alm-administrative-lifecycle.md)
+   * [Adobe Learning Manager 보안 관리 안내서](/help/migrated/alm-secure-administration-guide.md)
    * [Learning Manager의 접근성](accessibility-learning-manager.md)
    * [사용자 정의 도메인 지원](custom-domain.md)
    * [Adobe FTP Manager에서 전환](transition-from-ftp-manager.md)
