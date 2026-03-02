@@ -94,7 +94,7 @@ Adobe Learning Manager은 여러 메커니즘을 통해 보안 관련 구성 데
 
 * ALM 작업 API는 CSV 형식으로 사용자 보고서(역할 할당 포함)의 온디맨드 생성을 지원합니다. 이는 외부 규정 준수 또는 SIEM 도구에 의해 예약 및 소비될 수 있습니다.
 
-자세한 내용은 [Adobe Learning Manager- 응용 프로그램 개발자 설명서](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)를 참조하십시오.
+자세한 내용은 [Adobe Learning Manager- 응용 프로그램 개발자 설명서](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual)를 참조하십시오.
 
 ## Adobe Learning Manager에서 보안 관련 설정을 프로그래밍 방식으로 보고 조정할 수 있는 API를 제공합니까?
 
