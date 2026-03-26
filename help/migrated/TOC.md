@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 5682c45a4e5789a3eede53faf7cb257cd9685759
+source-git-commit: 8f9a2f192d778e282c34e874e56ddb7c6875f8bc
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 67%
@@ -36,8 +36,7 @@ ht-degree: 67%
    * [Adobe Learning Manager에서 지원되는 언어](/help/migrated/languages-supported.md)
    * [Adobe Learning Manager에서 API 사용 중단 및 변경 사항](api-deprecations-list.md)
    * [Adobe Learning Manager 추천](recommendations-adobe-learning-manager.md)
-   * [Adobe Learning Manager의 화이트레이블 지정](white-label.md)
-   * [포함된 플레이어 상호 작용 API 설명서](/help/migrated/embedded-player-interaction.md)
+   * [Adobe Learning Manager에서 화이트레이블 지정](white-label.md)
 * 시작하기 {#get-started}
    * [관리자로 시작하기](administrators/feature-summary/getting-started-admin.md)
    * [작성자로 시작](authors/feature-summary/getting-started-author.md)
@@ -135,6 +134,7 @@ ht-degree: 67%
    * [Salesforce용 Learning Manager 앱](integration-admin/feature-summary/sfdc-app.md)
    * [설정](integration-admin/feature-summary/settings.md)
    * [CSV 파일을 통해 사용자 정의 역할 관리](integration-admin/feature-summary/configure-role-csv-files.md)
+   * [포함된 플레이어 상호 작용 API 설명서](/help/migrated/embedded-player-interaction.md)
 * 작성자 {#authors}
    * [사용자 로그인](authors/feature-summary/user-login.md)
    * [콘텐츠 라이브러리](authors/feature-summary/content-library.md)
