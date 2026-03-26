@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: 포함된 플레이어 상호 작용 API 설명서
-description: 포함된 플레이어에서 이벤트를 수신하고 액션을 트리거하는 다양한 API에 대해 알아보십시오
+description: 포함된 Adobe Learning Manager 플레이어에서 이벤트를 듣고 액션을 트리거하는 다양한 API에 대해 알아보십시오
 contentowner: chandrum
 exl-id: 4734ecc1-cc8a-40b0-8997-32a31ec661ec
-source-git-commit: 3d183dc40e4d1962d25160b74d8cf6cfa26e3171
+source-git-commit: 06fdb3aa12af664ba87bbb26b9926991763e3ce9
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 69%
+source-wordcount: '849'
+ht-degree: 70%
 
 ---
 
