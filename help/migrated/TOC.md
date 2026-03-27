@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
+source-git-commit: ac4432a2fda4be4ffde5e58c0f44e623b55703b5
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 65%
@@ -130,7 +130,7 @@ ht-degree: 65%
       * [AEM Sites에 대한 ALM 참조 사이트 패키지](/help/migrated/adobe-learning-manager-integration-aem.md)
       * [AEM으로 Learning Manager 통합](integrate-aem-learning-manager.md)
    * [Learning Manager에서 Salesforce 패키지 설치](integration-admin/feature-summary/install-salesforce-package.md)
-   * [배포 안내서](#deployment-guide)
+   * 배포 안내서 {#deployment-guide}
       * [소개](/help/migrated/deployment-guide/introduction.md)
       * [서드파티 커넥터](/help/migrated/deployment-guide/third-party-connectors.md)
       * [사용자 마이그레이션](/help/migrated/deployment-guide/user-migration.md)
