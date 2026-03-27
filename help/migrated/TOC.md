@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 8f9a2f192d778e282c34e874e56ddb7c6875f8bc
+source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 67%
+source-wordcount: '850'
+ht-degree: 65%
 
 ---
 
@@ -130,17 +130,24 @@ ht-degree: 67%
       * [AEM Sites에 대한 ALM 참조 사이트 패키지](/help/migrated/adobe-learning-manager-integration-aem.md)
       * [AEM으로 Learning Manager 통합](integrate-aem-learning-manager.md)
    * [Learning Manager에서 Salesforce 패키지 설치](integration-admin/feature-summary/install-salesforce-package.md)
+   * [배포 안내서](#deployment-guide)
+      * [소개](/help/migrated/deployment-guide/introduction.md)
+      * [서드파티 커넥터](/help/migrated/deployment-guide/third-party-connectors.md)
+      * [사용자 마이그레이션](/help/migrated/deployment-guide/user-migration.md)
+      * [사용자 설정](/help/migrated/deployment-guide/user-setup.md)
    * [Microsoft Teams 커넥터 설치](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [Salesforce용 Learning Manager 앱](integration-admin/feature-summary/sfdc-app.md)
    * [설정](integration-admin/feature-summary/settings.md)
    * [CSV 파일을 통해 사용자 정의 역할 관리](integration-admin/feature-summary/configure-role-csv-files.md)
    * [포함된 플레이어 상호 작용 API 설명서](/help/migrated/embedded-player-interaction.md)
+   * [Fluidic Player](/help/migrated/integration-admin/feature-summary/fluidic-player.md)
 * 작성자 {#authors}
    * [사용자 로그인](authors/feature-summary/user-login.md)
    * [콘텐츠 라이브러리](authors/feature-summary/content-library.md)
    * [강의 생성, 수정 및 게시](authors/feature-summary/courses.md)
    * [카탈로그](authors/feature-summary/catalogs.md)
    * [작업 지원](authors/feature-summary/job-aids.md)
+   * [iPad 및 Android 태블릿 사용자](authors/feature-summary/ipad-android-tablet-users.md)
    * [Adobe Connect 통합](authors/feature-summary/adobeconnect-integration.md)
    * [다른 로케일로 학습 객체 추가](authors/feature-summary/add-new-language-learning-objects.md)
    * [사용자 알림](authors/feature-summary/user-notifications.md)
@@ -201,7 +208,12 @@ ht-degree: 67%
    * [CSV를 업로드할 수 없음](kb/unable-to-upload-csv.md)
    * [HAR 파일 생성](kb/generate-har-file.md)
    * [L1 피드백 자동 팝업이 표시되지 않음](kb/l1-feedback-auto-popup-does-not-appear.md)
+   * [Outlook과 통합](kb/integration-to-outlook.md)
    * [인증을 생성하는 동안 카탈로그에서 특정 강의를 볼 수 없음](kb/unable-to-view-certain-courses.md)
+   * [Adobe Learning Manager의 SSO 인증](kb/sso-authentication-for-learning-manager.md)
+   * [수정된 템플릿 링크 오류](kb/modified-template-link-error.md)
+   * [강사 역할의 기본 할당](kb/default-allocation-instructor-roles.md)
+   * [Adobe Learning Manager을 사용하여 AEM에서 테마 사용자 정의](kb/customize-theme-aem.md)
    * [학습 프로그램을 생성하는 동안 카탈로그에서 특정 강의를 볼 수 없음](kb/unable-view-course-catalog.md)
    * [Adobe Learning Manager과의 Salesforce(SFDC) 통합 문제 해결](kb/troubleshoot-sfdc-integration-issues.md)
    * [학습 프로그램 중단 문제](kb/issues-retiring-learning-program.md)
