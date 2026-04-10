@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 로그인
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: 291d32a92e4adc44b2da71d980b2ae7261a189a0
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 24%
+source-wordcount: '226'
+ht-degree: 30%
 
 ---
 
@@ -40,6 +40,7 @@ Adobe Learning Manager을 처음 사용할 때 학습자는 계정을 만들어�
 
    <!--
    If you do not have an Adobe ID, [click here](../../../manage-account.md) to learn how to create an Adobe ID.
+   
    -->
 
 1. 활성 필드에 정보를 입력하여 프로필을 완료합니다.
@@ -47,7 +48,7 @@ Adobe Learning Manager을 처음 사용할 때 학습자는 계정을 만들어�
    ![](assets/complete-the-profile.png)
    _프로필 설정을 완료하려면 활성 필드에 정보를 입력하십시오._
 
-1. 또는 Enterprise ID으로 로그인 링크를 클릭하여 Enterprise ID을 사용할 수도 있습니다.
+1. 또는 Enterprise ID 로그인 링크를 클릭하여 Enterprise ID를 사용할 수도 있습니다.
 
 >[!NOTE]
 >

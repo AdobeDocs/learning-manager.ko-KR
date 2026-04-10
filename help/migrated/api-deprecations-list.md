@@ -4,10 +4,10 @@ title: Adobe Learning Manager에서 API 사용 중단
 description: Adobe Learning Manager의 API가 발전함에 따라 API는 주기적으로 재구성되거나 업그레이드됩니다. API가 발전하면 이전 API는 더 이상 사용되지 않으며 결국 제거됩니다. 이 페이지에는 더 이상 사용되지 않는 API 버전에서 보다 안정적이고 새로운 API 버전으로 마이그레이션할 때 알아야 하는 정보가 포함되어 있습니다.
 contentowner: saghosh
 exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
-source-git-commit: 670d0477b246af2a0257e41eca799817e391b348
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 32%
+source-wordcount: '579'
+ht-degree: 34%
 
 ---
 
@@ -15,7 +15,8 @@ ht-degree: 32%
 
 ## Adobe Learning Manager 2024년 3월 릴리스의 API 중단
 
-<!-- ### Changes in Rate Limits
+<!--
+ ### Changes in Rate Limits
 
 With the next release of Adobe Learning Manager, we're restructuring API rate limits for new accounts. For existing accounts, only the Admin APIs will be rate-limited. After 90 days (about 3 months), we will restructure rate limits for all APIs, but existing accounts will be whitelisted according to current usage. Existing accounts need to revisit their learner API usage. 
 
@@ -51,6 +52,7 @@ The following table lists the rate and burst limits for the APIs.
         <td>5</td>
     </tr>
 </table>
+
 -->
 
 ### 오프셋 제한 변경 사항
@@ -59,13 +61,15 @@ The following table lists the rate and burst limits for the APIs.
 
 가져올 레코드가 더 필요하면 **GET 작업** API를 사용하십시오.
 
-<!--### Exclude paths 
+<!--
+### Exclude paths 
 
 At present, Learning Manager APIs follow a graph data structure, which allows you to fetch data by traversing the API model through includes. Even though you could traverse an API up to seven levels, fetching the data using a single API call is computationally expensive. 
 
 We recommend that all existing and new customers make small calls multiple times instead of one large call. This approach will prevent unwanted data from being loaded in the call. 
 
-We want to enforce these restrictions on new accounts and maintain a whitelist of existing accounts.-->
+We want to enforce these restrictions on new accounts and maintain a whitelist of existing accounts.
+-->
 
 #### 더 이상 사용되지 않는 경로
 
@@ -77,9 +81,9 @@ We want to enforce these restrictions on new accounts and maintain a whitelist o
       * instances.loResources.resources
    * 새 패스:
       * enrollment.loInstance.loResources
-      * instances.loResources
+      * instance.loResources
 
-* /learningObjects/{id}
+* /learningObject/{id}
    * 사용되지 않는 경로:
       * enrollment.instances.subLoInstances.learningObject
    * 새 경로:
@@ -87,17 +91,18 @@ We want to enforce these restrictions on new accounts and maintain a whitelist o
 
 * /등록
    * 사용되지 않는 경로:
-      * loInstance.learningObject.enrollment
+      * loInstance.learningObject.등록
    * 새 경로:
       * loInstance.learningObject
 
-* /learningObjects/{id}
+* /learningObject/{id}
    * 사용되지 않는 경로:
       * instance.subLoInstances.learningObject.enrollment.loResourceGrades
    * 새 경로:
       * instance.subLoInstances
 
-<!--### Instance summary count changes 
+<!--
+### Instance summary count changes 
 
 Currently, in the LO summary endpoint, you fetch the number of all possible instances. For example, for a course, you can view the number of enrollments and waitlists in the response for **GET /learningObjects/{loId}/instances/{loInstanceId}/summary**. You can then view the completionCount and enrollmentCount in the response. If the course is a VC or classroom, you can also view its seat limit and waitlist limit. 
 
@@ -107,7 +112,8 @@ In the next release of Adobe Learning Manager, in the LO Instance summary endpoi
 
 >[!NOTE]
 >
->For counts, such as, completionCount, enrollmentCount, seatLimit, and waitlistCount exceeding1000, it's advisable to interpret them as estimates rather than precise figures, as these will be retrieved from cache.-->
+>For counts, such as, completionCount, enrollmentCount, seatLimit, and waitlistCount exceeding1000, it's advisable to interpret them as estimates rather than precise figures, as these will be retrieved from cache.
+-->
 
 ### 이름순으로 정렬
 
@@ -145,7 +151,7 @@ Adobe Learning Manager는 고객 및 파트너가 활성화된 계정에 대한 
 
 Adobe Learning Manager의 이전 릴리스에서는 알림 공지 보고서에 필터가 없습니다. Adobe Learning Manager에서 계정의 모든 알림을 다운로드했습니다.
 
-2023년 11월 릴리스에는 지정된 기간 내에 알림을 다운로드할 수 있는 날짜 필터가 추가되었습니다.  단, 보고서는 지난 6개월 동안만 다운로드할 수 있습니다.
+2023년 11월 릴리스에는 지정된 기간 내에 알림을 다운로드할 수 있는 날짜 필터가 추가되었습니다.  단, 지난 6개월 동안의 보고서만 다운로드할 수 있습니다.
 
 ### GET /사용자 끝점에서 높은 오프셋 값의 사용 중단
 

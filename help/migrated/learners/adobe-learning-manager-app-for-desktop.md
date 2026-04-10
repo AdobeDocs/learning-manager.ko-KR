@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager 데스크탑 응용 프로그램
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 76%
+source-wordcount: '1694'
+ht-degree: 79%
 
 ---
 
@@ -52,7 +52,7 @@ Learning Manager 소셜 학습 웹 페이지에서 새 게시물을 클릭하고
 
    **화면** 모니터 화면에서 수행된 작업을 기록합니다. 화면 아이콘을 선택하면 화면 중심에서 레코드 대화 상자와 함께 화면이 강조 표시됩니다.
 
-   **둘 다**&#x200B;는 내레이터와 화면 동작을 모두 기록합니다. 마지막 아이콘을 선택하면 화면이 강조 표시되고 사용자는 라이브 창을 받습니다.
+   **둘 다**&#x200B;는 내레이터와 화면 동작을 모두 기록합니다. 마지막 아이콘을 선택하면 화면이 강조 표시되며 사용자는 함께 라이브 창을 가져옵니다.
 
 1. 레코딩 환경 설정을 지정합니다.
 
@@ -91,8 +91,10 @@ Learning Manager 소셜 학습 웹 페이지에서 새 게시물을 클릭하고
 1. Learning Manager 데스크탑 응용 프로그램 홈 페이지에서 스크린샷 아이콘을 클릭합니다.
 1. 화면의 일부만 캡처하려면 일부 화면 자르기 아이콘을 클릭합니다. 전체 화면을 캡처하려면 전체 화면 캡처 아이콘을 클릭합니다.
 
-   <!--![](assets/capture-screenshot.png)
-   *Capture a screenshot*-->
+   <!--
+   ![](assets/capture-screenshot.png)
+   *Capture a screenshot*
+   -->
 
 1. 다른 학습자가 프레젠테이션 또는 정적 콘텐트를 더 잘 이해하고 유지하는 데 도움이 되도록 콘텐트에 주석을 추가합니다.
 1. 스크린샷을 편집하려면 [여기를 클릭](adobe-learning-manager-app-for-desktop.md#Editing)하고 스크린샷을 게시하려면 [여기를 클릭](adobe-learning-manager-app-for-desktop.md#Publishing)합니다.
@@ -134,7 +136,7 @@ Learning Manager 소셜 학습 웹 페이지에서 새 게시물을 클릭하고
 
 ## 팬 및 확대/축소(모든 비디오 레코딩) {#panampzoomanyvideorecording}
 
-이동 및 확대/축소 작업은 **둘 다**(웹캠 및 화면) 비디오 녹화에서만 수행할 수 있습니다. 기본적으로 전체 웹캠 또는 화면이 선택되어 있습니다 코너 핸들을 선택하고 드래그하여 표시하거나 포커스를 둘 화면의 부분을 선택합니다. 전체 화면으로 사용할 창을 두 번 클릭합니다.
+이동 및 확대/축소 작업은 **둘 다**(웹캠 및 화면) 비디오 녹화에서만 수행할 수 있습니다. 기본적으로 전체 웹캠 또는 화면이 선택되어 있습니다 코너 핸들을 선택하고 드래그하여 표시하거나 포커스를 둘 화면의 부분을 선택합니다. 전체 화면을 보려면 창을 두 번 클릭합니다.
 
 ![](assets/pan-zoom-artboard10.png)
 *이동 및 확대/축소*
@@ -181,7 +183,7 @@ Learning Manager 소셜 학습 웹 페이지에서 새 게시물을 클릭하고
 
 ## Learning Manager 데스크탑 갤러리 찾아보기 {#browsingcaptivateprimedesktopgallery}
 
-모든 레코딩 및 스크린샷은 Adobe Learning Manager 데스크탑 응용 프로그램에 저장됩니다. 이러한 파일을 찾아보려면 홈 페이지의 왼쪽 탐색 패널에서 **[!UICONTROL 갤러리]**&#x200B;를 클릭하십시오.
+모든 레코딩 및 스크린샷은 Adobe Learning Manager 데스크탑 응용 프로그램에 저장됩니다. 이러한 파일을 찾아보려면 홈 페이지의 왼쪽 탐색 패널에서 **[!UICONTROL 갤러리]**&#x200B;를 클릭합니다.
 
 >[!NOTE]
 >
@@ -197,7 +199,7 @@ Learning Manager 소셜 학습 웹 페이지에서 새 게시물을 클릭하고
 
 Learning Manager의 알림은 학습자가 Learning Manager 웹 응용 프로그램에 로그인했는지 여부와 상관없이 알림 창에 나타납니다. 알림에는 사용자가 생성했거나 팔로우 중이거나 참여한 게시물 또는 게시판이 포함됩니다. 알림을 클릭하면 사용자가 Learning Manager 소셜 학습 웹으로 이동합니다.
 
-알림을 음소거하려면 **[!UICONTROL 프로필 메뉴*]* > &#x200B;** [!UICONTROL 설정] > **[!UICONTROL 알림 음소거]**&#x200B;를 클릭합니다.
+알림을 음소거하려면 **[!UICONTROL 프로필 메뉴*]* > **[!UICONTROL 설정] > **[!UICONTROL 알림 음소거]**&#x200B;를 클릭합니다.
 
 ## Adobe Learning Manager 데스크탑 응용 프로그램의 설정 {#settingsinadobecaptivateprimedesktopapplication}
 

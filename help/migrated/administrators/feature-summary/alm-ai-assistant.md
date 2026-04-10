@@ -2,13 +2,13 @@
 jcr-language: en_us
 title: Adobe Learning Manager의 Admin AI Assistant (Beta)
 description: Adobe Learning Manager Admin AI Assistant(Beta)에 대해 자세히 알아보기
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+exl-id: af3d935b-c158-4a8e-9282-62251d29249c
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '934'
 ht-degree: 1%
 
 ---
-
 
 # Adobe Learning Manager의 Admin AI Assistant (Beta)
 
@@ -20,11 +20,13 @@ Adobe의 AI 기능을 사용하여 학습 콘텐츠와 시스템 워크플로우
 
 이 도우미는 수동 탐색에 대한 의존도를 줄이고 검색 시간을 단축하며 실행 가능한 통찰력을 빠르게 표면화하는 데 도움이 됩니다.
 
-<!--## Key benefits
+<!--
+## Key benefits
 
 * Perform common administrator tasks faster with conversational guidance.
 * Get instant answers without browsing through extensive menus.
-* Gain real-time insights and step-by-step guidance for administrative workflows.-->
+* Gain real-time insights and step-by-step guidance for administrative workflows.
+-->
 
 
 >[!IMPORTANT]
@@ -135,13 +137,13 @@ Adobe은 이 피드백을 사용하여 시간이 지남에 따라 Admin AI Assis
 
 +++
 
-+++모바일 앱에서 사용할 수 있습니까?
++++모바일 앱에서 사용할 수 있습니까?   
 
 지금은 사용할 수 없습니다.
 
 +++
 
-+++관리자 작업을 수행할 수 있습니까?
++++관리자 작업을 수행할 수 있습니까?    
 
 아니요. Admin AI Assistant(Beta)는 지침만 제공합니다.
 

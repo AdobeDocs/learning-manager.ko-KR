@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 관리자 대시보드
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: fc10dcbedf1e91ccff2e0ccbcedb9bf6bbb89c67
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 46%
+source-wordcount: '1507'
+ht-degree: 50%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 46%
 
 *팀 보기에는 팀, 멤버 및 해당 등록이 표시됩니다*
 
-팀 이름(예: Venkatesh&#39;s Team)을 클릭하면 학습 개체에 대한 총 등록 수, 진행 수 및 완료 수와 함께 Venkatesh&#39;s Team의 구성원을 볼 수 있습니다.
+팀 이름, 예를 들어 Venkatesh의 팀을 클릭하면 학습 개체의 등록, 진행률 및 완료에 대한 총 수와 함께 Venkatesh의 팀에 있는 멤버를 볼 수 있습니다.
 
 ![](assets/ls-click-team-names.png)
 
@@ -133,13 +133,14 @@ _전자 메일 학습자_
 보고서를 다운로드하려면 다음 단계를 따르십시오.
 
 1. 관리자 앱에서 **[!UICONTROL 준수 대시보드]** > **[!UICONTROL 팀 보기]**&#x200B;로 이동합니다.
-1. **[!UICONTROL 보고서 다운로드]**&#x200B;를 선택하여 대시보드를 보고서로 저장합니다.
+1. **[!UICONTROL 보고서 다운로드]**를 선택하여 대시보드를 보고서로 저장합니다.
 이를 통해 팀의 전반적인 학습 진행률을 추적할 수 있습니다.
 
 ![](assets/download-report.png)
 _보고서 다운로드_
 
-<!--On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
+<!--
+On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
 
 Learning Objects with completion deadlines can be configured in compliance dashboard for tracking. 
 
@@ -197,7 +198,8 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ![](assets/cs-send-email-andexport.png)
 
-*Export and email data*-->
+*Export and email data*
+-->
 
 ## 팀 스킬 {#teamskills}
 
@@ -213,7 +215,7 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 팀의 스킬 상태를 조회하려면 다음 단계를 따르십시오.
 
-1. 내 팀 보기 섹션 아래의 왼쪽 창에서 **[!UICONTROL 팀 스킬]**&#x200B;을 클릭합니다.
+1. 내 팀 보기 섹션의 왼쪽 창에서 **[!UICONTROL 팀 스킬]**&#x200B;을 클릭합니다.
 1. 표시된 스킬을 보려면 스킬 필터를 클릭하고 드롭다운 목록에서 하나를 선택합니다.
 1. 레벨(레벨 1, 레벨 2, 레벨 3)을 선택하려면 레벨 드롭다운 메뉴를 클릭합니다.
 1. 선택한 스킬 및 레벨에 따라 스킬 상태가 있는 그래프가 표시됩니다. 그래프 위에 마우스를 올려 놓으면 스킬 상태의 다음 백분율을 볼 수 있습니다: **진행 중** 및 **달성됨**.
@@ -232,13 +234,13 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
    *하이퍼링크 구성 선택*
 
-1. 팝업 대화 상자 구성에서 구성하려는 스킬에 대해 **목표 완료율 %** 필드에 백분율 값을 입력하고 **목표 날짜** 필드에 목표 완료율 %를 달성하려는 날짜를 입력합니다.**&#x200B;**
+1. 팝업 대화 상자 구성에서 구성하려는 스킬에 대해 **목표 완료율 %** 필드에 백분율 값을 입력하고 **목표 날짜** 필드에 목표 완료율 %를 달성하려는 날짜를 입력합니다.****
 
    ![](assets/configure-tracker.png)
 
    *목표 완료율 입력*
 
-1. 예측에 대한 결과를 보려면 **예상** 버튼을 클릭합니다. 출력은 아래 스크린샷과 같이 보입니다.
+1. 예측에 대한 결과를 보려면 **예상** 버튼을 클릭합니다. 결과는 아래 스크린샷과 같이 보입니다.
 
    ![](assets/skill-tracker-output.png)
 
