@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: ac4432a2fda4be4ffde5e58c0f44e623b55703b5
+source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 65%
+source-wordcount: '900'
+ht-degree: 62%
 
 ---
 
@@ -14,7 +14,8 @@ ht-degree: 65%
 
 * [Learning Manager 사용자 가이드](user-guide.md)
 * 소개 {#introduction}
-   * [새로운 기능 요약 2025년 10월](/help/migrated/whats-new.md)
+   * [새로운 기능 요약 2026년 4월](/help/migrated/whats-new.md)
+   * [새로운 기능 요약 2025년 10월](/help/migrated/whats-new-october-2025.md)
    * [새로운 기능 요약 2025년 5월](/help/migrated/whats-new-may-2025.md)
    * [새로운 기능 요약 2024년 11월](/help/migrated/whats-new-nov-24.md)
    * [새로운 기능 요약 2024년 7월](whats-new-july-2024.md)
@@ -38,6 +39,7 @@ ht-degree: 65%
    * [Adobe Learning Manager 추천](recommendations-adobe-learning-manager.md)
    * [Adobe Learning Manager에서 화이트레이블 지정](white-label.md)
 * 시작하기 {#get-started}
+   * [OpenID Connect로 Adobe Learning Manager 로그인](/help/migrated/oidc.md)
    * [관리자로 시작하기](administrators/feature-summary/getting-started-admin.md)
    * [작성자로 시작](authors/feature-summary/getting-started-author.md)
    * [학습자로 시작하기](learners/feature-summary/getting-started-learner.md)
@@ -52,6 +54,7 @@ ht-degree: 65%
       * [활성 필드](/help/migrated/administrators/feature-summary/active-fields.md)
    * [강의실 위치 추가](administrators/feature-summary/classroom.md)
    * [강의 인스턴스 및 학습 경로 만들기](administrators/feature-summary/courses.md)
+   * [모듈 액세스 시간 제어](/help/migrated/administrators/feature-summary/module-access-time-control.md)
    * Adobe Learning Manager의 Experience Builder {#experience-builder}
       * [개요](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
       * [Experience Builder의 핵심 구성 요소](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
@@ -68,6 +71,12 @@ ht-degree: 65%
          * [개요](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
          * [Experience Builder 사용자 정의](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
       * [Experience Builder 지침 및 제한 사항](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
+      * [Experience Builder에 로그인하지 않은 경험](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-experience.md)
+   * 설정 {#settings}
+      * [개요](/help/migrated/administrators/feature-summary/settings/settings-overview.md)
+      * [기본 설정](/help/migrated/administrators/feature-summary/settings/basic-settings.md)
+      * [통합 설정](/help/migrated/administrators/feature-summary/settings/integration-settings.md)
+      * [고급 설정](/help/migrated/administrators/feature-summary/settings/advanced-settings.md)
    * 콘텐츠 마켓플레이스 {#content-marketplace}
       * [콘텐츠 마켓플레이스](administrators/feature-summary/content-marketplace.md)
       * [학습 경로에 Go1 과정 큐레이션](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
@@ -75,10 +84,12 @@ ht-degree: 65%
    * [보고서](administrators/feature-summary/reports.md)
    * [그룹 성공 대시보드](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [학습 경로](administrators/feature-summary/learning-paths.md)
+   * [대체 및 동등](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
    * [학습 계획](administrators/feature-summary/learning-plans.md)
    * [Learning Manager 주문 및 청구 정보 관리](administrators/feature-summary/billing-management.md)
    * [작업 지원](administrators/feature-summary/job-aids.md)
    * [인증](administrators/feature-summary/certifications.md)
+   * [인증서 만들기 및 사용자 정의](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
    * [카탈로그](administrators/feature-summary/catalogs.md)
    * [학습자 및 관리자의 대리 로그인](administrators/feature-summary/impersonation-learner-manager.md)
    * [SSO 다중 로그인](administrators/feature-summary/multiple-sso-logins.md)
@@ -92,6 +103,7 @@ ht-degree: 65%
    * [배지](administrators/feature-summary/badges.md)
    * [색상 테마](administrators/feature-summary/themes.md)
    * [학습자 성적 증명서](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
+   * [학습자 성적 증명서의 변경 사항](/help/migrated/administrators/feature-summary/reports/changes-in-learner-transcript.md)
    * [피드백 보고서](/help/migrated/administrators/feature-summary/reports/feedback-report.md)
    * [대기자 및 출석자 관리](administrators/feature-summary/waitlist-attendance-management.md)
    * [Fluidic Player](administrators/feature-summary/fluidic-player.md)
@@ -132,7 +144,6 @@ ht-degree: 65%
    * [Learning Manager에서 Salesforce 패키지 설치](integration-admin/feature-summary/install-salesforce-package.md)
    * 배포 안내서 {#deployment-guide}
       * [소개](/help/migrated/deployment-guide/introduction.md)
-      * [서드파티 커넥터](/help/migrated/deployment-guide/third-party-connectors.md)
       * [사용자 마이그레이션](/help/migrated/deployment-guide/user-migration.md)
       * [사용자 설정](/help/migrated/deployment-guide/user-setup.md)
    * [Microsoft Teams 커넥터 설치](integration-admin/feature-summary/install-microsoft-teams-connector.md)
@@ -202,6 +213,8 @@ ht-degree: 65%
    * [새로운 Experience 리그 공지 사항](/help/migrated/new-experience-league-announcement.md)
    * [Experience League에서 지원 티켓을 제출하는 방법](/help/migrated/how-to-submit-support-ticket.md)
    * [Adobe Learning Manager에서 체험판 계정 만들기](/help/migrated/create-trial-account.md)
+* API 변경 사항 {#api-changes}
+   * [4월 릴리스의 API 변경 사항](/help/migrated/api-changes-alm.md)
 * 기술 자료 {#knowledge-base}
    * [Learning Manager에 로그인할 수 없음](kb/unable-log-in-learning-manager.md)
    * [학습 요약이 현재 데이터에 표시되지 않음](kb/learning-summary-not-display-data.md)
