@@ -2,13 +2,13 @@
 description: Adobe Learning Manager 2026년 4월 릴리스의 API 및 Webhook 변경 사항을 포함한 새로운 기능 및 개선 사항에 대해 알아봅니다.
 jcr-language: en_us
 title: Adobe Learning Manager 2026년 4월 릴리스의 새로운 기능
-source-git-commit: f4ff53bf053b2c8c756961af990505d23ab22db3
+exl-id: da46f186-3ff3-422a-af49-31c7405fd584
+source-git-commit: 971a9c79fc2b831b990e30a44a2eeab5d5c5ce63
 workflow-type: tm+mt
 source-wordcount: '1768'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Learning Manager 2026년 4월 릴리스의 새로운 기능
 
