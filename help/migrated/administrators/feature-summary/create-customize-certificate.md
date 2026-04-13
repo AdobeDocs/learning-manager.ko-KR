@@ -245,7 +245,7 @@ Firefly의 이미지를 사용하려면 Adobe Learning Manager 인스턴스가 F
    *인증서 페이지*
 
 4. 페이지의 오른쪽 상단 영역에서 **새 인증서**&#x200B;를 선택합니다. **새 인증서 만들기** 대화 상자가 열립니다.
-5. 인증서의 표시 방법에 따라 **가로** 또는 **세로**를 선택합니다. 방향을 선택하면 해당 방향에 대해 빈 템플릿과 준비된 템플릿이 표시됩니다.
+5. 인증서의 표시 방법에 따라 **가로** 또는 **세로**&#x200B;를 선택합니다. 방향을 선택하면 해당 방향에 대해 빈 템플릿과 준비된 템플릿이 표시됩니다.
    ![사용자 지정 인증서 만들기](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate3.png)
    *가로 또는 세로 옵션*
 
@@ -254,8 +254,8 @@ Firefly의 이미지를 사용하려면 Adobe Learning Manager 인스턴스가 F
 8. 드롭다운 메뉴에서 기본 언어를 선택합니다.
 9. **만들기**&#x200B;를 선택합니다. 빈 템플릿을 선택하면 인증서 이름 아래에 빈 캔버스가 표시됩니다.
 10. 요소 추가: **텍스트**, **이미지**, **동적 값** 및 **인증서 배경**.
-   ![사용자 지정 인증서 만들기](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
-   *인증서에 요소 추가*
+    ![사용자 지정 인증서 만들기](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
+    *인증서에 요소 추가*
 
 11. **텍스트**&#x200B;의 경우 **서식이 지정된 텍스트** 또는 **텍스트 템플릿**&#x200B;에 콘텐츠를 추가하거나 사용자 지정 텍스트를 추가합니다. 텍스트가 캔버스에 표시됩니다. 텍스트를 선택하면 서식 옵션이 캔버스 위에 표시됩니다. 원하지 않는 콘텐츠를 제거하려면 캔버스의 오른쪽 위 모서리에 있는 **삭제** 아이콘을 선택합니다.
 12. 이미지를 추가하려면 **요소 추가** 옆의 **이미지**&#x200B;를 선택합니다. 컴퓨터에서 이미지를 업로드하거나 범주 목록에서 이미지를 선택합니다.
@@ -263,12 +263,12 @@ Firefly의 이미지를 사용하려면 Adobe Learning Manager 인스턴스가 F
 14. **인증서 배경**&#x200B;을 선택하여 색상 또는 이미지를 적용하세요. Adobe Firefly으로 이미지를 만들려면 **이미지 생성**&#x200B;을 선택하세요.
 15. 프롬프트 필드에서 원하는 내용(최대 100자)을 설명하고 **생성**&#x200B;을 선택합니다. 프롬프트에 따라 4개의 이미지 옵션이 나타납니다.
 16. 원하는 이미지를 선택합니다. 인증서 배경으로 적용됩니다.
-   ![사용자 지정 인증서 만들기](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-   *인증서에 이미지 추가*
+    ![사용자 지정 인증서 만들기](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
+    *인증서에 이미지 추가*
 
-17. 게시하기 전에 인증서를 검토하려면 **미리 보기**를 선택하세요. 이렇게 하면 인증서의 모양을 이해할 수 있습니다.
-   ![사용자 지정 인증서 만들기](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
-   *인증서 미리 보기*
+17. 게시하기 전에 인증서를 검토하려면 **미리 보기**&#x200B;를 선택하세요. 이렇게 하면 인증서의 모양을 이해할 수 있습니다.
+    ![사용자 지정 인증서 만들기](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
+    *인증서 미리 보기*
 
 18. 미리 보기에서 Google Drive에 저장하거나, 다운로드하거나, 인쇄하거나, 주석 또는 문서 속성과 같은 다른 옵션을 사용할 수 있습니다.
 19. **초안으로 저장**&#x200B;을 선택하여 나중에 계속하거나 **Publish**&#x200B;을 선택하여 인증서를 게시합니다. 발행 후 학습자는 구성된 이정표를 충족하면 인증서를 다운로드할 수 있습니다.
@@ -280,7 +280,7 @@ Firefly의 이미지를 사용하려면 Adobe Learning Manager 인스턴스가 F
 1. **구성** 섹션에서 **도전 과제**&#x200B;를 선택합니다. **배지** 페이지가 열립니다.
 2. 왼쪽 탐색 패널에서 **인증서**&#x200B;를 선택합니다. **인증서** 페이지가 열립니다.
 3. 원하는 인증서에 대해 **게시** 또는 **초안** 탭을 선택합니다.
-4. 인증서의 동작 메뉴(**...**)를 열고 **편집**을 선택합니다.
+4. 인증서의 동작 메뉴(**...**)를 열고 **편집**&#x200B;을 선택합니다.
    ![동작 메뉴에서 인증서 편집](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0001.png)
    *드롭다운 메뉴의 편집 옵션*
 
@@ -298,7 +298,7 @@ Firefly의 이미지를 사용하려면 Adobe Learning Manager 인스턴스가 F
 1. **구성** 섹션에서 **도전 과제**&#x200B;를 선택합니다. **배지** 페이지가 열립니다.
 2. 왼쪽 탐색 패널에서 **인증서**&#x200B;를 선택합니다. **인증서** 페이지가 열립니다.
 3. 원하는 인증서에 대해 **게시** 또는 **초안** 탭을 선택합니다.
-4. 인증서의 동작 메뉴(**...**)를 열고 **복제**를 선택합니다.
+4. 인증서의 동작 메뉴(**...**)를 열고 **복제**&#x200B;를 선택합니다.
    ![동작 메뉴에서 인증서 복제](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0002.png)
    *드롭다운 메뉴의 복제 옵션*
 
@@ -316,7 +316,7 @@ Firefly의 이미지를 사용하려면 Adobe Learning Manager 인스턴스가 F
 2. 왼쪽 탐색 패널에서 **인증서**&#x200B;를 선택합니다. **인증서** 페이지가 열립니다.
 3. 원하는 인증서에 대해 **게시** 또는 **초안** 탭을 선택합니다.
 
-4. 인증서의 동작 메뉴(**...**)를 열고 **이름 바꾸기**를 선택합니다.
+4. 인증서의 동작 메뉴(**...**)를 열고 **이름 바꾸기**&#x200B;를 선택합니다.
    ![동작 메뉴에서 인증서 이름 바꾸기](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0003.png)
    *드롭다운 메뉴의 이름 바꾸기 옵션*
 
@@ -335,7 +335,7 @@ Firefly의 이미지를 사용하려면 Adobe Learning Manager 인스턴스가 F
 1. **구성** 섹션에서 **도전 과제**&#x200B;를 선택합니다. **배지** 페이지가 열립니다.
 2. 왼쪽 탐색 패널에서 **인증서**&#x200B;를 선택합니다. **인증서** 페이지가 열립니다.
 3. 원하는 인증서에 대해 **게시** 또는 **초안** 탭을 선택합니다.
-4. 인증서의 동작 메뉴(**...**)를 열고 **삭제**를 선택합니다. Adobe Learning Manager에 확인 메시지가 표시됩니다.
+4. 인증서의 동작 메뉴(**...**)를 열고 **삭제**&#x200B;를 선택합니다. Adobe Learning Manager에 확인 메시지가 표시됩니다.
    ![작업 메뉴에서 인증서 삭제](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0005.png)
    *드롭다운 메뉴의 삭제 옵션*
    ![인증서 삭제 확인](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0006.png)
