@@ -1,1135 +1,1137 @@
 ---
-title: Adobe Learning Manager 2026년 4월 릴리스의 새로운 기능
-description: Adobe Learning Manager 2026년 4월 릴리스의 새로운 기능, 개선 사항 및 중요 업데이트에 대해 알아봅니다.
+title: Adobe Learning Manager의 새로운 소식
+description: Adobe Learning Manager에서 예정된 변경 사항을 살펴보십시오. 최신 업데이트 및 향후 공지 사항을 확인하십시오.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 33f503b69b979bfa962387388b453492a44cac5d
+source-git-commit: 1a374d09b1866d50d8e4001e8fab0ad9b202c587
 workflow-type: tm+mt
-source-wordcount: '20354'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
 
 # Adobe Learning Manager의 업데이트
 
+[2026년 4월 릴리스](/help/migrated/whats-new.md)가 릴리스되었습니다. 현재 예정된 추가 변경 사항은 없습니다. 이 페이지는 새 공지를 사용할 수 있을 때 업데이트됩니다.
+
+<!-- >[!IMPORTANT]
+>
+>The features in this release are available in beta. Functionality and behavior may change before general availability. Share feedback through your usual Adobe support channels.
+
+
+This document summarizes the new features, improvements, and updates in the April 2026 release of Adobe Learning Manager. Use it to plan changes for your organization and understand what's available for learners, administrators, and authors.
+
+**For learners:** The Fluidic Player now shows the next module name and a clear Exit button. Player language can be set via LTI for a consistent experience across platforms. Captivate content includes a unified table of contents, slide-level completion ticks, and reliable notes exports. Multi-language support is available for Job Aids, checklist questions, and video text tracks (VTT). The AI Assistant helps learners get answers within the learning experience.
+
+**For administrators and authors:** The Zoom Connector supports multiple concurrent VILT sessions. Shared courses in peer accounts display the real author instead of "External Author." Admins can restrict when modules can be started. Learning Object expiry dates are exposed in Learner APIs. Checklist modules support weighted scoring, multilingual question text, and optional reviewer comments. Custom certificates offer a drag-and-drop editor with dynamic fields and AI-generated backgrounds. The non-logged-in Experience Builder lets you build public learning pages without requiring login.
+
+**For instructors:** Generate QR codes for instance enrollment and session attendance. Add comments or feedback during checklist evaluation.
+
+**Reporting and analytics:** SCORM content can now report multiple quiz attempts in L2 reporting. Learning time spent calculation is improved in Learner Transcripts. Learning Transcript reports for Administrators are updated. Advanced search enhancements are available.
+
+## Fluidic Player navigation: show the name of the next module 
+
+### Overview
+
+This enhancement was already included in the November 2025 release of Adobe Learning Manager. 
+
+The "Next" action in the player indicates what will happen when clicked by displaying the name of the next module or course and by explicitly signaling when the learner is about to exit the player. 
+
+### What's new
+
+**"Next Module: {ModuleName}" label in the player**
+
+The Next icon in the Fluidic Player now shows the name of the next module in the course. For example, Next Module: Lesson 2- Getting started. 
+
+This applies wherever the learner is moving from one module to the next within the same course. 
+
+**Clear exit action on the last module** 
+
+When the learner is on the last module in a course, a new Exit action button appears, indicating that clicking it will close the player and return them to the course context. 
+
+**Responsive behavior for mobile and PDF content** 
+
+On smaller viewports (for example, ~320 px width), the Next label may be shortened or hidden, showing only the icon, to avoid overlapping with PDF controls. 
+
+For PDF modules, the player adjusts controls to a separate line, so navigation labels and PDF controls don't interfere with each other. 
+
+**Updated Admin > Branding > Player preview** 
+
+The player preview in Admin > Branding now reflects the new label, for example, Next Module: Lesson 2. This allows administrators to see the updated navigation behavior. 
+
+### Key benefits
+
+**Clearer navigation for learners** 
+
+Learners no longer have to guess what will happen when they select "Next." The label clearly specifies what comes next, whether it's a module or a course. This reduction in ambiguity helps alleviate hesitation and confusion, particularly in large customer education audiences where many learners may not be familiar with LMS interfaces. 
+
+**Higher course‑completion rates** 
+
+Clearly stating the next step (Next Module: {ModuleName}) and adding a distinct Exit action for the final module reduces the likelihood of learners abandoning the course or overlooking the last completion step. 
+
+**More predictable user experience across devices** 
+
+The updated labels align with the Next or Previous behavior and icons across desktop, tablet, and mobile. Layout constraints are respected across devices and PDF flows so that controls remain usable and accessible.  
+
+This is particularly important for headless implementations where the Fluidic Player is embedded inside a custom learning experience. 
+
+### Use cases
+
+**Customer and partner education portals (headless or AEM‑integrated)**
+
+Accounts utilizing Adobe Learning Manager in a fully headless setup, directing learners from external marketing channels. These learners: 
+
+* Often consume video content in long sequences. 
+
+* Expect a curriculum‑style experience where the system clearly indicates the next episode/module. 
+
+In these environments, the **Next Module: {ModuleName}** label: 
+
+* Reinforces the guided nature of the journey. 
+
+* Minimizes drop‑off between modules. 
+
+**Compliance and certification courses with ordered modules** 
+
+In regulated or compliance‑heavy scenarios: 
+
+* Learners must complete a strict sequence of modules. 
+
+* Authors often disable TOC to avoid skipping. 
+
+Here, showing **Next Module: {ModuleName}**: 
+
+* Confirms to learners that they are following the correct sequence. 
+
+* Makes it less likely that they misinterpret the Next action and exit early. 
+
+**Learning Paths where courses follow each other** 
+
+Where Learning Paths or equivalents chain multiple courses. This is useful when building curriculum‑style sequences for large audiences. 
+
+**Mobile‑first consumption** 
+
+For learners primarily using phones or tablets: 
+
+* Updated labels and responsive behavior ensure navigation remains understandable without relying on tiny close icons or hidden controls. 
+
+* This is important for customer education, gig workers, or frontline learners who may access content in short sessions on mobile devices. 
+
+## Zoom Connector - create multiple concurrent Zoom sessions
+
+### Overview
+
+The Zoom Connector upgrade enhances how Adobe Learning Manager manages Virtual Instructor-Led Training (VILT). Before, users could only create one Zoom session at a time. With the new update, administrators and authors can schedule multiple Zoom sessions at the same time using standard integration.
+
+### What's new
+
+#### Support for multiple concurrent Zoom sessions via the connector
+
+* The Zoom Connector now allows more than one VILT session at the same date/time to be created from ALM. 
+
+* The scheduling logic no longer enforces a "one Zoom meeting at a time" constraint at the account/connector level. 
+
+* Administrators and authors can configure overlapping VILT sessions (for example, regional classrooms, parallel tracks, or repeated sessions for different partner groups) without workarounds.
+
+#### Meetings are created using the instructor's Zoom identity (not the Zoom super admin) 
+
+To safely support concurrent meetings, the connector has been updated so that: 
+
+* Zoom meetings are now created using the instructor's email address, instead of the Zoom super admin email. 
+
+* Each instructor's Zoom account can host its own meetings in parallel with other instructors, subject to the limits of the existing Zoom plan.
+
+**Note**: 
+
+* Only one instructor per meeting is still supported. 
+
+* If an instructor's email is later updated in Adobe Learning Manager, existing meetings remain associated with the original email used at creation.
+
+#### No more manual Zoom URL pasting for concurrent sessions 
+
+Previously, when a second or third Zoom session had to run at the same time: 
+
+* Authors had to manually create Zoom meetings outside ALM and then paste the Zoom join URL into the course instance configuration. 
+
+* This was error‑prone and did not benefit from connector features like attendance tracking. 
+
+With the updated connector: 
+
+* All sessions can be created directly from the ALM UI using the Zoom Connector, even if they overlap in time. 
+
+* Session lifecycle (creation/cancellation) continues to be managed centrally via integration.
+
+### Key benefits
+
+#### Better VILT scheduling at scale 
+
+Organizations can now: 
+
+* Run multiple Zoom‑based virtual classrooms at the same time (for example, parallel tracks at a virtual summit, regional cohorts, or separate partner training sessions). 
+
+* Avoid bottlenecks that previously forced admins to serialize sessions or rely on manual Zoom management. 
+
+#### Reduced administrator and author overhead 
+
+The enhancement eliminates: 
+
+* Manual creation of Zoom meetings outside of Adobe Learning Manager. 
+
+* Copy‑paste of Zoom URLs into each course instance for overlapping sessions. 
+
+* Risk of mis‑configured links, wrong meetings being attached, or missed attendance tracking. 
+
+Administrators and authors can manage all Zoom sessions from Adobe Learning Manager, using familiar workflows. 
+
+#### Better alignment with Zoom provisioning and instructor roles 
+
+By tying meetings to individual instructor Zoom accounts: 
+
+* Each instructor can operate within their own Zoom license limits. 
+
+* Organizations can use their existing Zoom provisioning model (one account per trainer, per BU, etc.) while still integrating fully with Adobe Learning Manager. 
+
+* It avoids the single‑point bottleneck of using a shared super‑admin Zoom user for all sessions.
+
+### Use cases
+
+#### Multi‑track virtual events and summits 
+
+Customer education teams running large events (for example, product bootcamps, partner summits, or certification weeks) can: 
+
+* Configure multiple Zoom‑based sessions in the same time slot (for different tracks or topics). 
+
+* Manage all of them as VILT modules under Adobe Learning Manager's courses and Learning Paths. 
+
+* Provide learners a unified experience while the connector handles all underlying Zoom meeting creation.
+
+#### Global partner and customer training 
+
+Organizations that train customers and partners across regions can: 
+
+* Run separate Zoom sessions for EMEA, APAC, and Americas at overlapping times to match local working hours. 
+
+* Avoid forcing a single global time slot or manual Zoom setup for additional cohorts. 
+
+#### Internal enablement 
+
+Internal enablement teams (sales, support, and so on) can: 
+
+* Schedule parallel onboarding sessions or role‑based breakouts (for example, separate Zoom rooms for developers, admins, and business stakeholders) in ALM. 
+
+* Keep all sessions within ALM's VILT model for reporting and compliance purposes, rather than partially transitioning to unmanaged Zoom meetings.
+
+## Show original author for shared courses in peer accounts 
+
+### Overview 
+
+When a course is shared through the catalog to a peer account, Adobe Learning Manager currently labels the author as "External Author" in the Learner, Administrator, and Author views of the receiving account. This can create challenges for learners and administrators, particularly in large enterprises, as it becomes difficult to identify and contact the appropriate content owner when issues or questions arise. 
+
+The enhancement ensures that author information is preserved and surfaced for shared courses in peer accounts, rather than being replaced by a generic placeholder.   
+
+### What's new 
+
+Show actual author name for shared courses in peer accounts 
+
+For courses shared via external or peer catalogs, the original author name from the source account is now displayed in the receiving account instead of "External Author". 
+
+This applies to: 
+
+* Learner app (course card or course details). 
+
+* Administrator and author views when previewing as a learner. 
+
+### Key benefits 
+
+#### Direct owner visibility for shared content 
+
+Learners and administrators in peer accounts can now: 
+
+* See who authored the course, even when it is acquired via a shared catalog. 
+
+* Avoid the generic and unhelpful "External Author" label. 
+
+#### More consistent multi‑tenant and peer‑account experience 
+
+For customers running multi‑tenant or extended‑enterprise scenarios: 
+
+* The same course appears with consistent author branding across accounts. 
+
+* The learner experience is aligned with expectations from the primary account (for example, seeing the source account's author name instead of "External Author"). 
+
+### Use cases 
+
+#### Large enterprise with peer accounts 
+
+The enterprise uses ALM with: 
+
+* A main account that owns the canonical courses, and 
+
+* Peer accounts that acquire content via shared catalogs. 
+
+Learners in peer accounts need to know which enterprise team authored a course to route questions or improvement suggestions correctly. 
+
+With this enhancement: 
+
+* Shared courses now display the correct enterprise author's name in peer accounts. 
+
+* The enterprise's internal support load is reduced because learners and local admins know who to contact. 
+
+#### Internal multi‑BU sharing 
+
+Where one business unit curates learning for others: 
+
+* The owning BU can be identified in the author field across all consuming accounts. 
+
+* Local L&D admins can quickly see whether a course is maintained locally or by another BU, and collaborate accordingly.
+
+## Expose Learning Object expiry (auto‑retire) date in Learner APIs 
+
+### Overview 
+
+This enhancement makes the auto‑retire date of a Learning Object (LO) available directly through Adobe Learning Manager's Learner‑facing APIs. When a course, learning path, or certification is configured with an expiry or auto‑retire date, that information is now part of the LO data returned by key Learner endpoints. 
+
+### What's new 
+
+#### New expiry/auto‑retire field in Learner LO APIs 
+
+* The Learner LO APIs (for example, the endpoints that return learning objects to the learner experience and to external platforms) now include the LO expiry date (the auto‑retire date configured for that learning object). 
+
+* This field is returned as part of the LO entity in responses such as: 
+
+   * Get Learning Object (LO details). 
+
+   * LO data used to populate learner home, catalog, and search results. 
+
+* The field complements the existing completionDeadline that already exists at the instance level; the new field is specifically the LO‑level auto‑retire date. 
+
+#### Availability in search‑backed learner experiences 
+
+Because the expiry date is exposed as part of the search‑backed LO representation, it is now available anywhere ALM or an external platform uses: 
+
+* search APIs or 
+
+* search‑driven catalogs and suggestions to construct learner views. 
+
+**Scope and exclusions** 
+
+The enhancement applies to Learner APIs only. 
+
+### Key benefits 
+
+#### Expiry‑aware learner experience in custom LXPs 
+
+For large and medium enterprises, their custom LXP can now obtain LO expiry information directly from ALM, allowing them to: 
+
+* Show "Expiring on {date}" or "Expiring soon" labels on course cards and detail pages. 
+
+* Communicate with urgency more clearly, so learners prioritize training that is about to retire. 
+
+This is particularly important for compliance or time‑bound product training, where learning objects are regularly refreshed, and older versions are retired. 
+
+#### Better guidance for learners on which trainings to take now 
+
+By exposing LO expiry, the learner experience can: 
+
+* Highlight courses that are still valid vs. ones about to be retired. 
+
+* Help learners avoid enrolling in trainings that will no longer be available or valid in the near future. 
+
+#### Consistency with existing completion deadline data 
+
+Previously, learner APIs already exposed instance‑level completionDeadline, but not the LO‑level auto‑retire date. With this change: 
+
+The following aspects of a training are available: 
+
+* "By when must I finish this instance?" (completion deadline). 
+
+* "Until when is this training offered?" (auto‑retire/expiry date). 
+
+### Use cases 
+
+#### A global enterprise with strict course lifecycle management 
+
+Enterprises that regularly retire and replace courses (for example, regulatory, product, or methodology updates) can: 
+
+* Avoid learner confusion about whether a training is being phased out. 
+
+* Drive learners toward the most current, long‑lived offerings. 
+
+Their custom portals and internal tools can now read the expiry date directly from ALM via the Learner APIs. 
+
+#### External customer or partner academies 
+
+For customer and partner education, marketing pages and portals often emphasize up‑to‑date training. 
+
+Having expiry dates in the LO API lets experience builders: 
+
+* Hide or de‑emphasize content that is close to retirement.
+
+* Build "Last chance to complete" campaigns.
+
+## Set restriction on module start time 
+
+### Overview 
+
+The enhancement lets authors and administrators in Adobe Learning Manager define a time window during which learners are allowed to start a module. Outside the configured start/end window, the module remains visible in the course structure, but learners cannot initiate it. 
+
+This capability is critical for users who need tighter control over when certain content becomes available or should stop being initiated, for example, in timed programs, cohort‑based training, or time‑sensitive exercises. 
+
+### What's new 
+
+Authors can now configure, at the module level within a course, a start date/time and end date/time that governs when learners are allowed to launch that module. Within this window, the module behaves as usual; before the start time or after the end time, the learner sees the module in the course outline but cannot start it. 
+
+The configuration appears in the course authoring user interface as additional scheduling controls for specific module types, such as self-paced content, quizzes, or activities. Administrators can use these controls to create modules that open in phases or to prevent late starts in programs where content must be consumed within a defined timeframe. 
+
+#### Key benefits 
+
+The main advantage is the ability to control when modules are accessible. Training teams can synchronize module availability with real-world events, such as new product launches, regulatory deadlines, and internal programs. This ensures that learners complete prerequisite content before they can access later modules. 
+
+For instance, cohort 1 can access module 2 only in week 2, while module 3 will remain locked until week 3, eliminating the need to manually hide and unhide content or create separate course versions. 
+
+This enhances the learner experience: instead of facing modules that can technically be accessed but shouldn't be at that time (or should already be completed), learners see a course structure where the modules they are permitted to start are clearly aligned with the intended schedule. 
+
+#### Use cases 
+
+* **Cohort-based enablement program**: In this program, each week opens a new module. The content for Week 1 is available immediately, while Week 2 is visible but cannot be started until a specified date. Week 3 follows the same gating process. Learners can see the entire learning path, but the system controls when they can actually begin each step. 
+
+* **Time‑bound product or campaign training**: Marketing or product teams may create a training module that should only be accessed while a campaign is active or when a specific version of a product is still available. This designated start window ensures that learners don't begin a module about a discontinued product version after the specified end time. 
+
+* **Assessment or exam environments**: Organizations can open a module (such as a test) for a short, well‑defined window (for example, "you may start the exam anytime between 9:00 and 12:00 on a given date"). Learners cannot begin the exam outside that window, which supports fair scheduling across time zones and cohorts.
+
+## Control player language via custom LTI parameter 
+
+### Overview 
+
+The enhancement allows external platforms using LTI (Learning Tools Interoperability) to specify the language for Adobe Learning Manager content at the time of launch. Instead of depending on the learner to change the language within the Fluidic Player, the LTI consumer can send a language code through a custom LTI parameter. Adobe Learning Manager will then use this code to select the appropriate language variant. 
+
+### What's new 
+
+External platforms that act as LTI consumers can now pass a custom language parameter (and related player settings) when launching ALM content. ALM reads this parameter and: 
+
+* Sets the player language accordingly. 
+
+* Launches the corresponding language variant of the module, when multi‑language content is configured. 
+
+This means a first‑time learner, who selects French on the external platform, will see the ALM player and module launch directly in French, without having to adjust anything inside ALM. 
+
+The enhancement also accommodates scenarios in which the external platform treats ALM as a headless content player. For example, it allows the hiding of navigation elements and the table of contents (TOC) by sending additional custom parameters to adjust certain user interface settings. These settings work in conjunction with the language parameter, enabling the external platform to provide a smooth, branded experience while still utilizing ALM for playback and tracking. 
+
+### Key benefits 
+
+* **Consistent language experience across systems**: When a learner selects a language in the external portal, that choice is immediately reflected in ALM. This ensures that learners don't face any mismatch between the language of the portal and the course. As a result, they won't have to search for a language switch within the player. 
+
+* **Language‑specific reporting**: In their platform, language selection is consistent with ALM, which enhances the accuracy of their analytics and learner tracking. This alignment also supports configurations where ALM's own language controls are intentionally disabled or hidden in the Fluidic Player for specific courses. In these cases, the external platform serves as the single source of truth for language. 
+
+### Use cases 
+
+* A significant use case involves large enterprises utilizing LTI-based integrations. Learners first enroll and select a language on the platform. They then launch ALM training sessions through LTI. With this enhancement, when a learner selects Spanish, the ALM module automatically opens in Spanish. This means that learners don't need to adjust the language settings in ALM. Furthermore, language-based reporting remains consistent with what learners see and experience in ALM. 
+
+* Another application is the delivery of headless course experiences within a customer or partner portal. In this setup, the portal may embed ALM content using an iframe, while all navigation and language user experience (UX) are managed outside of ALM. By utilizing custom LTI parameters, the portal can ensure the ALM player is displayed in the correct language and that any unnecessary user interface elements (such as the table of contents and navigation buttons) are hidden. This allows learners to perceive a single, cohesive application rather than a disjointed collection of tools. 
+
+* This is beneficial for organizations that conduct large-scale training in multiple languages using another LMS or learning platform. They can standardize their use of that platform for managing learner profiles, selecting locales, and presenting catalogs. Meanwhile, ALM serves as a reliable content and tracking engine, respecting the language preferences and user interactions specified by the external system during each LTI launch.
+
+## Checklist question weightage for instructor evaluations 
+
+### Overview 
+
+The enhancement introduces weighted checklists, allowing instructors and managers to evaluate learners using graded scales and total scores, rather than treating each checklist question as equal. The goal is to facilitate checklist creation by implementing weighted evaluations of questions, which allows the reflection of the relative importance of different actions or skills within a single checklist. 
+
+### What's new 
+
+Checklists will support the following types: 
+
+1. Yes/No 
+Behavior remains the same as today: each question is Yes/No and pass criteria are based on the number of "Yes" responses. 
+
+2. Same‑weight questions 
+
+   * Questions are scored on a numeric scale (0–10 by default), where: 
+
+      * The max/min values on the scale are customizable at the checklist level. 
+
+      * The scale can now start at 0 (the previous minimum score was 1). 
+
+   * All questions share the same maximum score, so the checklist behaves as a uniform graded scale for each question. 
+
+3. Different‑weight questions 
+
+   * Each question has its own maximum score (weight). 
+
+   * The passing criteria depend on the percentage of the total possible score that the learner achieves across the checklist (for example, "pass if the learner achieves ≥ 70% of the total available score"). 
+
+For all checklist types: 
+
+* The **Reviewer** (instructor or manager) evaluates the learner according to the configured checklist type: 
+
+   * Selecting Yes/No. 
+
+   * Select scores on the defined scale. 
+
+* The **Checklist** report is updated to include, for questions with different weightage: 
+
+   * The maximum score for each question. 
+
+   * The score achieved by each learner for that question. 
+
+This allows analysis of overall performance and question-specific performance based on the intended weights. 
+
+### Key benefits 
+
+* **Richer, more realistic assessments**: Instructors can reflect real‑world priorities by giving more points to critical behaviors and fewer to minor ones, while still using a checklist workflow suited to observed or practical tasks. 
+
+* **Total‑score‑based pass/fail**: Evaluations can be based on the overall percentage score, not just how many questions pass a threshold, aligning more closely with typical competency or grading schemes. 
+
+* **Better reporting**: Updated checklist reports expose max score and achieved score per question, allowing program owners and quality teams to identify specific weak spots and refine training or evaluation guidance. 
+
+### Use cases 
+
+* **Enterprise skill assessments**: Engineers are assessed via practical, scenario‑based checklists where certain diagnostic or communication steps must carry more weight than cosmetic or low‑risk steps. Weighted questions and total‑score pass criteria make these assessments more credible and predictive of real‑world performance. 
+
+* **Safety and compliance observations**: In healthcare, manufacturing, or field service, critical safety steps can be given higher max scores, ensuring that missing a safety‑critical action has a larger impact on the total score than missing a minor procedural step. 
+
+* **Coaching and calibration**: With max and achieved scores per question in the report, managers can see exactly where learners underperform and calibrate instructors on how to score consistently.
+
+## Checklist with commenting capability for reviewer 
+
+### Overview 
+
+The enhancement introduces a commenting feature for checklist evaluations, allowing reviewers, such as instructors and managers, to provide qualitative feedback alongside the numeric scores. This feedback can be made visible to learners when necessary.  
+
+The goal is to support checklist-based evaluations where mentor feedback is as crucial as the numeric result. This includes highlighting specific strengths, areas for improvement, or providing context for the given score. 
+
+Today, reviewers can: 
+
+* Evaluate a checklist for each learner, question by question. 
+
+* View results and re‑evaluate learners who have failed. 
+
+In real-world scenarios, such as aviation, field trainers assess shop-floor agents and airport staff. Similarly, instructors and mentors in small and medium-sized enterprises (SMEs) often use checklists to evaluate job performance. However, these checklists typically do not include a structured section for capturing narrative feedback related to the evaluation. 
+
+### What's new 
+
+#### Authoring options 
+
+Authors can configure each checklist to: 
+
+* Enable or disable commenting capability for reviewers. 
+
+* Decide whether the reviewer's name should be shown to learners along with comments. 
+
+This allows organizations to tailor comment visibility to their culture and privacy requirements. 
+
+#### Reviewer experience 
+
+When commenting is enabled: 
+
+* Reviewers (instructors/managers) can add optional comments while evaluating a checklist. 
+
+* They can choose whether comments are visible to learners, based on the checklist settings. 
+
+If they re‑evaluate a learner, they can update or change comments to reflect the latest assessment. 
+
+#### Reporting and notifications 
+
+* The Checklist report gains a new column for reviewer's remarks, capturing the comment provided during evaluation. 
+
+* Learners receive notifications (in‑platform and email) whenever a checklist evaluation occurs. These notifications include: 
+
+   * The comment and 
+
+   * The reviewer's name, if those were configured to be visible. 
+
+This ensures feedback is not only stored but actively surfaced to learners. 
+
+### Key benefits 
+
+* **Richer, coach‑like feedback**: Numeric scores are supplemented with contextual remarks, making checklists a more effective tool for coaching, not just compliance. 
+
+* **Traceability and auditability**: Organizations gain a persistent record of who evaluated whom, when, and what they said, which is important in regulated environments and high‑stakes roles. 
+
+* **Better learner engagement**: Learners receive clear guidance linked to specific evaluations, which improves their understanding of expectations and subsequent steps. 
+
+### Use cases 
+
+* Organizations with regulated environments can use comments to document clinical judgment or procedural feedback for staff who are being observed in the field. 
+
+* Aviation and ground‑handling organizations can attach detailed notes on operational performance, safety practices, and customer‑facing behavior, turning a checklist into a structured debrief tool. 
+
+* In mentoring and SME evaluation, instructors can capture nuanced observations that wouldn't fit into a score alone, for example, "handled escalation well but needs to improve time management" or "excellent troubleshooting flow; missed a documentation step."
+
+## Content‑level multiple attempts and quiz reporting 
+
+### Overview 
+
 >[!IMPORTANT]
 >
->이 릴리스의 기능은 Beta에서 사용할 수 있습니다. 기능과 동작은 일반적으로 제공되기 전에 변경될 수 있습니다. 일반적인 Adobe 지원 채널을 통해 피드백을 공유하십시오.
+>Note that the feature will only be available after enabling it in the account. Contact ALM support.
 
 
-이 문서에서는 Adobe Learning Manager 2026년 4월 릴리스의 새로운 기능, 개선 사항 및 업데이트를 요약합니다. 이를 통해 조직의 변경 내용을 계획하고 학습자, 책임자 및 작성자가 사용할 수 있는 기능을 파악할 수 있습니다.
+Presently, ALM supports multiple attempts at the LMS level via the Multiple Quiz Attempt (MQA) feature: 
 
-**학습자용:** 이제 Fluidic Player에 다음 모듈 이름과 명확한 종료 단추가 표시됩니다. 플랫폼 간 일관된 경험을 위해 LTI를 통해 플레이어 언어를 설정할 수 있다. Captivate 내용에는 통합 목차, 슬라이드 수준 완료 틱 및 신뢰할 수 있는 노트 내보내기가 포함됩니다. 다국어 지원은 작업 지원, 체크리스트 질문 및 VTT(비디오 텍스트 트랙)에 사용할 수 있습니다. AI 어시스턴트를 통해 학습자는 학습 경험에서 답을 얻을 수 있습니다.
+* Authors can configure attempts at course level (applied to all quiz‑bearing modules in the course) or at module level (per quiz module). 
 
-**관리자 및 작성자의 경우:** Zoom 커넥터는 여러 개의 동시 VILT 세션을 지원합니다. 피어 계정의 공유 강의에 &#39;외부 작성자&#39; 대신 실제 작성자가 표시됩니다. 관리자는 모듈 시작 시기를 제한할 수 있습니다. 학습 개체 만료 날짜는 학습자 API에 노출됩니다. 체크리스트 모듈은 가중치 점수, 다국어 질문 텍스트 및 선택적 검토자 주석을 지원합니다. 사용자 정의 인증서는 동적 필드와 AI 생성 배경이 있는 드래그 앤 드롭 편집기를 제공합니다. 로그인하지 않은 Experience Builder를 사용하면 로그인하지 않고도 공개 학습 페이지를 구축할 수 있습니다.
+* Attempts can be: 
 
-**강사의 경우:** 인스턴스 등록 및 세션 참석에 대한 QR 코드를 생성합니다. 체크리스트 평가 중 주석 또는 피드백을 추가합니다.
+   * A specific number (for example, 3 attempts), or 
 
-**보고 및 분석:** SCORM 콘텐츠가 이제 L2 보고에서 여러 퀴즈 시도를 보고할 수 있습니다. 학습자 성적 증명서에서 학습 소요 시간 계산 개선 책임자용 학습 성적 증명서 보고서가 업데이트되었습니다. 고급 검색 개선 사항을 사용할 수 있습니다.
+   * Infinite attempts, controlled at LMS level. 
 
-## Fluidic Player 탐색: 다음 모듈의 이름 표시
+* When a learner consumes a module through the Fluidic Player and then closes the player or completes the module, that session is treated as a single LMS attempt. 
 
-### 개요
+* Each LMS attempt is captured in the L2 quiz report as a new row. 
 
-이 개선 사항은 Adobe Learning Manager 2025년 11월 릴리스에 이미 포함되어 있습니다.
+However, if the content file itself (for example, an Articulate SCORM quiz) implements its own multiple‑attempt logic, ALM's L2 quiz report does not currently distinguish or track those internal attempts correctly. 
 
-플레이어의 &quot;다음&quot; 동작은 다음 모듈 또는 강의의 이름을 표시하고 학습자가 플레이어를 종료하려고 할 때 명시적으로 표시하여 클릭 시 발생하는 내용을 나타냅니다.
+This enhancement introduces content-level multiple attempt tracking for quizzes, allowing Adobe Learning Manager to accurately capture each attempt within the content itself in the L2 quiz report. It's designed for situations where the content authoring tool (such as Articulate SCORM) manages quiz attempts independently. With this feature, attempts are correctly reflected in ALM reporting without depending on LMS-level Multiple Quiz Attempt (MQA) settings. 
 
-### 새로운 기능
+### What's new 
 
-플레이어의 **&quot;다음 모듈: {ModuleName}&quot; 레이블**
+#### Author flag for content‑level attempts 
 
-이제 Fluidic Player의 다음 아이콘 에는 강의의 다음 모듈 이름이 표시됩니다. 예를 들어 다음 모듈: 2과 - 시작하기.
+* When uploading content into the Content Library, authors can now indicate that a specific content file has multiple attempts embedded within it. 
 
-이는 학습자가 같은 과정 내에서 한 모듈에서 다음 모듈로 이동하는 모든 경우에 적용됩니다.
+* This is a per‑content setting that tells ALM to treat attempts defined inside the content as the source of truth. 
 
-**마지막 모듈에서 종료 동작 지우기**
+#### Course/module behavior 
 
-학습자가 강의의 마지막 모듈에 있으면 새로운 종료 동작 버튼이 표시되어 플레이어를 닫고 강의 컨텍스트로 돌아온다는 것을 알 수 있습니다.
+When such content is used in a course: 
 
-**모바일 및 PDF 콘텐츠에 대한 반응형 동작**
+* The module will derive its attempts from the content, not from LMS MQA. 
 
-뷰포트가 작은 경우(예: ~320px 폭), PDF 컨트롤과 겹치지 않도록 다음 레이블을 단축하거나 숨겨 아이콘만 표시할 수 있습니다.
+* Learners will see one LMS‑level attempt only: 
 
-PDF 모듈의 경우 플레이어는 컨트롤을 별도의 줄로 조정하므로 탐색 레이블과 PDF 컨트롤이 서로 간섭하지 않습니다.
+   * The course overview and module view does not expose an LMS "re‑attempt" button for that module. 
 
-**업데이트된 관리자 > 브랜딩 > 플레이어 미리 보기**
+   * Attempt handling (for example, re‑tries within the quiz) is governed by the content itself. 
 
-이제 관리자 > 브랜딩의 플레이어 미리 보기에 다음 모듈: 강의 2와 같은 새 레이블이 반영됩니다. 그러면 관리자는 업데이트된 탐색 동작을 볼 수 있습니다.
+#### Reporting 
 
-### 주요 이점
+The L2 quiz report treats each content‑level attempt as a separate attempt row: 
 
-**학습자를 위한 더 명확한 탐색**
+* Each internal quiz attempt configured in the content appears as its own row in the L2 quiz report, like how LMS‑level attempts are represented today. 
 
-학습자가 &#39;다음&#39;을 선택하면 어떻게 될지 더 이상 추측할 필요가 없습니다. 레이블은 모듈이든 강의든 다음에 올 내용을 명확하게 지정합니다. 이러한 모호성 감소는 특히 많은 학습자가 LMS 인터페이스에 익숙하지 않을 수 있는 대규모 고객 교육 대상자에게 망설임과 혼란을 완화하는 데 도움이 됩니다.
+* The format of each row remains the same as existing multi‑attempt rows in L2 reporting (same columns, structure, and semantics). 
 
-**높은 강의 완료율**
+* This gives a consistent reporting experience: 
 
-다음 단계(다음 모듈: {ModuleName})를 명확하게 입력하고 최종 모듈에 대해 뚜렷한 종료 동작을 추가하면 학습자가 과정을 포기하거나 마지막 완료 단계를 무시할 가능성이 줄어듭니다.
+   * Whether attempts are controlled by LMS MQA or by the content, the L2 quiz report shows one row per attempt. 
 
-**여러 장치에서 예측 가능한 사용자 환경**
+#### Key benefits 
 
-업데이트된 레이블은 데스크탑, 태블릿 및 모바일에서 다음 또는 이전 비헤이비어 및 아이콘에 맞춰 정렬됩니다. 레이아웃 제한은 모든 디바이스와 PDF 플로우에 적용되므로 컨트롤을 사용할 수 있고 액세스할 수 있습니다.
+* Accurate attempt history for SCORM quizzes where attempts are controlled internally by tools like Articulate, without forcing LMS‑level MQA configuration on top. 
 
-이는 Fluidic Player가 사용자 정의 학습 환경에 포함된 헤드리스 구현에 특히 중요합니다.
+* Cleaner learner experience: for content‑controlled attempts, learners see a single slot at the LMS level and don't need to interact with LMS re‑attempt controls; all re‑tries are handled within the quiz UI they already know. 
 
-### 사용 사례
+* Flexible architecture: Users can choose whether ALM MQA or content‑level attempts should drive behavior per module, depending on how their content was authored and how they prefer to manage attempts. 
 
-**고객 및 파트너 교육 포털(헤드리스 또는 AEM 통합)**
+* Consistent reporting model: downstream consumers of the L2 quiz report can treat each row as "one attempt," regardless of where the attempt logic originates. 
 
-완전히 헤드리스 설정에서 Adobe Learning Manager을 사용하고 외부 마케팅 채널에서 학습자를 안내하는 계정. 해당 학습자:
+#### Use cases 
 
-* 비디오 컨텐츠를 긴 시퀀스로 사용하는 경우가 많습니다.
+* Organizations using Articulate SCORM can keep self-contained quiz logic within the SCORM package while achieving accurate attempt-level reporting in ALM without extra LMS configuration. 
 
-* 시스템이 다음 에피소드/모듈을 명확하게 나타내는 교육 과정 스타일의 경험을 기대하십시오.
+* Organizations that use vendor-supplied SCORM content can avoid the need to modify or implement additional attempt and retry logic with LMS-level MQA.
 
-이러한 환경에서 **다음 모듈:{ModuleName}** 레이블:
+## Instructor QR codes for instance enrollment and session attendance 
 
-* 여정의 유도성을 강화합니다.
+### Overview 
 
-* 모듈 간 드롭오프를 최소화합니다.
+This enhancement adds the ability for instructors to generate QR codes themselves for: 
 
-**주문한 모듈이 있는 규정 준수 및 인증 과정**
+* Course instance enrollment, 
 
-규제 또는 규정 준수가 많은 시나리오에서:
+* Session attendance, or 
 
-* 학습자는 엄격한 모듈 순서를 완료해야 합니다.
+* Enrollment + attendance together 
 
-* 작성자는 종종 건너뛰지 않도록 목차를 비활성화합니다.
+at the session level. It's designed for situations where learners enter a physical or hybrid classroom and require a quick, self-service option to enroll and record their attendance using a QR code. 
 
-여기, **다음 모듈 표시:{ModuleName}**:
+### What's new 
 
-* 학습자가 올바른 순서를 따르고 있는지 확인합니다.
+#### Instructor‑generated QR codes 
 
-* 다음 동작을 잘못 해석하여 일찍 종료할 가능성을 낮춥니다.
+* Instructors can generate QR codes at the session level for: 
 
-**강의가 서로 팔로우하는 학습 경로**
+   * Enroll in instance: Learners scan to enroll into the instance that includes the current session. 
 
-학습 경로 또는 그와 동등한 항목이 여러 과정을 연결합니다. 이는 대규모 대상자를 위한 교육과정 스타일의 시퀀스를 구축할 때 유용합니다.
+   * Mark session attendance: Learners scan during/after the session to record attendance for that specific session. 
 
-**모바일 우선 사용**
+   * Enroll in instance + mark session attendance : A combined QR for walk‑ins who are not yet enrolled and need their attendance marked in one step. 
 
-휴대폰 또는 태블릿을 주로 사용하는 학습자의 경우:
+* Instructors can export the QR codes they need based on the scenario (enrollment, attendance, or both). 
 
-* 업데이트된 레이블 및 반응형 비헤이비어는 아주 작은 닫기 아이콘이나 숨겨진 컨트롤에 의존하지 않고도 탐색을 이해할 수 있도록 합니다.
+#### QR code packaging 
 
-* 이는 모바일 장치에서 짧은 세션으로 콘텐츠에 액세스할 수 있는 고객 교육, Gig 직원 또는 일선 학습자에게 중요합니다.
+The exported QR code PDF includes: 
 
-## Zoom 커넥터 - 여러 개의 동시 Zoom 세션 생성
+* Course name 
 
-### 개요
+* Instance name 
 
-Zoom 커넥터 업그레이드는 Adobe Learning Manager이 VILT(Virtual Instructor-Led Training)를 관리하는 방식을 개선합니다. 이전에는 사용자가 한 번에 하나의 Zoom 세션만 만들 수 있었습니다. 새로운 업데이트를 통해 관리자와 작성자는 표준 통합을 사용하여 동시에 여러 Zoom 세션을 예약할 수 있습니다.
+* Session name
 
-### 새로운 기능
+These make it easy for instructors and coordinators to identify and print the correct QR code for each session. 
 
-#### 커넥터를 통해 여러 개의 동시 Zoom 세션 지원
+### Key benefits 
 
-* 이제 Zoom 커넥터를 사용하여 ALM에서 동일한 날짜/시간에 둘 이상의 VILT 세션을 생성할 수 있습니다.
+* **Instructor autonomy**: Instructors no longer need to wait for admins to create QR codes. They can generate them directly for each session, improving agility and reducing coordination overhead. 
 
-* 예약 로직은 더 이상 계정/커넥터 레벨에서 &quot;한 번에 하나의 Zoom 회의&quot; 제약을 시행하지 않습니다.
+* **Better classroom logistics**: For walk‑in or on‑site audiences (such as field workers, shop‑floor staff, or external attendees), instructors can manage enrollment and attendance on the spot using QR codes. 
 
-* 관리자와 작성자는 해결 방법 없이 겹치는 VILT 세션(예: 지역별 강의실, 병렬 트랙 또는 여러 파트너 그룹에 대한 반복 세션)을 구성할 수 있습니다.
+* **Reduced admin workload**: Admin teams can focus on configuration and governance instead of handling routine QR code generation requests for every session. 
 
-#### 회의는 강사의 Zoom ID(Zoom 수퍼 관리자 아님)를 사용하여 생성됩니다.
+### Use cases 
 
-동시 모임을 안전하게 지원하기 위해 커넥터가 다음과 같이 업데이트되었습니다.
+* Organizations running large volumes of on‑site sessions (for example, product training for professionals) can enable instructors to print session‑specific QR codes that enroll and mark attendance with one scan. 
 
-* 이제 Zoom 슈퍼 관리자 전자 메일 대신 강사의 전자 메일 주소를 사용하여 Zoom 회의가 생성됩니다.
+* In retail, manufacturing, and healthcare training, where learners often join sessions directly from the floor or without pre-enrollment, an "Enroll + Attendance" QR code can be placed at the door. This allows learners to self-serve their enrollment and attendance via their phones. 
 
-* 각 강사의 Zoom 계정은 기존 Zoom 플랜의 한도에 따라 다른 강사와 병행하여 자체 회의를 진행할 수 있다.
+* Training events for partners or customers allow the on-site trainer to easily adapt to changes in the room, additional sessions, or extra attendees without needing to consult the administrator for new QR codes.
 
-**참고**:
+## Captivate and ALM player improvements 
 
-* 회의 당 한 명의 강사만 계속 지원됩니다.
+### Overview 
 
-* 강사의 이메일이 나중에 Adobe Learning Manager에서 업데이트되면 기존 회의는 생성 시 사용한 원래 이메일과 연결된 상태로 유지됩니다.
+This enhancement improves the experience of playing Adobe Captivate content within the Adobe Learning Manager (ALM) player, particularly following the recent changes to Captivate's architecture. The aim is to allow learners to engage with Captivate modules natively in ALM while ensuring that navigation, completion tracking, and note-taking are clear, consistent, and reliable. 
 
-#### 동시 세션에 대해 수동 확대/축소 URL을 더 이상 붙여넣지 않습니다.
+### What's new 
 
-이전에는 두 번째 또는 세 번째 Zoom 세션을 동시에 실행해야 했던 경우:
+#### Unified TOC experience 
 
-* 작성자는 ALM 외부에서 Zoom 회의를 수동으로 만든 다음 Zoom 조인 URL을 강의 인스턴스 구성에 붙여넣어야 했습니다.
+* Only the ALM TOC is displayed on the left side of the player. 
 
-* 이 기능은 오류가 발생하기 쉬우며 출석 추적과 같은 커넥터 기능의 이점을 얻지 못했습니다.
+* Captivate's own TOC is hidden when the module is played within ALM. 
 
-업데이트된 커넥터 사용:
+* This removes duplication, ensures a single source of truth for navigation, and frees up screen real estate. 
 
-* 모든 세션은 시간이 겹치더라도 Zoom 커넥터를 사용하여 ALM UI에서 직접 만들 수 있습니다.
+#### Visual completion feedback 
 
-* 세션 수명 주기(생성/취소)는 통합을 통해 중앙에서 계속 관리됩니다.
+* The ALM TOC shows green tick marks (or equivalent visual cues) indicating slide‑level completion. 
 
-### 주요 이점
+* As learners progress through Captivate slides, the ALM TOC reflects which slides have been completed, aligning with learner expectations for modern course players. 
 
-#### 규모에 따른 VILT 스케줄링 향상
+#### Contextual progress controls 
 
-이제 조직은 다음을 수행할 수 있습니다.
+* The player controls will adapt based on slide type: 
 
-* 여러 Zoom 기반 가상 강의실을 동시에 실행(예: 가상 서밋에서의 병렬 트랙, 지역 집단 또는 별도의 파트너 교육 세션)
+   * For video slides: 
 
-* 이전에 관리자가 세션을 직렬화하거나 수동 Zoom 관리에 의존하도록 했던 병목 현상을 방지하십시오.
+      * Show a time progress bar, reflecting video playback. 
 
-#### 관리자 및 작성자 부담 감소
+* For non‑video slides: 
 
-향상된 기능은 다음을 제거합니다.
+   * Display slide navigation controls (next/previous slide, etc.) instead of a non‑functional time bar. 
 
-* Adobe Learning Manager 외부에서 Zoom 회의를 수동으로 생성합니다.
+      * This avoids showing irrelevant or non‑working controls on certain slide types. 
 
-* 겹치는 세션에 대해 Zoom URL을 각 강의 인스턴스에 복사 및 붙여넣기합니다.
+#### Streamlined navigation 
 
-* 잘못 구성된 링크, 잘못된 회의 첨부 또는 출석자 추적이 누락될 수 있습니다.
+* The separate module navigation bar (ALM) and course navigation bar is merged into a single, intuitive bar. 
 
-관리자와 작성자는 익숙한 워크플로우를 통해 Adobe Learning Manager에서 모든 확대/축소 세션을 관리할 수 있습니다.
+* This unified navigation: 
 
-#### 확대/축소 프로비저닝 및 강사 역할에 맞게 조정 향상
+   * Clearly distinguishes moving through the Captivate module vs. moving back to course/module level. 
 
-개별 강사 Zoom 계정에 회의를 묶어서:
+   * Reduces confusion caused by multiple bars with overlapping purposes. 
 
-* 각 강사는 자신의 Zoom 라이선스 한도 내에서 운영할 수 있다.
+#### Reliable notes linking 
 
-* 조직은 기존 Zoom 프로비저닝 모델을 사용할 수 있습니다(트레이너당 하나의 계정, BU당 하나의 계정 등). Adobe Learning Manager과 완벽하게 통합됩니다.
+* Notes are linked to slide numbers rather than timestamps. 
 
-* 모든 세션에 대해 공유 수퍼 관리자 Zoom 사용자를 사용하면 단일 지점 병목 현상을 방지할 수 있습니다.
+* This change: 
 
-### 사용 사례
+   * Fixes export failures caused by missing or incorrect timestamps. 
 
-#### 멀티트랙 가상 이벤트 및 정상회담
+   * Ensures notes can be exported consistently as PDFs, with a reliable mapping between notes and the slide context they belong to. 
 
-대규모 이벤트(예: 제품 부트캠프, 파트너 정상회담 또는 인증 주)를 실행하는 고객 교육 팀은 다음을 수행할 수 있습니다.
+### Key benefits 
 
-* 여러 트랙 또는 항목에 대해 동일한 시간 슬롯에서 여러 Zoom 기반 세션을 구성합니다.
+* Cleaner, single‑player experience: Learners interact with one TOC and one navigation model, reducing confusion and cognitive load. 
 
-* Adobe Learning Manager의 과정 및 학습 경로에 따라 모두 VILT 모듈로 관리할 수 있습니다.
+* Accurate completion and progress indications: Slide‑level ticks and contextual controls help learners understand where they are and what's left. 
 
-* 커넥터가 모든 기본 Zoom 회의 생성을 처리하는 동안 학습자에게 통합된 환경을 제공합니다.
+* More reliable note‑taking and exports: By tying notes to slides instead of fragile timestamps, users regain a reliable notes‑to‑PDF workflow, even with slide‑based Captivate content. 
 
-#### 글로벌 파트너 및 고객 교육
+* Preserved author workflow: Authors retain the simplicity of Captivate's direct publish to ALM, while learners get a modern, integrated playback experience without extra authoring burdens. 
 
-지역 전반에 걸쳐 고객과 파트너를 교육하는 조직은 다음을 수행할 수 있습니다.
+### Use cases 
 
-* EMEA, APAC 및 미주에 대해 겹치는 시간에 별도의 확대/축소 세션을 실행하여 현지 근무 시간을 일치시킵니다.
+* Enablement programs that rely on Captivate for interactive simulations can deploy content into ALM, ensuring that navigation, completion tracking, and notes function consistently for learners. 
 
-* 추가 코호트에 대해 단일 글로벌 타임 슬롯이나 수동 확대/축소 설정을 강제로 수행하지 마십시오.
+* Organizations using Captivate as their main content authoring tool can maintain one-click publishing and avoid confusing double TOCs and non-functional controls for learners. 
 
-#### 내부 사용
+* Organizations that rely on notes exported from Captivate content in ALM (for coaching, compliance, or records) can access the following: 
 
-내부 지원팀(영업, 지원 등)은 다음 작업을 수행할 수 있습니다.
+   * Notes link correctly to slides. 
 
-* ALM에서 병렬 온보딩 세션 또는 역할 기반 브레이크아웃(예: 개발자, 관리자 및 비즈니스 관련자를 위한 별도의 Zoom 회의실)을 예약합니다.
+   * PDFs are generated as expected.
 
-* 관리되지 않는 Zoom 회의로 부분적으로 전환하는 대신 보고 및 규정 준수를 위해 ALM의 VILT 모델 내에 모든 세션을 유지합니다.
+## Improved learning time spent calculation in Learner Transcripts
 
-## 피어 계정에서 공유 강의의 원본 작성자 표시
+### Overview
 
-### 개요
+Adobe Learning Manager has revised how it calculates learning time in Learner Transcripts with its April 2026 release. Previously, the reporting logic could lead to inaccurate times if learners left the player open without engaging with the content, causing discrepancies. The new method now tracks active time based on user engagement, specifically when the tab is in focus and when there is user activity. This change results in more accurate data.
 
-카탈로그를 통해 피어 계정으로 강의를 공유하면 Adobe Learning Manager에서는 현재 수신 계정의 학습자, 책임자 및 작성자 보기에서 작성자를 &#39;외부 작성자&#39;로 레이블 지정합니다. 따라서 특히 대기업의 경우 문제나 질문이 발생할 때 적절한 컨텐츠 소유자를 파악하고 연락하기가 어려워짐에 따라 학습자와 관리자에게 많은 문제가 발생할 수 있습니다.
+This update improves reports and dashboards, helping administrators better ensure compliance and track learner progress. After the release, review your Learner Transcripts to see these enhancements.
 
-향상된 기능을 통해 작성자 정보가 일반적인 자리 표시자로 대체되지 않고 피어 계정의 공유 강의에 대해 보존 및 표면화됩니다.
+The updated calculation method focuses on actual engagement, such as active tab focus and recent user interactions, thereby improving the accuracy of time reporting across the following areas:
 
-### 새로운 기능
+* Learner Transcripts (UI)
+* Admin Dashboard metrics
+* Course Enrollment reports
+* APIs and Connectors
 
-피어 계정에서 공유 강의의 실제 작성자 이름 표시
+### What's changed
 
-외부 또는 피어 카탈로그를 통해 공유된 강의의 경우, 이제 원본 계정의 원본 작성자 이름이 &#39;외부 작성자&#39; 대신 수신 계정에 표시됩니다.
+The **Learning Time Spent** column in Learner Transcripts now uses improved logic to calculate time more accurately. Instead of simply tracking player open/close times, the system now distinguishes between active and idle periods based on user engagement.
 
-이는 다음 경우에 적용됩니다.
+* **Active time**: Time when the learner is actively engaged (for example, on the correct tab, performing actions like scrolling or watching video).
+* **Idle time**: Time when the learner is not engaged (for example, tab switched, no activity for 10+ minutes), which is excluded from the total.
 
-* 학습자 앱(강의 카드 또는 강의 세부 정보).
+This applies to most module types, with exceptions for SCORM, Captivate, and XAPI modules, which retain the original logic.
 
-* 학습자로 미리 볼 때 책임자 및 작성자가 확인합니다.
+### How it works
 
-### 주요 이점
+The new calculation varies by module type:
 
-#### 공유 콘텐츠에 대한 직접 소유자 표시
+* **Video and audio modules**: Active when the content is playing, even if the learner switches to another tab. Tab focus is not required for tracking playback time.
+* **Static modules (PDF, PPT, Excel, and so on)**: Active if on the tab and performing activities (mouse movement, scrolling, clicking, keyboard input) within the last 10 minutes. If there is no activity for 10 minutes, it switches to idle.
+* **SCORM and Captivate** retain the original open/close logic.
+* **xAPI** now uses tab‑based active time detection, where time is counted only when the tab is active. Note that AICC content **is not** supported.
+* **HTML, LTI, and Other Content**: May vary; check Learner Transcripts for accuracy.
 
-이제 피어 계정의 학습자와 관리자는 다음을 수행할 수 있습니다.
-
-* 공유 카탈로그를 통해 획득한 경우에도 강의를 작성한 사람을 확인합니다.
-
-* 일반적이고 도움이 되지 않는 &quot;외부 작성자&quot; 레이블은 사용하지 마세요.
-
-#### 보다 일관된 다중 테넌트 및 피어 계정 환경
-
-멀티 테넌트 또는 확장 기업 시나리오를 실행하는 고객의 경우:
-
-* 계정 간에 일관된 작성자 브랜딩과 함께 동일한 강의가 표시됩니다.
-
-* 학습자 경험은 기본 계정의 기대치에 맞춰 조정됩니다(예: &#39;외부 작성자&#39; 대신 소스 계정의 작성자 이름 표시).
-
-### 사용 사례
-
-#### 피어 계정을 보유한 대기업
-
-엔터프라이즈는 다음과 함께 ALM을 사용합니다.
-
-* 정식 과정을 소유한 기본 계정
-
-* 공유 카탈로그를 통해 콘텐츠를 취득하는 피어 계정.
-
-피어 계정의 학습자는 질문을 올바르게 라우팅하거나 개선 사항을 제시하는 강의를 작성한 기업 팀을 알아야 합니다.
-
-향상된 기능:
-
-* 이제 공유 강의가 피어 계정에 올바른 기업 작성자의 이름을 표시합니다.
-
-* 학습자와 로컬 관리자가 연락해야 하는 사용자를 알고 있기 때문에 기업의 내부 지원 부하가 감소합니다.
-
-#### 내부 다중 BU 공유
-
-하나의 사업부에서 다른 사람들을 위해 학습을 선별하는 경우
-
-* 소유 BU는 모든 소비 계정의 작성자 필드에서 식별할 수 있습니다.
-
-* 로컬 L&amp;D 관리자는 강의가 로컬로 유지되는지 다른 BU에서 유지되는지 빠르게 확인하고 그에 따라 공동 작업을 수행할 수 있습니다.
-
-## 학습자 API에 학습 개체 만료(자동 중지) 날짜 표시
-
-### 개요
-
-향상된 기능을 통해 Adobe Learning Manager의 학습자 대면 API를 통해 학습 개체(LO)의 자동 종료 날짜를 바로 사용할 수 있습니다. 강의, 학습 경로 또는 인증이 만료 또는 자동 종료 날짜로 구성된 경우 해당 정보는 이제 주요 학습자 끝점에서 반환하는 LO 데이터의 일부가 됩니다.
-
-### 새로운 기능
-
-#### 학습자 LO API의 새 만료/자동 중지 필드
-
-* 학습자 LO API(예: 학습 개체를 학습자 경험 및 외부 플랫폼으로 반환하는 엔드포인트)에는 이제 LO 만료 날짜(해당 학습 개체에 대해 구성된 자동 중지 날짜)가 포함됩니다.
-
-* 이 필드는 다음과 같은 응답에서 LO 엔티티의 일부로 반환됩니다.
-
-   * 학습 개체(LO 세부 정보) 가져오기.
-
-   * 학습자 홈, 카탈로그 및 검색 결과를 채우는 데 사용되는 LO 데이터입니다.
-
-* 이 필드는 인스턴스 레벨에 이미 있는 기존 completionDeadline을 보완합니다. 새 필드는 특히 LO 수준의 자동 사용 중지 날짜입니다.
-
-#### 검색 지원 학습자 경험 가용성
-
-만료 날짜는 검색 지원 LO 표시의 일부로 표시되므로 이제 ALM 또는 외부 플랫폼이 사용하는 모든 곳에서 사용할 수 있습니다.
-
-* API 또는
-
-* 검색 기반 카탈로그 및 학습자 보기 구성을 위한 제안.
-
-**범위 및 제외**
-
-이 개선 사항은 학습자 API에만 적용됩니다.
-
-### 주요 이점
-
-#### 사용자 정의 LXP의 만료 인식 학습자 경험
-
-대기업과 중기업의 경우, 이제 사용자 정의 LXP가 ALM에서 직접 LO 만료 정보를 얻을 수 있으므로 다음을 수행할 수 있습니다.
-
-* 강의 카드 및 세부 정보 페이지에 &quot;만료 날짜: {date}&quot; 또는 &quot;곧 만료 예정&quot; 레이블을 표시합니다.
-
-* 긴급한 의사소통이 더 명확하게 이루어지면 학습자는 은퇴를 앞둔 교육을 우선적으로 받게 됩니다.
-
-이는 학습 객체가 정기적으로 새로 고쳐지고 이전 버전이 폐기되는 규정 준수 또는 시간 바운드 제품 교육에 특히 중요합니다.
-
-#### 학습자가 지금 수강할 교육에 대한 더 나은 안내
-
-LO 만료가 표시되면 학습자는 다음을 수행할 수 있습니다.
-
-* 아직 유효한 강의와 곧 중단될 강의를 강조 표시합니다.
-
-* 학습자가 가까운 시일 내에 더 이상 사용할 수 없거나 유효하지 않은 교육에 등록하지 않도록 도와주십시오.
-
-#### 기존 완료 마감 시한 데이터와 일관성
-
-이전에는 학습자 API에서 인스턴스 수준 완료 기한을 이미 표시했지만 LO 수준 자동 사용 중지 날짜는 표시되지 않았습니다. 이 변경 사항 적용:
-
-다음과 같은 교육 요소를 사용할 수 있습니다.
-
-* &quot;언제까지 이 인스턴스를 완료해야 합니까?&quot; (완료 기한).
-
-* &quot;이 교육은 언제까지 제공됩니까?&quot; (자동 사용 중지/만료 날짜).
-
-### 사용 사례
-
-#### 엄격한 과정 수명주기 관리를 갖춘 글로벌 기업
-
-정기적으로 강의를 중단하거나 교체하는 기업(예: 규정, 제품 또는 방법 업데이트)은 다음을 수행할 수 있습니다.
-
-* 교육이 단계적으로 중단되는지 여부에 대해 학습자의 혼란을 피하십시오.
-
-* 학습자를 최신 장수 제품으로 유도합니다.
-
-이제 사용자 정의 포털 및 내부 도구가 학습자 API를 통해 ALM에서 직접 만료 날짜를 읽을 수 있습니다.
-
-#### 외부 고객 또는 파트너 아카데미
-
-고객 및 파트너 교육의 경우 마케팅 페이지와 포털에서 최신 교육을 강조하는 경우가 많습니다.
-
-LO API에 만료 날짜가 있으면 빌더를 경험할 수 있습니다.
-
-* 은퇴가 임박한 콘텐츠를 숨기거나 비강조합니다.
-
-* &quot;완료할 수 있는 마지막 기회&quot; 캠페인 구축.
-
-## 모듈 시작 시간에 대한 제한 설정
-
-### 개요
-
-이 향상된 기능을 통해 Adobe Learning Manager의 작성자와 관리자는 학습자가 모듈을 시작할 수 있는 시간 창을 정의할 수 있습니다. 구성된 시작/종료 창 외부에서 모듈은 강의 구조에 계속 표시되지만 학습자는 시작할 수 없습니다.
-
-이러한 기능은 특정 컨텐츠를 사용할 수 있는 시기를 엄격하게 제어해야 하거나, 시간 경과 프로그램, 코호트 기반 교육, 시간에 민감한 연습 등 시작이 중지되어야 하는 사용자에게 매우 중요합니다.
-
-### 새로운 기능
-
-작성자는 이제 강의 모듈 수준에서 학습자가 해당 모듈을 실행할 수 있는 시기를 통제하는 시작 날짜/시간 및 종료 날짜/시간을 구성할 수 있습니다. 이 창 내에서 모듈은 평소와 같이 작동합니다. 시작 시간 이전 또는 종료 시간 이후에 학습자는 강의 개요에 모듈을 볼 수 있지만 시작할 수 없습니다.
-
-구성은 과정 작성 사용자 인터페이스에 자가 진행식 콘텐츠, 퀴즈 또는 활동과 같은 특정 모듈 유형에 대한 추가 스케줄링 컨트롤로 나타납니다. 관리자는 이러한 컨트롤을 사용하여 단계적으로 열리는 모듈을 만들거나 정의된 기간 내에 콘텐츠를 소비해야 하는 프로그램에서 늦게 시작하는 것을 방지할 수 있습니다.
-
-#### 주요 이점
-
-주요 이점은 모듈에 액세스할 수 있는 시점을 제어하는 기능입니다. 교육 팀은 모듈 가용성과 새로운 제품 출시, 규정 기한 및 내부 프로그램과 같은 실제 이벤트를 동기화할 수 있습니다. 이렇게 하면 학습자가 이후 모듈에 액세스하기 전에 사전 요구 사항 콘텐츠를 완료하게 됩니다.
-
-예를 들어 코호트 1은 2주차에만 모듈 2에 액세스할 수 있고, 모듈 3은 3주차까지 잠긴 상태로 유지되므로 콘텐츠를 수동으로 숨기거나 표시하지 않거나 별도의 강의 버전을 만들 필요가 없습니다.
-
-이렇게 하면 학습자의 학습 환경이 향상됩니다. 기술적으로 액세스할 수 있지만 해당 시간에 진행해서는 안 되는(또는 이미 완료해야 하는) 모듈을 마주보는 대신, 학습자는 시작할 수 있도록 허용된 모듈이 의도된 일정에 명확하게 정렬되는 강의 구조를 볼 수 있습니다.
-
-#### 사용 사례
-
-* **코호트 기반 사용 프로그램**: 이 프로그램에서 매주 새 모듈이 열립니다. 1주차에 대한 콘텐츠는 즉시 사용할 수 있지만 2주차는 볼 수 있지만 지정된 날짜까지 시작할 수 없습니다. 3주차는 동일한 게이팅 과정을 따른다. 학습자는 전체 학습 경로를 볼 수 있지만, 각 단계를 실제로 시작할 수 있는 시기는 시스템에서 제어합니다.
-
-* **시간 제한 제품 또는 캠페인 교육**: 마케팅 또는 제품 팀은 캠페인이 활성 상태이거나 특정 버전의 제품을 계속 사용할 수 있는 경우에만 액세스해야 하는 교육 모듈을 만들 수 있습니다. 이렇게 지정된 시작 창을 사용하면 학습자가 지정된 종료 시간 이후에 중단된 제품 버전에 대한 모듈을 시작하지 않도록 할 수 있습니다.
-
-* **평가 또는 시험 환경**: 조직은 짧고 잘 정의된 기간에 대해 모듈(예: 시험)을 열 수 있습니다(예: &quot;지정된 날짜에 9:00~ 12:00 사이에 언제든지 시험을 시작할 수 있습니다&quot;). 학습자는 해당 기간 외에는 시험을 시작할 수 없으며, 이는 시간대와 집단 전체에 걸쳐 공정한 스케줄링을 지원합니다.
-
-## 사용자 정의 LTI 매개 변수를 통해 플레이어 언어 제어
-
-### 개요
-
-이 향상된 기능을 통해 외부 플랫폼에서 LTI(Learning Tools Interoperability)를 사용하여 실행 시 Adobe Learning Manager 콘텐츠에 대한 언어를 지정할 수 있습니다. Fluidic Player에서 언어를 변경하는 학습자에 의존하는 대신 LTI 소비자는 사용자 정의 LTI 매개 변수를 통해 언어 코드를 전송할 수 있습니다. 그러면 Adobe Learning Manager에서 이 코드를 사용하여 적절한 언어 변형을 선택합니다.
-
-### 새로운 기능
-
-LTI 소비자 역할을 하는 외부 플랫폼은 이제 ALM 콘텐츠를 실행할 때 사용자 정의 언어 파라미터(및 관련 플레이어 설정)를 전달할 수 있다. ALM은 이 매개 변수를 읽고 다음을 수행합니다.
-
-* 플레이어 언어를 적절하게 설정합니다.
-
-* 다국어 콘텐츠가 구성된 경우 모듈의 해당 언어 변형을 실행합니다.
-
-즉, 외부 플랫폼에서 프랑스어를 선택하는 처음 학습자가 ALM 내부의 어떤 조정도 수행하지 않고 프랑스어로 직접 ALM 플레이어와 모듈이 실행되는 것을 보게 됩니다.
-
-이 개선은 또한 외부 플랫폼이 ALM을 헤드리스 콘텐츠 플레이어로 취급하는 시나리오도 수용합니다. 예를 들어 특정 사용자 인터페이스 설정을 조정하기 위해 추가 사용자 정의 매개 변수를 전송하여 탐색 요소와 목차(TOC)를 숨길 수 있습니다. 이러한 설정은 언어 매개 변수와 함께 작동하므로 외부 플랫폼에서 재생 및 추적에 ALM을 계속 사용하면서 부드럽고 브랜디드 경험을 제공할 수 있습니다.
-
-### 주요 이점
-
-* **여러 시스템에서 일관된 언어 경험**: 학습자가 외부 포털에서 언어를 선택하면 해당 선택이 ALM에 즉시 반영됩니다. 이렇게 하면 학습자가 포털과 강의 언어가 일치하지 않을 수 있습니다. 따라서 플레이어 내에서 언어 전환을 검색할 필요가 없습니다.
-
-* **언어별 보고**: 해당 플랫폼에서 언어 선택은 ALM과 일치하여 분석 및 학습자 추적의 정확성을 향상시킵니다. 또한 이 정렬은 ALM의 자체 언어 컨트롤이 특정 강의의 Fluidic Player에서 의도적으로 비활성화되거나 숨겨지는 구성도 지원합니다. 이러한 경우, 외부 플랫폼은 언어에 대한 단일 진리의 원천으로서 역할을 한다.
-
-### 사용 사례
-
-* LTI 기반 통합을 활용하는 대기업이 주요 활용 사례로 꼽힌다. 학습자는 먼저 플랫폼에서 언어를 등록 및 선택합니다. 그런 다음 LTI를 통해 ALM 교육 세션을 시작합니다. 향상된 기능을 통해 학습자가 스페인어를 선택하면 ALM 모듈이 자동으로 스페인어로 열립니다. 즉, 학습자가 ALM에서 언어 설정을 조정할 필요가 없습니다. 더 나아가, 언어 기반 보고는 학습자가 ALM에서 보고 경험하는 것과 일관성을 유지한다.
-
-* 또 다른 응용 프로그램은 고객 또는 파트너 포털 내에서 헤드리스 강의 환경을 제공하는 것입니다. 이 설정에서는 포털이 iframe을 사용하여 ALM 콘텐츠를 포함할 수 있지만 모든 탐색 및 언어 사용자 경험(UX)은 ALM 외부에서 관리됩니다. 포털은 사용자 정의 LTI 매개 변수를 활용하여 ALM 플레이어가 올바른 언어로 표시되도록 하고 불필요한 사용자 인터페이스 요소(목차 및 내비게이션 단추 등)가 숨겨지도록 할 수 있습니다. 이를 통해 학습자들은 단절된 도구의 집합보다는 하나의 응집력 있는 응용을 지각할 수 있다.
-
-* 이는 다른 LMS나 학습 플랫폼을 사용하여 다국어로 대규모 교육을 실시하는 조직에 유용합니다. 학습자 프로필 관리, 로케일 선택, 카탈로그 프레젠테이션 등에 해당 플랫폼을 사용하는 것을 표준화할 수 있습니다. 한편, ALM은 각 LTI 출시 동안 외부 시스템에서 지정한 언어 환경 설정 및 사용자 상호 작용을 존중하는 안정적인 콘텐츠 및 추적 엔진 역할을 합니다.
-
-## 강사 평가를 위한 체크리스트 질문 가중치
-
-### 개요
-
-개선 사항은 가중치 체크리스트를 도입해 교수자와 관리자가 각 체크리스트 문항을 동일하게 취급하지 않고 점수를 매긴 척도와 총점을 이용해 학습자를 평가할 수 있도록 했다. 목표는 문항에 대한 가중치 평가를 구현해 체크리스트 생성을 촉진하는 것으로, 하나의 체크리스트 내에서 서로 다른 행동이나 기술의 상대적 중요성을 반영할 수 있다.
-
-### 새로운 기능
-
-체크리스트는 다음 유형을 지원합니다.
-
-1. 예/아니요
-동작은 오늘과 동일하게 유지됩니다. 각 질문은 예/아니오이며 합격 기준은 &quot;예&quot; 응답 수를 기준으로 합니다.
-
-2. 동일한 수준의 질문
-
-   * 질문은 숫자 척도(기본적으로 0~10)로 채점됩니다. 여기서,
-
-      * 스케일의 최대/최소 값은 체크리스트 수준에서 사용자 정의할 수 있습니다.
-
-      * 이제 스케일은 0에서 시작할 수 있습니다(이전의 최소 점수는 1이었습니다).
-
-   * 모든 문항이 동일한 최대 점수를 공유하므로 체크리스트는 각 문항에 대해 균일한 점수를 주는 척도로 작동합니다.
-
-3. 다양한 두께의 질문
-
-   * 각 문항은 고유한 최대 점수(가중치)를 가집니다.
-
-   * 합격 기준은 체크리스트에서 학습자가 달성하는 가능한 총 점수의 비율에 따라 다릅니다(예: &quot;학습자가 사용 가능한 총 점수≥ 70%를 달성하는 경우 합격&quot;).
-
-모든 체크리스트 유형의 경우:
-
-* **검토자**(강사 또는 관리자)은 구성된 체크리스트 유형에 따라 학습자를 평가합니다.
-
-   * 예/아니요 선택
-
-   * 정의된 범위에서 점수를 선택합니다.
-
-* **체크리스트** 보고서가 다른 가중치가 있는 질문의 경우 다음을 포함하도록 업데이트되었습니다.
-
-   * 각 질문의 최대 점수입니다.
-
-   * 해당 질문에 대한 각 학습자의 점수
-
-이를 통해 의도한 가중치를 바탕으로 전체적인 성과와 질문별 성과를 분석할 수 있다.
-
-### 주요 이점
-
-* **더 풍부하고 현실적인 평가**: 강사는 관찰된 작업이나 실제적인 작업에 적합한 체크리스트 워크플로우를 사용하면서 중요한 동작에 더 많은 점수를 주고 사소한 동작에 더 적은 점수를 줌으로써 실제 우선 순위를 반영할 수 있습니다.
-
-* **총 점수 기반 합격/불합격**: 평가는 임계값을 통과한 질문의 수뿐만 아니라 전체 백분율 점수를 기반으로 할 수 있으며 일반적인 역량 또는 등급 체계와 더 가깝게 정렬됩니다.
-
-* **보고 개선**: 업데이트된 체크리스트 보고서를 통해 최대 점수와 질문당 달성된 점수를 표시하므로 프로그램 소유자와 품질 팀이 특정 취약점을 식별하고 교육 또는 평가 지침을 개선할 수 있습니다.
-
-### 사용 사례
-
-* **엔터프라이즈 기술 평가**: 엔지니어는 특정 진단 또는 커뮤니케이션 단계가 미용 또는 위험 수준이 낮은 단계보다 더 많은 비중을 차지해야 하는 실용적이고 시나리오 기반의 체크리스트를 통해 평가됩니다. 가중치 질문과 총 점수 합격 기준은 이러한 평가를 더욱 신뢰할 수 있고 실제 성과를 예측하게 한다.
-
-* **안전 및 규정 준수 관찰**: 의료, 제조 또는 현장 서비스에서는 중요한 안전 단계에 최대 점수를 더 높게 부여할 수 있으므로, 안전상 중요한 조치를 누락하는 것이 사소한 절차 단계를 누락하는 것보다 총 점수에 더 큰 영향을 미치도록 합니다.
-
-* **코칭 및 보정**: 보고서에서 질문당 최대 및 달성된 점수를 통해 관리자는 학습자가 부족한 부분을 정확하게 확인하고 강사를 보정하여 일관되게 점수를 매길 수 있습니다.
-
-## 검토자를 위한 주석 달기 기능이 있는 체크리스트
-
-### 개요
-
-이번 개선에서는 체크리스트 평가를 위한 주석 달기 기능이 도입되어 강사 및 관리자 등 검토자들이 숫자 점수와 함께 질적 피드백을 제공할 수 있게 되었습니다. 이 피드백은 필요한 경우 학습자에게 표시되도록 할 수 있습니다.
-
-멘토 피드백이 숫자 결과만큼 중요한 체크리스트 기반 평가를 지원하는 것이 목표입니다. 이는 특정 강점, 개선해야 할 영역 등을 강조하거나 주어진 점수에 대한 맥락을 제공하는 것을 포함한다.
-
-현재 검토자는 다음을 수행할 수 있습니다.
-
-* 질문별로 각 학습자의 체크리스트를 평가합니다.
-
-* 결과를 보고 실패한 학습자를 다시 평가합니다.
-
-항공 등 실제 상황에서 현장 교육 담당자는 현장 담당자와 공항 직원을 평가합니다. 마찬가지로 중소기업 내 강사와 멘토들도 체크리스트를 활용하여 직무 성과를 평가하는 경우가 많다. 그러나 이러한 체크리스트는 평가와 관련된 내러티브 피드백을 포착하기 위한 구조화된 섹션은 전형적으로 포함되지 않는다.
-
-### 새로운 기능
-
-#### 작성 옵션
-
-작성자는 각 체크리스트를 다음과 같이 구성할 수 있습니다.
-
-* 검토자의 댓글 달기 기능을 활성화 또는 비활성화합니다.
-
-* 검토자의 이름을 댓글과 함께 학습자에게 표시할지 여부를 결정합니다.
-
-이를 통해 조직은 문화 및 개인 정보 보호 요구 사항에 맞게 주석 가시성을 조정할 수 있습니다.
-
-#### 검토자 경험
-
-주석 달기가 활성화된 경우:
-
-* 검토자(강사/관리자)는 체크리스트를 평가하는 동안 주석을 추가할 수 있습니다.
-
-* 체크리스트 설정에 따라 학습자에게 댓글을 표시할지 여부를 선택할 수 있습니다.
-
-학습자를 재평가하는 경우 최신 평가를 반영하도록 댓글을 업데이트하거나 변경할 수 있습니다.
-
-#### 보고 및 알림
-
-* 체크리스트 보고서에는 검토자의 발언에 대한 새 열이 표시되어 평가 중에 제공된 주석을 캡처합니다.
-
-* 학습자는 체크리스트 평가가 발생할 때마다 알림(플랫폼 내 및 이메일)을 받습니다. 이러한 알림에는 다음이 포함됩니다.
-
-   * 주석 및
-
-   * 검토자의 이름(표시되는 경우).
-
-이렇게 하면 학습자에게 피드백이 저장될 뿐만 아니라 능동적으로 표시됩니다.
-
-### 주요 이점
-
-* **더 풍부하고 코치와 같은 피드백**: 상황에 맞는 주석으로 숫자 점수를 보완하여 체크리스트를 준수뿐만 아니라 코칭에 더 효과적인 도구로 만듭니다.
-
-* **추적 가능성 및 감사 가능성**: 조직은 누가, 언제, 무엇을 평가했는지 지속적으로 기록을 남깁니다. 이 기록은 규제된 환경과 고도의 역할에서 중요합니다.
-
-* **학습자 참여 개선**: 학습자는 특정 평가와 연결된 명확한 지침을 받게 되므로 기대치와 후속 단계에 대한 이해도가 향상됩니다.
-
-### 사용 사례
-
-* 규제된 환경을 가진 조직은 현장에서 관찰되고 있는 직원에 대한 임상 판단이나 절차적 피드백을 문서화하는 데 댓글을 사용할 수 있다.
-
-* 항공 및 지상 처리 조직은 운영 성능, 안전 관행 및 고객 대면 행동에 대한 세부 정보를 첨부할 수 있으며, 체크리스트를 구조화된 설명 도구로 바꿀 수 있습니다.
-
-* 멘토링 및 SME 평가에서 강사는 점수에만 맞지 않는 미묘한 관찰을 포착할 수 있습니다. 예를 들어, &quot;에스컬레이션 처리 기능이 좋지만 시간 관리를 개선해야 합니다.&quot; 또는 &quot;문제 해결 흐름이 우수합니다. 문서 단계를 생략했습니다.&quot;
-
-## 콘텐츠 수준 다중 시도 및 퀴즈 보고
-
-### 개요
-
->[!IMPORTANT]
->
->이 기능은 계정에서 활성화한 후에만 사용할 수 있습니다. ALM 지원 센터에 문의하십시오.
-
-
-현재 ALM은 MQA(다중 퀴즈 시도) 기능을 통해 LMS 수준에서 여러 시도를 지원합니다.
-
-* 작성자는 강의 레벨(강의의 모든 퀴즈 관련 모듈에 적용) 또는 모듈 레벨(퀴즈 모듈당)에서 시도를 구성할 수 있습니다.
-
-* 시도 횟수는 다음과 같습니다.
-
-   * 특정 숫자(예: 3번 시도) 또는
-
-   * LMS 수준에서 제어되는 무한 시도.
-
-* 학습자가 Fluidic Player를 통해 모듈을 소모한 다음 플레이어를 닫거나 모듈을 완료하면 해당 세션은 단일 LMS 시도로 처리됩니다.
-
-* LMS의 각 시도는 L2 퀴즈 보고서에 새 행으로 캡처됩니다.
-
-그러나 내용 파일 자체(예: Articulate SCORM 퀴즈)가 자체 다중 시도 논리를 구현하는 경우 ALM의 L2 퀴즈 보고서는 현재 이러한 내부 시도를 올바르게 구분하거나 추적하지 않습니다.
-
-이 향상된 기능은 퀴즈에 대한 콘텐츠 수준 다중 시도 추적 기능을 도입하여 Adobe Learning Manager이 L2 퀴즈 보고서의 콘텐츠 자체 내에서 각 시도를 정확하게 캡처할 수 있도록 합니다. SCORM 아티큘레이트와 같은 콘텐츠 제작 도구가 퀴즈 시도를 독립적으로 관리하는 상황을 위해 설계되었습니다. 이 기능을 사용하면 LMS 수준 MQA(다중 퀴즈 시도) 설정에 따라 달라지지 않고 ALM 보고에 시도가 올바르게 반영됩니다.
-
-### 새로운 기능
-
-#### 콘텐츠 수준 시도에 대한 작성자 플래그
-
-* 콘텐트 라이브러리로 콘텐트를 업로드할 때 작성자는 이제 특정 콘텐트 파일에 여러 번 시도 횟수가 있음을 표시할 수 있습니다.
-
-* ALM이 내용 내에 정의된 시도를 사실의 소스로 처리하도록 하는 내용별 설정입니다.
-
-#### 강의/모듈 동작
-
-해당 콘텐츠를 강의에서 사용하는 경우:
-
-* 이 모듈은 LMS MQA가 아닌 콘텐츠에서 시도 횟수를 가져옵니다.
-
-* 학습자는 하나의 LMS 수준 시도만 볼 수 있습니다.
-
-   * 강의 개요 및 모듈 보기에는 해당 모듈에 대한 LMS &quot;재시도&quot; 버튼이 표시되지 않습니다.
-
-   * 시도 처리(예: 퀴즈 내에서 다시 시도)는 콘텐츠 자체에서 결정됩니다.
-
-#### 보고
-
-L2 퀴즈 보고서는 각 콘텐츠 수준 시도를 별도의 시도 행으로 취급합니다.
-
-* 콘텐츠에 구성된 각 내부 퀴즈 시도는 오늘날 LMS 수준 시도가 표시되는 방식과 같이 L2 퀴즈 보고서에 자체 행으로 표시됩니다.
-
-* 각 행의 형식은 L2 보고의 기존 다중 시도 행과 동일하게 유지됩니다(동일한 열, 구조 및 의미).
-
-* 일관된 보고 환경을 제공합니다.
-
-   * 시도가 LMS MQA에 의해 제어되는지 또는 콘텐츠에 의해 제어되는지에 관계없이 L2 퀴즈 보고서는 시도당 하나의 행을 표시합니다.
-
-#### 주요 이점
-
-* LMS 수준의 MQA 구성을 강제로 상위로 설정하지 않고도 아티큘레이트와 같은 도구로 내부적으로 시도를 제어하는 SCORM 퀴즈에 대한 정확한 시도 기록.
-
-* 보다 깔끔한 학습자 경험: 내용 제어 시도의 경우 학습자는 LMS 수준에서 단일 슬롯을 보고 LMS 재시도 컨트롤과 상호 작용할 필요가 없습니다. 모든 재시도는 이미 알고 있는 퀴즈 UI 내에서 처리됩니다.
-
-* 유연한 아키텍처: 사용자는 콘텐츠가 작성된 방식과 시도를 관리하는 방식에 따라 ALM MQA 또는 콘텐츠 수준 시도 중 모듈별 비헤이비어를 구동해야 할지 선택할 수 있습니다.
-
-* 일관된 보고 모델: L2 퀴즈 보고서의 다운스트림 소비자는 시도 로직의 출처에 관계없이 각 행을 &quot;단일 시도&quot;로 처리할 수 있습니다.
-
-#### 사용 사례
-
-* Articulate SCORM을 사용하는 조직은 SCORM 패키지 내에 자체 내장된 퀴즈 논리를 유지하면서 LMS 추가 구성 없이 ALM에서 정확한 시도 수준 보고를 수행할 수 있습니다.
-
-* 공급업체에서 제공하는 SCORM 콘텐츠를 사용하는 조직은 LMS 수준 MQA를 사용하여 추가 시도 및 재시도 논리를 수정하거나 구현할 필요가 없습니다.
-
-## 인스턴스 등록 및 세션 출석에 대한 강사 QR 코드
-
-### 개요
-
-이 개선은 강사가 다음에 대한 QR 코드를 직접 생성하는 기능을 추가합니다.
-
-* 강의 인스턴스 등록
-
-* 세션 출석 또는
-
-* 등록 + 함께 참석
-
-을 참조하십시오. 학습자가 물리적 또는 하이브리드 클래스룸에 입장하고 QR 코드를 사용하여 출석을 등록하고 기록하려면 빠른 셀프서비스 옵션이 필요한 상황을 위해 설계되었습니다.
-
-### 새로운 기능
-
-#### 강사 생성 QR 코드
-
-* 강사는 다음에 대해 세션 수준에서 QR 코드를 생성할 수 있습니다.
-
-   * 인스턴스에 등록: 학습자가 현재 세션을 포함하는 인스턴스에 등록할 수 있습니다.
-
-   * 세션 출석 표시: 학습자는 세션 중/후에 스캔하여 해당 특정 세션의 출석을 기록합니다.
-
-   * 인스턴스 등록 + 세션 출석 표시 : 아직 등록되지 않아 한 번에 출석을 표시해야 하는 워크인용 결합된 QR입니다.
-
-* 강사는 시나리오(등록, 출석 또는 둘 다)에 따라 필요한 QR 코드를 내보낼 수 있습니다.
-
-#### QR 코드 패키징
-
-내보낸 QR 코드 PDF은 다음을 포함합니다.
-
-* 강의 이름
-
-* 인스턴스 이름
-
-* 세션 이름
-
-이렇게 하면 교수자와 코디네이터가 각 세션에 대해 올바른 QR 코드를 손쉽게 확인하고 인쇄할 수 있습니다.
-
-### 주요 이점
-
-* **강사 자율**: 강사는 더 이상 관리자가 QR 코드를 만들 때까지 기다릴 필요가 없습니다. 각 세션에 대해 직접 생성해 민첩성을 높이고 조정 오버헤드를 줄일 수 있습니다.
-
-* **더 나은 교실 운영**: 워크인 또는 현장 방문자(현장 작업자, 현장 직원 또는 외부 참석자 등)의 경우 강사는 QR 코드를 사용하여 현장에서 등록과 출석을 관리할 수 있습니다.
-
-* **관리자 작업 부하 감소**: 관리 팀은 모든 세션에 대한 일상적인 QR 코드 생성 요청을 처리하는 대신 구성 및 거버넌스에 집중할 수 있습니다.
-
-### 사용 사례
-
-* 대량의 현장 세션(예: 전문가용 제품 교육)을 실행하는 조직은 강사가 한 번의 스캔으로 출석을 등록하고 표시하는 세션별 QR 코드를 인쇄할 수 있습니다.
-
-* 학습자가 현장에서 직접 또는 사전 등록 없이 세션에 참여하는 경우가 많은 소매, 제조 및 의료 교육에서는 &#39;등록 + 출석&#39; QR 코드를 문에 배치할 수 있습니다. 이를 통해 학습자는 휴대폰으로 등록 및 출석을 스스로 제출할 수 있습니다.
-
-* 파트너 또는 고객을 위한 교육 이벤트를 통해 현장 트레이너는 새로운 QR 코드를 책임자와 상의할 필요 없이 회의실, 추가 세션 또는 추가 참석자의 변경 사항에 쉽게 적응할 수 있습니다.
-
-## Captivate 및 ALM 플레이어 개선 사항
-
-### 개요
-
-이러한 향상된 기능은 특히 Captivate의 최근 아키텍처 변경에 따라 Adobe Learning Manager(ALM) 플레이어 내에서 Adobe Captivate 컨텐츠를 재생하는 경험을 개선합니다. 목표는 학습자가 ALM에서 기본적으로 Captivate 모듈에 참여하면서 탐색, 완료 추적 및 메모가 명확하고, 일관되며, 신뢰할 수 있도록 하는 것입니다.
-
-### 새로운 기능
-
-#### 통합 TOC 환경
-
-* ALM TOC만 플레이어 왼쪽에 표시됩니다.
-
-* ALM 내에서 모듈을 재생하면 Captivate의 자체 목차가 숨겨집니다.
-
-* 이렇게 하면 중복이 제거되고, 탐색을 위한 단일 소스의 정보가 보장되며, 화면 공간을 확보할 수 있습니다.
-
-#### 시각적 완료 피드백
-
-* ALM TOC에는 슬라이드 수준의 완료를 나타내는 녹색 눈금 표시(또는 이와 동등한 시각적 신호)가 표시됩니다.
-
-* 학습자가 Captivate 슬라이드를 진행하면 ALM TOC는 완료된 슬라이드를 반영하며 최신 강의 플레이어에 대한 학습자의 기대치에 맞춰 조정됩니다.
-
-#### 상황별 진행률 제어
-
-* 플레이어 컨트롤은 슬라이드 유형에 따라 달라집니다.
-
-   * 비디오 슬라이드의 경우:
-
-      * 비디오 재생을 반영하여 시간 진행률 표시줄을 표시합니다.
-
-* 비디오가 아닌 슬라이드의 경우:
-
-   * 슬라이드 탐색 컨트롤 표시(다음/이전 슬라이드 등) 작동하지 않는 시간 표시줄 대신
-
-      * 이렇게 하면 특정 슬라이드 유형에서 관련성이 없거나 작동하지 않는 컨트롤이 표시되지 않습니다.
-
-#### 탐색 간소화
-
-* 별도의 모듈 내비게이션 바(ALM)와 과정 내비게이션 바가 하나의 직관적인 바로 병합됩니다.
-
-* 통합 탐색:
-
-   * Captivate 모듈을 이동하는 것과 강의/모듈 수준으로 다시 이동하는 것을 명확히 구분합니다.
-
-   * 용도가 겹치는 여러 막대로 인한 혼란을 줄입니다.
-
-#### 신뢰할 수 있는 메모 연결
-
-* 메모는 타임스탬프가 아닌 슬라이드 번호에 연결됩니다.
-
-* 변경 사항:
-
-   * 누락된 타임스탬프 또는 잘못된 타임스탬프로 인한 내보내기 오류를 수정합니다.
-
-   * 메모와 메모가 속한 PDF 컨텍스트 간의 안정적인 매핑을 통해 메모를 슬라이드로 일관되게 내보낼 수 있습니다.
-
-### 주요 이점
-
-* 보다 깔끔한 단일 플레이어 경험: 학습자는 하나의 TOC와 하나의 내비게이션 모델과 상호 작용하여 혼란과 인지 부하를 줄입니다.
-
-* 정확한 완료 및 진행 표시: 슬라이드 수준 틱 및 컨텍스트 컨트롤은 학습자가 현재 위치와 남은 내용을 이해하는 데 도움이 됩니다.
-
-* 더욱 안정적인 노트 기록 및 내보내기: 깨지기 쉬운 타임스탬프 대신 슬라이드에 노트를 묶음으로써 사용자는 슬라이드 기반의 Captivate 컨텐츠를 사용하더라도 PDF에 대한 신뢰할 수 있는 메모 작업 과정을 되찾게 됩니다.
-
-* 보존된 작성자 작업 과정: 작성자는 Captivate이 ALM에 직접 게시하는 간편성을 유지하는 반면 학습자는 추가 작성 부담 없이 현대적이고 통합된 재생 경험을 얻을 수 있습니다.
-
-### 사용 사례
-
-* 대화형 시뮬레이션에 Captivate을 사용하는 지원 프로그램은 콘텐츠를 ALM에 배포하여 학습자에게 탐색, 완료 추적 및 메모가 일관되게 작동하도록 할 수 있습니다.
-
-* Captivate을 주요 내용 작성 도구로 사용하는 조직은 한 번의 클릭으로 게시를 유지 관리하고 학습자에게 혼란스러운 이중 TOC 및 기능 제어 문제를 방지할 수 있습니다.
-
-* ALM의 Captivate 콘텐츠에서 내보낸 노트(코칭, 규정 준수 또는 기록용)를 사용하는 조직은 다음 정보를 이용할 수 있습니다.
-
-   * 메모가 슬라이드에 올바르게 연결됩니다.
-
-   * PDF이 예상대로 생성됩니다.
-
-## 학습자 성적 증명서의 학습 소요 시간 계산 개선
-
-### 개요
-
-Adobe Learning Manager은 2026년 4월 릴리스를 통해 학습자 성적 증명서의 학습 시간을 계산하는 방법을 수정했습니다. 이전에는 학습자가 콘텐츠에 관여하지 않고 플레이어를 열어 놓은 경우 보고 로직으로 인해 시간이 부정확해져 차이가 발생할 수 있습니다. 새로운 방법은 이제 사용자 참여를 기반으로, 특히 탭에 포커스가 있는 경우와 사용자 활동이 있는 경우를 기반으로 활성 시간을 추적합니다. 이러한 변화는 더 정확한 데이터를 생성합니다.
-
-이 업데이트는 보고서와 대시보드를 개선하여 관리자가 규정을 준수하고 학습자 진행률을 추적하는 데 도움을 줍니다. 릴리스 후 학습자 성적 증명서를 검토하여 개선 사항을 확인합니다.
-
-업데이트된 계산 방법은 활성 탭 초점 및 최근 사용자 상호 작용과 같은 실제 참여에 초점을 맞추므로 다음 영역에서 시간 보고의 정확도가 향상됩니다.
-
-* 학습자 성적 증명서(UI)
-* 관리자 대시보드 메트릭
-* 강의 등록 보고서
-* API 및 커넥터
-
-### 변경된 기능
-
-이제 학습자 성적 증명서의 **학습 소요 시간** 열은 개선된 논리를 사용하여 시간을 더 정확하게 계산합니다. 이제 시스템은 단순히 플레이어 열기/닫기 시간을 추적하는 대신 사용자 참여를 기반으로 활성 기간과 유휴 기간을 구분합니다.
-
-* **활성 시간**: 학습자가 활발하게 참여하는 시간입니다(예: 올바른 탭에서 스크롤 또는 비디오 시청 등의 작업 수행).
-* **유휴 시간**: 학습자가 전혀 참여하지 않은 시간(예: 탭 전환, 10분 이상 활동 없음)이며 합계에서 제외됩니다.
-
-이는 원래 논리를 유지하는 SCORM, Captivate 및 XAPI 모듈을 제외하고 대부분의 모듈 유형에 적용됩니다.
-
-### 작동 방식
-
-새 계산은 모듈 유형에 따라 다릅니다.
-
-* **비디오 및 오디오 모듈**: 학습자가 다른 탭으로 전환하더라도 콘텐츠가 재생될 때 활성화됩니다. 재생 시간 추적에는 탭 포커스가 필요하지 않습니다.
-* **정적 모듈(PDF, PPT, Excel 등)**: 탭에서 최근 10분 이내에 활동(마우스 이동, 스크롤, 클릭, 키보드 입력)을 수행하는 경우 활성화됩니다. 10분 동안 작업이 없으면 유휴 상태로 전환됩니다.
-* **SCORM 및 Captivate**&#x200B;은(는) 원래 열기/닫기 논리를 유지합니다.
-* **xAPI**&#x200B;에서는 이제 탭이 활성화된 경우에만 시간이 계산되는 탭 기반 활성 시간 감지를 사용합니다. AICC 콘텐츠 **은(는) 지원되지 않습니다**.
-* **HTML, LTI 및 기타 콘텐츠**: 다를 수 있습니다. 학습자 성적 증명서의 정확성을 확인하십시오.
-
-유휴 시간을 줄여 실제 참여 시간만 보고되도록 합니다.
+Idle time is subtracted, ensuring only true engagement time is reported.
 
 >[!NOTE]
 >
->랩톱이 절전 모드로 전환되면 학습 시간이 올바르게 추적되지 않을 수 있습니다. 시스템이 잠들어 있는 동안 활동 추적이 일시 정지되고 노트북이 깨어나야 다시 시작되기 때문이다.
+>If your laptop goes into sleep mode, learning time may not be tracked correctly. This is because activity tracking pauses while the system is asleep and resumes only when the laptop wakes up.
 
 
-### 요약 테이블
+### Summary table
 
-| **모듈 유형** | **활성 시간(계산됨)** | **유휴 시간(제외됨)** |
+| **Module type** | **Active time (counted)** | **Idle time (excluded)** |
 | --- | --- | --- |
-| **비디오/오디오** | 재생 시간 | 시작되지 않음, 종료됨, 일시 중지됨 **\>10분** |
-| **정적(PDF/PPT/DOC)** | 지난 **10분** 동안 활성 **및** 활동을 탭하세요. | 활동 없음 **\>10분**; 탭 비활성 |
-| **SCORM** | 콘텐츠 런타임에서 보고한 시간 | 유휴 상태를 감지할 수 없습니다. |
-| **Captivate** | 슬라이드 기반 타이밍 | 유휴 상태를 감지할 수 없습니다. |
-| **xAPI** | 탭 활성 | 탭 비활성 |
-| **HTML** | 탭이 활성화된 플레이어 열기 시간 | 탭 비활성 |
-| **LTI 생산자/소비자** | LTI 콘텐츠가 ALM의 플레이어 내에서 재생되는 경우(즉, ALM이 제작자 역할을 하는 다른 LMS에 호스팅된 LTI 콘텐츠를 소비하는 경우) 이러한 시간 소요 논리가 적용됩니다.<br><br>그러나 콘텐츠가 LMS 외부에서 재생되는 경우(즉, 콘텐츠가 ALM에서 호스팅되는 경우, ALM이 제작자이지만 외부 플레이어에서 재생되는 경우) 이 시간 계산 로직은 적용되지 않습니다.  <br>**참고**: LTI 소비자는 Adobe Learning Manager에서 지원되지 않습니다. | 탭 비활성 |
+| **Video / Audio** | Playback time | Not started; ended; paused **\>10 min** |
+| **Static (PDF/PPT/DOC)** | Tab active **and** activity in last **10 min** | No activity **\>10 min**; tab inactive |
+| **SCORM** | Time reported by content runtime | Idle cannot be detected |
+| **Captivate** | Slide‑based timing | Idle cannot be detected |
+| **xAPI** | Tab active | Tab inactive |
+| **HTML** | Player open time with tab active | Tab inactive |
+| **LTI Producer/Consumer** | If LTI content is played within ALM's player (that is, ALM is consuming LTI content hosted on another LMS acting as the Producer), then this time‑spent logic applies.<br><br>However, if the content is played outside the LMS (that is, the content is hosted in ALM, then ALM is the Producer, but the playback happens in an external player), this portion of the time‑calculation logic does not apply.  <br>**Note**: LTI Consumer is not supported in Adobe Learning Manager. | Tab inactive |
 
-**참고**:
+**Note**:
 
-* **다시 방문 및 병렬 세션**: 위의 조건이 충족되면 활성 상태로 계산합니다.
-* **모든 장치, 브라우저, 언어**: 포함됨; 동기화 후 오프라인 모바일 사용이 추가됩니다.
+* **Revisits and parallel sessions**: Count as active when the above conditions are met.
+* **All devices, browsers, languages**: Included; offline mobile usage is added after sync.
 
-### 새 계산의 이점
+### Benefits of the new calculation
 
-* **정확한 보고**: 무인 플레이어의 부풀린 시간을 제거하여 사실적인 학습 지속 시간을 제공합니다.
-* **준수 개선**: 필수 교육에 대한 정확한 추적을 지원합니다(예: 회사의 5시간 월별 요구 사항).
-* **향상된 대시보드**: 이제 사용자 활동 그래프와 소요 시간이 실제 참여를 반영합니다.
-* **학습자 인사이트**: 관리자가 진행 상태를 확인하고 문제가 해제된 학습자를 해결하는 데 도움을 줍니다.
+* **Accurate reporting**: Eliminates inflated times from unattended players, providing realistic learning durations.
+* **Better compliance**: Supports accurate tracking for mandatory training (for example, a company's 5-hour monthly requirement).
+* **Improved dashboards**: User activity graphs and time-spent reports now reflect actual engagement.
+* **Learner insights**: Helps administrators identify genuine progress and address disengaged learners.
 
-### 보고 및 분석 영향
+### Reporting and analytics impact
 
-* **학습자 성적 증명서:** &quot;소요된 학습 시간&quot;은 이제 **실제 참여**&#x200B;를 반영합니다.
-* **관리자 대시보드:** 시간(예: &quot;사용한 시간&quot; 타일, 추세)을 포함하는 메트릭은 유휴 시간이 이전에 부풀린 결과를 나타내는 시나리오에서 **더 낮지만 더 현실적인** 값을 표시합니다.
-* **강의 등록 보고서:** 시간 관련 필드는 시작 후 **새 계산**&#x200B;을 채택합니다.
-* **비교 가능성 참고:** 기록 데이터는 다시 계산되지 않으므로 출시일에 걸친 시계열 분석에는 **단계 변경**&#x200B;이 표시될 수 있습니다. 분석 도구에서 주석 또는 날짜별 세그먼트를 고려해 보십시오.
+* **Learner Transcripts:** "Learning Time Spent" now reflects **actual engagement**.
+* **Admin Dashboard:** Metrics that include time (for example, "time spent" tiles, trends) will show **lower but more realistic** values in scenarios where idle time previously inflated results.
+* **Course Enrollment reports:** Time‑related fields adopt the **new calculation** post‑launch.
+* **Comparability note:** Because historical data is not recalculated, time‑series analyses that span the release date may show a **step change**. Consider annotation or segmentation by date in analytics tools.
 
-### API 및 커넥터
+### API and connectors
 
-* 소요 시간을 보고하는 기존 끝점/필드에 대한 **스키마 변경 없음**.
-* **필드 의미 체계**&#x200B;가 기능 시작 **후** 세션에 대한 _활성 시간 계산_&#x200B;을 반영하도록 업데이트됩니다.
-* **커넥터 및 내보내기**&#x200B;에서 시간이 소요되는 필드를 사용하면 앞으로 업데이트된 값이 자동으로 수신됩니다.
+* **No schema changes** to existing endpoints/fields that report time spent.
+* **Field semantics** are updated to reflect _active‑time calculation_ for sessions **after** the feature launch.
+* **Connectors and exports** consuming time‑spent fields will automatically receive the updated values going forward.
 
-### 이전 버전과의 호환성 및 데이터 마이그레이션
+### Backward compatibility and data migration
 
-* **기록 세션:**&#x200B;이(가) 다시 계산되지 않았습니다.
-* **새 세션:** **새** 활성 시간 계산을 사용합니다.
-* **혼합 기간:** 감사 또는 종단 보고의 경우 잘못 해석되지 않도록 **사전/사후 실행**&#x200B;을(를) 기준으로 분류합니다.
+* **Historical sessions:** Not recalculated.
+* **New sessions:** Use the **new** active‑time calculation.
+* **Mixed periods:** For audits or longitudinal reporting, segment by **pre‑/post‑launch** to avoid misinterpretation.
 
-### 알려진 제한 사항
+### Known limitations
 
-* **대화형 콘텐츠**(SCORM/Captivate)은 콘텐츠가 제공하는 타이밍에 계속 의존합니다. 콘텐츠 내의 유휴 탐지는 사용할 수 없습니다.
-* **Iframe 기반 콘텐츠**(HTML/xAPI)은 세분화된 상호 작용 검색을 제한합니다. 대신 탭 포커스가 사용됩니다.
+* **Interactive content** (SCORM/Captivate) continues to rely on content‑provided timing; idle detection within the content is not available.
+* **Iframe‑based content** (HTML/xAPI) limits detection of fine‑grained interactions; tab focus is used instead.
 
-### 자주 묻는 질문
+### Frequently asked questions
 
-**이 업데이트로 기록 레코드가 변경됩니까?**
+**Does this update change historical records?**
 
-아니요. 변경 사항은 기능 실행 후 세션에만 적용됩니다.
+No. The change applies only to sessions after the feature launch.
 
-**변경 내용을 확인하는 방법은 무엇입니까?**
+**How do I verify the changes?**
 
-최근 모듈에 대한 학습자 성적 증명서 확인, 예상 지속 시간과 비교
+Check Learner Transcripts for recent modules; compare times to expected durations.
 
-**모든 계정에 영향을 줍니까?**
+**Does this affect all accounts?**
 
-예, 모든 Adobe Learning Manager 계정에 대한 글로벌 업데이트입니다.
+Yes, it's a global update for all Adobe Learning Manager accounts.
 
-**학습자가 조치를 취해야 합니까?**
+**Do learners need to take action?**
 
-아니요. 변경 사항은 학습자에게 자동으로 투명하게 적용됩니다.
+No. The change is automatic and transparent to learners.
 
-**학습자가 콘텐츠를 열어 두면 어떻게 됩니까?**
+**What if learners leave content open?**
 
-이제 유휴 시간이 제외되어 초과 보고를 할 수 없습니다.
+Idle time is now excluded, preventing over-reporting.
 
-**탭이 비활성화되면 비디오/오디오 세션이 자동으로 일시 중지됩니까?**
+**Are video/audio sessions auto‑paused when the tab is inactive?**
 
-아니요. 재생 비헤이비어는 변경되지 않습니다. 일시 정지된 시간이 10분 이상이거나 활발하게 재생되지 않을 때는 시간이 제외됩니다.
+No. Playback behavior is unchanged. Time is excluded when paused >10 minutes or when not actively playing.
 
-**오프라인 모바일 활동이 반영됩니까?**
+**Will offline mobile activity be reflected?**
 
-예. 장치가 동기화되면 오프라인 사용이 포함됩니다.
+Yes. Offline usage is included when the device syncs.
 
-**대시보드에 낮은 평균이 표시되면 어떻게 해야 합니까?**
+**What should I do if my dashboards now show lower averages?**
 
-이는 유휴 시간이 이전에 부풀려진 결과가 있었던 곳에서 예상된다. 대시보드에 주석을 달고 필요에 따라 대상을 조정합니다.
+This is expected where idle time had previously inflated results. Annotate dashboards and adjust targets as needed.
 
-**필수 구성 요소가 있습니까?**
+**Are there any prerequisites?**
 
-없음. 변경 사항은 자동으로 적용됩니다.
+None; the change is automatic.
 
-## 관리자용 학습 성적 증명서 보고서 업데이트
+## Update to Learning Transcript reports for Administrators
 
-체크리스트 기반 평가 및 검토자 피드백을 더 잘 지원하기 위해 관리자용 학습 성적 증명서(LT) 보고서를 업데이트하고 있습니다.
+We are updating the Learning Transcript (LT) reports for Admins to better support checklist-based evaluations and reviewer feedback.
 
-## 변경 사항
+## What is changing?
 
-### &#x200B;1. 관리자 학습 성적 증명서의 열 이름 바꾸기
+### 1. Column Rename in Admin Learning Transcript
 
-관리자 학습의 기존 **제출 의견** 열
-대본:
+The existing **Submission comment** column in the Admin Learning
+Transcript is:
 
-1. **이름 변경됨:** `Reviewer's remarks`
+1. **Renamed to:** `Reviewer's remarks`
 
-### 이 열에 표시된 데이터:
+### Data shown in this column:
 
-* **제출 모듈의 경우:**
-열에는 제출 주석이 계속 표시됩니다(동작 변경 없음).
+* **For submission modules:**
+   The column continues to display the submission comment (no behavioral change).
 
-* **체크리스트 모듈의 경우:**
-이제 열에 평가 주석(체크리스트 검토자의 설명)이 표시됩니다.
+* **For checklist modules:**
+   The column now displays the evaluation comment (the checklist reviewer's remarks).
 
-이 변경 사항은 모든 관리자 LT 소스에 적용됩니다.
+This change applies to all Admin LT sources:
 
-* 관리 UI에서 다운로드된 LT
-* 작업 API를 통해 얻은 LT
-* 커넥터를 통해 생성된 LT
+* LT downloaded from the Admin UI
+* LT obtained via the Job API
+* LT generated via Connectors
 
-이 변경 후 동일한 열에는 다음이 포함됩니다. - 제출 모듈에 대한 제출 설명
+After this change, the same column carries: - Submission comments for submission modules
 
-* 체크리스트 모듈에 대한 평가 설명
+* Evaluation comments for checklist modules
 
-새 헤더 이름 **검토자의 설명**&#x200B;에서
+Under the new header name **Reviewer's remarks**.
 
-### &#x200B;2. 커넥터 기반 학습 성적 증명서 내보내기의 새 열
+### 2. New Column in Connector-Based Learning Transcript Exports
 
-커넥터로 내보낸 학습 성적 증명서의 경우:
+For connector-exported Learning Transcripts:
 
-* 이름이 **검토자의 발언**&#x200B;인 새 열이 보고서 끝에 추가됩니다.
-* 이 열에는 위에서 설명한 비헤이비어에 맞게 정렬된 검토자의 주석이 포함되어 있습니다.
-   * 제출 모듈에 대한 제출 의견
-   * 체크리스트 모듈에 대한 평가 설명
+* A new column named **Reviewer's remarks** is added at the end of the report.
+* This column contains the reviewer's comments, aligned with the behavior described above:
+    * Submission comments for submission modules
+    * Evaluation comments for checklist modules
 
-## 기존 통합 및 자동화에 미치는 영향
+## Impact on existing integrations and automations
 
-사용자 정의 통합, 자동화 또는 외부 보고 도구에서 학습자 성적 증명서 보고서를 사용하는 경우, 다음 시나리오를 검토하십시오.
+If you are using Learning Transcript reports in custom integrations, automations, or external reporting tools, please review the following scenarios:
 
-| 시나리오 | 영향 | 조치 사항 |
+| Scenario | Impact | Action required |
 |----------|--------|----------------|
-| Admin LT에서 열 이름으로 필드를 식별합니다(예: &quot;제출 의견&quot;). | 열 헤더가 검토자의 주석으로 변경됩니다. | 예. 검토자의 주석을 사용하기 위해 제출 주석을 참조하는 매핑 또는 논리를 업데이트합니다. |
-| Admin LT에서 열 위치로만 필드를 식별합니다(인덱스 기반). | 이 열의 위치는 관리 LT에서 동일하게 유지됩니다. | 대개의 경우 아무런 조치도 취하지 않습니다. 로직이 헤더 텍스트에 의존하지 않는 경우 관리자 LT에 대해 변경이 필요하지 않은 경우, 현재 &#39;제출 의견&#39; 열이 사용된 경우 열 이름을 변경하십시오. |
-| 커넥터로 내보내는 LT를 사용하며 고정 열 개수 또는 특정 마지막 열 위치에 의존합니다 | 보고서 끝에 새 열이 추가됩니다. | 예. 구문 분석 또는 유효성 검사 논리를 조정하여 파일 끝에 있는 추가 열을 고려합니다. |
-| 커넥터가 내보낸 LT를 사용하고 열 이름별로 매핑합니다 | 새 열 검토자의 설명을 사용할 수 있습니다. | 선택 사항입니다. 새 검토자/체크리스트 주석 데이터를 소비하려는 경우가 아니라면 변경할 필요가 없습니다. |
+| You identify fields in Admin LT by column name (for example, "Submission comment") | The column header changes to Reviewer's remarks. | Yes. Update any mappings or logic that reference Submission comment to use Reviewer's remarks. |
+| You identify fields in Admin LT by column position only (index-based) | The position of this column remains the same in Admin LT. | Usually no action. If your logic does not depend on the header text, no change is needed for Admin LT, just change the column name if currently 'Submission Comments' column is used. |
+| You use connector-exported LT and rely on a fixed column count or specific last-column position | A new column is appended at the end of the report. | Yes. Adjust parsing or validation logic to account for an extra column at the end of the file. |
+| You use connector-exported LT and map by column name | A new column Reviewer's remarks is available. | Optional. No change is required unless you want to consume the new reviewer/checklist comments data. |
 
-**수행할 작업**
+**What you should do**
 
-* 관리자 학습 성적 증명서 보고서를 사용하는 스크립트, ETL 작업, 대시보드 또는 통합을 검토합니다.
-* 이전 열 이름 _제출 주석_&#x200B;을(를) 참조하는 경우 새 열 이름 검토자의 설명을 사용하도록 구성 또는 코드를 업데이트하십시오.
-* 커넥터 기반 LT 내보내기를 사용하고 고정된 개수의 열 또는 고정된 마지막 열을 가정할 경우 내보내기 끝에서 추가 열을 처리하도록 논리를 업데이트합니다.
+* Review any scripts, ETL jobs, dashboards, or integrations that consume Admin Learning Transcript reports.
+* If you reference the old column name _Submission comment_, update your configuration or code to use the new column name Reviewer's remarks.
+* If you use connector-based LT exports and assume a fixed number of columns or a fixed last column, update your logic to handle an additional column at the end of the export.
 
-현재 구현이 Admin LT의 열 위치에 전적으로 의존하고 열 헤더 텍스트를 검증하지 않거나 의존하지 않는 경우 Admin LT 자체를 변경할 필요가 없습니다. 고정 레이아웃에 의존하는 경우 커넥터 내보내기만 주의하면 됩니다.
+If your current implementation relies purely on column positions in Admin LT and does not validate or depend on the column header text, no change is required for the Admin LT itself. Only connector exports need attention when you depend on a fixed layout.
 
 
-## Experience Builder에 로그인하지 않은 환경
+## Non-logged-in experience in Experience Builder
 
-Experience Builder에 로그인하지 않은 환경을 통해 조직은 로그인하지 않은 사용자를 포함하여 모든 방문자에게 학습 콘텐츠 및 포털 페이지를 표시할 수 있습니다. 이 기능은 로그인 또는 등록을 요청하기 전에 교육 서비스의 부드럽고 브랜드 미리보기를 제공하여 잠재 학습자를 모으고, 알리고, 참여하도록 설계되었습니다.
+The non-logged-in experience in Experience Builder allows organizations to display their learning content and portal pages to all visitors, including those who have not signed in. This feature is designed to attract, inform, and engage prospective learners by offering a smooth and branded preview of your training offerings before requiring them to log in or enroll.
 
-이 기능을 사용하면 표준 Experience Builder에 있는 것과 동일한 사용자 친화적인 드래그 앤 드롭 인터페이스를 사용하여 공용 페이지를 만들고 사용자 정의할 수 있습니다. 포털을 방문하는 모든 사용자에게 강의 카탈로그, 범주, 경로 및 이미지, 텍스트, HTML 및 포함된 iframe을 포함한 풍부한 정적 콘텐츠를 보여줄 수 있습니다. 이렇게 하면 학습 프로그램을 강조하고, 새 강의를 홍보하고, 더 많은 사용자에게 필수 정보를 제공하는 작업이 간단해집니다.
+This feature lets you create and customize public-facing pages using the same user-friendly drag-and-drop interface found in the standard Experience Builder. You can showcase course catalogs, categories, paths, and rich static content, including images, text, HTML, and embedded iframes, for anyone visiting your portal. This makes it simple to highlight your learning programs, promote new courses, and provide essential information to a broader audience.
 
-방문자는 카탈로그를 검색하고, 강의 및 인스턴스에 대한 세부 정보를 보고, 글로벌 검색을 활용하여 사용 가능한 교육 기회를 탐색할 수 있습니다. 그러나 강의 등록, 개인화된 기능(예: 달력, 규정 준수, 순위표 또는 소셜 학습)에 액세스 또는 교육 소비 등 사용자의 ID가 필요한 작업을 하면 방문자가 로그인하라는 메시지가 표시됩니다. 이러한 접근 방식을 통해 민감하고 개인화된 정보를 안전하게 유지하면서 종합적인 미리보기 환경을 구현할 수 있습니다.
+Visitors can browse the catalog, view details about courses and instances, and utilize the global search to explore available training opportunities. However, actions that require a user's identity, such as enrolling in a course, accessing personalized features (like, Calendar, Compliance, Leaderboard, or Social Learning), or consuming training, will prompt the visitor to log in. This approach ensures that sensitive and personalized information remains secure while still allowing for a comprehensive preview experience.
 
-관리자는 로그인하지 않은 사용자에게 표시되는 페이지 및 위젯을 구성하여 적합한 콘텐츠만 표시되도록 할 수 있습니다. 페이지는 로그인한 사용자와 로그인하지 않은 사용자 모두 또는 이러한 그룹 중 한 명만 액세스할 수 있도록 설정할 수 있습니다. Experience Builder는 미리 보기 모드를 제공하여 방문자가 페이지를 게시하기 전에 방문자에게 페이지가 어떻게 표시되는지 정확하게 확인할 수 있도록 합니다.
+Administrators have the ability to configure which pages and widgets are visible to users who are not logged in, ensuring that only suitable content is displayed. Pages can be set to be accessible to both logged-in and non-logged-in users, or exclusively for one of these groups. The Experience Builder offers a preview mode, allowing you to see exactly how your pages will appear to visitors before they are published.
 
-이 기능을 활성화하려면 ALM 통합 관리자가 교육 데이터 액세스 커넥터를 활성화해야 합니다. 이 커넥터를 통해 과정 메타데이터를 공개적으로 액세스할 수 있습니다.
+To enable this feature, your ALM integration administrator must activate the Training Data Access Connector. This connector ensures that course metadata is publicly accessible.
 
-브랜딩 및 로컬라이제이션이 완전히 지원되므로 조직의 ID에 맞게 페이지 제목, 파비콘 및 언어 설정을 사용자 정의하고 사용자들의 요구 사항을 충족할 수 있습니다. 이러한 향상된 환경으로 전환하는 일환으로 로그인하지 않은 사용자를 위한 기존 홈페이지 기능은 더 이상 사용되지 않습니다. 따라서 모든 새 공개 콘텐츠는 Experience Builder를 사용하여 만들어야 합니다.
+Branding and localization are fully supported, enabling you to customize page titles, favicons, and language settings to align with your organization's identity and meet your audience's needs. As part of the transition to this enhanced experience, the legacy homepage feature for non-logged-in users will be deprecated. Therefore, all new public content should be created using Experience Builder.
 
-### 기능의 목적
+### Purpose of the feature
 
-Experience Builder의 로그인하지 않은 환경을 통해 조직은 사용자가 로그인할 필요 없이 학습 콘텐츠 및 포털 페이지를 모든 사용자에게 공개적으로 공개할 수 있습니다. 이를 통해 등록이나 인증이 필요하기 전에 사용 가능한 교육 및 리소스의 미리 보기를 제공하여 잠재적인 학습자를 모으고, 알리고, 참여시키는 데 도움이 됩니다.
+The non-logged-in experience in Experience Builder allows organizations to publicly showcase their learning content and portal pages to anyone, without requiring users to log in. This helps attract, inform, and engage potential learners by providing a preview of available training and resources before enrollment or authentication is needed.
 
-### 로그인하지 않은 환경에서의 실제 사용 사례
+### Real-world use cases on non-logged-in experience
 
-* **마케팅 및 봉사 활동**: 조직은 강의 카탈로그 및 프로그램 세부 사항을 공개적으로 액세스할 수 있도록 하여 잠재 고객, 파트너 또는 취업 지원자와 같은 외부 대상자에게 교육 프로그램을 홍보할 수 있습니다.
-* **등록 전 탐색**: 학습자는 등록 또는 로그인을 결정하기 전에 사용 가능한 강의를 찾아보고, 개요를 보고, 범주를 탐색할 수 있으므로 정보에 근거한 등록 결정을 내릴 수 있습니다.
-* **기업 교육 포털**: 기업은 규정 준수 또는 온보딩 정보에 대한 공용 포털을 제공하여 신입 직원이나 계약자가 자격 증명을 받기 전에 사용할 수 있는 교육을 볼 수 있도록 할 수 있습니다.
-* **이벤트 또는 캠페인 랜딩 페이지**: 학습 캠페인 또는 이벤트를 실행하는 조직은 전용 공개 페이지를 만들어 추천 과정, 일정 또는 리소스를 강조할 수 있으므로 가시성과 참여도가 높아집니다.
-* **SEO 및 검색 가능성**: 일부 페이지와 카탈로그를 공개함으로써 조직은 검색 엔진 가시성을 개선하고 사람들이 온라인으로 학습 서비스를 검색할 수 있도록 지원합니다.
+* **Marketing and outreach**: Organizations can promote their training programs to external audiences, such as prospective customers, partners, or job applicants, by making course catalogs and program details publicly accessible.
+* **Pre-enrollment exploration**: Learners can browse available courses, view overviews, and explore categories before deciding to sign up or log in, helping them make informed enrollment decisions.
+* **Corporate training portals**: Companies can provide a public-facing portal for compliance or onboarding information, allowing new hires or contractors to see what training is available before they receive credentials.
+* **Event or campaign landing pages**: Organizations running learning campaigns or events can create dedicated public pages to highlight featured courses, schedules, or resources, increasing visibility and engagement.
+* **SEO and discoverability**: By making select pages and catalogs public, organizations improve their search engine visibility, helping people to discover their learning offerings online.
 
-### 임시 방문 경험의 주요 개념
+### Key concepts of non-logged in experience
 
-Experience Builder의 로그인하지 않은 경험을 통해 학습 콘텐츠 및 포털 페이지를 공개적으로 전시할 수 있으므로 방문자가 로그인하지 않고도 찾아볼 수 있습니다.
+Experience Builder's non-logged-in experience lets you publicly showcase learning content and portal pages, allowing visitors to browse without logging in.
 
-* **공용 페이지 및 메뉴 만들기**: 로그인 상태에 관계없이 모든 사용자가 액세스할 수 있는 페이지와 단일 메뉴를 설정합니다.
-* **지원되는 위젯만 추가**: 사용자 컨텍스트(범주, 강의 및 학습 경로, 콘텐츠 상자, HTML, iframe)가 필요하지 않은 위젯이 포함되어 있지만 시스템에서 사용자별 위젯을 숨깁니다.
-* **적응형 페이지 동작 구성**: 로그인한 사용자와 로그인하지 않은 사용자 모두에 대해 페이지가 나타나는지 결정하고, 로그인 상태에 따라 표시되는 위젯과 콘텐츠를 조정합니다.
-* **두 경험 모두 미리 보기**: 미리 보기 옵션을 사용하여 위젯 표시 여부 및 내용에서 차이가 있지만 로그인한 사용자와 로그인하지 않은 사용자가 페이지에 어떻게 보이는지 확인할 수 있습니다.
-* **전역 검색 사용**: 방문자는 강의와 콘텐츠를 검색하지만 고급 AI 통합 없이 기본 검색 기능만 이용할 수 있습니다.
-* **방문자가 카탈로그 및 강의 개요를 검색하도록 허용**: 방문자는 카탈로그 페이지, 강의 세부 사항 및 인스턴스를 탐색하지만 개인 맞춤화된 기능을 등록하거나 액세스하려면 로그인해야 합니다.
-* **브랜딩 및 지역화 사용자 지정**: 조직의 브랜딩 및 접근성 요구 사항에 맞게 파비콘과 언어 설정을 지정했습니다.
-* **교육 데이터 액세스 커넥터 활성화**: 이 커넥터를 활성화하면 로그인하지 않은 페이지를 최신 상태로 유지하여 과정 메타데이터를 공용 디스플레이에 내보낼 수 있습니다.
-* **공유 인프라로 높은 트래픽 처리**: 시스템은 공유 리소스와 비율 제한을 사용하여 대량의 익명 방문자를 관리합니다.
-* **SEO에 최적화**: 플랫폼에서 검색 엔진 인덱싱을 위한 공개 페이지를 준비하여 학습 콘텐츠를 보다 쉽게 찾을 수 있습니다.
+* **Create public pages and menus**: You set up pages and a single menu that everyone can access, regardless of login status.
+* **Add only supported widgets**: You include widgets that don't need user context (categories, courses and learning paths, content box, HTML, iframe), while the system hides user-specific widgets.
+* **Configure adaptive page behavior**: You decide if a page appears for both logged in and non logged in users, and the system adapts visible widgets and content based on login state.
+* **Preview both experiences**: You use preview options to see how pages look for logged in and non logged in users, with differences in widget visibility and content.
+* **Enable global search**: Visitors search for courses and content, but only get basic search features without advanced AI integration.
+* **Let visitors browse catalog and course overviews**: Visitors explore catalog pages, course details, and instances, but must log in to enroll or access personalized features.
+* **Customize branding and localization**: You set favicons, and language settings to match your organization's branding and accessibility needs.
+* **Enable the Training Data Access Connector**: You activate this connector to export course metadata for public display, keeping non-logged-in pages up to date.
+* **Handle high traffic with shared infrastructure**: The system manages large volumes of anonymous visitors using shared resources and rate limiting.
+* **Optimize for SEO**: The platform prepares public pages for search engine indexing, making your learning content simpler to find.
 
-### 로그인하지 않은 경험에 대한 사전 요구 사항
+### Prerequisites for non-logged in experience
 
-* 로그인하지 않은 경험을 사용하려면 먼저 통합 책임자에서 교육 데이터 액세스 커넥터를 활성화해야 합니다.
-* 이 커넥터는 과정 메타데이터를 공용 저장소로 내보내 로그인되지 않은 페이지는 계속 업데이트됩니다.
+* You must enable the Training Data Access Connector in the integration admin before you can use the non logged in experience.
+* The connector exports course metadata to a public repository, which keeps non logged in pages updated.
 
-#### Training Data Access 커넥터 초기화
+#### Training Data Access connector initialization
 
-TDA(교육 데이터 액세스) 커넥터는 ALM의 새로운 임시 방문 모드 빌더 기능을 활성화하기 위한 중요한 사전 요구 사항입니다. 이 커넥터를 사용하여 교육 메타데이터를 쉽게 내보낼 수 있으므로 포털이 로그인하지 않은 사용자에게 과정 정보를 표시할 수 있습니다.
+The Training Data Access (TDA) connector is a critical prerequisite for enabling the new non-logged-in experience builder feature in ALM. This connector facilitates the export of training metadata, allowing your portal to display course information to users who are not logged in.
 
-* **커넥터 활성화**: 통합 관리자 패널에서 TDA 커넥터를 활성화해야 합니다. 이 단계는 로그인하지 않은 Experience Builder 기능을 활성화하고 관리자 인터페이스에 관련 UI 옵션을 표시합니다.
-* **메타데이터 내보내기**: 활성화되면 커넥터는 필수 교육 메타데이터(예: 강의 이름, 설명, 개요, 등급, 기간 및 스킬)를 ALM에서 공개 저장소로 내보냅니다. 이 데이터는 로그인하지 않은 페이지 및 위젯을 채우는 데 사용됩니다.
-* **예약 및 동기화**: 포털이 최신 강의 업데이트를 반영하도록 내보내기 프로세스를 매일 예약할 수 있습니다(예: 매일). ALM에서 변경한 내용은 캐싱 및 내보내기 빈도에 따라 다음 내보내기 주기 이후 로그인하지 않은 페이지에 표시됩니다.
-* **기능 가용성**: 메뉴 생성, 위젯 지원 및 카탈로그 가시성을 포함한 로그인하지 않은 Experience Builder 기능은 TDA 커넥터가 초기화된 후에만 액세스할 수 있습니다. 커넥터가 활성화되지 않은 경우 experience builder는 로그인한 사용자 시나리오로 제한됩니다.
-* **마이그레이션 및 지원**: 기존의 임시 방문 홈페이지에서 전환하는 계정의 경우, TDA 커넥터를 초기화하는 것이 마이그레이션을 위한 첫 번째 단계입니다. 새로운 experience builder의 유연성과 향상된 기능을 사용할 수 있습니다.
+* **Connector activation**: You must enable the TDA connector from the integration admin panel. This step enables the non-logged-in experience builder functionality and makes relevant UI options visible in your admin interface.
+* **Metadata export**: Once activated, the connector exports essential training metadata (such as course name, description, overview, rating, duration, and skills) from ALM to a public repository. This data is used to populate non-logged-in pages and widgets.
+* **Scheduling and synchronization**: The export process can be scheduled (for example, daily) to ensure your portal reflects the latest course updates. Changes made in ALM will appear on your non-logged-in pages after the next export cycle, subject to caching and export frequency.
+* **Feature availability**: The non-logged-in experience builder features, including menu creation, widget support, and catalog visibility, are only accessible after the TDA connector is initialized. If the connector is not enabled, your experience builder will remain limited to logged-in user scenarios.
+* **Migration and support**: For accounts transitioning from legacy non-logged-in homepage features, initializing the TDA connector is the first step toward migration. It ensures you can use the new experience builder's flexibility and enhanced capabilities.
 
 
-### 방문자가 로그인하지 않고도 수행할 수 있는 작업
+### What visitors can do without logging in
 
-로그인하지 않은 Experience Builder 사이트에서는 방문자가 공개 카탈로그의 카탈로그 페이지를 열어 교육 카탈로그를 찾아볼 수 있습니다. 사이트 구성 방법에 따라 카탈로그, 제품, 역할, 유형, 스킬 및 태그와 같은 필터를 사용할 수 있습니다. 방문자는 헤더의 글로벌 검색 표시줄(활성화된 경우)을 사용하여 교육을 검색하고, 카탈로그 페이지에서 직접 검색 결과를 볼 수도 있습니다.
+On a non-logged-in Experience Builder site, visitors can browse the training catalog by opening the catalog page for public catalogs. They can use filters such as catalog, product, role, type, skills, and tags, depending on how you have configured the site. Visitors can also search for trainings using the global search bar in the header (if enabled), and view search results directly on the catalog page.
 
-강의, 학습 경로 및 인증에 대한 개요 페이지를 열어 교육 세부 정보를 볼 수 있습니다. 이 페이지에는 제목, 설명, 작성자, 지속 시간, 형식, 태그 및 스킬을 포함한 주요 메타데이터가 표시됩니다.
+Visitors can view training details by opening overview pages for courses, learning paths, and certifications. These pages display key metadata, including the title, description, author, duration, format, tags, and skills.
 
-또한, 방문자는 정적 콘텐츠 및 홍보 콘텐츠를 탐색할 수 있습니다. 텍스트 및 리치 콘텐츠 블록을 읽고, 배너 및 이미지 타일을 보고, 외부 마이크로사이트, 비디오 또는 도구와 같은 임베드된 프레임과 상호 작용할 수 있습니다.
+In addition, visitors can explore static and promotional content. They can read text and rich content blocks, view banners and image tiles, and interact with embedded iframes such as external microsites, videos, or tools.
 
-방문자가 등록을 클릭하거나 교육을 시작하려고 하면 시스템은 로그인 또는 등록하라는 메시지를 표시합니다. 로그인에 성공하면 방문자는 홈페이지, 사용자 정의 페이지 또는 선택한 특정 교육 등 적절한 페이지로 리디렉션됩니다.
+If a visitor clicks enroll or tries to start training, the system prompts them to log in or sign up. After successful login, the visitor is redirected to the appropriate page, whether it is the home page, a custom page, or the specific training they selected.
 
-### 로그인하지 않으면 사용할 수 없는 기능
+### What's not available without logging in
 
-로그인하지 않은 Experience Builder 사이트에서는 방문자가 사용자 인증이 필요한 기능이나 콘텐츠에 액세스할 수 없습니다. 교육에 등록하거나, 강의를 시작하거나 수료할 수 없으며 내 학습, 달력, 규정 준수, 리더보드 또는 소셜 학습 과 같은 개인 맞춤화된 위젯에 액세스할 수도 없습니다. 이러한 위젯은 사용자별 데이터에 따라 달라지며 로그인 후에만 사용할 수 있습니다.
+On a non-logged-in Experience Builder site, visitors cannot access features or content that require user authentication. They are unable to enroll in trainings, start or consume courses, or access personalized widgets such as My Learning, Calendar, Compliance, Leaderboard, or Social Learning. These widgets depend on user-specific data and are only available after logging in.
 
-또한 방문자는 강의에 등록하거나 진행 상황이나 사용자 컨텍스트를 추적해야 하는 콘텐츠에 액세스하는 등의 작업을 수행할 수 없습니다. 교육을 등록하거나 시작하려고 하면 계속하기 전에 로그인하거나 등록하라는 메시지가 표시됩니다.
+Visitors also cannot perform actions like enrolling in a course or accessing any content that requires tracking progress or user context. Attempting to enroll or start a training prompts the visitor to log in or sign up before proceeding.
 
-### 임시 방문 모드에서 지원되는 위젯
+### Supported widgets in non-logged-in mode
 
-비로그인 모드에서는 사용자별 데이터가 필요 없는 위젯만 지원됩니다. 여기에는 다음과 같은 사항이 포함됩니다.
+In non-logged-in mode, only widgets that do not require user-specific data are supported. These include:
 
-* 범주 위젯 - 사용 가능한 교육 범주를 표시합니다.
-* 강의 및 경로 위젯 - 공개 카탈로그의 강의 및 학습 경로를 표시합니다.
-* 콘텐츠 상자(정적 텍스트, 이미지 또는 홍보 콘텐츠를 추가하는 경우).
-* HTML 위젯 - 사용자 정의 HTML 내용을 포함합니다.
-* Iframe 위젯 - 페이지 내에 외부 사이트, 비디오 또는 도구를 표시합니다.
-* 임시 로그인 모드에서는 내 학습, 달력, 준수, 리더보드, 소셜 학습 등 사용자 컨텍스트가 필요한 위젯을 사용할 수 없습니다.
+* Categories widget, which displays available training categories.
+* Courses and paths widget, which shows courses and learning paths from the public catalog.
+* Content box, for adding static text, images, or promotional content.
+* HTML widget, for embedding custom HTML content.
+* Iframe widget, for displaying external sites, videos, or tools within the page.
+* Widgets that require user context, such as My Learning, Calendar, Compliance, Leaderboard, and Social Learning, are not available in non-logged-in mode.
 
-### 로그인하지 않은 환경의 페이지 및 메뉴
+### Pages and menus in non-logged-in experience
 
-* 로그인하지 않은 메뉴는 하나만 지원되며 인증 없이 모든 방문자가 볼 수 있습니다.
-* 페이지는 로그인 메뉴와 로그인하지 않은 메뉴 모두에 추가할 수 있습니다. 두 메뉴 모두에 페이지가 있는 경우에는 사용자의 로그인 상태를 기반으로 위젯과 콘텐츠가 조정됩니다.
-* 로그인하지 않은 메뉴에는 대상 그룹 지정 또는 개인 설정이 없습니다. 모든 사람이 동일한 페이지 세트를 볼 수 있습니다.
-* 로그인 모드가 아닌 모드에서는 지원되지 않는 위젯이 자동으로 숨겨지며 페이지 레이아웃이 간격을 채우도록 조정됩니다.
-* 메뉴 및 페이지 관리(추가, 미리 보기, 삭제)는 로그인 모드와 유사하지만 로그인하지 않은 제약 조건을 위한 조정입니다.
+* Only one non-logged-in menu is supported, visible to all visitors without authentication.
+* Pages can be added to both logged-in and non-logged-in menus; if a page is in both, it adapts its widgets and content based on the user's login state.
+* Non-logged-in menus do not have audience targeting or personalization. Everyone sees the same set of pages.
+* Widgets not supported in non-logged-in mode are hidden automatically; page layout adjusts to fill gaps.
+* Menu and page management (adding, previewing, deleting) is like logged-in mode, but with adaptations for non-logged-in constraints.
 
-### 검색 및 카탈로그 동작
+### Search and catalog behavior
 
-비로그인 모드에서는 사용자가 카탈로그 페이지에 액세스하고 검색을 사용하여 사용 가능한 강의 및 학습 경로를 찾아볼 수 있습니다. 카탈로그 페이지에는 로그인 모드와 동일한 계정 설정에 따라 모든 공개 강의가 필터 및 검색 기능과 함께 표시됩니다. 사용자가 검색하면 결과가 카탈로그 페이지에 나타나고 로그인하지 않고도 강의 및 인스턴스 개요 페이지를 볼 수 있습니다. 단, 등록과 같은 작업에는 로그인이 필요합니다.
+In non-logged-in mode, users can access the catalog page and use search to browse available courses and learning paths. The catalog page displays all public courses, along with filters and search functionality, following the same account settings as in logged-in mode. When a user searches, the results appear on the catalog page, and users can view course and instance overview pages without logging in. However, actions like enrollment require login.
 
-사용자가 등록하려고 하면 먼저 로그인해야 합니다. 로그인하지 않은 사용자에 대한 검색은 로그인한 사용자에 대한 검색보다 간단하며 AI Assistant 통합과 같은 고급 기능을 포함하지 않습니다.
+If a user attempts to enroll, the system requires them to log in first. The search for non-logged-in users is simpler than that for logged-in users and does not include advanced features like AI Assistant integration.
 
-### 기술적 구현
+### Technical implementation
 
-#### 교육 데이터 액세스 커넥터 설정
+#### Training data access connector setup
 
-로그인하지 않은 experience builder 기능을 사용하려면 먼저 통합 책임자 패널에서 교육 데이터 액세스 커넥터를 활성화해야 합니다. 이 커넥터는 교육 메타데이터를 ALM에서 공용 저장소로 내보내므로 로그인하지 않은 페이지의 API를 통해 액세스할 수 있습니다. 커넥터 설정은 기능을 활성화하기 위한 필수 구성 요소이며 포털에 최신 교육 정보가 표시되도록 합니다.
+You must enable the training data access connector in the integration admin panel before you can use the non-logged-in experience builder feature. This connector exports training metadata from ALM to a public repository, making it accessible via APIs for your non-logged-in pages. The connector setup is a prerequisite for activating the feature and ensures your portal displays up-to-date training information.
 
-#### 메타데이터 내보내기 및 동기화
+#### Metadata export and synchronization
 
-커넥터는 강의 이름, 개요, 설명, 등급, 기간 및 스킬과 같은 주요 메타데이터 필드를 내보냅니다. 내보내기(예: 매일)를 예약하여 포털을 ALM과 동기화하도록 할 수 있습니다. 모든 메타데이터 필드가 포함될 수 있는 것은 아닙니다. 전체 목록은 엔지니어링 부서에 문의하십시오. 내보낸 데이터는 로그인하지 않은 페이지를 채우는 데 사용되며, ALM의 변경 내용은 다음 내보내기 주기 후에 표시됩니다.
+The connector exports key metadata fields such as course name, overview, description, rating, duration, and skills. You can schedule exports (for example, daily) to keep your portal synchronized with ALM. Not all metadata fields may be included; consult engineering for a complete list. Exported data is used to populate non-logged-in pages, and changes in ALM will appear after the next export cycle.
 
-#### 캐싱 및 내보내기 빈도
+#### Caching and export frequency
 
-시스템은 백엔드 내보내기 빈도 및 프런트 엔드 캐싱을 사용하여 데이터 업데이트를 관리합니다. ALM에서 변경한 내용은 예약된 내보내기 및 캐시 새로 고침 후 포털에 반영됩니다. 이러한 메커니즘으로 인해 일부 업데이트가 즉시 나타나지 않을 수 있습니다. 더 빠른 업데이트가 필요한 경우 내보내기 일정을 조정하거나 필요에 따라 캐시를 지우십시오.
+The system uses backend export frequency and frontend caching to manage data updates. Changes made in ALM are reflected on your portal after the scheduled export and cache refresh. Some updates may not appear immediately due to these mechanisms. If you need faster updates, adjust the export schedule or clear the cache as needed.
 
-#### CSS/JS 사용자 지정 지원
+#### CSS/JS customization support
 
-사용자 정의 탭을 사용하여 로그인한 페이지와 로그인하지 않은 페이지에 사용자 정의 CSS 및 JavaScript를 적용할 수 있습니다. 이를 통해 일관된 브랜딩을 유지하고, 사용자 정의 UI 요소를 추가하고, 포털 전반에서 사용자 경험을 향상시킬 수 있습니다. 모든 사용자 정의는 전역적으로 적용되어 통합된 모양과 느낌을 보장합니다.
+You can apply custom CSS and JavaScript to both logged-in and non-logged-in pages using the customization tab. This allows you to maintain consistent branding, add custom UI elements, and enhance user experience across your portal. All customizations are applied globally, ensuring a unified look and feel.
 
-#### URL 차이 및 브랜딩(파비콘, 페이지 제목)
+#### URL differences and branding (favicon, page title)
 
-로그인되지 않은 페이지와 로그인된 페이지는 사용자 상태를 구분하기 위해 서로 다른 URL을 가질 수 있다. 포털에 대한 파비콘과 페이지 제목을 사용자 정의하여 브랜드 정체성을 강화할 수 있습니다. 이러한 기능은 Experience Builder에서 사용할 수 있습니다. 로그인하지 않은 지원에 대한 최신 상태는 엔지니어링 팀에 문의하십시오.
+Non-logged-in and logged-in pages may have different URLs to distinguish user states. You can customize the favicon and page title for your portal, helping reinforce your brand identity. These features are available in the experience builder; check with engineering for the latest status on non-logged-in support.
 
-### 성능 및 확장성
+### Performance and scalability
 
-#### 공유 스택과 프리미엄 스택 비교
+#### Shared stack vs premium stack
 
-공유 스택을 사용하면 여러 고객이 공통 인프라에서 로그인하지 않은 경험 빌더를 사용하여 표준 트래픽 수준을 지원할 수 있습니다. 프리미엄 스택은 고급 요구 사항이 있는 고객을 위해 전용 리소스, 실시간 기능 및 높은 시트 제한을 제공하는 유료 옵션입니다. 예상 트래픽 및 비즈니스 요구 사항에 따라 스택을 선택합니다.
+The shared stack allows multiple customers to use the non-logged-in experience builder on common infrastructure, supporting standard traffic levels. The premium stack is a paid option that provides dedicated resources, real-time features, and higher seat limits for customers with advanced needs. Select the stack based on your expected traffic and business requirements.
 
-#### 트래픽 제한 및 속도 제한
+#### Traffic limits and rate limiting
 
-공유 스택은 트래픽 제한을 시행하여 고객 간에 공정한 사용을 보장합니다. 엔지니어링 팀은 단일 고객이 모든 리소스를 소비하지 않도록 비율 제한을 구현합니다. 마케팅 캠페인을 계획하거나 트래픽이 많을 것으로 예상되면 엔지니어링 팀과 협력하여 한계를 이해하고 서비스 중단을 방지하십시오. 속도 제한은 모든 사용자의 시스템 안정성과 성능을 유지하는 데 도움이 됩니다.
+The shared stack enforces traffic limits to ensure fair usage among customers. Engineering will implement rate limiting to prevent any single customer from consuming all resources. If you plan marketing campaigns or expect high traffic, coordinate with engineering to understand your limits and avoid service disruptions. Rate limiting helps maintain system stability and performance for all users.
 
-#### 멀티 테넌시 및 SEO 고려 사항
+#### Multi-tenancy and SEO considerations
 
-이 플랫폼은 다중 테넌시를 지원하여 여러 고객이 공유 인프라에서 포털을 호스팅할 수 있도록 합니다. 로그인하지 않은 페이지는 sitemap.xml 및 robots.txt와 함께 SEO 친화적이므로 검색 엔진 가시성을 최적화할 수 있습니다. 이렇게 하면 포털이 검색 엔진에 의해 적절하게 검색 및 인덱싱될 수 있습니다.
+The platform supports multi-tenancy, allowing multiple customers to host their portals on shared infrastructure. Non-logged-in pages are SEO-friendly, along with sitemap.xml and robots.txt to optimize search engine visibility. This ensures your portal is discoverable and indexed appropriately by search engines.
 
-### 마이그레이션 및 중단
+### Migration and deprecation
 
-#### 로그인하지 않은 기존 홈페이지에서 전환
+#### Transition from existing non-logged-in homepage
 
-향상된 유연성, 위젯 지원 및 향상된 사용자 경험을 위해 새로운 Experience Builder를 사용하여 홈페이지를 다시 만들어야 합니다. 전환 계획을 통해 업무 중단을 최소화하고 계속 지원할 수 있습니다.
+You should recreate your homepage using the new experience builder for enhanced flexibility, widget support, and improved user experience. The transition plan ensures minimal disruption and continued support.
 
-#### 커뮤니케이션 계획
+#### Communication plan
 
-기존 홈페이지를 사용하는 고객은 사용 중단 타임라인 및 마이그레이션 단계에 대한 명확한 커뮤니케이션을 수신합니다. 홈페이지를 새로운 experience builder 플랫폼으로 이전하여 새로운 기능과 지속적인 업데이트를 통해 혜택을 누릴 수 있도록 지원이 제공됩니다.
+Customers using the legacy homepage will receive clear communication about the deprecation timeline and migration steps. Support will be provided to help you move your homepage to the new experience builder platform, ensuring you benefit from new features and ongoing updates.
 
-### 로컬라이제이션 및 로그인 지원
+### Localization and login support
 
-#### 로케일 대체 논리
+#### Locale fallback logic
 
-생성된 로케일로 페이지가 표시됩니다. 사용자의 로케일을 사용할 수 없는 경우 시스템은 대체(fallback) 로직을 사용하여 사용 가능한 로케일 중 가장 적합한 다음 로케일을 선택합니다. 이렇게 하면 사용자들이 지원되는 언어로 콘텐츠를 항상 볼 수 있으므로 접근성과 사용자 만족도가 향상됩니다.
+The system displays pages in the locale they were created. If a user's locale is unavailable, the system uses a fallback logic to select the next best available locale. This ensures users always see content in a supported language, improving accessibility and user satisfaction.
 
-#### 지원되는 로그인 유형
+#### Supported login types
 
-임시 방문 모드에서는 SSO 및 표준 로그인을 포함하여 ALM에서 사용할 수 있는 모든 로그인 유형을 지원합니다. 사용자는 로그인하지 않고도 콘텐츠를 찾아볼 수 있으며, 강의에 등록하거나 개인화된 기능에 액세스하는 등 필요한 경우 로그인하라는 메시지가 표시됩니다. 이를 통해 탐색에서 참여로 원활하게 전환할 수 있습니다.
+The non-logged-in experience supports all login types available in ALM, including SSO and standard login. Users can browse content without logging in and will be prompted to log in when required, such as enrolling in a course or accessing personalized features. This provides a smooth transition from browsing to engagement.
 
 
-### 로그인하지 않은 API
+### Non-logged in APIs
 
-#### 책임자 학습 개체 API
+#### Admin Learning Object API
 
-로그인하지 않은 Experience Builder 페이지 및 헤드리스 포털은 제품 및 역할을 기반으로 과정을 구성하거나 필터링하는 경우가 많습니다. Admin LO API가 향상되어 백엔드 및 헤드리스 통합과 TDA 커넥터에 대해 이러한 연결에 일관되게 액세스할 수 있습니다.
+Non-logged-in Experience Builder pages and headless portals often organize or filter courses based on product and role. The Admin LO API has been enhanced to ensure that these associations are consistently accessible for back-end and headless integrations, as well as for the TDA connector.
 
-**끝점 및 동작**
+**Endpoint and behavior**
 
-기존 Admin LO 엔드포인트를 계속 사용합니다.
+You continue to use the existing Admin LO endpoint:
 
 ```
 GET /primeapi/v2/learningObjects/{loId}?enforcedFields[learningObject]=products,roles
 ```
 
-위치:
+Where:
 
-* loId는 학습 개체 ID(예: 강의:12345)입니다.
-* enforcedFields[learningObject]는 해당 LO에 대한 제품 및 역할을 명시적으로 포함하도록 API에 지시합니다.
+* loId is the learning object ID (for example course:12345).
+* enforcedFields[learningObject] instructs the API to explicitly include products and roles for that LO.
 
-이는 enforcedFields를 통해 요청된 경우 LO의 제품 및 역할 연결이 응답에 있는지 확인함으로써 충족됩니다. 그런 다음 응답에는 Experience Builder 및 기타 소비자에 대한 권장 제품(rec\_products) 및 역할(rec\_roles)을 계산하거나 표시하는 데 필요한 제품 및 역할 메타데이터가 속성에 포함됩니다.
+This is fulfilled by ensuring that the LO's product and role associations are present in the response when requested through enforcedFields. The response then contains, in attributes, the product and role metadata needed to compute or expose the recommended products (rec\_products) and roles (rec\_roles) for Experience Builder and other consumers.
 
-관리자 또는 통합의 일반적인 호출은 다음과 같습니다.
+A typical call from an admin or integration looks like:
 
 ```
 url -X GET \
@@ -1138,17 +1140,17 @@ url -X GET \
  -H "Accept: application/vnd.api+json
 ```
 
-반환된 LO JSON은 이전과 동일한 기본 구조이지만 이제 enforcedFields를 사용하여 요청할 때 표시되는 제품/역할 필드에 의존할 수 있습니다. enforcedFields를 사용하지 않는 통합은 계속해서 이전과 같이 작동합니다.
+The returned LO JSON is the same basic structure as before, but now you can rely on product/role fields being present when you request them with enforcedFields. Integrations that do not use enforcedFields continue to behave as before.
 
-#### 학습 객체 목록 - EffectiveModifiedDate 필터의 작업 지원
+#### Learning Objects Listing – JobAid Support in effectiveModifiedDate Filter
 
-**목적**
+**Purpose**
 
-TDA(교육 데이터 액세스) 커넥터 및 헤드리스 구현은 학습 개체의 **유효 수정 날짜**&#x200B;를 기준으로 증분 동기화를 수행해야 하는 경우가 많습니다. 이 릴리스까지 작업 지원(LO 유형 작업 지원)은 effectiveModifiedDate 필터와 결합될 때 올바르게 처리되지 않았습니다. 이 릴리스에서는 이를 수정하여 작업 지원이 강의 및 학습 경로처럼 점진적으로 동기화되도록 합니다.
+The Training Data Access (TDA) connector and headless implementations often need to perform incremental synchronization, based on the **effective modification date** of learning objects. Until this release, JobAids (LO type jobAid) were not correctly handled when combined with the effectiveModifiedDate filters. This release fixes this so JobAids can be synced incrementally like courses and learning paths.
 
-**끝점 및 동작**
+**Endpoint and behavior**
 
-날짜 필터 및 LO 유형과 함께 기존의 LO 목록 엔드포인트를 사용합니다.
+You use the existing LO listing endpoint with date filters and LO type:
 
 ```
 GET /primeapi/v2/learningObjects
@@ -1157,9 +1159,9 @@ GET /primeapi/v2/learningObjects
  &filter.loTypes=jobAid
 ```
 
-이전에는 filter.loTypes=jobAid가 effectiveModifiedDate 범위와 결합되면 필터에서 작업 지원이 효과적으로 제외되고 작업 지원이 지원되지 않는 것처럼 호출이 수행되었습니다.
+Previously, when filter.loTypes=jobAid was combined with an effectiveModifiedDate range, the filter effectively excluded JobAids, and the call behaved as though JobAids were not supported.
 
-이번 업데이트부터는 호출에서 effectiveModifiedDate가 지정된 창에 속하는 작업 지원 학습 개체만 반환합니다.
+From this update onwards, the call returns only JobAid learning objects whose effectiveModifiedDate falls inside the specified window.
 
 ```
 {
@@ -1209,32 +1211,32 @@ GET /primeapi/v2/learningObjects
 }
 ```
 
-즉, 다른 유형에서 이미 수행한 것과 동일한 방식으로 effectiveModifiedDate를 기반으로 증분 JobAid 동기화를 안전하게 구현할 수 있습니다.
+This means you can now safely implement incremental JobAid syncs based on effectiveModifiedDate, in the same way you already do for other types.
 
-filter.loTypes=jobAid를 생략하면 다른 LO 유형의 동작은 변경되지 않습니다. 변경 사항은 JobAid와 해당 필터의 결합에만 영향을 줍니다.
+If you omit filter.loTypes=jobAid, the behavior for other LO types is unchanged; the change only affects the combination of JobAid with that filter.
 
-#### **메뉴 API: 로그인하지 않은 메뉴 필터**
+#### **Menu API: Non-logged-in menu filter**
 
-**목적**
+**Purpose**
 
-Experience Builder와 헤드리스 프론트에는 공용 방문자의 탐색을 정의하는 **로그인하지 않은 메뉴**&#x200B;를 검색할 수 있는 간단한 방법이 필요합니다. 이 릴리스 전에는 모든 메뉴를 가져온 다음 사용자 정의 논리를 적용하여 로그인하지 않은 탐색을 나타내는 메뉴를 식별해야 했습니다. 이 릴리스에는 간단한 서버측 필터가 추가되었습니다.
+Experience Builder and headless frontends need a straightforward way to retrieve the **non-logged-in menu** , the one that defines navigation for public visitors. Before this release, you had to fetch all menus and then apply custom logic to identify which one represented the non-logged-in navigation. This release adds a simple server-side filter.
 
-**끝점 및 동작**
+**Endpoint and behavior**
 
-기존의 메뉴 목록 끝점을 새 쿼리 매개 변수와 함께 사용합니다.
+You use the existing Menu listing endpoint with a new query parameter:
 
 ```
 GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true
 ```
 
-주요 요점은 다음과 같습니다.
+The key points:
 
-* include=pages,subMenus.pages는 선택 사항이지만, 동일한 응답으로 페이지 및 하위 메뉴 페이지 세부 정보가 필요한 경우 권장됩니다.
-* isNonLoggedIn=true는 이번 릴리스에서 새로 추가되었으며 서버에 로그인하지 않은 메뉴로 플래그가 지정된 메뉴만 반환하도록 지시합니다.
+* include=pages,subMenus.pages is optional but recommended when you need the page and submenu page details in the same response.
+* isNonLoggedIn=true is new in this release and tells the server to return only menus that are flagged as non-logged-in menus.
 
-isNonLoggedIn 매개 변수가 없으면 끝점이 이전과 동일하게 작동하고 기존 기본 동작에 따라 메뉴를 반환합니다. isNonLoggedIn=true인 경우 일반적으로 계정에 대해 로그인하지 않은 환경에서 사용하는 단일 메뉴를 반환합니다(일반적으로 계정당 하나의 로그인하지 않은 메뉴가 있기 때문).
+Without the isNonLoggedIn parameter, the endpoint behaves exactly as before and returns menus according to the existing default behavior. With isNonLoggedIn=true, it typically returns the single menu used by the non-logged-in experience for your account (since there is normally one non-logged-in menu per account).
 
-실제로 클라이언트는 다음 문제를 해결할 수 있습니다.
+In practice, a client can now issue:
 
 ```
 curl -X GET \
@@ -1243,216 +1245,216 @@ curl -X GET \
  -H "Accept: application/vnd.api+json"
 ```
 
-또한 한 번의 호출로 로그인하지 않은 탐색 구조와 익명 방문자에게 표시되어야 하는 모든 페이지를 다시 가져옵니다.
+and get back the non-logged-in navigation structure in one call, with all the pages that should be visible to anonymous visitors.
 
-이 기능은 특히 헤드리스 임시 방문 사이트를 구축하고 있고 Experience Builder에서 사용하는 것과 동일한 탐색을 미러링하려는 경우 또는 임시 방문 메뉴가 올바르게 구성되었는지 여부를 디버깅하는 경우에 유용합니다.
+This is particularly useful when you are building a headless non-logged-in site and want to mirror the same navigation that Experience Builder uses, or when you are debugging whether the non-logged-in menu has been configured correctly.
 
-### 사용자 정의 도메인 목록 허용
+### Allow listing of custom domains
 
-로그인하지 않은 스택은 다음으로 구성됩니다.
+The non-logged-in stack consists of:
 
-* 레이아웃, 구성 JSON 및 정적 에셋을 제공하는 공개 CDN 도메인(예: cpcontents.adobe.com 또는 yourdomain.example.com).
-* 카탈로그 및 검색 데이터를 제공하는 공용 Elasticsearch(ES) 엔드포인트이지만, 해당 ALM 계정에 대해 **허용 목록 도메인**&#x200B;에서 요청이 제공된 경우에만 가능합니다.
+* A public CDN domain (for example cpcontents.adobe.com or yourdomain.example.com) that serves layouts, config JSON, and static assets.
+* A public Elasticsearch (ES) endpoint that serves catalog and search data, but only if the request comes from an **allow-listed domain** for that ALM account.
 
-사용자 정의 도메인을 소개하면 사용자 정의 도메인을 추가하기 위한 기존 프로세스를 따르는 추가 작업 없이 원활하게 작동합니다.
+When you introduce a custom domain, it works seamlessly without any additional effort following the existing process for adding a custom domain.
 
-#### 사전 요구 사항
+#### Prerequisites
 
-로그인하지 않은 사용자에 대한 사용자 정의 도메인을 허용 목록에 추가하기 전에:
+Before whitelisting a custom domain for non-logged-in:
 
-1. 사용자 정의 도메인은 ALM 계정에 대해 구성됩니다(예: academy.yourcompany.com의 DNS는 Adobe/Akamai를 가리키며 인증서는 프로비저닝됨).
-2. 계정에 대해 **TDA(교육 데이터 액세스) 커넥터**&#x200B;를 사용할 수 있습니다.
-3. **로그인하지 않은 Experience Builder** 기능이 활성화되었습니다(Adobe 쪽).
+1. The custom domain is configured for your ALM account (for example, DNS for academy.yourcompany.com points to Adobe / Akamai, and certificates are provisioned).
+2. The **Training Data Access (TDA) connector** is enabled for the account.
+3. The **non-logged-in Experience Builder** feature is enabled (Adobe-side).
 
-다음 단계를 수행하면 다음을 확인할 수 있습니다.
+These steps ensure that:
 
-* 계정에 cpDomain, almDomain, almCdnBaseUrl, esBaseUrl 및 허용 목록 도메인과 같은 필드가 포함된 로그인하지 않은 **계정 JSON**(종종 accountConfig/experienceBuilderConfig로 표시됨)이 있습니다.
-* 로그인하지 않은 스택은 데이터를 제공할 위치와 요청을 수락해야 하는 도메인을 알고 있습니다.
+* Your account has a non-logged-in **account JSON** (often referenced as accountConfig / experienceBuilderConfig), which includes fields such as cpDomain, almDomain, almCdnBaseUrl, esBaseUrl, and allow-listed domains.
+* The non-logged-in stack knows where to serve data and from which domains it should accept requests.
 
-#### 허용 목록이 작동하는 방법
+#### How allow-listing works
 
-허용 목록은 TDA가 내보내고 로그인하지 않은 스택이 읽는 구성에 저장됩니다. 해당 구성에는 다음이 포함됩니다.
+The allow-list is stored in the configuration that TDA exports and the non-logged-in stack reads. That configuration includes:
 
-* ALM 도메인(cpDomain, almDomain)
-* 로그인하지 않은 콘텐츠(almCdnBaseUrl)에 대한 **CDN 기본 URL**&#x200B;입니다.
-* **공개 검색 기본 URL**(esBaseUrl).
-* 해당 계정에 대해 로그인하지 않고 공개적으로 호출할 수 있는 도메인 목록입니다.
+* The ALM domains (cpDomain, almDomain).
+* The **CDN base URL** for non-logged-in content (almCdnBaseUrl).
+* The **public search base URL** (esBaseUrl).
+* The list of domains that are allowed to make public non-logged-in calls for that account.
 
-로그인하지 않은 Experience Builder가 사용자 정의 도메인에서 작업하려면 다음을 수행하십시오.
+For non-logged-in Experience Builder to work on a custom domain:
 
-* 브라우저는 해당 사용자 정의 HTML(또는 설정에 따라 ALM 임시 방문 CDN 도메인)에서 임시 방문 도메인을 로드해야 합니다.
-* 해당 도메인에서 공개 ES 및 CDN 엔드포인트로의 호출을 수락해야 합니다. 이 문제는 도메인이 허용 목록에 있는 경우에만 발생합니다.
+* The browser must load the non-logged-in HTML from that custom domain (or from the ALM non-logged-in CDN domain, depending on your setup).
+* Calls from that domain to the public ES and CDN endpoints must be accepted. That only happens if the domain is present in the allow-list.
 
-이 릴리스에서는 로그인하지 않은 새 CDN 도메인 cpcontents.adobe.com을 추가하고 TDA 커넥터의 **허용 목록 도메인**&#x200B;에 배치하도록 지정합니다. 로그인하지 않은 기존 기본 사용자의 경우 업데이트해야 합니다.
+This release adds a new non-logged-in CDN domain, cpcontents.adobe.com, and specifies that it must be placed into the **allow-listed domains** in the TDA connector. For existing non-logged-in native users, this requires an update.
 
-#### 사용자 정의 도메인 허용 목록
+#### Allow-list a custom domain
 
-**ALM에서 사용자 지정 도메인 구성**
+**Configure the custom domain in ALM**
 
-Adobe으로 작업하여 도메인(예: academy.yourcompany.com)을 ALM 계정의 사용자 정의 도메인으로 등록합니다. DNS를 업데이트하여 Akamai Adobe을 지시대로 가리키고 SSL 및 라우팅이 완료될 때까지 기다립니다.
+Work with Adobe to register your domain, for example, academy.yourcompany.com, as the custom domain for your ALM account. You update DNS to point to Adobe Akamai as instructed and wait for SSL and routing to complete.
 
-이때 로그인된 트래픽과 로그인되지 않은 트래픽 모두 해당 도메인을 통해 ALM에 도달할 수 있지만 도메인이 허용 목록에 표시되지 않으면 로그인되지 않은 검색과 카탈로그 호출이 계속 차단될 수 있습니다.
+At this point, both logged-in and non-logged-in traffic can reach ALM through that domain, but non-logged-in search and catalog calls may still be blocked if the domain is not allow-listed.
 
-**TDA 및 로그인하지 않은 Experience Builder 사용**
+**Enable TDA and non-logged-in Experience Builder**
 
-다음을 확인하십시오.
+Ensure that:
 
-* **교육 데이터 액세스 커넥터**&#x200B;를 사용할 수 있습니다.
-* 계정에 대해 **로그인하지 않은 Experience Builder** 기능이 켜져 있습니다.
+* The **Training Data Access connector** is enabled.
+* The **non-logged-in Experience Builder** feature is turned on for the account.
 
-TDA를 활성화하면 로그인하지 않은 계정 JSON이 생성되거나 업데이트됩니다. 새 계정의 경우 이 프로세스는 기본적으로 로그인하지 않은 새 CDN 도메인(cpcontent.adobe.com)을 허용 목록에 포함하므로 공용 ES 끝점은 해당 도메인의 호출을 예상합니다.
+Enabling TDA creates or updates the non-logged-in account JSON. For new accounts, the process also allow-lists the new non-logged-in CDN domain (cpcontent.adobe.com) by default, so the public ES endpoint expects calls from that domain.
 
-이전에 로그인하지 않은 스택을 이미 사용 중인 계정의 경우 새 도메인을 선택하려면 기존 커넥터를 삭제하고 다시 만들어야 합니다.
+For accounts that were already using the older non-logged-in stack, existing connectors must be deleted and recreated to pick up the new domain.
 
-**허용 목록에 사용자 지정 도메인 추가**
+**Add the custom domain to the allow-list**
 
-중요한 부분은 로그인하지 않은 ES 스택에 academy.yourcompany.com 이 승인된 오리진임을 알리는 것입니다. 두 가지 일반적인 경로가 있습니다.
+The critical part is telling the non-logged-in ES stack that academy.yourcompany.com is an approved origin. There are two common paths.
 
-1. **TDA 커넥터 다시 사용(간단하고 셀프서비스에 친숙한)**
+1. **Re-enable the TDA connector (simple, self-service friendly)**
 
-새 도메인이 자동으로 허용 목록에 추가되도록 기존 기본 임시 방문 사용자는 TDA 연결을 삭제하고 다시 활성화해야 합니다. 이렇게 하면 다음 두 가지 사항이 충족됩니다.
+Existing native non-logged-in users will need to delete and re-enable the TDA connection so the new domain is automatically allow-listed. Doing this achieves two things:
 
-1. 로그인하지 않은 계정 JSON이 다시 생성됩니다.
-2. 허용 목록에 있는 도메인이 로그인하지 않은 새 CDN 도메인과 사용자 정의 도메인을 포함하도록 업데이트됩니다.
+1. The non-logged-in account JSON is regenerated.
+2. The allow-listed domains are updated to include the new non-logged-in CDN domain and your custom domain.
 
-이는 계정 수가 적고 일시적으로 커넥터를 비활성화하고 다시 활성화하는 것을 허용할 수 있는 경우에 권장됩니다.
+This is recommended when you have a small number of accounts and can tolerate temporarily disabling and re-enabling the connector.
 
-1. **도메인이 실제로 허용 목록에 있는지 확인**
+1. **Verify that the domain is actually allow-listed**
 
-허용 목록이 표시되면 사용자 지정 도메인에서 로그인하지 않은 사이트를 열고 브라우저 네트워크 호출을 검사합니다.
+After allow-listing, open your non-logged-in site on the custom domain and inspect the browser network calls.
 
-보고 싶은 항목:
+You want to see:
 
-* almCdnBaseUrl에 대한 요청(예: <https://cpcontent.adobe.com/>...) 200/304로 시작합니다.
-* esBaseUrl에 대한 요청(공개 검색 API, 예: <https://primeapps.adobe.com/almsearch/api/v1/>...) 이어서 검색/카탈로그 데이터가 있는 JSON을 반환합니다.
+* Requests to almCdnBaseUrl (for example <https://cpcontent.adobe.com/>...) succeeding with 200/304.
+* Requests to esBaseUrl (public search API, for example <https://primeapps.adobe.com/almsearch/api/v1/>...) succeeding, returning JSON with search / catalog data.
 
-이러한 호출에서 4xx 또는 &quot;신뢰할 수 없는 도메인&quot; 또는 &quot;허용되지 않은 원본&quot;을 암시하는 명시적 오류가 반환되면 허용 목록이 불완전하거나 잘못 구성되므로 지원팀에서 이를 조정해야 합니다.
+If these calls return 4xx or explicit errors suggesting "untrusted domain" or "origin not allowed," the allow-list is incomplete or misconfigured and Support needs to adjust it.
 
-로그인하지 않은 LLD는 계정 구성에 필요한 도메인 값을 보유할 수 있다는 점에 유의합니다. 런타임에 사이트에서는 URL의 도메인이 구성에 설정된 것과 일치하는지 확인합니다. 일치하지 않으면 사용자가 오류 페이지로 리디렉션될 수 있습니다. 이렇게 하면 다른 고객의 도메인을 통해 한 고객의 구성에 액세스할 수 없게 됩니다.
+The non-logged-in LLD also notes that the account config can hold an expected domain value. At runtime, the site checks that the domain in the URL matches what is set in the config; if it does not, the user can be redirected to an error page. This protects against one customer's configuration being accessed via another customer's domain.
 
-### 로그인하지 않은 Experience Builder에서 권장 사항 사용
+### Using recommendations in the non-logged-in Experience Builder
 
-로그인하지 않은 Experience Builder를 사용하면 방문자가 로그인하기 전에 카탈로그를 검색하고 강조 표시된 콘텐츠를 볼 수 있는 공개 학습 페이지를 구축할 수 있습니다. 해당 방문자는 익명이지만 메타데이터와 위젯을 사용하여 추천 교육을 제공할 수 있습니다.
+The non-logged-in Experience Builder lets you build public learning pages where visitors can browse your catalog and see highlighted content before they sign in. Even though these visitors are anonymous, you can still present recommended trainings by using metadata and widgets.
 
-로그인한 학습자 앱에서 추천은 학습자의 프로필, 내역, 스킬 및 진행률에 따라 개인화할 수 있습니다. **로그인하지 않은** 환경에서는 아직 학습자 ID가 없으므로 플랫폼이 사용자별로 개인 설정할 수 없습니다.
+In the logged-in learner app, recommendations can be personalized: they can depend on the learner's profile, history, skills, and progress. In the **non-logged-in** experience, there is no learner identity yet, so the platform cannot personalize per user.
 
-따라서 비로그인 모드의 Recommendations은 다음과 같습니다.
+Recommendations in non-logged-in mode are therefore:
 
-* **큐레이션됨 또는 규칙 기반**: 카탈로그, 제품, 역할, 레이블, 태그 및 기타 메타데이터를 기반으로 합니다.
-* **세그먼트 중심**: &quot;개발자에게 권장됨&quot;, &quot;파트너에게 권장됨&quot;, &quot;초보자에게 추천됨&quot;
-* **마케팅 중심**: 방문자가 로그인한 후 등록하도록 안내하는 데 사용됩니다.
+* **Curated or rule-based**: based on catalog, product, role, labels, tags, and other metadata.
+* **Segment-oriented**: "recommended for developers", "recommended for partners", "featured for beginners".
+* **Marketing-focused**: used to attract and guide visitors to enroll once they log in.
 
-### 권장 사항을 지원하는 메타데이터 및 API
+### Metadata and APIs that support recommendations
 
-로그인하지 않은 페이지는 다음과 같은 용도로 사용됩니다.
+Behind the scenes, non-logged-in pages use:
 
-* 학습 개체 메타데이터(강의, 경로, 인증, 작업 지원)를 공용 검색 인덱스로 내보내는 **TDA 커넥터**&#x200B;입니다.
-* 로그인하지 않은 위젯(카탈로그, 검색, 강의 및 경로, 범주)의 쿼리에 응답하는 **공개 검색 스택**&#x200B;입니다.
-* 추천 규칙에 사용할 수 있는 제품 및 역할 메타데이터를 표시하는 **관리자 학습 개체 API**&#x200B;입니다.
+* The **TDA connector** to export learning object metadata (courses, paths, certifications, job aids) to a public search index.
+* The **public search stack** to answer queries from non-logged-in widgets (catalog, search, Courses and paths, Categories).
+* The **Admin Learning Objects API** to expose product and role metadata that can be used for recommendation rules.
 
-이번 릴리스에서는 제품 및 역할 연결을 안정적으로 사용할 수 있도록 Admin LO API가 확장되었습니다.
+In this release, the Admin LO API was extended so that product and role associations are reliably available:
 
 ```
 GET /primeapi/v2/learningObjects/{loId}?enforcedFields[learningObject]=products,roles
 ```
 
-이를 통해 위젯 및 헤드리스 통합을 통해 제품, 역할, 카탈로그 레이블, 태그 및 기타 필드를 일관되게 사용하여 규칙 기반 권장 사항을 구축할 수 있습니다.
+This allows widgets and headless integrations to build rule-based recommendations using products, roles, catalog labels, tags and other fields consistently.
 
-### Experience Builder 위젯으로 추천 섹션 디자인
+### Designing recommendation sections with Experience Builder widgets
 
-**Experience Builder 위젯**&#x200B;을 메타데이터 필터와 결합하여 로그인하지 않은 페이지에 추천 섹션을 만들 수 있습니다.
+You create recommendation sections on non-logged-in pages by combining **Experience Builder widgets** with metadata filters.
 
-#### **과정 및 경로 위젯**
+#### **Courses and Paths widget**
 
-추천 항목의 행이나 격자를 표시하려면 **강의 및 경로** 위젯을 사용합니다. 구성에서 다음을 선택할 수 있습니다.
+Use the **Courses and Paths** widget when you want to show a row or grid of recommended items. In its configuration you can choose:
 
-* 가져올 카탈로그
-* 필터로 사용할 카탈로그 레이블, 제품, 역할 또는 태그
-* 강의, 경로, 인증, 작업 지원 또는 조합 표시 여부.
-* 정렬 및 최대 항목 수입니다.
+* Which catalogs to pull from.
+* Which catalog labels, products, roles or tags to use as filters.
+* Whether to show courses, paths, certifications, job aids, or a mix.
+* Sorting and maximum number of items.
 
-예를 들어 다음 항목을 만들 수 있습니다.
+For example, you can create:
 
-* &quot;개발자에게 권장됨&quot;: 개발자 콘텐츠에 사용하는 제품 또는 역할별로 필터링합니다.
-* &quot;여기에서 시작&quot;: &quot;스타터&quot; 또는 &quot;온보딩&quot;과 같은 레이블로 필터링합니다.
-* &quot;이번 분기 추천&quot;: 2026년 3분기 추천 레이블과 같이 시간 바운드 레이블로 필터링합니다.
+* "Recommended for developers": filter by a product or role you use for developer content.
+* "Start here": filter by a label such as "Starter" or "Onboarding".
+* "Featured this quarter": filter by a time-bound label like featured-q3-2026.
 
-위젯이 비헤이비어에서 학습하지 않고 사용자가 정의한 메타데이터 규칙과 일치하는 항목을 표시합니다. 하지만 방문자 입장에선 추천 스트립에 가깝다.
+The widget is not learning from behavior; it is showing whatever matches the metadata rules you define. From a visitor's point of view, however, it looks like a recommendation strip.
 
-#### **범주 위젯**
+#### **Categories widget**
 
-**범주** 위젯을 사용하면 방문자가 제품 이름을 모르더라도 &quot;권장되는&quot; 콘텐츠 세트로 이동할 수 있습니다.
+Use the **Categories** widget to help visitors navigate into "recommended" sets of content, even if they do not know your product names.
 
-각 세그먼트가 나타내는 타일은 다음과 같이 구성할 수 있습니다.
+You can configure tiles that each represent a segment such as:
 
-* &quot;관리자용&quot;
-* &quot;영업 팀용&quot;
-* &quot;파트너용&quot;
-* &quot;제품 라인별&quot;
+* "For administrators"
+* "For sales teams"
+* "For partners"
+* "By product line"
 
-각 타일은 다음 중 하나에 연결할 수 있습니다.
+Each tile can link either to:
 
-* 필터링된 카탈로그 페이지(예: 특정 제품 또는 레이블로 필터링된 카탈로그)
-* 해당 세그먼트에 대해 미리 구성된 과정 및 경로를 사용하는 로그인하지 않은 전용 페이지입니다.
+* A filtered catalog page (for example, the catalog filtered by certain products or labels).
+* A dedicated non-logged-in page that uses Courses and paths preconfigured for that segment.
 
-이렇게 하면 개인 맞춤화 없이 &quot;세그먼트별 추천 경로&quot; 경험을 제공할 수 있습니다.
+This gives you a "recommended paths by segment" experience without personalization.
 
-### 세그먼트 기반 권장 사항 작성
+### Building segment-based recommendations
 
-로그인하지 않은 방문자에게는 아직 ALM 프로필이 없으므로 **세그먼트별** 권장 사항을 디자인하고 방문자가 직접 선택할 수 있도록 하는 것이 유용합니다.
+Because non-logged-in visitors have no ALM profile yet, it is useful to design recommendations **by segment** and let visitors self-select.
 
-1. 학원이 누구를 위한 것인지 간략하게 설명하고 적은 수의 세그먼트 입력 지점(예: &quot;개발자&quot;, &quot;마케터&quot;, &quot;파트너&quot;, &quot;신입 사원&quot;)을 표시하는 **임시 방문 페이지**&#x200B;를 사용합니다. 범주 위젯이나 단추가 있는 간단한 콘텐츠 상자 또는 HTML 섹션을 사용하여 이 작업을 수행할 수 있습니다.
-2. 각 세그먼트에 대해 Experience Builder에서 **로그인하지 않은 전용 페이지**&#x200B;를 만듭니다. 해당 페이지에서 그룹에 대해 &#39;권장됨&#39;을 나타내는 필터로 구성된 하나 이상의 강의 및 경로 위젯을 사용할 수 있습니다. 예를 들어, &quot;개발자&quot;의 경우 다음을 필터링할 수 있습니다.
-   1. 카탈로그 = &quot;공개 교육&quot;
-   2. 제품 = &quot;Adobe Experience Manager&quot;
-   3. 태그 = &quot;개발자 기본 사항&quot;
-3. 이러한 세그먼트 페이지를 마케팅 캠페인의 대상으로 사용하고 로그인하지 않은 홈 페이지의 타일의 대상으로 사용합니다.
+1. Use a **non-logged-in home page** that briefly explains who your academy is for and shows a small number of segment entry points (for example, "Developers", "Marketers", "Partners", "New employees"). This can be done with a Categories widget or a simple Content box or HTML section with buttons.
+2. For each segment, create a **dedicated non-logged-in page** in Experience Builder. On that page use one or more Courses and paths widgets configured with filters that represent what is "recommended" for that group. For example, for "Developers" you might filter on:
+   1. Catalog = "Public Training"
+   2. Product = "Adobe Experience Manager"
+   3. Tags = "Developer fundamentals"
+3. Use those segment pages as the destination of your marketing campaigns and as the target of the tiles on the non-logged-in home page.
 
-방문자는 논리가 메타데이터를 통해 디자인 시간에 정의되더라도 상황에 맞는 권장 사항을 보고 있다고 지각합니다.
+Visitors perceive that they are seeing recommendations tailored to their situation, even though the logic is defined at design time via metadata.
 
-### 로그인하지 않은 항목에서 개인 맞춤화된 추천 항목으로 전환
+### Transitioning from non-logged-in to personalized recommendations
 
-로그인하지 않은 권장 사항은 주로 **검색 가능성** 및 **변환**&#x200B;에 관한 것입니다. 방문자가 교육을 등록하거나 시작하면 로그인하고 프로필과 내역을 보유한 전체 학습자가 됩니다.
+Non-logged-in recommendations are mainly about **discoverability** and **conversion**. Once visitors decide to enroll or start training, they will log in and become full learners with a profile and history.
 
-일반적인 흐름은 다음과 같습니다.
+The usual flow is:
 
-1. 방문자는 로그인하지 않은 추천 섹션(홈 권장 사항, 세그먼트 랜딩 페이지, 추천 행)을 통해 콘텐츠를 검색합니다.
-2. 강의나 경로 개요를 클릭하고 등록하거나 시작하도록 선택합니다.
-3. ALM에서 등록하거나 로그인하라는 메시지가 표시됩니다.
-4. 로그인한 학습자는 다음을 포함하여 표준 로그인 학습자 경험을 이어받습니다.
-   1. &quot;내 학습&quot;
-   2. 개인 진행률로 로그인한 카탈로그
-   3. 기존 학습자에 대해 사용하는 모든 내부 추천 시스템.
+1. A visitor discovers content through your non-logged-in recommendation sections (home recommendations, segment landing pages, featured rows).
+2. They click into a course or path overview and choose to enroll or start.
+3. ALM prompts them to sign up or log in.
+4. After they log in, the standard logged-in learner experience takes over, including:
+   1. "My Learning"
+   2. Logged-in catalog with personal progress
+   3. Any internal recommendation systems you use for existing learners.
 
-즉, 로그인한 추천서는 다음에 무엇을 해야 할지 결정하고 계속 진행하는데 도움이 된다.
+In other words, the logged-in recommendations help them decide what to do next and keep going.
 
-### 로그인하지 않은 새로운 Experience Builder에서 작업 지원을 사용하는 방법
+### How job aids can be used in the new non-logged-in Experience Builder
 
-**사용자 인터페이스**&#x200B;에서 작업 지원은 주로 학습 개체를 표시할 수 있는 위젯을 통해 로그인하지 않은 경험에 참여합니다.
+On the **User Interface**, job aids participate in non-logged-in experiences mainly through the widgets that can show learning objects:
 
-1. **강의 및 경로 위젯**
-이 위젯은 작업 지원을 포함한 여러 LO 유형을 표시할 수 있습니다. 로그인하지 않은 페이지에서는 다음과 같이 구성할 수 있습니다.
-   1. 작업 지원을 명시적으로 포함하거나 제외합니다.
-   2. 카탈로그, 제품, 역할, 레이블, 태그 및 기타 메타데이터별로 작업 지원을 필터링합니다.
-   3. 강의 및 경로와 함께 또는 별도의 &quot;리소스&quot; 스트립으로 제시합니다.
+1. **Courses and paths widget**
+   This widget can show multiple LO types, including job aids. In non-logged-in pages you can configure it to:
+   1. Include or exclude job aids explicitly.
+   2. Filter job aids by catalog, product, role, labels, tags, and other metadata.
+   3. Present them alongside courses and paths or as a separate "Resources" strip.
 
-예를 들어, 공개 랜딩 페이지에서 작업 지원만 표시되는 &quot;유용한 리소스&quot;라는 이름의 스트립과 강의 및 경로를 표시하는 &quot;권장 강의&quot;라는 이름의 스트립을 구성할 수 있습니다.
+For example, on a public landing page you might configure one strip titled "Helpful resources" that shows job aids only, and another strip titled "Recommended courses" that shows courses and paths.
 
-1. **카탈로그 페이지 및 검색**
-로그인하지 않은 **카탈로그** 및 **검색** 표면은 공개 검색 색인(교육 데이터 액세스 커넥터에서 제공)을 사용합니다. 해당 인덱스는 이제 작업 지원을 올바르게 지원하므로 다음을 수행합니다.
-   1. 로그인하지 않은 검색 결과에는 작업 지원이 포함될 수 있습니다.
-   2. 로그인하지 않은 카탈로그 필터(유형, 제품, 태그 등) 계정 구성 및 위젯이 표시되도록 설정되어 있는 한 작업 지원을 포함할 수 있습니다.
-2. **LO 개요 페이지**
-방문자가 위젯 또는 카탈로그에서 작업 지원을 클릭하면 로그인 모드가 아닌 모드에서 해당 작업 지원에 대한 **LO 개요 페이지**&#x200B;로 이동합니다. 여기에서 그들은 설명과 메타데이터를 읽을 수 있습니다. 실제 다운로드 또는 소비는 일반적으로 로그인이 필요하지만 작업 지원 자체의 존재와 검색 가능성은 로그인하지 않은 환경에서 처리됩니다.
+1. **Catalog page and search**
+   The non-logged-in **catalog** and **search** surfaces use the public search index (fed by the Training Data Access connector). That index now supports job aids correctly, so:
+   1. Non-logged-in search results can include job aids.
+   2. Non-logged-in catalog filters (by type, product, tags, etc.) can include job aids as long as your account configuration and widgets are set up to show them.
+2. **LO overview pages**
+   When a visitor clicks a job aid from any widget or from the catalog, they go to an **LO overview page** for that job aid in non-logged-in mode. From there, they can read its description and metadata. Actual download or consumption typically still requires login, but the presence and discoverability of the job aid itself is handled by the non-logged-in experience.
 
-### 로그인하지 않은 API를 통해 작업 지원이 표시되는 방식
+### How job aids are exposed through non-logged-in APIs
 
-**API 측**&#x200B;에서 작업 지원은 다음에 의해 지원됩니다.
+On the **API side**, job aids are supported by:
 
-1. **교육 데이터 액세스 커넥터 및 공개 검색**
-TDA는 다른 LO 유형과 함께 작업 지원 메타데이터를 로그인하지 않은 검색 및 카탈로그 쿼리를 제공하는 공용 검색 인덱스로 내보냅니다. 이것이 Experience Builder와 헤드리스 프론트웨어가 주로 사용하는 방법입니다.
-2. effectiveModifiedDate가 포함된 **학습 개체 목록**
-이 릴리스에서는 작업 지원이 effectiveModifiedDate 필터에서 제대로 작동하도록 LO 목록 끝점이 수정되었습니다. 이제 다음을 호출할 수 있습니다.
+1. The **Training Data Access connector and public search**
+   TDA exports job aid metadata along with other LO types to the public search index that serves non-logged-in search and catalog queries. This is what Experience Builder and headless frontends rely on.
+2. The **Learning Objects listing with effectiveModifiedDate**
+   In this release, the LO listing endpoint was corrected so that job aids work properly with the effectiveModifiedDate filter. You can now call:
 
 ```
 GET /primeapi/v2/learningObjects
@@ -1461,976 +1463,976 @@ GET /primeapi/v2/learningObjects
  &filter.loTypes=jobAid
 ```
 
-이 변경 전에 effectiveModifiedDate를 loTypes=jobAid와 결합하면 작업 지원이 안정적으로 반환되지 않았습니다. 즉,
+Before this change, combining effectiveModifiedDate with loTypes=jobAid did not reliably return job aids. That means:
 
-1. TDA 또는 ETL 작업은 과정 및 경로에 대해 수행하는 것과 동일한 방식으로 로그인하지 않은 경험에 대해 **작업 지원을 증분 동기화**&#x200B;할 수 있습니다.
-2. 공용 작업 지원 디렉터리를 구축하는 모든 헤드리스 구현은 effectiveModifiedDate 및 loType=jobAid를 기반으로 변경 내용을 쿼리할 수 있습니다.
+1. Your TDA or ETL jobs can **incrementally sync job aids** for non-logged-in experiences, the same way they do for courses and paths.
+2. Any headless implementation that builds a public job aid directory can query changes based on effectiveModifiedDate and loType=jobAid.
 
-**참고**:
+**Note**:
 
-로그인하지 않은 상태:
+In the non-logged-in state:
 
-* 작업 지원은 주로 **검색 가능**&#x200B;입니다. 방문자는 이러한 지원이 존재함을 확인하고 설명을 읽으며 주제나 과정을 지원하는 방법을 이해할 수 있습니다.
-* 실제 **소비**(작업 지원 콘텐츠를 다운로드하거나 열기)에는 일반적으로 여전히 로그인이 필요합니다. 특히 작업 지원이 라이선스 또는 내부 콘텐츠의 일부로 간주되는 경우 더욱 그렇습니다.
+* Job aids are mainly **discoverable**: visitors can see that they exist, read descriptions, and understand how they support topics or courses.
+* Actual **consumption** (downloading or opening the job aid content) typically still requires login, especially if job aids are considered part of licensed or internal content.
 
-### LO 검색에서 간단한 설명 변경 사항(로그인하지 않음)
+### Changes in brief description in LO search (non-logged-in)
 
-로그인하지 않은 스택에서 학습 개체(LO)의 검색 및 목록은 TDA(Training Data Access) 커넥터와 공개 Elasticsearch 인덱스에 의해 구동됩니다. 역사적으로, 이 스택은 각각의 LO에 대한 단일 개요/설명 필드를 사용하였다. 헤드리스 비로그인 포털을 구축하는 고객은 긴 개요만 표시하는 것이 아니라 로그인한 학습자 UI에서 표시하는 것과 동일한 간단한 설명을 LO 타일에 표시하고 싶어했습니다.
+In the non-logged-in stack, search and listing of learning objects (LOs) are powered by the Training Data Access (TDA) connector and a public Elasticsearch index. Historically, this stack used a single overview/description field for each LO. Customers building headless non-logged-in portals wanted to show the same short description on LO tiles that the logged-in learner UI shows, rather than only the long overview.
 
-변경 사항은 로그인하지 않은 검색 및 목록 API에서 LO **간단한 설명**&#x200B;에 대한 지원을 도입합니다.
+The change introduces support for the LO **brief description** in non-logged-in search and listing APIs:
 
-* **과정**&#x200B;의 경우 기존 UI 의미 체계:
-* 로그인된 카드에는 간략한 설명(140자 필드)이 표시됩니다(있는 경우). 그렇지 않은 경우 자세한 개요로 돌아갑니다.
-* **학습 경로**&#x200B;에 대해 로그인한 UI는 정의된 경우 혜택 필드를 간단한 설명으로 사용하고 그렇지 않으면 개요로 돌아갑니다.
-* **인증**&#x200B;의 경우 간단한 설명이 사용되며 대체 시 인증 개요가 더 길어집니다.
-* **작업 지원**&#x200B;의 경우 기본 설명 필드가 사용됩니다.
+* For **courses**, the existing UI semantics are:
+* Logged-in cards show Brief description (140-character field) if present; otherwise they fall back to the long Detailed overview.
+* For **learning paths**, the logged-in UI uses the Benefits field as the short description, if defined, and falls back to the overview otherwise.
+* For **certifications**, a short Description is used, with a longer Certification overview as fallback.
+* For **job aids**, the main description field is used.
 
-### 기타 변경 사항
+### Other changes
 
-#### 두 계정이 동일한 사용자 정의 도메인을 공유할 수 없다는 제한 사항
+#### Restriction that no two accounts can share the same custom domain
 
-Adobe Learning Manager의 로그인하지 않고 로그인하는 아키텍처에서는 **사용자 지정 도메인**(예: academy.example.com)이 정확히 하나의 ALM 계정에 매핑해야 하는 전역 고유 키로 처리되므로 플랫폼에서는 **두 계정이 동일한 사용자 지정 도메인을 공유할 수 없습니다**. 이는 보안, 라우팅 및 SEO에 필요합니다. 라우팅 레이어와 임시 방문 스택은 도메인을 사용하여 올바른 계정 구성을 찾습니다(임시 방문 계정 JSON, Experience Builder 메뉴, 브랜딩 및 TDA/검색 끝점 포함).
+In the non-logged-in and logged-in architectures of Adobe Learning Manager, a **custom domain** (for example, academy.example.com) is treated as a globally unique key that must map to exactly one ALM account, so the platform enforces a hard restriction that **no two accounts can share the same custom domain**. This is required for security, routing, and SEO: the routing layer and non-logged-in stack use the domain to look up the correct account configuration (including its non-logged-in account JSON, Experience Builder menus, branding, and TDA/search endpoints),
 
-두 계정에서 동일한 사용자 정의 도메인을 허용하면 어떤 계정의 데이터가 반환되는지 보장할 수 없으며 크로스 테넌트 누수가 발생할 수 있으며 계정별로 생성되지만 호스트별 검색 엔진에 의해 검색되는 sitemap.xml 및 robots.txt와 같은 생성된 아티팩트가 손상될 수도 있습니다. 즉, 사용자 정의 도메인을 할당하거나 이동할 때 먼저 다른 계정에 연결되어 있지 않은지(또는 여기에서 등록 취소함) 확인해야 하며, Adobe의 내부 툴링에서는 동일한 도메인을 여러 계정에 바인딩하려는 시도를 거부합니다.
+Allowing the same custom domain on two accounts would make it impossible to guarantee which account's data is returned, could cause cross-tenant leakage, and would also corrupt generated artifacts such as sitemap.xml and robots.txt that are produced per account but discovered by search engines per host. Operationally, this means that when you assign or move a custom domain you must first ensure it is not attached to any other account (or de-register it there), and Adobe's internal tooling will reject attempts to bind the same domain to multiple accounts.
 
-#### 로그인하지 않은 환경에서의 리소스 브라우저 캐싱
+#### Browser caching of resources in the non-logged-in experience
 
-Adobe Learning Manager의 임시 방문 모드에서는 공용 페이지에서 지연 시간이 짧고 원본 부하가 최소화되는 대량의 스파이크 마케팅 트래픽을 처리해야 하므로 리소스의 브라우저 캐싱이 성능 및 규모 전략의 핵심 부분입니다. 로그인하지 않은 HTML 셸(예: index.html/guest.html), 계정 수준 구성 JSON(account.json 또는 config.json), Experience Builder 페이지 레이아웃 JSON(메뉴, 위젯 레이아웃, 카드 설정), CSS, JS, 이미지 및 파비콘과 같은 정적 및 반정적 에셋은 Akamai CDN(cpcontents.adobe.com / cpcontent.adobe.com)에서 CDN측과 브라우저측 재사용을 권장하는 캐시 헤더가 포함된 상태로 제공되므로 첫 번째 페이지 로드 후 브라우저가 해당 캐시에서 대부분 로그인하지 않은 후속 페이지를 렌더링할 수 있으며 ETag 또는 마지막 수정 사항을 통해 필요할 때만 유효성을 다시 확인할 수 있습니다.
+In the non-logged-in experience of Adobe Learning Manager, browser caching of resources is a core part of the performance and scale strategy, because public pages must handle large, sometimes spiky marketing traffic with low latency and minimal origin load. Static and semi-static assets such as the non-logged-in HTML shell (for example, index.html/guest.html), account-level configuration JSON (account.json or config.json), Experience Builder page layout JSON (menus, widget layouts, card settings), CSS, JS, images, and favicons are served from an Akamai CDN (cpcontents.adobe.com / cpcontent.adobe.com) with cache headers that encourage both CDN-side and browser-side reuse, so that after the first page load the browser can render subsequent non-logged-in pages largely from its cache, revalidating only when needed via ETag or Last-Modified.
 
-## 다국어 작업 지원
+## Multi-lingual Job Aids
 
-### 소개
+### Introduction
 
-Adobe Learning Manager(ALM)의 다국어 작업 지원을 통해 작성자와 관리자는 단일 작업 지원 항목 내에서 지원 문서, 안내선 또는 리소스를 다국어로 제공할 수 있습니다. 다른 지역의 학습자가 선호하는 언어로 관련 자료에 액세스할 수 있어 이해력, 준수성 및 사용자 경험이 향상됩니다.
+Multilingual Job Aids in Adobe Learning Manager (ALM) let authors and administrators provide supporting documents, guides, or resources in multiple languages within a single job aid entry. Learners across different regions can access relevant materials in their preferred language, which improves comprehension, compliance, and user experience.
 
-### 이전 동작
+### Previous behavior
 
-이전에는 이름 및 설명을 지역화할 수 있는 경우에도 ALM의 작업 지원은 작업 지원당 단일 컨텐츠 파일만 지원했습니다. 동일한 리소스를 여러 언어로 제공하기 위해 작성자는 언어별로 별도의 작업 지원을 만들어야 했습니다. 이로 인해 중복과 혼란, 행정 업무 부담 증가가 발생하였다. 다국어 리소스를 관리할 수 있는 통일된 방법이 없어 일관성을 보장하고 사용 현황을 추적하기가 어려웠습니다.
+Previously, job aids in ALM supported only a single content file per job aid, even when the name and description could be localized. To provide the same resource in multiple languages, authors had to create separate job aids for each language. This led to duplication, confusion, and increased administrative overhead. There was no unified way to manage multilingual resources, which made it difficult to ensure consistency and track usage.
 
-### 사용 사례
+### Use cases
 
-* **글로벌 인력 지원**: 다양한 인력을 대상으로 여러 언어로 안전 설명서, 프로세스 가이드 또는 참조 문서를 제공합니다.
-* **규정 준수**: 모든 직원이 동일한 규정 준수 문서를 모국어로 받도록 합니다.
-* **일관된 온보딩**: 전 세계 신규 채용에 대해 현지 언어로 온보딩 체크리스트 또는 FAQ를 제공합니다.
-* **중복 감소**: 작업 지원의 모든 언어 버전을 단일 항목으로 관리하여 업데이트 및 보고를 단순화합니다.
+* **Global workforce enablement**: Deliver safety manuals, process guides, or reference documents in multiple languages to a diverse workforce.
+* **Regulatory compliance**: Ensure all employees receive the same compliance documentation in their native language.
+* **Consistent onboarding**: Provide onboarding checklists or FAQs in local languages for new hires worldwide.
+* **Reduced duplication**: Manage all language versions of a job aid in a single entry, which simplifies updates and reporting.
 
-### 주요 기능
+### Key features
 
-* **다중 언어 지원**: 단일 작업 지원 내에 지원되는 각 언어에 대한 고유한 파일 또는 URL을 첨부합니다.
-* **지역화된 이름 및 설명**: 작업 지원의 이름과 설명을 각 언어로 입력하십시오.
-* **통합 관리**: 한 곳에서 모든 언어 버전을 편집하고 업데이트하고 보고합니다.
-* **이전 버전과의 호환성**: 새 파일이 업로드될 때까지 기존의 단일 언어 작업 지원은 추가된 모든 언어에 자동으로 복제됩니다.
+* **Multiple language support**: Attach a unique file or URL for each supported language within a single job aid.
+* **Localized name and description**: Enter the job aid's name and description in each language.
+* **Unified management**: Edit, update, and report on all language versions from one place.
+* **Backward compatibility**: Existing single-language job aids are automatically replicated across all added languages until new files are uploaded.
 
-### 다국어 작업 지원 만들기
+### Create a multilingual job aid
 
-1. 작성자 역할로 이동하여 **작업 지원**&#x200B;을 선택합니다.
-2. **작업 지원 만들기**&#x200B;를 선택합니다.
-3. 작업 지원 이름 및 설명을 기본 언어로 입력합니다.
-4. 기본 언어에 대한 주요 컨텐트 파일 또는 URL을 추가합니다.
-5. 작업 지원을 저장합니다.
+1. Go to the Author role and select **Job Aids**.
+2. Select **Create Job Aid**.
+3. Enter the job aid's name and description in the default language.
+4. Add the primary content file or URL for the default language.
+5. Save the job aid.
 
-### 추가 언어 추가
+### Add additional languages
 
-1. 작업 지원 편집기에서 **언어 추가**&#x200B;를 선택합니다.
-2. 목록에서 원하는 언어를 선택합니다.
-3. 추가된 각 언어에 대해:
-   * 현지화된 이름과 설명을 입력합니다.
-   * 해당 콘텐츠 파일을 업로드하거나 언어별 URL을 제공합니다.
-4. 필요한 모든 언어에 대해 반복합니다.
+1. In the job aid editor, select **Add Language**.
+2. Select the desired language(s) from the list.
+3. For each added language:
+   * Enter the localized name and description.
+   * Upload the corresponding content file or provide a language-specific URL.
+4. Repeat for all required languages.
 
-### 언어 편집 및 관리
+### Edit and manage languages
 
-1. 특정 언어에 대한 파일이나 설명을 업데이트하려면 언어 탭을 선택하고 필요에 따라 변경합니다.
-2. 작업 지원이 게시된 후 언어가 추가되면 고유한 파일이 업로드될 때까지 원본 파일이 자동으로 새 언어에 할당됩니다.
-3. 필요에 따라 모든 언어의 파일을 제거하거나 대체합니다.
+1. To update a file or description for a specific language, select the language tab and make changes as needed.
+2. If a language is added after the job aid is published, the original file is automatically assigned to the new language until a unique file is uploaded.
+3. Remove or replace files for any language as required.
 
-### Publish 및 학습자 경험
+### Publish and learner experience
 
-1. 모든 언어와 파일을 추가한 후 작업 지원을 게시합니다.
-2. 학습자는 해당 파일 또는 URL과 함께 작업 지원을 선택한 콘텐츠 언어로 볼 수 있습니다.
-3. 학습자의 언어를 사용할 수 없는 경우 기본 언어 파일이 표시됩니다.
+1. After all languages and files are added, publish the job aid.
+2. Learners see the job aid in their selected content language, with the appropriate file or URL.
+3. If a learner's language is not available, the default language file is shown.
 
-### 보고
+### Reporting
 
-1. 작업 지원 보고서를 다운로드하여 각 작업 지원과 관련된 모든 파일 및 언어의 세부 정보를 볼 수 있습니다.
-2. 보고서에는 추적을 위한 언어, 파일 이름 및 사용 데이터가 포함됩니다.
+1. Download job aid reports to view details of all files and languages associated with each job aid.
+2. Reports include language, file name, and usage data for tracking.
 
-### 모범 사례
+### Best practices
 
-* 이름, 설명 및 콘텐츠 파일에 대한 정확한 번역을 제공합니다.
-* 여러 언어에서 일관성을 유지하기 위해 파일을 정기적으로 검토하고 업데이트합니다.
-* 명확한 이름 지정 규칙을 사용하여 다른 언어의 파일을 구분합니다.
-* 콘텐츠 언어를 전환하여 올바른 파일 전달 여부를 확인하여 학습자 경험을 테스트합니다.
+* Provide accurate translations for names, descriptions, and content files.
+* Review and update files regularly to ensure consistency across languages.
+* Use clear naming conventions to distinguish files for different languages.
+* Test the learner experience by switching content languages to verify correct file delivery.
 
-### 문제 해결
+### Troubleshooting
 
-* **언어에 대한 파일이 없음**: 기본 파일이 표시됩니다. 모든 언어에 올바른 파일이 업로드되어 있는지 확인합니다.
-* **레거시 작업 지원**: 자동으로 복제된 원본을 바꾸려면 새 언어 파일을 추가하십시오.
-* **잘못된 언어 표시**: 학습자의 콘텐츠 언어 설정과 작업 지원의 언어 구성을 확인하십시오.
+* **Missing file for a language**: The default file is shown. Ensure all languages have the correct file uploaded.
+* **Legacy job aids**: Add new language files to replace automatically replicated originals.
+* **Wrong language shown**: Check the learner's content language settings and the job aid's language configuration.
 
-다국어 작업 지원을 사용하면 단일 항목으로 글로벌 고객에게 지원 리소스를 제공하고, 중복을 줄이며, 모든 학습자가 선호하는 언어로 올바른 정보를 받을 수 있도록 할 수 있습니다. 이 기능은 Adobe Learning Manager의 접근성, 규정 준수 및 관리 효율성을 향상시킵니다.
+Multilingual Job Aids let you deliver supporting resources to a global audience in a single entry, reduce duplication, and ensure every learner receives the right information in their preferred language. This feature improves accessibility, compliance, and administrative efficiency in Adobe Learning Manager.
 
-## 학습자용 AI 어시스턴트로 답변 받기
+## Get answers with AI Assistant for learners
 
-학습자용 AI 어시스턴트는 필요한 정보를 더 빠르게 찾을 수 있도록 설계된 Adobe Learning Manager 내의 대화식 AI 기반 어시스턴트입니다. 자연어로 질문을 하면 카탈로그를 통해 수동으로 검색할 필요 없이 상황에 맞는 설명을 얻고, 관련 강의를 표면화하고, 학습 콘텐츠에서 통찰력을 얻을 수 있습니다.
+AI Assistant for learners is a conversational, AI-driven assistant within Adobe Learning Manager designed to guide you to the information you need faster. By asking questions in natural language, you can get contextual explanations, surface relevant courses, and retrieve insights from learning content — without manually browsing through catalogs.
 
-### 기능
+### Capabilities
 
-* **스마트 질문 응답:** 싱글턴과 멀티턴 대화를 모두 처리하여 자연스럽게 질문할 수 있습니다. 응답은 강의, 학습 경로, 인증, 작업 지원에서 파생됩니다.
-* **인용문이 있는 콘텐츠 기반 답변:** 학습 자료에서 직접 정보를 가져오고 원래 과정, 모듈 또는 리소스를 가리키는 인용문을 포함합니다.
-* **광범위한 콘텐츠 호환성:** 문서, 프레젠테이션, 비디오, 오디오 파일, HTML 콘텐츠 및 SCORM(Sharable Content Object Reference Model) 모듈 등 다양한 형식을 지원합니다.
-* **원활한 사용자 환경:** 학습자 페이지 전체에서 사이드 패널로 사용할 수 있으며, 연속성을 위해 세션 기반 채팅 기록을 유지합니다.
-* **강력한 관리자 제어:** 관리자는 도우미를 활성화하거나 비활성화하고, 사용자 그룹별 액세스를 제한하고, AI 생성 응답의 소스로 사용되는 내부 카탈로그를 선택할 수 있습니다.
+* **Smart question-answering:** Handles both single-turn and multi-turn conversations, letting you ask questions naturally. Responses are derived from courses, learning paths, certifications, and job aids.
+* **Content-grounded answers with citations:** Pulls information directly from learning materials and includes citations that point back to the original course, module, or resource.
+* **Broad content compatibility:** Supports a wide range of formats, including documents, presentations, videos, audio files, HTML content, and Sharable Content Object Reference Model (SCORM) modules.
+* **Seamless user experience:** Available as a side panel across learner pages, maintaining session-based chat history for continuity.
+* **Robust administrator controls:** Administrators can enable or disable the assistant, limit access by user groups, and choose which internal catalogs are used as the source for AI-generated responses.
 
-### 이점
+### Benefits
 
-* **빠른 지식 액세스:** 질문에 대한 답변을 즉시 받을 수 있으므로 여러 강의나 문서를 탐색할 필요가 없습니다.
-* **높은 참여도:** 대화식 상호 작용을 통해 학습 경험이 보다 자연스럽고 직관적이며 접근성이 높아집니다.
-* **이해도 향상:** 후속 질문을 통해 개념을 명확히 하고 주제를 더 철저하게 탐색할 수 있습니다.
-* **확장 가능한 학습 지원:** 자동화된 AI 기반 응답을 통해 주제 전문가 및 지원 팀에 대한 의존도를 최소화합니다.
+* **Faster access to knowledge:** You receive instant answers to your questions, eliminating the need to navigate through multiple courses or documents.
+* **Higher engagement:** Conversational interactions make the learning experience more natural, intuitive, and accessible.
+* **Better understanding:** You can ask follow-up questions to clarify concepts and explore topics more thoroughly.
+* **Scalable learning support:** Automated, AI-driven responses minimize dependence on subject-matter experts and support teams.
 
-[학습자용 AI 도우미](/help/migrated/learners/feature-summary/learner-ai-assistant.md)에 대해 자세히 알아보세요.
+Learn more about [AI Assistant for learners](/help/migrated/learners/feature-summary/learner-ai-assistant.md).
 
-## VTT(다국어 비디오 텍스트 트랙) 지원
+## Multi-lingual Video Text Tracks (VTT) support
 
-Adobe Learning Manager에서 다국어 비디오 텍스트 트랙(VTT)을 지원하면 작성자가 비디오 및 오디오 콘텐츠에 대한 자막과 캡션을 여러 언어로 제공할 수 있습니다. 이 기능은 로컬라이제이션을 간소화하여 글로벌 사용자가 교육에 액세스할 수 있도록 하고 접근성 표준을 준수하도록 합니다. 작성자는 플랫폼 내에서 직접 VTT 파일을 자동 생성, 번역, 검토 및 편집할 수 있습니다.
+Multi-lingual Video Text Tracks (VTT) support in Adobe Learning Manager enables authors to provide subtitles and captions for video and audio content in multiple languages. This feature streamlines localization, making training accessible to a global audience and ensuring compliance with accessibility standards. Authors can auto-generate, translate, review, and edit VTT files directly within the platform.
 
-### 사용 사례
+### Use Cases
 
-* **글로벌 교육:** 자막이 있는 비디오 콘텐츠를 다국어 학습자에게 전달합니다.
-* **접근성 준수:** 청각 장애가 있는 사용자를 위해 선호하는 언어로 캡션을 제공합니다.
-* **빠른 지역화:** VTT 파일을 자동으로 생성하고 번역하여 수작업을 줄이고 콘텐츠 롤아웃을 가속화합니다.
-* **일관된 환경:** 언어에 관계없이 모든 학습자가 동일한 정보를 받도록 합니다.
+* **Global Training:** Deliver video content with subtitles in multiple languages to reach international learners.  
+* **Accessibility Compliance:** Provide captions for hearing-impaired users in their preferred language.  
+* **Faster Localization:** Reduce manual effort and accelerate content rollout by auto-generating and translating VTT files.  
+* **Consistent Experience:** Ensure all learners receive the same information, regardless of language.
 
-### 주요 기능
+### Key features
 
-* **자동 VTT 생성:** 비디오 또는 오디오 파일을 업로드하고 원래 언어로 VTT 캡션을 자동 생성합니다.
-* **다국어 번역:** 캡션을 지원되는 39개의 영어 이외의 언어로 번역합니다.
-* **인앱 검토 및 편집:** 게시하기 전에 VTT 파일을 검토, 편집 및 다운로드합니다.
-* **알림:** VTT 생성 및 번역이 완료되면 인앱 알림을 받습니다.
-* **원활한 게시:** Publish에서 학습자가 선택한 언어로 액세스할 수 있는 캡션을 완성했습니다.
+* **Automatic VTT generation:** Upload a video or audio file and auto-generate VTT captions in the original language.  
+* **Multi-language translation:** Translate captions into any of the 39 supported non-English languages.  
+* **In-app review and editing:** Review, edit, and download VTT files before publishing.  
+* **Notifications:** Receive in-app notifications when VTT generation and translation are complete.  
+* **Smooth publishing:** Publish finalized captions for learners to access in their chosen language.
 
-### 콘텐츠 업로드 및 VTT 생성
+### Upload content and generate VTT
 
-1. 콘텐츠 라이브러리로 이동하여 **콘텐츠 추가**&#x200B;를 선택합니다.
-2. MP3 또는 MP4 파일을 업로드합니다.
-3. 업로드 대화 상자에서 **번역 생성** 옵션을 선택합니다.
-4. 원래 내용 언어를 선택합니다(기본값은 파일의 언어).
-5. 번역을 위한 추가 대상 언어를 선택합니다(최대 39개 지원).
-6. **저장**&#x200B;을 선택합니다. 시스템이 VTT 파일을 생성하고 번역하기 시작합니다.
+1. Go to the Content Library and select **Add Content**.
+2. Upload your MP3 or MP4 file.
+3. In the upload dialog, select the option to **Generate Translation**.
+4. Select the original content language (default is the file's language).
+5. Select additional target languages for translation (up to 39 supported).
+6. Select **Save**. The system begins generating and translating VTT files.
 
-### 진행 상황 모니터링
+### Monitor progress
 
-1. 저장 후 새 콘텐츠 항목이 콘텐츠 라이브러리에 나타납니다.
-2. 진행률 표시기는 VTT 생성 및 변환 상태를 표시합니다.
-3. 프로세스가 완료되면 인앱 알림을 받습니다.
+1. After saving, the new content entry appears in the Content Library.
+2. A progress indicator shows the status of VTT generation and translation.
+3. You receive an in-app notification when the process is complete.
 
-### VTT 파일 검토 및 편집
+### Review and edit VTT files
 
-1. 콘텐츠 라이브러리에서 **편집** 모드로 콘텐츠를 엽니다.
-2. 각 언어에 대해 VTT 파일 옆의 **검토** 링크를 선택합니다.
-3. 해당 언어의 캡션이 팝업으로 표시됩니다.
-4. 팝업에서 직접 캡션을 편집하거나 오프라인 편집을 위해 VTT 파일을 다운로드합니다.
-5. 변경한 후 수정된 캡션을 다시 팝업에 업로드하거나 붙여넣습니다.
-6. 편집 내용을 저장합니다.
+1. In the Content Library, open the content in **Edit** mode.
+2. For each language, select the **Review** link next to the VTT file.
+3. A pop-up displays the captions for that language.
+4. Edit captions directly in the pop-up or download the VTT file for offline editing.
+5. After making changes, upload or paste the revised captions back into the pop-up.
+6. Save your edits.
 
-### Publish 캡션
+### Publish captions
 
-1. 모든 언어 캡션이 만족스러우면 콘텐츠를 게시합니다.
-2. 학습자는 비디오를 볼 때 게시된 모든 언어로 자막 옵션을 볼 수 있습니다.
+1. When satisfied with all language captions, publish the content.
+2. Learners see subtitle options in all published languages when viewing the video.
 
-### 추가 정보
+### Additional Information
 
-* **지원되는 언어:** Adobe Learning Manager에서 지원하는 39개의 모든 비영어 언어.
-* **알림:** 작성자는 VTT 생성 및 번역이 완료되면 알림을 받습니다.
-* **편집 유연성:** 캡션은 앱 내 또는 오프라인에서 편집하고 다시 업로드할 수 있습니다.
-* **확장성:** 엔터프라이즈 규모의 로컬라이제이션 및 접근성 요구를 위해 설계되었습니다.
-* **수동 VTT 업로드 필요 없음:** 시스템은 업로드된 비디오/오디오를 사용하여 처음부터 VTT 파일을 생성할 수 있습니다.
+* **Supported Languages:** All 39 non-English languages supported by Adobe Learning Manager.  
+* **Notifications:** Authors are notified when VTT generation and translation are complete.  
+* **Editing flexibility:** Captions can be edited in-app or offline and re-uploaded.  
+* **Scalability:** Designed for enterprise-scale localization and accessibility needs.  
+* **No Need for Manual VTT Upload:** The system can generate VTT files from scratch using the uploaded video/audio.  
 
-### 모범 사례
+### Best Practices
 
-* 게시하기 전에 항상 자동 생성된 캡션의 정확성을 검토하십시오.
-* 접근성을 극대화하기 위해 모든 주요 학습자 그룹에 대한 번역을 제공합니다.
-* 알림 시스템을 사용하여 처리 상태에 대한 업데이트 상태를 유지합니다.
-* 비디오 콘텐츠가 변경되는 경우 정기적으로 캡션을 업데이트합니다.
+* Always review auto-generated captions for accuracy before publishing.  
+* Provide translations for all major learner groups to maximize accessibility.  
+* Use the notification system to stay updated on processing status.  
+* Regularly update captions if video content changes.  
 
-### 문제 해결
+### Troubleshooting
 
-* VTT 생성에 실패하면 파일이 지원되는 형식(MP3/MP4)인지 확인하십시오.
-* 누락된 언어의 경우 업로드하는 동안 해당 언어가 지원되고 선택되었는지 확인하십시오.
-* 캡션이 동기화되지 않은 경우 인앱 편집기를 사용하여 시간 배치를 조정합니다.
+* If VTT generation fails, ensure your file is in a supported format (MP3/MP4).  
+* For missing languages, verify they are supported and selected during upload.  
+* If captions are out of sync, use the in-app editor to adjust timing.  
 
-다국어 VTT를 지원하면 액세스 가능하고 지역화된 비디오 학습 경험을 효율적으로 제공할 수 있습니다. 자동 생성, 번역 및 앱 내 편집을 사용하여 언어에 관계없이 모든 학습자에게 콘텐츠가 도달하고 지원하는지 확인할 수 있습니다.
+Multi-lingual VTT support enables you to deliver accessible, localized video learning experiences efficiently. By using auto-generation, translation, and in-app editing, you can ensure your content reaches and supports all learners, regardless of language.
 
-## 사용자 정의 인증서 디자인
+## Design custom certificates
 
-ALM(Adobe Learning Manager)의 사용자 정의 인증서를 사용하면 관리자와 작성자가 학습자를 위해 개인화된 인증서를 디자인하고, 관리하고, 발급할 수 있습니다. 이 기능에는 드래그 앤 드롭 편집기, 동적 필드, 다국어 지원 및 AI 생성 배경이 포함되어 있어 조직에서 기술 전문 지식 없이도 브랜드 인증서를 만들 수 있습니다.
+Custom Certificates in Adobe Learning Manager (ALM) let administrators and authors design, manage, and issue personalized certificates for learners. The feature includes a drag-and-drop editor, dynamic fields, multilingual support, and AI-generated backgrounds so organizations can create branded certificates without technical expertise.
 
-### 이전 동작
+### Previous behavior
 
-이전에는 ALM에서 인증서 생성이 템플릿 경직성, 사용자 정의 결여 및 기술 장벽(HTML 편집 등)에 의해 제한되었습니다. 고객은 브랜드 일관성과 시각적 매력을 유지하면서 인증서를 디자인하고, 동적 필드(예: 학습자 이름 또는 강사)를 추가하고, 여러 언어를 지원하는 보다 간단한 방법을 요청했습니다.
+Previously, certificate creation in ALM was limited by template rigidity, lack of customization, and technical barriers (such as HTML editing). Customers requested simpler ways to design certificates, add dynamic fields (such as learner name or instructor), and support multiple languages, all while maintaining brand consistency and visual appeal.
 
-### 사용 사례
+### Use cases
 
-* **브랜드 인지도**: 규정 준수, 교육 또는 성과를 위해 회사 로고, 색상 및 글꼴이 포함된 인증서를 발급합니다.
-* **동적 개인 설정**: 학습자 이름, 강사 이름 및 기타 활성 필드를 자동으로 채웁니다.
-* **다국어 배달**: 전역 학습자를 위해 여러 언어로 인증서를 제공합니다.
-* **유연한 디자인**: 가로 또는 세로 인증서를 만들고 AI 생성 배경을 사용하며 게시 전에 미리 봅니다.
+* **Branded recognition**: Issue certificates with corporate logos, colors, and fonts for compliance, training, or achievement.
+* **Dynamic personalization**: Automatically populate learner names, instructor names, and other active fields.
+* **Multilingual delivery**: Provide certificates in multiple languages for global learners.
+* **Flexible design**: Create landscape or portrait certificates, use AI-generated backgrounds, and preview before publishing.
 
-### 사용자 정의 인증서 액세스
+### Access custom certificates
 
-1. 관리자 홈 페이지의 **도전 과제** 섹션(이전의 **배지**)으로 이동합니다.
-2. 인증서 템플릿을 보거나 만들거나 관리하려면 **인증서**&#x200B;를 선택합니다.
+1. Go to the **Achievements** section in the Admin home page (previously called **Badges**).
+2. Select **Certificates** to view, create, or manage certificate templates.
 
-### 인증서 만들기
+### Create a certificate
 
-1. **인증서 만들기**&#x200B;를 선택합니다.
-2. 세로 또는 가로 방향을 선택합니다.
-3. 기존 템플릿을 선택하거나 빈 캔버스에서 시작합니다.
-4. 인증서 이름과 기본 언어를 입력합니다.
-5. 끌어서 놓기 편집기를 사용하여 다음을 추가합니다.
-   * 텍스트 필드(글꼴, 색상 및 위치 옵션 포함)
-   * 이미지 (로고, 아이콘 등)
-   * 동적 필드(학습자 이름, 강사 이름 등)
-   * 인증서 배경(단색, 업로드된 이미지 또는 AI 생성 이미지)
-6. AI 생성 배경의 경우: AI를 사용하여 배경을 생성하라는 프롬프트(예: &quot;강의실에 있는 학생&quot;)를 입력합니다.
+1. Select **Create Certificate**.
+2. Select portrait or landscape orientation.
+3. Select an existing template or start from a blank canvas.
+4. Enter a certificate name and default language.
+5. Use the drag-and-drop editor to add:
+   * Text fields (with font, color, and positioning options)
+   * Images (logos, icons, etc.)
+   * Dynamic fields (learner name, instructor name, etc.)
+   * Certificate backgrounds (solid color, uploaded image, or AI-generated image)
+6. For AI-generated backgrounds: Enter a prompt (for example, "students in a classroom") to generate backgrounds using AI.
 
-### 동적 필드 추가
+### Add dynamic fields
 
-Adobe Learning Manager 사용자 정의 인증서의 동적 필드는 인증서가 생성될 때 학습자 이름, 강사 이름 또는 기타 계정별 데이터와 같은 관련 정보로 자동으로 채워지는 자리 표시자로, 수동 편집 없이 개인 맞춤화된 컨텍스트 인식 인증서를 허용합니다.
+Dynamic fields in Adobe Learning Manager custom certificates are placeholders that automatically populate with relevant information, such as learner name, instructor name, or other account-specific data—when the certificate is generated, allowing for personalized and context-aware certificates without manual editing.
 
-1. 학습자 이름, 강사 이름 또는 기타 활성 필드와 같은 동적 변수를 삽입합니다.
-2. 필드는 인증서가 발급될 때 자동으로 채워집니다.
+1. Insert dynamic variables such as learner name, instructor name, or other active fields.
+2. Fields are automatically populated when the certificate is issued.
 
-### 다국어 지원
+### Multilingual support
 
-1. 인증서에 새 언어(예: 프랑스어, 독일어)를 추가합니다.
-2. 각 언어에 대한 번역문을 입력합니다.
-3. 번역을 관리하고 각 언어로 인증서를 미리 볼 수 있습니다.
+1. Add new languages (for example, French, German) to the certificate.
+2. Enter translated text for each language.
+3. Manage translations and preview certificates in each language.
 
-### 미리 보기 및 게시
+### Preview and publish
 
-1. 미리 보기 기능을 사용하여 학습자에게 인증서가 어떻게 표시되는지 확인합니다.
-2. 미리보기를 다운로드하거나 인쇄하여 검토하십시오.
-3. 초안으로 저장하여 나중에 계속 편집하거나 준비가 되면 게시합니다.
+1. Use the preview feature to see how the certificate appears to learners.
+2. Download or print the preview for review.
+3. Save as draft to continue editing later, or publish when ready.
 
-### 인증서 적용
+### Apply certificates
 
-1. 관리자는 계정에 대한 기본 인증서를 설정할 수 있습니다.
-2. 작성자는 특정 학습 객체 인스턴스(강의, 경로 등)에 인증서를 첨부할 수 있습니다.
-3. 필요에 따라 인스턴스 레벨에서 다른 인증서를 선택합니다.
+1. Admins can set default certificates for the account.
+2. Authors can attach certificates to specific learning object instances (courses, paths, etc.).
+3. Select different certificates at the instance level as needed.
 
-### 인증서 관리
+### Manage certificates
 
-1. 라이브러리에서 게시된 인증서 및 초안 인증서를 봅니다.
-2. 필요에 따라 템플릿을 편집, 업데이트 또는 삭제합니다.
-3. 인증서는 여러 인스턴스에서 재사용할 수 있습니다.
+1. View published and draft certificates in the library.
+2. Edit, update, or delete templates as required.
+3. Certificates can be reused across multiple instances.
 
-ALM의 사용자 정의 인증서는 개인화된 브랜드 및 다국어 인증서를 디자인하고 발급할 수 있는 유연한 방법을 제공합니다. 이 기능은 인증서 관리를 간소화하고, 학습자 인식을 개선하며, 글로벌 규정 준수 및 브랜딩 요구 사항을 지원합니다.
+Custom Certificates in ALM provide a flexible way to design and issue personalized, branded, and multilingual certificates. The feature simplifies certificate management, improves learner recognition, and supports global compliance and branding needs.
 
-## 다국어 작업 지원
+## Multi-lingual Job Aids
 
-Adobe Learning Manager(ALM)의 다국어 작업 지원을 통해 작성자와 관리자는 단일 작업 지원 항목 내에서 지원 문서, 안내선 또는 리소스를 다국어로 제공할 수 있습니다. 다른 지역의 학습자가 선호하는 언어로 관련 자료에 액세스할 수 있어 접근성, 규정 준수, 사용자 경험이 향상됩니다.
+Multilingual Job Aids in Adobe Learning Manager (ALM) let authors and administrators provide supporting documents, guides, or resources in multiple languages within a single job aid entry. Learners across different regions can access relevant materials in their preferred language, which improves accessibility, compliance, and user experience.
 
-### 이전 동작
+### Previous behavior
 
-이전에는 이름 및 설명을 지역화할 수 있더라도 ALM에서는 작업 지원당 하나의 콘텐츠 파일만 사용할 수 있었습니다. 동일한 리소스를 여러 언어로 제공하기 위해 작성자는 언어별로 별도의 작업 지원을 만들어야 했습니다. 이는 중복과 혼란, 행정적 노력의 증대로 이어졌다. 다국어 리소스를 관리할 수 있는 통일된 방법이 없어 일관성을 보장하고 사용 현황을 추적하기가 어려웠습니다.
+Previously, ALM allowed only one content file per job aid, even though the name and description could be localized. To provide the same resource in multiple languages, authors had to create separate job aids for each language. This led to duplication, confusion, and increased administrative effort. There was no unified way to manage multilingual resources, which made it difficult to ensure consistency and track usage.
 
-### 사용 사례
+### Use cases
 
-* **글로벌 인력 지원**: 다양한 인력을 대상으로 여러 언어로 안전 설명서, 프로세스 가이드 또는 참조 문서를 제공합니다.
-* **규정 준수**: 모든 직원이 동일한 규정 준수 문서를 모국어로 받도록 합니다.
-* **일관된 온보딩**: 전 세계 신규 채용에 대해 현지 언어로 온보딩 체크리스트 또는 FAQ를 제공합니다.
-* **중복 감소**: 작업 지원의 모든 언어 버전을 단일 항목으로 관리하여 업데이트 및 보고를 단순화합니다.
+* **Global workforce enablement**: Deliver safety manuals, process guides, or reference documents in multiple languages to a diverse workforce.
+* **Regulatory compliance**: Ensure all employees receive the same compliance documentation in their native language.
+* **Consistent onboarding**: Provide onboarding checklists or FAQs in local languages for new hires worldwide.
+* **Reduced duplication**: Manage all language versions of a job aid in a single entry, which simplifies updates and reporting.
 
-### 다국어 작업 지원 만들기
+### Create a multilingual Job Aid
 
-1. 작성자 역할로 이동하여 **작업 지원**&#x200B;을 선택합니다.
-2. **작업 지원 만들기**&#x200B;를 선택합니다.
-3. 작업 지원 이름 및 설명을 기본 언어로 입력합니다.
-4. 기본 콘텐츠 파일을 업로드하거나 기본 언어의 URL을 제공합니다.
-5. 작업 지원을 저장합니다.
+1. Go to the Author role and select **Job Aids**.
+2. Select **Create Job Aid**.
+3. Enter the job aid's name and description in the default language.
+4. Upload the primary content file or provide a URL for the default language.
+5. Save the job aid.
 
-### 추가 언어 추가
+### Add additional languages
 
-1. 작업 지원 편집기에서 **언어 추가**&#x200B;를 선택합니다.
-2. 목록에서 원하는 언어를 선택합니다.
-3. 추가된 각 언어에 대해:
-   * 현지화된 이름과 설명을 입력합니다.
-   * 해당 콘텐츠 파일을 업로드하거나 언어별 URL을 제공합니다.
-4. 필요한 모든 언어에 대해 반복합니다.
+1. In the job aid editor, select **Add Language**.
+2. Select the desired language(s) from the list.
+3. For each added language:
+   * Enter the localized name and description.
+   * Upload the corresponding content file or provide a language-specific URL.
+4. Repeat for all required languages.
 
-### 언어 편집 및 관리
+### Edit and manage languages
 
-1. 특정 언어에 대한 파일이나 설명을 업데이트하려면 언어 탭을 선택하고 필요에 따라 변경합니다.
-2. 작업 지원이 게시된 후 언어가 추가되면 고유한 파일이 업로드될 때까지 원본 파일이 자동으로 새 언어에 할당됩니다.
-3. 필요에 따라 모든 언어의 파일을 제거하거나 대체합니다.
+1. To update a file or description for a specific language, select the language tab and make changes as needed.
+2. If a language is added after the job aid is published, the original file is automatically assigned to the new language until a unique file is uploaded.
+3. Remove or replace files for any language as required.
 
-### Publish 및 학습자 경험
+### Publish and learner experience
 
-1. 모든 언어와 파일을 추가한 후 작업 지원을 게시합니다.
-2. 학습자는 해당 파일 또는 URL과 함께 작업 지원을 선택한 콘텐츠 언어로 볼 수 있습니다.
-3. 학습자의 언어를 사용할 수 없는 경우 기본 언어 파일이 표시됩니다.
+1. After all languages and files are added, publish the job aid.
+2. Learners see the job aid in their selected content language, with the appropriate file or URL.
+3. If a learner's language is not available, the default language file is shown.
 
-### 보고
+### Reporting
 
-1. 작업 지원 보고서를 다운로드하여 각 작업 지원과 관련된 모든 파일 및 언어의 세부 정보를 볼 수 있습니다.
-2. 보고서에는 추적을 위한 언어, 파일 이름 및 사용 데이터가 포함됩니다.
+1. Download job aid reports to view details of all files and languages associated with each job aid.
+2. Reports include language, file name, and usage data for tracking.
 
-ALM의 다국어 작업 지원을 사용하면 단일 항목으로 글로벌 고객에게 지원 리소스를 제공하고, 중복을 줄이며, 모든 학습자가 선호하는 언어로 올바른 정보를 받도록 할 수 있습니다. 이 기능은 Adobe Learning Manager의 접근성, 규정 준수 및 관리 효율성을 향상시킵니다.
+Multilingual Job Aids in ALM let you deliver supporting resources to a global audience in a single entry, reduce duplication, and ensure every learner receives the right information in their preferred language. This feature improves accessibility, compliance, and administrative efficiency in Adobe Learning Manager.
 
-## Captivate 생성 강의의 재생 개선 사항
+## Playback improvements for Captivate generated courses
 
-이 업데이트는 통일되고 간소화된 인터페이스를 도입하여 ALM 내에서 Adobe Captivate 콘텐츠의 재생 환경을 크게 개선합니다.
+The update significantly improves the playback experience for Adobe Captivate content within ALM by introducing a unified and streamlined interface.
 
-이제 ALM 플레이어는 Captivate TOC를 숨기는 통합된 단일 TOC를 표시하고 시각적 진행률 추적을 위한 녹색 눈금 표시를 포함하여 명확한 슬라이드 수준 완료 표시기를 제공합니다.
+The ALM player now displays a single, consolidated TOC, hiding the Captivate TOC, and provides clear slide-level completion indicators, including green tick marks for visual progress tracking.
 
-이 시스템은 모듈과 강의 컨트롤을 하나의 직관적인 막대로 병합하여 학습자의 혼란을 줄임으로써 탐색을 단순화합니다.
+The system simplifies navigation by merging module and course controls into one intuitive bar, reducing learner confusion.
 
-컨텍스트 인식 진행률 컨트롤은 비디오 슬라이드에만 비디오 진행률 막대를 표시하고 비디오가 아닌 슬라이드에만 슬라이드 탐색 컨트롤을 표시하여 사용성을 향상시킵니다.
+Context-aware progress controls enhance usability by displaying video progress bars only on video slides and slide navigation controls only on non-video slides.
 
-또한 이제 시스템에서 타임스탬프 대신 슬라이드 번호에 메모를 연결하여 안정적인 PDF 내보내기를 보장하고 이전 형식 불일치를 해결할 수 있습니다.
+Additionally, the system now links notes to slide numbers instead of timestamps, ensuring reliable PDF exports and resolving prior format inconsistencies.
 
-## 체크리스트 개선 사항
+## Checklist enhancements
 
-### 체크리스트에 대한 다국어 지원
+### Multi-language support for checklist
 
-이 기능을 사용하면 여러 언어로 체크리스트 모듈을 만들고 관리할 수 있습니다. 각 체크리스트 문항, 수업 및 평가 준거를 번역하여 검토자와 학습자가 선호하는 언어로 체크리스트와 상호 작용할 수 있도록 하였다. 시스템은 사용자가 선택한 컨텐츠 언어로 체크리스트를 표시하여 글로벌 팀의 접근성 및 준수를 향상시킵니다.
+This feature lets you create and manage checklist modules in multiple languages. Each checklist question, instruction, and evaluation criterion can be translated so reviewers and learners interact with the checklist in their preferred language. The system displays the checklist in the user's selected content language, which improves accessibility and compliance for global teams.
 
-1. 강의에서 체크리스트 모듈을 추가하거나 편집합니다.
-2. 언어 옵션에서 지원하려는 모든 언어를 선택합니다.
-3. 각 언어에 대해 체크리스트 질문, 지침 및 평가 기준마다 번역을 입력합니다.
-4. 변경 사항을 저장합니다. 체크리스트는 검토자 또는 학습자가 선택한 콘텐츠 언어로 표시됩니다.
-5. 나중에 새 언어를 추가하는 경우 게시하기 전에 모든 질문 및 조건에 대한 번역을 제공하십시오.
-6. 체크리스트 보고서를 다운로드할 때 원하는 언어를 선택하여 해당 언어로 보고서를 확인합니다.
+1. Add or edit a checklist module in your course.
+2. Select all the languages you want to support from the language options.
+3. For each language, enter translations for every checklist question, instruction, and evaluation criterion.
+4. Save your changes. The checklist displays in the reviewer's or learner's selected content language.
+5. If you add a new language later, provide translations for all questions and criteria before publishing.
+6. When downloading checklist reports, select your preferred language to view the report in that language.
 
-### 강사 평가를 위한 체크리스트 질문 가중치
+### Checklist question weightage for instructor evaluations
 
-이 기능을 사용하면 체크리스트 질문마다 다른 최대 점수(가중치)를 할당할 수 있습니다. 문항별로 중요도나 난이도가 달라지는데 이를 반영할 수 있어 보다 정확하고 의미 있는 평가를 뒷받침한다. 시스템은 사용자의 입력을 기반으로 총 점수를 계산하고 사용자가 설정한 기준에 따라 학습자의 합격 또는 불합격 여부를 결정합니다.
+This feature lets you assign different maximum scores (weightage) to each checklist question. You can reflect the varying importance or difficulty of each question, which supports more accurate and meaningful evaluations. The system calculates the total score based on your input and determines if the learner passes or fails according to the criteria you set.
 
-1. 체크리스트 모듈을 추가할 때 **사용자 지정 점수**&#x200B;를 선택합니다.
-2. 체크리스트 질문마다 그 중요도를 반영하는 고유한 최대 점수를 설정합니다.
-3. 체크리스트에 대한 전체 합격 점수를 정의합니다.
-4. 체크리스트를 저장하고 게시합니다.
-5. 강사 또는 검토자는 모든 질문(설정한 최대 점수까지)에 대한 점수를 할당하여 각 학습자를 평가합니다.
-6. 시스템에서 총 점수를 계산하고 합격/불합격 상태를 결정합니다.
-7. 체크리스트 보고서를 다운로드하여 각 질문에 대한 달성된 점수와 최대 점수 및 총 점수를 모두 볼 수 있습니다.
+1. When adding a checklist module, select **Custom scoring**.
+2. For each checklist question, set a unique maximum score that reflects its importance.
+3. Define the overall passing score for the checklist.
+4. Save and publish the checklist.
+5. As an instructor or reviewer, evaluate each learner by assigning a score for every question (up to the maximum you set).
+6. The system calculates the total score and determines pass/fail status.
+7. Download checklist reports to view both achieved and maximum scores for each question and the total score.
 
-### 검토자를 위한 주석 달기 기능이 있는 체크리스트
+### Checklist with commenting capability for reviewer
 
-이 기능을 사용하면 체크리스트 평가 중에 검토자가 댓글이나 피드백을 추가할 수 있습니다. 각 학습자에게 개별화되고 실행 가능한 피드백을 제공할 수 있습니다. 또한 투명도를 위해 주석과 함께 이름을 표시하도록 선택할 수 있습니다. 모든 발언은 학습자의 성적 증명서에 저장되고 체크리스트 보고서에 포함됩니다.
+This feature lets reviewers add comments or feedback during checklist evaluation. You can provide personalized, actionable feedback for each learner. You can also choose to display your name with your comments for transparency. All remarks are saved in the learner's transcript and included in checklist reports.
 
-1. 검사 목록을 설정할 때 **검토자 의견**&#x200B;을 사용하도록 설정하십시오.
-2. 필요에 따라 본인의 이름을 댓글과 함께 표시하려면 **학습자에게 검토자 이름 표시**&#x200B;를 활성화합니다.
-3. 평가 시 제공된 의견 필드에 학습자에 대한 의견 또는 피드백을 입력합니다.
-4. 학습자에게 댓글을 표시할지 여부를 선택합니다.
-5. 평가를 제출합니다. 활성화되면 학습자는 사용자의 발언과 이름을 결과물과 함께 확인합니다.
-6. 모든 주석은 학습자의 성적 증명서에 저장되며 나중에 참조할 수 있도록 체크리스트 보고서에 포함됩니다.
+1. When setting up the checklist, enable **Reviewer remarks**.
+2. Optionally, enable **Show reviewer name to learner** if you want your name to appear with your comments.
+3. During evaluation, enter comments or feedback for the learner in the provided remarks field.
+4. Select whether your comments should be visible to the learner.
+5. Submit your evaluation. If enabled, the learner sees your remarks and your name alongside their results.
+6. All comments are saved in the learner's transcript and included in checklist reports for future reference.
 
-## 고급 검색 개선 사항
+## Advanced search enhancements
 
-이 릴리스에서는 순위가 더 높은 쿼리의 콘텐츠와 일치하는 강의를 표시하여 콘텐츠 내 검색을 개선합니다. 또한 작업 지원은 이제 고급 검색 순위에 포함됩니다.
+This release includes improvement in in-content search by showing the courses with content match with query higher in rank. Also, Job Aids are now included in advanced search ranking.
 
-## 해당 항목과 대체 항목
+## Equivalents and alternates
 
-### 개요
+### Overview
 
-많은 조직에서 학습자는 새로운 과정이 오래된 과정을 대체하거나, 더 포괄적인 과정이 더 짧은 과정을 지원할 수 있거나, 특별 대체 과정이 제공되어야 하는 등 여러 과정이 정당하게 동일한 요구 사항을 충족할 수 있는 교육 상황을 겪게 됩니다.
+In many organizations, learners encounter training situations where different courses can legitimately satisfy the same requirement?for example, when a new course replaces an older one, when a more comprehensive course can stand in for a shorter one, or when a special substitute course needs to be offered.
 
-대체 강의 또는 학습 경로 기능은 ALM에게 다음과 같은 공식적인 방법을 제공합니다.
+The Alternate Courses or Learning Path feature gives ALM a formal way to say:
 
-&quot;학습자가 이 교육을 완료한 경우 관련 교육 요구 사항을 충족한 것으로 간주합니다.&quot;
+"If the learner completed this training, treat them as having satisfied that related training requirement."
 
-이 기능은 강의 및 학습 경로에 걸쳐 작동하며, 사전 요구 사항 및 준수 규칙과 같은 다운스트림 요구 사항이 준수되도록 하고, 학습자가 중복된 콘텐츠를 수료하지 않고도 이 기능을 수행할 수 있습니다. 또한 완료된 항목과 대체 항목을 통해 만족한 내용을 직접 기록하여 정확한 보고를 계속 합니다.
+The feature works across courses and Learning Paths, ensures downstream requirements such as prerequisites and compliance rules are honored, and does this without forcing learners to sit through redundant content. It also keeps reporting accurate by recording what was completed directly versus what was satisfied via an alternate.
 
-핵심에서는 이 기능에 대체 완료라는 개념이 도입됩니다. 즉, 학습자가 다른 대상 교육에 중요한 구성된 소스 교육을 완료할 때 자동으로 생성되는 특수 완료 상태입니다.
+At the core, the feature introduces the concept of an alternate completion: a special completion state created automatically when a learner finishes a configured source training that counts towards another target training.
 
-### 동치 대 대체
+### Equivalence vs. alternates
 
-일부 교육 관계는 양방향이므로 각 과정이 다른 교육 과정의 요구 사항을 충족할 수 있습니다. 이는 사실상 두 교육이 상호 대체 가능한 것으로 취급되는 시나리오이다. 이와 달리, 단방향 관계는 한 교육이 다른 교육에 대한 요구 사항을 만족하도록 허용하지만, 그 반대는 허용하지 않는다. ALM은 동일한 기본 대체*완료 메커니즘을 사용하여 두 시나리오를 모두 모델링합니다.
+Some training relationships are bidirectional, meaning each course can satisfy the other's requirement. This is effectively a scenario where two trainings are treated as mutually substitutable. In contrast, unidirectional relationships allow one training to satisfy the requirement for another, but not vice versa. ALM models both scenarios using the same underlying alternate*completion mechanism.
 
-* **양방향 관계:** 두 교육 중 하나를 완료하면 다른 교육 요구 사항이 충족됩니다.
-* **단방향 관계:** 교육 A를 완료하면 교육 B는 충족하지만 B를 완료하면 A는 충족하지 않습니다. 일반적으로 새로운 버전이나 보다 포괄적인 버전을 이전 요구 사항에 사용해야 하지만 그 반대의 경우는 해당되지 않습니다.
+* **Bidirectional relationship:** Completing either training satisfies the requirement for the other.
+* **Unidirectional relationship:** Completing Training A satisfies Training B, but completing B does not satisfy A. This is common when a newer or more comprehensive version should count toward an older requirement, but not the reverse.
 
-대체는 **단방향** 시나리오에서 가장 자주 사용됩니다. 예를 들어, 더 포괄적인 상위 집합 과정이 더 간단한 하위 집합 과정의 모든 내용을 다룰 때. 수퍼세트를 완성하는 것은 서브세트에 대한 요구 사항을 만족해야 하지만, 반드시 그 반대일 필요는 없다.
+Alternates are most often used in **unidirectional** scenarios?for example, when a more comprehensive superset course covers everything in a simpler subset course. Completing the superset should satisfy the requirement for the subset, but not necessarily the other way around.
 
-* 이전의 요구 사항에 포함시켜야 하는 새로운 확장 강의입니다.
-* 기본 강의와 동일한 요구 사항을 계속 충족하는 특정 대상자를 위해 설계된 강의(예: 지역성 또는 접근성*적용 변형).
-* 조직에서 이전 요구 사항에 포함시키고자 하는 향상된 새 버전의 강의이지만 이전 버전은 새 요구 사항에 포함되어서는 안 됩니다.
+* A newer, expanded course that should count toward an older requirement.
+* A course designed for a specific audience (for example, a regional or accessibility*adapted variant) that still fulfills the same requirement as the primary course.
+* An enhanced new version of a course that the organization wants to count for an older requirement, but the older version should not count for the new requirement.
 
-대체에서 관계는 일반적으로 **one*way**&#x200B;입니다. 강의 A가 강의 B의 대체인 경우, A를 완료하면 B의 요구사항을 충족할 수 있지만, B를 완료해도 반드시 A를 만족시킬 수는 없습니다.
+In Alternates, the relationship is normally **one*way**. If Course A is an alternate for Course B, completing A can satisfy B's requirement, but completing B does not necessarily satisfy A.
 
-동등성과 대체 모두 ALM에서 동일한 기본 메커니즘을 공유합니다. 구성된 소스 교육이 완료되면 ALM은 하나 이상의 대상 교육에 대한 대체 완료를 자동으로 생성합니다.
+Both equivalence and alternate share the same underlying mechanism in ALM: when a configured source training is completed, ALM automatically produces an alternate completion for one or more target trainings.
 
-### 이것은 어떤 문제를 해결합니까?
+### What problems does this solve?
 
-대체자와 동등한 사용자가 없는 경우 관리자와 학습자는 다음과 같은 몇 가지 반복 문제에 직면할 수 있습니다.
+Without Alternates and Equivalence, administrators and learners face several recurring issues:
 
-* 학습자는 이미 완료한 내용을 다른 버전이나 형식으로 다루는 강의를 반복하라는 요청을 자주 받습니다.
-* 관리자는 이전 버전을 완료한 학습자에게 동일하거나 대체된 콘텐츠를 다시 사용하도록 강요하지 않고 교육을 대체하거나 재구성할 수 있으므로 준수 프로그램을 업데이트하는 것이 더 간단합니다.
-* 전제 조건 논리는 엄격하다. 특정 과정을 전제 조건으로 하는 길이라면, 다른 훈련이 충분히 좋다는 것을 인식할 수 있는 깔끔한 방법이 없다.
-* 보고와 감사는 더 어렵습니다. 대체 완료를 통해 요건이 충족되었음을 보여주는 공식적인 신호는 없으며 신용의 출처를 추적하는 간단한 방법도 없습니다.
+* Learners are frequently asked to repeat courses that cover content they already completed in a different version or format.
+* Updating compliance programs is simpler because admins can replace or restructure trainings without forcing learners who completed older versions to retake equivalent or superseded content.
+* Prerequisite logic is rigid. If a path requires a particular course as a prerequisite, there is no clean way to recognize that another training is good enough.
+* Reporting and audits are harder. There is no formal signal showing that a requirement was satisfied via an alternate completion and no straightforward way to trace the source of the credit.
 
-대체 및 등가 기능은 다음과 같은 방법으로 이러한 문제를 해결합니다.
+The Alternates and Equivalence feature addresses these issues by:
 
-* 대체자가 유효할 때 학습자의 중복 노력을 방지합니다.
-* 책임자가 이전 버전을 수강했던 학습자의 완료를 중단하지 않고 교육 구조를 수정할 수 있습니다(예: 경로 내에서 강의 교체).
-* 직접 완료와 대체 또는 동등 완료 모두에 대해 사전 요구 사항 및 준수 확인을 허용합니다.
-* 성적 증명서 및 보고서에 교육이 직접적으로 완료되었는지 또는 대체 관계를 통해 만족되었는지 여부와 교육을 소스로 사용했는지 명확하게 기록합니다.
+* Preventing duplicate effort for learners when alternates are valid.
+* Allowing admins to modify training structures (for example, swap a course inside a path) without breaking completions for learners who took the earlier version.
+* Allowing prerequisites and compliance checks to respect both direct completions and alternate or equivalent completions.
+* Recording clearly, in transcripts and reports, whether a training was completed directly or satisfied via an alternate relationship, along with which training served as the source.
 
-### 기능의 개념적 작동 방식
+### How the feature works conceptually
 
-이 기능은 **관계**, **대체 완료** 및 **다운스트림 동작**&#x200B;의 세 가지 주요 아이디어를 기반으로 빌드됩니다.
+The feature is built on three main ideas: **relationships**, **alternate completion**, and **downstream behavior**.
 
-#### 교육 간의 관계
+#### Relationships between trainings
 
-책임자는 강의와 학습 경로 간의 관계를 정의합니다. 각 관계에 대해 **소스**&#x200B;와 하나 이상의 **대상**&#x200B;을 선택합니다. 단일 강의에서는 이전 또는 관련 교육 중 충족해야 하는 수에 따라 최대 30개의 대상이 있을 수 있습니다.
+Administrators define relationships between courses and Learning Paths. For each relationship, they choose a **source** and one or more **targets**. A single course might have up to 30 targets depending on how many earlier or related trainings it should satisfy.
 
-동등성의 경우, 관리자는 두 교육이 서로 만족하도록 하려는 경우 관계를 **양방향**&#x200B;할 수 있습니다. [대체]의 경우 관리자는 일반적으로 일부 대체만 허용된다는 점을 반영하도록 방향을 한*방식으로 유지합니다.
+For Equivalence, admins can make the relationship **bidirectional** if they want both trainings to satisfy each other. For Alternates, admins normally keep the direction one*way to reflect that only some substitutions are allowed.
 
-이러한 관계는 학습자 수준이 아닌 교육 수준에서 저장됩니다. 구성하고 사용가능으로 설정하면 소급 완료의 사용 여부와 같은 계정*레벨 설정에 따라 출처 교육의 현재 및 향후 모든 완료에 적용됩니다.
+These relationships are stored at the training level, not at the learner level. Once configured and enabled, they apply to all current and future completions of the source training, subject to account*level settings such as whether retroactive completion is enabled.
 
-### 대체 완료
+### Alternate completion
 
-학습자가 소스 교육을 완료하면 ALM은 구성된 모든 대체 또는 동등한 관계를 검사하고 각 관련 대상 교육에 대해 **대체 완료 기록**&#x200B;을 만듭니다. 이 레코드는 일반 완료와는 다릅니다.
+When a learner completes a source training, ALM examines all configured alternate or equivalent relationships and, for each relevant target training, creates an **alternate completion record**. This record is distinct from a normal completion:
 
-* 학습자에게 목표 교육을 표시하지만 직접 교육이 아닌 대체 또는 동등성을 통해 완료되었음을 추적합니다.
-* 어떤 소스 교육을 활용하여 목표를 충족시켰는지 기록한다.
-* 보고는 전용 구조에 저장되므로 직접 작성과 대체 작성을 구분할 수 있습니다.
+* It marks the target training for the learner but keeps track that it was completed via alternate or equivalence rather than directly.
+* It records which source training was used to satisfy the target.
+* It is stored in a dedicated structure so reporting can distinguish between direct and alternate completions.
 
-학습자는 등록되지 않아도 대체 완료가 표시됩니다. 학습자 성적 증명서(LT) 보고서에는 학습자가 등록한 교육 기록만 포함됩니다.
+Learners will see alternate completion even if they're not enrolled. The Learner Transcript (LT) report includes only records of trainings that the learner has enrolled in.
 
-### 대체 및 동등한 완료에 대한 학습자 앱 환경
+### Learner app experience for alternate and equivalent completions
 
-대체 및 등가 완료는 학습자 앱에 뚜렷하게 표시되므로 학습자는 성적 증명서 및 보고서와 일관성을 유지하면서 교육 요구 사항이 충족된 방식을 명확하게 이해할 수 있습니다.
+Alternate and equivalent completions are surfaced distinctly in the learner app so learners can clearly understand how a training requirement was satisfied, while maintaining consistency with transcripts and reports.
 
-#### LO 카드 동작
+#### LO card behavior
 
-#### 대체 완료 상태
+#### Alternate completion status
 
-학습자가 대체 또는 동등한 관계를 통해 교육을 완료하면 학습 개체(LO) 카드에 **대체를 통해 완료됨**&#x200B;과 같은 고유한 상태가 표시됩니다.\
-이러한 시각적 구분은 학습자가 구성된 관계를 통해 부여된 직접 완성도와 완성도를 구별하는 데 도움이 됩니다.
+When a learner completes a training via an alternate or equivalent relationship, the Learning Object (LO) card displays a distinct status such as **Completed via Alternate**.  
+This visual distinction helps learners differentiate between direct completions and completions granted through configured relationships.
 
-#### 완료 방법 표시기
+#### Completion method indicator
 
-LO 카드에는 **대체**&#x200B;를 통해 완료되었음을 나타내는 완료 방법 표시기(예: 레이블 또는 아이콘)가 포함되어 있습니다.\
-나중에 소급 미완료 또는 소스 교육 삭제 등의 변경으로 인해 대체 완료가 취소되는 경우 LO 카드가 **대체(취소됨)**&#x200B;을 반영하도록 업데이트됩니다.
+The LO card includes a completion method indicator (for example, a label or icon) to show that the completion was achieved through an **Alternate**.  
+If an alternate completion is later revoked due to changes such as retroactive incompletion or deletion of the source training, the LO card updates to reflect **Alternate (Revoked)**.
 
-#### 투명도 및 감사 세부 정보
+#### Transparency and audit details
 
-학습자는 LO 카드를 열어 다음을 포함한 추가 세부 정보를 볼 수 있습니다.
+Learners can open the LO card to view additional details, including:
 
-* 대체 완료를 허용한 소스 강의 또는 학습 경로
-* 소스 교육과 연관된 완료 날짜
+* The source course or learning path that granted the alternate completion
+* The completion date associated with the source training  
 
-이를 통해 투명성을 보장하고 감사 및 규정 준수 검토를 지원합니다.
+This ensures transparency and supports audit and compliance reviews.
 
-#### 필터링 및 보기
+#### Filtering and views
 
-#### 완료 방법 필터
+#### Completion method filter
 
-학습자 앱은 학습자가 다음을 구별할 수 있도록 필터를 제공합니다.
+The learner app provides a filter that allows learners to distinguish between:
 
-* **직접** 완료
-* **대체** 완료
-* **모두** 완료
+* **Direct** completions
+* **Alternate** completions
+* **All** completions  
 
-이를 통해 학습자는 자신의 학습 요구 사항이 어떻게 충족되었는지 빠르게 이해할 수 있습니다.
+This enables learners to quickly understand how their learning requirements were fulfilled.
 
-#### 대본 및 진행률 보기
+#### Transcript and progress views
 
-완료 방법 필터는 다음과 같은 학습자 대상 보기에서 사용할 수 있습니다.
+The completion method filter is available in learner*facing views such as:
 
-* 학습 성적 증명서
-* 진행률 및 완료 추적 섹션
+* Learning transcripts
+* Progress and completion tracking sections  
 
-이러한 견해는 어떤 교육이 직접적으로 완료되었고 대체 또는 동등성을 통해 만족되었는가를 명확하게 나타낸다.
+These views clearly indicate which trainings were completed directly and which were satisfied through alternates or equivalence.
 
-#### 보고 정렬
+#### Reporting alignment
 
-학습자 앱의 필터링 로직은 보고서에 사용된 **완료 방법** 열에 맞춰 조정됩니다.\
-이렇게 하면 학습자가 UI에서 보는 내용과 관리자가 내보내기 및 준수 보고서에서 보는 내용 사이의 일관성이 보장됩니다.
+The filtering logic in the learner app aligns with the **Completion Method** column used in reports.  
+This ensures consistency between what learners see in the UI and what administrators see in exports and compliance reports.
 
-#### 플로우 종료&#x200B;*종료*
+#### End*to*end flow
 
-#### 학습자용
+#### For learners
 
-1. 학습자 앱에서 **내 학습** 또는 **강의 완료**&#x200B;로 이동합니다.
-2. LO 카드를 검토하여 **대리인을 통해 완료됨**(으)로 표시된 교육을 식별하세요.
-3. LO 카드를 열어 소스 교육 및 완료 날짜에 대한 세부 정보를 봅니다.
-4. 성적 증명서 또는 강의 목록 보기에서 필터 메뉴를 사용하여 **직접**, **대체** 또는 **모두**&#x200B;를 선택합니다.
-5. 선택한 완료 방법에 따라 업데이트된 목록을 검토합니다.
+1. Navigate to **My Learning** or **Completed Courses** in the learner app.
+2. Review LO cards to identify trainings marked as **Completed via Alternate**.
+3. Open an LO card to view details about the source training and completion date.
+4. Use the filter menu in transcript or course list views to select **Direct**, **Alternate**, or **All**.
+5. Review the updated list based on the selected completion method.
 
-#### 책임자 및 작성자용
+#### For administrators and authors
 
-1. 책임자 인터페이스에서 강의 또는 학습 경로 간에 동등한 또는 대체 관계를 구성합니다.
-2. 대체 완료가 LO 카드와 학습자 대면 필터에 올바르게 반영되는지 확인합니다.
-3. 학습자 보기 및 보고서를 사용하여 UI와 내보낸 데이터 사이의 일관성을 확인합니다.
-4. 소스 교육이 중단되거나 삭제된 경우 영향을 받는 LO 카드가 적절하게 업데이트되었는지 확인하십시오(예: 해당되는 경우 **대체(해지됨)** 표시).
+1. Configure equivalent or alternate relationships between courses or learning paths in the admin interface.
+2. Verify that alternate completions are correctly reflected on LO cards and in learner*facing filters.
+3. Use learner views and reports to confirm consistency between UI and exported data.
+4. If a source training is retired or deleted, validate that affected LO cards update accordingly (for example, showing **Alternate (Revoked)** when applicable).
 
-## 소급 완료 및 미완료 동작
+## Retroactive completion and incompletion behavior
 
-ALM은 학습자가 이미 교육을 완료한 후 관계가 생성, 수정 또는 제거된 경우에도 대체 및 동등한 관계가 시간이 지남에 따라 정확하게 유지되도록 소급 완료 및 소급 미완료를 지원합니다.
+ALM supports retroactive completion and retroactive incompletion to ensure that alternate and equivalent relationships remain accurate over time, even when relationships are created, modified, or removed after learners have already completed training.
 
-### 소급 완료
+### Retroactive completion
 
-#### 정의
+#### Definition
 
-소급 완료가 활성화되면 이전에 소스 강의를 완료한 학습자는 나중에 등가 또는 대체 관계가 생성될 경우 대상 강의에 대한 대체 교육을 자동으로 받게 됩니다.\
-이렇게 하면 학습자가 교육을 다시 수강할 필요 없이 역사 학습이 존중됩니다.
+When retroactive completion is enabled, learners who completed a source course in the past automatically receive an alternate completion for the target course if an equivalent or alternate relationship is created later.  
+This ensures that historical learning is honored without requiring learners to retake training.
 
-#### 작동 방식
+#### How it works
 
-1. 책임자는 계정 레벨에서 소급 완료를 활성화합니다.
-2. 책임자는 소스와 대상 교육 간에 동등한 관계 또는 대체 관계를 정의합니다.
-3. 시스템에서 소스 교육에 대한 기록 완료 기록을 검색합니다.
-4. 자격이 있는 학습자에게는 대상 교육에 대한 대체 완료 권한이 부여됩니다.
-5. 이러한 기록은 학습자 성적 증명서 및 보고서에서 **다른 항목을 통해 완료됨**&#x200B;으로 나타납니다.
+1. An administrator enables retroactive completion at the account level.
+2. The administrator defines an equivalent or alternate relationship between a source and target training.
+3. The system scans historical completion records for the source training.
+4. Eligible learners are granted alternate completion for the target training.
+5. These records appear as **Completed via Alternate** in learner transcripts and reports.
 
-### 소급 미완료
+### Retroactive incompletion
 
-#### 정의
+#### Definition
 
-소급 미완료가 사용가능으로 설정된 경우, 기본 등가 또는 대체 관계가 제거되거나 출처 교육이 삭제되면 대체 완료가 취소됩니다.\
-이렇게 하면 현재 및 유효한 교육 관계가 시스템에 반영됩니다.
+When retroactive incompletion is enabled, alternate completions are revoked if the underlying equivalent or alternate relationship is removed or if the source training is deleted.  
+This ensures the system reflects the current and valid training relationships.
 
-#### 작동 방식
+#### How it works
 
-1. 책임자는 계정 레벨에서 소급 미완료를 활성화합니다.
-2. 책임자가 대체 관계 또는 이와 동등한 관계를 제거하거나 소스 교육을 삭제합니다.
-3. 시스템은 영향을 받는 관계를 통해 대체 완료를 받은 학습자를 식별합니다.
-4. 해당 대체 완료 기록이 취소됩니다.
-5. 해지된 레코드는 감사 가시성을 위해 대본 및 보고서에서 **대체(해지됨)**(으)로 표시됩니다.
+1. An administrator enables retroactive incompletion at the account level.
+2. The administrator removes an alternate or equivalent relationship, or deletes the source training.
+3. The system identifies learners who received alternate completion through the affected relationship.
+4. The corresponding alternate completion records are revoked.
+5. Revoked records are marked as **Alternate (Revoked)** in transcripts and reports for audit visibility.
 
-### 사전 요구 사항에 미치는 영향
+### Impact on prerequisites
 
-대체 완료는 소급 부여된 것을 포함하여 필수 구성 요소를 평가할 때 유효한 완료로 처리됩니다.\
-학습자가 **대체 과정을 통해 완료**&#x200B;한 경우, 대상 교육이 필요한 과정을 진행할 수 있습니다.
+Alternate completions—including those granted retroactively—are treated as valid completions when evaluating prerequisites.  
+If a learner has **Completed via Alternate**, they are allowed to proceed with courses that require the target training.
 
-나중에 소급 미완료를 통해 대체 완료가 취소되는 경우 학습자는 해당 전제 조건에 따라 해당 강의에 대한 자격이 상실될 수 있습니다.
+If an alternate completion is later revoked through retroactive incompletion, the learner may lose eligibility for courses that depended on that prerequisite.
 
-### 학습 경로 및 인증에 미치는 영향
+### Impact on learning paths and certifications
 
-대체 완료는 학습 경로 및 인증의 진행과 완료에 기여합니다.\
-학습자는 대체 또는 동등한 관계를 통해 필요한 교육이 충족되면 이러한 프로그램을 진행하거나 완료할 수 있습니다.
+Alternate completions contribute toward progress and completion of learning paths and certifications.  
+Learners can advance or complete these programs when required trainings are satisfied via alternate or equivalent relationships.
 
-대체 완료가 취소된 경우 유효한 완료를 통해 요구 사항이 충족될 때까지 영향을 받는 학습 경로 또는 인증이 진행 또는 완료 상태를 잃을 수 있습니다.
+If an alternate completion is revoked, affected learning paths or certifications may lose progress or completion status until the requirement is met through a valid completion.
 
-### 워크플로 종료&#x200B;*종료*&#x200B;중
+### End*to*end workflow
 
-#### 소급 완료 또는 미완료 사용
+#### Enabling retroactive completion or incompletion
 
-1. 관리자는 계정 설정으로 이동하여 소급 완료 및/또는 소급 미완료를 활성화합니다.
-2. 책임자는 교육 간에 동등한 관계 또는 대체 관계를 생성, 수정 또는 제거합니다.
+1. Administrators navigate to account settings and enable retroactive completion and/or retroactive incompletion.
+2. Administrators create, modify, or remove equivalent or alternate relationships between trainings.
 
-#### 시스템 작업
+#### System actions
 
-* **소급 완료의 경우:**\
-  시스템에서 기록 소스 완료에 따라 대체 완료를 부여합니다.
-* **소급 미완료의 경우:**\
-  관계가 제거되거나 소스 교육이 삭제되면 대체 완료가 취소됩니다.
+* **For retroactive completion:**  
+  The system grants alternate completions based on historical source completions.
+* **For retroactive incompletion:**  
+  The system revokes alternate completions when relationships are removed or source trainings are deleted.
 
-#### 학습자 경험
+#### Learner experience
 
-학습자는 LO 카드 및 성적 증명서에서 다음과 같이 업데이트된 완료 상태를 볼 수 있습니다.
+Learners see updated completion statuses on LO cards and in transcripts, such as:
 
-* **대리인을 통해 완료됨**
-* **대체(해지됨)**
+* **Completed via Alternate**
+* **Alternate (Revoked)**  
 
-전제 조건 검사, 학습 경로 진행률 및 인증 상태는 현재 완료 상태에 따라 동적으로 업데이트됩니다.
+Prerequisite checks, learning path progress, and certification status update dynamically based on the current completion state.
 
-#### 보고 및 감사
+#### Reporting and audit
 
-모든 소급 변경 사항은 학습자 성적 증명서(LT) 보고서에 반영됩니다.\
-보고서는 규정 준수, 지원 조사 및 감사를 지원하기 위해 직접 완료, 대체 완료 및 해지된 대체 완료를 명확히 구분합니다.
+All retroactive changes are reflected in the Learning Transcript (LT) report.  
+Reports clearly distinguish between direct completions, alternate completions, and revoked alternate completions to support compliance, support investigations, and audits.
 
-### 소급 완료 및 미완료 동작
+### Retroactive completion and incompletion behavior
 
-ALM은 학습자가 이미 교육을 완료한 후 관계가 생성, 수정 또는 제거된 경우에도 대체 및 동등한 관계가 시간이 지남에 따라 정확하게 유지되도록 소급 완료 및 소급 미완료를 지원합니다.
+ALM supports retroactive completion and retroactive incompletion to ensure that alternate and equivalent relationships remain accurate over time, even when relationships are created, modified, or removed after learners have already completed training.
 
-#### 소급 완료
+#### Retroactive completion
 
-#### 정의
+#### Definition
 
-소급 완료가 활성화되면 이전에 소스 강의를 완료한 학습자는 나중에 등가 또는 대체 관계가 생성될 경우 대상 강의에 대한 대체 교육을 자동으로 받게 됩니다.\
-이렇게 하면 학습자가 교육을 다시 수강할 필요 없이 역사 학습이 존중됩니다.
+When retroactive completion is enabled, learners who completed a source course in the past automatically receive an alternate completion for the target course if an equivalent or alternate relationship is created later.  
+This ensures that historical learning is honored without requiring learners to retake training.
 
-#### 작동 방식
+#### How it works
 
-1. 책임자는 계정 레벨에서 소급 완료를 활성화합니다.
-2. 책임자는 소스와 대상 교육 간에 동등한 관계 또는 대체 관계를 정의합니다.
-3. 시스템에서 소스 교육에 대한 기록 완료 기록을 검색합니다.
-4. 자격이 있는 학습자에게는 대상 교육에 대한 대체 완료 권한이 부여됩니다.
-5. 이러한 기록은 학습자 성적 증명서 및 보고서에서 **다른 항목을 통해 완료됨**&#x200B;으로 나타납니다.
+1. An administrator enables retroactive completion at the account level.
+2. The administrator defines an equivalent or alternate relationship between a source and target training.
+3. The system scans historical completion records for the source training.
+4. Eligible learners are granted alternate completion for the target training.
+5. These records appear as **Completed via Alternate** in learner transcripts and reports.
 
-#### 소급 미완료
+#### Retroactive incompletion
 
-#### 정의
+#### Definition
 
-소급 미완료가 사용가능으로 설정된 경우, 기본 등가 또는 대체 관계가 제거되거나 출처 교육이 삭제되면 대체 완료가 취소됩니다.\
-이렇게 하면 현재 및 유효한 교육 관계가 시스템에 반영됩니다.
+When retroactive incompletion is enabled, alternate completions are revoked if the underlying equivalent or alternate relationship is removed or if the source training is deleted.  
+This ensures the system reflects the current and valid training relationships.
 
-#### 작동 방식
+#### How it works
 
-1. 책임자는 계정 레벨에서 소급 미완료를 활성화합니다.
-2. 책임자가 대체 관계 또는 이와 동등한 관계를 제거하거나 소스 교육을 삭제합니다.
-3. 시스템은 영향을 받는 관계를 통해 대체 완료를 받은 학습자를 식별합니다.
-4. 해당 대체 완료 기록이 취소됩니다.
-5. 해지된 레코드는 감사 가시성을 위해 대본 및 보고서에서 **대체(해지됨)**(으)로 표시됩니다.
+1. An administrator enables retroactive incompletion at the account level.
+2. The administrator removes an alternate or equivalent relationship, or deletes the source training.
+3. The system identifies learners who received alternate completion through the affected relationship.
+4. The corresponding alternate completion records are revoked.
+5. Revoked records are marked as **Alternate (Revoked)** in transcripts and reports for audit visibility.
 
-#### 사전 요구 사항에 미치는 영향
+#### Impact on prerequisites
 
-대체 완료는 소급 부여된 것을 포함하여 필수 구성 요소를 평가할 때 유효한 완료로 처리됩니다.\
-학습자가 **대체 과정을 통해 완료**&#x200B;한 경우, 대상 교육이 필요한 과정을 진행할 수 있습니다.
+Alternate completions—including those granted retroactively—are treated as valid completions when evaluating prerequisites.  
+If a learner has **Completed via Alternate**, they are allowed to proceed with courses that require the target training.
 
-나중에 소급 미완료를 통해 대체 완료가 취소되는 경우 학습자는 해당 전제 조건에 따라 해당 강의에 대한 자격이 상실될 수 있습니다.
+If an alternate completion is later revoked through retroactive incompletion, the learner may lose eligibility for courses that depended on that prerequisite.
 
-#### 학습 경로 및 인증에 미치는 영향
+#### Impact on learning paths and certifications
 
-대체 완료는 학습 경로 및 인증의 진행과 완료에 기여합니다.\
-학습자는 대체 또는 동등한 관계를 통해 필요한 교육이 충족되면 이러한 프로그램을 진행하거나 완료할 수 있습니다.
+Alternate completions contribute toward progress and completion of learning paths and certifications.  
+Learners can advance or complete these programs when required trainings are satisfied via alternate or equivalent relationships.
 
-대체 완료가 취소된 경우 유효한 완료를 통해 요구 사항이 충족될 때까지 영향을 받는 학습 경로 또는 인증이 진행 또는 완료 상태를 잃을 수 있습니다.
+If an alternate completion is revoked, affected learning paths or certifications may lose progress or completion status until the requirement is met through a valid completion.
 
-#### 워크플로 종료&#x200B;*종료*&#x200B;중
+#### End*to*end workflow
 
-#### 소급 완료 또는 미완료 사용
+#### Enabling retroactive completion or incompletion
 
-1. 관리자는 계정 설정으로 이동하여 소급 완료 및/또는 소급 미완료를 활성화합니다.
-2. 책임자는 교육 간에 동등한 관계 또는 대체 관계를 생성, 수정 또는 제거합니다.
+1. Administrators navigate to account settings and enable retroactive completion and/or retroactive incompletion.
+2. Administrators create, modify, or remove equivalent or alternate relationships between trainings.
 
-#### 시스템 작업
+#### System actions
 
-* **소급 완료의 경우:**\
-  시스템에서 기록 소스 완료에 따라 대체 완료를 부여합니다.
-* **소급 미완료의 경우:**\
-  관계가 제거되거나 소스 교육이 삭제되면 대체 완료가 취소됩니다.
+* **For retroactive completion:**  
+  The system grants alternate completions based on historical source completions.
+* **For retroactive incompletion:**  
+  The system revokes alternate completions when relationships are removed or source trainings are deleted.
 
-#### 학습자 경험
+#### Learner experience
 
-학습자는 LO 카드 및 성적 증명서에서 다음과 같이 업데이트된 완료 상태를 볼 수 있습니다.
+Learners see updated completion statuses on LO cards and in transcripts, such as:
 
-* **대리인을 통해 완료됨**
-* **대체(해지됨)**
+* **Completed via Alternate**
+* **Alternate (Revoked)**  
 
-전제 조건 검사, 학습 경로 진행률 및 인증 상태는 현재 완료 상태에 따라 동적으로 업데이트됩니다.
+Prerequisite checks, learning path progress, and certification status update dynamically based on the current completion state.
 
-#### 보고 및 감사
+#### Reporting and audit
 
-모든 소급 변경 사항은 학습자 성적 증명서(LT) 보고서에 반영됩니다.\
-보고서는 규정 준수, 지원 조사 및 감사를 지원하기 위해 직접 완료, 대체 완료 및 해지된 대체 완료를 명확히 구분합니다.
+All retroactive changes are reflected in the Learning Transcript (LT) report.  
+Reports clearly distinguish between direct completions, alternate completions, and revoked alternate completions to support compliance, support investigations, and audits.
 
-### 해당 항목 및 대체용 Webhook
+### Webhooks for equivalents and alternates
 
-ALM은 외부 시스템과의 자동화, 통합 및 동기화를 지원하기 위해 동등 및 대체 완료에 대한 전용 Webhook 이벤트를 제공합니다.
+ALM provides dedicated webhook events for equivalent and alternate completions to support automation, integrations, and synchronization with external systems.
 
-이러한 이벤트를 통해 외부 소비자는 직접 완료와 대체 또는 동등한 관계를 통해 부여된 완료를 확실하게 구별할 수 있다.
+These events allow external consumers to reliably distinguish between direct completions and completions granted through alternate or equivalent relationships.
 
-#### 개요
+#### Overview
 
-학습자가 대체 또는 등가 관계를 통해 강의를 완료하면 ALM은 표준 강의 완료 Webhook와 별도의 Webhook 이벤트를 트리거합니다.\
-이렇게 하면 통합이 필요한 경우 대체 완료에 다르게 응답할 수 있습니다.
+When a learner completes a course via an alternate or equivalent relationship, ALM triggers a webhook event that is separate from the standard course completion webhook.  
+This ensures that integrations can respond differently to alternate completions where required.
 
-Webhook 이벤트는 과거 업데이트 및 관계 변경을 포함하여 소급 완료 또는 소급 미완료가 발생하는 경우에도 트리거됩니다.
+Webhook events are also triggered when retroactive completion or retroactive incompletion occurs, covering historical updates as well as relationship changes.
 
-#### Webhook 이벤트 동작
+#### Webhook event behavior
 
-* 개별 Webhook 이벤트는 학습자가 대상 강의에 대해 **대체**&#x200B;을(를) 통해 완료됨 상태를 받으면 트리거됩니다.
-* 이벤트는 학습자가 동등한 관계 또는 대체 관계를 통해 대상을 만족하는 구성된 소스 강의를 완료할 때 생성됩니다.
-* 이 Webhook은 직접 강의 완료에 대해 트리거되지 않습니다.
-* 소급 완료 또는 소급 미완료가 활성화되면 영향을 받는 각 학습자 및 대상 강의에 대해 Webhook 이벤트가 발생합니다.
+* A distinct webhook event is triggered when a learner receives **Completed via Alternate** status for a target course.
+* The event is generated when the learner completes a configured source course that satisfies the target through an equivalent or alternate relationship.
+* This webhook is not triggered for direct course completions.
+* When retroactive completion or retroactive incompletion is enabled, webhook events are emitted for each affected learner and target course.
 
-#### Webhook 페이로드 세부 정보
+#### Webhook payload details
 
-대체 완료 Webhook 페이로드에는 다음 키 특성이 포함됩니다.
+The alternate completion webhook payload includes the following key attributes:
 
-* **학습자 ID**\
-  대체 완료를 받은 학습자를 식별합니다.
+* **Learner ID**  
+  Identifies the learner who received the alternate completion.
 
-* **원본 강의**\
-  학습자가 직접 완료한 과정 또는 학습 경로
+* **Source course**  
+  The course or learning path that the learner completed directly.
 
-* **대상 과정**\
-  대체 또는 동등한 관계를 통해 완료됨으로 표시된 강의입니다.
+* **Target course**  
+  The course that is marked as completed via the alternate or equivalent relationship.
 
-* **완료 메서드**\
-  완료 메서드가 **대체**&#x200B;임을 나타냅니다.
+* **Completion method**  
+  Indicates that the completion method is **alternate**.
 
-* **완료 날짜**\
-  원본 강의 완료 날짜로부터 추출됩니다.
+* **Completion date**  
+  Derived from the completion date of the source course.
 
-* **관계 유형**\
-  관계가 **동일**&#x200B;인지 **대체**&#x200B;인지 지정합니다.
+* **Relationship type**  
+  Specifies whether the relationship is **equivalent** or **alternate**.
 
-소급 미완료 시나리오의 경우 Webhook 이벤트는 기존 대체 완료가 취소되었음을 나타냅니다.
+For retroactive incompletion scenarios, webhook events indicate that an existing alternate completion has been revoked.
 
-#### 통합 고려 사항
+#### Integration considerations
 
-외부 시스템은 다음 Webhook 이벤트를 사용하여 다음을 수행할 수 있습니다.
+External systems can use these webhook events to:
 
-* 학습자 기록 업데이트
-* 완료 상태 동기화
-* 알림 또는 다운스트림 워크플로우 트리거
-* 규정 준수를 위해 감사 추적 유지
+* Update learner records
+* Synchronize completion status
+* Trigger notifications or downstream workflows
+* Maintain audit trails for compliance purposes
 
-Webhook 소비자는 **직접** 및 **대체** 완료를 명시적으로 구별해야 합니다.\
-대체 완료는 기술, 배지 또는 게임화 보상을 부여하지 않으며 다운스트림 시스템에서 적절하게 처리해야 합니다.
+Webhook consumers should explicitly differentiate between **direct** and **alternate** completions.  
+Alternate completions do not grant skills, badges, or gamification rewards and should be handled accordingly in downstream systems.
 
-### 등가 및 대체에서 소스 교육 중단 및 삭제의 영향
+### Impact of retiring and deleting source training in equivalents and alternates
 
-원본 교육의 수명 주기 상태(중단 또는 삭제됨)는 학습자의 대체 및 해당 완료가 유지되는 방식에 직접적인 영향을 미칩니다. ALM은 이러한 시나리오를 다르게 처리하여 현재의 관계를 유효하게 유지하면서 기간별 정확성을 유지합니다.
+The lifecycle state of a source training (retired or deleted) directly affects how alternate and equivalent completions are maintained for learners. ALM handles these scenarios differently to preserve historical accuracy while ensuring current relationships remain valid.
 
-#### 소스 교육 중단
+#### Retiring source training
 
-##### 정의
+##### Definition
 
-강의를 중단하면 시스템에서 기록 참조, 보고 및 감사 목적으로 유지하면서 신규 등록을 할 수 없습니다.
+Retiring a course makes it unavailable for new enrollments while keeping it in the system for historical reference, reporting, and audit purposes.
 
-##### 영향
+##### Impact
 
-* 중단된 원본 강의를 통해 부여된 기존 대체 완료는 계속 유효합니다.
-* 이전에 소스 강의를 완료한 학습자는 대상 강의에 대한 대체 강의를 계속 보유합니다.
-* 중단된 강의에서는 새로운 학습자가 완료할 수 없으므로 새로운 대체 완료가 생성되지 않습니다.
-* 학습자 성적 증명서 및 보고서에는 영향을 받는 학습자에 대해 **대체를 통해 완료됨**&#x200B;이 계속 표시됩니다.
+* Existing alternate completions granted through the retired source course remain valid.
+* Learners who previously completed the source course continue to hold alternate completion for the target course.
+* No new alternate completions are generated from the retired course, since it cannot be completed by new learners.
+* Learner transcripts and reports continue to display **Completed via Alternate** for affected learners.
 
-#### 소스 교육 삭제
+#### Deleting source training
 
-#### 정의
+#### Definition
 
-강의를 삭제하면 완료 기록과 구성된 관계를 포함하여 시스템에서 완전히 제거됩니다.
+Deleting a course removes it entirely from the system, including its completion records and configured relationships.
 
-#### 영향
+#### Impact
 
-* 소급 미완료가 활성화된 경우 삭제된 소스 강의를 통해 부여된 모든 대체 완료가 취소됩니다.
-* 학습자 성적 증명서 및 보고서가 업데이트되어 감사 및 준수 가시성을 위해 **대체(해지됨)**&#x200B;를 표시합니다.
-* 학습자는 취소된 대체 완료에 따른 학습 경로, 인증 또는 사전 요구 사항에서 진행률 또는 완료 상태를 잃을 수 있습니다.
-* 삭제된 강의에서는 더 이상 대체 완료를 부여할 수 없습니다.
+* If retroactive incompletion is enabled, all alternate completions granted through the deleted source course are revoked.
+* Learner transcripts and reports update to show **Alternate (Revoked)** for audit and compliance visibility.
+* Learners may lose progress or completion status in learning paths, certifications, or prerequisites that depended on the revoked alternate completion.
+* No further alternate completions can be granted from the deleted course.
 
-#### 워크플로
+#### Workflow
 
-1. 책임자는 책임자 인터페이스를 사용하여 원본 강의를 회수하거나 삭제합니다.
-2. 시스템은 소스 과정에서 파생된 모든 대체 및 동등한 완료를 평가합니다.
-3. 완료 상태는 과정 상태에 따라 업데이트됩니다.
-   * **중단:** 기존 대체 완료는 변경되지 않습니다.
-   * **삭제됨:** 대체 완료는 소급 미완료가 활성화된 경우 취소됩니다.
-4. 학습자 성적 증명서 및 보고서에는 규정 준수 및 감사 요구 사항을 지원하기 위해 업데이트된 상태가 반영됩니다.
+1. An administrator retires or deletes the source course using the admin interface.
+2. The system evaluates all alternate and equivalent completions derived from the source course.
+3. Completion status is updated based on the course state:
+   * **Retired:** Existing alternate completions remain unchanged.
+   * **Deleted:** Alternate completions are revoked if retroactive incompletion is enabled.
+4. Learner transcripts and reports reflect the updated status to support compliance and audit requirements.
 
-### 관계 체인 없음
+### No chaining of relationships
 
-ALM은 대체 또는 동등한 관계의 체인을 지원하지 않습니다. 대체 완료는 직접 구성된 관계에 대해서만 부여되며 여러 레벨의 강의에 걸쳐 캐스케이드되지 않습니다.
+ALM does not support chaining of alternate or equivalent relationships. Alternate completions are granted only for directly configured relationships and do not cascade across multiple levels of courses.
 
-#### 개념: 관계 연결 없음
+#### Concept: no chaining of relationships
 
-#### 정의
+#### Definition
 
-체인화는 대체 또는 등가 관계가 여러 강의에서 전파되도록 하는 것을 말합니다.\
-예를 들어, 강의 A가 강의 B의 대체자이고 강의 B가 강의 C의 대체자인 경우, 연쇄는 강의 A를 완료하면 강의 C에 대한 완료 권한을 부여한다는 것을 의미합니다.
+Chaining refers to allowing alternate or equivalent relationships to propagate across multiple courses.  
+For example, if Course A is an alternate for Course B, and Course B is an alternate for Course C, chaining would imply that completing Course A grants completion for Course C.
 
-#### 정책
+#### Policy
 
-체인화는 지원되지 않습니다.\
-대체 및 등가 관계는 단일 레벨에서만 평가됩니다. 소스 강의를 완료하면 다운스트림 대상이 아닌 즉시 대상 강의나 강의에만 대체 완료가 부여됩니다.
+Chaining is not supported.  
+Alternate and equivalent relationships are evaluated only at a single level. Completing a source course grants alternate completion only to its immediate target course or courses, not to any downstream targets.
 
-#### 워크플로
+#### Workflow
 
-#### 관계 설정
+#### Relationship setup
 
-책임자는 강의 간에 다음과 같은 대체 또는 동등한 관계를 정의합니다.
+An administrator defines alternate or equivalent relationships between courses, such as:
 
-* A→B코스
-* B→ C코스
+* Course A → Course B
+* Course B → Course C
 
-#### 완료 이벤트
+#### Completion event
 
-학습자는 A 과정을 직접 완료합니다.
+A learner completes Course A directly.
 
-#### 시스템 액션
+#### System action
 
-* A → B 관계가 정의된 경우 시스템은 강의 B에 대한 대체 완료를 부여합니다.
-* B → C 관계가 존재하더라도 시스템에서 강의 C에 대한 대체 완료를 허용하지 않습니다.
+* The system grants alternate completion for Course B, if the A → B relationship is defined.
+* The system does not grant alternate completion for Course C, even if a B → C relationship exists.
 
-#### 직접 완료 요구 사항
+#### Direct completion requirement
 
-강의 C의 대체 완료를 받으려면 학습자는 다음 작업을 수행해야 합니다.
+To receive alternate completion for Course C, the learner must:
 
-* B 과정을 직접 수료하거나
-* C 과정에 대한 직접 대체 또는 동등한 방법으로 명시적으로 구성된 과정을 완료합니다.
+* Directly complete Course B, or
+* Complete a course that is explicitly configured as a direct alternate or equivalent for Course C.
 
-### 시사점
+### Implications
 
-#### 간접 이익 없음
+#### No indirect benefits
 
-학습자는 각 강의(또는 해당 직접 대체 강의)가 완료되지 않은 한 관계 체인의 하위에 있는 강의에 대한 완료 점수를 받을 수 없습니다.\
-이를 통해 학습 요구 사항이 명시적이고 예상할 수 있게 충족됩니다.
+Learners cannot receive completion credit for courses further down a relationship chain unless each course (or its direct alternate) is completed.  
+This ensures that learning requirements are met explicitly and predictably.
 
-#### 간편한 감사 및 보고
+#### Simplified audit and reporting
 
-보고서 및 학습자 성적 증명서에는 직접 관계에 대해서만 대체 완료가 표시됩니다.\
-이렇게 하면 복잡한 멀티홉 감사 추적을 방지하고 완료 방식을 검토할 때 선명도를 보장할 수 있습니다.
+Reports and learner transcripts display alternate completions only for direct relationships.  
+This avoids complex, multi-hop audit trails and ensures clarity when reviewing how a completion was granted.
 
-### 피어 계정과의 카탈로그 공유: 공유되지 않은 관계
+### Catalog sharing with peer accounts: relationships not shared
 
-카탈로그 공유를 사용하면 학습 개체(LO)를 피어 계정 간에 공유할 수 있지만, 대체 및 등가 관계는 각 계정 내에서 독립적으로 관리되며 공유되지 않습니다.
+Catalog sharing allows learning objects (LOs) to be shared across peer accounts, but alternate and equivalent relationships are managed independently within each account and are not shared.
 
-#### 개념: 카탈로그 공유 및 관계
+#### Concept: catalog sharing and relationships
 
-#### 카탈로그 공유
+#### Catalog sharing
 
-계정은 카탈로그를 피어 계정과 공유하여 계정 전반에서 강의, 학습 경로 및 기타 학습 객체에 대한 액세스를 제공할 수 있습니다.
+Accounts can share catalogs with peer accounts to provide access to courses, learning paths, and other learning objects across accounts.
 
-#### 관계가 공유되지 않음
+#### Relationships not shared
 
-카탈로그를 공유할 때 원본 계정에 구성된 대체, 동등한 대체 및 대체 완료 관계는 공유되거나 복제되지 않습니다.\
-각 계정은 자신의 관계를 독립적으로 유지 관리하고 평가합니다.
+Alternate, equivalent, and alternate-completion relationships configured in the source account are not shared or replicated when a catalog is shared.  
+Each account maintains and evaluates its own relationships independently.
 
-### 워크플로
+### Workflow
 
-#### 카탈로그 공유
+#### Catalog sharing
 
-**계정 A**&#x200B;의 관리자가 학습 개체가 포함된 카탈로그를 **계정 B**&#x200B;과 공유합니다.
+An administrator in **Account A** shares a catalog containing learning objects with **Account B**.
 
-#### 관계 구성
+#### Relationship configuration
 
-계정 A는 공유 카탈로그의 학습 객체 간에 대체 또는 동등한 관계가 정의될 수 있습니다.
+Account A may have alternate or equivalent relationships defined among the learning objects in the shared catalog.
 
-#### 피어 계정 액세스
+#### Peer account access
 
-계정 B는 공유 학습 객체에 대한 액세스 권한을 수신하지만 계정 A에서 구성된 대체 또는 동등한 관계를 상속하지 않습니다.
+Account B receives access to the shared learning objects but does not inherit any alternate or equivalent relationships configured in Account A.
 
-#### 독립 관리
+#### Independent management
 
-계정 B에 유사한 대체 또는 동등한 동작이 필요한 경우 계정 B의 관리자는 해당 계정 내의 관계를 수동으로 구성해야 합니다.
+If Account B requires similar alternate or equivalent behavior, an administrator in Account B must manually configure the relationships within that account.
 
-#### 시사점
+#### Implications
 
-#### 자동 관계 전파 없음
+#### No automatic relationship propagation
 
-대체 및 동등한 관계는 카탈로그 공유를 통해 피어 계정에서 자동으로 사용할 수 없습니다.
+Alternate and equivalent relationships are not automatically available in peer accounts through catalog sharing.
 
-#### 수동 설정 필요
+#### Manual setup required
 
-각 피어 계정은 공유 학습 객체에 대한 자체 관계를 정의하고 관리하는 역할을 담당합니다.
+Each peer account is responsible for defining and managing its own relationships for shared learning objects.
 
-#### 일관성 고려 사항
+#### Consistency considerations
 
-수동 구성을 통해 관계를 의도적으로 정렬하지 않는 한 계정 마다 완료 동작, 사전 요구 사항 만족 및 보고가 다를 수 있습니다.
+Completion behavior, prerequisite satisfaction, and reporting may differ across accounts unless relationships are intentionally aligned through manual configuration.
 
 
-### 다운스트림 동작
+### Downstream behavior
 
-대상 교육에 대한 대체 완료가 있으면 ALM은 이를 다운스트림 검사에서 사용합니다.
+Once an alternate completion exists for a target training, ALM uses it in downstream checks:
 
-* 대상 교육이 다른 교육에 대한 **전제 조건**&#x200B;인 경우, 학습자는 대상을 완료한 것처럼 해당 교육에 대한 자격이 됩니다.
-* 대상이 **학습 경로의 필수 강의**&#x200B;인 경우, 경로의 완료 로직은 학습자가 해당 부분을 완료한 것으로 간주하고 다른 조건이 충족되면 경로를 완료로 표시하도록 진행할 수 있습니다.
-* 준수 및 교육 요구 사항의 충족 여부에 의존하는 그룹 성공 대시보드와 같은 기타 대시보드에는 대체 완료만 있는 학습자가 포함될 수 있습니다.
+* If the target training is a **prerequisite** for other trainings, the learner becomes eligible for those trainings as if they had completed the target.
+* If the target is a **mandatory course in a learning path**, the path's completion logic can treat the learner as having completed that part and proceed to mark the path complete when other conditions are met.
+* Compliance and other dashboards such as Group Success Dashboard that rely on whether a training requirement is met can include learners who only have alternate completions.
 
-실제 완료와 대체 완료를 구별하여 다음을 수행합니다.
+The system distinguishes between actual completion and alternate completion so that:
 
-* 나중에 학습자가 대상 교육을 직접 수강하고 완료하는 경우 이 직접 완료로 대체 완료의 필요성이 재정의할 수 있습니다.
-* 소스와 대상 간의 관계가 제거되거나 변경된 경우 계정에 대해 소급 불완제가 활성화된 경우 ALM은 정품 완성을 터치하지 않고도 대체 완성을 제거하거나 조정할 수 있습니다.
+* If the learner later takes the target training directly and completes it, this direct completion can override the need for the alternate completion.
+* If the relationship between source and target is removed or changed, ALM can remove or adjust the alternate completions without touching genuine completions, provided retroactive incompletions are enabled for the account.
 
-대체 완료는 대상 교육에서 실제 학습자 활동을 방해하지 않도록 설계되었습니다. 이들은 관계가 변화할 경우 수정될 수 있는 오버레이 역할을 한다.
+Alternate completions are designed not to interfere with actual learner activity on the target training. They act as an overlay that can be revised if the relationships change.
 
-## 이번 릴리스에서 변경된 학습 성적 증명서 보고서
+## Changes to Learning Transcripts report in this release
 
-### 완료 방법 열
+### Completion Method column 
 
-완료 방법 열은 관리자의 학습자 성적 증명서에서 각 기록이 완료된 방식을 나타냅니다.
+The Completion Method column indicates how each record in the administrator's Learner Transcript was completed.  
 
-값:
+Values: 
 
-* 직접(직접 완료용)
-* 대체(대체 관계를 통해 달성된 완료의 경우)
-* 대체 취소됨(소급 미완료 및 관계 제거로 인해 모든 대체 완료가 취소된 경우)
+* Direct (for direct completions) 
+* Alternate (for completions achieved via alternate relationships) 
+* Alternate Revoked (when all alternate completions are revoked due to retroactive incompletion and relationship removal)
 
 >[!NOTE]
 >
->이 열은 학습자의 LT에는 표시되지 않으며 보고 및 추적을 위한 책임자 LT에서만 사용할 수 있습니다.
+>This column is not visible in the learner's LT; it is only available in the admin LT for reporting and tracking purposes.
 
-#### 영향
+#### Impact
 
-강의 완료 방식과 관련하여 관리자가 명확한 감사 추적, 준수 추적 및 투명성을 확보할 수 있습니다.
+Enables clear audit trails, compliance tracking, and transparency for admins regarding how a course was completed.
 
-### 학습자 성적 증명서의 대체 완료 추적
+### Alternate completion tracking in Learner Transcripts
 
-대체 완료를 통해 학습자가 설정된 관계에 따라 동등한 소스 강의 또는 경로를 완료한 경우 대상 강의 또는 학습 경로에 대한 완료 점수를 받을 수 있습니다.
+Alternate completions allow learners to receive completion credit for a target course or learning path when they have completed an equivalent source course or path, based on established relationships.  
 
-학습자 성적 증명서(LT)에서 대체 완료는 상태, 완료 날짜 및 완료 소스의 세 가지 기존 열에 영향을 줍니다.
+In the Learner Transcript (LT), alternate completions impact three existing columns: status, completion date, and completion source:
 
-* **상태**: 대체 완료로 인해 학습자가 대상 과정/경로를 직접 완료하지 않았더라도 상태를 완료 상태로 만들 수 있습니다. 기타 상태(시작되지 않음, 진행 중, 등록 취소됨)는 대체의 영향을 받지 않습니다. 완료됨만 대체자의 영향을 받습니다.
-* **완료 날짜**: 대체 완료의 완료 날짜는 대체 완료를 트리거한 원본 과정/경로에서 상속됩니다. 나중에 학습자가 대상을 직접 완료하면 날짜가 업데이트되어 직접 완료한 날짜가 반영됩니다.
-* **완료 원본**: 이 열은 대체 완료를 제공한 원본 과정 또는 경로의 교육 ID를 캡처합니다. 여러 소스가 활성 상태인 경우 모든 관련 ID가 나열되며, 소스가 취소된 경우(소급 미완료 사용) 활성 소스만 유지됩니다. 완료 출처 열에는 모든 활성 출처 교육 ID(쉼표로 구분)가 나열되며, 복수 출처가 있는 경우 가장 빠른 완료 일자가 사용됩니다.
+* **Status**: The status can be Completed even if the learner has not directly completed the target course/path, due to alternate completion. Other statuses (Not Started, In Progress, Unenrolled) are not affected by alternates. Only Completed is impacted by alternates.
+* **Completion Date**: The completion date for an alternate completion is inherited from the source course/path that triggered the alternate completion. If the learner later completes the target directly, the date is updated to reflect the direct completion.
+* **Completion Source**: This column captures the training ID(s) of the source course(s) or path(s) that provided the alternate completion. If multiple sources are active, all relevant IDs are listed; if sources are revoked (with retroactive incompletion enabled), only active sources remain. The Completion Source column lists all active source training IDs (separated by commas), and if multiple sources exist, the earliest completion date is used.
 
-#### 영향
+#### Impact
 
-대체 완료는 수동 조정을 줄이고, 학습 경로 및 인증의 진행 상황을 자동으로 추적하고, 규정 준수 요구 사항을 지원합니다.
+Alternate completions reduce manual reconciliation, automate progress tracking in learning paths and certifications, and support compliance requirements.
 
 >[!NOTE]
 >
->학습자 성적 증명서에는 완료 방법 열이 표시되지 않습니다. 이는 책임자 LT에서만 사용할 수 있습니다.
+>Learner Transcripts do not display the Completion Method column; this is only available in administrator LT.
 
-### 대체에 대한 완료 날짜 논리
+### Completion date logic for alternates  
 
-학습자 성적 증명서(LT)의 완료 날짜 열은 학습자가 직접 또는 대체 방법을 통해 강의 또는 학습 경로를 완료한 날짜를 기록하는 데 사용되는 기존 필드입니다. 대체 완료의 경우 대체 완료를 트리거한 소스 강의 또는 경로에서 완료 일자가 상속됩니다. 이는 학습자가 대상이 아닌 소스를 완료한 날짜를 반영함을 의미합니다.
+The Completion Date column in the Learner Transcript (LT) is an existing field used to record when a learner achieves completion for a course or learning path, whether by direct or alternate means. For alternate completions, the completion date is inherited from the source course or path that triggered the alternate completion. This means the date reflects when the learner completed the source, not the target.  
 
-나중에 학습자가 대상 과정 또는 경로를 직접 완료하면 완료 날짜가 직접 완료 날짜로 업데이트되어 이전의 대체 완료 날짜가 무시됩니다.
+If a learner later completes the target course or path directly, the completion date is updated to the date of direct completion, overriding the previous alternate completion date.  
 
-대체 완료 일자에 대해 추가된 새 열은 없습니다. 기존 완료 일자 열은 직접 및 대체 완료에 모두 사용됩니다. 여러 출처가 대상에 대한 대체 완료를 제공할 수 있는 경우 출처 중 가장 빠른 활성 대체 완료 일자가 사용됩니다. 출처가 취소된 경우(소급 미완료 사용), 완료 일자가 다음 가장 빠른 활성 출처로 갱신되거나 활성 출처가 남아 있지 않은 경우 지워집니다.
+There is no new column added for alternate completion dates; the existing Completion Date column is used for both direct and alternate completions. In cases where multiple sources can provide alternate completion for a target, the earliest active alternate completion date among the sources is used. If a source is revoked (with retroactive incompletion enabled), the completion date updates to the next earliest active source or is cleared if no active sources remain.
 
-#### 영향
+#### Impact
 
-완료 날짜 로직은 특히 대체 완료가 취소되거나 업데이트될 때 정확한 기록 추적 및 보고 일관성을 보장합니다.
+The completion date logic ensures accurate historical tracking and consistency in reporting, especially when alternate completions are revoked or updated.
 
-### 해지된 대체 완료
+### Revoked alternate completions  
 
-해지된 대체 완료는 계정에 소급 미완료가 활성화되어 있는 경우 모든 원본 관계가 해지되어 대상 과정 또는 학습 경로에 대한 학습자의 대체 완료가 제거될 때 발생합니다.
+Revoked alternate completions occur when a learner's alternate completion for a target course or learning path is removed due to the revocation of all source relationships, provided that retroactive incompletion is enabled in the account.  
 
-#### 트리거 조건
+#### Trigger conditions
 
-* 계정에 소급 미완료를 사용해야 합니다. 그렇지 않으면 출처 관계를 제거해도 대체 완료가 취소되지 않습니다.
-* 해제는 대상에 대한 모든 활성 소스 관계가 제거된 경우에만 발생합니다. 하나 이상의 소스가 남아 있으면 대체 완료가 지속되고 나머지 활성 소스만 반영되도록 완료 소스 열이 업데이트됩니다.
+* Retroactive incompletion must be enabled for the account; otherwise, removing source relationships does not revoke alternate completions.  
+* Revocation happens only when all active source relationships for a target are removed. If at least one source remains, the alternate completion persists, and the completion source column updates to reflect only the remaining active sources.
 
-#### 영향
+#### Impact
 
-* 상태: 모든 대체 완료가 취소되고 직접 완료가 없는 경우 상태가 갱신됩니다(예: 완료됨에서 시작되지 않음 또는 진행 중 등).
-* 완료 날짜: 활성 소스가 남아 있지 않고 학습자가 직접 대상을 완료하지 않은 경우 완료 날짜가 지워집니다.
-* 완료 소스: 취소된 소스를 제거하도록 완료 소스 열이 업데이트됩니다. 모든 소스가 취소되면 지워집니다.
+* Status: If all alternate completions are revoked and there is no direct completion, the status is updated (e.g., from Completed to Not Started or In Progress as appropriate).  
+* Completion Date: The completion date is cleared if no active sources remain and the learner has not completed the target directly.  
+* Completion Source: The completion source column is updated to remove the revoked source(s); if all are revoked, it is cleared.
 
-학습자가 직접 완료한 경우 대체를 취소해도 완료 상태 또는 완료 날짜는 영향을 받지 않습니다.
+If the learner has a direct completion, revoking alternates does not affect their completed status or completion date.
 
-**참고**:
+**Note**:
 
-1. 여러 소스가 대체 완료로 제공되었으나 일부만 취소된 경우 LT는 나머지 활성 소스와 가장 빠른 완료 일자를 반영합니다.
-2. 모든 소스가 취소되고 직접 완료가 없는 경우 학습자는 대상에 대한 완료 상태를 상실합니다.
+1. If multiple sources provided alternate completion and only some are revoked, the LT reflects the remaining active sources and their earliest completion date. 
+2. If all sources are revoked, and there is no direct completion, the learner loses completion status for the target.
 
-### 체크리스트 검토자 의견에 대한 보고 기능 향상
+### Enhanced reporting for checklist reviewer remarks
 
-이제 체크리스트 모듈의 검토자 주석이 이름이 변경된 열 아래의 학습자 성적 증명서(LT)에 포함됩니다. **검토자의 발언**(이전 제출 의견).
+Reviewer comments from checklist modules are now included in Learner Transcripts (LT) under a renamed column: **Reviewer's remarks** (previously Submission comment).
 
-#### 영향
+#### Impact
 
-학습자와 관리자는 LT 내보내기(UI, 작업 API 및 커넥터)에서 명확하게 레이블이 지정된 통합된 검토자 피드백을 보고 투명도를 향상시키고 감사성을 향상시키며 보다 정확한 성과 평가 및 코칭을 지원할 수 있습니다.
+Learners and admins can view consolidated, clearly labeled reviewer feedback in LT exports (UI, Job API, and connectors), improving transparency, auditability, and supporting more accurate performance evaluation and coaching.
 
-#### 변경된 내용
+#### What has changed
 
-**열 이름이 변경됨**
+**Renamed columns**
 
-| 영역 | 이전 열 이름 | 새 열 이름 | 노트 |
+| Area                        | Old column name    | New column name    | Notes                                                     |
 | --------------------------- | ------------------ | ------------------ | --------------------------------------------------------- |
-| 학습자 성적 증명서(관리자) | 제출 의견 | 검토자의 의견 | UI, 작업 API, 커넥터 등 모든 관리자 LT 소스에 적용됩니다. |
+| Learner Transcripts (Admin) | Submission comment | Reviewer's remarks | Applies to all Admin LT sources: UI, Job API, Connectors, wherever applicable. |
 
-이 변경 사항은 모든 관리자 LT 소스(UI 내보내기, 작업 API 보고서 및 커넥터 기반 내보내기(해당되는 경우)에 균일하게 적용됩니다. 커넥터로 내보낸 LT는 검토자의 주석을 (이전에 제출 주석을 표시하지 않은 커넥터의 경우) 끝에 전용 열로 표시하여 다운스트림 통합이 검토자 피드백을 다른 주석과 구별할 수 있도록 합니다.
+This change applies uniformly to all Admin LT sources (UI exports, Job API reports, and Connector‑based exports, wherever applicable). Connector‑exported LT will surface Reviewer's remarks as a dedicated column at the end (for connectors that did not previously expose Submission comment), ensuring downstream integrations can distinguish reviewer feedback from other comments.
 
 >[!NOTE]
 >
->학습자용 학습자 성적 증명서의 경우, 이전에 &quot;제출 의견&quot;이라고 표시된 열은 이제 &quot;검토자의 의견&quot;으로 이름이 변경되고, 활성화하면 체크리스트 검토자의 의견으로 채워집니다.
+>For the Learner Transcripts for learners, the column previously labeled "Submission comment" is now renamed to "Reviewer's remarks", and populated with the checklist reviewer's comment when enabled.
 
 
 
-### 학습 시간 계산 개선
+### Improved learning time calculation 
 
-이제 LT 보고서는 사용자 활동과 탭 포커스를 기준으로 학습 모듈에 사용되는 활성 시간과 유휴 시간을 구분하기 위해 정교한 논리를 사용합니다.
+The LT report now uses a refined logic to distinguish between active and idle time spent on learning modules, based on user activity and tab focus. 
 
-#### 영향
+#### Impact
 
-학습 참여를 더 정확하게 측정하고, 준수 및 분석을 지원합니다.
+Provides more accurate measurement of learning engagement, supporting compliance and analytics.  -->
