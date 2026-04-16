@@ -16,7 +16,7 @@ ht-degree: 0%
 
 지원 티켓을 제출하려면 승인된 지원 담당자만 사용할 수 있습니다. 지원 문의는 2025년 5월 11일까지 이메일을 통해 Adobe Learning Manager에 지원 티켓을 계속 제출하십시오. 이 날짜 이후에는 기존 이메일 채널 외에도 아래 설명된 Experience League 지원 포털을 통해 지원 티켓을 제출할 수 있습니다.
 
-1. 지원 포털에 액세스하려면 **[!UICONTROL Experience League]** 웹 사이트를 방문하여 페이지 상단에 있는 **[!UICONTROL 지원]** 탭을 선택하십시오. 또는 [직접 링크](https://experienceleague.adobe.com/home#support)를 방문할 수 있습니다.
+1. 지원 포털에 액세스하려면 **[!UICONTROL Experience League]** 웹 사이트를 방문하여 페이지 상단에 있는 **[!UICONTROL 지원]** 탭을 선택하십시오. 또는 [직접 링크](https://experienceleague.adobe.com/home?lang=ko#support)를 방문할 수 있습니다.
 
    ![](assets/support.png)
    _지원 홈페이지_
