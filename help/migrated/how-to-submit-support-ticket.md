@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Experience League 지원 티켓을 제출하는 방법
 description: Experience League 시 지원 요청을 제출하는 방법 알아보기
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: 5cf246440f56dfa4ffd23edcfdc7c1190ad89c42
+source-git-commit: aa9bf441507251c536cb6ee550fee0177e69cf6e
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 지원 티켓을 제출하려면 승인된 지원 담당자만 사용할 수 있습니다. 지원 문의는 2025년 5월 11일까지 이메일을 통해 Adobe Learning Manager에 지원 티켓을 계속 제출하십시오. 이 날짜 이후에는 기존 이메일 채널 외에도 아래 설명된 Experience League 지원 포털을 통해 지원 티켓을 제출할 수 있습니다.
 
-1. 지원 포털에 액세스하려면 **[!UICONTROL Experience League]** 웹 사이트를 방문하여 페이지 상단에 있는 **[!UICONTROL 지원]** 탭을 선택하십시오. 또는 [직접 링크](https://experienceleague.adobe.com/home?lang=ko#support)를 방문할 수 있습니다.
+1. 지원 포털에 액세스하려면 **[!UICONTROL Experience League]** 웹 사이트를 방문하여 페이지 상단에 있는 **[!UICONTROL 지원]** 탭을 선택하십시오. 또는 [직접 링크](https://experienceleague.adobe.com/home#support)를 방문할 수 있습니다.
 
    ![](assets/support.png)
    _지원 홈페이지_
@@ -43,7 +43,7 @@ ht-degree: 0%
    ![](assets/ticket-form.png)
    _티켓 양식_
 
-4. **[!UICONTROL 사례 제출]**&#x200B;을 클릭하면 **[!UICONTROL 내 사례]** 페이지로 리디렉션되며 조직에서 제출한 모든 사례를 볼 수 있습니다. 사이드바 메뉴에서 **[!UICONTROL 내 사례]** 단추를 클릭하여 이 페이지로 이동할 수도 있습니다. 이 페이지에서는 진행 중이거나 마감된 모든 지원 사례를 볼 수 있습니다. 페이지 상단의 옵션을 사용하여 사례 상태(열림 또는 닫힘) 또는 Experience Cloud 솔루션별로 필터링할 수 있습니다. 검색 막대를 사용하여 지원 문제와 관련된 키워드를 검색할 수도 있습니다.
+4. **[!UICONTROL 사례 제출]**&#x200B;을 클릭하면 **[!UICONTROL 내 사례]** 페이지로 리디렉션되며 조직에서 제출한 모든 사례를 볼 수 있습니다. 사이드바 메뉴에서 **[!UICONTROL 내 사례]** 단추를 클릭하여 이 페이지로 이동할 수도 있습니다. 이 페이지에서는 진행 중이거나 마감된 모든 지원 사례를 볼 수 있습니다. 페이지 상단의 옵션을 사용하여 사례 상태(열림 또는 닫힘) 또는 Adobe CX 엔터프라이즈 솔루션별로 필터링할 수 있습니다. 검색 막대를 사용하여 지원 문제와 관련된 키워드를 검색할 수도 있습니다.
 
    ![](assets/open-cases.png)
    _진행 중인 사례_
