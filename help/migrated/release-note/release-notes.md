@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager 릴리스 정보
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: e4fbde07314dcb99ee2d16aa4977308b8ab5b990
 workflow-type: tm+mt
-source-wordcount: '29372'
+source-wordcount: '29433'
 ht-degree: 75%
 
 ---
@@ -24,6 +24,18 @@ ht-degree: 75%
  </tbody>
 </table>
 -->
+
++++업데이트 106: Adobe Learning Manager 2026년 4월 릴리스
+
+출시일: 2026년 4월 30일
+
+## 버그 수정
+
+**문자 제한에 의해 차단된 VTT 덮어쓰기:** 검토/편집 모드의 문자 제한으로 인해 ALM에서 자동으로 생성한 VTT 파일을 고객이 덮어쓸 수 없는 문제를 수정했습니다. 이제 VTT 편집 모드에서 문자 제한이 100만 자로 늘어났습니다.
+
+
++++
+
 
 +++업데이트 105: Adobe Learning Manager 2026년 4월 릴리스
 

@@ -3,18 +3,24 @@ jcr-language: en_us
 title: Adobe Learning Manager에서 AI 기반 검색
 description: Adobe Learning Manager의 AI 기반 검색에 대해 알아보기
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 3c8bee8994ab13aacf8f4e1f4c9371f5808e17ce
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
 
 # Adobe Learning Manager의 고급 AI 검색
 
+## 소개
+
 Adobe Learning Manager의 검색 기능을 통해 관련 콘텐츠를 효율적으로 찾고 올바른 콘텐츠를 소비할 수 있어 사용자 경험이 향상됩니다.
 
 Adobe Learning Manager이 어휘 검색과 의미 검색이 결합된 AI 기반 검색 기능을 도입했다. 향상된 이 기능을 통해 학습자는 관련 콘텐츠를 효율적으로 찾을 수 있습니다. 고급 AI 기반 검색은 쿼리의 의미를 이해하고 관련 결과를 제공합니다.
+
+>[!NOTE]
+>
+>이 기능은 FedRAMP에서 승인한 환경에서는 사용할 수 없습니다. 자세한 내용은 [FedRAMP 환경의 기능 가용성](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)을 참조하세요.
 
 ## 주요 이점
 

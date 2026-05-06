@@ -3,18 +3,22 @@ jcr-language: en_us
 title: 그룹 성공 대시보드
 description: Adobe Learning Manager의 그룹 성공 대시보드에 대해 자세히 알아보기
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 0%
+source-wordcount: '1100'
+ht-degree: 1%
 
 ---
 
 # 그룹 성공 대시보드
 
-## 그룹 성공 대시보드 개요
+## 소개
 
 Adobe Learning Manager의 GSD(Group Success Dashboard)를 사용하면 관리자와 관리자가 부서나 사용자 그룹 전반에서 거의 실시간으로 학습자 진행률을 모니터링할 수 있습니다(등록, 진행 또는 완료에서 대시보드에 반영되기까지 60분 지연). 강의 완료, 등록 및 보류 중인 작업에 대한 사전 추적 기능을 지원하므로 팀의 학습을 보다 쉽게 관리할 수 있습니다. 사용자 그룹에 대한 자세한 내용은 이 [문서](/help/migrated/administrators/feature-summary/add-users-user-groups.md)를 참조하세요.
+
+>[!NOTE]
+>
+>이 기능은 FedRAMP에서 승인한 환경에서는 사용할 수 없습니다. 자세한 내용은 [FedRAMP 환경의 기능 가용성](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)을 참조하세요.
 
 ## 주요 사용 사례
 
@@ -51,8 +55,8 @@ Adobe Learning Manager의 GSD(Group Success Dashboard)를 사용하면 관리자
 6. **[!UICONTROL 학습자 성적 증명서]** 섹션에서 보려는 필수 열을 선택합니다.
 
 
-   * 학습자
-   * 경로 및 과정
+   * Prime에서
+   * 경로 및 강의
    * 상태
    * 등록 날짜
    * 마지막 액세스 날짜
@@ -92,7 +96,7 @@ Adobe Learning Manager의 GSD(Group Success Dashboard)를 사용하면 관리자
 
 7. **[!UICONTROL 대시보드 만들기]**&#x200B;를 선택합니다.
 
-더 큰 팀의 경우 **학습자 성적 증명서** 탭에서 **기본 카탈로그** 및 **[!UICONTROL 모든 학습자]** 사용자 그룹을 선택하여 대시보드를 만드십시오. 여기에는 **[!UICONTROL 학습자 성적 증명서]** 보기의 모든 강의와 학습자가 포함되므로 각 학습자의 진행률을 보다 쉽게 검색하고 추적할 수 있습니다.
+더 큰 팀의 경우 **[!UICONTROL 학습자 성적 증명서]** 탭에서 **기본 카탈로그** 및 **모든 학습자** 사용자 그룹을 선택하여 대시보드를 만드십시오. 여기에는 **[!UICONTROL 학습자 성적 증명서]** 보기의 모든 강의와 학습자가 포함되므로 각 학습자의 진행률을 보다 쉽게 검색하고 추적할 수 있습니다.
 
 ### 그룹 성공 대시보드 보기
 
