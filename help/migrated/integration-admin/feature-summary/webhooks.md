@@ -4,16 +4,22 @@ title: Webhook
 description: 강의 등록, 강의 생성 및 기타 정보와 같은 실시간 정보를 특정 URL로 전송하는 Webhook에 대해 알아봅니다.
 contentowner: chandrum
 exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
-source-git-commit: 3b35c16d74c83329cee24ee9ad007a53ccbd8cf3
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
 
 # Webhook
 
+## 소개
+
 Webhook을 사용하면 특정 이벤트가 발생할 때 한 엔터티가 다른 엔터티로 실시간 데이터나 알림을 자동으로 보낼 수 있습니다. 이를 지속적으로 요청하지 않고도 다른 애플리케이션에 정보를 제공할 수 있게 된다. 예를 들어 사용자가 LMS(교육 관리 시스템) 과정을 완료한 경우 Webhook은 해당 정보를 CRM 또는 보고 도구와 같은 다른 플랫폼으로 자동으로 전송할 수 있습니다. Webhook은 통합을 통해 프로세스를 자동화하고 시스템 간에 수동 업데이트의 필요성을 줄이는 데 주로 사용됩니다. 데이터를 전송할 콜백 URL을 제공하여 Webhook을 설정합니다.
+
+>[!NOTE]
+>
+>이 기능은 FedRAMP에서 승인한 환경에서는 사용할 수 없습니다. 자세한 내용은 [FedRAMP 환경의 기능 가용성](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)을 참조하세요.
 
 ## Webhook 및 API
 

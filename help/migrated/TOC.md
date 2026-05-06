@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: b4371272c60fb43a21d2ceeaf75065156e786615
+source-git-commit: 8aa74f220c7bd0694fdb6d80b16d9a744eb3f7f3
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 62%
+source-wordcount: '906'
+ht-degree: 61%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 62%
       * [Adobe Learning Manager 관리 계정 수명 주기](/help/migrated/alm-administrative-lifecycle.md)
       * [Adobe Learning Manager secure administration guide](/help/migrated/alm-secure-administration-guide.md)
       * [Adobe Learning Manager 관리 보안 설정 및 구성 관리](/help/migrated/alm-security-settings-config-management.md)
+      * [FedRAMP 인증 환경에서 기능 가용성](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)
    * [Learning Manager의 접근성](accessibility-learning-manager.md)
    * [사용자 정의 도메인 지원](custom-domain.md)
    * [Adobe FTP Manager에서 전환](transition-from-ftp-manager.md)
