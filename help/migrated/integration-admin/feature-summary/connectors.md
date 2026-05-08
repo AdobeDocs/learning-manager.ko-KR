@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager 커넥터
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 71b68a6d08d1337afd915162d8130a6ad2379886
+source-git-commit: 061433edb12bf10287e56899e01dcc462c9ba5f0
 workflow-type: tm+mt
-source-wordcount: '15926'
+source-wordcount: '15903'
 ht-degree: 72%
 
 ---
@@ -1068,29 +1068,29 @@ Learning Manager와 Zoom 커넥터를 통합하여 클래스를 호스트할 수
 1. Learning Manager 홈 페이지에서 확대/축소 축소판 위로 마우스를 가져갑니다. 그러면 메뉴가 나타납니다. 메뉴에서 **[!UICONTROL 연결]** 옵션을 클릭합니다.
 
    <!--
-![](assets/connectors.png)
+   ![](assets/connectors.png)
 
-*Zoom 커넥터 타일*
--->
+   *Zoom connector tile* 
+   -->
 
 1. Zoom 커넥터 페이지가 열립니다. 사용자 피드를 통합하고 동기화하려면 해당 필드에 계정의 세부 정보를 입력합니다. 자세한 내용은 커넥터 계정 책임자에게 문의하십시오.
 
    <!--
-![](assets/bluejeans-connecotrpage.png)
-*BlueJeans/Zoom에 연결*
--->
+   ![](assets/bluejeans-connecotrpage.png)
+   *Connect to BlueJeans/ Zoom* 
+   -->
 
->[!NOTE]
->
->학습자는 커넥터를 활성화하는 동안 Learning Manager 계정에 사용된 것과 동일한 전자 메일 ID를 사용하여 사용자가 다시 Learning Manager로 피드를 보낼 수 있도록 합니다.
+   >[!NOTE]
+   >
+   >학습자는 커넥터를 활성화하는 동안 Learning Manager 계정에 사용된 것과 동일한 전자 메일 ID를 사용하여 사용자가 다시 Learning Manager로 피드를 보낼 수 있도록 합니다.
 
 1. 작성자로 연결이 설정되면 Zoom을 회의 시스템으로 사용하여 VC 강의를 생성합니다.
 
    <!--
-![](assets/vc.jpg)
-
-*VC 강의 만들기*
--->
+   ![](assets/vc.jpg)
+   
+   *Create a VC course* 
+   -->
 
 1. 책임자, 관리자 및 학습자는 학습자를 생성된 과정에 등록할 수 있습니다. 등록 후에 학습자는 이메일을 받습니다. 학습자는 Learning Manager 계정에 로그인하여 프로그램 세부 정보를 보고 강의를 수강할 수 있습니다.
 1. 과정을 마치면 완료 보고서가 Learning Manager로 전송됩니다. 책임자는 완료 보고서를 보고 학습자의 출석 및 점수를 확인할 수 있습니다.
@@ -1340,11 +1340,11 @@ LinkedIn Learning 커넥터는 학습자가 Learning Manager에서 과정을 확
 1. linkedIn Learning 커넥터를 처음 구성하는 경우 [!UICONTROL 연결]을 클릭합니다.
 
    <!--
-커넥터를 구성하기 전에 Exavault FTP 계정을 먼저 구성합니다.
+   Configure the Exavault FTP account before you configure this connector.
 
-![](assets/configure.jpg)
-*연결 구성*
--->
+   ![](assets/configure.jpg)
+   *Configure connection*
+   -->
 
 1. 연결 페이지에서 커넥터 이름을 입력합니다. 연결을 위해 Appkey와 Secret Key를 입력합니다.
 
