@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 8aa74f220c7bd0694fdb6d80b16d9a744eb3f7f3
+source-git-commit: fc9bf565de2f9491c793654645d2f2400ca49697
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 61%
+source-wordcount: '946'
+ht-degree: 62%
 
 ---
 
@@ -132,7 +132,24 @@ ht-degree: 61%
 * 통합 책임자 {#integration}
    * [응용 프로그램 개발자 설명서](integration-admin/feature-summary/developer-manual.md)
    * [마이그레이션 설명서](integration-admin/feature-summary/migration-manual.md)
-   * [Learning Manager 커넥터](integration-admin/feature-summary/connectors.md)
+   * Learning Manager 커넥터 {#connectors}
+      * [커넥터 개요](integration-admin/feature-summary/connectors.md)
+      * [ADFS 커넥터](integration-admin/feature-summary/adfs-connector.md)
+      * [Adobe Commerce 커넥터](integration-admin/feature-summary/adobe-commerce-connector.md)
+      * [Adobe Connect 커넥터](integration-admin/feature-summary/adobe-connect-connector.md)
+      * [Box 커넥터](integration-admin/feature-summary/box-connector.md)
+      * [사용자 정의 FTP 커넥터](integration-admin/feature-summary/custom-ftp-connector.md)
+      * [FTP 커넥터](integration-admin/feature-summary/ftp-connector.md)
+      * [getAbstract 커넥터](integration-admin/feature-summary/getabstract-connector.md)
+      * [Harvard ManageMentor 커넥터](integration-admin/feature-summary/harvard-managementor-connector.md)
+      * [LinkedIn Learning 커넥터](integration-admin/feature-summary/linkedin-learning-connector.md)
+      * [Marketo Engage 커넥터](integration-admin/feature-summary/marketo-engage-connector.md)
+      * [Microsoft Teams 커넥터](integration-admin/feature-summary/install-microsoft-teams-connector.md)
+      * [Power BI 커넥터](integration-admin/feature-summary/power-bi-connector.md)
+      * [Salesforce 커넥터](integration-admin/feature-summary/salesforce-connector.md)
+      * [교육 데이터 액세스 커넥터](integration-admin/feature-summary/training-data-access-connector.md)
+      * [Workday 커넥터](integration-admin/feature-summary/workday-connector.md)
+      * [Zoom 커넥터](integration-admin/feature-summary/zoom-connector.md)
    * [로그인하지 않은 API](integration-admin/feature-summary/non-logged-in-apis.md)
    * Webhook {#webhooks}
       * [Webhook](/help/migrated/integration-admin/feature-summary/webhooks.md)
@@ -147,7 +164,6 @@ ht-degree: 61%
       * [소개](/help/migrated/deployment-guide/introduction.md)
       * [사용자 마이그레이션](/help/migrated/deployment-guide/user-migration.md)
       * [사용자 설정](/help/migrated/deployment-guide/user-setup.md)
-   * [Microsoft Teams 커넥터 설치](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [Salesforce용 Learning Manager 앱](integration-admin/feature-summary/sfdc-app.md)
    * [설정](integration-admin/feature-summary/settings.md)
    * [CSV 파일을 통해 사용자 정의 역할 관리](integration-admin/feature-summary/configure-role-csv-files.md)

@@ -1,19 +1,19 @@
 ---
 description: Adobe Learning Manager에 Microsoft Teams 커넥터 설치
 jcr-language: en_us
-title: Adobe Learning Manager에 Microsoft Teams 커넥터 설치
+title: Microsoft Teams 커넥터
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 368017670470b818ce2a77c5498ee069036da3eb
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 52%
+source-wordcount: '1206'
+ht-degree: 51%
 
 ---
 
-# Adobe Learning Manager에 Microsoft Teams 커넥터 설치
+# Adobe Learning Manager의 Microsoft Teams 커넥터
 
-## 개요
+## 소개
 
 ®는 문서 공유, 온라인 회의 및 비즈니스 통신을 위한 기타 기능을 완전히 지원하는 지속적인 채팅 방식의 협업 플랫폼입니다.
 
