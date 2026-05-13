@@ -75,7 +75,7 @@ Adobe Learning Manager에서 Box 커넥터를 설정하려면:
 3. **특성 매핑** 페이지에서 다음을 수행합니다.
    - 왼쪽에는 Adobe Learning Manager의 필수 필드가 표시됩니다.
    - 오른쪽에는 CSV 열 이름이 표시됩니다. 처음에는 이 쪽에 빈 드롭다운이 포함되어 있습니다.
-   - 샘플 CSV 파일을 업로드하려면 **CSV 선택**&#x200B;을 선택합니다. 그러면 오른쪽 드롭다운이 CSV의 열 이름으로 채워집니다. 샘플 CSV를 가져오려면 [이 문서](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv)를 참조하세요.
+   - 샘플 CSV 파일을 업로드하려면 **CSV 선택**&#x200B;을 선택합니다. 그러면 오른쪽 드롭다운이 CSV의 열 이름으로 채워집니다. 샘플 CSV를 가져오려면 [이 문서](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/migration-manual#csv)를 참조하세요.
    - 각 Adobe Learning Manager 필드를 해당 CSV 열로 매핑합니다.
 
    ![](assets/box-connector2.png)

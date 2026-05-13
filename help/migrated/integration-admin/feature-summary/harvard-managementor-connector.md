@@ -144,5 +144,5 @@ Harvard ManageMentor 커넥터를 설정한 후 Adobe Learning Manager에서 연
 
 **샘플 파일**
 
-- [Harvard ManageMentor 커넥터의 과정 메타데이터 파일](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=en)
-- [Harvard ManageMentor 커넥터의 사용자 피드 파일](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=en)
+- [Harvard ManageMentor 커넥터의 과정 메타데이터 파일](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=ko)
+- [Harvard ManageMentor 커넥터의 사용자 피드 파일](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=ko)
