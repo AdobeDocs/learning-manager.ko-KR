@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: fc9bf565de2f9491c793654645d2f2400ca49697
+source-git-commit: 50ffbc77676e456eda1eca331be9f20575a5595c
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 62%
+source-wordcount: '944'
+ht-degree: 61%
 
 ---
 
@@ -132,8 +132,7 @@ ht-degree: 62%
 * 통합 책임자 {#integration}
    * [응용 프로그램 개발자 설명서](integration-admin/feature-summary/developer-manual.md)
    * [마이그레이션 설명서](integration-admin/feature-summary/migration-manual.md)
-   * Learning Manager 커넥터 {#connectors}
-      * [커넥터 개요](integration-admin/feature-summary/connectors.md)
+   * [Learning Manager 커넥터]{#connectors}
       * [ADFS 커넥터](integration-admin/feature-summary/adfs-connector.md)
       * [Adobe Commerce 커넥터](integration-admin/feature-summary/adobe-commerce-connector.md)
       * [Adobe Connect 커넥터](integration-admin/feature-summary/adobe-connect-connector.md)
