@@ -1,16 +1,16 @@
 ---
 description: ALM의 API 변경 사항
 jcr-language: en_us
-title: 4월 릴리스의 API 변경 사항
-source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
+title: 2026년 5월 패치 릴리스의 API 변경 사항
+source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
 
-# 2026년 5월 릴리스의 API 변경 사항
+# 2026년 5월 패치 릴리스의 API 변경 사항
 
 ## GET /learningObjects API 개선 사항
 
