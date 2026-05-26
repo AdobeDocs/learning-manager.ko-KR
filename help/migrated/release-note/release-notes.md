@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager 릴리스 정보
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 5af1306122d1a2099e6bbcf471d53f7c982e5a10
+source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
 workflow-type: tm+mt
-source-wordcount: '29433'
-ht-degree: 75%
+source-wordcount: '29658'
+ht-degree: 74%
 
 ---
 
@@ -25,7 +25,48 @@ ht-degree: 75%
 </table>
 -->
 
-+++업데이트 106: Adobe Learning Manager 2026년 4월 릴리스
++++업데이트 107: Adobe Learning Manager 2026년 5월 패치 릴리스
+
+출시일: 2026년 5월 26일
+
+## 개선 사항(인스턴스 및 세션 초대 이메일)
+
+**인스턴스 시작 날짜:** 관리자 또는 작성자는 인스턴스를 만들거나 편집할 때 인스턴스의 시작 날짜를 포함할 수 있습니다.
+
+**시작 날짜 이전의 전자 메일 미리 알림:** 인스턴스에 새로 도입된 **시작 날짜** 필드와 관련이 있습니다. 이제 관리자 또는 작성자는 다양한 유형의 재귀가 있는 인스턴스의 시작 날짜 이전에 다른 시점에서 두 개의 이메일 미리 알림을 설정할 수 있습니다.
+
+자세한 내용은 관리자용 [인스턴스 만들기](/help/migrated/administrators/feature-summary/courses.md#createinstanceofacourse) 및 작성자용 [인스턴스 만들기](/help/migrated/authors/feature-summary/courses.md#createaninstance)를 참조하십시오.
+
+**세션 초대 전자 메일:** 사용자가 CR/VCR 유형의 세션에 강사로 추가되면 강사가 자동 알림 메일을 보냅니다. 이 메일의 모양과 느낌은 심미적으로 향상되었습니다. 자세한 내용은 [일정 초대](/help/migrated/instructors/feature-summary/learners.md#calendarinvites)를 참조하세요.
+
+## API 변경 사항
+
+### getLO API에서 가용성 시작
+
+**GET /learningObjects API 개선 사항**
+
+이제 GET 관계가 포함될 때 인스턴스 /learningObjects API에 learningObjectInstance 리소스의 새 startDate 속성이 포함됩니다.
+
+**엔드 포인트**
+
+GET /learningObjects/{id}?include=instances
+
+**변경**
+
+새 필드 startDate가 다음 아래에 추가되었습니다.
+included[].attributes.startDate
+
+**설명**
+
+startDate는 학습 객체 인스턴스의 예약된 시작 날짜 및 시간을 나타냅니다.
+
+자세한 내용은 [5월 릴리스의 API 변경 사항](/help/migrated/api-changes-alm-may.md)을 참조하세요.
+
+
++++
+
+
++++업데이트 106: Adobe Learning Manager 2026년 4월 패치 릴리스
 
 출시일: 2026년 4월 30일
 

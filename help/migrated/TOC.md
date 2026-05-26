@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: a6d8564888f232bc642cfcac7b17db52be1ef024
+source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 62%
+source-wordcount: '953'
+ht-degree: 61%
 
 ---
 
@@ -232,6 +232,7 @@ ht-degree: 62%
    * [Adobe Learning Manager에서 체험판 계정 만들기](/help/migrated/create-trial-account.md)
 * API 변경 사항 {#api-changes}
    * [4월 릴리스의 API 변경 사항](/help/migrated/api-changes-alm.md)
+   * [5월 패치 릴리스의 API 변경 사항](/help/migrated/api-changes-alm-may.md)
 * 기술 자료 {#knowledge-base}
    * [Learning Manager에 로그인할 수 없음](kb/unable-log-in-learning-manager.md)
    * [학습 요약이 현재 데이터에 표시되지 않음](kb/learning-summary-not-display-data.md)
