@@ -458,7 +458,7 @@ course.csv에서 처음으로 강의가 생성되고 배너 열이 채워지면 
 - 필수 매핑의 핵심은 다음과 같습니다.
    - 학습 프로그램 ID ↔ 강의 ID(및 ID, learningProgramId, courseId 및 날짜와 같이 아직 문서화된 기타 열)
 
-항상 Learning Manager 계정의 최신 [_CSV 사양_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual)을 참조하여(csv_specifications.zip을 통해) 현재 헤더 세트 및 요구 사항을 확인하십시오.
+항상 Learning Manager 계정의 최신 [_CSV 사양_](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/migration-manual)을 참조하여(csv_specifications.zip을 통해) 현재 헤더 세트 및 요구 사항을 확인하십시오.
 
 ## 강의 인스턴스의 시간대 코드
 
