@@ -4,10 +4,10 @@ title: 응용 프로그램 개발자 설명서
 description: OAuth 2.0 인증, API 사용 시나리오 및 데이터 모델과 같은 필수 항목을 다루는 RESTful API를 사용하여 애플리케이션을 통합하고 사용자 정의하는 방법에 대해 알아봅니다. 강의 생성, 학습자 진행 추적, 스킬 매핑, 인증, 게임화 등의 기능으로 기업 애플리케이션을 개선하세요. 이 안내서는 개발자가 원활하고 효율적인 워크플로우를 만드는 데 도움이 되는 단계별 지침과 실제 예제를 제공합니다. Adobe Learning Manager의 기능을 활용하여 학습자 중심의 애플리케이션을 만들려는 개발자에게 적합합니다.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: fe3070cbbeb1eac84e13fbed0262797064480aea
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
-source-wordcount: '4583'
-ht-degree: 6%
+source-wordcount: '4415'
+ht-degree: 7%
 
 ---
 
@@ -95,7 +95,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 코드를 받은 후 API 도구를 사용하여 다음 POST 요청을 추가합니다.
 
-```https://learningmanager.adobe.com/oauth/token ```
+`https://learningmanager.adobe.com/oauth/token`
 
 **요청 본문(x-www-form-urlencoded)**:
 
@@ -413,7 +413,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <td><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.subLOs.prerequisiteLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instances.loResources.resources.room</br><br>subLOs.instances.loResources.room</br><br>subLOs.supplementaryResources</br><br>subLOs.loInstance.loLRolloEnrollment resources.resources</br><br>subLOs.supplementaryLOs.instances.loResources.resources</br><br></br>
   </td>
   <td>
-  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instances.loResources.resources</br><br>supplementaryLOs.instances.loResources.resources</br><br>supplementaryResources</br><br>instances.badge</br><br>skill.skillLevel.badge</br><br>skill.skill</br><br>instances.loResources.room</br><br>prerequipmentLOs.enrollment</br><br>enrollment.loResourceGrades</br>
+  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instances.loResources.resources</br><br>supplementaryLOs.instances.loResources.resources</br><br>supplementaryResources</br><br>instances.badge</br><br>skill.skillLevel.badge</br><br>skill.skill</br><br>instances.loResources.room</br><br>prerequisiteLOs.enrollment</br><br>enrollment.loResourceGrades</br>
   </td>
   </tr>
   </table>
