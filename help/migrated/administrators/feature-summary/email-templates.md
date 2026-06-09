@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 전자 메일 템플릿
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 7d1ccc52ab4f8320b1191e0abb5972181c56df01
+source-git-commit: ef2e0fe06a0191329bf9aeecdcb4f56ce9932bf9
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 60%
@@ -35,7 +35,7 @@ Learning Manager 응용 프로그램은 이벤트를 기반으로 하여 여러 
 
 책임자는 이러한 전자 메일 템플릿을 쉽게 활성화, 비활성화 또는 수정할 수 있습니다.
 
-아래에 언급된 이메일 템플릿은 이 템플릿 그룹의 일부입니다.
+아래에 언급된 이메일 템플릿은 다음 템플릿 그룹의 일부입니다.
 
 **진행률 새로 고침:** 이 템플릿은 학습자의 활성 프로필 또는 학습 경로 구성이 변경되어 학습 경로에 대한 완료 상태 및 진행률이 자동으로 다시 계산되었음을 학습자에게 알립니다. 그러면 학습자에게 새로 보류 중인 요구 사항을 검토하고 조치를 취하여 학습 경로를 완료하라는 메시지가 표시됩니다.
 
@@ -84,7 +84,7 @@ Learning Manager 응용 프로그램은 이벤트를 기반으로 하여 여러 
 1. **[!UICONTROL 설정]**&#x200B;을 클릭하여 설정 페이지를 엽니다. 이제 전자 메일 템플릿을 사용자 정의할 수 있습니다.
 1. 학습자가 전자 메일을 받을 이름 및 전자 메일 ID를 사용자 지정하려면 **[!UICONTROL 보낸 사람 이름 및 주소]을(를) 편집하세요.**
 
-   이러한 세부 정보를 구성하거나 변경하려면 [***Adobe 지원***](https://helpx.adobe.com/kr/contact/enterprise-support.other.html#learning-manager)에 문의하세요.
+   이러한 세부 정보를 구성하거나 변경하려면 [***Adobe 지원***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)에 문의하세요.
 
 1. **[!UICONTROL 전자 메일 배너]** 옵션에서 전자 메일 배너를 사용자 정의합니다. **[!UICONTROL 배너 배경]**&#x200B;을 선택하여 배너의 색상을 변경합니다.
 
@@ -173,7 +173,7 @@ DND 목록에서 학습자는 다이제스트 전자 메일에 대한 사용자 
 
 ## 전자 메일 도메인 사용자 정의 {#customizeemaildomain}
 
-학습자가 알림을 받을 전자 메일 도메인과 전자 메일 ID를 사용자 정의하려면 [***Learning Manager 지원***](https://helpx.adobe.com/kr/contact/enterprise-support.other.html#learning-manager)에 문의하여 추가할 도메인에 대한 세부 정보 및 새 전자 메일 ID를 알려 주십시오.
+학습자가 알림을 받을 전자 메일 도메인과 전자 메일 ID를 사용자 정의하려면 [***Learning Manager 지원***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)에 문의하여 추가할 도메인에 대한 세부 정보 및 새 전자 메일 ID를 알려 주십시오.
 
 귀하의 요청이 처리되면 확인 링크가 담긴 전자 메일이 귀하가 기재한 새로운 전자 메일 주소로 발송됩니다. 전자 메일에 있는 인증 링크를 클릭하여 인증 절차를 확인하고 완료합니다.
 
@@ -270,6 +270,6 @@ Learning Manager 사용자는 이제 인라인 전자 메일 초대를 수신합
 
 +++템플릿에서 전송자 이름 및 주소를 변경하려면 어떻게 해야 합니까?
 
-전송자 이름과 전자 메일 주소를 변경하려면 [Adobe Learning Manager 지원](https://helpx.adobe.com/kr/contact/enterprise-support.other.html#learning-manager)에 문의하십시오.
+전송자 이름과 전자 메일 주소를 변경하려면 [Adobe Learning Manager 지원](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)에 문의하십시오.
 
 +++
