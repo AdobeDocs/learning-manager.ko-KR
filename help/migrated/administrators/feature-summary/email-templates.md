@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 전자 메일 템플릿
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 7d1ccc52ab4f8320b1191e0abb5972181c56df01
+source-git-commit: ef2e0fe06a0191329bf9aeecdcb4f56ce9932bf9
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 60%
@@ -35,7 +35,7 @@ Learning Manager 응용 프로그램은 이벤트를 기반으로 하여 여러 
 
 책임자는 이러한 전자 메일 템플릿을 쉽게 활성화, 비활성화 또는 수정할 수 있습니다.
 
-아래에 언급된 이메일 템플릿은 이 템플릿 그룹의 일부입니다.
+아래에 언급된 이메일 템플릿은 다음 템플릿 그룹의 일부입니다.
 
 **진행률 새로 고침:** 이 템플릿은 학습자의 활성 프로필 또는 학습 경로 구성이 변경되어 학습 경로에 대한 완료 상태 및 진행률이 자동으로 다시 계산되었음을 학습자에게 알립니다. 그러면 학습자에게 새로 보류 중인 요구 사항을 검토하고 조치를 취하여 학습 경로를 완료하라는 메시지가 표시됩니다.
 
