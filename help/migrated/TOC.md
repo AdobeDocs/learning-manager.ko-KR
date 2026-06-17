@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
+source-git-commit: a5e02f0ed0a691becbf52e310682360c0ba67a20
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 61%
+source-wordcount: '1070'
+ht-degree: 54%
 
 ---
 
@@ -82,8 +82,26 @@ ht-degree: 61%
       * [콘텐츠 마켓플레이스](administrators/feature-summary/content-marketplace.md)
       * [학습 경로에 Go1 과정 큐레이션](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [L1 피드백 양식](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
+   * 보고서 작성기 {#report-builder}
+      * [Adobe Learning Manager의 Report Builder](administrators/feature-summary/alm-report-builder.md)
+      * [Report Builder: 개념 및 용어](administrators/feature-summary/alm-report-builder-concepts-terminology.md)
+      * [Report Builder에서 사용 가능한 데이터 집합](administrators/feature-summary/alm-report-builder-datasets.md)
+      * [Report Builder 템플릿 시작하기](administrators/feature-summary/alm-create-report.md)
+      * [복제된 Report Builder 템플릿 사용자 정의](administrators/feature-summary/alm-report-builder-customize-duplicated-template.md)
+      * [Report Builder에서 사용자 지정 보고서 만들기](administrators/feature-summary/alm-report-builder-custom-report.md)
+      * [Report Builder에서 그룹화 기준 및 집계 적용](administrators/feature-summary/alm-report-builder-group-by-and-aggregations.md)
+      * [보고서에 필터 추가 및 결합](administrators/feature-summary/alm-report-builder-add-combine-filters.md)
+      * [Report Builder에서 보고서 열 정렬](administrators/feature-summary/alm-report-builder-sort-report-columns.md)
+      * [Report Builder으로 강사 성과 검토](administrators/feature-summary/alm-report-builder-review-instructor-performance.md)
+      * [Report Builder 내 사용자 그룹별 참여 추적](administrators/feature-summary/alm-report-builder-track-engagement.md)
+      * [Report Builder에서 추세 보고서 작성](administrators/feature-summary/alm-report-builder-build-trend-report.md)
+      * [보고서 다운로드, 공유 및 구독](administrators/feature-summary/alm-report-builder-download-share-subscribe.md)
+      * [Report Builder에서 보고서 복제 및 재사용](administrators/feature-summary/alm-report-builder-duplicate-reuse.md)
+      * [Adobe Learning Manager Report Builder 제한 사항](administrators/feature-summary/alm-report-builder-limitations.md)
+      * [자주 묻는 질문](administrators/feature-summary/alm-report-builder-faq.md)
    * [보고서](administrators/feature-summary/reports.md)
    * [그룹 성공 대시보드](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
+   * [Adobe Learning Manager 원클릭 등록 설정](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)
    * [학습 경로](administrators/feature-summary/learning-paths.md)
    * [대체 및 동등](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
    * [학습 계획](administrators/feature-summary/learning-plans.md)
@@ -190,6 +208,7 @@ ht-degree: 61%
    * [로그인](learners/feature-summary/user-login.md)
    * [프로필 설정](learners/feature-summary/settings.md)
    * [카탈로그](learners/feature-summary/catalogs.md)
+   * [원클릭 등록](learners/feature-summary/learner-one-click-enrollment.md)
    * [내 학습](learners/feature-summary/courses.md)
    * [Fluidic Player](learners/feature-summary/fluidic-player.md)
    * [학습 프로그램](learners/feature-summary/learning-programs.md)
@@ -232,7 +251,7 @@ ht-degree: 61%
    * [Adobe Learning Manager에서 체험판 계정 만들기](/help/migrated/create-trial-account.md)
 * API 변경 사항 {#api-changes}
    * [4월 릴리스의 API 변경 사항](/help/migrated/api-changes-alm.md)
-   * [5월 패치 릴리스의 API 변경 사항](/help/migrated/api-changes-alm-may.md)
+   * [5월 릴리스의 API 변경 사항](/help/migrated/api-changes-alm-may.md)
 * 기술 자료 {#knowledge-base}
    * [Learning Manager에 로그인할 수 없음](kb/unable-log-in-learning-manager.md)
    * [학습 요약이 현재 데이터에 표시되지 않음](kb/learning-summary-not-display-data.md)
