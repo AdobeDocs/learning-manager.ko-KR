@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager 릴리스 정보
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 1e53a39cce3758eb2535d0bb32056a75846cd563
+source-git-commit: 4c7127cb179605685a2b0f62c34430f61ff1f955
 workflow-type: tm+mt
-source-wordcount: '30634'
+source-wordcount: '30524'
 ht-degree: 72%
 
 ---
@@ -30,8 +30,6 @@ ht-degree: 72%
 출시일: 2026년 6월 17일
 
 ## 이 릴리스의 새로운 기능
-
-Adobe Learning Manager의 **Report Builder:** Report Builder은 관리자가 단일 인터페이스에서 필수 열만 선택하고, 유연한 필터를 적용하고, 일관된 데이터에 액세스하여 사용자 정의된 보고서를 만들고 다운로드할 수 있는 셀프 서비스 보고 도구입니다. 보고서를 쉽게 구성, 저장 및 재사용할 수 있으므로 외부 도구에서 고정적이고 사전 구성된 보고서와 수동 후처리 기능을 사용할 필요가 없습니다. 엄격한 열 구조, 제한된 필터링 옵션 및 일관되지 않은 데이터 소스와 같은 제한 사항을 해결함으로써 Report Builder은 보고 워크플로우를 간소화하고 정확한 통찰력을 보장하며 시간을 절약하는 동시에 미리 정의된 사용 사례에 대한 기존 표준 보고서를 보완합니다. 자세한 내용은 [Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md)을 참조하세요.
 
 **한 번 클릭 등록:** 한 번 클릭 등록을 통해 학습자는 먼저 등록한 다음 과정을 별도로 시작할 필요 없이 관리자가 공유한 모듈에 대한 딥 링크를 열고 콘텐츠에 즉시 액세스할 수 있습니다. 이를 통해 액세스를 간소화하고 시간을 절약하며 전반적인 학습 경험을 향상시킬 수 있습니다. 자세한 내용은 [원클릭 등록](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)을 참조하세요.
 
