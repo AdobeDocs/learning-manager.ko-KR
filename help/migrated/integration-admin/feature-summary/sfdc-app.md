@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: 2efdf01e-43fb-4377-9334-2727c5358c76
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 57%
+source-wordcount: '627'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 57%
 
 ## 개요 {#overview}
 
-Salesforce™은 영업 및 마케팅 팀 사이에서 가장 인기 있는 CRM 솔루션 중 하나입니다. Salesforce의 Adobe Learning Manager 앱을 사용하여 사용자가 Salesforce 인터페이스에서 학습 콘텐츠에 액세스하도록 허용할 수 있습니다. 사용자는 Salesforce에서 강의, 학습 프로그램, 작업 지원 등 할당된 학습 콘텐트에 액세스할 수 있습니다. 사용자는 등록에 대한 알림 및 책임자의 공지를 받을 수도 있습니다.
+Salesforce™는 판매 및 마케팅팀 사이에서 가장 인기 있는 CRM 솔루션 중 하나입니다. Salesforce의 Adobe Learning Manager 앱을 사용하여 사용자가 Salesforce 인터페이스에서 학습 콘텐츠에 액세스하도록 허용할 수 있습니다. 사용자는 Salesforce에서 강의, 학습 프로그램, 작업 지원 등 할당된 학습 콘텐트에 액세스할 수 있습니다. 사용자는 등록에 대한 알림 및 책임자의 공지를 받을 수도 있습니다.
 
 현재 Salesforce 앱을 사용할 수 없습니다. Salesforce App Exchange에서 승인 보류 중입니다. 앱 베타 버전 미리 보기에 관심이 있다면 계정 관리자 또는 Learning Manager 지원팀에 문의하십시오.
 
@@ -36,7 +36,7 @@ Salesforce™은 영업 및 마케팅 팀 사이에서 가장 인기 있는 CRM 
 
 1. Salesforce 계정에 Learning Manager 앱을 설치하려면, 계정 관리자 또는 고객 성공 관리자로부터 제공받은 설치 가능한 패키지를 사용하십시오. 이 앱을 설치할 때 Salesforce 계정에 대한 관리자 권한이 있어야 합니다.
 
-1. 스냅숏에 표시된 대로 적절한 옵션을 선택하고 **[!UICONTROL 설치]**&#x200B;를 클릭하십시오.
+1. 스냅샷과 같이 적절한 옵션을 선택하고 **[!UICONTROL &#39;설치&#39;]**&#x200B;를 클릭합니다.
 
    ![](assets/install-options.png)
 
@@ -52,9 +52,9 @@ Salesforce™은 영업 및 마케팅 팀 사이에서 가장 인기 있는 CRM 
 
 Learning Manager 팀은 Salesforce 책임자가 홈페이지 레이아웃에 Learning Manager 알림 요소를 추가할 것을 권장합니다. 해당 요소는 Salesforce 사용자가 사용자 앱의 컨텍스트에 있지 않을 때도 Learning Manager에서 할당에 대한 알림 및 기타 공지를 받을 수 있게 해줍니다.
 
-홈페이지 레이아웃에 Learning Manager 알림 요소를 추가하려면 다음 단계를 따르십시오.
+홈페이지 레이아웃에 Learning Manager 알림 요소를 추가하려면 아래 단계를 따르십시오.
 
-1. 오른쪽 상단에서 **[!UICONTROL 설정]**&#x200B;을 클릭합니다. 홈 페이지 레이아웃 옵션은 아래 스냅샷과 같이 왼쪽 창에 나타납니다.
+1. 오른쪽 상단에서 **[!UICONTROL 설정]**&#x200B;을 클릭합니다. 아래의 스냅샷과 같이 왼쪽 창에 홈페이지 레이아웃이 나타납니다.
 
    ![](assets/homepage-component.png)
 
