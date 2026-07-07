@@ -2,13 +2,13 @@
 description: 관리자가 기술 전문 지식 없이도 사용자 친화적인 브랜디드 페이지를 디자인 및 게시할 수 있는 Adobe Learning Manager의 코드 없는/코드 없는 도구인 Experience Builder에 대해 자세히 알아보십시오.
 jcr-language: en_us
 title: Adobe Learning Manager의 Experience Builder
-source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
+exl-id: 8d06c2cf-816e-4ad5-85f7-bc26e9d70d51
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
-
 
 # 개요
 
@@ -18,8 +18,7 @@ Experience Builder를 통해 관리자는 페이지, 메뉴 및 위젯을 쉽게
 
 많은 조직에서 기술적 도움이나 값비싼 시스템 통합자 없이 학습 포털을 맞춤화하는 데 어려움을 겪고 있습니다. 포털은 아직 빠르고 쉽게 빌드할 수 있으면서 브랜드와 일치하고, 타겟팅된 콘텐츠를 제공하고, 다양한 학습자 그룹에 적응하는 포털을 원합니다.
 
-Experience Builder는 맞춤화된 학습 포털을 만드는 데 도움이 되는 Adobe Learning Manager의 코드 없는/코드 낮은 도구입니다. 기술 기술이나 광범위한 코딩 지식 없이도 브랜드가 지정된 사용자 친화적인 학습 포털을 디자인할 수 있습니다.
-Experience Builder를 사용하여 새 페이지, 메뉴 및 위젯을 만들어 시청자에게 개인화된 학습 경험을 빠르고 쉽게 제공할 수 있습니다. Experience Builder를 사용하면 새 페이지, 메뉴 및 위젯을 빠르게 생성하여 대상에 대한 개인화된 학습 경험을 제공할 수 있습니다.
+Experience Builder는 맞춤화된 학습 포털을 만드는 데 도움이 되는 Adobe Learning Manager의 코드 없는/코드 낮은 도구입니다. 기술 기술이나 광범위한 코딩 지식 없이도 브랜드가 지정된 사용자 친화적인 학습 포털을 디자인할 수 있습니다.Experience Builder를 사용하여 새 페이지, 메뉴 및 위젯을 만들어 시청자에게 개인화된 학습 경험을 빠르고 쉽게 제공할 수 있습니다. Experience Builder를 사용하면 새 페이지, 메뉴 및 위젯을 빠르게 생성하여 대상에 대한 개인화된 학습 경험을 제공할 수 있습니다.
 
 ## Experience Builder가 해결하는 문제
 
