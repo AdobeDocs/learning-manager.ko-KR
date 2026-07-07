@@ -5,7 +5,7 @@ title: 새로운 기능 요약 2024년 11월
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
 source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3307'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ Adobe Learning Manager의 새로운 **[!UICONTROL 대기자 명단 보고서]**&
 * 인스턴스 ID
 * 인스턴스 상태
 * 사용자 이름
-* 이메일
+* 전자 메일
 * 고유 사용자 ID
 * 등록 날짜(UTC 시간대)
 * 상태
@@ -151,8 +151,7 @@ Adobe Learning Manager의 새로운 **[!UICONTROL 대기자 명단 보고서]**&
 
 ## 학습자 홈페이지의 접근성
 
-이제 Adobe Learning Manager이 모든 발행인란의 대체 텍스트를 지원하여 학습자의 접근성을 향상시킵니다. 이를 통해 특별한 필요가 있는 학습자는 화면 판독기를 사용하여 대체 텍스트를 읽고 이미지를 이해할 수 있습니다. 여러 언어를 선택하고 각 언어에 대한 대체 텍스트를 제공할 수 있습니다. 대체 텍스트를 해당 언어로 추가해야 합니다. 계정의 회사 로고에 회사 이름이 있는 대체 텍스트도 포함되어 있는지 확인합니다.
-자세한 내용은 이 문서 [공지](/help/migrated/administrators/feature-summary/announcements.md#masthead)를 참조하십시오.
+이제 Adobe Learning Manager이 모든 발행인란의 대체 텍스트를 지원하여 학습자의 접근성을 향상시킵니다. 이를 통해 특별한 필요가 있는 학습자는 화면 판독기를 사용하여 대체 텍스트를 읽고 이미지를 이해할 수 있습니다. 여러 언어를 선택하고 각 언어에 대한 대체 텍스트를 제공할 수 있습니다. 대체 텍스트를 해당 언어로 추가해야 합니다. 계정의 회사 로고에 회사 이름이 있는 대체 텍스트도 포함되어 있는지 확인합니다.자세한 내용은 이 문서 [공지](/help/migrated/administrators/feature-summary/announcements.md#masthead)를 참조하십시오.
 
 ## 힌디어 지원
 
@@ -528,7 +527,7 @@ curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --h
 **[!UICONTROL 학습 성적 증명서]** 보고서에는 두 개의 새 열이 포함됩니다.
 
 * **[!UICONTROL 모듈 ID]**: 각 모듈의 고유 식별자를 표시합니다. 이 새 열은 기존 **[!UICONTROL 모듈]** 열 뒤에 추가되었습니다.
-* **[!UICONTROL 강의 인스턴스 ID]**: 각 강의 인스턴스에 대한 고유 식별자를 표시합니다. 이 새 열은 기존 **[!UICONTROL 인스턴스]** 열 뒤에 추가되었습니다.
+* **[!UICONTROL 강의 인스턴스 ID]**: 각 강의 인스턴스에 대한 고유 식별자를 표시합니다.이 새 열은 기존 **[!UICONTROL 인스턴스]** 열 뒤에 추가되었습니다.
 * **[!UICONTROL 완료 설명]**: 이 열은 관리자가 사용자 완료를 표시할 때 입력한 설명을 캡처합니다. 이 새 열은 보고서 끝에 추가되었습니다.
 
 
