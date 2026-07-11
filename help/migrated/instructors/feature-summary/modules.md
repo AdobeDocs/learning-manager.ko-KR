@@ -6,8 +6,8 @@ contentowner: shhivkum
 exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 63%
+source-wordcount: '960'
+ht-degree: 70%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 63%
 
 강사는 파일을 &#39;승인/거부&#39;할 수 있습니다. 강사가 제출을 승인한 후에만 모듈이 완료됩니다.
 
-![](assets/activity-modules.png) ![](assets/approve-reject-option.png)
+ ![](assets/approve-reject-option.png)
 *파일 승인 또는 거부*
 
 ## 체크리스트 모듈 평가 {#evaluate-checklist-module}
@@ -126,12 +126,12 @@ ht-degree: 63%
    ![](assets/proof-of-completion.png)
    *완료 증명 제출*
 
-1. 그러면 강사가 자신에게 할당된 활동 모듈을 선택합니다. 강사가 모듈의 제출 페이지에서 **편집**&#x200B;을 클릭합니다. 그런 다음 거부 댓글을 입력하고 댓글 표시 옵션을 활성화하면 학습자가 알림에서 댓글을 볼 수 있습니다.
+1. 그러면 강사가 자신에게 할당된 활동 모듈을 선택합니다. 모듈의 제출 페이지에서 강사는 **편집**&#x200B;을 클릭합니다. 그런 다음 거부 댓글을 입력하고 댓글 표시 옵션을 활성화하면 학습자가 알림에서 댓글을 볼 수 있습니다.
 
    ![](assets/enter-comments.png)
    *완료 주석 입력*
 
-1. 강사는 **거부**&#x200B;를 클릭할 수 있습니다. 제출 상태가 **거부 표시됨**(으)로 변경됩니다.
+1. 강사는 **거절**&#x200B;을 클릭할 수 있습니다. 제출 상태가 **거부 표시됨**(으)로 변경됩니다.
 
    ![](assets/marked-for-rejection.png)
    *제출 거부*
@@ -141,7 +141,7 @@ ht-degree: 63%
    ![](assets/rejected-status.png)
    *거부 상태 보기*
 
-1. 이제 학습자는 제출이 거부된 알림을 확인할 수 있습니다. 강사의 의견이 알림에도 표시됩니다.
+1. 이제 학습자는 자신의 제출이 거절되었다는 알림을 확인합니다. 강사의 의견이 알림에도 표시됩니다.
 
    ![](assets/notification-of-rejection.png)
    *거부 알림 받기*
@@ -167,4 +167,4 @@ ht-degree: 63%
    ![](assets/editing-scores-andcomments.png)
    *점수 및 댓글 편집*
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL &#39;저장&#39;]**&#x200B;을 클릭합니다.
