@@ -18,7 +18,7 @@ ht-degree: 3%
 
 이러한 엔드포인트는 사용자 정의 사용자 그룹에서만 작동합니다. 모든 사용자 그룹 및 자동 생성된 사용자 그룹과 같은 시스템 관리 그룹은 API 응답에서 readOnly: true를 가지며 이러한 끝점을 통해 수정하거나 삭제할 수 없습니다.
 
-API 인증 요구 사항은 [Adobe Learning Manager API 인증](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)을 참조하세요.
+API 인증 요구 사항은 [Adobe Learning Manager API 인증](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)을 참조하세요.
 
 ### 사용자 그룹 API 끝점
 
@@ -205,7 +205,7 @@ API를 통한 외부 학습 워크플로는 학습자 앱의 워크플로를 반
 
 다섯 개의 모든 엔드포인트는 학습자 범위입니다. 학습자는 자신의 제출물에만 액세스할 수 있습니다. 학습자가 다른 학습자의 데이터에 액세스하려고 하면 API에서 오류를 반환합니다.
 
-API 인증 요구 사항은 [Adobe Learning Manager API 인증](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)을 참조하세요.
+API 인증 요구 사항은 [Adobe Learning Manager API 인증](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)을 참조하세요.
 
 ### 외부 학습 API 끝점
 
