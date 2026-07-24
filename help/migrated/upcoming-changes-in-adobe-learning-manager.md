@@ -2,16 +2,23 @@
 title: Adobe Learning Manager의 새로운 소식
 description: Adobe Learning Manager에서 예정된 변경 사항을 살펴보십시오. 최신 업데이트 및 향후 공지 사항을 확인하십시오.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
+source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
+
 # Adobe Learning Manager의 업데이트
 
-[2026년 4월 릴리스](/help/migrated/whats-new.md)가 릴리스되었습니다. 현재 예정된 추가 변경 사항은 없습니다. 이 페이지는 새 공지를 사용할 수 있을 때 업데이트됩니다.
+>[!IMPORTANT]
+>
+>**예정된 변경 내용** 문서가 곧 중단됩니다. 앞으로 릴리스 정보는 두 개의 기본 문서(**릴리스 정보** 및 **새로운 기능**)로 통합됩니다.
+>
+>**일반 가용성**&#x200B;에 대해 계획된 기능 및 개선 사항은 베타 단계 동안 **새로운 기능**&#x200B;에 도입되며, 일반적으로 사용할 수 있게 되면 릴리스 설명서에도 포함됩니다. **새로운 기능**&#x200B;과 **릴리스 정보** 모두에 새 문서에 대한 링크와 기존 문서에 대한 업데이트가 포함됩니다.
+>
+>2026년 8월 릴리스 설명서는 [릴리스 정보](/help/migrated/release-note/release-notes.md) 및 [새로운 기능](/help/migrated/whats-new.md)을 참조하십시오
 
 <!-- 
 >[!IMPORTANT]

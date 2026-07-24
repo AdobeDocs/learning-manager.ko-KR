@@ -3,12 +3,13 @@ description: Adobe Learning Manager 2025년 10월 릴리스의 새로운 기능 
 jcr-language: en_us
 title: Adobe Learning Manager 2025년 10월 릴리스의 새로운 기능
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
-source-git-commit: f200caa15d4e58ce1a4b947c1d5b8a35ba87afc3
+source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '5643'
+source-wordcount: '5580'
 ht-degree: 0%
 
 ---
+
 
 # Adobe Learning Manager 2025년 10월 릴리스의 새로운 기능
 
@@ -641,7 +642,7 @@ GET /primeapi/v2/users/search?q={searchTerm}&context=tagging
 }
 ```
 
-이에 대한 응답으로 **강의:15067_30122_41715_1_3400468**&#x200B;는 정보를 요청하고 있는 학습 개체 리소스 등급의 ID입니다. `learningObjectResourceGrad`e ID는 `GET /enrollments/{id}` API에서 가져올 수 있습니다.
+이에 대한 응답으로 **course:15067_30122_41715_1_3400468**&#x200B;은(는) 정보를 요청하고 있는 학습 개체 리소스 등급의 ID입니다. `learningObjectResourceGrad`e ID는 `GET /enrollments/{id}` API에서 가져올 수 있습니다.
 
 ### API 응답은 작성자 이름에 대한 대/소문자 구분을 지원합니다.
 
