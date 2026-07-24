@@ -303,7 +303,7 @@ GET /primeapi/v2/externalLearningSettings
 | 날짜 | 타임스탬프 | 아니오 | 날짜 범위. 값 셰이프: { &quot;start_date&quot;: &quot;<ISO-Z>&quot;, &quot;end_date&quot;: &quot;<ISO-Z>&quot; }. 두 값 중 하나는 null일 수 있습니다. |
 | 점수 | 번호 | 예 | 값 셰이프: { &quot;achieved_score&quot;: <number>, &quot;max_score&quot;: <number> }. 두 값은 모두 숫자여야 합니다. |
 | duration | 텍스트 | 아니오 | 자유 형식 문자열(예: &quot;40시간&quot;). |
-| 첨부 파일 | FILE_업로드 | 예 | 완료 증명. **내부 필드에 전달되지 않음**[] — 대신 최상위 submissionUrl 특성을 사용하십시오. |
+| 첨부 파일 | FILE_업로드 | 예 | 완료 증명. **내부 필드에 전달되지 않음**&#x200B;[] — 대신 최상위 submissionUrl 특성을 사용하십시오. |
 
 사용자 지정 필드는 관리자가 정의하고 customFields[]에 반환됩니다. 해당 ID, 유형, 필수 플래그, 레이블 및 드롭다운 옵션은 계정 구성에 따라 다릅니다.
 
