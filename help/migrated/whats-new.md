@@ -3,9 +3,9 @@ description: Adobe Learning Manager 2026년 4월 릴리스의 API 및 Webhook �
 jcr-language: en_us
 title: Adobe Learning Manager 2026년 8월 릴리스의 새로운 기능
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: e476ca4736098ced4e21d0d713628b9682aab3da
+source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Live Hub는 조직이 매력적이고 영향력 있는 라이브 학습을 제�
 * 학습자 홈페이지에 최대 10개의 맞춤형 학습 경로 표시
 * 완료된 패스는 동료와 공유할 수 있음
 
-자세한 내용은 [학습자용 AI 도우미](/help/migrated/learners/feature-summary/learning-path-agent.md)를 참조하십시오.
+자세한 내용은 [학습 경로 에이전트](/help/migrated/learners/feature-summary/learning-path-agent.md)를 참조하세요.
 
 ### 인사이트 에이전트
 
@@ -228,7 +228,7 @@ Adobe Learning Manager Content Composer는 Adobe Learning Manager에서 곧 출�
 
 ## 릴리스의 API 변경 사항
 
-Adobe Learning Manager 2026년 8월 릴리스[&#128279;](/help/migrated/api-changes-august-2026.md)의 API 변경 사항에 대해 자세히 알아보세요.
+Adobe Learning Manager 2026년 8월 릴리스](/help/migrated/api-changes-august-2026.md)의 [API 변경 사항에 대해 자세히 알아보세요.
 
 ## 릴리스의 기타 개선 사항
 
