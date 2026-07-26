@@ -3,9 +3,9 @@ description: Adobe Learning Manager 2026년 4월 릴리스의 API 및 Webhook �
 jcr-language: en_us
 title: Adobe Learning Manager 2026년 8월 릴리스의 새로운 기능
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
+source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2889'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,8 @@ Gradebook은 다음 두 가지 완료 모델을 지원합니다.
 * 강의 작성에서 모듈 선택 시 폴더 찾아보기 경험
 
 관리자 수준의 기능에 대한 자세한 내용은 [계층적 콘텐츠 폴더](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder)를 참조하세요. 작성자 수준의 기능에 대한 자세한 내용은 [계층적 콘텐츠 폴더](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder)를 참조하세요.
+
+다른 플랫폼에서 Adobe Learning Manager으로 학습 콘텐츠를 마이그레이션하고 기존 폴더 구성을 유지하려는 경우 CSV 파일을 사용하여 계층 폴더 구조를 만들고 콘텐츠 파일을 적절한 폴더에 연결할 수 있습니다. [콘텐츠 폴더 계층 구조 마이그레이션](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)에서 마이그레이션에 대해 자세히 알아보기
 
 ## 라이브 허브
 
@@ -228,7 +230,7 @@ Adobe Learning Manager Content Composer는 Adobe Learning Manager에서 곧 출�
 
 ## 릴리스의 API 변경 사항
 
-Adobe Learning Manager 2026년 8월 릴리스[&#128279;](/help/migrated/api-changes-august-2026.md)의 API 변경 사항에 대해 자세히 알아보세요.
+Adobe Learning Manager 2026년 8월 릴리스](/help/migrated/api-changes-august-2026.md)의 [API 변경 사항에 대해 자세히 알아보세요.
 
 ## 릴리스의 기타 개선 사항
 
