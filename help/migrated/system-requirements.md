@@ -6,8 +6,8 @@ contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
 source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 61%
+source-wordcount: '605'
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
 
 ### 프로세서
 
-인텔® 코어TM i5 이상.
+Intel® CoreTM i5 이상.
 
 ### RAM
 
@@ -81,14 +81,14 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
 
 * Google Chrome 버전 43 이상.
 * 최신 버전의 Edge, Safari(버전 13 이상), Firefox입니다.
-* Internet Explorer 버전 11 이상
+* Internet Explorer 버전 11 이상.
 
 ## 이미지의 권장 크기 {#recommendedsizeofimages}
 
 * 발행인란:
-   * 크게 설정한 경우: 1280 x 360PX
-   * 설정(보통): 1280 x 273픽셀
-   * 작게 설정된 경우: 1280 x 187PX
+  * 크게 설정한 경우: 1280 x 360PX
+  * 설정(보통): 1280 x 273픽셀
+  * 작게 설정된 경우: 1280 x 187PX
 * 카탈로그 카드의 이미지: 280 x 100픽셀
 * 교육 카드의 크기: 300 x 240픽셀
 * 소셜 배너: 1600 x 240픽셀
@@ -101,7 +101,7 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
 >
 >*user.csv* 파일의 크기가 100MB를 초과하는 경우 이 파일을 가져올 때 브라우저에서 예상치 못한 동작이 발생할 수 있습니다. 이 문제는 브라우저의 메모리가 부족하기 때문에 발생하는 것입니다.
 
-자동화된 Box/Exavault 워크플로를 사용하여 큰 크기의 *user.csv* 파일을 가져오는 것이 좋습니다. 자세한 내용은 [파일 마이그레이션](/help/migrated/integration-admin/feature-summary/migration-manual.md)을 참조하세요.
+대용량 *user.csv* 파일을 가져올 때는 자동화 Box/Exavault 워크플로우를 사용하는 것이 좋습니다. 자세한 내용은 [파일 마이그레이션](/help/migrated/integration-admin/feature-summary/migration-manual.md) 을 참조하십시오.
 
 
 ## 지원되는 콘텐츠 형식
@@ -240,13 +240,13 @@ Windows 10 및 11, macOS X 10.12, 10.13, 10.14, 10.15
    <td>
     <p>헤더의 회사 로고</p></td>
    <td>
-    <p>높이 45픽셀, 너비 계산,</p></td>
+    <p>높이 45픽셀, 너비는 그에 따라 계산됩니다.</p></td>
   </tr>
   <tr>
    <td>
     <p>Learning Manager 홈 페이지의 회사 로고</p></td>
    <td>
-    <p>높이 100픽셀, 너비 계산,</p></td>
+    <p>높이 100픽셀, 너비는 그에 따라 계산됩니다.</p></td>
   </tr>
  </tbody>
 </table>

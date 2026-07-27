@@ -2,9 +2,9 @@
 description: 관리자는 증분 사용자 보고서 작업 API를 사용하여 지정된 날짜 범위 내에서 데이터가 변경된 사용자만 내보낼 수 있습니다. 이렇게 하면 전체 사용자 내보내기가 필요 없으며 신규 또는 업데이트된 사용자 레코드를 보다 효율적으로 동기화할 수 있습니다.
 jcr-language: en_us
 title: 증분 사용자 보고서(작업 API)
-source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
+source-git-commit: aad13507c56f0c2020a97e809edd9fa0b223479f
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1576'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ lastSocialActivityDate
 
 ## 증분 사용자 보고서(generateUserIncrementalReport)
 
-이 섹션에서는 M46에 도입된 새로운 증분 사용자 보고서 기능을 설명합니다. 이 문서의 주요 제목입니다.
+이 섹션에서는 새로 도입된 기능인 증분 사용자 보고서 기능을 설명합니다.
 
 ## 증분 내보내기란 무엇입니까?
 

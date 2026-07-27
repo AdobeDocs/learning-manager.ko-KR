@@ -3,9 +3,9 @@ description: Adobe Learning Manager의 AI 어시스턴트를 통해 학습 콘�
 jcr-language: en_us
 title: Adobe Learning Manager 학습자용 AI 도우미
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 75857b4616180d6294d8374983bb3bf5453c0f46
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3167'
 ht-degree: 0%
 
 ---
@@ -175,22 +175,25 @@ AI 어시스턴트를 구성하기 전에, 관리자 자격 증명이 있고 카
 
 학습자 AI 어시스턴트를 활성화하는 방법:
 
-&#x200B;1. 관리자 권한으로 Adobe Learning Manager에 로그인합니다.
+1. 관리자 권한으로 Adobe Learning Manager에 로그인합니다.
 
-&#x200B;2. 홈페이지에서 **설정**&#x200B;을 선택합니다.
-![왼쪽 창에 설정 옵션이 있는 관리자 콘솔](assets/settings-menu.png)
+1. 홈 페이지에서 **설정**&#x200B;을 선택합니다.
 
-&#x200B;3. **설정** 메뉴에서 **학습자 AI 도우미(Beta)**&#x200B;를 선택합니다.
-![관리자 콘솔이 왼쪽 창에 학습자 AI 도우미 옵션을 표시합니다](assets/learner-assistant-ai-beta.png)
+   ![왼쪽 창에 설정 옵션이 있는 관리자 콘솔](assets/settings-menu.png)
 
-&#x200B;4. 토글 스위치를 선택하여 **학습자 AI 도우미(Beta)**&#x200B;를 활성화합니다.
-<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
-<!--5. Select one or more user groups from the **Eligible user groups** option.-->
-<!--5. Select **Save** to apply the user group settings.-->
+1. **설정** 메뉴에서 **학습자 AI 도우미(Beta)**&#x200B;를 선택합니다.
 
-&#x200B;5. **적격 카탈로그** 옵션에서 하나 이상의 카탈로그를 선택합니다.
+   ![관리자 콘솔이 왼쪽 창에 학습자 AI 도우미 옵션을 표시합니다](assets/learner-assistant-ai-beta.png)
 
-&#x200B;6. **저장**&#x200B;을 선택하여 카탈로그 설정을 적용합니다.
+1. 토글 스위치를 선택하여 **학습자 AI 도우미(Beta)**&#x200B;를 활성화합니다.
+
+   <!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
+   <!--5. Select one or more user groups from the **Eligible user groups** option.-->
+   <!--5. Select **Save** to apply the user group settings.-->
+
+1. **적격 카탈로그** 옵션에서 하나 이상의 카탈로그를 선택하십시오.
+
+1. 카탈로그 설정을 적용하려면 **저장**&#x200B;을 선택하세요.
 
 >[!IMPORTANT]
 >
@@ -202,20 +205,23 @@ AI Assistant를 실행하려면
 
 1. 학습자로 Adobe Learning Manager에 로그인합니다.
 
-2. 홈 페이지에서 **AI 길잡이에 문의**&#x200B;를 선택합니다.
+1. 홈 페이지에서 **AI 길잡이에 문의**&#x200B;를 선택합니다.
+
    ![학습자 홈 페이지에 AI 도우미에게 학습자 AI 도우미 패널을 선택하여 열도록 요청합니다](assets/ask-ai-assistant.png)가 표시됩니다.
 
-3. **학습자 AI 도우미** 화면이 나타나면 **시작하기**&#x200B;를 선택합니다.
+1. **학습자 AI 도우미** 화면이 나타나면 **시작하기**&#x200B;를 선택합니다.
+
    ![시작하기 를 선택하여 학습자 도우미를 시작합니다](assets/get-started-learner-assistant.png)
 
->[!NOTE]
->
->AI 어시스턴트를 처음 시작할 때는 사용 전 동의를 반드시 해야 한다. 동의 대화 상자는 최초 실행 중에만 표시됩니다. 이후 모든 실행의 경우 음성 안내를 입력할 수 있도록 AI Assistant로 직접 이동합니다.
+   >[!NOTE]
+   >
+   >AI 어시스턴트를 처음 시작할 때는 사용 전 동의를 반드시 해야 한다. 동의 대화 상자는 최초 실행 중에만 표시됩니다. 이후 모든 실행의 경우 음성 안내를 입력할 수 있도록 AI Assistant로 직접 이동합니다.
 
-&#x200B;4. 텍스트 필드에 프롬프트를 입력합니다.
-<!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+1. 텍스트 필드에 프롬프트를 입력합니다.
 
-&#x200B;5. 응답을 받으려면 **Enter**&#x200B;를 누르십시오. 답변, 소스 및 권장 사항을 검토하십시오.
+   <!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+
+1. 응답을 받으려면 **Enter**&#x200B;을(를) 누르십시오. 답변, 소스 및 권장 사항을 검토하십시오.
 
 다음을 수행할 수 있습니다.
 
