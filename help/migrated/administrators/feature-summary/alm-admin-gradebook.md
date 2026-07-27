@@ -2,9 +2,9 @@
 description: 그레이드북을 활성화하고 작성자와 학습자가 볼 수 있도록 하는 모든 것
 jcr-language: en_us
 title: 관리자용 성적 증명서
-source-git-commit: c6ad5527fa5156d1a681fa0f21fb259ac3ebf782
+source-git-commit: 588cb5209168b605405a4b3d6949006344b5468b
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,12 @@ ht-degree: 0%
 
 **설정** > **일반**&#x200B;의 **성적 증명서 표시 여부** 설정은 작성자가 강의 수준에서 학습자에게 성적 증명서를 노출하는 것이 허용되는지 여부를 결정합니다.
 
+자세한 내용은 [Gradebook 가시성](/help/migrated/administrators/feature-summary/settings/basic-settings.md#gradebookvisibility)을 참조하세요.
+
 | 상태 설정 | 효과 |
 | --- | --- |
 | 활성화됨 | 작성자는 강의 편집기에서 **학습자에게 그레이드북 표시** 옵션을 사용하여 강의별 그레이드북 가시성을 제어할 수 있습니다. 학습자는 작성자가 활성화한 강의에서 **성적 증명서** 탭을 볼 수 있습니다. |
 | 비활성화됨 | 학습자는 어떤 강의에서도 성적 증명서를 볼 수 없습니다. 비활성화하면 강의 구성에 학습자에게 성적 증명서를 표시하는 설정이 없습니다. |
-
 
 이는 계정 수준 설정과 강의 수준 설정이 함께 작동함을 의미합니다. 학습자가 성적 증명서를 보려면 둘 다 활성화해야 합니다.
 
