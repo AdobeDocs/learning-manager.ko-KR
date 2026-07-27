@@ -1,9 +1,9 @@
 ---
-description: Adobe Learning Manager 2026년 4월 릴리스의 API 및 Webhook 변경 사항을 포함한 새로운 기능 및 개선 사항에 대해 알아봅니다.
+description: Adobe Learning Manager 2026년 8월 릴리스의 API 및 Webhook 변경 사항을 포함한 새로운 기능 및 개선 사항에 대해 알아봅니다
 jcr-language: en_us
 title: Adobe Learning Manager 2026년 8월 릴리스의 새로운 기능
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
+source-git-commit: 0e94a4dddaf2d0b60d93ad633d3e6e79e48bc185
 workflow-type: tm+mt
 source-wordcount: '2889'
 ht-degree: 0%
@@ -230,7 +230,7 @@ Adobe Learning Manager Content Composer는 Adobe Learning Manager에서 곧 출�
 
 ## 릴리스의 API 변경 사항
 
-Adobe Learning Manager 2026년 8월 릴리스[&#128279;](/help/migrated/api-changes-august-2026.md)의 API 변경 사항에 대해 자세히 알아보세요.
+Adobe Learning Manager 2026년 8월 릴리스](/help/migrated/api-changes-august-2026.md)의 [API 변경 사항에 대해 자세히 알아보세요.
 
 ## 릴리스의 기타 개선 사항
 
