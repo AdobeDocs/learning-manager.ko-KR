@@ -2,7 +2,7 @@
 description: 강의 완료가 최소 점수 임계값을 달성하는 데 연계될 수 있도록 성적 증명서에서 학습자를 위한 가중치 점수를 설정합니다.
 jcr-language: en_us
 title: 작성자용 그레이드북
-source-git-commit: d92f2c03d0b5520afcab0a6843819ddd527a6bd1
+source-git-commit: 37db436b0f108423af185ebba377d8f06c7b7398
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
