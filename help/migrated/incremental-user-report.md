@@ -2,9 +2,9 @@
 description: 관리자는 증분 사용자 보고서 작업 API를 사용하여 지정된 날짜 범위 내에서 데이터가 변경된 사용자만 내보낼 수 있습니다. 이렇게 하면 전체 사용자 내보내기가 필요 없으며 신규 또는 업데이트된 사용자 레코드를 보다 효율적으로 동기화할 수 있습니다.
 jcr-language: en_us
 title: 증분 사용자 보고서(작업 API)
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1585'
 ht-degree: 1%
 
 ---
@@ -323,6 +323,4 @@ start_date_time 및 end_date_time이 있는 증분 보고서를 요청하면 마
 
 증분 사용자 보고서는 Adobe Learning Manager 커넥터(PowerBI, Salesforce 등)에서 일반 동기화 파이프라인에서 전체 사용자 보고서를 대체하기 위한 드롭인으로 사용하도록 설계되었습니다. 이렇게 하면 현재 generateUsers를 사용하는 커넥터가 다운스트림 데이터 스키마를 변경하지 않고 증분 모델로 마이그레이션할 수 있습니다.
 
-&#x200B;* 출력 CSV는 전체 사용자 보고서와 열 호환됩니다.
-&#x200B;* 커넥터는 델타 동기화를 위해 증분 보고서를 사용하고 부트스트랩 또는 복구를 위해 전체 보고서로 전환할 수 있습니다.
-&#x200B;* 커넥터 통합 지원(PowerBI, SFDC)
+커넥터는 델타 동기화를 위해 증분 보고서를 사용하고 부트스트랩 또는 복구를 위해 전체 보고서로 전환할 수 있습니다.
