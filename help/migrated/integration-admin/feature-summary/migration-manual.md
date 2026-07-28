@@ -3,7 +3,7 @@ description: 기존 LMS를 Adobe Learning Manager LMS로 마이그레이션하�
 jcr-language: en_us
 title: 마이그레이션 설명서
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
+source-git-commit: f85843d501de9da63cd9dde07c5e68e4b8d79c5c
 workflow-type: tm+mt
 source-wordcount: '9051'
 ht-degree: 36%
@@ -1166,7 +1166,7 @@ LTI 모듈 버전을 생성할 때:
 
 마이그레이션 시스템은 LTI 특정 필드 외에 표준 마이그레이션 처리 워크플로우를 적용합니다.
 
-## 적응형 과정 마이그레이션
+## 적응형 과정 마이그레이션 {#migrateadaptivecourses}
 
 외부 시스템에서 Adobe Learning Manager으로 강의를 마이그레이션하고 사용자 그룹당 모듈 레벨 가시성 및 완료 규칙이 있는 적응형 강의로 구성하려는 경우 두 개의 CSV 파일을 사용하여 강의와 해당 적응형 규칙을 모두 정의할 수 있습니다.
 
@@ -1174,7 +1174,7 @@ LTI 모듈 버전을 생성할 때:
 
 적응형 강의를 마이그레이션하려면 표준 마이그레이션 CSV 패키지에 대한 두 가지 변경 사항이 필요합니다.
 
-* **&#x200B;**&#x200B;_course.csv_ 업데이트: 강의를 적응형 강의로 표시하는 새 열
+* **** _course.csv_ 업데이트: 강의를 적응형 강의로 표시하는 새 열
 * **새 파일** _course_ module_user_group.csv_: 모듈-사용자-그룹 규칙당 하나의 행
 
 두 파일은 모두 동일한 마이그레이션 프로젝트에 포함되어야 합니다.
