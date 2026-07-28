@@ -3,9 +3,9 @@ description: 기존 LMS를 Adobe Learning Manager LMS로 마이그레이션하�
 jcr-language: en_us
 title: 마이그레이션 설명서
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: f85843d501de9da63cd9dde07c5e68e4b8d79c5c
+source-git-commit: cb9791da19a68e8c5cad3ca12d1e9e51f31e742f
 workflow-type: tm+mt
-source-wordcount: '9051'
+source-wordcount: '9122'
 ht-degree: 36%
 
 ---
@@ -1174,10 +1174,21 @@ LTI 모듈 버전을 생성할 때:
 
 적응형 강의를 마이그레이션하려면 표준 마이그레이션 CSV 패키지에 대한 두 가지 변경 사항이 필요합니다.
 
-* **&#x200B;**&#x200B;_course.csv_ 업데이트: 강의를 적응형 강의로 표시하는 새 열
+* **** _course.csv_ 업데이트: 강의를 적응형 강의로 표시하는 새 열
 * **새 파일** _course_ module_user_group.csv_: 모듈-사용자-그룹 규칙당 하나의 행
 
 두 파일은 모두 동일한 마이그레이션 프로젝트에 포함되어야 합니다.
+
+### 적응형 강의 마이그레이션을 위한 CSV 파일 이름 업데이트
+
+적응형 과정 및 적응형 학습 경로 마이그레이션에 대한 CSV 파일 이름은 이제 Adobe Learning Manager의 다른 모든 마이그레이션 파일에서 사용하는 전체 이름 규칙을 따릅니다. 예를 들어, lo_section.csv 대신 learning_object_section.csv가 있습니다. 이전의 짧은 형식 이름을 참조하는 기존 마이그레이션 스크립트나 템플릿이 있는 경우에는 다음 마이그레이션이 실행되기 전에 이를 새 이름으로 업데이트합니다.
+
+| 이전 이름 | 새 이름 |
+| --- | --- |
+| `lo_section.csv` | `learning_object_section.csv` |
+| `lp_section.csv` | `learning_program_section.csv` |
+| `lp_section_ug.csv` | `learning_program_section_user_group.csv` |
+| `course_module_ug.csv` | `course_module_user_group.csv` |
 
 ### course.csv 업데이트
 
