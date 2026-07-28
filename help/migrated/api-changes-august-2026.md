@@ -2,9 +2,9 @@
 description: ALM의 API 변경 사항
 jcr-language: en_us
 title: Adobe Learning Manager 2026년 8월 릴리스의 API 변경 사항
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 857c94b5e9a7460d63a6dacc0beeddd41f362bf9
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3354'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 이러한 엔드포인트는 사용자 정의 사용자 그룹에서만 작동합니다. 모든 사용자 그룹 및 자동 생성된 사용자 그룹과 같은 시스템 관리 그룹은 API 응답에서 readOnly: true를 가지며 이러한 끝점을 통해 수정하거나 삭제할 수 없습니다.
 
-API 인증 요구 사항은 [Adobe Learning Manager API 인증](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)을 참조하세요.
+API 인증 요구 사항은 [Adobe Learning Manager API 인증](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)을 참조하세요.
 
 ### 사용자 그룹 API 끝점
 
@@ -131,9 +131,8 @@ PUT /primeapi/v2/userGroups/{id}
 
 | **매개 변수** | **필수** | **유형** | **설명** |
 |---------------|--------------|----------|---------------------------------------------------------------------------|
-| name | 아니오 | 문자열 | 새 표시 이름입니다. 제공된 경우 비워 둘 수 없습니다. 변경하지 않으려면 생략합니다. |
+| name | 예 | 문자열 | 새 표시 이름입니다. 제공된 경우 비워 둘 수 없습니다. 변경하지 않으려면 생략합니다. |
 | 설명 | 아니오 | 문자열 | 새로운 설명. 지울 Null을 전달합니다. 변경하지 않으려면 생략합니다. |
-| 데이터 | — | null | Null이거나 없어야 합니다. Null이 아닌 값은 400 오류를 반환합니다. |
 
 #### **응답 200 확인**
 
@@ -205,7 +204,7 @@ API를 통한 외부 학습 워크플로는 학습자 앱의 워크플로를 반
 
 다섯 개의 모든 엔드포인트는 학습자 범위입니다. 학습자는 자신의 제출물에만 액세스할 수 있습니다. 학습자가 다른 학습자의 데이터에 액세스하려고 하면 API에서 오류를 반환합니다.
 
-API 인증 요구 사항은 [Adobe Learning Manager API 인증](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)을 참조하세요.
+API 인증 요구 사항은 [Adobe Learning Manager API 인증](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)을 참조하세요.
 
 ### 외부 학습 API 끝점
 
@@ -303,7 +302,7 @@ GET /primeapi/v2/externalLearningSettings
 | 날짜 | 타임스탬프 | 아니오 | 날짜 범위. 값 셰이프: { &quot;start_date&quot;: &quot;<ISO-Z>&quot;, &quot;end_date&quot;: &quot;<ISO-Z>&quot; }. 두 값 중 하나는 null일 수 있습니다. |
 | 점수 | 번호 | 예 | 값 셰이프: { &quot;achieved_score&quot;: <number>, &quot;max_score&quot;: <number> }. 두 값은 모두 숫자여야 합니다. |
 | duration | 텍스트 | 아니오 | 자유 형식 문자열(예: &quot;40시간&quot;). |
-| 첨부 파일 | FILE_업로드 | 예 | 완료 증명. **내부 필드에 전달되지 않음**&#x200B;[] — 대신 최상위 submissionUrl 특성을 사용하십시오. |
+| 첨부 파일 | FILE_업로드 | 예 | 완료 증명. **내부 필드에 전달되지 않음**[] — 대신 최상위 submissionUrl 특성을 사용하십시오. |
 
 사용자 지정 필드는 관리자가 정의하고 customFields[]에 반환됩니다. 해당 ID, 유형, 필수 플래그, 레이블 및 드롭다운 옵션은 계정 구성에 따라 다릅니다.
 
