@@ -234,7 +234,7 @@ Adobe Learning Manager Content Composer는 Adobe Learning Manager에서 곧 출�
 
 ## 릴리스의 API 변경 사항
 
-Adobe Learning Manager 2026년 8월 릴리스](/help/migrated/api-changes-august-2026.md)의 [API 변경 사항에 대해 자세히 알아보세요.
+Adobe Learning Manager 2026년 8월 릴리스[&#128279;](/help/migrated/api-changes-august-2026.md)의 API 변경 사항에 대해 자세히 알아보세요.
 
 ## 릴리스의 기타 개선 사항
 
