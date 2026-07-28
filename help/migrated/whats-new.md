@@ -3,9 +3,9 @@ description: Adobe Learning Manager 2026년 8월 릴리스의 API 및 Webhook �
 jcr-language: en_us
 title: Adobe Learning Manager 2026년 8월 릴리스의 새로운 기능
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 0e94a4dddaf2d0b60d93ad633d3e6e79e48bc185
+source-git-commit: 3cb62ec615254bdda4103527eb953d3433363785
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -202,6 +202,10 @@ Report Builder은 관리자에게 Adobe Learning Manager 다른 곳에서 사용
 | **읽기 전용** | 모든 사용자 정의 역할 보기, 로그 가져오기 및 삭제된 사용자; 사용자 정의 역할 보고서 다운로드 |
 | **전체 제어** | 모든 읽기 전용 기능 및 더불어 사용자 정의 역할 생성, 편집, 삭제 및 할당, CSV를 통해 사용자 가져오기, 삭제된 사용자 제거 기능 제공 |
 
+### 제한 사항
+
+**수동으로 만든 역할만**: 확장된 사용자 지정 역할 관리 기능은 Adobe Learning Manager 관리자 인터페이스를 통해 만든 역할에만 적용됩니다. CSV 업로드를 통해 가져온 역할은 지원되지 않습니다.
+
 사용자 정의 역할 변경에 대해 자세히 알아보십시오. 자세한 내용은 [고급 사용자 권한이 잠금 해제하는 내용](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)을 참조하세요.
 
 ## 딥 링크
@@ -230,7 +234,7 @@ Adobe Learning Manager Content Composer는 Adobe Learning Manager에서 곧 출�
 
 ## 릴리스의 API 변경 사항
 
-Adobe Learning Manager 2026년 8월 릴리스[&#128279;](/help/migrated/api-changes-august-2026.md)의 API 변경 사항에 대해 자세히 알아보세요.
+Adobe Learning Manager 2026년 8월 릴리스](/help/migrated/api-changes-august-2026.md)의 [API 변경 사항에 대해 자세히 알아보세요.
 
 ## 릴리스의 기타 개선 사항
 
@@ -246,7 +250,7 @@ Adobe Learning Manager 2026년 8월 릴리스[&#128279;](/help/migrated/api-chan
 | **Webhook 타임스탬프 표준화** | Webhook 페이로드의 `data` 개체 내의 모든 날짜 및 시간 필드에 이제 초가 `00`(으)로 설정되어 학습자 성적 증명서 보고서와 일치하는 분 단위의 정밀도를 제공합니다. |
 | **연결 개선 사항** | Azure ADLS(데이터 레이크 스토리지) 커넥터 업데이트, 반복되는 가상 강의실 세션에 대한 지속 회의실 이름 지원, 기록 보기 기반 출석 추적. |
 | **플레이어 성능 개선** | Fluidic Course Player는 더 빠른 로드 시간과 모듈 간의 더 부드러운 전환을 위해 최적화되었습니다. |
-| **강의/LP 중단 전 영향 경고** | 이제 강의 또는 학습 경로를 중단하기 전에 책임자에게 모든 활성 등록 및 종속 학습 경로를 나열하는 경고가 표시됩니다. |
+| **강의/LP 중단 전 영향 경고** | 강의 또는 학습 경로를 중단하기 전에 작성자/책임자에게 종속 LO의 경고 목록이 표시됩니다. 구성 LO가 삭제되었음을 작성자에게 알립니다. 관리자는 LO를 작성했지만 작성자 역할이 없는 경우 이를 받습니다. |
 | **CR/VC 모듈: 예상 기간** | 작성자는 이제 예약된 세션 시간과 별도로 강의실 및 가상 강의실 모듈의 예상 기간을 설정할 수 있습니다. 이 값은 보고서 및 학습자 대상 강의 정보에 표시됩니다. |
 | **획득한 강의를 편집하기 전에 확인** | 이제 피어 계정의 관리자에게는 카탈로그 공유를 통해 획득한 강의를 편집하기 전에 확인 대화 상자가 표시되므로 공유된 내용에 대한 의도하지 않은 변경을 방지할 수 있습니다. |
 | **인스턴스 ID가 있는 세션 URL** | 이제 Microsoft Teams, Adobe Connect 및 Zoom 세션의 세션 시작 URL에 인스턴스 ID가 포함되므로 여러 인스턴스가 있는 경우 학습자가 올바른 세션으로 라우팅될 수 있습니다. |
