@@ -1,11 +1,11 @@
 ---
 jcr-language: en_us
 title: Adobe Learning Manager의 Report Builder
-description: Report Builder 소개
+description: 도구를 사용한 후처리 없이 선택한 열, 필터 및 데이터로 사용자 정의 보고서를 빌드하고, 미리 보고, 다운로드할 수 있습니다.
 contentowner: mmanuel
-source-git-commit: cb488d06aa4996ba4ede49c16def1c82c5eec150
+source-git-commit: a5afd09f5a8ed617383e2aee465cf035c004081d
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,6 @@ ht-degree: 0%
 # Adobe Learning Manager의 Report Builder
 
 ## 개요
-
-도구를 사용한 후처리 없이 선택한 열, 필터 및 데이터로 사용자 정의 보고서를 빌드하고, 미리 보고, 다운로드할 수 있습니다.
 
 Adobe Learning Manager의 Report Builder을 통해 관리자는 필요한 보고서를 정확하게 작성할 수 있는 셀프 서비스 보고 캔버스를 이용할 수 있습니다. 고정된 보고서를 다운로드하고 스프레드시트 도구에서 모양을 변경하는 대신 원하는 열을 선택하고, 필터를 적용하고, 깨끗한 출력을 모두 한 곳에서 다운로드할 수 있습니다.
 
