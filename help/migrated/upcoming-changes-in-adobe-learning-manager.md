@@ -2,7 +2,8 @@
 title: Adobe Learning Manager의 새로운 소식
 description: Adobe Learning Manager에서 예정된 변경 사항을 살펴보십시오. 최신 업데이트 및 향후 공지 사항을 확인하십시오.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+hide: true
+source-git-commit: a8ce2cca26c50bde68789ae423478af9a9494dc3
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%

@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+source-git-commit: a8ce2cca26c50bde68789ae423478af9a9494dc3
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 50%
@@ -23,7 +23,7 @@ ht-degree: 50%
   * [새로운 기능 2024년 3월](whats-new-march-2024.md)
   * {hide-from-toc}[새로운 기능 2023년 11월](whats-new-november-2023.md)
   * {hide-from-toc}[새로운 기능 2023년 7월](whats-new-2023-july.md)
-  * [Adobe Learning Manager에서 예정된 변경 사항](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
+  * {hide-from-toc}[Adobe Learning Manager에서 예정된 변경 내용](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
   * [릴리스 정보](release-note/release-notes.md)
   * [시스템 요구 사항](system-requirements.md)
   * [Microsoft Teams용 Adobe Learning Manager 앱](adobe-learning-manager-app-microsoft-teams.md)
