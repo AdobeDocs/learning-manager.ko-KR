@@ -3,9 +3,9 @@ description: Adobe Learning Manager 2026년 8월 릴리스의 API 및 Webhook �
 jcr-language: en_us
 title: Adobe Learning Manager 2026년 8월 릴리스의 새로운 기능
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 3cb62ec615254bdda4103527eb953d3433363785
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2770'
 ht-degree: 0%
 
 ---
@@ -15,23 +15,6 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >이 문서에 설명된 기능은 베타 릴리스의 일부로 사용할 수 있습니다. Adobe Learning Manager beta 기능은 평가 목적으로 제공되며, 일반 가용성 릴리스 전에 수정, 제한 또는 제거될 수 있습니다. 기능 이름, 동작 및 구성 옵션은 예고 없이 변경될 수 있습니다.
-
-
-## 적응형 과정
-
-적응형 과정을 사용하면 각 학습자가 속한 사용자 그룹을 기반으로 필요한 모듈 및 모듈을 제어하여 개인화된 교육을 제공할 수 있습니다. 단일 강의에서는 적합한 콘텐츠를 적합한 사람에게 자동으로 동적으로 제공합니다.
-
-작성자는 사용자 그룹 규칙에 대해 **선택 사항** 및 **필수**&#x200B;를 사용하여 각 모듈을 구성합니다. 다른 사용자 그룹의 학습자는 완전히 다른 모듈 세트를 완료하고 동일한 강의를 완료할 수 있습니다. 강의실 및 가상 강의실 세션에 대한 인원 제한이 모듈 수준에서 이제 적용되므로 학습자는 특정 세션에만 대기자 명단에 있는 상태로 강의에 등록할 수 있습니다. 자세한 내용은 [적응형 강의 - 작성자](/help/migrated/authors/feature-summary/adaptive-course-author.md)를 참조하세요.
-
-주요 기능:
-
-* 사용자 그룹별 모듈 레벨 가시성 및 완료 규칙
-* OR-merge logic: 모듈을 필수 항목으로 지정하는 그룹이 있다면 해당 학습자에게만 적용되어야 합니다
-* 강의실 및 가상 강의실 세션에 대한 모듈 레벨 대기 목록
-* 학습자의 프로필이 변경되면 새로 고침 완료가 트리거됩니다
-* 반복 인증에 대한 제한 사항이 문서화되어 있는 학습 경로 및 인증에서 지원됨
-
-적응형 과정에 대해 자세히 알아보십시오.
 
 ## 성적표
 
@@ -106,7 +89,6 @@ Live Hub는 조직이 매력적이고 영향력 있는 라이브 학습을 제�
 >[!NOTE]
 >
 >라이브 허브는 현재 Beta 버전이며 Adobe Learning Manager의 오는 8월 릴리스에서 사용할 수 있습니다. 기능이 릴리스되면 라이브 허브에 대한 설명서가 제공됩니다.
-
 
 ## 구성 요소 기반 전자 메일 템플릿 빌더
 
@@ -234,7 +216,7 @@ Adobe Learning Manager Content Composer는 Adobe Learning Manager에서 곧 출�
 
 ## 릴리스의 API 변경 사항
 
-Adobe Learning Manager 2026년 8월 릴리스[&#128279;](/help/migrated/api-changes-august-2026.md)의 API 변경 사항에 대해 자세히 알아보세요.
+Adobe Learning Manager 2026년 8월 릴리스](/help/migrated/api-changes-august-2026.md)의 [API 변경 사항에 대해 자세히 알아보세요.
 
 ## 릴리스의 기타 개선 사항
 

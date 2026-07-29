@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 971576b95ab0f75b9d28a7f3d1d62440927925f7
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 50%
@@ -113,7 +113,7 @@ ht-degree: 50%
   * [인증](administrators/feature-summary/certifications.md)
   * [인증서 만들기 및 사용자 정의](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
   * [카탈로그](administrators/feature-summary/catalogs.md)
-  * [적응형 과정](administrators/feature-summary/adaptive-course-admin.md)
+  * {hide-from-toc}[적응 과정](administrators/feature-summary/adaptive-course-admin.md)
   * [학습자 및 관리자의 대리 로그인](administrators/feature-summary/impersonation-learner-manager.md)
   * [SSO 다중 로그인](administrators/feature-summary/multiple-sso-logins.md)
   * [SAML을 통해 인터페이스 언어 설정](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
@@ -199,7 +199,7 @@ ht-degree: 50%
   * [콘텐츠 라이브러리](authors/feature-summary/content-library.md)
   * [강의 생성, 수정 및 게시](authors/feature-summary/courses.md)
   * [카탈로그](authors/feature-summary/catalogs.md)
-  * [적응 과정](authors/feature-summary/adaptive-course-author.md)
+  * {hide-from-toc}[적응형 과정](authors/feature-summary/adaptive-course-author.md)
   * [작업 지원](authors/feature-summary/job-aids.md)
   * [성적표](authors/feature-summary/alm-author-gradebook.md)
   * [iPad 및 Android 태블릿 사용자](authors/feature-summary/ipad-android-tablet-users.md)
@@ -219,7 +219,7 @@ ht-degree: 50%
   * [카탈로그](learners/feature-summary/catalogs.md)
   * [원클릭 등록](learners/feature-summary/learner-one-click-enrollment.md)
   * [내 학습](learners/feature-summary/courses.md)
-  * [적응형 과정](learners/feature-summary/adaptive-course-learner.md)
+  * {hide-from-toc}[적응형 과정](learners/feature-summary/adaptive-course-learner.md)
   * [Fluidic Player](learners/feature-summary/fluidic-player.md)
   * [학습 프로그램](learners/feature-summary/learning-programs.md)
   * [인증](learners/feature-summary/certifications.md)

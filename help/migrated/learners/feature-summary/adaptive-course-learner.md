@@ -2,7 +2,8 @@
 jcr-language: en_us
 title: 학습자를 위한 적응형 강의
 description: 사용자 그룹의 특정 요구 사항에 맞는 적응형 강의를 이용합니다.
-source-git-commit: 9686712005ab0a48da1969d2645206fad403e727
+hide: true
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
