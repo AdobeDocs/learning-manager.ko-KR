@@ -2,9 +2,9 @@
 description: ALM의 API 변경 사항
 jcr-language: en_us
 title: Adobe Learning Manager 2026년 8월 릴리스의 API 변경 사항
-source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
+source-git-commit: bac89a2dc8e1f22e2d29b20696fc1c6b6dd071aa
 workflow-type: tm+mt
-source-wordcount: '3353'
+source-wordcount: '3357'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 이러한 엔드포인트는 사용자 정의 사용자 그룹에서만 작동합니다. 모든 사용자 그룹 및 자동 생성된 사용자 그룹과 같은 시스템 관리 그룹은 API 응답에서 readOnly: true를 가지며 이러한 끝점을 통해 수정하거나 삭제할 수 없습니다.
 
-API 인증 요구 사항은 [Adobe Learning Manager API 인증](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)을 참조하세요.
+API 인증 요구 사항은 [Adobe Learning Manager API 인증](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)을 참조하세요.
 
 ### 사용자 그룹 API 끝점
 
@@ -204,7 +204,7 @@ API를 통한 외부 학습 워크플로는 학습자 앱의 워크플로를 반
 
 다섯 개의 모든 엔드포인트는 학습자 범위입니다. 학습자는 자신의 제출물에만 액세스할 수 있습니다. 학습자가 다른 학습자의 데이터에 액세스하려고 하면 API에서 오류를 반환합니다.
 
-API 인증 요구 사항은 [Adobe Learning Manager API 인증](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)을 참조하세요.
+API 인증 요구 사항은 [Adobe Learning Manager API 인증](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)을 참조하세요.
 
 ### 외부 학습 API 끝점
 
@@ -300,9 +300,9 @@ GET /primeapi/v2/externalLearningSettings
 | 직함 | 텍스트 | 예 | 교육 이름. 항상 출석하세요. 관리자가 비활성화할 수 없습니다. |
 | description_notes | 텍스트 | 아니오 | 자유 텍스트 설명 또는 메모 |
 | 날짜 | 타임스탬프 | 아니오 | 날짜 범위. 값 셰이프: { &quot;start_date&quot;: &quot;<ISO-Z>&quot;, &quot;end_date&quot;: &quot;<ISO-Z>&quot; }. 두 값 중 하나는 null일 수 있습니다. |
-| 점수 | 번호 | 예 | 값 셰이프: { &quot;achieved_score&quot;: <number>, &quot;max_score&quot;: <number> }. 두 값은 모두 숫자여야 합니다. |
-| duration | 텍스트 | 아니오 | 자유 형식 문자열(예: &quot;40시간&quot;). |
-| 첨부 파일 | FILE_업로드 | 예 | 완료 증명. **내부 필드에 전달되지 않음**&#x200B;[] — 대신 최상위 submissionUrl 특성을 사용하십시오. |
+| 점수 | 번호 | 예 | 값 셰이프: { &quot;achieved_score&quot;: <number>, &quot;max_score&quot;: <number> }. 두 값은 모두 숫자여야 합니다.  max_score는 음수일 수 없습니다. |
+| duration | 개체 | 아니오 | 예를 들어, { &quot;timeSpan&quot;: 8, &quot;period&quot;: &quot;HOURS&quot; } |
+| 첨부 파일 | FILE_업로드 | 예 | 완료 증명. **내부 필드에 전달되지 않음**[] — 대신 최상위 submissionUrl 특성을 사용하십시오. |
 
 사용자 지정 필드는 관리자가 정의하고 customFields[]에 반환됩니다. 해당 ID, 유형, 필수 플래그, 레이블 및 드롭다운 옵션은 계정 구성에 따라 다릅니다.
 
