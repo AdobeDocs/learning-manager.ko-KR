@@ -3,10 +3,10 @@ description: 기존 LMS를 Adobe Learning Manager LMS로 마이그레이션하�
 jcr-language: en_us
 title: 마이그레이션 설명서
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: cb9791da19a68e8c5cad3ca12d1e9e51f31e742f
+source-git-commit: 56ecd41e891d06f61ae7178280b85d6ffe918738
 workflow-type: tm+mt
-source-wordcount: '9122'
-ht-degree: 36%
+source-wordcount: '8322'
+ht-degree: 39%
 
 ---
 
@@ -1166,115 +1166,6 @@ LTI 모듈 버전을 생성할 때:
 
 마이그레이션 시스템은 LTI 특정 필드 외에 표준 마이그레이션 처리 워크플로우를 적용합니다.
 
-## 적응형 과정 마이그레이션 {#migrateadaptivecourses}
-
-외부 시스템에서 Adobe Learning Manager으로 강의를 마이그레이션하고 사용자 그룹당 모듈 레벨 가시성 및 완료 규칙이 있는 적응형 강의로 구성하려는 경우 두 개의 CSV 파일을 사용하여 강의와 해당 적응형 규칙을 모두 정의할 수 있습니다.
-
-### 마이그레이션 필요 사항
-
-적응형 강의를 마이그레이션하려면 표준 마이그레이션 CSV 패키지에 대한 두 가지 변경 사항이 필요합니다.
-
-* **&#x200B;**&#x200B;_course.csv_ 업데이트: 강의를 적응형 강의로 표시하는 새 열
-* **새 파일** _course_ module_user_group.csv_: 모듈-사용자-그룹 규칙당 하나의 행
-
-두 파일은 모두 동일한 마이그레이션 프로젝트에 포함되어야 합니다.
-
-### 적응형 강의 마이그레이션을 위한 CSV 파일 이름 업데이트
-
-적응형 과정 및 적응형 학습 경로 마이그레이션에 대한 CSV 파일 이름은 이제 Adobe Learning Manager의 다른 모든 마이그레이션 파일에서 사용하는 전체 이름 규칙을 따릅니다. 예를 들어, lo_section.csv 대신 learning_object_section.csv가 있습니다. 이전의 짧은 형식 이름을 참조하는 기존 마이그레이션 스크립트나 템플릿이 있는 경우에는 다음 마이그레이션이 실행되기 전에 이를 새 이름으로 업데이트합니다.
-
-| 이전 이름 | 새 이름 |
-| --- | --- |
-| `lo_section.csv` | `learning_object_section.csv` |
-| `lp_section.csv` | `learning_program_section.csv` |
-| `lp_section_ug.csv` | `learning_program_section_user_group.csv` |
-| `course_module_ug.csv` | `course_module_user_group.csv` |
-
-### course.csv 업데이트
-
-isAdaptive 열을 course.csv 파일에 추가합니다.
-
-| **열** | **값** | **설명** |
-| --- | --- | --- |
-| isAdaptive | 참 또는 공백 | 적응형 강의의 경우 true로 설정합니다. 일반 강의의 경우 비워 두거나 false로 설정합니다. |
-
-다른 모든 course.csv 열은 변경되지 않습니다.
-
-**열 순서 예:**
-
-* ID
-* courseName
-* 설명
-* courseCreationDate
-* 상태
-* 순차
-* 작성자
-* thumbnailUrl
-* 태그
-* isAdaptive
-
->[!NOTE]
->
->isAdaptive 열은 일반 강의의 경우 선택 사항입니다. 생략하거나 비워 두면 강의가 정규 강의로 처리됩니다.
-
-### course_module_user_group.csv 추가
-
-각 적응형 과정의 각 모듈에 대한 적응형 가시성 및 완료 규칙을 정의하는 새로운 CSV 파일입니다. 각 행은 하나의 모듈을 규칙 유형을 가진 하나의 사용자 그룹에 매핑합니다.
-
-| **열** | **설명** |
-| --- | --- |
-| courseId | 강의의 소스 식별자 (course.csv의 id와 일치해야 함) |
-| moduleId | 모듈의 소스 식별자(모듈 파일의 모듈 식별자와 일치해야 함) |
-| userGroupId | 이 규칙이 적용되는 사용자 그룹의 Adobe Learning Manager ID |
-| 문자 | 필수 - 사용자 그룹은 강의를 완료하려면 이 모듈을 완료해야 합니다. 선택 사항 - 사용자 그룹이 이 모듈을 보고 액세스할 수 있지만 완료할 필요는 없습니다. |
-| 작업 | 추가- 이 규칙을 만들거나 업데이트합니다. DELETE- 이 규칙을 제거합니다. |
-
-**열 순서 예:**
-
-* courseId
-* moduleId
-* userGroupId
-* 문자
-* 작업
-
-### 파일에 대한 규칙
-
-* 적응형 강의의 모든 콘텐츠 모듈에는 이 파일에 행이 하나 이상 있어야 합니다. 규칙이 없는 모듈은 학습자에게 표시되지 않습니다.
-* 사전 작업 모듈 및 테스트 모듈은 규칙이 필요하지 않습니다. 등록된 모든 학습자에게 자동으로 적용되며 이 파일에 표시되지 않습니다.
-* 동일한 모듈에 대해 여러 행을 가질 수 있습니다. 사용자 그룹당 하나.
-* 시스템에 이미 존재하는 규칙에 대해 ADD 행을 제출하면 중복 생성이 아니라 기존 규칙이 갱신됩니다.
-
-### 주문 업로드
-
-마이그레이션 프로젝트의 파일은 다음 순서로 업로드 및 처리되어야 합니다. 이후 파일은 이전 파일에서 만든 데이터에 따라 달라지며 순서를 따르지 않으면 실패합니다.
-
-* **module.csv**: 모듈 정의
-* **module_version.csv**: 모듈 버전 정의
-* **course.csv**: (적응형 과정의 경우 isAdaptive=true 포함) - 과정 만들기
-* **course_module.csv**: 모듈을 강의에 연결
-* **course_module_user_group.csv**: 적응 가시성 및 완료 규칙 적용
-
-마이그레이션 파일을 다운로드합니다. [적응형 과정 마이그레이션 파일](/help/migrated/integration-admin/feature-summary/assets/adaptive-courses-migration-files.zip)
-
->[!IMPORTANT]
->
->**course_module_user_group.csv**&#x200B;을(를) 마지막으로 업로드해야 합니다. 이 파일의 규칙은 강의 및 규칙을 적용하려면 4단계에 이미 연결해야 하는 모듈을 모두 참조합니다.
-
-### 유효성 검사 및 오류 참조
-
-Adobe Learning Manager은 규칙을 적용하기 전에 course_module_user_group.csv의 모든 행을 확인합니다. 유효성 검사에 실패한 모든 행은 오류 메시지와 함께 거부됩니다. 나머지 유효한 행은 계속 처리됩니다.
-
-| **시나리오** | **해결 방법** | **오류 메시지** |
-| --- | --- | --- |
-| 적응형 강의로 표시되지 않은 강의에 대해 제공된 규칙 | 행 거부됨 | 콘텐츠 가시성 규칙을 적용하려면 과정을 반드시 준수해야 합니다. 강의 ID: {courseId} |
-| 과정이 적응형 상태로 표시되지만 해당 콘텐츠 모듈에 대해 제공된 규칙은 없습니다. | 강의 거부됨 | 적응형 과정에는 각 콘텐츠 모듈에 대한 가시성 규칙이 하나 이상 있어야 합니다. 강의 ID: {courseId}에 모듈에 대한 규칙이 없습니다. {moduleIds} |
-| 모듈이 강의에 연결되어 있지 않습니다 | 행 거부됨 | {moduleId} 모듈이 {courseId} 과정에 연결되어 있지 않습니다. 먼저 course_module.csv를 통해 강의에 모듈을 추가합니다. |
-| 모듈이 사전 작업 또는 테스트 모듈인 경우(콘텐츠 모듈이 아님) | 행 거부됨 | 표시 규칙은 콘텐츠 형식 모듈에만 적용됩니다. {moduleId} 모듈의 형식이 {actualType}입니다. |
-| 사용자 그룹이 없거나 비활성 상태입니다. | 행 거부됨 | 사용자 그룹 {userGroupId}을(를) 찾을 수 없거나 비활성 상태입니다. |
-| 형식 값이 필수 또는 선택 사항이 아닙니다. | 행 거부됨 | &#39;{type}&#39; 형식이 잘못되었습니다. 필수 또는 선택 사항이어야 합니다. |
-| 작업 값이 ADD 또는 DELETE이 아닙니다. | 행 거부됨 | &#39;{operation}&#39; 작업이 잘못되었습니다. ADD 또는 DELETE여야 합니다. |
-| 이미 존재하는 규칙에 대해 ADD가 제출되었습니다. | 규칙이 자동으로 업데이트됨 | 오류 없음 — 기존 규칙이 새 유형 값으로 업데이트됩니다. |
-
 ## 콘텐츠 폴더 계층 구조 마이그레이션 {#migratecontentfolderhierarchy}
 
 다른 플랫폼에서 Adobe Learning Manager으로 학습 콘텐츠를 마이그레이션하고 기존 폴더 구성을 유지하려는 경우 CSV 파일을 사용하여 계층 폴더 구조를 만들고 콘텐츠 파일을 적절한 폴더에 연결할 수 있습니다.
@@ -1307,7 +1198,6 @@ CSV를 준비하기 전에 소스 시스템의 폴더 또는 범주 구조를 Ad
 >[!NOTE]
 >
 >소스 시스템에서 범주 또는 폴더 이름에 슬래시(`/`)를 사용하는 경우 CSV를 준비하기 전에 이를 하이픈(`-`) 또는 밑줄(`_`)로 바꾸십시오. Adobe Learning Manager은 폴더 경로 확인을 위해 예약되어 있으므로 폴더 이름에서 `/`을(를) 허용하지 않습니다.
-
 
 #### content_folder.csv
 
@@ -1352,7 +1242,6 @@ folder_005,Compliance,,folder_004,CREATE_FOLDER
 >[!NOTE]
 >
 >`parentExternalId` 열에서 접두사 `existing:`과(와) 폴더의 ID(예: `existing:12345`)를 사용하여 계정의 기존 폴더(이 마이그레이션 전에 생성됨)를 새 폴더의 부모로 참조할 수 있습니다.
-
 
 ### 2단계: 폴더와 콘텐츠 연결
 
@@ -1402,7 +1291,6 @@ MOD004,1,content,...,Marketing
 >
 >폴더 구조가 있어야 폴더 구조와 연결할 수 있기 때문에 `content_folder.csv`은(는) 폴더 경로를 포함하는 모듈 버전 파일 앞에 처리되어야 합니다.
 
-
 ### 유효성 검사 및 오류 참조
 
 Adobe Learning Manager은 처리하기 전에 `content_folder.csv`의 모든 행의 유효성을 검사합니다. 유효성 검사에 실패한 행은 건너뛰고 오류로 보고됩니다. 동일한 파일의 유효한 행은 계속 처리됩니다.
@@ -1422,7 +1310,6 @@ Adobe Learning Manager은 처리하기 전에 `content_folder.csv`의 모든 행
 | 이미 마이그레이션된 `id`에 대한 `CREATE_FOLDER` | 행 건너뜀 | 작업이 필요하지 않음 - 마이그레이션을 다시 실행할 때 예상된 동작입니다. |
 | `module_version.csv`의 폴더 경로가 존재하지 않는 폴더를 참조합니다. | 모듈 행 거부됨 | 폴더 구조 스프린트를 먼저 실행하거나 폴더 이름 및 경로의 맞춤법이 올바른지 확인하십시오 |
 | 폴더 경로의 이중 슬래시(예: `Training//Sales`) | 모듈 행 거부됨 | 경로에서 추가 슬래시를 제거합니다. |
-
 
 ### 이전 버전과의 호환성
 

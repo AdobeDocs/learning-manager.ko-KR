@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager 릴리스 정보
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 47de040030c841641b9a554eac1a40c0ee0835a8
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
-source-wordcount: '33111'
+source-wordcount: '33074'
 ht-degree: 66%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 66%
 
 ## 릴리스 강조
 
-Adobe Learning Manager의 2026년 8월 릴리스는 개인 맞춤화된 학습, AI, 보고 및 통합 전반에 걸쳐 상당한 발전을 제공합니다. 적응형 강의는 사용자 그룹 기반 모듈 가시성 및 완료 규칙을 도입하여 단일 강의에서 역할, 지역 또는 프로필을 기반으로 서로 다른 콘텐츠를 다른 학습자에게 제공할 수 있으므로 별도의 강의 버전을 유지할 필요가 없습니다.
+Adobe Learning Manager의 2026년 8월 릴리스는 개인 맞춤화된 학습, AI, 보고 및 통합 전반에 걸쳐 상당한 발전을 제공합니다.
 
 모든 기능을 갖춘 그레이드북은 강의에 가중 점수 및 합산 합격/불합격 계산을 추가하여 조직에 단순한 완료 추적 이상으로 학습자 성능에 대한 정확하고 구성 가능한 측정을 제공합니다.
 

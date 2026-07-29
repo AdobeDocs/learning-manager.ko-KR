@@ -3,7 +3,7 @@ description: 기본 설정을 통해 조직의 구조 및 학습자 환경에 �
 jcr-language: en_us
 title: 기본 설정
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
 source-wordcount: '5921'
 ht-degree: 4%
