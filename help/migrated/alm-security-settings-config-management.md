@@ -35,9 +35,9 @@ Adobe Learning Manager의 두 가지 권한 계정 유형(사용자 정의 관�
 
 **참조**:
 
-* [사용자 정의 역할 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
-* [CSV를 통해 사용자 정의 역할 관리 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/configure-role-csv-files)
-* [애플리케이션 개발자 설명서 \| Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
+* [사용자 정의 역할 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/custom-role)
+* [CSV를 통해 사용자 정의 역할 관리 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/configure-role-csv-files)
+* [애플리케이션 개발자 설명서 \| Adobe Learning Manager](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual)
 * [Adobe Learning Manager 커넥터](/help/migrated/integration-admin/feature-summary/connectors.md)
 
 +++
@@ -69,9 +69,9 @@ Adobe Learning Manager 문서에서는 관리자 역할과 권한 있는 계정 
 
 **참조**:
 
-* [설정 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
-* [사용자 인증 및 암호 보안 | ADOBE ADMIN CONSOLE](https://helpx.adobe.com/enterprise/using/authentication-settings.html)
-* [사용자 정의 역할 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
+* [설정 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/custom-role)
+* [사용자 인증 및 암호 보안 | ADOBE ADMIN CONSOLE](https://helpx.adobe.com/kr/enterprise/using/authentication-settings.html)
+* [사용자 정의 역할 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/custom-role)
 
 +++
 
@@ -95,7 +95,7 @@ Adobe Learning Manager에는 현재 설정을 권장 보안 기본값과 함께 
 
 **참조**
 
-* [응용 프로그램 개발자 설명서 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
+* [응용 프로그램 개발자 설명서 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -122,7 +122,7 @@ Adobe Learning Manager은 여러 메커니즘을 통해 보안 관련 구성 데
 
 **참조**
 
-* [응용 프로그램 개발자 설명서 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
+* [응용 프로그램 개발자 설명서 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -156,7 +156,7 @@ Adobe Learning Manager은 현재 컴퓨터 판독 가능 형식으로 보안 구
 
 Adobe Learning Manager에 권장되는 보안 기본값을 인코딩하는 공개적으로 사용 가능한 OSCAL 구성 요소 정의, YAML 기준선 또는 JSON 정책 파일이 없습니다.
 
-권장 기준 요소와 현재 설정을 자동으로 비교해야 하는 고객은 [ALM REST API](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)를 사용하여 현재 구성 데이터를 JSON 형식으로 검색해야 합니다.
+권장 기준 요소와 현재 설정을 자동으로 비교해야 하는 고객은 [ALM REST API](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual)를 사용하여 현재 구성 데이터를 JSON 형식으로 검색해야 합니다.
 
 +++
 
@@ -189,8 +189,8 @@ Adobe Learning Manager에서는 모든 제품 업데이트에 대해 공개적�
 
 **참조**:
 
-* [Adobe Learning Manager 릴리스 정보](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes)
-* [Adobe Learning Manager의 새로운 기능](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-july-2024)
-* [Adobe Learning Manager에서 API 사용 중단](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/api-deprecations-list)
+* [Adobe Learning Manager 릴리스 정보](https://experienceleague.adobe.com/ko/docs/learning-manager/using/introduction/release-notes)
+* [Adobe Learning Manager의 새로운 기능](https://experienceleague.adobe.com/ko/docs/learning-manager/using/introduction/whats-new-july-2024)
+* [Adobe Learning Manager에서 API 사용 중단](https://experienceleague.adobe.com/ko/docs/learning-manager/using/introduction/api-deprecations-list)
 
 +++
