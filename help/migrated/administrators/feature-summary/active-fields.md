@@ -3,9 +3,9 @@ description: Adobe Learning Manager의 활성 필드 를 사용하여 사용자 
 jcr-language: en_us
 title: Adobe Learning Manager의 활성 필드 구성
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Adobe Learning Manager의 활성 필드는 관리자가 사용자를 효과적�
 
 >[!INFO]
 >
->이 ALM Academy 교육을 통해 활성 필드를 추가, 사용자 정의 및 구성하는 방법을 알아보십시오.<br>[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br>
+>이 ALM 아카데미 교육을 시청하여 활성 필드를 추가, 사용자 정의 및 구성하는 방법을 알아보십시오.<br>[![단추](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br>
 
 ## 활성 필드 추가
 
@@ -77,7 +77,7 @@ Adobe Learning Manager의 활성 필드는 관리자가 사용자를 효과적�
    ![](assets/settings-active-field.png)
    _설정 탭을 선택하여 활성 필드를 사용자 지정_
 
-2. 필요에 따라 하나 또는 두 옵션 모두를 선택합니다.에 대한 참/거짓/비어 있음 값이 포함됩니다.
+2. 필요에 따라 하나 또는 두 옵션 모두를 선택합니다.
 
    * **학습자 로그인 시 비어 있는 필드만 표시:** 선택하면 학습자가 아직 입력하지 않은 활성 필드만 볼 수 있습니다. 이렇게 하면 프로필을 완료하라는 메시지가 표시되므로 사용자 데이터가 정확하고 최신 상태인지 확인할 수 있습니다. 이러한 필드를 표시하면 전체 학습자 프로필을 지원하고 개인화된 학습 경험을 활성화할 수 있습니다.
    * **선택하지 않으면 &#39;프로필 작성&#39; 페이지가 사용자에게 표시되지 않습니다.** 이 옵션을 사용하지 않으면 학습자가 로그인할 때 **프로필 작성** 페이지가 표시되지 않습니다. 프로필 정보를 업데이트하거나 작성하라는 메시지가 표시되지 않으며 플랫폼에 직접 액세스할 수 있습니다.
@@ -126,6 +126,6 @@ _CSV 업로드 중 값 제한을 활성화하는 확인란_
 
 CSV 파일에 모든 활성 필드가 포함되지 않은 경우 관리자는 가져오기 후 누락된 값을 수동으로 입력해야 합니다.
 
-기본적으로 모든 활성 필드는 소스 CSV의 해당 필드에 매핑되어야 합니다. 그러나 CSV의 열에 특정 활성 필드를 매핑하지 않으려는 경우 Box 및 FTP 가져오기 프로세스 중에 드롭다운 목록에서 **DontImportFromSource** 값을 선택할 수 있습니다. 이 옵션은 FTP 또는 Box 커넥터를 통해 사용자를 가져올 때 사용할 수 있습니다. 커넥터에 대한 자세한 내용은 이 [문서](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/connectors)를 참조하십시오.
+기본적으로 모든 활성 필드는 소스 CSV의 해당 필드에 매핑되어야 합니다. 그러나 CSV의 열에 특정 활성 필드를 매핑하지 않으려는 경우 Box 및 FTP 가져오기 프로세스 중에 드롭다운 목록에서 **DontImportFromSource** 값을 선택할 수 있습니다. 이 옵션은 FTP 또는 Box 커넥터를 통해 사용자를 가져올 때 사용할 수 있습니다. 커넥터에 대한 자세한 내용은 이 [문서](/help/migrated/integration-admin/feature-summary/connectors.md)를 참조하십시오.
 
 
