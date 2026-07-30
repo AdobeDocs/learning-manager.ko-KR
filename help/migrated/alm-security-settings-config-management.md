@@ -3,9 +3,9 @@ title: Adobe Learning Manager- 보안 설정 및 구성 관리
 description: 이 문서에서는 Adobe Learning Manager 관리 계정 유형, 보안 관련 설정, 권장 보안 기본값, API 기능, 내보내기 기능, 구성 비교 방법, 게시 방법 및 버전 내역에 대해 설명합니다. 특권 계정의 작동 방식, 보안 관련 사항, 플랫폼 전체에서 구성 관리가 지원되는 방식에 대한 자세한 지침을 제공합니다.
 jcr-language: en-us
 exl-id: a2e34104-c417-407f-af85-9f3f4b2a9fcb
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ Adobe Learning Manager의 두 가지 권한 계정 유형(사용자 정의 관�
 
 **참조**:
 
-* [사용자 정의 역할 | Adobe Learning Manager](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/custom-role)
-* [CSV를 통해 사용자 정의 역할 관리 | Adobe Learning Manager](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/configure-role-csv-files)
+* [사용자 정의 역할 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/custom-role)
+* [CSV를 통해 사용자 정의 역할 관리 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/configure-role-csv-files)
 * [애플리케이션 개발자 설명서 \| Adobe Learning Manager](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual)
-* [Adobe Learning Manager 커넥터](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/connectors)
+* [Adobe Learning Manager 커넥터](/help/migrated/integration-admin/feature-summary/connectors.md)
 
 +++
 
@@ -69,9 +69,9 @@ Adobe Learning Manager 문서에서는 관리자 역할과 권한 있는 계정 
 
 **참조**:
 
-* [설정 | Adobe Learning Manager](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/custom-role)
-* [사용자 인증 및 암호 보안 | Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/authentication-settings.html)
-* [사용자 정의 역할 | Adobe Learning Manager](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/custom-role)
+* [설정 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/custom-role)
+* [사용자 인증 및 암호 보안 | ADOBE ADMIN CONSOLE](https://helpx.adobe.com/kr/enterprise/using/authentication-settings.html)
+* [사용자 정의 역할 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/custom-role)
 
 +++
 
@@ -95,7 +95,7 @@ Adobe Learning Manager에는 현재 설정을 권장 보안 기본값과 함께 
 
 **참조**
 
-* [애플리케이션 개발자 설명서 | Adobe Learning Manager](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual)
+* [응용 프로그램 개발자 설명서 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -122,7 +122,7 @@ Adobe Learning Manager은 여러 메커니즘을 통해 보안 관련 구성 데
 
 **참조**
 
-* [애플리케이션 개발자 설명서 | Adobe Learning Manager](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual)
+* [응용 프로그램 개발자 설명서 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual)
 
 +++
 

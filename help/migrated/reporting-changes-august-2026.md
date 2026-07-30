@@ -2,9 +2,9 @@
 description: 이 문서에는 Adobe Learning Manager의 변경 사항을 보고하는 2026년 8월이 요약되어 있습니다. 학습자 성적 증명서, 교육, 등록, 대기자 명단, 출석, 콘텐츠 감사 및 사용자 보고서의 신규 및 업데이트된 열을 다룹니다. 또한 적응형 강의 동작, 성적 증명서 점수, 외부 학습 기록, Gen AI 신용 보고, 루트 인증 추적, 타임스탬프 표준화, API 작성자 업데이트에 대해 설명합니다.
 jcr-language: en_us
 title: Adobe Learning Manager 2026년 8월 릴리스의 변경 사항 보고
-source-git-commit: 2d60f665d2e00c95edfc96360ee65fdae013c0cd
+source-git-commit: 5c32d300f6e66e154a5c993a0d9701254ac8b4ce
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '976'
 ht-degree: 2%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 # Adobe Learning Manager 2026년 8월 릴리스의 변경 사항 보고
 
-Adobe Learning Manager의 2026년 8월 릴리스에는 적응형 과정, 학습자 성적 증명서, 외부 학습, Gen AI 크레딧 사용 등에 대한 보고 기능이 개선되었습니다. 이 문서에서는 이 릴리스에서 관리자가 사용할 수 있는 새로운 열, 보고서 및 동작 변경 사항을 요약합니다.
+Adobe Learning Manager의 2026년 8월 릴리스에는 학습자 성적 증명서, 외부 학습, Gen AI 크레딧 사용 등에 걸쳐 보고 기능이 개선되었습니다. 이 문서에서는 이 릴리스에서 관리자가 사용할 수 있는 새로운 열, 보고서 및 동작 변경 사항을 요약합니다.
 
 ## 변경된 내용
 
-보고 업데이트는 적응형 과정 동작, 적응형 대기자 명단, 그레이드북 점수, 외부 학습, 증분 사용자 내보내기, Gen AI 크레딧 사용, 루트 인증 추적 및 Webhook 타임스탬프 정렬의 8개 기능 영역에 걸쳐 있습니다. 변경 사항은 다음 보고서에 가장 큰 영향을 미칩니다.
+보고 업데이트는 8가지 기능 영역(성적 증명서 점수 부여, 외부 학습, 증분 사용자 내보내기, Gen AI 크레딧 사용, 루트 인증 추적 및 Webhook 타임스탬프 정렬)에 걸쳐 있습니다. 변경 사항은 다음 보고서에 가장 큰 영향을 미칩니다.
 
 - 학습자 성적 증명서(LT)
 - 교육 보고서
@@ -26,66 +26,70 @@ Adobe Learning Manager의 2026년 8월 릴리스에는 적응형 과정, 학습�
 
 대부분의 업데이트에는 새 열이 추가됩니다. 일부 새로운 보고서 유형이 도입되었습니다. 일부는 기존 데이터를 모델링하거나 서식을 지정하는 방법을 변경했습니다.
 
-## 적응형 과정 보고 변경 사항
+<!--
+## Adaptive course reporting changes
 
-### 교육 보고서
+### Training report
 
-교육 보고서의 세 개의 새 열이 적응형 강의 동작을 지원합니다.
+Three new columns in the Training report support adaptive course behavior.
 
-| **열** | **설명** | **지원되는 값** |
+| **Column**               | **Description**                                          | **Supported Values**                                                   |
 |--------------------------|----------------------------------------------------------|------------------------------------------------------------------------|
-| 적응형 학습 목표 | 강의가 적합한지 여부를 식별합니다. | 참(적응형), 거짓(비적응형) |
-| 가시성 사용자 그룹 | 각 모듈을 볼 수 있는 사용자 그룹을 나열합니다. | 하나 이상의 사용자 그룹 이름(예: All Learners, UG-Australia) |
-| 필수 | 사용자 그룹의 필수 모듈인지 여부를 나타냅니다. | 모듈이 필수인 사용자 그룹 이름입니다. 비어 있음 = 선택 사항입니다. |
+| Adaptive Learning Object | Identifies whether a course is adaptive                  | true (adaptive), false (non-adaptive)                                  |
+| Visibility User Groups   | Lists user groups that can view each module              | One or more user group names (for example, All Learners, UG-Australia) |
+| Mandatory                | Indicates whether a module is mandatory for a user group | User group names for which the module is mandatory; blank = optional   |
 
-**가시성 사용자 그룹**&#x200B;과 **필수**&#x200B;을 결합하여 보고서에서 적응 완료 규칙을 직접 해석할 수 있습니다. 예를 들어 **모든 학습자**&#x200B;에게 모듈이 표시될 수 있지만 **관리자 그룹**&#x200B;에 대해서만 필수 모듈입니다.
+You can combine **Visibility User Groups** and **Mandatory** to interpret adaptive completion rules directly in the report. For example, a module may be visible to **All Learners** but mandatory only for the **Administrator group**.
 
-### 학습자 성적 증명서
 
-새 **이전 완료** 열은 적응형 로직이 다시 완료를 트리거할 때 기록 완료 데이터를 캡처합니다.
+### Learner Transcript
 
-| **하위 필드** | **설명** |
+A new **Previous Completions** column captures historical completion data when adaptive logic triggers recompletion.
+
+| **Sub-field**         | **Description**                         |
 |-----------------------|-----------------------------------------|
-| completionRefreshDate | 완료가 재설정된 때의 타임스탬프 |
-| completedDate | 이전 완료 타임스탬프 |
-| progressAtFresh | 재설정 전 학습자 진행률 |
-| gradeAtRefresh | 재설정 시 학습자 점수 |
+| completionRefreshDate | Timestamp when the completion was reset |
+| completedDate         | Previous completion timestamp           |
+| progressAtRefresh     | Learner progress before reset           |
+| gradeAtRefresh        | Learner score at the time of reset      |
 
-이제 학습자 성적 증명서는 여러 완료 주기를 지원합니다. 강의 업데이트나 새로운 필수 모듈 등으로 인해 재완료 이벤트가 발생하면 이전 완료는 **이전 완료** 열로 이동합니다. 현재 완료는 표준 성적 증명서 필드에 남아 있습니다.
+The Learner Transcript now supports multiple completion cycles. When a recompletion event occurs, for example, due to course updates or new mandatory modules, the previous completion moves to the **Previous Completions** column. The current completion remains in the standard transcript fields.
 
-### 등록 보고서
+### Enrollment report
 
-새로운 **대기자 명단** 열은 학습자가 과정 내의 모든 모듈에 대기자 명단 상태인지 여부를 나타냅니다.
+A new **Waitlisted** column indicates whether a learner is waitlisted in any module within a course.
 
-| **값** | **의미** |
+| **Value** | **Meaning**                                             |
 |-----------|---------------------------------------------------------|
-| 참 | 학습자가 하나 이상의 모듈에 대기자 명단에 있습니다 |
-| false | 학습자가 보이는 모든 모듈에 등록을 확인했습니다 |
+| true      | The learner is waitlisted in one or more modules        |
+| false     | Learner has confirmed enrollment in all visible modules |
 
-### 대기자 명단 보고서
+### Waitlist report
 
-두 개의 새 열과 향상된 상태 세부 지원 모듈을 통해 모듈 수준에서 대기자 명단 추적을 사용할 수 있습니다.
+Two new columns and an enhanced status-detail support module enable waitlist tracking at the module level.
 
-| **열** | **설명** |
+| **Column**      | **Description**                                                                                                                        |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| **모듈** | 학습자가 대기자 명단에 있는 모듈(강의실 또는 가상 강의실 세션)의 이름 [인스턴스 상태] 열 뒤에 나타납니다. |
-| **모듈 ID** | 학습자가 대기자 명단에 있는 모듈의 식별자입니다. 모듈 열 뒤에 나타납니다. |
-| **포함 대상** | 이 강의가 포함된 학습 경로의 이름 및 ID 강의가 학습 경로에 포함되어 있지 않으면 비어 있습니다. |
+| **Module**      | Name of the module (classroom or virtual classroom session) where the learner is waitlisted. Appears after the Instance Status column. |
+| **Module ID**   | Identifier of the module where the learner is waitlisted. Appears after the Module column.                                             |
+| **Embedded In** | The learning path name and ID of any learning path that contains this course. Blank if the course is not part of a learning path.      |
 
-대기자 명단 보고서가 강의 레벨 모델에서 모듈 세션 레벨 모델로 전환되었습니다. 이제 학습자를 일부 모듈에 등록하고 다른 모듈에 대기자 명단에 등록할 수 있습니다. 이 보고서는 또한 사용자 수 제한이 모듈 수준에서 적용되는 Flex 학습 경로 내의 대기자 명단 추적을 지원합니다.
+The Waitlist report has shifted from a course-level model to a module session–level model. A learner can now be enrolled in some modules and waitlisted in others. The report also supports waitlist tracking within Flex learning paths, where seat limits are enforced at the module level.
 
-### LP 등록 보고서
+### LP Enrollment report
 
-학습 경로 등록 보고서에는 새 **설명** 열도 포함됩니다. 학습자가 학습 경로를 구성하는 강의 내의 모든 강의실 또는 가상 강의실 세션에서 대기자 명단 상태에 있을 때 설명 열에는 **대기자 명단**&#x200B;이 표시됩니다. 모든 세션이 확정되면 해당 열은 비어 있습니다.
+The Learning Path Enrollment report also receives a new **Remarks** column. When a learner is in a waitlisted state on any classroom or virtual classroom session within the courses that make up the learning path, the Remarks column shows **Waitlisted**. When all sessions are confirmed, the column is blank.
 
-### 출석 보고서
+### Attendance report
 
-이제 **학습자 상태** 열은 확인된 학습자와 대기자 명단에 등록된 학습자를 구분합니다.
+The **Learner status** column now distinguishes between confirmed and waitlisted learners.
 
-| **값** | **의미** |
+| **Value**  | **Meaning**                            |
 |------------|----------------------------------------|
-| 확인됨 | 학습자에게 할당된 시트가 있습니다 |
-| 대기자 명단 등록됨 | 학습자가 시트 할당 보류 중입니다. |
+| Confirmed  | The learner has an allocated seat      |
+| Waitlisted | The learner is pending seat allocation |
+
+-->
 
 ## 그레이드북 보고 변경 사항
 
