@@ -1,18 +1,18 @@
 ---
 jcr-language: en_us
 title: Adobe Connect 통합
-description: 회사가 Adobe Connect과 Learning Manager 계정을 통합한 경우 학습자는 Adobe Connect을 사용하여 가상 강의실 강의를 수료할 수 있습니다. Adobe Connect을 사용할 수 없는 경우 귀사의 관리자에게 문의하십시오.
+description: 회사가 Adobe Connect와 Learning Manager 계정을 통합한 경우 학습자는 Adobe Connect를 통해 가상 강의실 강의를 수료할 수 있습니다. Adobe Connect를 사용할 수 없다면 회사의 책임자에게 문의하십시오.
 exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 54%
+source-wordcount: '285'
+ht-degree: 93%
 
 ---
 
 # Adobe Connect 통합
 
-회사가 Adobe Connect과 Learning Manager 계정을 통합한 경우 학습자는 Adobe Connect을 사용하여 가상 강의실 강의를 수료할 수 있습니다. Adobe Connect을 사용할 수 없는 경우 귀사의 관리자에게 문의하십시오.
+회사가 Adobe Connect와 Learning Manager 계정을 통합한 경우 학습자는 Adobe Connect를 통해 가상 강의실 강의를 수료할 수 있습니다. Adobe Connect를 사용할 수 없다면 회사의 책임자에게 문의하십시오.
 
 ## Adobe Connect 가상 강의실 강의 수료 {#consumeadobeconnectvirtualclassroomcourses}
 
@@ -35,4 +35,4 @@ Adobe Connect 가상 강의실 세션에 등록한 경우, 계정 URL로 세션�
 
 >[!NOTE]
 >
->일반적으로 녹화된 세션 URL은 세션 종료 후 2시간 후에 Learning Manager 응용 프로그램에 반영됩니다.
+>일반적으로 녹화된 세션 URL은 세션 종료 후 2시간 후 Learning Manager 응용 프로그램에 적용됩니다.
