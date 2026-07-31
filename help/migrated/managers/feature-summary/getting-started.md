@@ -5,8 +5,8 @@ title: 관리자로 시작하기
 contentowner: manochan
 source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 67%
+source-wordcount: '175'
+ht-degree: 90%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 67%
 
 ## 샘플 비디오 보기 {#viewsamplevideos}
 
-샘플 비디오 튜토리얼을 시청하면 관리자 역할의 주요 특징을 이해할 수 있습니다. 로그인 중에 이 팝업 창이 나타나지 않도록 하려면 팝업 오른쪽 하단 모서리에 있는 로그인 시 표시 안 함 옵션을 클릭하여 비활성화할 수 있습니다.
+샘플 비디오 튜토리얼을 시청하면 관리자 역할의 주요 특징을 이해할 수 있습니다. 로그인 중에 팝업창이 나타나는 것을 원하지 않는 경우, 팝업의 오른쪽 하단 모서리에 있는 로그인 옵션에서 &#39;로그인 시 표시하지 않음&#39;을 클릭하여 비활성화할 수 있습니다.
 
-**[!UICONTROL 창 닫기]**&#x200B;를 클릭하여 팝업을 닫습니다.
+팝업 창을 닫으려면 **[!UICONTROL 윈도우 닫기]**&#x200B;를 클릭합니다.
 
 ![](assets/welcome-videos.png)
 

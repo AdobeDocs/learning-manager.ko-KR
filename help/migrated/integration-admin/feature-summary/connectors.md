@@ -1,11 +1,11 @@
 ---
 description: 각 ALM 지원 커넥터에 대한 개요
 jcr-language: en_us
-title: ALM 지원 커넥터의 개요
+title: Adobe Learning Manager의 커넥터 개요
 contentowner: mmanuel
-source-git-commit: bd80ca31ff633e21ec81e717772e43989f0d9aae
+source-git-commit: 3750b1f8784209d9efcbf5aaae890c37365d7030
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1426'
 ht-degree: 6%
 
 ---

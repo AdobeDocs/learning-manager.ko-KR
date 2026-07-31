@@ -6,14 +6,14 @@ contentowner: saghosh
 exl-id: 47edcd7f-e332-4a75-a025-fd07737d0b70
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 76%
+source-wordcount: '205'
+ht-degree: 77%
 
 ---
 
 # L1 피드백 자동 팝업이 표시되지 않음
 
-## 강의 효율성 
+## 강의 효율성
 
 강의를 완료한 후 학습자에게 L1 피드백 자동 팝업이 표시되지 않습니다.
 
