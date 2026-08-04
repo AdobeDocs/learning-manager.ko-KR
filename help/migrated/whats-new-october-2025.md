@@ -5,7 +5,7 @@ title: Adobe Learning Manager 2025년 10월 릴리스의 새로운 기능
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
 source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '5580'
+source-wordcount: '5644'
 ht-degree: 0%
 
 ---
