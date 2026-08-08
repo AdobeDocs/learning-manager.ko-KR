@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 모듈
 contentowner: shhivkum
 exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a2b71f6c4f3255a814e1dad30b87059cc8315764
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 70%
+source-wordcount: '1098'
+ht-degree: 61%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 70%
 
 강사는 파일을 &#39;승인/거부&#39;할 수 있습니다. 강사가 제출을 승인한 후에만 모듈이 완료됩니다.
 
- ![](assets/approve-reject-option.png)
+![](assets/activity-modules.png) ![](assets/approve-reject-option.png)
 *파일 승인 또는 거부*
 
 ## 체크리스트 모듈 평가 {#evaluate-checklist-module}
@@ -168,3 +168,16 @@ ht-degree: 70%
    *점수 및 댓글 편집*
 
 1. **[!UICONTROL &#39;저장&#39;]**&#x200B;을 클릭합니다.
+
+## 라이브 허브 세션
+
+라이브 허브를 사용하여 만든 세션의 경우 **세션 개요** 페이지의 **라이브 허브** 섹션에서 주요 세션 활동에 빠르게 액세스할 수 있습니다.
+
+&#x200B;- **가상 강의실 입력**: **강의실 입력**&#x200B;을 선택하여 가상 강의실에 참가하거나 세션을 시작하기 전에 가상 강의실을 설정하십시오. **URL 복사**&#x200B;를 선택하여 세션 링크를 복사하고 참가자와 공유할 수도 있습니다.
+
+&#x200B;- **세션 분석 보기**: **분석 보기 페이지**&#x200B;를 선택하여 세션이 종료된 후 세션 분석 대시보드를 엽니다. 대시보드는 학습자의 출석, 참여, 참여 및 기타 세션 메트릭에 대한 인사이트를 제공합니다.
+
+&#x200B;- **녹화 보기**: 세션이 녹화된 경우 **녹화 보기**&#x200B;를 선택하여 **세션 개요** 페이지에서 바로 녹화에 액세스하세요. 사용할 수 있는 기록이 없는 경우 카드에 상태가 표시됩니다.
+
+![세션 개요 페이지](../../getting-started-with-live-hub/assets/session-overview-page.png)
+*Live Hub 활동에 대한 액세스 권한이 있는 Live Hub 섹션을 보여 주는 세션 개요 페이지*

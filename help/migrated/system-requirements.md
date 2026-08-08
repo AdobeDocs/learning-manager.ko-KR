@@ -4,10 +4,10 @@ title: 시스템 요구 사항
 description: Adobe Learning Manager에 대한 시스템 요구 사항
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: d463fb1bb54e14717eb51d0c13f66551018a0f92
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 81%
+source-wordcount: '660'
+ht-degree: 74%
 
 ---
 
@@ -344,3 +344,9 @@ Intel® CoreTM i5 이상.
 ## ALM 보안 백서
 
 [ALM 백서](assets/alm-security-whitepaper-2024.pdf)
+
+## Live Hub 시스템 요구 사항
+
+라이브 허브 세션에 참여하거나 호스팅하기 전에 장치, 브라우저, 네트워크, 오디오 및 비디오 설정이 최상의 환경을 위한 최소 시스템 요구 사항을 충족하는지 확인하십시오.
+
+Live Hub에는 자체 지원 브라우저, 운영 체제, 네트워크 요구 사항 및 하드웨어 권장 사항 세트가 있습니다. 자세한 내용은 [Live Hub 시스템 요구 사항](../migrated/getting-started-with-live-hub/system-requirements-for-live-hub.md)을 참조하세요.

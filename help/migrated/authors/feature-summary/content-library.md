@@ -3,9 +3,9 @@ description: 자가 진행식 콘텐츠로 강의에 맞게 콘텐츠를 만드�
 jcr-language: en_us
 title: 콘텐츠 라이브러리
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
+source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
 workflow-type: tm+mt
-source-wordcount: '6048'
+source-wordcount: '6082'
 ht-degree: 33%
 
 ---
@@ -444,7 +444,7 @@ Adobe Learning Manager에서 다국어 비디오 텍스트 트랙(VTT)을 지원
 4. **콘텐츠 파일 추가**&#x200B;에서 콘텐츠 파일을 끌어다 놓거나 검색할 필드를 선택합니다.
    ![](assets/cl2.png)
 
-5. **폴더에 추가**&#x200B;에서 폴더를 검색하거나 검색 필드에서 폴더를 검색합니다.
+5. **폴더에 추가**&#x200B;에서 폴더를 검색하거나 검색 필드에서 폴더를 검색합니다. 여러 폴더를 선택할 수도 있습니다.
    ![](assets/cl3.png)
 
 6. **추가**&#x200B;를 선택합니다.
@@ -453,11 +453,6 @@ Adobe Learning Manager에서 다국어 비디오 텍스트 트랙(VTT)을 지원
 
 8. **저장**&#x200B;을 선택합니다. 콘텐트 파일이 콘텐트 라이브러리에 추가되고 목록 맨 위에 표시됩니다.
    ![](assets/cl4.png)
-
->[!NOTE]
->
->공개 폴더와 비공개 폴더 간에는 콘텐츠를 복사하거나 이동할 수 없습니다. 그렇게 하려고 하면 Adobe Learning Manager에 오류가 표시됩니다.
-
 
 ## 콘텐츠 라이브러리에서 폴더 경로 보기
 
@@ -486,7 +481,7 @@ Adobe Learning Manager에서 다국어 비디오 텍스트 트랙(VTT)을 지원
 
 3. 드롭다운 검색 상자를 사용하여 이름으로 폴더를 찾습니다.
 
-4. 한 번에 최대 **25개의 폴더**&#x200B;를 선택할 수 있습니다. 25개 이상을 선택하면 오류가 표시됩니다.
+4. 한 번에 여러 폴더를 선택할 수 있습니다.
 
 ## 폴더로 콘텐츠 이동 {#movecontenttofolder}
 

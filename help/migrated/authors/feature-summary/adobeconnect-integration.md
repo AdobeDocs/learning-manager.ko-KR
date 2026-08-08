@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Adobe Connect 통합
 description: 작성자는 강의 생성 절차 중 Adobe Connect로 가상 강의실 강의를 생성할 수 있습니다. Learning Manager 계정에서 Adobe Connect를 허용하려면 조직의 관리자에게 문의하십시오.
 exl-id: 3386ab89-fe13-42fc-9943-b7ff278ed7e9
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a4ef66561570df00b4312a773b0c041df82114f7
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 94%
+source-wordcount: '419'
+ht-degree: 69%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 ## Adobe Connect로 가상 강의실(VC) 강의 생성 {#createvirtualclassroomvccoursewithadobeconnect}
 
 1. 내 강의 페이지에서 모듈 추가를 클릭한 다음 가상 강의실을 선택합니다. 가상 강의실 생성 대화 상자가 나타납니다.
-1. **회의 시스템** 옵션에서 Adobe Connect을 선택합니다.
+1. **라이브 가상 교육 도구** 옵션에서 **Adobe Connect**&#x200B;을(를) 선택합니다.
 
    ![](assets/create-vc-author.png)
 
@@ -40,3 +40,13 @@ ht-degree: 94%
 ## Adobe Connect의 공유 템플릿 {#sharedtemplatesofadobeconnect}
 
 기본적으로 Adobe Connect 계정에서 생성된 모든 공유 템플릿을 Learning Manager 응용 프로그램에 가져오게 됩니다. Adobe Connect 계정에서 사용자 정의 템플릿을 공유 템플릿으로 만들어 추가할 수 있습니다.
+
+## 라이브 허브로 가상 강의실 강의 생성
+
+Live Hub는 조직에서 서드파티 회의 도구를 사용하지 않고 라이브 교육을 제공할 수 있도록 해 주는 Adobe Learning Manager의 기본 AI 기반 가상 강의실 솔루션입니다.
+
+관리자가 계정에 대해 Live Hub를 활성화하면 Adobe Connect과 같은 기타 지원되는 공급자와 함께 **라이브 가상 교육 도구** 목록에서 사용할 수 있습니다.
+
+또한 Live Hub에는 가상 강의실 요구 사항, 필요한 스킬 및 세션 세부 정보를 기반으로 강사를 추천하는 AI 기반 강사 Finder가 포함되어 있습니다. 이렇게 하면 전체 강사 목록을 수동으로 검색할 필요 없이 적합한 강사를 식별할 수 있습니다.
+
+자세한 내용은 [Live Hub 세션 만들기](../../getting-started-with-live-hub/create-a-live-hub-session.md)를 참조하세요.

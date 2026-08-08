@@ -3,9 +3,9 @@ description: Adobe Learning Manager에서 사용자 그룹을 만들고 관리�
 jcr-language: en_us
 title: Adobe Learning Manager에서 사용자 그룹 관리 | 학습자 구성 및 할당
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
-source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
+source-git-commit: fbe0fd05b8ff57bf009024069073887c073da43e
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -215,4 +215,10 @@ OR 논리를 사용하면 Adobe Learning Manager에서 영업팀에 있거나 �
 
 ![](assets/or-logic.png)
 _OR 논리를 사용하여 결합된 여러 그룹 표시 예_
+
+## 라이브 허브 세션에 강사 추가 및 관리
+
+Adobe Learning Manager에서 책임자는 스킬, 가용성 및 강의 환경 설정 정의를 포함하여 라이브 허브 세션에 대한 강사를 관리할 수도 있습니다. 이를 통해 일정 및 전문성을 기반으로 적합한 강의에 적합한 강사가 할당되도록 할 수 있습니다.
+
+강사 프로필을 만들고 관리하는 방법에 대한 자세한 단계는 [강사 추가 및 관리](../../getting-started-with-live-hub/instructor-management.md)를 참조하세요.
 

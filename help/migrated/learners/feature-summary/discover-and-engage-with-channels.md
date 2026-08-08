@@ -1,15 +1,15 @@
 ---
 title: 채널 탐색 및 참여
 description: Adobe Learning Manager의 채널을 통해 제공되는 비디오 콘텐츠를 찾고, 구독하고, 보고, 좋아요를 누르고, 토론에 참여하는 방법에 대해 알아보십시오.
-source-git-commit: 4e24819c42a357c5d3c425d5e1c42b87835ed747
+source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '639'
 ht-degree: 1%
 
 ---
 
 
-# 채널 탐색 및 참여
+# 채널 탐색 및 참여(Beta)
 
 채널은 학습자가 Adobe Learning Manager 내의 웹 및 클라우드 컨플루언스 페이지에서 선별된 비디오 기반의 비공식 학습 콘텐츠를 발견하고 액세스하는 데 도움을 줍니다. 관리자는 기록된 지식 공유 및 지식 전송 세션을 호스팅하는 엔터프라이즈 웹 페이지나 클라우드 연결 페이지에 연결하여 채널을 만들 수 있습니다.
 
