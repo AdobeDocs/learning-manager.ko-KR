@@ -4,9 +4,9 @@ title: 학습자로 미리 보기
 description: Fluidic Player는 끊김 없는 혼합 학습 경험을 제공하는 학습자용 콘텐츠 수료 플랫폼입니다. 이 플레이어에서는 지원되는 모든 형식을 끊임없이 플레이할 수 있습니다. 작성자 및 책임자는 플레이어를 사용하여 콘텐트를 미리 보기할 수 있습니다.
 contentowner: manochan
 exl-id: 68d43f50-f2ad-4c7e-8e5b-62ddd8097770
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '274'
 ht-degree: 68%
 
 ---
@@ -33,7 +33,7 @@ Fluidic Player는 끊김 없는 혼합 학습 경험을 제공하는 학습자�
 
 Fluidic Player는 11개의 언어를 지원합니다. 그 내용은 다음과 같습니다.
 
-| 언어 | 영역 | IBM 식별자 |
+| 언어 | 영역 | 식별자 |
 |---|---|---|
 | 아랍어 | 사우디아라비아 | ar-SA |
 | 중국어 번체 | 중화인민공화국 홍콩 | Zh-Hant-HK |

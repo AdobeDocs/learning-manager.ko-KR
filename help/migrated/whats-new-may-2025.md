@@ -3,7 +3,7 @@ description: Adobe Learning Manager 2025년 5월 릴리스의 새로운 기능 �
 jcr-language: en_us
 title: 새로운 기능 요약
 exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
-source-git-commit: f9ab669fc4a4adbe582f269583e746473c991fc9
+source-git-commit: 51c59280cd44a025beda7d1183aafa6b7d6ebed4
 workflow-type: tm+mt
 source-wordcount: '2544'
 ht-degree: 0%
@@ -90,7 +90,8 @@ Adobe Learning Manager은 인터페이스 언어, 콘텐츠 언어, 강의 등 �
 
 Adobe Learning Manager 기본 플랫폼 사용자의 경우 이 향상된 기능을 통해 Just-In-Time 사용자 프로비저닝의 필요성을 해결할 수 있습니다. 사용자가 계정을 만들고 처음 로그인할 때 이 기능을 사용하면 언어 환경 설정을 정확하게 캡처하여 적용할 수 있습니다.
 
-이 기능을 사용하면 사용자가 SAML을 통해 로그인할 때 언어 환경 설정이 자동으로 업데이트됩니다. 이는 사용자 선호 언어로 인터페이스를 표시함으로써 개인화된 경험을 제공하는 데 도움을 준다.사용자가 SAML을 통해 로그인하면 로그인 프로세스 중에 제공된 정보를 기반으로 언어 환경 설정(인터페이스 및 콘텐츠 언어)을 확인하고 업데이트됩니다.
+이 기능을 사용하면 사용자가 SAML을 통해 로그인할 때 언어 환경 설정이 자동으로 업데이트됩니다. 이는 사용자 선호 언어로 인터페이스를 표시함으로써 개인화된 경험을 제공하는 데 도움을 준다.
+사용자가 SAML을 통해 로그인하면 로그인 프로세스 중에 제공된 정보를 기반으로 언어 환경 설정(인터페이스 및 콘텐츠 언어)을 확인하고 업데이트됩니다.
 
 이 기능은 SAML 로그인 프로세스와 통합되어 사용자의 언어 환경 설정을 원활하게 캡처하고 업데이트합니다.
 
@@ -108,7 +109,7 @@ Adobe Learning Manager 기본 플랫폼 사용자의 경우 이 향상된 기능
 
 이제 Adobe Learning Manager은 Connect에서 VC 세션을 설정하는 동안 Adobe Connect에서 세미나 회의실 선택도 지원합니다. 이전에는 책임자가 회의실 유형만 선택할 수 있었습니다. 이러한 향상된 기능을 통해 유효한 세미나 라이선스를 보유한 책임자는 Adobe Learning Manager 내에서 일회성 또는 대규모 이벤트(최대 1,500명 참석자)를 예약하고 관리할 수 있습니다.
 
-세미나 방에 대한 자세한 내용은 이 [문서](https://helpx.adobe.com/kr/adobe-connect/using/creating-seminars.html)를 참조하세요.
+세미나 방에 대한 자세한 내용은 이 [문서](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)를 참조하세요.
 
 ### 세션 분석에 대한 액세스 지원
 
@@ -126,9 +127,11 @@ Connect 세션 분석에 대한 자세한 내용은 이 [문서](https://helpx.a
 
 ### 마이그레이션을 사용하는 콘텐츠의 성공 조건
 
-이제 모듈 가져오기를 위한 Adobe Learning Manager의 마이그레이션 프로세스에서 성공 조건을 정의하기 위한 매개 변수를 추가할 수 있습니다.이제 module_version.csv에 세 개의 새로운 옵션 열을 추가하여 지원됩니다. 세 개의 새로운 선택적 열: `successCriteria`, `successQuizData` 및 `successViewPercent`.
+이제 모듈 가져오기를 위한 Adobe Learning Manager의 마이그레이션 프로세스에서 성공 조건을 정의하기 위한 매개 변수를 추가할 수 있습니다.
+이제 module_version.csv에 세 개의 새로운 옵션 열을 추가하여 지원됩니다. 세 개의 새로운 선택적 열: `successCriteria`, `successQuizData` 및 `successViewPercent`.
 
-이러한 필드에는 특정 값만 사용할 수 있으며 잘못된 값을 입력하면 커넥터가 파일을 처리하지 못합니다.퀴즈 모듈은 세 가지 유형의 성공 조건을 사용할 수 있습니다. 점수 백분율 값(`successViewPercent`: 아래로 정의됨)에 따라 학습자가 콘텐츠를 시작한 경우 합격 표시를 하거나 퀴즈 모듈의 결과(`successQuizData`: 아래로 정의됨)를 기반으로 할 수 있습니다. 이 값은 아래 지침에 따라 입력해야 합니다. successCriteria 매개 변수는 이 매개 변수를 결정하는 데 사용됩니다.
+이러한 필드에는 특정 값만 사용할 수 있으며 잘못된 값을 입력하면 커넥터가 파일을 처리하지 못합니다.
+퀴즈 모듈은 세 가지 유형의 성공 조건을 사용할 수 있습니다. 점수 백분율 값(`successViewPercent`: 아래로 정의됨)에 따라 학습자가 콘텐츠를 시작한 경우 합격 표시를 하거나 퀴즈 모듈의 결과(`successQuizData`: 아래로 정의됨)를 기반으로 할 수 있습니다. 이 값은 아래 지침에 따라 입력해야 합니다. successCriteria 매개 변수는 이 매개 변수를 결정하는 데 사용됩니다.
 
 `successCriteria`: `LAUNCH_CONTENT`, `VIEW_PERCENT`, `QUIZ` 또는 `VIEWPERCENT_OR_QUIZ`을(를) 허용합니다.
 
@@ -152,13 +155,14 @@ Webhook이 변경됩니다.
 
 ### 마이그레이션을 사용하는 콘텐츠에 대한 콘텐츠 고유 ID 및 만료 날짜 추가
 
-이제 마이그레이션 중 콘텐츠 고유 ID 및 만료 날짜가 지원됩니다. 이 기능을 활성화하기 위해 expiryDate 및 uniqueContentId 열이 module_version.csv 파일에 추가되었습니다. 자세한 내용은 이 [샘플 CSV](assets/module_version_content.csv) 및 [CSV 사양 파일](assets/4-module_version_content.xlsx)을 참조하세요.
+이제 마이그레이션 중 콘텐츠 고유 ID 및 만료 날짜가 지원됩니다. 이 기능을 활성화하기 위해 expiryDate 및 uniqueContentId 열이 module_version.csv 파일에 추가되었습니다. 자세한 내용은 이 [샘플 CSV](/help/migrated/integration-admin/feature-summary/assets/sample-csvs-may-2025.zip) 및 [CSV 사양 파일](/help/migrated/integration-admin/feature-summary/assets/module-version.zip)을 참조하세요.
 
 마이그레이션 프로세스에 대한 자세한 내용은 이 [문서](/help/migrated/integration-admin/feature-summary/migration-manual.md)를 참조하세요.
 
 ## Webhook 개선 사항
 
-이제 Webhook은 등록, 등록 취소 또는 완료 시 학습 경로(LP) 및 인증의 강의에 대한 이벤트를 지원합니다.여기에는 상위 LO 이벤트 외에 LP 또는 인증 내 각 과정에 대한 지원 이벤트가 포함됩니다.
+이제 Webhook은 등록, 등록 취소 또는 완료 시 학습 경로(LP) 및 인증의 강의에 대한 이벤트를 지원합니다.
+여기에는 상위 LO 이벤트 외에 LP 또는 인증 내 각 과정에 대한 지원 이벤트가 포함됩니다.
 
 Webhook에 대한 자세한 내용은 이 [문서](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)를 참조하십시오.
 

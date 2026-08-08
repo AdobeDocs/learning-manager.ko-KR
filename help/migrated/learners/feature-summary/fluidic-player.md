@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Fluidic Player
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 52%
+source-wordcount: '649'
+ht-degree: 53%
 
 ---
 
@@ -72,7 +72,7 @@ Mobile Fluidic Player에는 다음과 같은 기능이 있습니다.
 
 **11개 언어 지원**: Fluidic Player는 11개 언어를 지원합니다. 그 내용은 다음과 같습니다.
 
-| 언어 | 영역 | IBM 식별자 |
+| 언어 | 영역 | 식별자 |
 |---|---|---|
 | 아랍어 | 사우디아라비아 | ar-SA |
 | 중국어 번체 | 중화인민공화국 홍콩 | Zh-Hant-HK |
