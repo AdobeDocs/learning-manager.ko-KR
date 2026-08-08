@@ -2,9 +2,9 @@
 description: 기존 문서, 정책 또는 데크를 업로드하여 조직 콘텐츠에 AI를 배치합니다. 생성을 해당 파일로만 제한할지 아니면 AI가 일반 지식을 사용하여 보완할지 선택합니다.
 jcr-language: en_us
 title: 소스 파일 관리
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ## 소스 자료를 사용하여 강의 생성
 
-1. 채팅 패널이나 도구 모음에서 **소스 관리** 또는 **파일 추가**&#x200B;를 선택합니다.
+1. 채팅 패널이나 도구 모음에서 **소스 관리** 또는 **파일 추가**를 선택합니다.
    ![](../assets/5_brief_manage_sources_prompt_updated.png)
 
-2. 대화 상자로 파일을 드래그하거나 **개 이상의 소스 파일 추가**&#x200B;를 선택하여 찾아봅니다. 여러 소스 파일을 추가할 수 있습니다.
+2. 대화 상자로 파일을 드래그하거나 **개 이상의 소스 파일 추가**를 선택하여 찾아봅니다. 여러 소스 파일을 추가할 수 있습니다.
    ![](../assets/6_manage_sources_no_files_added_updated.png)
 
-3. **출력을 파일의 콘텐츠로 제한**&#x200B;을 선택합니다. 이를 통해 콘텐츠 컴포저는 소스 콘텐츠만 사용하여 강의를 생성할 수 있습니다. 이 옵션을 선택하지 않으면 콘텐츠 컴포저는 웹을 사용하여 과정을 만들기도 합니다.
+3. **출력을 파일의 콘텐츠로 제한**을 선택합니다. 이를 통해 콘텐츠 컴포저는 소스 콘텐츠만 사용하여 강의를 생성할 수 있습니다. 이 옵션을 선택하지 않으면 콘텐츠 컴포저는 웹을 사용하여 과정을 만들기도 합니다.
    ![](../assets/7_manage_sources_file_uploading_restrict_output_updated.png)
 
 지원되는 형식:
@@ -34,7 +34,6 @@ ht-degree: 0%
 | PowerPoint (.ppt/.pptx) | 100MB |
 | MS Word (.doc/.docx) | 100MB |
 | 텍스트 파일(.txt) | 100MB |
-| 이미지 (.png, .jpg) | 100MB |
 
 강의 개요를 생성하려면 **계속**&#x200B;을 선택하십시오.
 

@@ -2,9 +2,9 @@
 title: Adobe Learning Manager Content Composer (Beta) 도움말
 description: 일반 언어 프롬프트에서 게시된 강의에 이르기까지 Adobe Learning Manager Content Composer는 강의 설계를 처리하므로 영향을 주는 높은 강의 콘텐츠를 만들어 학습자에게 필요한 사항에 집중할 수 있습니다.
 contentowner: saghosh
-source-git-commit: 70827aa150f7fd9946732075c2c38f5b89c3e1f9
+source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -104,20 +104,7 @@ Content Composer는 대화를 통한 교육 목표, 소스 자료 및 학습 목
     <p>완료한 과정을 Adobe Learning Manager에 배포하고 Content Composer와 ALM이 작성, 전달 및 보고 책임을 어떻게 나누는지 이해합니다.</p>
    </td>
   </tr>
-  <tr>
-   <td style="border:none;">
-    <a href="write-effective-prompts.md">
-    <img alt="효과적인 프롬프트 쓰기" src="../assets/cc-prompts.png" style="width:200px; height:120px; object-fit:cover;">
-    </a>
-    <div>
-    <a href="write-effective-prompts.md"><strong>효과적인 메시지 작성</strong></a>
-    </div>
-    <p>더 나은 브리프, 더 강한 아웃라인 및 더 정확한 AI 생성 콘텐츠를 생성하는 프롬프트를 작성하는 방법을 알아봅니다.</p>
-   </td>
-   <td style="border:none;"></td>
-   <td style="border:none;"></td>
-  </tr>
- </tbody>
+  </tbody>
 </table>
 
 ## 조회하기 {#lookthingsup}

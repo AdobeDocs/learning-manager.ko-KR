@@ -2,7 +2,8 @@
 description: 프롬프트는 콘텐츠 컴포저에서 가장 중요한 입력입니다. 대상 그룹, 2~3개의 주제, 범위 신호 등의 특정 프롬프트를 통해 보다 정확한 브리핑, 더 강한 아웃라인, 더 적은 다운스트림 편집을 생성할 수 있습니다.
 jcr-language: en_us
 title: Content Composer에서 효과적인 프롬프트 쓰기
-source-git-commit: 9890dbe1895ff1b88e2ea946acaf40012980d5c5
+hide: true
+source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 0%
