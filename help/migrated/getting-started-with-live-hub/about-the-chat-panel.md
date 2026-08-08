@@ -1,9 +1,9 @@
 ---
 title: 라이브 허브의 채팅 패널 정보
 description: 채팅 패널이 라이브 허브 세션 중에 강사와 학습자 간의 실시간 구조화된 커뮤니케이션을 가능하게 하는 방법에 대해 알아봅니다.
-source-git-commit: 203b9dd661ddf9223d3e181c5887e6976ba8213e
+source-git-commit: c50b9fae8ff3dcd3541fc375e619db8abde3b3e1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ Live Hub의 채팅 패널을 사용하면 라이브 세션 중에 강사와 학�
 | [채팅 패널에 액세스](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#access-the-chat-panel) | [채팅 패널에 액세스](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#access-the-chat-panel) |
 | [채팅 패널 설정](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#chat-panel-settings) | [채팅 메시지 관리](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#manage-your-chat-messages) |
 | [채팅 메시지에 회신](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#reply-to-chat-messages) | [채팅 패널 사용자 지정](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#customize-the-chat-panel) |
-| [메시지에 응답](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#react-to-a-message) | [채팅 패널 사용자 지정](#overview) |
-| [채팅 메시지 편집](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#edit-the-chat-messages) | [채팅 메시지 관리](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#manage-your-chat-messages) |
-| [채팅 메시지의 참가자 언급](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#mention-participants-in-the-chat-messages) | [개인 메시지 보내기](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#send-private-messages) |
+| [메시지에 응답](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#react-to-a-message) | [개인 메시지 보내기](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#send-private-messages) |
+| [채팅 메시지 편집](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#edit-the-chat-messages) |  |
+| [채팅 메시지의 참가자 언급](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#mention-participants-in-the-chat-messages) | |
 | [개인 채팅 시작](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#start-a-private-chat) | |
 | [AI로 참가자 질문에 대한 회신 초안](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#draft-replies-to-participant-questions-with-ai) | |
 | [메시지 삭제](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#delete-messages) | |
