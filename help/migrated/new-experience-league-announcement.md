@@ -3,12 +3,13 @@ jcr-language: en_us
 title: 새로운 Experience League 공지
 description: Experience League에서 최신 공지를 살펴보십시오.
 exl-id: 26f601cc-3197-4824-91dc-a0a42d1de935
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: e007447a9e7683c5d0fd5ef412e97610d11fb61d
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
+
 
 # 새로운 Experience 리그 공지 사항
 
