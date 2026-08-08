@@ -60,7 +60,7 @@ ht-degree: 0%
 4.**ALM 과정 Publish:** ALM 작성자는 모듈을 ALM 과정으로 어셈블하고 과정 이미지와 설정을 추가한 다음 게시합니다. 이 단계를 완료해야만 학습자를 등록할 수 있습니다.
 
 자세한 내용은 [Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-author)을 참조하세요.
-![ 게시된 모듈 및 처리 모듈을 표시하는 Adobe Learning Manager의 콘텐츠 라이브러리](../assets/51_alm_content_library_list_view_updated.png)
+![&#x200B; 게시된 모듈 및 처리 모듈을 표시하는 Adobe Learning Manager의 콘텐츠 라이브러리](../assets/51_alm_content_library_list_view_updated.png)
 
 자세한 내용은 [ALM에서 작성자로 강의 생성](https://experienceleague.adobe.com/en/docs/learning-manager/using/authors/courses)을 참조하세요.
 

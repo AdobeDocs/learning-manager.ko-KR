@@ -32,7 +32,7 @@ ht-degree: 0%
 
    - Adobe Learning Manager 계정과 연결된 **이메일** 주소를 입력하세요.
 
-   - **승인**을 선택하여 로그인하고 과정을 ALM 계정에 연결합니다.
+   - **승인**&#x200B;을 선택하여 로그인하고 과정을 ALM 계정에 연결합니다.
      ![](../assets/32_alm_connection_not_connected_authorize_updated.png)
 
    - 권한이 부여되면 **연결 해제**&#x200B;에서 **연결됨**(으)로 **상태** 필드 업데이트를 확인하십시오.

@@ -19,7 +19,7 @@ ht-degree: 0%
 - **시작:** 학습자가 보는 정도와 관계없이 강의를 열자마자 완료로 표시합니다.
   ![](../assets/21_completion_criteria_dropdown_launch_minview_quiz_updated.png)
 
-- **최소 보기 %:**은(는) 학습자가 강의 콘텐츠의 지정된 백분율을 보고 나면 강의를 완료로 표시합니다.
+- **최소 보기 %:**&#x200B;은(는) 학습자가 강의 콘텐츠의 지정된 백분율을 보고 나면 강의를 완료로 표시합니다.
   ![](../assets/22_completion_criteria_minview_percent_field_updated.png)
 
 - **퀴즈: 학습자의 퀴즈 활동을 기반으로 강의를 완료로 표시합니다. 퀴즈 조건 선택:**
