@@ -2,15 +2,15 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Adobe Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: e556087b8e9308e65d6bce68f7587501a9c75026
+source-git-commit: d0e810587cea3c4aba9ea2f79972d32e0315d2aa
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1659'
 ht-degree: 36%
 
 ---
 
 
-# Adobe Learning Manager 안내서 {#using}
+# Learning Manager 가이드 {#using}
 
 * [Adobe Learning Manager 사용자 가이드](user-guide.md)
 * 소개 {#introduction}
