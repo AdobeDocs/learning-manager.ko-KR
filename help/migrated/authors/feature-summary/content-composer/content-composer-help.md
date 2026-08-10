@@ -34,7 +34,7 @@ Content Composer는 대화를 통한 교육 목표, 소스 자료 및 학습 목
 
 >[!IMPORTANT]
 >
->유효한 Adobe Creative Cloud 계정으로 로그인해야 합니다. 아직 계정이 없다면 Adobe Express을 통해 무료 계정을 만들 수 있습니다. 자세한 내용은 [무료 Adobe Express 계정 만들기](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html)를 참조하세요. Adobe 자격 증명을 만든 후 Content Composer를 실행하고 로그인하여 강의 생성을 시작합니다. 조직에 이미 Creative Cloud 구독이 있는 경우 Content Composer에 로그인하기 전에 관리자에게 문의하여 Creative Cloud 계정을 프로비저닝하십시오.
+>유효한 Adobe Creative Cloud 계정으로 로그인해야 합니다. 아직 계정이 없다면 Adobe Express을 통해 무료 계정을 만들 수 있습니다. 자세한 내용은 [무료 Adobe Express 계정 만들기](https://helpx.adobe.com/kr/express/web/adobe-express-subscription/free.html)를 참조하세요. Adobe 자격 증명을 만든 후 Content Composer를 실행하고 로그인하여 강의 생성을 시작합니다. 조직에 이미 Creative Cloud 구독이 있는 경우 Content Composer에 로그인하기 전에 관리자에게 문의하여 Creative Cloud 계정을 프로비저닝하십시오.
 
 
 ## 콘텐츠 컴포저 사용해 보기 {#trycontent-composer}
