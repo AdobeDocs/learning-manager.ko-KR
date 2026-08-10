@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager 주문 및 청구 정보 관리
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: b3212ae430cb5804a66c19a2e213dc9538e8cf5f
+source-git-commit: 2f1ca19ec3b94f975bd78ed92b48621eec6d5a22
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2471'
 ht-degree: 53%
 
 ---
@@ -72,7 +72,7 @@ Adobe에 Learning Manager 구독 및 청구에 대한 자세한 내용을 문의
 
 | 열 | 설명 |
 |---|---|
-| **구입** | 계약 기간에 대해 구매한 총 Gen AI 크레딧. |
+| **구입** | 계약 기간에 대해 구매한 총 크레딧 |
 | **사용됨** | 이 라이선스를 사용하는 모든 서비스에서 소비된 크레딧. |
 | **ALM에서 사용** | Adobe Learning Manager에서 특별히 소비한 크레딧. |
 | **남음** | 크레딧은 계속 사용할 수 있습니다. |
