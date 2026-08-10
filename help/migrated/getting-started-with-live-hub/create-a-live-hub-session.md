@@ -1,7 +1,7 @@
 ---
 title: 라이브 허브 세션 만들기
 description: 라이브 허브 강의를 만들고, 강의 인스턴스를 추가하고, 강사 찾기 기능으로 강사를 할당하고, 학습자를 등록하고, 회의실 브랜딩을 사용자 정의하는 방법을 알아봅니다.
-source-git-commit: 398fb6d707983fd021604396113c0f2af574dc17
+source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%

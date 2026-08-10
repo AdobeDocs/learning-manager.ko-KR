@@ -3,7 +3,7 @@ description: Adobe Learning Manager 2024년 11월 릴리스의 새로운 기능 
 jcr-language: en_us
 title: 새로운 기능 요약 2024년 11월
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 1%
@@ -151,7 +151,8 @@ Adobe Learning Manager의 새로운 **[!UICONTROL 대기자 명단 보고서]**&
 
 ## 학습자 홈페이지의 접근성
 
-이제 Adobe Learning Manager이 모든 발행인란의 대체 텍스트를 지원하여 학습자의 접근성을 향상시킵니다. 이를 통해 특별한 필요가 있는 학습자는 화면 판독기를 사용하여 대체 텍스트를 읽고 이미지를 이해할 수 있습니다. 여러 언어를 선택하고 각 언어에 대한 대체 텍스트를 제공할 수 있습니다. 대체 텍스트를 해당 언어로 추가해야 합니다. 계정의 회사 로고에 회사 이름이 있는 대체 텍스트도 포함되어 있는지 확인합니다.자세한 내용은 이 문서 [공지](/help/migrated/administrators/feature-summary/announcements.md#masthead)를 참조하십시오.
+이제 Adobe Learning Manager이 모든 발행인란의 대체 텍스트를 지원하여 학습자의 접근성을 향상시킵니다. 이를 통해 특별한 필요가 있는 학습자는 화면 판독기를 사용하여 대체 텍스트를 읽고 이미지를 이해할 수 있습니다. 여러 언어를 선택하고 각 언어에 대한 대체 텍스트를 제공할 수 있습니다. 대체 텍스트를 해당 언어로 추가해야 합니다. 계정의 회사 로고에 회사 이름이 있는 대체 텍스트도 포함되어 있는지 확인합니다.
+자세한 내용은 이 문서 [공지](/help/migrated/administrators/feature-summary/announcements.md#masthead)를 참조하십시오.
 
 ## 힌디어 지원
 
@@ -227,7 +228,7 @@ Adobe Learning Manager은 이제 힌디어를 플랫폼의 인터페이스 언�
 * 다른 폴더에 이미 있는 모듈에 대한 새 폴더 이름을 추가하면 새 값이 할당된 폴더를 덮어쓰거나 바꾸지 않습니다. 모듈은 새 폴더에 추가되고 기존 폴더에서도 사용할 수 있습니다.
 * 값이 비어 있으면 폴더는 기본적으로 **[!UICONTROL 공용]**&#x200B;으로 설정됩니다.
 
-자세한 내용은 [module_version csv 사양](assets/4-module_version.xlsx) 파일을 참조하십시오.
+자세한 내용은 [module_version csv 사양](assets/module_version.csv) 파일을 참조하십시오.
 
 ### 모듈 마이그레이션 변경 사항 - 완료 기준
 
@@ -238,10 +239,10 @@ Adobe Learning Manager은 이제 힌디어를 플랫폼의 인터페이스 언�
 1. `completionCriteria`:
 
    * 데이터 유형은 문자열 값이어야 하며 지원되는 값은 다음과 같습니다.
-      * `LAUNCH_CONTENT`
-      * `VIEW_PERCENT`
-      * `QUIZ`
-      * `MARK_COMPLETE`
+     * `LAUNCH_CONTENT`
+     * `VIEW_PERCENT`
+     * `QUIZ`
+     * `MARK_COMPLETE`
    * 자가 진행식 모듈 유형에 대해서만 모듈 수준에서 완료 기준을 추가합니다.
    * 정적 내용에 대해 지원되는 값은 `LAUNCH_CONTENT` 및 `VIEW_PERCENT`입니다.
    * 대화형 콘텐츠에 대해 지원되는 값은 `LAUNCH_CONTENT`, `VIEW_PERCENT` 및 `QUIZ`입니다.
@@ -257,7 +258,7 @@ Adobe Learning Manager은 이제 힌디어를 플랫폼의 인터페이스 언�
    * 데이터 형식은 문자열 값이어야 하며 지원되는 값은 `QUIZ_ATTEMPTED`, `QUIZ_PASSED` 및 `QUIZPASSED_OR_LIMITREACHED`입니다.
    * `completionCriteria`이(가) `QUIZ`(으)로 설정되면 `quizData` 열에 적절한 퀴즈 값을 입력합니다.
 
-자세한 내용은 [module_version csv 사양](assets/4-module_version.xlsx) 파일을 참조하십시오.
+자세한 내용은 [module_version csv 사양](assets/module_version.csv) 파일을 참조하십시오.
 
 ### 강의 마이그레이션 변경 사항 - 완료 기준
 
@@ -271,27 +272,27 @@ Adobe Learning Manager은 이제 힌디어를 플랫폼의 인터페이스 언�
 * `completionCriteria`을(를) `SELECTEDMODULES`(으)로 설정하는 경우 [course_module.csv](assets/course_module.csv) 파일에서 필수 모듈을 표시해야 합니다.
 * `optionalCriteria` 열에서 `TRUE` 또는 `FALSE`을(를) 입력합니다. 값을 `TRUE`(으)로 설정하면 모듈이 필수로 설정됩니다.
 
-자세한 내용은 [코스 csv 사양](assets/3-course.xlsx) 및 [코스_모듈 csv 사양](assets/6-course_module.xlsx) 파일을 참조하십시오.
+자세한 내용은 [코스 csv 사양](assets/course.csv) 및 [코스_모듈 csv 사양](assets/course_module.csv) 파일을 참조하십시오.
 
 ## API 변경 사항
 
 다음은 API 변경 사항입니다.
 
 * **검색 API**:
-   * 새로운 모드 필터: classicSearch 및 advanceSearch.
-   * snippetTypes에 대한 새로운 loMetadata 옵션입니다.
+  * 새로운 모드 필터: classicSearch 및 advanceSearch.
+  * snippetTypes에 대한 새로운 loMetadata 옵션입니다.
 * **공지 API**:
-   * 발행인란 설명에 대한 altText 특성을 포함합니다.
+  * 발행인란 설명에 대한 altText 특성을 포함합니다.
 * **인스턴스 API**:
-   * 로캘 세부 정보를 검색하는 새 로캘 특성입니다.
+  * 로캘 세부 정보를 검색하는 새 로캘 특성입니다.
 * **욕설 확인**:
-   * 소셜 게시물의 댓글 및 답변에서 금지된 단어를 확인하도록 API를 업데이트했습니다.
+  * 소셜 게시물의 댓글 및 답변에서 금지된 단어를 확인하도록 API를 업데이트했습니다.
 * **RPM 및 버스트 제한**:
-   * 모든 API에 대한 RPM(분당 요청 수) 및 버스트 제한을 추가했습니다.
+  * 모든 API에 대한 RPM(분당 요청 수) 및 버스트 제한을 추가했습니다.
 * **배지 API**:
-   * 외부 배지에 대한 정보를 검색하는 새로운 특성 externalProvider입니다.
+  * 외부 배지에 대한 정보를 검색하는 새로운 특성 externalProvider입니다.
 * **작업 API**:
-   * 작업 API를 사용하여 사용자 그룹 보고서 및 사용자 정의 역할 감사 보고서를 다운로드합니다.
+  * 작업 API를 사용하여 사용자 그룹 보고서 및 사용자 정의 역할 감사 보고서를 다운로드합니다.
 
 ### 검색 API의 변경 사항
 

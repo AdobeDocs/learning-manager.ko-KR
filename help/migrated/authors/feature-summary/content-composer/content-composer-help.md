@@ -2,9 +2,9 @@
 title: Adobe Learning Manager Content Composer (Beta) 도움말
 description: 일반 언어 프롬프트에서 게시된 강의에 이르기까지 Adobe Learning Manager Content Composer는 강의 설계를 처리하므로 영향을 주는 높은 강의 콘텐츠를 만들어 학습자에게 필요한 사항에 집중할 수 있습니다.
 contentowner: saghosh
-source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
+source-git-commit: 04c741a5e04d956b443228727ce062fe050cce70
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,18 @@ Content Composer는 대화를 통한 교육 목표, 소스 자료 및 학습 목
 - **Adobe Learning Manager에 직접 게시**: 완료된 과정은 Adobe Learning Manager에 직접 게시됩니다. 별도의 제작 도구가 없으며 수동 SCORM 내보내기가 없습니다.
 - **단일 시스템 워크플로**: 과정 생성, 학습자 관리 및 보고가 하나의 플랫폼에서 유지되므로 여러 작성 및 전달 도구를 관리해야 하는 번거로움이 사라집니다.
 
+## 로그인하기 전
+
+>[!IMPORTANT]
+>
+>유효한 Adobe Creative Cloud 계정으로 로그인해야 합니다. 아직 계정이 없다면 Adobe Express을 통해 무료 계정을 만들 수 있습니다. 자세한 내용은 [무료 Adobe Express 계정 만들기](https://helpx.adobe.com/kr/express/web/adobe-express-subscription/free.html)를 참조하세요. Adobe 자격 증명을 만든 후 Content Composer를 실행하고 로그인하여 강의 생성을 시작합니다. 조직에 이미 Creative Cloud 구독이 있는 경우 Content Composer에 로그인하기 전에 관리자에게 문의하여 Creative Cloud 계정을 프로비저닝하십시오.
+
+
 ## 콘텐츠 컴포저 사용해 보기 {#trycontent-composer}
 
 첫 번째 과정을 빌드할 준비가 되셨습니까? Content Composer를 열고 일반 언어 프롬프트에서 바로 게시 준비 과정으로 이동합니다.
 
-[**콘텐츠 컴포저 사용해 보기**](https://contentcomposer-dev.adobe.io/)
+[**콘텐츠 컴포저 사용해 보기**](https://contentcomposer.adobe.io/)
 
 <!--
 [![Open Content Composer](/assets/CTA.png)](https://contentcomposer-dev.adobe.io/)
@@ -149,4 +156,4 @@ Content Composer는 대화를 통한 교육 목표, 소스 자료 및 학습 목
 
 필요한 건 다 갖고있어 콘텐츠 컴포저를 열고 첫 번째 과정을 빌드합니다.
 
-[**콘텐츠 컴포저 사용해 보기**](https://contentcomposer-dev.adobe.io/)
+[**콘텐츠 컴포저 사용해 보기**](https://contentcomposer.adobe.io/)

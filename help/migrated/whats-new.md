@@ -3,9 +3,9 @@ description: Adobe Learning Manager 2026년 8월 릴리스의 새로운 기능 �
 jcr-language: en_us
 title: Adobe Learning Manager 2026년 8월 릴리스의 새로운 기능
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 458d21d11bfcfb701dbd61b865411f80a306adc1
+source-git-commit: 659829ef14fb3aea67f6bd5f191c1051f1b93a66
 workflow-type: tm+mt
-source-wordcount: '2743'
+source-wordcount: '2673'
 ht-degree: 0%
 
 ---
@@ -163,11 +163,13 @@ Insights 에이전트는 책임자가 자연어 쿼리를 통해 학습 데이�
 
 자세한 내용은 [Insights 에이전트](/help/migrated/administrators/feature-summary/insights-agent.md)를 참조하세요.
 
-### Gen AI 크레딧
+<!--
+### Gen AI credits
 
-Adobe Learning Manager은 상담사 Orchestrator 라이선스와 연결된 크레딧 기반 시스템을 통해 관리되는 AI 기반 기능을 통합합니다. 이 시스템을 사용하려면 관리자가 청구 페이지를 통해 기능을 활성화하고, 크레딧 한도를 설정하고, 사용을 모니터링해야 합니다. Gen AI 기능을 활성화하려면 Active Agent Orchestrator 라이선스를 사용하여 Adobe Learning Manager 계정을 Adobe Admin Console 조직에 연결하는 것이 중요합니다.
+Adobe Learning Manager integrates AI-powered features managed through a credit-based system linked to Agent Orchestrator licenses. This system requires administrators to activate features, set credit limits, and monitor usage via the Billing page. Linking the Adobe Learning Manager account to an Adobe Admin Console organization with an active Agent Orchestrator license is essential for enabling Gen AI features.
 
-자세한 내용은 [Gen AI 크레딧](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits)을 참조하세요.
+View [Gen AI credits](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits) for more information.
+-->
 
 ## 채널 (Beta)
 
