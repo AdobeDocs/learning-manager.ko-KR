@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Learning Manager 주문 및 청구 정보 관리
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 659829ef14fb3aea67f6bd5f191c1051f1b93a66
 workflow-type: tm+mt
-source-wordcount: '3488'
-ht-degree: 38%
+source-wordcount: '2660'
+ht-degree: 49%
 
 ---
 
@@ -291,90 +291,92 @@ Gen AI 기능이 활성화되기 전에 Adobe Learning Manager 계정이 Adobe A
 
 활성 구독을 취소하려면 Learning Manager 지원팀에 문의하십시오.
 
-## Gen AI 크레딧 {#genaicredits}
+<!--
+## Gen AI credits {#genaicredits}
 
-### Gen AI 크레딧의 작동 방식
+### How Gen AI credits work
 
-Gen AI 크레딧은 학습자가 AI 기반 기능과 상호 작용할 때마다(예: AI 어시스턴트를 통해 질문을 하거나 개인화된 학습 추천을 생성할 때) 소비됩니다. 각 상호 작용이 시작되기 전에 Adobe Learning Manager은 크레딧이 사용 가능한지 확인합니다. 크레딧을 사용할 수 있는 경우 상호 작용이 진행됩니다. 균형이 소진된 경우 학습자에게 기능을 일시적으로 사용할 수 없다는 메시지가 표시됩니다.
+Gen AI credits are consumed each time a learner interacts with an AI-powered feature — for example, when asking a question through the AI Assistant or generating a personalized learning recommendation. Before each interaction begins, Adobe Learning Manager checks that credits are available. If credits are available, the interaction proceeds. If the balance has been exhausted, the learner sees a message that the feature is temporarily unavailable.
 
-크레딧은 Adobe Experience Platform 에이전트 Orchestrator 라이선스의 일부로 구매됩니다. 해당 라이선스는 Adobe Admin Console에서 관리되며, Adobe Learning Manager은 이에 자동으로 연결되어 사용 가능한 크레딧을 감지합니다.
+Credits are purchased as part of an Adobe Experience Platform Agent Orchestrator license. That license is managed in your Adobe Admin Console, and Adobe Learning Manager connects to it automatically to detect available credits.
 
-**크레딧 우선 순위 규칙:** Adobe Learning Manager 플랜에 번들로 제공되는 Gen AI 크레딧이 포함되어 있고 상담사 Orchestrator 라이선스도 있는 경우, 번들로 제공되는 크레딧이 먼저 사용됩니다. 번들형 크레딧이 소진된 후에만 상담사 Orchestrator 크레딧이 사용됩니다.
+**Credit priority rule:** If your Adobe Learning Manager plan includes bundled Gen AI credits and you also have an Agent Orchestrator license, the bundled credits are consumed first. Agent Orchestrator credits are used only after the bundled credits are exhausted.
 
-**공유 크레딧 풀:** 조직에 여러 개의 Adobe Learning Manager 계정이 모두 동일한 Adobe Admin Console 조직에 연결되어 있는 경우 모든 계정은 단일 공유 크레딧 풀에서 가져옵니다.
+**Shared credit pools:** If your organization has multiple Adobe Learning Manager accounts all linked to the same Adobe Admin Console organization, all accounts draw from a single shared credit pool.
 
 >[!IMPORTANT]
 >
->모든 Gen AI 기능은 기본적으로 꺼져 있습니다. 학습자가 액세스하려면 각 기능을 활성화하고 크레딧 사용 제한을 설정해야 합니다.
+>All Gen AI features are turned off by default. You must enable each feature and set a credit usage limit before learners can access it.
 
-### Gen AI 크레딧 탭에 액세스
+### Access the Gen AI Credits tab
 
-1. **[!UICONTROL 관리자]** > **[!UICONTROL 결제]**&#x200B;를 선택합니다.
-2. **[!UICONTROL 크레딧]** 탭을 선택합니다.
+1. Select **[!UICONTROL Admin]** > **[!UICONTROL Billing]**.
+2. Select the **[!UICONTROL Credits]** tab.
 
-**크레딧** 탭은 Gen AI 크레딧을 구매했거나 계정에서 이전에 활성화된 경우에만 표시됩니다. 탭이 표시되지 않는 경우 계정이 Active Agent Orchestrator 라이선스가 있는 Adobe Admin Console 조직에 연결되어 있는지 확인하십시오.
+The **Credits** tab is visible only when Gen AI credits have been purchased or were historically active on the account. If the tab is not visible, verify that your account is linked to an Adobe Admin Console organization that has an active Agent Orchestrator license.
 
-### Gen AI 기능 표
+### Gen AI Features table
 
-**AI 주요 기능** 표에는 계정에서 사용할 수 있는 모든 AI 기능이 나열됩니다.
+The **Gen AI Features** table lists every AI feature available on the account.
 
-| 열 | 설명 |
+| Column | Description |
 |---|---|
-| **기능 이름** | AI 기능의 이름입니다. 해당 기능의 설정 페이지로 이동하려면 이름을 선택하십시오. |
-| **상태** | 기능의 설정 여부 해당 설정 페이지에서 기능을 전환합니다. |
-| **최대 크레딧 사용 제한** | 이 기능이 약정 기간 동안 소비할 수 있는 최대 크레딧. 기능을 활성화하려면 먼저 설정해야 합니다. 학습자 관련 기능에만 적용됩니다. |
-| **사용된 크레딧** | 계약 시작일 이후 이 기능에서 소비된 총 크레딧이 실시간으로 업데이트됩니다. |
+| **Feature Name** | Name of the AI feature. Select the name to go to that feature's settings page. |
+| **Status** | Whether the feature is on or off. Toggle the feature from its settings page. |
+| **Max Credits Usage Limit** | Maximum credits this feature can consume during the contract period. Must be set before the feature can be enabled. Applies to learner-facing features only. |
+| **Credits Used** | Total credits consumed by this feature since the contract start date, updated in real time. |
 
-### Gen AI 기능 활성화
+### Enable a Gen AI feature
 
-1. **[!UICONTROL 크레딧]** 탭에서 **일반 AI 기능** 표에서 기능을 찾습니다.
-2. **최대 크레딧 사용 한도** 열에 이 기능이 약정 기간 동안 사용할 수 있는 최대 크레딧 수를 입력합니다.
-3. 기능 이름을 선택하여 해당 **기능 설정** 페이지로 이동하십시오.
-4. **기능 설정** 페이지에서 기능을 켭니다.
-5. 학습자와 카탈로그를 AI 길잡이에 할당하는 등의 추가 구성을 완료합니다.
+1. On the **[!UICONTROL Credits]** tab, locate the feature in the **Gen AI Features** table.
+2. In the **Max Credits Usage Limit** column, enter the maximum number of credits this feature can consume during the contract period.
+3. Select the feature name to go to its **Feature Settings** page.
+4. On the **Feature Settings** page, toggle the feature on.
+5. Complete any additional configuration, such as assigning learners and catalogs to the AI Assistant.
 
-### 크레딧이 소진되면 어떻게 됩니까?
+### What happens when credits run out
 
-- 기능이 **최대 크레딧 사용 제한**&#x200B;에 도달하면 학습자는 해당 기능을 일시적으로 사용할 수 없다는 메시지를 볼 수 있습니다. **크레딧** 탭에서 언제든지 한도를 올립니다.
-- 전체 계정 크레딧이 소진되면 추가 크레딧을 구매할 때까지 학습자에게 모든 Gen AI 기능이 작동하지 않습니다. 사용 현황 보고서 및 크레딧 지표는 관리자가 계속 액세스할 수 있습니다.
-- 크레딧이 모두 소진되었을 때 학습자가 상호 작용 중에 있으면 해당 상호 작용이 완료됩니다. 이후의 모든 상호 작용은 차단됩니다.
-- 관리자는 크레딧 한도를 구매한 크레딧 수보다 높게 설정할 수 있습니다. 초과 할당이 허용되며 갱신 시 트루업이 발생할 수 있습니다.
+- If a feature reaches its **Max Credits Usage Limit**, learners see a message that the feature is temporarily unavailable. Raise the limit at any time from the **Credits** tab.
+- If overall account credits are exhausted, all Gen AI features stop working for learners until additional credits are purchased. Usage reports and credit metrics remain accessible to admins.
+- If a learner is mid-interaction when credits are exhausted, that interaction completes. All subsequent interactions are blocked.
+- Admins can set a credit limit higher than the number of purchased credits. Over-allocation is permitted, and a true-up can happen at renewal.
 
-### 월별 크레딧 사용 차트
+### Monthly Credits Usage chart
 
-일반 AI 기능 테이블 아래 **월별 크레딧 사용량** 차트에서는 월별 기능당 소비된 크레딧을 보여 줍니다. 기본적으로 차트에는 상담사 Orchestrator 계약 시작 날짜를 기준으로 현재 계약 연도가 표시됩니다. **[!UICONTROL 다운로드]**&#x200B;를 선택하여 선택한 기간의 월별 보고서를 내보냅니다. 보고서 생성이 비동기적이므로 파일이 준비되면 인앱 알림과 이메일을 수신하게 됩니다.
+Below the Gen AI Features table, a **Monthly Credits Usage** chart shows credits consumed per feature per month. By default, the chart shows the current contract year period based on the Agent Orchestrator contract start date. Select **[!UICONTROL Download]** to export the monthly report for the selected period. Report generation is asynchronous — you receive an in-app notification and email when the file is ready.
 
-### Gen AI 사용 보고서
+### Gen AI usage reports
 
-Adobe Learning Manager은 **[!UICONTROL 보고서]** > **[!UICONTROL AI 보고서]**&#x200B;에서 두 가지 세대 AI 사용 보고서를 제공합니다.
+Adobe Learning Manager provides two Gen AI usage reports under **[!UICONTROL Reports]** > **[!UICONTROL AI Reports]**.
 
-**월별 크레딧 사용 보고서**
+**Monthly credits usage report**
 
-월별 기능당 소비된 크레딧을 표시합니다. 예산 계획 및 계약 갱신에 유용합니다.
+Shows credits consumed per feature per month. Useful for budget planning and contract renewal.
 
-- **열:**&#x200B;개월 | 기능 | 사용된 크레딧
-- **필터:** 하나 이상의 계약 기간에 걸친 날짜 범위를 선택합니다.
-- **다운로드:** 비동기 — 파일이 준비되면 인앱 알림과 이메일을 받습니다
+- **Columns:** Month | Feature | Credits Used
+- **Filter:** Select a date range spanning one or more contract periods
+- **Download:** Asynchronous — you receive an in-app notification and email when the file is ready
 
-**학습자 Gen AI 크레딧 사용 보고서**
+**Learner Gen AI credits usage report**
 
-각 상호 작용에서 사용한 기능과 점수를 학습자에게 보여 주는 감사 추적입니다.
+An audit trail showing which learners used which features and how many credits each interaction consumed.
 
-- **열:** 날짜 | 학습자 이름 | 학습자 전자 메일 | 기능 | 사용된 크레딧
-- **필터:** 감사하려는 날짜 범위를 선택합니다.
-- **다운로드:** 비동기 — 파일이 준비되면 인앱 알림과 이메일을 받습니다
+- **Columns:** Date | Learner Name | Learner Email | Feature | Credits Used
+- **Filter:** Select the date range you want to audit
+- **Download:** Asynchronous — you receive an in-app notification and email when the file is ready
 
-### 크레딧 사용 현황 알림
+### Credit usage alerts
 
-Adobe Learning Manager은 신용 소비가 주요 임계값을 초과하면 자동으로 통지합니다. 알림은 인앱 및 이메일로 전송됩니다.
+Adobe Learning Manager automatically notifies you when credit consumption crosses key thresholds. Notifications are delivered both in-app and by email.
 
-| 트리거 | 알림 |
+| Trigger | Notification |
 |---|---|
-| 계정 크레딧이 총 구매액의 90%에 도달 | 경고 - 크레딧이 계정 수준에서 거의 소진되었습니다. |
-| 계정 크레딧이 총 구매액의 100%에 도달 | 경고 - 모든 크레딧이 소비되고 학습자용 Gen AI 기능이 중단됩니다. |
-| 개별 최대 크레딧 사용 제한에 도달한 기능 | 경고 - 학습자에게 정지되는 특정 기능의 이름을 지정합니다 |
+| Account credits reach 90% of total purchased | Warning — credits are nearly exhausted at the account level |
+| Account credits reach 100% of total purchased | Alert — all credits are consumed and Gen AI features stop for learners |
+| A feature reaches its individual Max Credits Usage Limit | Alert — names the specific feature; that feature stops for learners |
 
-90% 경고가 수신되면 100% 임계값에 도달하기 전에 Adobe 계정 팀에 문의하여 크레딧을 추가로 구매합니다.
+When you receive a 90% warning, contact your Adobe account team to purchase additional credits before the 100% threshold is reached.
+-->
 
 ## 자주 묻는 질문 {#frequentlyaskedquestions}
 
