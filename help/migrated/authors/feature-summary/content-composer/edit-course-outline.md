@@ -2,9 +2,9 @@
 description: 전체 과정 생성을 커밋하기 전에 AI에서 생성한 강의 및 주제 구조를 검토합니다. 채팅 패널을 통해 변경 사항을 요청합니다. 대화형으로 강의 및 주제를 이름 바꾸기, 추가, 제거, 분할 또는 병합합니다.
 jcr-language: en_us
 title: 강의 개요 편집
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 강의 개요 편집
 
-    ![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
+![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
 
 Adobe Learning Manager Content Composer는 간략한 소스 파일에서 튜토리얼과 주제 구조를 생성합니다. 모든 강의와 해당 주제를 보여주는 윤곽선이 캔버스에 표시됩니다.
 
