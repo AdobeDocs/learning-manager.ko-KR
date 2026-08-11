@@ -1,9 +1,9 @@
 ---
 title: 라이브 허브 레이아웃 이해
 description: 컨트롤 막대, 참석자 패널, 채팅 패널, 브레이크아웃 패널 등 Live Hub 세션 회의실을 구성하는 패널 및 컨트롤에 대해 알아봅니다.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---

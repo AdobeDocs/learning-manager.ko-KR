@@ -1,15 +1,15 @@
 ---
-title: 모바일의 라이브 허브를 학습자로 사용
+title: 학습자로 모바일의 라이브 허브(베타) 사용
 description: 세션 가입에서 탈퇴까지 Adobe Learning Manager 모바일 앱에서 학습자가 사용할 수 있는 Live Hub 기능에 대해 알아봅니다.
-source-git-commit: 8d8b9e4c87f2d1ac476572929c9c66d0f709bd0d
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
 
 
-# 모바일의 라이브 허브를 학습자로 사용
+# 학습자로 모바일의 라이브 허브(베타) 사용
 
 Adobe Learning Manager 모바일 앱을 사용하여 iOS 또는 Android 디바이스에서 Live Hub 세션에 참여하고 참여할 수 있습니다. 세션 동안 강사 및 참가자와 상호 작용하고, 설문 조사 및 퀴즈에 응답하고, 소회의실에서 공동 작업하고, 모바일 디바이스에서 직접 공유 콘텐츠에 액세스할 수 있습니다.
 
