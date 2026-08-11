@@ -138,9 +138,9 @@ ht-degree: 0%
 
 학습자는 다음 두 가지 방법으로 라이브 허브 강의에 등록할 수 있습니다.
 
-1. **관리자**&#x200B;는 조직 요구 사항에 따라 학습자를 강의에 등록합니다. 자세한 내용은 [강의 인스턴스 및 학습 경로 만들기](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses)를 참조하세요.
+1. **관리자**&#x200B;는 조직 요구 사항에 따라 학습자를 강의에 등록합니다. 자세한 내용은 [강의 인스턴스 및 학습 경로 만들기](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/courses)를 참조하세요.
 
-1. 학습자는 **카탈로그** 페이지에서 직접 강의에 등록할 수 있습니다. 강의가 자가 등록으로 구성된 경우 학습자는 즉시 등록되며 **내 학습**&#x200B;에서 강의에 액세스할 수 있습니다. 자세한 내용은 [내 학습](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses)을 참조하세요.
+1. 학습자는 **카탈로그** 페이지에서 직접 강의에 등록할 수 있습니다. 강의가 자가 등록으로 구성된 경우 학습자는 즉시 등록되며 **내 학습**&#x200B;에서 강의에 액세스할 수 있습니다. 자세한 내용은 [내 학습](https://experienceleague.adobe.com/ko/docs/learning-manager/using/learner/courses)을 참조하세요.
 
 등록 후 학습자는 강의에 추가되고 Adobe Learning Manager 계정으로 알림을 받습니다. 계정의 전자 메일 알림 설정에 따라 학습자는 전자 메일을 통해 강의에 참여하라는 초대를 받을 수도 있습니다.
 
