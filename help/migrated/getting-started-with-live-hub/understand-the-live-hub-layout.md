@@ -1,15 +1,15 @@
 ---
-title: 라이브 허브 레이아웃 이해
+title: 라이브 허브(Beta) 레이아웃 이해
 description: 컨트롤 막대, 참석자 패널, 채팅 패널, 브레이크아웃 패널 등 Live Hub 세션 회의실을 구성하는 패널 및 컨트롤에 대해 알아봅니다.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
 
 
-# 라이브 허브 레이아웃 이해
+# 라이브 허브(Beta) 레이아웃 이해
 
 Adobe Learning Manager Live Hub의 세션 룸은 실시간 세션 중에 강사와 학습자가 효율적으로 공동 작업할 수 있도록 설계되었습니다. 레이아웃에는 오디오, 비디오, 참가자 및 인터랙션을 실시간으로 관리할 수 있도록 하는 여러 패널과 컨트롤이 포함되어 있습니다.
 

@@ -1,15 +1,15 @@
 ---
-title: 라이브 허브 세션 만들기
+title: 라이브 허브(Beta) 세션 만들기
 description: 라이브 허브 강의를 만들고, 강의 인스턴스를 추가하고, 강사 찾기 기능으로 강사를 할당하고, 학습자를 등록하고, 회의실 브랜딩을 사용자 정의하는 방법을 알아봅니다.
-source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 
-# 라이브 허브 세션 만들기
+# 라이브 허브(Beta) 세션 만들기
 
 라이브 허브를 사용하여 Adobe Learning Manager 과정 내에서 강사 주도 라이브 교육을 제공합니다. 라이브 허브 세션과 자가 진행식 콘텐츠를 결합하여 혼합 학습 경험을 만들 수 있습니다.
 
@@ -138,9 +138,9 @@ ht-degree: 0%
 
 학습자는 다음 두 가지 방법으로 라이브 허브 강의에 등록할 수 있습니다.
 
-1. **관리자**&#x200B;는 조직 요구 사항에 따라 학습자를 강의에 등록합니다. 자세한 내용은 [강의 인스턴스 및 학습 경로 만들기](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/courses)를 참조하세요.
+1. **관리자**&#x200B;는 조직 요구 사항에 따라 학습자를 강의에 등록합니다. 자세한 내용은 [강의 인스턴스 및 학습 경로 만들기](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses)를 참조하세요.
 
-1. 학습자는 **카탈로그** 페이지에서 직접 강의에 등록할 수 있습니다. 강의가 자가 등록으로 구성된 경우 학습자는 즉시 등록되며 **내 학습**&#x200B;에서 강의에 액세스할 수 있습니다. 자세한 내용은 [내 학습](https://experienceleague.adobe.com/ko/docs/learning-manager/using/learner/courses)을 참조하세요.
+1. 학습자는 **카탈로그** 페이지에서 직접 강의에 등록할 수 있습니다. 강의가 자가 등록으로 구성된 경우 학습자는 즉시 등록되며 **내 학습**&#x200B;에서 강의에 액세스할 수 있습니다. 자세한 내용은 [내 학습](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses)을 참조하세요.
 
 등록 후 학습자는 강의에 추가되고 Adobe Learning Manager 계정으로 알림을 받습니다. 계정의 전자 메일 알림 설정에 따라 학습자는 전자 메일을 통해 강의에 참여하라는 초대를 받을 수도 있습니다.
 
