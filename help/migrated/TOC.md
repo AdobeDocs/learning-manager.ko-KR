@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 2ce14029fdeb3ffcb3bcd974405ba9c8eed2dba6
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1652'
 ht-degree: 36%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 36%
   * [라이브 허브(베타) 시작하기](./getting-started-with-live-hub/getting-started-live-hub.md)
 * 책임자 {#admin}
   * 학습의 AI (Beta) {#ai-in-learning}
-    * [라이브 허브 활성화](./administrators/feature-summary/enable-live-hub.md)
+    * [라이브 허브(베타) 활성화](./administrators/feature-summary/enable-live-hub.md)
   * [Adobe Learning Manager의 Admin AI Assistant (Beta)](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
   * [Adobe Learning Manager의 Insights Agent (Beta)](/help/migrated/administrators/feature-summary/insights-agent.md)
   * [Learning Manager의 관리자로](administrators/feature-summary/user-login.md)
@@ -369,14 +369,14 @@ ht-degree: 36%
       * [세션 대시보드 보기](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [세션 대시보드의 구성 요소](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
   * [모범 사례](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
-  * [모바일의 라이브 허브를 학습자로 사용](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
+  * [학습자로 모바일의 라이브 허브(베타) 사용](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * 자주 묻는 질문 {#faq}
   * [관리자를 위한 자주 묻는 질문(FAQ)](administrators/frequently-asked-questions-for-administrators.md)
   * [작성자를 위한 자주 묻는 질문(FAQ)](authors/frequently-asked-questions-for-authors.md)
   * [강사를 위한 자주 묻는 질문](instructors/frequently-asked-questions-for-instructors.md)
   * [관리자를 위한 자주 묻는 질문(FAQ)](managers/frequently-asked-questions-for-managers.md)
   * [학습자를 위한 자주 묻는 질문(FAQ)](learners/frequently-asked-questions-for-learners.md)
-  * [라이브 허브 세션에 대해 자주 묻는 질문](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
+  * [라이브 허브(베타) 세션에 대해 자주 묻는 질문](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
   * [새로운 Experience 리그 공지 사항](/help/migrated/new-experience-league-announcement.md)
   * [Experience League에서 지원 티켓을 제출하는 방법](/help/migrated/how-to-submit-support-ticket.md)
   * [Adobe Learning Manager에서 체험판 계정 만들기](/help/migrated/create-trial-account.md)

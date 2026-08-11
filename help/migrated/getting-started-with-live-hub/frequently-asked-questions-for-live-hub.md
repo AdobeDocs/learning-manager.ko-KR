@@ -1,15 +1,15 @@
 ---
-title: Live Hub 자주 묻는 질문
+title: Live Hub (Beta) 자주 묻는 질문
 description: 관리자, 작성자, 강사 및 학습자를 위해 역할별로 구성된 Adobe Learning Manager 라이브 허브에 대해 자주 묻는 질문입니다.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '4473'
+source-wordcount: '4475'
 ht-degree: 0%
 
 ---
 
 
-# 라이브 허브에 대해 자주 묻는 질문
+# 라이브 허브(베타)에 대해 자주 묻는 질문
 
 <table>
  <tbody>
