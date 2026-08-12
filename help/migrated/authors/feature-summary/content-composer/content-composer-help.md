@@ -2,7 +2,7 @@
 title: Adobe Learning Manager Content Composer (Beta) 도움말
 description: 일반 언어 프롬프트에서 게시된 강의에 이르기까지 Adobe Learning Manager Content Composer는 강의 설계를 처리하므로 영향을 주는 높은 강의 콘텐츠를 만들어 학습자에게 필요한 사항에 집중할 수 있습니다.
 contentowner: saghosh
-source-git-commit: 04c741a5e04d956b443228727ce062fe050cce70
+source-git-commit: 04c9d7f773e84a9658f0ad014569b4463f4cc2cd
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Beta 기능에는 결함이 있을 수 있으며 어떠한 종류의 보증 없이 &quot;있는 그대로&quot; 제공됩니다. 베타 기능을 일반적으로 사용할 수 있도록 설정할지 여부는 Adobe에게 재량권이 있습니다. Adobe은 베타 기능을 유지, 수정, 업데이트, 변경, 수정 또는 기타 지원(Adobe 지원 서비스 등을 통해)할 의무가 없습니다. Beta 기능이 일반적으로 지원될 경우 해당 비용을 포함한 추가 약관이 적용될 수 있습니다. Beta 기능은 중단을 포함하여 예고 없이 변경될 수 있습니다. 고객은 주의해야 하며, Beta 기능의 중단되지 않거나 오류가 없는 기능 또는 성능에 어떤 방법으로도 의존하지 않는 것이 좋습니다. 따라서 베타 기능의 사용은 전적으로 고객 책임입니다. 기능의 발전에 따라 제품 기능 및 관련 설명서가 변경될 수 있습니다. 이 설명서는 현재 베타 경험을 반영하며 최종 또는 전체 제품 설명서로 간주해서는 안 됩니다.
 
-**몇 분 안에 개념에서 강의로**
+## 컨셉에서 강의까지 몇 분 안에 완료
 
 Adobe Learning Manager Content Composer는 사전 교수 디자인 경험 없이 일반 언어 프롬프트를 수업, 평가 및 미디어를 포함한 구조화된 게시 준비 과정으로 변환하는 AI 강의 제작 도구입니다.
 
@@ -34,14 +34,13 @@ Content Composer는 대화를 통한 교육 목표, 소스 자료 및 학습 목
 
 >[!IMPORTANT]
 >
->유효한 Adobe Creative Cloud 계정으로 로그인해야 합니다. 아직 계정이 없다면 Adobe Express을 통해 무료 계정을 만들 수 있습니다. 자세한 내용은 [무료 Adobe Express 계정 만들기](https://helpx.adobe.com/kr/express/web/adobe-express-subscription/free.html)를 참조하세요. Adobe 자격 증명을 만든 후 Content Composer를 실행하고 로그인하여 강의 생성을 시작합니다. 조직에 이미 Creative Cloud 구독이 있는 경우 Content Composer에 로그인하기 전에 관리자에게 문의하여 Creative Cloud 계정을 프로비저닝하십시오.
+>유효한 Adobe Creative Cloud 계정으로 로그인해야 합니다. 아직 계정이 없다면 Adobe Express을 통해 무료 계정을 만들 수 있습니다. 자세한 내용은 [무료 Adobe Express 계정 만들기](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html)를 참조하세요. Adobe 자격 증명을 만든 후 Content Composer를 실행하고 로그인하여 강의 생성을 시작합니다. 조직에 이미 Creative Cloud 구독이 있는 경우 Content Composer에 로그인하기 전에 관리자에게 문의하여 Creative Cloud 계정을 프로비저닝하십시오.
 
-
-## 콘텐츠 컴포저 사용해 보기 {#trycontent-composer}
+## 콘텐츠 컴포저 사용해 보기
 
 첫 번째 과정을 빌드할 준비가 되셨습니까? Content Composer를 열고 일반 언어 프롬프트에서 바로 게시 준비 과정으로 이동합니다.
 
-[**콘텐츠 컴포저 사용해 보기**](https://contentcomposer.adobe.io/)
+**[콘텐츠 컴포저 →](https://contentcomposer.adobe.io/)** 사용
 
 <!--
 [![Open Content Composer](/assets/CTA.png)](https://contentcomposer-dev.adobe.io/)
