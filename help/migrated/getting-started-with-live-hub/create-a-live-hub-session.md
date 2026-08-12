@@ -1,15 +1,15 @@
 ---
-title: 라이브 허브 세션 만들기
+title: 라이브 허브(Beta) 세션 만들기
 description: 라이브 허브 강의를 만들고, 강의 인스턴스를 추가하고, 강사 찾기 기능으로 강사를 할당하고, 학습자를 등록하고, 회의실 브랜딩을 사용자 정의하는 방법을 알아봅니다.
-source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 
-# 라이브 허브 세션 만들기
+# 라이브 허브(Beta) 세션 만들기
 
 라이브 허브를 사용하여 Adobe Learning Manager 과정 내에서 강사 주도 라이브 교육을 제공합니다. 라이브 허브 세션과 자가 진행식 콘텐츠를 결합하여 혼합 학습 경험을 만들 수 있습니다.
 

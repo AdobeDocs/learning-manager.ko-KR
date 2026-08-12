@@ -3,10 +3,10 @@ title: Adobe Learning Manager 사용자 가이드 시작
 description: Adobe Learning Manager(이전의 Adobe Captivate Prime)의 최신 제품에 대해 알아보십시오. 처음부터 시작하거나, 각 섹션을 개별적으로 방문하거나 또는 커뮤니티와 소통하면서 프로젝트를 진행할 수 있습니다.
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: 7df65804882833d8a840634d0d4007142e6a72de
+source-git-commit: 45a8a3fda16025d9a34d7614c899132a2b3d7922
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 30%
+source-wordcount: '151'
+ht-degree: 29%
 
 ---
 
@@ -52,7 +52,7 @@ Adobe Learning Manager(이전의 Adobe Captivate Prime)의 최신 제공 기능�
     <img alt="라이브 허브 시작하기" src="assets/getting-started-live-hub.png" width="150">
     </a>
     <div style="margin-top:12px; line-height:1.4;">
-    <a href="../migrated/getting-started-with-live-hub/getting-started-live-hub.md"><strong>라이브 허브 시작</strong></a>
+    <a href="../migrated/getting-started-with-live-hub/getting-started-live-hub.md"><strong>Live Hub(Beta) 시작하기</strong></a>
     </div>
    </td>
   </tr>

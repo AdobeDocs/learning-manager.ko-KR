@@ -1,9 +1,9 @@
 ---
-title: Live Hub에서 사전 참가 화면 설정
+title: 라이브 허브(Beta)에서 사전 참가 화면 설정
 description: Live Hub 사전 참가 화면의 작동 방법, 브라우저 권한 허용 방법, 세션에 참여하기 전에 오디오 및 카메라 컨트롤을 구성하는 방법에 대해 알아봅니다.
-source-git-commit: 99ec553a973ea24ab185e471a79e19fe159738d3
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
