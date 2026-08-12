@@ -4,10 +4,10 @@ title: Learning Manager에서 강의를 검색할 수 없음
 description: 학습자가 Learning Manager에서 강의를 검색할 수 없습니다.
 contentowner: nluke
 exl-id: 702aacb7-a0b9-48fb-8a3d-425bfea63f65
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 38f9b508ec91ee103d67f2e6e9716622b796b44b
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 55%
+source-wordcount: '308'
+ht-degree: 61%
 
 ---
 
@@ -29,7 +29,7 @@ Learning Manager에서 학습자가 학습 프로그램/인증을 통해 등록�
 
 따라서 학습자는 **내 학습**&#x200B;에서 독립 실행형 강의를 검색할 수 없습니다.
 
-그러나 학습자는 학습 프로그램/인증의 강의를 볼 수 없습니다.
+그러나 학습자는 학습 프로그램/인증에서 강의를 볼 수 있습니다.
 
 ## 시나리오 2: 학습자가 강의가 포함된 카탈로그에 액세스할 수 없습니다.
 
@@ -59,7 +59,7 @@ Learning Manager에서 학습자가 학습 프로그램/인증을 통해 등록�
 
    * 학습자가 카탈로그의 일부가 아님
 
-     카탈로그를 공유하려면 **[!UICONTROL 추가]**&#x200B;를 클릭하고 사용자가 속한 사용자 그룹을 추가합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+     카탈로그를 공유하기 위해서는 **[!UICONTROL 추가]**&#x200B;를 클릭하고 사용자가 속한 사용자 그룹을 추가합니다. **[!UICONTROL &#39;저장&#39;]**&#x200B;을 클릭합니다.
 
      ![](assets/cp-add-user-group.png)
 
