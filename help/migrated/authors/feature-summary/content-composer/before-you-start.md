@@ -2,9 +2,9 @@
 description: 강의에서 다루어야 할 일반적인 개념인 Content Composer를 사용해 보고 선택적으로 소스 문서에서 조직의 특정 콘텐츠에 AI를 넣으려면 Creative Cloud 구독을 통해 액세스할 수 있어야 합니다.
 jcr-language: en_us
 title: 시작하기 전에 필요한 사항
-source-git-commit: 456d4497c0c3cd5efca0350b57deeade4c87fb8b
+source-git-commit: fefb7d9b28633bd5c25d0fc80281d934e61cfbdf
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ Adobe Learning Manager Content Composer를 시작하기 전에 다음 사항을 
 >[!IMPORTANT]
 >
 >유효한 Adobe Creative Cloud 계정으로 로그인해야 합니다. 아직 계정이 없다면 Adobe Express을 통해 무료 계정을 만들 수 있습니다. 자세한 내용은 [무료 Adobe Express 계정 만들기](https://helpx.adobe.com/kr/express/web/adobe-express-subscription/free.html)를 참조하세요. Adobe 자격 증명을 만든 후 Content Composer를 실행하고 로그인하여 강의 생성을 시작합니다. 조직에 이미 Creative Cloud 구독이 있는 경우 Content Composer에 로그인하기 전에 관리자에게 문의하여 Creative Cloud 계정을 프로비저닝하십시오.
+
+콘텐츠 컴포저를 최대한 활용하려면 **Google Chrome이 권장되는 브라우저입니다**. Firefox와 Safari는 기능이나 동작에서 차이를 보일 수 있습니다.
 
 ## 선택적 요구 사항
 
