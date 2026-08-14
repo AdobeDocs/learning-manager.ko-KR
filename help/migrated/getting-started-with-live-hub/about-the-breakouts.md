@@ -1,9 +1,9 @@
 ---
 title: 라이브 허브의 브레이크아웃 정보
 description: 강사가 토론, 활동 및 공동 작업을 위해 라이브 허브 세션을 더 작은 그룹으로 분할하는 방법을 알아봅니다.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -84,11 +84,12 @@ ht-degree: 0%
 
 이렇게 하면 브레이크아웃 작업이 완료되고 세션 후 검토가 활성화됩니다.
 
-![소회의실 배포](assets/breakout-room-distribution.png "소회의실에서 학습자의 분포를 보여 주는 라이브 허브 인터페이스")
+![소회의실 배포](assets/breakout-room-distribution.png)
+*브레이크아웃 세션 레이아웃을 표시하는 Live Hub 인터페이스*
 
 ## 역할 및 권한
 
-강사와 학습자 모두 소회의실을 사용할 수 있습니다. 패널에서 사용할 수 있는 동작 및 컨트롤은 가상 교실 내에서 사용자의 역할에 따라 다릅니다.
+브레이크아웃은 Live Hub 세션 중에 강사와 학습자 모두가 사용할 수 있습니다. 사용 가능한 작업 및 컨트롤은 사용자의 역할에 따라 다릅니다.
 
 | **강사** | **학습자** |
 |----|----|

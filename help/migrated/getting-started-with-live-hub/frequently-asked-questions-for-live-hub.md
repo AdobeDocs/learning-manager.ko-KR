@@ -1,9 +1,9 @@
 ---
 title: Live Hub (Beta) 자주 묻는 질문
 description: 관리자, 작성자, 강사 및 학습자를 위해 역할별로 구성된 Adobe Learning Manager 라이브 허브에 대해 자주 묻는 질문입니다.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: 318e902efea08f9c728813ff5d43293f91b6d46d
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4473'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
  </tbody>
 </table>
 
-Live Hub에는 교육 워크플로우의 다른 부분을 담당하는 관리자, 작성자, 강사 및 학습자의 역할이 포함되어 있습니다. 이 문서는 원래 라이브 허브 FAQ 내용을 역할별로 다시 구성하여 각 사용자가 가장 관련성이 높은 질문을 빠르게 찾을 수 있도록 합니다.
+Live Hub에는 교육 워크플로우의 다른 부분을 담당하는 관리자, 작성자, 강사 및 학습자의 역할이 포함되어 있습니다. 이 문서에서는 역할별로 라이브 허브 FAQ를 구성하므로 각 사용자가 자주 묻는 질문에 빠르게 답할 수 있습니다.
 
 ## 책임자
 

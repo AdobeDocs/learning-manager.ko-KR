@@ -1,9 +1,9 @@
 ---
 title: 라이브 허브(Beta) 세션 만들기
 description: 라이브 허브 강의를 만들고, 강의 인스턴스를 추가하고, 강사 찾기 기능으로 강사를 할당하고, 학습자를 등록하고, 회의실 브랜딩을 사용자 정의하는 방법을 알아봅니다.
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 0%
    ![AI 도우미 패널 강사 Recommendations](assets/ai-assistant-panel-instructor-recommendations.png)
    *AI Assistant 패널을 사용하여 세션 세부 정보를 기반으로 강사 및 시간 슬롯 권장 사항을 가져옵니다.*
 
-1. 추천 강사 목록을 검토합니다. 강사 찾기 기능에서는 강의 스킬과 세션 요구 사항을 기준으로 강사를 추천합니다. Recommendations에서는 강사 가용성, 활용도 및 조직의 휴일 달력도 고려합니다. 자세한 내용은 **강사 관리**&#x200B;를 참조하세요.
+1. 추천 강사 목록을 검토합니다.
 
 1. 할당할 강사로 이동한 다음 **추가**&#x200B;를 선택합니다. <br> 선택한 강사가 **강사** 필드에 태그로 추가됩니다.
 
