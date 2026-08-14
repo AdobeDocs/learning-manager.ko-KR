@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1652'
 ht-degree: 36%
 
 ---
@@ -364,7 +364,7 @@ ht-degree: 36%
     * 녹음/녹화 및 대본{#recordings-and-transcripts}
       * [녹음/녹화 내용 및 대본 이해](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
       * [세션 기록](../migrated/getting-started-with-live-hub/record-a-session.md)
-      * [레코딩을 학습자로 보기](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
+      * [학습자로 세션 레코딩 보기](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
     * 세션 대시보드 {#session-dashboard}
       * [세션 대시보드 보기](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [세션 대시보드의 구성 요소](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
