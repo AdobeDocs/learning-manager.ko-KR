@@ -1,9 +1,9 @@
 ---
 title: 라이브 허브(베타) 시작하기
 description: Adobe Learning Manager의 라이브 허브를 통해 플랫폼 내에서 직접 강사 주도 라이브 교육 세션을 제공하는 방법을 살펴보세요.
-source-git-commit: 8078e00844d3b2d757e37d65b6b4c99ff04ab1b6
+source-git-commit: f9fed45f8818ff34ff4a4c6750a3659b6d4dc49d
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Live Hub는 다음을 수행할 수 있는 내장 가상 교육 솔루션입니�
 
 | **스테이지** | **주요 활동** |
 |---|---|
-| **사전 세션** | 관리자는 [시스템 요구 사항](./system-requirements-for-live-hub.md)이 충족되는지 확인하고 계정에 대해 [라이브 허브](../administrators/feature-summary/enable-live-hub.md)를 사용하도록 설정합니다. 또한 학습자를 강의에 등록할 수도 있습니다. 작성자 [라이브 허브 과정](create-a-live-hub-session.md)을 만들고 강사는 예정된 세션에 대한 [레이아웃 구성](./understand-the-live-hub-layout.md), 콘텐츠 및 대화형 활동을 통해 회의실을 준비합니다. |
+| **사전 세션** | 관리자는 [시스템 요구 사항](./system-requirements-for-live-hub.md)이 충족되는지 확인하고 계정에 대해 [라이브 허브](../administrators/feature-summary/enable-live-hub.md)를 사용하도록 설정합니다. 작성자 [Live Hub 과정](create-a-live-hub-session.md)을 만듭니다. 학습자가 과정에 직접 등록하거나 관리자가 등록할 수 있습니다. 강사는 예정된 세션을 위해 [레이아웃 구성](./understand-the-live-hub-layout.md), 콘텐츠 및 대화형 활동을 통해 회의실을 준비합니다. |
 | **세션 중** | 강사는 라이브 세션을 제공하고 [채팅](about-the-chat-panel.md), [설문 조사](./about-the-polls.md), [퀴즈](./about-the-quiz.md), [화이트보드](./about-the-whiteboard.md), [화면 공유](./about-the-screen-sharing.md) 및 [회의실](./about-the-breakouts.md)과 같은 기능을 사용하여 학습자를 참여시킵니다. 학습자는 세션 내내 이러한 활동에 참여하게 된다. 강사는 학습자가 나중에 볼 수 있도록 [세션을 기록](./record-a-session.md)할 수 있습니다. |
 | **사후 세션** | 강사는 세션 녹음, 출석 보고서 및 [참여 분석](./view-the-session-dashboard.md)을 검토하여 학습자의 참여를 평가하고 세션의 효과를 평가합니다. 학습자는 [주제 기반 기록](./view-recordings-as-a-learner.md) 보기를 통해 세션을 다시 방문하여 기록을 탐색 가능한 주제로 분할할 수 있습니다. 각 주제는 제목, 개요 및 메모로 표시되므로 보는 대신 임의의 주제로 이동하거나 읽을 수 있습니다. |
 
