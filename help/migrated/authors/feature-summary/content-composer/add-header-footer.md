@@ -17,7 +17,7 @@ ht-degree: 0%
 1. 도구 모음에서 **테마**&#x200B;를 선택한 다음 적용된 테마 위로 마우스를 가져간 다음 **편집**&#x200B;을 선택합니다.
 
 2. 강의에 헤더를 추가하려면 **헤더 추가** 토글을 켭니다.
-   ![ 테마 편집 패널에서 머리글 추가 및 바닥글 추가 토글](../assets/39_edit_theme_header_footer_toggles_updated.png)
+   ![&#x200B; 테마 편집 패널에서 머리글 추가 및 바닥글 추가 토글](../assets/39_edit_theme_header_footer_toggles_updated.png)
 
 3. **로고**&#x200B;에서 **추가**&#x200B;를 선택하여 헤더의 로고를 업로드합니다.
 
