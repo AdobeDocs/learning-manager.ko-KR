@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 98f84cf0fd338b0a7e4d51df43f2b03387ace19c
+source-git-commit: 3fa2129d55276bf566149b0616e48ae77939d1a7
 workflow-type: tm+mt
 source-wordcount: '1660'
 ht-degree: 36%
@@ -237,10 +237,10 @@ ht-degree: 36%
       * [Content Composer에서 효과적인 프롬프트 쓰기](authors/feature-summary/content-composer/write-effective-prompts.md)
     * 공유 및 공동 작업 {#share}
       * [콘텐츠 작성기 프로젝트에서 공유 및 공동 작업](authors/feature-summary/content-composer/share-collaborate.md)
-      * [검토할 프로젝트 공유](authors/feature-summary/content-composer/share-course-review.md)
-      * [학습자와 프로젝트 공유](authors/feature-summary/content-composer/share-course-learners.md)
-      * [공유 프로젝트 검토](authors/feature-summary/content-composer/review-shared-course.md)
-      * [검토 주석 관리 및 응답](authors/feature-summary/content-composer/manage-and-respond-comments.md)
+      * {hide-from-toc}[검토할 프로젝트 공유](authors/feature-summary/content-composer/share-course-review.md)
+      * {hide-from-toc}[학습자와 프로젝트 공유](authors/feature-summary/content-composer/share-course-learners.md)
+      * {hide-from-toc}[공유 프로젝트 검토](authors/feature-summary/content-composer/review-shared-course.md)
+      * {hide-from-toc}[검토 주석 관리 및 응답](authors/feature-summary/content-composer/manage-and-respond-comments.md)
     * 강의 설정 구성 {#settings}
       * [일반 과정 설정](authors/feature-summary/content-composer/general-course-settings.md)
       * [완료 및 성공 조건 설정](authors/feature-summary/content-composer/set-completion-success-criteria.md)

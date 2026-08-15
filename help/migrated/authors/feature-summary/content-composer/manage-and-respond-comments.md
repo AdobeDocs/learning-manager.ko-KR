@@ -2,7 +2,8 @@
 description: '콘텐츠 컴포저 댓글 패널에서 댓글을 보고 관리하는 방법(예: @ 를 사용하여 검토자를 회신, 해결, 언급, 검토자별 필터링, 시간 또는 상태, 댓글을 해결됨으로 표시)을 알아봅니다.'
 jcr-language: en_us
 title: 주석 관리 및 응답
-source-git-commit: eb764ba06a5807bead165cbfdbfec0367654ed08
+hide: true
+source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%

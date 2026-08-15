@@ -2,7 +2,8 @@
 description: 검토용으로 Content Composer 프로젝트를 공유하는 방법(검토자를 초대하고, 댓글을 수집하고, 액세스 권한을 관리하고, 제거되면 액세스 권한을 요청)을 알아봅니다.
 jcr-language: en_us
 title: 검토할 프로젝트 공유
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+hide: true
+source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%

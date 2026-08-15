@@ -1,8 +1,9 @@
 ---
 description: 강의를 탐색하고, 댓글을 추가하고, 다른 검토자에게 답글을 달고, 다른 검토자에 태그를 지정하는 방법 등 피드백을 위해 공유된 Content Composer 강의를 열고 검토하는 방법을 알아봅니다.
 jcr-language: en_us
-title: 공유 강의 검토
-source-git-commit: 92cefa03b21c2cf96a09f1f0f27df054cceaa80b
+title: 공유 프로젝트 검토
+hide: true
+source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
