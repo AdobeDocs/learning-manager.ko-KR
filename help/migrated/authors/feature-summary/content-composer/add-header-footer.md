@@ -1,10 +1,10 @@
 ---
-description: Content Composer 강의에 머리글과 바닥글을 추가하고, 머리글의 로고를 업로드하고, 업데이트된 테마를 저장하기 전에 캔버스의 변경 사항을 미리 보는 방법을 알아봅니다.
+description: Content Composer 강의에 머리글과 바닥글을 추가하고, 로고를 업로드하고, 토글을 활성화하고, 캔버스에서 테마 변경 내용을 실시간으로 미리 보는 방법을 알아봅니다.
 jcr-language: en_us
 title: 머리글 및 바닥글 추가
-source-git-commit: b7d67b494193163352947f255ef2c5be74e1bc30
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 1. 도구 모음에서 **테마**&#x200B;를 선택한 다음 적용된 테마 위로 마우스를 가져간 다음 **편집**&#x200B;을 선택합니다.
 
 2. 강의에 헤더를 추가하려면 **헤더 추가** 토글을 켭니다.
-   ![&#x200B; 테마 편집 패널에서 머리글 추가 및 바닥글 추가 토글](../assets/39_edit_theme_header_footer_toggles_updated.png)
+   ![ 테마 편집 패널에서 머리글 추가 및 바닥글 추가 토글](../assets/39_edit_theme_header_footer_toggles_updated.png)
 
 3. **로고**&#x200B;에서 **추가**&#x200B;를 선택하여 헤더의 로고를 업로드합니다.
 

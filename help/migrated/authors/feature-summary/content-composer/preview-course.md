@@ -1,10 +1,10 @@
 ---
-description: 미리 보기에는 적용된 테마, 대화형 구성 요소 및 답변 모드의 퀴즈와 함께 학습자가 경험하게 될 강좌가 정확하게 표시됩니다. 게시하기 전에 콘텐츠 및 인터랙션을 확인하는 데 사용합니다.
+description: 적용된 테마, 구성 요소 및 퀴즈를 활성화한 상태로 Content Composer 강의를 학습자가 볼 때와 똑같이 미리 보는 방법을 알아봅니다.
 jcr-language: en_us
 title: 강의 미리 보기
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---

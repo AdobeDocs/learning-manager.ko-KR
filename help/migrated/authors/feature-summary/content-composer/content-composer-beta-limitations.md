@@ -1,10 +1,10 @@
 ---
-description: 개요 편집, 평가 유형, 테마 사용자 정의 및 공동 작업에 대한 제한 사항을 포함하여 현재 Content Composer 베타 제한 사항을 검토하고, 각각에 대한 사용 가능한 해결 방법과 로드맵 상태를 살펴보십시오.
+description: 대화 전용 편집, MCQ/True-False-전용 퀴즈, 윤곽선 수정 등의 Content Composer 베타 제한 사항을 각 항목의 해결 방법을 사용하여 검토합니다.
 jcr-language: en_us
 title: 콘텐츠 작성기 베타 제한 사항
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---

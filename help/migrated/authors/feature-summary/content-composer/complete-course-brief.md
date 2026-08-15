@@ -1,10 +1,10 @@
 ---
-description: Brief 단계에서는 안내가 제공되는 대화를 통해 강의 제목, 학습자 프로필 및 학습 목표의 세 가지 입력을 캡처합니다. AI가 윤곽선을 생성하려면 세 필드 모두 완료해야 합니다.
+description: 아웃라인을 생성하기 전에 콘텐츠 컴포저 요약 단계를 완료하고 강의 제목을 설정하고 학습자를 정의하며 목표를 작성하는 방법을 알아봅니다.
 jcr-language: en_us
 title: 강의 요약
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
-description: 기존 문서, 정책 또는 데크를 업로드하여 조직 콘텐츠에 AI를 배치합니다. 생성을 해당 파일로만 제한할지 아니면 AI가 일반 지식을 사용하여 보완할지 선택합니다.
+description: 콘텐츠 컴포저에서 소스 파일을 업로드하고, AI 출력을 콘텐츠로 제한하고, 재질 변경 시 소스 파일을 업데이트하는 방법을 알아봅니다.
 jcr-language: en_us
 title: 소스 파일 관리
-source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ## 소스 자료를 사용하여 강의 생성
 
-1. 채팅 패널이나 도구 모음에서 **소스 관리** 또는 **파일 추가**&#x200B;를 선택합니다.
+1. 채팅 패널이나 도구 모음에서 **소스 관리** 또는 **파일 추가**를 선택합니다.
    ![](../assets/5_brief_manage_sources_prompt_updated.png)
 
-2. 대화 상자로 파일을 드래그하거나 **개 이상의 소스 파일 추가**&#x200B;를 선택하여 찾아봅니다. 여러 소스 파일을 추가할 수 있습니다.
+2. 대화 상자로 파일을 드래그하거나 **개 이상의 소스 파일 추가**를 선택하여 찾아봅니다. 여러 소스 파일을 추가할 수 있습니다.
    ![](../assets/6_manage_sources_no_files_added_updated.png)
 
-3. **출력을 파일의 콘텐츠로 제한**&#x200B;을 선택합니다. 이를 통해 콘텐츠 컴포저는 소스 콘텐츠만 사용하여 강의를 생성할 수 있습니다. 이 옵션을 선택하지 않으면 콘텐츠 컴포저는 웹을 사용하여 과정을 만들기도 합니다.
+3. **출력을 파일의 콘텐츠로 제한**을 선택합니다. 이를 통해 콘텐츠 컴포저는 소스 콘텐츠만 사용하여 강의를 생성할 수 있습니다. 이 옵션을 선택하지 않으면 콘텐츠 컴포저는 웹을 사용하여 과정을 만들기도 합니다.
    ![](../assets/7_manage_sources_file_uploading_restrict_output_updated.png)
 
 지원되는 형식:

@@ -1,10 +1,10 @@
 ---
-description: Content Composer와 Adobe Learning Manager에서 작성 및 전달 책임을 나누고, 완료한 과정을 Content Composer에서 ALM 콘텐츠 라이브러리로 이동하는 방법과, 게시 후 학습자의 추적 및 보고가 작동하는 방법에 대해 알아봅니다.
+description: Content Composer에서 작성을 처리하고 Adobe Learning Manager에서 게시 후의 전달, 추적 및 보고를 처리하는 방법을 살펴보세요.
 jcr-language: en_us
 title: Content Composer와 Adobe Learning Manager의 연동
-source-git-commit: 5a0f12b1ed0e5ae1bde7afbd539d70078d99f05d
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -59,14 +59,14 @@ ht-degree: 0%
 
 4.**ALM 과정 Publish:** ALM 작성자는 모듈을 ALM 과정으로 어셈블하고 과정 이미지와 설정을 추가한 다음 게시합니다. 이 단계를 완료해야만 학습자를 등록할 수 있습니다.
 
-자세한 내용은 [Adobe Learning Manager](https://experienceleague.adobe.com/ko/docs/learning-manager/using/get-started/getting-started-author)을 참조하세요.
-![&#x200B; 게시된 모듈 및 처리 모듈을 표시하는 Adobe Learning Manager의 콘텐츠 라이브러리](../assets/51_alm_content_library_list_view_updated.png)
+자세한 내용은 [Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-author)을 참조하세요.
+![ 게시된 모듈 및 처리 모듈을 표시하는 Adobe Learning Manager의 콘텐츠 라이브러리](../assets/51_alm_content_library_list_view_updated.png)
 
-자세한 내용은 [ALM에서 작성자로 강의 생성](https://experienceleague.adobe.com/ko/docs/learning-manager/using/authors/courses)을 참조하세요.
+자세한 내용은 [ALM에서 작성자로 강의 생성](https://experienceleague.adobe.com/en/docs/learning-manager/using/authors/courses)을 참조하세요.
 
 5.**학습자 과정 완료:** 학습자는 Adobe Learning Manager을 통해 과정에 액세스하고, Content Composer 모듈을 실행하고, 강의 및 퀴즈를 완료하며, 1단계에서 구성한 완료 및 성공 기준에 따라 점수를 받습니다.
 
-자세한 내용은 [학습자로 강의 액세스](https://experienceleague.adobe.com/ko/docs/learning-manager/using/get-started/getting-started-learner)를 참조하세요.
+자세한 내용은 [학습자로 강의 액세스](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-learner)를 참조하세요.
 
 6.ALM 학습자 진행률 기록: 완료 상태, 퀴즈 점수 및 학습자 데이터는 ALM에 기록되며 학습자 성적 증명서 및 관리 보고를 통해 사용할 수 있습니다.
 

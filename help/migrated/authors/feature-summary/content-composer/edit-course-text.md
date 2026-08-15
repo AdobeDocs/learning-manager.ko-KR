@@ -1,10 +1,10 @@
 ---
-description: 텍스트 요소를 선택하여 인라인 서식 지정 도구 모음을 활성화합니다. 캔버스에서 바로 본문 텍스트, 제목 및 레이블을 편집합니다. 제목을 선택하지 않고 도우미를 통해 강의와 항목의 이름을 변경합니다.
+description: 인라인 서식 도구 모음을 사용하여 콘텐츠 컴포저에서 강의 텍스트를 편집하는 방법과 도우미를 통해 강의 및 주제 이름을 변경하는 방법을 살펴보세요.
 jcr-language: en_us
 title: 강의 텍스트 편집
-source-git-commit: 9c9e683b3b99f64d33054d92e24e02385a6dc15f
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---

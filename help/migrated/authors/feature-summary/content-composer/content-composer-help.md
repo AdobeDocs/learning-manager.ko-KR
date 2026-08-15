@@ -1,10 +1,10 @@
 ---
 title: Adobe Learning Manager Content Composer (Beta) 도움말
-description: 일반 언어 프롬프트에서 게시된 강의에 이르기까지 Adobe Learning Manager Content Composer는 강의 설계를 처리하므로 영향을 주는 높은 강의 콘텐츠를 만들어 학습자에게 필요한 사항에 집중할 수 있습니다.
+description: Adobe Learning Manager Content Composer는 일반 언어 프롬프트를 AI를 사용하여 강의, 평가 및 미디어를 게시하기 쉬운 강의로 전환합니다.
 contentowner: saghosh
-source-git-commit: fc3affc155fd10bd74f4b11175bf76fe64ddf6d4
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Content Composer는 대화를 통한 교육 목표, 소스 자료 및 학습 목
 
 >[!IMPORTANT]
 >
->유효한 Adobe Creative Cloud 계정으로 로그인해야 합니다. 아직 계정이 없다면 Adobe Express을 통해 무료 계정을 만들 수 있습니다. 자세한 내용은 [무료 Adobe Express 계정 만들기](https://helpx.adobe.com/kr/express/web/adobe-express-subscription/free.html)를 참조하세요. Adobe 자격 증명을 만든 후 Content Composer를 실행하고 로그인하여 강의 생성을 시작합니다. 조직에 이미 Creative Cloud 구독이 있는 경우 Content Composer에 로그인하기 전에 관리자에게 문의하여 Creative Cloud 계정을 프로비저닝하십시오.
+>유효한 Adobe Creative Cloud 계정으로 로그인해야 합니다. 아직 계정이 없다면 Adobe Express을 통해 무료 계정을 만들 수 있습니다. 자세한 내용은 [무료 Adobe Express 계정 만들기](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html)를 참조하세요. Adobe 자격 증명을 만든 후 Content Composer를 실행하고 로그인하여 강의 생성을 시작합니다. 조직에 이미 Creative Cloud 구독이 있는 경우 Content Composer에 로그인하기 전에 관리자에게 문의하여 Creative Cloud 계정을 프로비저닝하십시오.
 
 >[!NOTE]
 >

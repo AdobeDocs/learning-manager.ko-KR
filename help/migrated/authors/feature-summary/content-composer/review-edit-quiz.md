@@ -1,10 +1,10 @@
 ---
-description: 각 질문이 테스트하는 주제에 태그가 지정되면 강의 끝에 점수를 매기는 퀴즈가 나타납니다. 질문 텍스트를 편집하고, 정답을 변경하거나, 점수를 할당하거나, AI에 질문을 다시 생성합니다.
+description: Content Composer에서 퀴즈 질문을 편집하는 방법(정답 변경, 점수 할당, 질문 삭제 또는 AI에 질문 다시 생성)을 알아봅니다.
 jcr-language: en_us
 title: 퀴즈 검토 및 편집
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---

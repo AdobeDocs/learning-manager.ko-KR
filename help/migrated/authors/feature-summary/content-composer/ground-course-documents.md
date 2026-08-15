@@ -1,10 +1,10 @@
 ---
-description: 정책, 절차 또는 덱을 업로드하고 AI를 해당 콘텐츠로만 제한합니다. 이렇게 하면 생성된 과정에 조직의 정확한 언어가 반영되며, 이는 규정 준수, 규정 준수 및 절차 기반 교육에 꼭 필요합니다.
+description: AI 출력을 정책, 절차 또는 데크로만 제한하여 문서에서 Content Composer 과정을 생성하는 방법을 알아봅니다.
 jcr-language: en_us
 title: 내 문서에 코스 그라운드를 만듭니다.
-source-git-commit: 7fffe3c9d7b001c5a75a27ffc54fcb4490caad63
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
