@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Manager 릴리스 정보
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
+source-git-commit: a3b1824c68247b73038b3226188f2b4b3fd9f8e6
 workflow-type: tm+mt
 source-wordcount: '34007'
 ht-degree: 65%
@@ -37,7 +37,7 @@ AI 프론트에서 학습자용 AI 어시스턴트는 강의 요약, 학습 객�
 
 WYSIWYG 구성 요소 기반의 이메일 템플릿 빌더, 역할 기반 액세스를 제공하는 계층적 콘텐츠 폴더 구조, 오프플랫폼 교육 제출 및 승인을 위한 외부 학습 기능, 엔터프라이즈 웹 페이지 및 컨플루언스 페이지에서 비디오 콘텐츠를 집계하는 새로운 채널 기능으로 콘텐츠 관리를 강화했습니다.
 
-자세한 내용은 [Adobe Learning Manager 2026년 8월 릴리스의 새로운 기능 및 변경된 기능](/help/migrated/whats-new.md)을 참조하세요.
+[Adobe Learning Manager 2026년 8월 릴리스의 새로운 기능 및 변경된 기능](/help/migrated/whats-new.md)에 대해 자세히 알아보세요.
 
 ## 릴리스의 변경 내용 깨뜨리기
 

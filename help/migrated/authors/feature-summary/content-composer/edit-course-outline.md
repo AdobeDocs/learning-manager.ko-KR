@@ -1,10 +1,10 @@
 ---
-description: 전체 과정 생성을 커밋하기 전에 AI에서 생성한 강의 및 주제 구조를 검토합니다. 채팅 패널을 통해 변경 사항을 요청합니다. 대화형으로 강의 및 주제를 이름 바꾸기, 추가, 제거, 분할 또는 병합합니다.
+description: 채팅 패널을 통해 Content Composer 강의 개요(이름 바꾸기, 추가, 제거, 분할 또는 병합)를 편집하는 방법을 알아봅니다.
 jcr-language: en_us
 title: 강의 개요 편집
-source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---

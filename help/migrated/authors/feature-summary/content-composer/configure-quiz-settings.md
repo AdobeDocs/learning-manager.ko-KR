@@ -1,10 +1,10 @@
 ---
-description: 콘텐트 컴포저에서 퀴즈 재시도 횟수, 시간 제한, 질문 순서 및 합격 점수를 설정합니다. 각 퀴즈 설정이 학습자 경험에 어떤 영향을 미치며, 점수가 LMS에 어떻게 보고되는지 알아보십시오.
+description: 콘텐츠 컴포저에서 퀴즈 재시도, 시간 제한, 질문 순서, 순서 섞기 및 SCORM 점수 설정을 구성하는 방법에 대해 알아봅니다.
 jcr-language: en_us
 title: 퀴즈 설정 구성
-source-git-commit: 4adddf525ba27f9e0c3c3234cfde2c472102a9db
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
-description: Content Composer와 Adobe Learning Manager에서 작성 및 전달 책임을 나누고, 완료한 과정을 Content Composer에서 ALM 콘텐츠 라이브러리로 이동하는 방법과, 게시 후 학습자의 추적 및 보고가 작동하는 방법에 대해 알아봅니다.
+description: Content Composer에서 작성을 처리하고 Adobe Learning Manager에서 게시 후의 전달, 추적 및 보고를 처리하는 방법을 살펴보세요.
 jcr-language: en_us
 title: Content Composer와 Adobe Learning Manager의 연동
-source-git-commit: 5a0f12b1ed0e5ae1bde7afbd539d70078d99f05d
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---

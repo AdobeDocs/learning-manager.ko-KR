@@ -1,10 +1,10 @@
 ---
-description: 구성 요소 선택기를 사용하여 기존 요소, 단락, 이미지, 비디오, 플립 카드, 아코디언, 타임라인, 탭, 캐러셀, MCQ 및 참/거짓 사이에 대화형 및 미디어 블록을 삽입합니다.
+description: 콘텐츠 컴포저에서 단락, 이미지, 비디오, 플립 카드, 아코디언, 타임라인, 탭, 캐러셀, MCQ 및 참/거짓 등 콘텐츠 블록을 추가하는 방법을 알아봅니다.
 jcr-language: en_us
 title: 콘텐츠 구성 요소 추가
-source-git-commit: b7d67b494193163352947f255ef2c5be74e1bc30
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---

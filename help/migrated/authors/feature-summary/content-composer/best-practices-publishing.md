@@ -1,10 +1,10 @@
 ---
-description: 완료 조건 구성 시기, 검색 가능성을 위한 모듈 이름 지정 방법, 강의 업데이트 전반에 걸친 버전 관리 방법을 포함하여 Content Composer를 Adobe Learning Manager에 연결하기 위한 모범 사례를 검토합니다.
+description: Content Composer에서 강의 생성(학습 목표 작성, 아웃라인 검토, AI 출력 제한, 구성 요소 사용)을 위한 모범 사례입니다.
 jcr-language: en_us
 title: Content Composer에서 ALM으로 게시하기 위한 모범 사례
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---

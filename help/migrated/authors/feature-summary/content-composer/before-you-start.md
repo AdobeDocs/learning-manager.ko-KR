@@ -1,10 +1,10 @@
 ---
-description: 강의에서 다루어야 할 일반적인 개념인 Content Composer를 사용해 보고 선택적으로 소스 문서에서 조직의 특정 콘텐츠에 AI를 넣으려면 Creative Cloud 구독을 통해 액세스할 수 있어야 합니다.
+description: Creative Cloud 계정, Google Chrome, AI를 안내하는 선택적 소스 문서 등 Content Composer를 시작하기 전에 필요한 사항을 알아봅니다.
 jcr-language: en_us
 title: 시작하기 전에 필요한 사항
-source-git-commit: fefb7d9b28633bd5c25d0fc80281d934e61cfbdf
+source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---

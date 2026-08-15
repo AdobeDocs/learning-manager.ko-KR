@@ -1,10 +1,10 @@
 ---
-description: 생성 후 강의 편집기가 자동으로 열립니다. 공유 또는 게시 전에 모든 콘텐츠, 텍스트, 이미지, 지식 확인 및 퀴즈를 검토합니다. AI 출력은 다를 수 있으며 작성자 확인이 필요합니다.
+description: AI 출력은 다를 수 있으므로 공유 또는 게시 전에 Content Composer의 강의 편집기에서 AI가 생성한 강의 콘텐츠를 검토하는 방법을 알아보십시오.
 jcr-language: en_us
 title: 생성된 과정 검토
-source-git-commit: 98b2d1829e0f61ca7c878677451b571dc45130c3
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---

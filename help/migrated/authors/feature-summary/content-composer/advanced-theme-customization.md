@@ -1,10 +1,10 @@
 ---
-description: 콘텐츠 컴포저의 고급 테마 속성을 사용하여 레슨 이름, 주제 이름, 블록 제목, 캡션, 단락 등의 개별 텍스트 요소를 세밀한 글꼴 및 스타일 컨트롤로 사용자 정의하는 방법을 살펴보세요.
+description: 콘텐츠 컴포저의 고급 테마 속성을 사용하여 머리글 및 텍스트 요소의 글꼴, 색상, 간격 및 레이아웃을 사용자 정의하는 방법을 살펴보세요.
 jcr-language: en_us
 title: 고급 테마 사용자 정의
-source-git-commit: 1fad4a773bfc5c32e47c034e6bf69d6c511b4920
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---

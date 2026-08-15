@@ -1,10 +1,10 @@
 ---
-description: 수동 SCORM 내보내기 없이 콘텐츠 컴포저를 Adobe Learning Manager에 연결하고, 게시 세부 정보를 구성하고, 완성된 과정을 모듈로 ALM 콘텐츠 라이브러리에 직접 배포하는 방법을 알아봅니다.
+description: Content Composer를 Adobe Learning Manager에 연결하고, 게시 세부 정보를 구성하고, 과정을 ALM 콘텐츠 라이브러리에 배포하는 방법에 대해 알아봅니다.
 jcr-language: en_us
 title: Adobe Learning Manager에 연결 및 게시
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---

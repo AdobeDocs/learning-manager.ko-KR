@@ -1,10 +1,10 @@
 ---
-description: 기존 문서, 정책 또는 데크를 업로드하여 조직 콘텐츠에 AI를 배치합니다. 생성을 해당 파일로만 제한할지 아니면 AI가 일반 지식을 사용하여 보완할지 선택합니다.
+description: 콘텐츠 컴포저에서 소스 파일을 업로드하고, AI 출력을 콘텐츠로 제한하고, 재질 변경 시 소스 파일을 업데이트하는 방법을 알아봅니다.
 jcr-language: en_us
 title: 소스 파일 관리
-source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
