@@ -1,12 +1,12 @@
 ---
-description: Adobe Learning Manager은 다중 SSO 구성을 통해 내부 및 외부 사용자에게 여러 가지 로그인 방식을 지원할 수 있습니다.
+description: Adobe Learning Manager에서는 다중 SSO 구성을 통해 내부 및 외부 사용자에게 여러 가지 로그인 방식을 지원할 수 있습니다.
 title: SSO 다중 로그인
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 'null'
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 38%
+source-wordcount: '806'
+ht-degree: 43%
 
 ---
 
@@ -44,10 +44,10 @@ SSO를 구성하려면 다음 단계를 따르십시오.
    * SSO의 이름을 입력합니다.
    * SSO-IDP 시작 또는 SP 시작 유형을 선택합니다.
 
-      * IDP 시작을 선택한 경우 IDP URL을 입력합니다. 이 URL은 응용 프로그램의 고유 식별자로 사용되는데, URL 정보는 IDP 서비스 제공자를 통해 입수할 수 있습니다. 모든 Adobe Learning Manager 사용자가 로그인한 후 리디렉션되는 URL입니다.
-      * IDP 공급자로부터 입수한 IDP 메타데이터 XML을 업로드합니다. 이 파일에는 Adobe Learning Manager가 SAML 검증 요청을 수락하는 데 사용할 수 있는 IdP에 관한 정보가 포함되어 있습니다.
-      * SP 시작을 선택한 경우 엔티티 ID를 입력합니다. 엔터티 ID는 서비스 공급자(SP)가 제공하는 URL입니다.
-      * SP 로그인 URL을 입력합니다. 이 URL은 사용자가 응용 프로그램에 로그인하는 데 사용됩니다.
+     * IDP 시작을 선택한 경우 IDP URL을 입력합니다. 이 URL은 응용 프로그램의 고유 식별자로 사용되는데, URL 정보는 IDP 서비스 제공자를 통해 입수할 수 있습니다. 모든 Adobe Learning Manager 사용자가 로그인한 후 리디렉션되는 URL입니다.
+     * IDP 공급자로부터 입수한 IDP 메타데이터 XML을 업로드합니다. 이 파일에는 Adobe Learning Manager가 SAML 검증 요청을 수락하는 데 사용할 수 있는 IdP에 관한 정보가 포함되어 있습니다.
+     * SP 시작을 선택한 경우 엔티티 ID를 입력합니다. 엔터티 ID는 서비스 공급자(SP)가 제공하는 URL입니다.
+     * SP 로그인 URL을 입력합니다. 이 URL은 사용자가 응용 프로그램에 로그인하는 데 사용됩니다.
 
 1. SSO 구성이 목록에 추가됩니다.
 

@@ -2,13 +2,13 @@
 title: Experience Builder 사용자 정의
 jcr-language: en_us
 description: Adobe Learning Manager에서 Experience Builder를 사용하여 학습자 경험을 심층 맞춤화하는 방법을 알아봅니다.
-source-git-commit: a6cd09ba81a41b389ed1ccbea22db6b1966a56e2
+exl-id: d8f36868-8e6d-4420-9fab-fadaf2fe31ef
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '963'
 ht-degree: 1%
 
 ---
-
 
 # Experience Builder 사용자 정의
 
@@ -61,19 +61,19 @@ ht-degree: 1%
 
 4. 아래 옵션을 선택하여 강의 정보와 관련된 세부 정보를 표시하거나 숨깁니다.
 
-   a. **[!UICONTROL 형식]**: 혼합/자가 진행식/강의실/가상 강의실: 학습 개체의 유형입니다.
-b. **[!UICONTROL 기간]**: 학습 개체의 기간입니다.
-c. **[!UICONTROL 스킬/제품]**: 강의 범위의 주요 스킬 또는 제품을 표시합니다.
-d. **[!UICONTROL 등급]**: 강의의 학습자 등급을 표시합니다.
-e. **[!UICONTROL 작성자 이름]**: 강의 작성자 이름을 표시합니다.
-f. **[!UICONTROL 설명(마우스를 위로 가져가면 표시됨)]**: 학습자가 카드 위에 마우스를 가져가면 강의에 대한 간단한 요약을 표시합니다.
-g. **[!UICONTROL 게시된 날짜/기한(마우스를 위로 가져가면 표시됨)]**: 강의가 게시된 시기 또는 완료 기한을 표시합니다.
+   a. **[!UICONTROL 형식]**: Blended/Self Paced/Classroom/Virtual Classroom: 학습 개체의 유형입니다.
+   b. **[!UICONTROL 기간]**: 학습 개체의 기간입니다.
+   c. **[!UICONTROL 스킬/제품]**: 강의 범위의 주요 스킬 또는 제품을 표시합니다.
+   d. **[!UICONTROL 등급]**: 강의의 학습자 등급을 표시합니다.
+   e. **[!UICONTROL 작성자 이름]**: 강의 작성자의 이름을 표시합니다.
+   f. **[!UICONTROL 설명(마우스를 위로 가져가면 표시됨)]**: 학습자가 카드 위에 마우스를 가져가면 강의에 대한 간단한 요약을 표시합니다.
+   g. **[!UICONTROL 게시된 날짜/기한(마우스를 위로 가져가면 표시됨)]**: 강의가 게시된 시기 또는 완료 기한을 표시합니다.
 
 5. 강의 조치와 관련된 세부 정보를 표시하거나 숨기려면 아래 옵션을 선택하십시오.
 
-   a. **[!UICONTROL 학습 목록에 추가 단추]**: 나중에 참조할 수 있도록 학습자가 강의를 개인 학습 목록에 저장할 수 있도록 허용합니다.
-b. **[!UICONTROL 저장 단추]**: 강의 설정 또는 환경 설정에 대한 변경 내용을 저장합니다.
-c. **[!UICONTROL 등록/계속 단추]**: 학습자가 새 강의에 등록하거나 이미 시작한 강의를 계속할 수 있도록 허용합니다. 이 옵션을 숨기면 그 옆에 나타나는 권장하지 않음 및 다운로드 작업도 제거됩니다.
+   a. **[!UICONTROL 학습 목록에 추가 단추]**: 나중에 참조할 수 있도록 학습자가 개인 학습 목록에 강의를 저장할 수 있습니다.
+   b. **[!UICONTROL 저장 단추]**: 강의 설정 또는 환경 설정에 대한 변경 내용을 저장합니다.
+   c. **[!UICONTROL 등록/계속 단추]**: 학습자가 새 강의에 등록하거나 이미 시작한 강의를 계속할 수 있도록 허용합니다. 이 옵션을 숨기면 그 옆에 나타나는 권장하지 않음 및 다운로드 작업도 제거됩니다.
 
    ![](assets/select-details-to-show.png)
    _Adobe Learning Manager에서 관리자가 학습자에게 표시할 정보와 동작을 선택하는 강의 타일 구성 화면_
@@ -364,7 +364,7 @@ _사용자 정의 후 영업 엔지니어 학습자 페이지_
 | 위젯 이름 | Css 컨테이너 |
 |---|---|
 | 달력 | alm-calendar-widget-container |
-| 범주 | alm-범주-위젯-컨테이너 |
+| 카테고리 | alm-범주-위젯-컨테이너 |
 | 범주 카드 | alm-category-card-container |
 | 규정 준수 | alm-compliance-container |
 | 과정 및 경로 | alm-course-path-widget-container |
@@ -372,5 +372,3 @@ _사용자 정의 후 영업 엔지니어 학습자 페이지_
 | 콘텐트 상자 | alm-custom-content-box-container |
 | 게임화 | alm-leaderboard-container |
 | 소셜 학습 | alm-social-learning-container |
-
-
