@@ -4,14 +4,13 @@ title: 수정된 템플릿에서 트리거된 전자 메일 링크로 인해 발
 description: 수정된 템플릿에서 트리거된 전자 메일 링크로 인해 발생한 Adobe Learning Manager 오류
 contentowner: nluke
 preview: true
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: a8fa64e1-aeab-4cb5-9bb0-7cfdad0aa389
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 73%
+source-wordcount: '220'
+ht-degree: 78%
 
 ---
-
-
 
 # 수정된 템플릿에서 트리거된 전자 메일 링크로 인해 발생한 Learning Manager 오류
 
@@ -48,6 +47,6 @@ HTTP 상태 400 - 잘못된 요청
    * 수정된 템플릿을 Notepad/Word 파일에 복사/붙여넣기 하여 변경 사항의 복사본을 저장합니다.
    * 파란색으로 강조 표시된 템플릿의 동적 텍스트는 변경하지 않습니다. 예: &quot;**조직 이름**&quot;, &quot;**학습자**&quot;, &quot;**여기를 클릭**&quot;, &quot;**인증서 이름**&quot; 등.
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 템플릿에 적용된 변경 내용을 확인합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 이 템플릿에 적용된 변경 사항을 확인합니다.
 1. 전자 메일을 트리거하여 링크가 예상한 대로 작동하는지 확인합니다.
 1. 수정된 템플릿에서 **원래로 돌아가기** 옵션을 클릭하여 설정을 원래대로 되돌립니다.

@@ -2,13 +2,13 @@
 title: Experience Builder에서 페이지 만들기
 description: Adobe Learning Manager 내에서 Experience Builder를 사용하여 새 페이지를 만드는 방법을 알아봅니다. 이 안내서에서는 템플릿 선택, 페이지 이름 지정, 페이지 속성 설정 및 사용자 정의 페이지 게시에 대해 다룹니다.
 jcr-langauge: en-us
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: eebaca0b-c490-41c8-a8be-9b2a0bc5ad2b
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 0%
 
 ---
-
 
 # Experience Builder에서 사용자 정의 페이지 만들기
 
@@ -105,14 +105,14 @@ Sales Training 사용자 정의 페이지에서 위젯을 구성하려면 다음
 
 3. **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
 4. **[!UICONTROL 작업 단추 레이블]**&#x200B;에 텍스트를 입력하고 링크를 제공합니다.
-5. 나머지 옵션을 구성합니다. [콘텐츠 상자 위젯](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#content-box-widget)에 대해 자세히 알아보려면 이 **[!UICONTROL 섹션]**&#x200B;을(를) 확인하세요.
+5. 나머지 옵션을 구성합니다. **[!UICONTROL 콘텐츠 상자 위젯]**&#x200B;에 대해 자세히 알아보려면 이 [섹션](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#content-box-widget)을(를) 확인하세요.
 
    ![](assets/content-box-configuration.png)
    위젯 구성 옵션을 보여 주는 _콘텐츠 상자 위젯 화면_
 
 6. 영업 엔지니어를 위한 **[!UICONTROL 콘텐츠 상자 위젯]** 구성 화면에 제목, 설명 및 작업 단추 레이블을 입력합니다.
 7. **[!UICONTROL 위젯 추가]**&#x200B;를 선택합니다.
-8. **[!UICONTROL 저장]**&#x200B;을 선택하고 다음 옵션 중 하나를 선택합니다.
+8. **[!UICONTROL 저장]**을 선택하고 다음 옵션 중 하나를 선택합니다.
 a. **[!UICONTROL 초안으로 저장]**: 페이지가 초안으로 저장됩니다. 관리자는 나중에 페이지를 편집할 수 있습니다.
 b. **[!UICONTROL 저장 및 Publish]**: 페이지가 게시되고 관리자가 이 페이지를 메뉴에 추가할 수 있습니다.
 
@@ -136,7 +136,7 @@ b. **[!UICONTROL 저장 및 Publish]**: 페이지가 게시되고 관리자가 �
    ![](assets/preview-the-page.png)
    _배너, 추천 코스가 있는 사용자 지정 페이지 레이아웃을 표시하는 페이지 미리 보기_
 
-6. 위젯의 높이와 폭을 보려면 Inspect 모드 를 선택합니다.
+6. 위젯의 Height 및 너비를 보려면 Inspect 모드 를 선택합니다.
 
    ![](assets/inspect-mode.png)
    _Inspect 모드가 있는 Experience Builder의 페이지 미리보기 화면이 강조 표시되어 관리자가 위젯을 검토하고 검사할 수 있습니다_

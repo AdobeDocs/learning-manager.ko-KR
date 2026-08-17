@@ -1,11 +1,11 @@
 ---
 title: 기본 확장성
-description: Adobe Learning Manager의 기본 버전 내에서 사용자 정의 경험을 설정하면 덜 복잡한 경우에도 헤드리스를 사용할 수 없습니다.
+description: 기본 버전의 Adobe Learning Manager에서 사용자 정의 경험을 설정하게 되면 덜 복잡한 경우에는 헤드리스를 사용할 수 없습니다.
 exl-id: 510bd00f-4f52-4705-817e-4ee73380ca90
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 48%
+source-wordcount: '760'
+ht-degree: 51%
 
 ---
 
@@ -110,21 +110,21 @@ Adobe Learning Manager는 책임자, 작성자, 학습자, 관리자 및 강사 
 
 1. 기본 확장 기능 페이지에서 **[!UICONTROL 확장 기능 구성 보고서]**&#x200B;를 선택합니다.
 
-   ![이미지 신고](assets/extension-config-report.png)
+   ![보고서 이미지](assets/extension-config-report.png)
    *확장 보고서 다운로드*
 
    보고서가 생성됩니다.
 
 1. 확인 을 선택합니다.
 
-   ![보고서 이미지 생성](assets/generating-report.png)
+   ![보고서 이미지 생성 중](assets/generating-report.png)
    *보고서 생성*
 
-    보고서에는 다음과 같은 필드가 포함됩니다.
+   보고서에는 다음과 같은 필드가 포함됩니다.
 
-   * 확장 이름
-   * 호출 점수
-   * 라벨
+   * 확장 기능 이름
+   * 호출 지점
+   * 레이블
    * URL에서 열기
    * 범위
    * 활성화
