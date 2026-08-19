@@ -1,9 +1,9 @@
 ---
 title: 채널 만들기 (Beta)
 description: Adobe Learning Manager에서 채널을 활성화, 생성 및 편집하여 웹 페이지 및 Confluence Cloud 페이지의 비디오 기반 학습 콘텐츠를 학습자가 검색할 수 있는 단일 위치로 가져오는 방법을 알아봅니다.
-source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
+source-git-commit: 4d41ac369f35e2a1de961288a5ded9c0c6af2c82
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 0%
 
 조직은 종종 지식 공유 세션, 교육 기록 및 기타 비디오 콘텐츠를 선별된 웹 및 Confluence Cloud 페이지에 저장합니다. 채널은 Adobe Learning Manager을 이러한 콘텐츠 소스에 연결하여 학습자가 여러 시스템을 탐색할 필요 없이 비디오를 더 쉽게 검색하고 소비할 수 있도록 합니다. 채널을 통해 기업 웹 페이지 및 Confluence Cloud 페이지에서 비디오 기반 학습 콘텐츠를 검색 가능한 단일 위치에 구성하고 공유할 수 있습니다. 학습자는 여러 내부 사이트에서 검색하는 대신 Adobe Learning Manager에서 직접 관련 레코딩을 검색하고 액세스할 수 있습니다. 자세한 내용은 [채널 검색 및 참여](../../learners/feature-summary/discover-and-engage-with-channels.md)를 참조하세요.
 
-책임자는 학습자가 채널에 액세스할 수 있도록 하기 전에 채널을 만들고 관리하고, 가시성 설정을 구성하고, 콘텐츠를 소스와 동기화하고, 비디오를 사용할 수 있는지 확인할 수 있습니다. 이 문서에서는 이러한 채널 관리 작업을 수행하는 방법에 대해 설명합니다.
+책임자는 학습자가 채널에 액세스할 수 있도록 하기 전에 채널을 만들고 관리하고, 가시성 설정을 구성하고, 콘텐츠를 소스와 동기화하고, 비디오를 사용할 수 있는지 확인할 수 있습니다. 지원되는 비디오 형식은 **MP4** 및 **WebM**&#x200B;입니다.
+
+이 문서에서는 이러한 채널 관리 작업을 수행하는 방법에 대해 설명합니다.
 
 **주요 이점**
 
