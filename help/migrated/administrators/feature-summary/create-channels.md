@@ -1,15 +1,19 @@
 ---
 title: 채널 만들기 (Beta)
 description: Adobe Learning Manager에서 채널을 활성화, 생성 및 편집하여 웹 페이지 및 Confluence Cloud 페이지의 비디오 기반 학습 콘텐츠를 학습자가 검색할 수 있는 단일 위치로 가져오는 방법을 알아봅니다.
-source-git-commit: 4d41ac369f35e2a1de961288a5ded9c0c6af2c82
+source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1283'
 ht-degree: 0%
 
 ---
 
 
 # 채널 만들기 (Beta)
+
+>[!IMPORTANT]
+>
+>Beta 기능에는 결함이 있을 수 있으며 어떠한 종류의 보증 없이 &quot;있는 그대로&quot; 제공됩니다. 베타 기능을 일반적으로 사용할 수 있도록 설정할지 여부는 Adobe에게 재량권이 있습니다. Adobe은 베타 기능을 유지, 수정, 업데이트, 변경, 수정 또는 기타 지원(Adobe 지원 서비스 등을 통해)할 의무가 없습니다. Beta 기능이 일반적으로 지원될 경우 해당 비용을 포함한 추가 약관이 적용될 수 있습니다. Beta 기능은 중단을 포함하여 예고 없이 변경될 수 있습니다. 고객은 주의해야 하며, Beta 기능의 중단되지 않거나 오류가 없는 기능 또는 성능에 어떤 방법으로도 의존하지 않는 것이 좋습니다. 따라서 베타 기능의 사용은 전적으로 고객 책임입니다. 기능의 발전에 따라 제품 기능 및 관련 설명서가 변경될 수 있습니다. 이 설명서는 현재 베타 경험을 반영하며 최종 또는 전체 제품 설명서로 간주해서는 안 됩니다.
 
 조직은 종종 지식 공유 세션, 교육 기록 및 기타 비디오 콘텐츠를 선별된 웹 및 Confluence Cloud 페이지에 저장합니다. 채널은 Adobe Learning Manager을 이러한 콘텐츠 소스에 연결하여 학습자가 여러 시스템을 탐색할 필요 없이 비디오를 더 쉽게 검색하고 소비할 수 있도록 합니다. 채널을 통해 기업 웹 페이지 및 Confluence Cloud 페이지에서 비디오 기반 학습 콘텐츠를 검색 가능한 단일 위치에 구성하고 공유할 수 있습니다. 학습자는 여러 내부 사이트에서 검색하는 대신 Adobe Learning Manager에서 직접 관련 레코딩을 검색하고 액세스할 수 있습니다. 자세한 내용은 [채널 검색 및 참여](../../learners/feature-summary/discover-and-engage-with-channels.md)를 참조하세요.
 

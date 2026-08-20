@@ -3,14 +3,13 @@ description: 커넥터를 사용하여 Salesforce와 Learning Manager를 통합�
 jcr-language: en_us
 title: Learning Manager 커넥터
 preview: true
-source-git-commit: 2317aa899a82abe24d38c4e40a06df3646fde310
+exl-id: 4920e32c-16ed-4f49-8d28-67be4e0ea0d1
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '6293'
-ht-degree: 72%
+source-wordcount: '6186'
+ht-degree: 83%
 
 ---
-
-
 
 # Learning Manager 커넥터
 
@@ -62,7 +61,7 @@ Salesforce 조직 URL이 있는지 확인하십시오. 예를 들어, 내가 속
 
    ![](assets/mouserover-salesforce.png)
 
-1. Org-url을 입력하라는 대화 상자가 나타납니다. URL을 제공한 후 **[!UICONTROL 연결]**&#x200B;을 클릭하세요.
+1. Org-url을 입력하라는 대화 상자가 나타납니다. URL을 입력하고 **[!UICONTROL &#39;연결&#39;]**&#x200B;을 클릭합니다.
 1. 연결이 되면 개요 페이지가 나타납니다.
 
 ## 맵 속성 {#mapattributes}
@@ -75,7 +74,7 @@ Salesforce 조직 URL이 있는지 확인하십시오. 예를 들어, 내가 속
 
    왼쪽에 표시된 Learning Manager의 열 데이터를 활성 필드에서 가져옵니다. **관리자** 필드는 반드시 전자 메일 주소 유형의 필드에 매핑되어야 합니다. 커넥터를 사용하기 전에 모든 열을 매핑하는 것은 필수입니다.
 
-1. 매핑을 완료한 후 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 매핑을 완료한 다음에는 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 커넥터를 사용할 준비가 되었습니다. 현재 구성된 계정은 책임자의 가져오기 예약 또는 주문형 동기화를 위해 책임자 앱 내에서 데이터 소스로 나타납니다.
 
 ## Salesforce 커넥터 사용 {#usingsalesforceconnector}
@@ -94,7 +93,7 @@ Learning Manager와 임시 외부 시스템을 통합하는 FTP 커넥터를 사
 
 **맵 속성**
 
-통합 책임자는 CSV 열을 선택하고 이를 Learning Manager의 그룹화 가능 속성에 매핑할 수 있습니다. 매핑은 한 번만 작업하면 됩니다. 한번 매핑을 완료하면 다음 사용자를 가져와도 동일한 매핑을 사용할 수 있습니다. 책임자가 사용자를 가져오기 위해 다른 매핑을 사용하려는 경우 매핑을 재구성할 수 있습니다.
+통합 책임자는 CSV 열을 선택하고 이를 Learning Manager의 그룹화 가능 속성에 매핑할 수 있습니다. 매핑은 한 번만 작업하면 됩니다. 한번 매핑을 완료하면 다음 사용자를 가져와도 동일한 매핑을 사용할 수 있습니다.책임자가 사용자를 가져오기 위해 다른 매핑을 사용하려는 경우 매핑을 재구성할 수 있습니다.
 
 ## 데이터 내보내기 {#exportdata}
 
@@ -114,12 +113,12 @@ Learning Manager를 FTP 커넥터와 통합하는 프로세스에 대해 학습�
 
    ![](assets/mouseover-ftpconnector.png)
 
-1. 이메일 아이디를 입력하라는 대화 상자가 나타납니다. 조직의 Learning Manager FTP 계정을 관리하는 담당자의 이메일 아이디를 입력합니다. 전자 메일 ID를 입력한 후 **[!UICONTROL 연결]**&#x200B;을 클릭하세요.
+1. 이메일 아이디를 입력하라는 대화 상자가 나타납니다. 조직의 Learning Manager FTP 계정을 관리하는 담당자의 이메일 아이디를 입력합니다. 이메일 아이디를 입력하고 **[!UICONTROL &#39;연결&#39;]**&#x200B;을 클릭합니다.
 1. Learning Manager에서 사용자에게 FTP 첫 액세스 전에 암호를 재설정하라는 이메일을 전송합니다. 사용자는 Learning Manager FTP 계정에 액세스하기 위해 암호를 재설정해야 합니다.
 
    지정된 Learning Manager 계정에 대해 하나의 Learning Manager FTP 계정만 생성할 수 있습니다.
 
-   개요 페이지에서 통합에 대한 연결 이름을 지정할 수 있습니다. 다음 옵션에서 원하는 활동을 선택하십시오.
+   개요 페이지에서 통합에 대한 커넥션 네임을 지정할 수 있습니다. 다음 옵션에서 원하는 활동을 선택하십시오.
 
    * 내부 사용자 가져오기
    * 사용자 스킬 내보내기 - 일정 구성
@@ -129,13 +128,13 @@ Learning Manager를 FTP 커넥터와 통합하는 프로세스에 대해 학습�
 
 ## 내부 사용자
 
-+++내부 사용자
++++가져오기
 
 내부 사용자 가져오기 옵션을 사용하면 사용자 가져오기 보고서 생성을 자동으로 예약할 수 있습니다. 생성된 보고서는 CSV 파일 형식으로 전송됩니다.
 
 +++
 
-+++Map 속성
++++맵 속성
 
 한 번 연결이 되면 FTP 폴더에 배치할 CSV 파일의 열을 Learning Manager의 해당 속성에 매핑할 수 있습니다. 이 과정은 꼭 필요합니다.
 
@@ -144,7 +143,7 @@ Learning Manager를 FTP 커넥터와 통합하는 프로세스에 대해 학습�
 
    *관리자 필드는 반드시 전자 메일 주소 유형의 필드에 매핑되어야 합니다. 커넥터를 사용하기 전에 모든 열을 매핑하는 것은 필수입니다.*
 
-1. 매핑을 완료한 후 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 매핑을 완료한 다음에는 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    커넥터를 사용할 준비가 되었습니다. 구성된 계정은 이제 책임자의 가져오기 예약 또는 주문형 동기화를 위해 책임자 앱 내에서 데이터 소스로 나타납니다.
 
@@ -152,7 +151,7 @@ Learning Manager를 FTP 커넥터와 통합하는 프로세스에 대해 학습�
 
 +++
 
-+++Learning Manager FTP 커넥터 사용
++++Learning Manager FTP 커넥터 사용하기
 
 1. 외부 시스템의 CSV 파일은 다음 경로에 배치되어야 합니다.
 
@@ -170,9 +169,9 @@ Learning Manager를 FTP 커넥터와 통합하는 프로세스에 대해 학습�
 
 +++
 
-## 내보내기
+## 스킬
 
-+++스킬
++++내보내기
 
 사용자 스킬 보고서를 내보낼 수 있는 방법은 두 가지가 있습니다.
 
@@ -223,7 +222,7 @@ Lynda 커넥터는 학습자가 Learning Manager 내의 Lynda 강의를 발견�
    커넥터를 구성하기 전에 계정에서 마이그레이션 기능을 사용할 수 있도록 먼저 설정하여 주십시오.
 
 1. 수정하길 원하는 연결을 클릭하십시오.
-1. 왼쪽 창에서 &#39;구성&#39;을 클릭합니다. 다음 중 하나를 실행합니다.
+1. 왼쪽 창에서 &#39;구성&#39;을 클릭합니다. 다음 중 하나를 수행합니다.
 
    * 이 창에서 계정의 세부 정보 및 동기화 예약을 보거나 편집합니다. 이 계정을 활성화하려면 연결 사용 확인란을 선택해야 합니다.
    * &#39;편집&#39;을 클릭하고 인증서를 수정합니다. 재설정을 클릭하여 이 영역에 대한 업데이트를 취소합니다.
@@ -278,7 +277,7 @@ getAbstract 커넥터는 학습자가 getAbstract의 내용을 확인하고 사�
 
    ![](assets/getabstractschedulepage.png)
 
-1. 왼쪽 창에서 &#39;구성&#39;을 클릭합니다. 다음 중 하나를 실행합니다.
+1. 왼쪽 창에서 &#39;구성&#39;을 클릭합니다. 다음 중 하나를 수행합니다.
 
    * 이 창에서 계정의 세부 정보 및 동기화 예약을 보거나 편집합니다. 이 계정을 활성화하려면 연결 사용 확인란을 선택해야 합니다.
    * &#39;편집&#39;을 클릭하고 인증서를 수정합니다. 재설정을 클릭하여 이 영역에 대한 업데이트를 취소합니다.
@@ -301,7 +300,7 @@ getAbstract 커넥터는 학습자가 getAbstract의 내용을 확인하고 사�
 
    모든 유형의 동기화가 작동하려면 동기화에 지정된 날짜에 대한 사용자 피드가 getAbstract FTP 폴더에 있어야 합니다.
 
-   getAbstract의 샘플 사용자 피드 파일인 다음 엑셀 시트를 참조합니다. 파일 이름은 다음 형식을 따라야 합니다:**&#x200B; report_export_yyyy_MM_dd_HHmmss.xlsx** 또는 **report_export_yyyy_MM_dd.xlsx**.
+   getAbstract의 샘플 사용자 피드 파일인 다음 엑셀 시트를 참조합니다. 파일 이름은 다음 형식을 따라야 합니다:**report_export_yyyy_MM_dd_HHmmss.xlsx** 또는 **report_export_yyyy_MM_dd.xlsx**.
    [getAbstract 사용자 피드 샘플 Excel 시트](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor 커넥터 {#hmmconnector}
@@ -327,7 +326,7 @@ Harvard ManageMentor 커넥터는 학습자가 Harvard ManageMentor 강의를 �
 
    ![](assets/hmm.png)
 
-1. 왼쪽 창에서 &#39;구성&#39;을 클릭합니다. 다음 중 하나를 실행합니다.
+1. 왼쪽 창에서 &#39;구성&#39;을 클릭합니다. 다음 중 하나를 수행합니다.
 
    * 이 창에서 계정의 세부 정보 및 동기화 예약을 보거나 편집합니다. 이 계정을 활성화하려면 연결 사용 확인란을 선택해야 합니다.
    * 동기화를 예약하려면 &#39;예약 사용&#39;을 클릭합니다. 시작 시간과 날짜를 입력한 다음 동기화 예약 빈도를 일 단위로 입력할 수 있습니다. 예를 들면, 3일마다 동기화가 되도록 설정할 수 있습니다.
@@ -385,9 +384,9 @@ Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적�
 ## Workday 커넥터 구성 {#configureworkdayconnector}
 
 **전제 조건**: 조직의 Workday 책임자에게 ISU_Permissions 문서에 정의된 권한을 갖는 ISU(Integration System User)를 생성해 달라고 요청하십시오. 아래 링크에서 복사본을 다운로드합니다.
-[ISU(Integration System User) 보안 복사본을 다운로드합니다.](assets/isu-permissions-v1.pdf) Learning Manager를 Workday 커넥터와 통합하는 방법을 알아봅니다.
+[ISU(Integration System User) 보안 복사본을 다운로드합니다.](assets/isu-permissions-v1.pdf) Learning Manager를 Workday 커넥터와 통합하는 프로세스에 대해 학습합니다.
 
-1. Learning Manager 홈 페이지에서 Workday 타일 위로 마우스를 가져갑니다. 그러면 메뉴가 나타납니다. 메뉴에 있는 **[!UICONTROL 연결]**&#x200B;항목을 클릭합니다.
+1. Learning Manager 홈 페이지에서 Workday 위로 마우스를 가져갑니다. 그러면 메뉴가 나타납니다. 메뉴에 있는 **[!UICONTROL 연결]**&#x200B;항목을 클릭합니다.
 
    ![](assets/workday-tile.png)
 
@@ -396,7 +395,7 @@ Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적�
    * 연결 이름: 원하는 연결의 이름을 지정합니다.
    * 호스트 URL: 통합 책임자는 해당 Workday 책임자로부터 호스트 URL 세부 정보를 가져올 수 있습니다.
    * 테넌트: 테넌트는 귀사 내부입니다. Workday 책임자가 테넌트 세부 정보를 제공합니다.
-   * 사용자 이름 및 암호: Workday 관리자는 필요한 보안 권한을 가진 ISU(통합 시스템 사용자)를 생성하고 통합 책임자와 공유합니다.
+   * 사용자 이름 및 암호: Workday 책임자는 필요한 보안 권한을 가진 ISU(통합 시스템 사용자)를 생성하고 통합 책임자와 공유합니다.
 
    참고: Learning Manager는 Workday API의 버전 28.1을 사용합니다.
 
@@ -406,7 +405,7 @@ Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적�
 
    또한 여러 Workday 연결을 Learning Manager 계정에 동기화할 수도 있습니다.
 
-개요 페이지에서 통합에 대한 연결 이름을 지정할 수 있습니다. 다음 옵션에서 원하는 활동을 선택하십시오.
+개요 페이지에서 통합에 대한 커넥션 네임을 지정할 수 있습니다. 다음 옵션에서 원하는 활동을 선택하십시오.
 
 * 내부 사용자 가져오기
 * 사용자 스킬 내보내기 - 일정 구성
@@ -428,9 +427,9 @@ Adobe Learning Manager 열 아래에 Adobe Learning Manager 자격 증명을 입
 
 ![](assets/map-attributes.png)
 
-Workday에는 4개의 계층 레벨이 있는 반면 Learning Manager에는 2개의 레벨이 있습니다. Workday의 네 가지 수준은 스킬 프로필 범주, 스킬 프로필, 스킬 항목 범주 및 스킬 항목입니다. 스킬 이름과 함께 Learning Manager의 레벨이 스킬 항목 아래에 Workday으로 매핑됩니다.
+Workday에는 4개의 계층 레벨이 있는 반면 Learning Manager에는 2개의 레벨이 있습니다. Workday 레벨은 스킬 프로필 카테고리, 스킬 프로필, 스킬 항목 카테고리, 스킬 항목, 이렇게 네 가지로 구성되어 있습니다. 스킬 이름과 함께 Learning Manager의 레벨이 스킬 항목 아래에 Workday으로 매핑됩니다.
 
-+++지원되는 Workday 속성 목록
++++지원하는 Workday 속성 목록
 
 wd:User_ID\
 wd:Worker_ID\
@@ -459,15 +458,15 @@ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Position_Title\
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Title\
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Name\
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.@wd:Formatted_Address\
-wd:Job_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1.$\
-wd:Job_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1.$\
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1.$\
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1.$\
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1.$\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Active\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Retired\
-wd:Employment_Data.wd:Worker_Status_Data.wd:Retival_Date\
+wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Terminated\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Last_Day_of_Work\
@@ -486,7 +485,7 @@ wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Manageme
 
 사용자가 달성한 모든 스킬을 Learning Manager에서 Workday로 내보낼 수 있습니다. 참고: 모든 활성 사용자 스킬만 내보내고 Learning Manager는 비활성화된 스킬을 내보내지 않습니다. 또한 여러 Learning Manager 계정을 동일한 Workday 커넥터에 연결할 수도 있습니다. 두 Learning Manager 계정에서 스킬 이름이 동일한 경우, Workday에서 동일한 스킬에 매핑됩니다. 두 Learning Manager 계정이 동일한 Workday 계정을 사용하는 경우 Workday에서 스킬을 업데이트하기 전에 모든 Learning Manager 계정의 스킬 이름을 업데이트하는 것이 좋습니다.
 
-+++사용자 스킬 - 구성
++++사용자 스킬 내보내기 - 일정 구성
 
 이 옵션을 사용하면 보고서 추출 스케줄을 지정할 수 있습니다. 이 연결을 사용하여 사용자 스킬 내보내기 확인란이 활성화되어 있는지 확인합니다. 예약 사용 확인란을 선택하고 시작 날짜와 시간을 지정합니다. 보고서를 생성하고 전송하는 시간 간격을 지정할 수도 있습니다. 예약 사용 확인란을 선택하고 시작 날짜와 시간을 지정하십시오. &#39;저장&#39;을 클릭합니다.
 
@@ -494,7 +493,7 @@ wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Manageme
 
 +++
 
-+++사용자 스킬 - 주문형
++++사용자 스킬 - 온디맨드
 
 온디맨드: 이 옵션을 사용하면 시작 날짜를 지정하고 보고서를 내보낼 수 있습니다. 보고서는 입력된 날짜로부터 현재 날짜까지 추출됩니다. 보고서 생성을 시작할 날짜를 입력하고 실행을 클릭합니다.
 
@@ -528,7 +527,7 @@ Learning Manager와 miniOrange 테넌트를 통합하는 miniOrange 커넥터를
 
 Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적용할 수 있습니다. 예를 들면, Learning Manager 책임자는 하나 이상의 특정 관리자 아래에 있는 모든 등급의 사용자를 가져올 수 있습니다.
 
-설정하려면   미니오렌지   Learning Manager CSM 팀으로 문의해 주십시오.
+miniOrange 커넥터를 설정하려면 Learning Manager CSM 팀에 문의하십시오.
 
 ## miniOrange 커넥터 구성 {#configureminiorangeconnector}
 
@@ -544,7 +543,7 @@ Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적�
 
    ![](assets/import-users.png)
 
-1. 매핑 페이지의 왼쪽   옆에는 Learning Manager 열이 표시되고 오른쪽에는   옆에는 miniOrnage 열이 있습니다. Learning Manager의 열 이름에 매핑할 적절한 열 이름을 선택합니다.
+1. 매핑 페이지의 왼쪽에는 Learning Manager의 열이 표시되고 오른쪽에는 미니 조직 열이 표시됩니다. Learning Manager의 열 이름에 매핑할 적절한 열 이름을 선택합니다.
 
    ![](assets/map-attributes.png)
 
@@ -562,7 +561,7 @@ Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적�
 
 ## BlueJeans 커넥터 {#bluejeansconnector}
 
-이제 Learning Manager를 BlueJeans 커넥터와 통합하고 BlueJeans를 사용하여 클래스를 호스트할 수 있습니다. BlueJeans를 사용하여 오디오 및 비디오 회의, 화상 채팅, 웨비나를 시작할 수 있습니다.
+이제 Learning Manager와 BlueJeans 커넥터를 통합하고 BlueJeans를 사용하여 클래스를 호스트할 수 있습니다. BlueJeans를 사용하여 오디오 및 비디오 회의, 화상 채팅, 웨비나를 시작할 수 있습니다.
 
 커넥터를 설정하고 사용하려면 다음 단계를 수행합니다.
 
@@ -570,7 +569,7 @@ Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적�
 
    ![](assets/miniorange.png)
 
-1. BlueJeans 커넥터 페이지에 들어갑니다. 사용자 피드의 동기화를 위해 Learning Manager와 BlueJeans를 통합하기 위해 각 필드에 계정의 세부 정보를 입력합니다. 자세한 내용은 BlueJeans 계정 책임자에게 문의하십시오.
+1. BlueJeans 커넥터 페이지에 들어갑니다. 사용자 피드 동기화를 위해 Learning Manager와 BlueJeans를 통합하려면 해당 필드에 계정의 세부 정보를 입력합니다. 자세한 내용은 BlueJeans 계정 책임자에게 문의하십시오.
 
    ![](assets/bluejeans-connecotrpage.png)
 
@@ -580,7 +579,7 @@ Learning Manager 책임자는 사용자를 가져오기 전에 필터링을 적�
 
    ![](assets/conferencing-systems.png)
 
-1. 책임자, 관리자 및 학습자는 학습자를 생성된 과정에 등록할 수 있습니다. 등록 후에 학습자는 이메일을 받습니다. 학습자는 Learning Manager 계정에 로그인하여 프로그램 세부 정보를 보고 과정을 수강할 수 있습니다.
+1. 책임자, 관리자 및 학습자는 학습자를 생성된 과정에 등록할 수 있습니다. 등록 후에 학습자는 이메일을 받습니다. 학습자는 Learning Manager 계정에 로그인하여 프로그램 세부 정보를 보고 강의를 수강할 수 있습니다.
 1. 과정을 마치면 완료 보고서가 Learning Manager로 전송됩니다. 책임자는 완료 보고서를 보고 학습자의 출석 및 점수를 확인할 수 있습니다.
 
    ![](assets/-attendence-and-scoringreport.png)
@@ -597,7 +596,7 @@ Learning Manager와 임시 외부 시스템을 통합하는 BOX 커넥터를 사
 
 **맵 속성**
 
-통합 책임자는 CSV 열을 선택하고 이를 Learning Manager의 그룹화 가능 속성에 매핑할 수 있습니다. 매핑은 한 번만 작업하면 됩니다. 한번 매핑을 완료하면 다음 사용자를 가져와도 동일한 매핑을 사용할 수 있습니다. 책임자가 사용자를 가져오기 위해 다른 매핑을 사용하려는 경우 매핑을 재구성할 수 있습니다.
+통합 책임자는 CSV 열을 선택하고 이를 Learning Manager의 그룹화 가능 속성에 매핑할 수 있습니다. 매핑은 한 번만 작업하면 됩니다. 한번 매핑을 완료하면 다음 사용자를 가져와도 동일한 매핑을 사용할 수 있습니다.책임자가 사용자를 가져오기 위해 다른 매핑을 사용하려는 경우 매핑을 재구성할 수 있습니다.
 
 ## 데이터 내보내기 {#dataexport}
 
@@ -615,13 +614,13 @@ Learning Manager를 Box 커넥터와 통합하는 프로세스에 대해 학습�
 
    ![](assets/screen-shot-2017-10-25at54426pm.png)
 
-1. 이메일 아이디를 입력하라는 대화 상자가 나타납니다. 조직의 Learning Manager Box 계정 관리 담당자의 이메일 아이디를 제공합니다. 이메일 아이디를 입력하고 &#39;연결&#39; 을 클릭합니다.
+1. 이메일 아이디를 입력하라는 대화 상자가 나타납니다. 조직의 Learning Manager Box 계정 관리 담당자의 이메일 아이디를 제공합니다. 이메일 ID를 입력하고 &#39;연결&#39; 클릭합니다.
 
 1. Learning Manager에서 사용자에게 Box 첫 액세스 전, 암호를 재설정하라는 메시지가 있는 이메일을 전송합니다. 사용자는 Learning Manager Box 계정에 액세스하기 위해 암호를 재설정해야 합니다.
 
    지정된 Learning Manager 계정에 대해 하나의 Learning Manager Box 계정만 생성할 수 있습니다.
 
-   개요 페이지에서 통합에 대한 연결 이름을 지정할 수 있습니다. 다음 옵션에서 원하는 활동을 선택하십시오.
+   개요 페이지에서 통합에 대한 커넥션 네임을 지정할 수 있습니다. 다음 옵션에서 원하는 활동을 선택하십시오.
 
    * 내부 사용자 가져오기
    * 사용자 스킬 내보내기 - 일정 구성
@@ -635,17 +634,17 @@ Learning Manager를 Box 커넥터와 통합하는 프로세스에 대해 학습�
 
 +++
 
-+++Map 특성
++++맵 속성
 
 한 번 연결이 되면 Box 폴더에 위치한 CSV 파일의 열을 Learning Manager의 해당 속성에 매핑할 수 있습니다. 이 과정은 꼭 필요합니다.
 
-1. 맵 속성 페이지의 왼쪽에서   옆에는 Learning Manager의 예상 열이 표시되고 오른쪽에는   옆에는 CSV 열 이름이 표시됩니다. 처음에 오른쪽에는 빈 선택 상자가 표시됩니다. &#39;파일 선택&#39;을 클릭하여 CSV 템플릿을 가져옵니다.
+1. 맵 속성 페이지의 왼쪽에는 Learning Manager의 예상 열을 볼 수 있으며, 오른쪽에는 CSV 파일의 열 이름이 표시됩니다. 처음에 오른쪽에는 빈 선택 상자가 표시됩니다. &#39;파일 선택&#39;을 클릭하여 CSV 템플릿을 가져옵니다.
 
 1. 위의 단계에서는 모든 CSV 열 이름으로 오른쪽 선택 드롭다운 목록을 채웁니다. Learning Manager의 열 이름에 매핑할 적절한 열 이름을 선택합니다.
 
    *관리자 필드는 반드시 전자 메일 주소 유형의 필드에 매핑되어야 합니다. 커넥터를 사용하기 전에 모든 열을 매핑하는 것은 필수입니다.*
 
-1. 매핑을 완료한 후 저장 을 클릭합니다.
+1. 매핑을 완료한 후 &#39;저장&#39;을 클릭합니다.
 
    커넥터를 사용할 준비가 되었습니다. 구성된 계정은 이제 책임자의 가져오기 예약 또는 주문형 동기화를 위해 책임자 앱 내에서 데이터 소스로 나타납니다.
 
@@ -668,13 +667,13 @@ Learning Manager를 Box 커넥터와 통합하는 프로세스에 대해 학습�
 
 +++
 
-## 내보내기
+## 스킬
 
-+++스킬
++++내보내기
 
 사용자 스킬 보고서를 내보낼 수 있는 방법은 두 가지가 있습니다.
 
-사용자 스킬 - 온디맨드: 이 옵션을 사용하여 시작 날짜를 지정하고 보고서를 내보낼 수 있습니다. 보고서는 입력된 날짜부터 현재까지의 추출됩니다
+사용자 스킬 - 온디맨드: 이 옵션을 사용하여 시작 날짜를 지정하고 보고서를 내보낼 수 있습니다.보고서는 입력된 날짜로부터 현재 날짜까지 추출됩니다.
 
 **[!UICONTROL 사용자 스킬 - 구성]**: 이 옵션을 사용하면 보고서 추출을 예약할 수 있습니다. 예약 사용 확인란을 선택하고 시작 날짜와 시간을 지정합니다. 보고서를 생성하고 전송하는 시간 간격을 지정할 수도 있습니다.
 
@@ -686,11 +685,11 @@ Box 위치에서 내보낸 파일이 있는 내보내기 폴더를 열기 위해
 
 자동으로 내보낸 파일은 **skill_achievements_&#42;날짜:&#42;_부터_&#42;날짜:&#42;.csv**&#x200B;까지 사용할 수 있습니다.
 
-Learning Manager 팀이 공유하는 Box 폴더의 액세스 권한 및 콘텐츠는 고객이 관리해야 합니다.  또한 폴더의 콘텐츠는 프랑크푸르트 지역에 물리적으로 저장됩니다.
+고객은 Learning Manager 팀이 공유하는 Box 폴더의 액세스 권한과 내용을 관리합니다.  또한 폴더의 콘텐츠는 프랑크푸르트 지역에 물리적으로 저장됩니다.
 
 ## LinkedInLearning 커넥터 {#linkedinlearningconnector}
 
-LinkedInLearning 커넥터는 학습자가 Learning Manager에서 과정을 확인하고 이용하길 원하는 LinkedIn 기업용 고객이 사용할 수 있습니다. API 키를 사용하면 과정을 정기적으로 가져오도록 커넥터를 구성할 수 있습니다. Learning Manager에서 강의를 한 번 생성하고 나면 사용자는 생성한 강의를 찾거나 수료할 수 있습니다. 그런 다음 Learning Manager에서 학습자 진행 상황을 확인할 수 있습니다.
+LinkedInLearning 커넥터는 학습자가 Learning Manager에서 과정을 확인하고 이용하길 원하는 LinkedIn 기업용 고객이 사용할 수 있습니다. API 키를 사용하면 과정을 정기적으로 가져오도록 커넥터를 구성할 수 있습니다. Learning Manager에서 과정을 한 번 생성하고 나면 사용자는 생성한 과정을 찾거나 수료할 수 있습니다. 그런 다음 Learning Manager에서 학습자 진행 상황을 확인할 수 있습니다.
 
 ### LinkedIn 커넥터 구성 {#configurelinkedinconnector}
 
@@ -715,7 +714,7 @@ LinkedInLearning 커넥터는 학습자가 Learning Manager에서 과정을 확�
    커넥터를 구성하기 전에 계정에서 마이그레이션 기능을 사용할 수 있도록 먼저 설정하여 주십시오.
 
 1. 수정하길 원하는 연결을 클릭하십시오.
-1. 왼쪽 창에서 &#39;구성&#39;을 클릭합니다. 다음 중 하나를 실행합니다.
+1. 왼쪽 창에서 &#39;구성&#39;을 클릭합니다. 다음 중 하나를 수행합니다.
 
    * 이 창에서 계정의 세부 정보 및 동기화 예약을 보거나 편집합니다. 이 계정을 활성화하려면 연결 사용 확인란을 선택해야 합니다.
    * &#39;편집&#39;을 클릭하고 인증서를 수정합니다. 재설정을 클릭하여 이 영역에 대한 업데이트를 취소합니다.
@@ -733,4 +732,3 @@ LinkedInLearning 커넥터는 학습자가 Learning Manager에서 과정을 확�
    연결을 삭제하고 다시 생성하면 커넥터에 대한 이전 실행이 다시 나타납니다. 연결을 삭제하기 전에는 모든 실행을 볼 수 있습니다.
 
    최신 동기화에 대해서만 재실행을 수행할 수 있습니다.
-
