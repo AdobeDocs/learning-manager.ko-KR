@@ -2,8 +2,7 @@
 description: Content Composer에서 학습자 링크를 생성하는 방법, 해당 링크를 통해 액세스할 수 있는 학습자, 추적된 배달을 위해 직접 링크를 공유하지 않고 Adobe Learning Manager에 게시해야 하는 이유를 알아보십시오.
 jcr-language: en_us
 title: 학습자와 강의 공유
-hide: true
-source-git-commit: babcf60fe3c1a8dddcd9f0c5871e406727c5ddf7
+source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
