@@ -2,13 +2,13 @@
 title: Experience Builder의 위젯
 jcr-language: en_us
 description: Adobe Learning Manager Experience Builder의 위젯이 모듈식 구성 가능한 블록으로 사용자 정의 학습 페이지를 구축하는 방법을 알아봅니다. 콘텐츠 상자, 카탈로그, 배너와 같은 위젯을 추가, 구성 및 정렬하여 코딩 없이 인터랙티브한 브랜드 경험을 제작할 수 있습니다.
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: 5e179d28-d89e-4524-9610-98b22934bca4
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 0%
+source-wordcount: '480'
+ht-degree: 1%
 
 ---
-
 
 # 개요
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 | 위젯 | 설명 | 사용 사례 |
 |---|---|---|
-| [일정](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-calendar-widget) | 예정된 이벤트, 교육 세션, 기한 또는 워크샵을 일정 형식으로 표시합니다. | 학습자에게 예정된 학습, 실시간 이벤트 또는 마감일에 대한 알림을 계속 보냅니다. |
+| [달력](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-calendar-widget) | 예정된 이벤트, 교육 세션, 기한 또는 워크샵을 일정 형식으로 표시합니다. | 학습자에게 예정된 학습, 실시간 이벤트 또는 마감일에 대한 알림을 계속 보냅니다. |
 | [범주](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-category-widget) | 카탈로그, 제품 또는 역할의 학습 콘텐츠를 범주로 표시합니다. | 사용자가 주제, 부서 또는 스킬 영역별로 교육을 탐색할 수 있도록 지원합니다. |
 | [준수 상태](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-compliance-status-widget) | 할당된 강의에 대한 학습자의 준수 또는 인증 상태를 표시합니다. | 필수 학습 요구 사항 준수를 모니터링하고 전달합니다. |
 | [과정 및 경로](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-courses-and-paths-widget) | 사용자에게 적합한 추천 강의 및 학습 경로를 표시합니다. | 학습자에게 관련 과정과 경력 개발 경로를 안내한다. |
@@ -51,4 +51,3 @@ ht-degree: 0%
 | [Iframe](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-iframe-widget) | 인터페이스 내에 외부 웹 페이지나 응용 프로그램을 포함합니다. | 플랫폼을 종료하지 않고도 외부 콘텐츠 또는 도구를 표시할 수 있습니다. |
 | [내 학습](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-my-learning-widget) | 학습자의 진행 중인 강의 및 진행 상황에 대한 개인화된 보기를 표시합니다. | 학습자가 강의 완료 및 학습 목표를 추적할 수 있도록 도와줍니다. |
 | [소셜 학습](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-social-learning-widget) | 포럼, 토론, 그룹 또는 소셜 공동 작업 도구에 대한 액세스를 제공합니다. | 동료의 상호 작용, 공동 작업 및 지식 공유를 장려합니다. |
-
