@@ -3,9 +3,9 @@ description: Adobe Learning Manager 2026년 8월 릴리스의 새로운 기능 �
 jcr-language: en_us
 title: Adobe Learning Manager 2026년 8월 릴리스의 새로운 기능
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: f5a988186fdc44d64389ad850af57bde10b728e9
+source-git-commit: 5820baa285787af20e7257001b4fb35337d5972a
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2644'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Live Hub는 조직이 매력적이고 영향력 있는 라이브 학습을 제�
 
 Insights 에이전트는 책임자가 자연어 쿼리를 통해 학습 데이터를 분석하는 데 도움이 됩니다. 등록 트렌드, 완료율, 학습자 참여, 스킬 격차에 대해 질문합니다. 에이전트는 이에 대한 응답으로 보고서 및 시각화를 생성합니다.
 
-자세한 내용은 [Insights 에이전트](/help/migrated/administrators/feature-summary/insights-agent.md)를 참조하세요.
+[Insights 에이전트](/help/migrated/administrators/feature-summary/insights-agent.md)에 대해 자세히 알아보세요.
 
 <!--
 ### Gen AI credits
