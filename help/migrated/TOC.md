@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
+source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1651'
 ht-degree: 36%
 
 ---
@@ -233,8 +233,6 @@ ht-degree: 36%
       * [이미지 편집 또는 추가](authors/feature-summary/content-composer/edit-add-image.md)
       * [콘텐츠 구성 요소 추가](authors/feature-summary/content-composer/add-content-component.md)
       * [강의 미리 보기](authors/feature-summary/content-composer/preview-course.md)
-    * 효과적인 프롬프트 쓰기 {#write-effective-prompt}
-      * [Content Composer에서 효과적인 프롬프트 쓰기](authors/feature-summary/content-composer/write-effective-prompts.md)
     * 공유 및 공동 작업 {#share}
       * [콘텐츠 작성기 프로젝트에서 공유 및 공동 작업](authors/feature-summary/content-composer/share-collaborate.md)
       * [검토할 프로젝트 공유](authors/feature-summary/content-composer/share-course-review.md)
