@@ -2,13 +2,13 @@
 title: Adobe Learning Manager Experience Builder의 핵심 구성 요소
 description: 메뉴, 페이지, 위젯을 비롯한 Experience Builder의 세 가지 핵심 구성 요소에 대해 자세히 알아보십시오.
 jcr-language: en-us
-source-git-commit: a6cd09ba81a41b389ed1ccbea22db6b1966a56e2
+exl-id: 9b1da75a-d47b-496d-9e6e-40ca27daee20
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 5%
 
 ---
-
 
 # Experience Builder의 핵심 구성 요소
 

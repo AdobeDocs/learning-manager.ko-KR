@@ -2,13 +2,13 @@
 title: Experience Builder에서 메뉴를 만들고 사용자 정의하는 방법
 description: 이 안내서에서는 관리자가 Adobe Learning Manager 내의 Experience Builder에서 메뉴를 만드는 방법에 대해 설명합니다. 페이지를 메뉴로 구성하고, 메뉴 레이아웃을 사용자 정의하고, 다양한 사용자 그룹에 대한 메뉴 가시성을 제어하는 방법에 대해 알아봅니다.
 jcr-language: en-us
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+exl-id: a9eaf86e-a4b8-4ae2-9873-ab76d8807168
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
-
 
 # 메뉴 만들기
 
@@ -87,4 +87,3 @@ _카탈로그, 소셜 학습, 스킬 및 배지와 같은 숨겨진 페이지를
 ## 새로운 기능
 
 페이지, 위젯 및 메뉴를 설정한 후 JavaScript 및 CSS를 사용하여 사용자 정의를 추가하여 전반적인 학습자 환경을 개선합니다.
-
