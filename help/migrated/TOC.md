@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
+source-git-commit: 49f7d7db50dc06675c2fb4c4894e80867cc593d7
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1670'
 ht-degree: 36%
 
 ---
@@ -39,7 +39,9 @@ ht-degree: 36%
   * [Adobe Learning Manager에서 지원되는 언어](/help/migrated/languages-supported.md)
   * [Adobe Learning Manager에서 API 사용 중단 및 변경 사항](api-deprecations-list.md)
   * [Adobe Learning Manager 추천](recommendations-adobe-learning-manager.md)
-  * [Adobe Learning Manager에서 화이트레이블 지정](white-label.md)
+  * [Adobe Learning Manager의 화이트레이블 지정](white-label.md)
+* 릴리스의 기능 가용성 {#feature-availability}
+  * [기능 가용성: 2026년 8월 릴리스](/help/migrated/feature-availability-aug-2026.md)
 * 시작하기 {#get-started}
   * [OpenID Connect로 Adobe Learning Manager 로그인](/help/migrated/oidc.md)
   * [관리자로 시작하기](administrators/feature-summary/getting-started-admin.md)
@@ -158,7 +160,8 @@ ht-degree: 36%
   * [학습 프로그램](administrators/feature-summary/learning-programs.md)
   * [제품 용어](administrators/feature-summary/product-terminology.md)
 * 통합 책임자 {#integration}
-  * [응용 프로그램 개발자 설명서](integration-admin/feature-summary/developer-manual.md)
+  * [응용 프로그램 개발자 설명서](/help/migrated/integration-admin/feature-summary/developer-manual.md)
+  * [iFrame을 사용한 학습자 도우미 통합](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md)
   * [마이그레이션 설명서](integration-admin/feature-summary/migration-manual.md)
   * Learning Manager 커넥터 {#connectors}
     * [커넥터 개요](integration-admin/feature-summary/connectors.md)
@@ -271,6 +274,7 @@ ht-degree: 36%
   * [프로필 설정](learners/feature-summary/settings.md)
   * [카탈로그](learners/feature-summary/catalogs.md)
   * [원클릭 등록](learners/feature-summary/learner-one-click-enrollment.md)
+  * {hide-from-toc}[내가 저장한 위젯](learners/feature-summary/saved-by-me-widget.md)
   * [내 학습](learners/feature-summary/courses.md)
   * {hide-from-toc}[적응형 과정](learners/feature-summary/adaptive-course-learner.md)
   * [Fluidic Player](learners/feature-summary/fluidic-player.md)

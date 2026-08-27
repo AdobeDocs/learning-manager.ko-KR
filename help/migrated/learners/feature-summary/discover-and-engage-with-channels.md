@@ -1,9 +1,9 @@
 ---
 title: 채널 탐색 및 참여
 description: Adobe Learning Manager의 채널을 통해 제공되는 비디오 콘텐츠를 찾고, 구독하고, 보고, 좋아요를 누르고, 토론에 참여하는 방법에 대해 알아보십시오.
-source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
+source-git-commit: cb49d8e4159c7dc8650ef4c981d24f3507bfff93
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,10 @@ ht-degree: 0%
 1. Adobe Learning Manager에 로그인합니다.
 
 1. 상단 탐색 막대에서 **채널**&#x200B;을 선택합니다.
+
+   >[!NOTE]
+   >
+   >탐색 모음에서 **채널** 탭을 볼 수 없는 경우 관리자에게 문의하십시오.
 
    <br> **채널** 페이지가 열리고 기본적으로 **모두** 탭이 표시됩니다.
 
