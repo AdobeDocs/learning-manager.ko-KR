@@ -3,9 +3,9 @@ title: Experience Builder에서 위젯 추가 및 구성
 description: Adobe Learning Manager 내의 Experience Builder에서 다양한 위젯을 추가, 사용자 정의 및 구성하는 방법을 알아보십시오. 이 안내서에서는 달력, 범주, 준수 상태, 강의 및 경로, 게임화, HTML 콘텐츠, IFrames, 소셜 학습 등과 같이 일반적으로 사용되는 위젯을 다룹니다.
 jcr-language: en-us
 exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
-source-git-commit: 30372b696921be9e896f947e96683b72587f1323
+source-git-commit: 45909026b58b7c094c22856e2213f44111b7ecb2
 workflow-type: tm+mt
-source-wordcount: '2495'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 ![](assets/configure-course-paths.png)
 _강의 및 경로 위젯. 여기서 관리자는 위젯 제목, 설명을 설정하고 대화형 카드로 표시할 강의 또는 학습 경로를 선택합니다._
-&#x200B;11. **[!UICONTROL 위젯 추가]**&#x200B;를 선택합니다.
+11. **[!UICONTROL 위젯 추가]**&#x200B;를 선택합니다.
 
 강의 및 경로 위젯이 페이지에 추가됩니다. 책임자는 다른 위젯을 추가하고 페이지를 게시할 수 있습니다.
 
@@ -315,57 +315,53 @@ Iframe 위젯이 페이지에 추가됩니다. 책임자는 다른 위젯을 추
 
 내 학습 위젯이 페이지에 추가됩니다. 책임자는 다른 위젯을 추가하고 페이지를 게시할 수 있습니다.
 
-<!--
+## 내가 저장함 위젯 {#bookmark-widget}
 
-## Saved by me widget {#bookmark-widget}
+**내가 저장함** 위젯은 학습자가 나중에 사용할 수 있도록 책갈피를 표시한 강의, 학습 경로, 인증 및 작업 지원을 표시합니다. 이렇게 하면 학습자가 카탈로그를 다시 검색할 필요 없이 저장된 것으로 표시한 콘텐츠를 한 곳에서 찾을 수 있습니다.
 
-The **Saved by me** widget displays courses, Learning Paths, certifications, and job aids that a learner has bookmarked for later. It gives learners a single place to find content they have marked as saved without needing to search the catalog again. 
+관리자는 페이지에 **내가 저장함** 위젯을 추가하여 학습자가 책갈피가 지정된 콘텐츠에 빠르게 액세스할 수 있도록 할 수 있습니다. 학습자는 위젯을 사용하여 원래 검색이나 탐색을 반복하지 않고도 검색하는 동안 저장한 강의를 다시 방문할 수 있습니다.
 
-As an administrator, you can add the **Saved by me** widget to a page to give learners quick access to their bookmarked content. Learners can use the widget to revisit courses they saved while browsing, without repeating their original search or navigation. 
+이 위젯을 페이지에 추가하면 다음과 같은 이점을 얻을 수 있습니다.
 
-Adding this widget to a page can help: 
+* 자주 액세스하는 콘텐츠에 대한 클릭 한 번으로 액세스 기능을 제공하여 학습자 워크플로우를 간소화합니다.
 
-* Streamline learner workflows by providing single-click access to frequently accessed content 
+* 반복적인 탐색 및 리소스 검색에 소요되는 시간 단축
 
-* Reduce repetitive navigation and time spent searching for resources 
+* 보다 개인화된 학습 환경을 생성하여 만족도와 참여도를 높입니다.
 
-* Create a more personalized learning experience that increases satisfaction and engagement 
+### 내가 저장한 위젯 추가
 
-### Add a Saved by me widget 
+금융 회사가 영업 및 고객 성공 관리자(CSM) 팀에 50개 이상의 강의로 구성된 새 교육 과정을 개설하는 것을 고려해 보십시오.  학습자가 카탈로그를 검색할 때, 자신의 역할과 가장 관련이 많은 대여섯개의 강의에 책갈피를 표시합니다.
 
-Consider a financial company rolling out a new curriculum of over 50 courses to its Sales and Customer Success Manager (CSM) teams.  As learners browse the catalog, they bookmark the five or six courses most relevant to their own role. 
+이렇게 저장된 강의는 학습자가 개인화된 홈페이지의 내가 저장함 위젯에 자동으로 표시됩니다. 카탈로그를 다시 탐색하는 대신, 위젯으로 바로 이동하여 따로 놓은 콘텐츠에 액세스하거나 등록할 수 있습니다.
 
-Those saved courses automatically appear in the Saved by me widget on the learner's personalized home page. Instead of navigating the catalog again, they can go straight to the widget to access or enroll in the content they set aside. 
+**내가 저장한 항목** 위젯을 구성하려면:
 
-To configure the **Saved by me** widget: 
-
-1. Log in to Adobe Learning Manager as an administrator. 
-2. Select **Branding** in the left navigation pane. 
-3. Select **Custom Pages**. 
-4. Select the required page and then select **Page Design**. 
-5. Select the layout. 
-6. Select **Add Widget**. 
-7. Select **Saved by me** and then select **Proceed**. 
+1. 관리자 권한으로 Adobe Learning Manager에 로그인합니다.
+2. 왼쪽 탐색 창에서 **브랜딩**&#x200B;을 선택합니다.
+3. **사용자 지정 페이지**&#x200B;를 선택합니다.
+4. 필요한 페이지를 선택한 다음 **페이지 디자인**&#x200B;을 선택합니다.
+5. 레이아웃을 선택합니다.
+6. **위젯 추가**&#x200B;를 선택합니다.
+7. **내가 저장한 항목**&#x200B;을 선택한 다음 **계속**&#x200B;을 선택합니다.
 
    ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget1.png)
 
-8. Type a **Widget title** and **Widget description**.
+8. **위젯 제목** 및 **위젯 설명**&#x200B;을 입력합니다.
 
    ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget2.png)
 
-9. Select **Add widget**. 
+9. **위젯 추가**&#x200B;를 선택합니다.
 
-The **Saved by me** widget will be added to the page. Administrators can add other widgets and publish the page.
+**내가 저장함** 위젯이 페이지에 추가됩니다. 책임자는 다른 위젯을 추가하고 페이지를 게시할 수 있습니다.
 
 ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget3.png)
 
 >[!NOTE]
 >
->If a learner has not bookmarked any content, the Saved by me widget displays an empty state on their page. As the learner bookmarks courses, learning paths, certifications, or job aids, those items appear in the widget automatically.
+>학습자가 콘텐츠에 책갈피를 지정하지 않은 경우 내가 저장한 위젯은 페이지에 빈 상태를 표시합니다. 학습자가 강의, 학습 경로, 인증 또는 작업 지원을 책갈피로 지정하면 해당 항목이 위젯에 자동으로 표시됩니다.
 
-Widget title and description support localization the same way as other widgets in Experience Builder. If your account has multiple languages configured, provide a title and description for each language, so learners see the widget in their preferred locale.
-
--->
+위젯 제목 및 설명은 Experience Builder의 다른 위젯과 동일한 방식으로 지역화를 지원합니다. 계정에 여러 언어가 구성된 경우 학습자가 원하는 로케일로 위젯을 볼 수 있도록 각 언어에 대한 제목과 설명을 제공합니다.
 
 ## 소셜 학습 위젯
 
