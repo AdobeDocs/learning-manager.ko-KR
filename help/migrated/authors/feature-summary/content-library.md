@@ -3,9 +3,9 @@ description: 자가 진행식 콘텐츠로 강의에 맞게 콘텐츠를 만드�
 jcr-language: en_us
 title: 콘텐츠 라이브러리
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
+source-git-commit: 105f5b4331abaae38c1dc3bba14592e78ae28d51
 workflow-type: tm+mt
-source-wordcount: '6082'
+source-wordcount: '6083'
 ht-degree: 33%
 
 ---
@@ -323,11 +323,11 @@ Adobe Learning Manager에서 다국어 비디오 텍스트 트랙(VTT)을 지원
 
 #### 추가 정보
 
-* 지원 언어: Adobe Learning Manager에서 지원하는 39개의 모든 비영어 언어.
-* 알림: 작성자는 VTT 생성 및 번역이 완료되면 알림을 받습니다.
+* **지원되는 언어:** Adobe Learning Manager에서 39개의 모든 비영어 언어를 지원합니다.
+* **알림:** 작성자는 VTT 생성 및 번역이 완료되면 알림을 받습니다.
 * 편집 유연성: 캡션은 앱 내 또는 오프라인에서 편집하고 다시 업로드할 수 있습니다.
-* 확장성: 기업 규모의 로컬라이제이션 및 접근성 요구 사항에 맞게 설계되었습니다.
-* 수동 VTT 업로드 필요 없음: 시스템은 업로드된 비디오/오디오를 사용하여 처음부터 VTT 파일을 생성할 수 있습니다.
+* **확장성:** 엔터프라이즈 규모의 로컬라이제이션 및 접근성 요구를 위해 설계되었습니다.
+* **수동 VTT 업로드 필요 없음:** 시스템은 업로드된 비디오/오디오를 사용하여 처음부터 VTT 파일을 생성할 수 있습니다.
 
 #### 모범 사례
 

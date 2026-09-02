@@ -1,9 +1,9 @@
 ---
 title: 라이브 허브(베타) 시작하기
 description: Adobe Learning Manager의 라이브 허브를 통해 플랫폼 내에서 직접 강사 주도 라이브 교육 세션을 제공하는 방법을 살펴보세요.
-source-git-commit: f9fed45f8818ff34ff4a4c6750a3659b6d4dc49d
+source-git-commit: d163afe818f4fc574fa4a809fce1f9eed5fd7ac6
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,15 @@ Adobe Learning Manager의 라이브 허브를 통해 조직은 플랫폼 내에�
 
 많은 조직은 과정 관리, 세션 제공 및 공동 작업을 위해 별도의 도구를 사용합니다. 이로 인해 다음과 같은 과제가 발생할 수 있습니다.
 
-- 교육을 위해 여러 플랫폼 간 전환
-- 추가 설정 및 구성 요구 사항
-- 학습자 참여 및 참여에 대한 가시성 제한
+- 교육을 위해 여러 플랫폼 간 전환.
+- 추가 설정 및 구성 요구 사항.
+- 학습자 참여 및 참여에 대한 가시성이 제한적입니다.
 
 Live Hub는 Adobe Learning Manager 내에서 하나의 통합된 환경으로 과정 제공, 공동 작업, 참여 및 추적을 통해 이러한 문제를 해결합니다.
+
+단계별 프로세스를 살펴보기 전에 라이브 허브의 개요를 살펴볼 수 있는 짧은 설명 비디오를 살펴보겠습니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502433)
 
 ## 라이브 허브란 무엇입니까?
 
