@@ -1,10 +1,10 @@
 ---
 title: Adobe Learning Manager에서 라이브 허브(Beta) 활성화
 description: 책임자가 계정에 대해 라이브 허브를 활성화하고 이를 기본 가상 강의실 공급자로 설정한 다음 AI 기반 라이브 허브 도우미를 켜는 방법에 대해 알아봅니다.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: 552ecc22af6d59d80bda48a05ed8b950a500ee0a
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 4%
+source-wordcount: '510'
+ht-degree: 0%
 
 ---
 
@@ -45,15 +45,15 @@ ht-degree: 4%
 
 1. Live Hub 에이전트의 도우미를 활성화합니다.
 
-   1. 투표 도우미
+   1. **설문 조사 도우미**: 강의 콘텐츠와 라이브 세션 대본에서 설문 조사를 생성하여 한 번의 클릭으로 검토하고 실행할 준비가 된 쇄빙선 또는 지식 검사를 만듭니다. 자세한 내용은 [투표 작성 및 실행](../../getting-started-with-live-hub/create-and-launch-a-poll.md#create-a-poll-using-ai)을 참조하세요.
 
-   1. Q&amp;A 도우미
+   1. **Q&amp;A 도우미**: 세션 채팅에서 참가자 질문을 감지하고 강사가 검토하고 다듬고 공유할 수 있도록 업로드된 콘텐츠 및 세션 기록에 기반을 둔 답변을 초안합니다. 자세한 내용은 [채팅 패널을 강사로 사용](../../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#draft-replies-to-participant-questions-with-ai)을 참조하세요.
 
-   1. 브레이크아웃 모니터링 도우미
+   1. **브레이크아웃 모니터링 도우미**: 강사의 목적에 따라 각 브레이크아웃 룸의 대본을 읽고, 몇 분마다 상태 카드를 게시하고, 회의실별 토론 요약과 함께 주제, 결정 사항, 차이를 한 번에 종합하여 즉시 설명합니다. 자세한 내용은 [브레이크아웃 세션 만들기 및 관리](../../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#view-ai-generated-summaries-of-breakout-rooms)를 참조하세요.
 
-   1. 녹화본용 주제 생성기
+   1. **레코딩용 주제 생성기**: 세션 레코딩을 타임스탬프와 구조화된 메모가 있는 지정된 주제로 자동 분할하므로 참가자가 전체 레코딩을 보지 않고도 필요한 항목으로 바로 이동하거나 메모에서 배울 수 있습니다. 자세한 내용은 [녹음/녹화 내용 이해](../../getting-started-with-live-hub/record-a-session.md#generate-topics-in-recording)를 참조하세요.
 
-   1. 강사 찾기 도우미
+   1. **강사 찾기 도우미**: 스킬, 가용성, 사용률, 선호하는 수업 시간 및 기타 조건을 평가하여 세션 강사를 추천합니다. 자세한 내용은 [Live Hub 세션 만들기](../../getting-started-with-live-hub/create-a-live-hub-session.md#add-instructors-using-instructor-finder)를 참조하세요.
 
 >[!NOTE]
 >
