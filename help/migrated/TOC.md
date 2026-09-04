@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: f7bc8b49056786751a6ff5517e6a6b0fe424e7c0
+source-git-commit: 186c661ef9ee9d61a2ebc790dc4c6d2804d796fd
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1686'
 ht-degree: 36%
 
 ---
@@ -222,6 +222,7 @@ ht-degree: 36%
       * [콘텐츠 컴포저란 무엇입니까?](authors/feature-summary/content-composer/what-is-content-composer.md)
       * [콘텐츠 컴포저의 작동 방식](authors/feature-summary/content-composer/how-content-composer-works.md)
       * [콘텐츠 컴포저는 누구를 위한 것인가요](authors/feature-summary/content-composer/who-content-composer-is-for.md)
+      * [Content Composer용 Creative Cloud 스토리지 구성](authors/feature-summary/content-composer/configure-creative-cloud-storage-content-composer.md)
       * [시작하기 전에 필요한 사항](authors/feature-summary/content-composer/before-you-start.md)
       * [내 문서에 코스 그라운드를 만듭니다.](authors/feature-summary/content-composer/ground-course-documents.md)
       * [콘텐츠 컴포저가 아닌 항목](authors/feature-summary/content-composer/what-content-composer-is-not.md)
