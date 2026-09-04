@@ -3,13 +3,15 @@ jcr-language: en_us
 title: Adobe Learning Manager Content Composer용 Creative Cloud 스토리지 구성
 description: Adobe Learning Manager Content Composer용 Creative Cloud 스토리지를 구성하는 방법에 대해 알아봅니다. 이 가이드에서는 Creative Cloud 스토리지가 필요한 이유, 관리자가 Adobe Admin Console에서 무료 멤버십 오퍼를 할당하는 방법 및 스토리지 관련 액세스 문제를 해결하는 방법에 대해 설명합니다.
 contentowner: saghosh
-source-git-commit: 42512cc4cab0d0cdb1e9796610d6fc2f7b5c51d6
+source-git-commit: 15e1f5c383442fb93706acdf68eb889c16511859
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
+
+# Adobe Learning Manager Content Composer용 Creative Cloud 스토리지 구성
 
 >[!IMPORTANT]
 >
@@ -92,4 +94,4 @@ Content Composer는 Creative Cloud 스토리지를 사용하여 강의를 저장
 
 Adobe Admin Console 관리자가 Creative Cloud 스토리지를 할당하거나 액세스 관련 문제를 디버깅하는 동안 문제가 발생하는 경우, 엔터프라이즈 계정 수준의 지원이 필요할 수 있습니다. 이러한 경우 Admin Console에서 사용 가능한 지원 옵션을 통해 Adobe 엔터프라이즈 지원에 문의하십시오.
 
-자세한 내용은 [기업 지원 Adobe 옵션](https://helpx.adobe.com/kr/business/enterprise/get-help/support-options/support-for-enterprise.html)을 참조하세요.
+자세한 내용은 [기업 지원 Adobe 옵션](https://helpx.adobe.com/business/enterprise/get-help/support-options/support-for-enterprise.html)을 참조하세요.
