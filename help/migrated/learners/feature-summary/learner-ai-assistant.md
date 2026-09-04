@@ -3,9 +3,9 @@ description: Adobe Learning Manager의 AI 어시스턴트를 통해 학습 콘�
 jcr-language: en_us
 title: Adobe Learning Manager 학습자용 AI 도우미
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 75857b4616180d6294d8374983bb3bf5453c0f46
+source-git-commit: cab2a30f621c22aec273c29c257f5e13405df327
 workflow-type: tm+mt
-source-wordcount: '3167'
+source-wordcount: '3236'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Adobe은 신뢰할 수 있는 서비스를 사용하여 학습 콘텐츠를 안�
 
 ### 카탈로그 및 콘텐츠 소스 제한 사항
 
-AI 길잡이는 관리자가 명시적으로 구성한 **내부** 카탈로그의 콘텐츠만 사용합니다.
+AI 어시스턴트는 내부 카탈로그, 외부 카탈로그, 서드파티 콘텐츠 라이브러리의 콘텐츠만 사용합니다. 학습자의 쿼리에 대한 답변은 액세스 권한이 있는 카탈로그에서만 파생됩니다.
 
 다음 콘텐츠 소스는 현재 릴리스에서 지원되지 않습니다.
 
@@ -152,7 +152,7 @@ AI 어시스턴트는 답변을 생성함에 따라 점진적으로 전달하므
 - 신뢰할 수 있는 소스에서 정보를 확인하고 추가 컨텍스트를 탐색합니다.
 
 > **중요**
-> AI 길잡이는 관리자가 활성화한 콘텐츠를 기반으로 답변을 제공합니다. 참조된 항목에 액세스할 수 없는 경우 해당 항목을 열려고 하면 &quot;지원되지 않음&quot; 메시지가 표시됩니다.
+> AI 어시스턴트는 책임자가 활성화한 콘텐츠를 기반으로 답변을 제공한다. 참조된 항목에 액세스할 수 없는 경우 해당 항목을 열려고 하면 &quot;지원되지 않음&quot; 메시지가 표시됩니다.
 
 
 ## 기본 제공 프롬프트
@@ -331,7 +331,7 @@ Adobe Learning Manager의 학습 도우미가 관련 도움말 문서 링크를 
 
 ### Learning Assistant가 Experience League을 사용하는 방법
 
-Adobe Learning Manager의 학습 도우미는 Adobe의 공식 도움말 및 문서 사이트인 [Adobe Experience League](/help/migrated/user-guide.md)에서 답변을 검색할 수 있습니다. 학습자가 절차 또는 방법 질문을 하면 학습 도우미는 관련 답변을 검색하고 전체 Experience League 문서에 대한 링크를 포함할 수 있습니다.
+Adobe Learning Manager의 학습 도우미는 Adobe의 공식 도움말 및 문서 사이트인 [Adobe Experience League](/help/migrated/user-guide.md)에서 답변을 검색할 수 있습니다. 학습자가 프로시저 또는 방법 질문을 하면 학습 도우미는 관련 답변을 검색하고 전체 Experience League 문서에 대한 링크를 포함할 수 있습니다.
 
 ### Learning Assistant는 어떤 종류의 질문에 답할 수 있습니까
 
@@ -380,7 +380,7 @@ Go1 또는 LinkedIn 학습 콘텐츠를 쿼리하는 학습 도우미의 경우:
 ## AI 도우미 문제 해결
 
 > **참고**
-> 새 카탈로그를 구성한 후 콘텐츠를 인덱싱하고 AI 길잡이 응답에 사용할 수 있도록 4~5시간을 허용합니다.
+> 새 카탈로그를 구성한 후에는 콘텐츠를 인덱싱하고 AI 길잡이 응답에 사용할 수 있도록 4~5시간을 허용합니다.
 
 ### 콘텐츠에 대한 액세스 권한 없음
 
