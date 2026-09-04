@@ -357,7 +357,7 @@ Adobe Learning Manager의 학습 도우미는 기본 Adobe Learning Manager 콘�
 
 >[!IMPORTANT]
 >
->책임자는 전제 조건으로 학습자 도우미에 필요한 카탈로그를 추가해야 합니다. 자세한 내용은 [AI 도우미 액세스 구성](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)을 참조하십시오.
+>책임자는 전제 조건으로 학습자 도우미에 필요한 카탈로그를 추가해야 합니다. 자세한 내용은 [AI 도우미 액세스 구성](https://experienceleague.adobe.com/ko/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)을 참조하십시오.
 
 
 책임자가 Go1 또는 LinkedIn Learning 카탈로그를 Adobe Learning Manager에 추가하면 카탈로그 콘텐츠가 예약된 수집 프로세스를 거칩니다. 수집이 완료되면 해당 카탈로그의 학습 객체를 Learning Assistant가 쿼리할 수 있습니다.
