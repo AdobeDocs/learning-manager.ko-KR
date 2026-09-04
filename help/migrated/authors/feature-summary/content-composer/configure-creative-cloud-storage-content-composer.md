@@ -94,4 +94,4 @@ Content Composer는 Creative Cloud 스토리지를 사용하여 강의를 저장
 
 Adobe Admin Console 관리자가 Creative Cloud 스토리지를 할당하거나 액세스 관련 문제를 디버깅하는 동안 문제가 발생하는 경우, 엔터프라이즈 계정 수준의 지원이 필요할 수 있습니다. 이러한 경우 Admin Console에서 사용 가능한 지원 옵션을 통해 Adobe 엔터프라이즈 지원에 문의하십시오.
 
-자세한 내용은 [기업 지원 Adobe 옵션](https://helpx.adobe.com/business/enterprise/get-help/support-options/support-for-enterprise.html)을 참조하세요.
+자세한 내용은 [기업 지원 Adobe 옵션](https://helpx.adobe.com/kr/business/enterprise/get-help/support-options/support-for-enterprise.html)을 참조하세요.
