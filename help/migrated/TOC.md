@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 49f7d7db50dc06675c2fb4c4894e80867cc593d7
+source-git-commit: f7bc8b49056786751a6ff5517e6a6b0fe424e7c0
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1679'
 ht-degree: 36%
 
 ---
@@ -225,6 +225,8 @@ ht-degree: 36%
       * [시작하기 전에 필요한 사항](authors/feature-summary/content-composer/before-you-start.md)
       * [내 문서에 코스 그라운드를 만듭니다.](authors/feature-summary/content-composer/ground-course-documents.md)
       * [콘텐츠 컴포저가 아닌 항목](authors/feature-summary/content-composer/what-content-composer-is-not.md)
+    * 효과적인 프롬프트 쓰기 {#write-effective-prompt}
+      * [Content Composer에서 효과적인 프롬프트 쓰기](authors/feature-summary/content-composer/write-effective-prompts.md)
     * 강의 생성 {#create-course}
       * [프롬프트 쓰기](authors/feature-summary/content-composer/write-a-prompt.md)
       * [강의 요약](authors/feature-summary/content-composer/complete-course-brief.md)
@@ -274,7 +276,7 @@ ht-degree: 36%
   * [프로필 설정](learners/feature-summary/settings.md)
   * [카탈로그](learners/feature-summary/catalogs.md)
   * [원클릭 등록](learners/feature-summary/learner-one-click-enrollment.md)
-  * {hide-from-toc}[내가 저장한 위젯](learners/feature-summary/saved-by-me-widget.md)
+  * [내가 저장함 위젯](learners/feature-summary/saved-by-me-widget.md)
   * [내 학습](learners/feature-summary/courses.md)
   * {hide-from-toc}[적응형 과정](learners/feature-summary/adaptive-course-learner.md)
   * [Fluidic Player](learners/feature-summary/fluidic-player.md)
