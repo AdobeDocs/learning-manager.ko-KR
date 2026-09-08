@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: b9f17644-f237-4701-86e9-8496db941920
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 71%
+source-wordcount: '858'
+ht-degree: 81%
 
 ---
 
@@ -29,13 +29,13 @@ FTP 및 Box 서비스에 계정이 생성되었는지 확인합니다. 마이그
 
 * CSV 파일의 파일명이 CSV 사양명과 일치하는지 확인합니다.
 
-   * course.csv
-   * course_instance.csv
-   * course_module.csv
-   * enrollment.csv
-   * module.csv
-   * module_version.csv
-   * user_course_grade.csv
+  * course.csv
+  * course_instance.csv
+  * course_module.csv
+  * enrollment.csv
+  * module.csv
+  * module_version.csv
+  * user_course_grade.csv
 
 ### 오류 기록이 있는 작업이 실패로 표시됨 {#failuresareshownforjobswitherrorrecords}
 
@@ -65,7 +65,7 @@ FTP 및 Box 서비스에 계정이 생성되었는지 확인합니다. 마이그
 
 ### module_version.csv 파일 마이그레이션에 실패하여 콘텐츠가 아직 마이그레이션되지 않음 {#moduleversioncsvfilemigrationisfailingandcontentisnotmigratedyet}
 
-콘텐츠 폴더(특정 마이그레이션 프로젝트의 Box 계정, 스프린트 경로)에서 콘텐츠를 사용할 수 있는지 확인합니다. 또한 **스프린트의 콘텐츠를 마이그레이션하시겠습니까?**&#x200B;예&#x200B;**옵션을 선택했는지 확인하십시오.스프린트 만들기 페이지의** 질문입니다.
+콘텐츠 폴더(특정 마이그레이션 프로젝트의 Box 계정, 스프린트 경로)에서 콘텐츠를 사용할 수 있는지 확인합니다. 또한 **이 스프린트의 콘텐츠를 마이그레이션하시겠습니까?**&#x200B;에 대해 **예** 옵션을 선택했는지 확인하십시오. 라는 질문에 예 옵션을 선택했는지 확인합니다.
 
 **예**&#x200B;를 선택하지 않고 이 스프린트를 계속 진행하면 해당 스프린트를 완료할 때까지 기다려야 합니다. 다른 스프린트를 만들고 **[!UICONTROL 예]**&#x200B;를 클릭하세요.
 
@@ -77,7 +77,7 @@ userId, assignedByUserID 필드의 일부로 제공된 전자 메일 ID가 유�
 
 ### 강의가 비어 있음으로 표시되거나 마이그레이션된 강의에 잘못된 모듈이 재생됨 {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 
-강의의 **moduleOrderInCourse** 키 값이 **0**(으)로 시작하고 순서가 연속되는지 확인하십시오. courseModuleType 순서는 PRETEST, TESTOUT, CONTENT여야 합니다.
+강의의 **moduleOrderInCourse** 키 값이 **0**&#x200B;으로 시작하고 순서가 연속되는지 확인합니다. courseModuleType 순서는 PRETEST, TESTOUT, CONTENT여야 합니다.
 
 또한 활동, 강의실 및 VC의 두 가지 버전이 기존 강의와 연결되어 있지 않은지 확인합니다.
 
