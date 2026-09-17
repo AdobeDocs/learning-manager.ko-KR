@@ -3,13 +3,11 @@ description: linkedIn Learning 커넥터 를 Adobe Learning Manager과 통합하
 jcr-language: en_us
 title: ALM의 LTI 도구에 딥 링크 포함
 contentowner: mmanuel
-source-git-commit: ce25b5982c86695352029e22e427b4e85274a1cb
+source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '948'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager의 LTI 딥 링크
 
@@ -87,12 +85,16 @@ LTI 딥 링크 워크플로우에는 다음과 같은 사인이 포함됩니다.
 
 ## 딥 링크 만들기
 
+>[!IMPORTANT]
+>
+>아래 섹션 및 작성자 섹션에 언급된 단계는 ALM 측이 아닌 강의를 이용하는 플랫폼에서 수행해야 합니다.
+
 ### 선행 작업
 
 1. 통합 책임자로 로그인해야 합니다.
-2. LTI 통합을 설정하는 동안 딥 링크 지원 확인란을 선택합니다.
+2. LTI 통합을 설정하는 동안 **딥 링크 지원** 확인란을 선택합니다. [LTI 통합](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)을 설정하는 방법에 대해 알아봅니다.
 3. 사용자 또는 작성자를 선택 영역으로 이끌 필드에 URL을 입력합니다.
-4. 변경 내용 저장을 선택합니다.
+4. **변경 내용 저장**&#x200B;을 선택합니다.
 
    동일한 실행 URL을 재사용하여 구성 및 사용을 단순화합니다.
 
@@ -100,7 +102,7 @@ LTI 딥 링크 워크플로우에는 다음과 같은 사인이 포함됩니다.
 
    변경 내용을 저장한 후 **콘텐츠 선택** 탭을 선택합니다. 이 확인란을 선택한 후에만 **콘텐츠 선택** 탭이 활성화됩니다.
 
-**다음 섹션은 작성자용입니다.**
+작성자 **의 경우**
 
 작성자는 **콘텐츠 선택** 창에서 콘텐츠를 선택할 수 있습니다. **콘텐츠 선택** 창에 **카탈로그**, **강의 수** 및 **내보내기 날짜**&#x200B;가 표시됩니다.
 
