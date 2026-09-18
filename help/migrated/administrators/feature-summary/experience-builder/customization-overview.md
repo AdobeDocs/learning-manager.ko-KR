@@ -2,14 +2,12 @@
 title: Experience Builder의 사용자 정의
 jcr-language: en_us
 description: Adobe Learning Manager에서 Experience Builder를 사용하여 학습자 경험을 심층 맞춤화하는 방법을 알아봅니다. 바닥글을 구성하고, 글로벌 CSS 및 JavaScript를 적용하고, 강의 타일을 조정하고, 위젯을 맞춤화하여 구축 비용을 줄이면서 브랜드의 역동적인 학습 포털을 만듭니다.
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: d1eb3ef5-bcee-4aa9-bd27-f0545077d6ab
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '844'
 ht-degree: 0%
-
 ---
-
-
 # 개요
 
 Experience Builder를 사용하면 책임자가 플랫폼 내에서 맞춤형 학습자 경험을 생성하여 기본 제공 기본 인터페이스와 완벽한 헤드리스 솔루션 간의 격차를 해소할 수 있습니다. CSS 및 JavaScript를 통해 다양한 위젯, 유연한 메뉴 구성 및 고급 브랜딩을 사용하여 사용자 정의 페이지를 디자인할 수 있습니다. 이러한 접근 방식은 헤드리스 빌드에 비해 시장 출시 및 구현 비용을 절감하는 동시에 브랜딩 및 레이아웃에 대한 심층적인 맞춤화 기능을 제공합니다.
@@ -71,5 +69,3 @@ Experience Builder를 사용하면 완벽한 헤드리스 구현으로 인한 �
 외부 도구 통합
 * **외부 응용 프로그램 포함**: iFrame 위젯을 사용하면 외부 웹 응용 프로그램이나 웹 페이지를 사용자 정의 페이지 내에 직접 포함시켜 학습자에게 보다 원활한 환경을 제공할 수 있습니다.
 * **API로 동적 구성 요소 만들기**: HTML 위젯을 통해 사용자가 학습자 API와 상호 작용할 수 있도록 JavaScript를 추가할 수 있습니다. 이 접근 방식을 사용하면 새 응용 프로그램을 빌드할 필요 없이 기본 Learning Manager 환경 내에서 경험을 만들 수 있습니다.
-
-

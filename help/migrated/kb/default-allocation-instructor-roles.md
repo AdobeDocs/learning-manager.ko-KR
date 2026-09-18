@@ -4,15 +4,12 @@ title: Learning Manager에서 사용자 그룹에 강사 역할 기본 할당
 description: Learning Manager에서 사용자 그룹에 강사 역할 기본 할당
 contentowner: nluke
 preview: true
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: a2ceeae5-7ad6-4910-94b5-9ef455129566
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 48%
-
 ---
-
-
-
 # Learning Manager에서 사용자 그룹에 강사 역할 기본 할당
 
 ## 문제

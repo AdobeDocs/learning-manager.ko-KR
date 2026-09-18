@@ -2,14 +2,12 @@
 description: 사용자를 관리하고, 액세스를 제어하고, 학습 환경을 브랜딩하고, 조직의 요구 사항에 맞게 플랫폼을 맞춤화하기 위해 Adobe Learning Manager에서 구성할 수 있는 관리자 설정에 대해 알아봅니다.
 jcr-language: en_us
 title: 설정 개요
-source-git-commit: 03123dcd8d9066cdfcb0fe97e61acb3df625a23e
+exl-id: b52f3f51-e119-42f5-a105-49f74092ffb6
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
-
 ---
-
-
 # 설정
 
 ## 개요
@@ -39,4 +37,3 @@ Adobe Learning Manager은 조직의 특정 요구 사항에 부합하도록 학�
 * 준수 및 그룹 성공 대시보드를 구성합니다.
 
 자세한 내용은 Adobe Learning Manager 설정 을 참조하세요.
-

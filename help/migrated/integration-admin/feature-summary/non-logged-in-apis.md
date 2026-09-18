@@ -2,13 +2,12 @@
 description: 헤드리스 인터페이스 개발을 위한 임시 방문 API에 대해 알아보십시오.
 jcr-language: en_us
 title: 로그인하지 않은 API
-source-git-commit: 21e2a4a5e73fcbddb64e0afec0a896b315e38688
+exl-id: 12419c9a-3864-404c-8b32-922429d68ffb
+source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '582'
 ht-degree: 0%
-
 ---
-
 # 로그인하지 않은 API
 
 이 문서에서 헤드리스 또는 임시 방문 환경에 대한 데이터를 제공하는 Adobe Learning Manager API에 대해 자세히 알아보십시오.

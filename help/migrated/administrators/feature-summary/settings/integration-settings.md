@@ -2,14 +2,12 @@
 description: 통합 설정이 Adobe Learning Manager과 서드파티 솔루션을 연결하는 방법에 대해 자세히 알아보기
 jcr-language: en_us
 title: Adobe Learning Manager의 통합 설정
-source-git-commit: 03123dcd8d9066cdfcb0fe97e61acb3df625a23e
+exl-id: 175028e0-5dd2-4fe4-aa98-03b233a9531b
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 4%
-
 ---
-
-
 # Adobe Learning Manager의 통합 설정
 
 ## 로그인 방법
@@ -84,8 +82,3 @@ Adobe Learning Manager은 SSO(Single Sign-On)를 지원하여 사용자가 한 �
 Adobe Learning Manager의 피어 계정을 사용하면 구입한 시트를 공유하고 연결된 계정 전체의 보고서를 볼 수 있습니다. 이 기능은 다른 계정 간에 공동 작업하거나 리소스를 공유해야 하는 조직에 유용합니다.
 
 자세한 내용은 Adobe Learning Manager의 [피어 계정](/help/migrated/administrators/feature-summary/peer-account.md)을 참조하세요.
-
-
-
-
-

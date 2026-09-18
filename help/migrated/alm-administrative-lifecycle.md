@@ -2,14 +2,12 @@
 title: Adobe Learning Manager 관리 계정 수명 주기
 description: 이 문서에서는 FedRAMP 규정 준수 및 모범 보안 사례를 충족하기 위해 Adobe Learning Manager(ALM)에서 최상위 관리 계정을 안전하게 관리하는 방법에 대한 포괄적인 지침을 제공합니다.
 jcr-language: en-us
-source-git-commit: db3ed4dc44da75b418e923999bdf3776bf81b11f
+exl-id: 79049f3d-8ebe-47e7-9895-9a7aaee504b3
+source-git-commit: 88298726a8cd4622e412200b3318e18890817ae8
 workflow-type: tm+mt
 source-wordcount: '2122'
 ht-degree: 0%
-
 ---
-
-
 # Adobe Learning Manager의 관리 계정 유형
 
 ## ALM 역할 매핑
@@ -27,7 +25,7 @@ Adobe Learning Manager에서 최상위 관리 계정은 관리자 역할입니�
 
 Adobe Learning Manager은 RBAC(역할 기반 액세스 제어) 모델을 사용하여 관리 액세스를 관리합니다. 관리 역할은 권한 있는 관리자만 할당합니다.
 
-자세한 내용은 [Adobe Learning Manager의 사용자 지정 역할](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/custom-role)을 참조하세요.
+자세한 내용은 [Adobe Learning Manager의 사용자 지정 역할](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)을 참조하세요.
 
 ## ID 유형 및 권장 인증
 
@@ -41,12 +39,12 @@ Adobe Admin Console은 관리자 계정에 대해 세 가지 id 유형을 지원
 
 자세한 내용은 다음을 참조하십시오.
 
-* [ID 유형](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)
-* [사용자 인증 및 암호 보안](https://helpx.adobe.com/kr/enterprise/using/authentication-settings.html)
+* [ID 유형](https://helpx.adobe.com/enterprise/using/admin-console.html)
+* [사용자 인증 및 암호 보안](https://helpx.adobe.com/enterprise/using/authentication-settings.html)
 
 ## 역할 할당 및 액세스 제어
 
-Adobe Learning Manager의 관리 계정에 대한 액세스는 기존 관리자가 명시적으로 [역할 할당](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/user-management/add-users-user-groups)을 통해 제어합니다. 보안 관리 액세스의 주요 특성은 다음과 같습니다.
+Adobe Learning Manager의 관리 계정에 대한 액세스는 기존 관리자가 명시적으로 [역할 할당](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups)을 통해 제어합니다. 보안 관리 액세스의 주요 특성은 다음과 같습니다.
 
 * 관리 역할은 권한 있는 관리자만 할당합니다.
 * 액세스는 역할에 기반하며 할당된 권한에 따라 범위가 정해집니다.
@@ -69,12 +67,12 @@ Adobe Admin Console에서 2FA를 적용하려면 다음을 수행하십시오.
 >
 >Adobe은 2FA를 적용하고 사용자가 이를 선택적으로 사용할 수 없도록 권장합니다. 2FA는 신청까지 최대 24시간이 소요될 수 있다. Federated ID 사용자의 경우 ID 공급자에서 MFA를 적용합니다.
 
-자세한 내용은 [자세한 내용은 사용자 인증 보안](https://helpx.adobe.com/kr/enterprise/using/authentication-settings.html)을 참조하세요.
+자세한 내용은 [자세한 내용은 사용자 인증 보안](https://helpx.adobe.com/enterprise/using/authentication-settings.html)을 참조하세요.
 
 
 ## 관리자로 로그인
 
-ALM [관리자](https://experienceleague.adobe.com/ko/docs/learning-manager/using/get-started/getting-started-admin)는 Admin Console을 통해 관리되는 조직 자격 증명을 사용하여 ALM 플랫폼에 직접 로그인합니다.
+ALM [관리자](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-admin)는 Admin Console을 통해 관리되는 조직 자격 증명을 사용하여 ALM 플랫폼에 직접 로그인합니다.
 
 ### 관리자 역할 할당
 
@@ -89,7 +87,7 @@ ALM에서 관리자 역할을 할당하려면 다음을 수행합니다.
 
 사용자 정의 관리 역할을 통해 고객은 계정 수준 권한에 대한 중앙 집중식 제어를 유지하면서 관리 작업을 위임할 수 있습니다. 사용자 정의 관리자의 범위는 특정 사용자 그룹 또는 카탈로그로 지정할 수 있습니다.
 
-자세한 내용은 [사용자 및 사용자 그룹 추가](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/user-management/add-users-user-groups)를 참조하십시오.
+자세한 내용은 [사용자 및 사용자 그룹 추가](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups)를 참조하십시오.
 
 ## 로그인 방법 및 SSO 구성
 
@@ -100,7 +98,7 @@ ALM 관리자는 다음과 같은 중요한 보안 관련 구성인 설정 > 로
 
 Adobe은 모든 내부 사용자를 위한 로그인 방법으로 Federated ID/SAML 2.0 SSO를 사용할 것을 권장합니다. 이렇게 하면 조직의 ID 공급자가 인증을 완전히 제어하여 중앙 집중식 MFA 강제 적용 및 사용자 이탈 시 즉시 계정 철회를 활성화할 수 있습니다.
 
-자세한 내용은 [설정](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/settings)을 참조하세요.
+자세한 내용은 [설정](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/settings)을 참조하세요.
 
 ## 프로비전 시 권장 보안 기본값
 
@@ -140,7 +138,7 @@ ALM Adobe을 처음 프로비저닝할 때 관리 사용자에게 작동 액세�
 
 관리자는 관리 작업을 수행할 때 조직의 내부 액세스 제어 및 변경 관리 정책을 따라야 합니다.
 
-[Adobe Learning Manager 관리자를 위한 자주 묻는 질문](https://experienceleague.adobe.com/ko/docs/learning-manager/using/faq/frequently-asked-questions-for-administrators)을 확인하십시오.
+[Adobe Learning Manager 관리자를 위한 자주 묻는 질문](https://experienceleague.adobe.com/en/docs/learning-manager/using/faq/frequently-asked-questions-for-administrators)을 확인하십시오.
 
 
 ### 역할 계층 구조 및 위임
@@ -161,7 +159,7 @@ Adobe Admin Console은 계층적 관리자 구조를 사용합니다. 시스템 
 * **최소 대기 액세스**: 일상적인 작업에 최상위 관리자 계정을 사용하지 마세요. 특별히 필요한 작업에 대해 전체 관리자 액세스 권한을 예약합니다.
 * **세션 보안**: Admin Console > 설정 > 고급 설정에서 최대 세션 수명 및 최대 유휴 시간을 구성하여 무인 세션의 노출을 제한합니다.
 
-자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)를 참조하십시오.
+자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/enterprise/using/admin-console.html)를 참조하십시오.
 
 ### 관리자가 관리하는 사용자 계정 관리
 
@@ -174,8 +172,8 @@ ALM 관리자는 내부 및 외부 사용자 계정을 관리합니다. 보안 �
 
 자세한 내용은 다음을 참조하십시오.
 
-* [사용자 및 사용자 그룹 추가](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/user-management/add-users-user-groups)
-* [사용자 제거](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/purge-users)
+* [사용자 및 사용자 그룹 추가](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups)
+* [사용자 제거](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/purge-users)
 
 ## 관리 계정 비관리
 
@@ -203,8 +201,8 @@ ALM 관리자는 내부 및 외부 사용자 계정을 관리합니다. 보안 �
 
 자세한 내용은 다음을 참조하십시오.
 
-* [Admin Console에서 사용자 계정 생성, 업데이트 또는 제거](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html)
-* [조직 소유 계정을 탈퇴하는 방법](https://helpx.adobe.com/kr/enterprise/using/leave-organization.html)
+* [Admin Console에서 사용자 계정 생성, 업데이트 또는 제거](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
+* [조직 소유 계정을 탈퇴하는 방법](https://helpx.adobe.com/enterprise/using/leave-organization.html)
 
 ### ALM 관리자 역할 제거
 
@@ -217,7 +215,7 @@ ALM 관리자는 내부 및 외부 사용자 계정을 관리합니다. 보안 �
 
 사용자가 학습자 역할로 돌아갑니다. 학습 기록 및 강의 등록이 유지됩니다.
 
-자세한 내용은 [사용자 및 사용자 그룹 추가](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/user-management/add-users-user-groups)를 참조하십시오.
+자세한 내용은 [사용자 및 사용자 그룹 추가](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups)를 참조하십시오.
 
 ### 사용자 삭제 및 제거
 
@@ -226,7 +224,7 @@ ALM 관리자는 내부 및 외부 사용자 계정을 관리합니다. 보안 �
 * 사용자 삭제: 사용자 > 내부 > 사용자 선택 > 작업 > 사용자 삭제. 이렇게 하면 계정이 비활성화되고 활성 액세스가 제거됩니다.
 * 사용자 제거: 삭제 후 사용자 > 사용자 정리로 이동하여 삭제 월을 선택하고 사용자를 선택한 다음 작업 > 사용자 제거를 선택합니다. 지우면 모든 사용자 레코드가 영구적으로 제거됩니다.
 
-자세한 내용은 [사용자 제거](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/purge-users)를 참조하십시오.
+자세한 내용은 [사용자 제거](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/purge-users)를 참조하십시오.
 
 
 ## 보안 및 공동 책임
@@ -236,7 +234,7 @@ Adobe Learning Manager은 다음과 같은 공유 책임 모델로 작동합니�
 * Adobe은 기본 ALM 플랫폼 및 인프라를 보호하는 역할을 합니다.
 * 고객은 ALM 계정 내에서 관리 액세스, 역할 할당 및 사용자 수명 주기 활동을 관리할 책임이 있습니다.
 
-Adobe Learning Manager 보안 지침에 대한 추가 정보는 [Adobe Learning Manager 보안 개요(PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=ko)에서 확인할 수 있습니다.
+Adobe Learning Manager 보안 지침에 대한 추가 정보는 [Adobe Learning Manager 보안 개요(PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)에서 확인할 수 있습니다.
 
 ## 문서 유지 관리
 

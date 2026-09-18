@@ -2,14 +2,12 @@
 description: ALM의 새로운 카트 지원을 사용하여 여러 SKU를 구매하는 방법에 대해 알아보십시오.
 jcr-language: en_us
 title: ALM의 복수 품목 카트
-source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
+exl-id: 471b956b-dbeb-4e73-b009-fb217812ce12
+source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '246'
 ht-degree: 0%
-
 ---
-
-
 # ALM의 복수 품목 카트
 
 학습자는 여러 강의, 학습 경로 또는 인증을 장바구니에 추가하고 함께 구매할 수 있습니다. 카트를 사용하여 여러 강의, 학습 경로 또는 인증을 한 번에 구매할 수 있습니다. 이 기능은 기존 UI, 새로운 학습자 UI 및 모바일 몰입형 앱을 포함한 학습자 앱에서만 사용할 수 있습니다.

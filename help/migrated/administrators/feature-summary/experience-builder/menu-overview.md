@@ -2,14 +2,12 @@
 description: Adobe Learning Manager Experience Builder의 메뉴를 사용하여 학습 포털에서 탐색을 구성하는 방법을 알아봅니다. 메뉴 항목을 만들고 사용자 정의하고, 페이지 또는 외부 리소스에 연결하고, 다양한 사용자 그룹에 대한 메뉴 구조를 맞춤화하여 매끄러운 브랜디드 학습 경험을 제공합니다.
 jcr-language: en_us
 title: Experience Builder의 메뉴
-source-git-commit: a6cd09ba81a41b389ed1ccbea22db6b1966a56e2
+exl-id: aaf4cbe1-91ca-40de-809c-4a7d183a9276
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 0%
-
 ---
-
-
 # 개요
 
 Experience Builder의 메뉴는 페이지를 구성하고 특정 사용자에게 맞춤화되고 개인화된 학습 경험을 제공하기 위해 만드는 사용자 정의 가능한 탐색 구조입니다. 페이지 및 위젯과 함께 Experience Builder의 핵심 구성 요소이며, 다른 학습자가 포털을 보고 이동하는 방식을 제어하는 기본 메커니즘입니다.

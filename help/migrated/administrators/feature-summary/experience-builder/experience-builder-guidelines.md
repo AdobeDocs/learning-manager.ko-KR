@@ -2,14 +2,12 @@
 title: Adobe Learning Manager의 Experience Builder 지침 및 제한 사항
 description: Experience Builder 지침 및 제한 사항은 AI 기반 알고리즘을 사용하는 학습자에게 개인화된 강의 및 콘텐츠 제안을 제공합니다.
 jcr-language: en-us
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: 2eaeb2af-cd72-4400-9f6e-410c05acda55
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '805'
 ht-degree: 0%
-
 ---
-
-
 # Experience Builder 지침 및 제한 사항
 
 Experience Builder는 사용자가 역동적이고 매력적인 웹 페이지를 손쉽게 만들 수 있도록 설계된 강력한 도구입니다. 최적의 성능, 사용성 및 보안을 보장하기 위해 페이지 구성, 위젯 사용 및 레이아웃 사용자 정의 시 특정 지침 및 권장 사항을 따라야 합니다. 이 문서에서는 사용자가 Experience Builder로 작업하는 동안 고려해야 할 주요 참고 사항 및 주요 사항에 대해 자세히 설명합니다.
@@ -115,13 +113,3 @@ Experience Builder를 업데이트하면 사용자 정의에 대한 변경 사�
 * 전체 레벨: 모든 페이지에 CSS 변경 사항을 적용합니다.
 * 위젯 수준: CSS 변경 사항을 특정 위젯에 적용합니다.
 * 페이지 수준: 특정 페이지 내의 모든 위젯에 CSS 변경 사항을 적용합니다.
-
-
-
-
-
-
-
-
-
-

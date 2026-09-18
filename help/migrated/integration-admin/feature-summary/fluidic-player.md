@@ -4,22 +4,19 @@ jcr-language: en_us
 title: 포함 가능한 Fluidic Player
 contentowner: dvenkate
 preview: true
-source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
+exl-id: 8cb09053-189d-42dc-bc66-47cd5da45850
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1693'
 ht-degree: 33%
-
 ---
-
-
-
 # 포함 가능한 Fluidic Player
 
 이 문서를 읽고 사용자 정의 응용 프로그램에서 Fluidic Player를 포함하는 방법에 관해 알아보십시오.
 
 이제 기업은 Learning Manager 외부의 학습자에게 사용자 정의 환경을 제공할 수 있습니다. 공개 API를 사용하면 학습 객체, 학습자 등록 및 학습 진행률과 관련된 모든 정보를 가져와 웹 사이트에 표시할 수 있습니다. 더욱더 중요한 것은 귀하의 웹사이트에 Learning Manager의 Fluidic Player를 포함하여 학습자가 웹사이트에서 바로 콘텐트를 수료할 수 있다는 것입니다. Fluidic Player는 Learning Manager에서 지원하는 모든 콘텐트를 재생하게 해줍니다. 플레이어를 웹사이트에 포함하면 Learning Manager 내에서 사용할 때와 똑같은 기능을 제공합니다.
 
-**모든 eLearning 콘텐츠 재생[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**모든 eLearning 콘텐츠 재생[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 Fluidic Player는 플러그인이나 다운로드 없이 일관적이고 직관적인 방식으로 모든 형식의 e러닝 콘텐트를 가상으로 재생합니다. 학습자는 콘텐츠 파일 형식에 관계 없이 콘텐츠를 실행하고 재생할 수 있습니다.
 
@@ -31,7 +28,7 @@ Fluidic Player에 대한 자세한 내용은 [Fluidic Player](../../learners/fea
 
 포함 가능한 Fluidic Player를 사용할 수 있는 몇 가지 예시입니다.
 
-* Fluidic Player를 웹 사이트 **&#x200B; 포함하여 직원** 등록한 강의를 목록화하고 같은 페이지에서 교육을 실행하는 링크를 제공할 수도 있습니다. 이는 학습자가 인트라넷 웹 사이트에서 교육을 수료할 수 있음을 의미합니다.
+* Fluidic Player를 웹 사이트** 포함하여 직원** 등록한 강의를 목록화하고 같은 페이지에서 교육을 실행하는 링크를 제공할 수도 있습니다. 이는 학습자가 인트라넷 웹 사이트에서 교육을 수료할 수 있음을 의미합니다.
 
 * 교육업에 종사하시는 경우, 귀하의 고객이 강의를 구매하는 웹사이트를 갖고 계실 것입니다. 고객이 웹사이트에서 구매한 콘텐츠를 수료하도록 웹사이트에 포함 가능한 플레이어를 통합할 수 있습니다.
 
@@ -51,7 +48,7 @@ Fluidic Player에 대한 자세한 내용은 [Fluidic Player](../../learners/fea
 
 1. 페이지의 오른쪽 상단 모서리에 있는 **[!UICONTROL &#39;등록&#39;]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 새로운 응용 프로그램 등록]** 창이 열립니다. 필수 필드를 채웁니다.
-1. 사용자 지정 응용 프로그램을 여러 계정에 공유해야 하는 경우 옵션 필드 **[!UICONTROL 이 계정에 대해서만**&#x200B;[!UICONTROL &#x200B;아니요&#x200B;]&#x200B;**를 선택하십시오.]**
+1. 사용자 지정 응용 프로그램을 여러 계정에 공유해야 하는 경우 옵션 필드 **[!UICONTROL 이 계정에 대해서만**[!UICONTROL &#x200B;아니요&#x200B;]**를 선택하십시오.]**
 1. 응용 프로그램을 저장하고 응용 프로그램 ID와 시크릿을 생성하려면 **[!UICONTROL &#39;저장&#39;]**&#x200B;을 클릭합니다.
 
 ### &#x200B;2. 액세스 토큰을 가져오는 중 {#retrievingaccesstoken}
@@ -75,11 +72,11 @@ client_id= <application_id>
 &email=<email_id>
 ```
 
-**[!UICONTROL 클라이언트 ID]**&#x200B;은(는) 1단계에서 얻은 응용 프로그램 ID입니다.
-**[!UICONTROL redirect_url]**&#x200B;은(는) 1단계의 redirect_url 세트입니다.
-**[!UICONTROL state]**&#x200B;은(는) OAuth 코드를 획득하기 위해 리디렉션 URL을 필터링해야 하는 더미 데이터입니다. Scope는 1단계의 학습자 범위입니다.
-**[!UICONTROL response_typ]**&#x200B;e는 항상 &quot;CODE&quot;입니다.\
-**[!UICONTROL 계정]**&#x200B;은(는) 선택적 필드입니다.\
+**[!UICONTROL client id]**는 1단계에서 획득한 응용 프로그램 ID입니다.
+**[!UICONTROL redirect_url]**은(는) 1단계의 redirect_url 세트입니다.
+**[!UICONTROL state]**은(는) OAuth 코드를 획득하기 위해 리디렉션 URL을 필터링해야 하는 더미 데이터입니다. Scope는 1단계의 학습자 범위입니다.
+**[!UICONTROL response_typ]**e는 항상 &quot;CODE&quot;입니다.\
+**[!UICONTROL 계정]**은(는) 선택적 필드입니다.\
 **[!UICONTROL 전자 메일]**&#x200B;은(는) 선택적 필드입니다.\
 &#42; 계정 ID와 전자 메일이 모두 제공된 경우 위의 URL을 사용하여 사용자가 동일한 계정에 로그인할 수 있습니다. 이 끝점 예제는 샘플 응용 프로그램의 &quot;index.html&quot; 파일에 나와 있습니다.
 
@@ -155,7 +152,7 @@ code window.addEventListener("message", function closePlayer(){
 ## 샘플 응용 프로그램 자습서 {#sampleapplicationtutorial}
 
 첨부된 pdf 문서에는 샘플 응용 프로그램 자습서가 포함되어 있습니다.
-[Fluidic Player를 포함하는 샘플 튜토리얼 및 튜토리얼 소스입니다.](assets/sample-applicationtutorial.zip) 대체 콘텐츠
+[fluidic player를 포함하는 샘플 튜토리얼 및 튜토리얼 원본](assets/sample-applicationtutorial.zip) 대체 콘텐츠
 
 관리자인 경우 Fluidic Player 내에서 학습자에게 대체 콘텐츠를 제공할 수 있는 방식으로 강의 자료를 설정할 수 있습니다. 예를 들어, 여러 지역에 걸쳐 여러 언어를 사용하려는 학습자가 있는 경우 동일한 콘텐츠를 여러 언어로 만들 수 있습니다. Fluidic Player는 설정된 언어를 학습자에게 제공하지만 학습자는 플레이어 내에서 바로 대체 언어로 전환할 수도 있습니다.
 
@@ -179,7 +176,7 @@ Learning Manager Fluidic Player에서 사용하는 스트리밍 기술은 비디
 
 1. 액세스 토큰을 필수 매개 변수로 사용합니다.
 
-   * access_token : 보안 매개 변수이며, 공용 API oauth를 사용합니다.   액세스 토큰
+   * access_token : 보안 매개 변수입니다. 공개 API oauth 액세스 토큰을 사용합니다.
 
    통합 책임자에 포함 가능한 Fluidic Player를 설정하여 토큰을 가져올 수 있습니다. 액세스 토큰으로 사용할 수 있는 인증 토큰을 받을 수 있습니다.
 
@@ -187,7 +184,7 @@ Learning Manager Fluidic Player에서 사용하는 스트리밍 기술은 비디
 
    여기서 lo_id 는 강의, 학습 프로그램, 인증 및 작업 지원 의 ID입니다.
 
-   lo_id - 강의:21324, 학습 프로그램:2143, 인증:23432, 작업 지원:237의 예
+   lo_id - course:21324, learningProgram:2143, certification:23432, jobAid:237 예
 
 1. Learning Manager API를 호출하여 위에 언급된 매개 변수를 검색합니다.
 
@@ -224,7 +221,7 @@ URL: [https://learningmanager.adobe.com/app/player](https://learningmanager.adob
 
 필수 매개 변수:
 
-* access_token : 보안 매개 변수이며, 공용 API oauth를 사용합니다.   액세스 토큰
+* access_token : 보안 매개 변수입니다. 공개 API oauth 액세스 토큰을 사용합니다.
 
 Learning Manager API를 호출하여 위에 언급된 매개 변수를 검색합니다. 이러한 API 호출은 IT 팀/컨설턴트가 사이트에서 작성하고 호스팅하는 애플리케이션에 의해 이루어집니다.
 
@@ -235,5 +232,3 @@ Learning Manager V1 API - [https://learningmanager.adobe.com/docs/primeapi/v1/](
 
 
 Learning Manager V2 API - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
-
-

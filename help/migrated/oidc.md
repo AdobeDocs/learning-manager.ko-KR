@@ -2,14 +2,12 @@
 description: OIDC 로그인 방법에 대해 알아보기
 jcr-language: en_us
 title: OpenID Connect로 Adobe Learning Manager 로그인
-source-git-commit: 7c430e3fbb2716455310f2130d73af10ce2e56c7
+exl-id: 7f85f359-0f4c-428f-a104-c4ae3071793a
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%
-
 ---
-
-
 # OIDC(OpenID Connect)를 사용하여 Adobe Learning Manager에 로그인
 
 Adobe Learning Manager에서 학습자, 작성자, 관리자를 위해 OpenID Connect 로그인이 작동하는 방식을 알아봅니다. 이 글에서는 구현이 아닌 경험에 대해 다룹니다.
@@ -31,7 +29,7 @@ OIDC는 Adobe ID 또는 SAML 기반 SSO(Single Sign-On)와 같이 계정에서 �
 
 * 사용자는 다른 애플리케이션에 사용하는 것과 동일한 기업 또는 클라우드 ID 환경을 볼 수 있습니다.
 * 암호 정책, 다단계 인증 및 계정 수명 주기는 다른 엔터프라이즈 앱과 일관되게 ID 공급자에서 관리됩니다.
-* OIDC는 일부 SAML 전용 설정과 관련된 더 큰 문서 교환 없이 사용자 및 IT 관점의 다른 최신 로그인 흐름과 유사한 패턴을 따릅니다.
+* OIDC는 일부 SAML 전용 설정과 관련된 더 큰 문서 교환 없이 사용자 및 IT 원근감의 다른 최신 로그인 흐름과 유사한 패턴을 추적합니다.
 
 여전히 사용 가능한 환경: Learning Manager로 이동하여 조직에서 알려주는 곳에 로그인하고 앱에 로그인합니다.
 
@@ -50,7 +48,7 @@ OIDC는 Adobe ID 또는 SAML 기반 SSO(Single Sign-On)와 같이 계정에서 �
 
 ### 귀사에 로그인
 
-ID 공급자 페이지에서 자격 증명을 입력하고 다단계 인증과 같이 조직에서 요구하는 추가 단계를 완료합니다. 이 단계는 OIDC가 사용 중인 방법인 경우 Adobe Learning Manager의 자체 로그인 양식 외부에서 발생합니다. 고객님의 관점에서 보면 회사 또는 학교 계정에 로그인하는 것처럼 느껴집니다. 이 단계에서 *OIDC* 또는 *OAuth*&#x200B;와 같은 기술 약관이 표시되지 않을 수 있습니다.
+ID 공급자 페이지에서 자격 증명을 입력하고 다단계 인증과 같이 조직에서 요구하는 추가 단계를 완료합니다. 이 단계는 OIDC가 사용 중인 방법인 경우 Adobe Learning Manager의 자체 로그인 양식 외부에서 발생합니다. 원근감에서 회사 또는 학교 계정에 로그인하는 것처럼 느껴집니다. 이 단계에서 *OIDC* 또는 *OAuth*&#x200B;와 같은 기술 약관이 표시되지 않을 수 있습니다.
 
 ### Adobe Learning Manager으로 돌아가기
 

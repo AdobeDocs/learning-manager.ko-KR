@@ -2,14 +2,12 @@
 title: 범위가 지정된 공지 권한이 있는 사용자 정의 역할
 jcr-language: en_us
 description: Adobe Learning Manager에서 선택한 카탈로그 및 사용자 그룹에 대해서만 공지를 허용하는 사용자 정의 역할을 만드는 방법을 알아보십시오.
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+exl-id: e038033c-ce06-454a-922b-ba0b0c894ac0
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
-
 ---
-
-
 # 범위가 지정된 공지 권한이 있는 사용자 정의 역할
 
 관리자는 특정 카탈로그 및 사용자 그룹으로 제한된 공지 권한으로 사용자 정의 역할을 만들 수 있습니다. 이렇게 하면 공지가 대상으로, 관련성이 있으며 의도한 학습자에게만 표시됩니다. 범위 지정 공지는 올바른 사용자가 다른 사람에게 세부 정보를 보내지 않고 관련 공지를 받도록 합니다.
@@ -62,7 +60,7 @@ ht-degree: 0%
    ![](/help/migrated/assets/create-add-announcement.png)
    관리자가 대상 사용자 그룹에 대한 공지를 만들고 관리할 수 있는 Adobe Learning Manager의 _공지 페이지_
 
-4. 드롭다운 메뉴에서 **[!UICONTROL 공지 유형]**&#x200B;을 선택합니다.
+4. 드롭다운 메뉴에서 **[!UICONTROL 공지 유형]**을 선택합니다.
 a. **[!UICONTROL 알림으로]**
 b. **[!UICONTROL 발행인란으로]**
 c. **[!UICONTROL 권장 사항]**

@@ -3,15 +3,12 @@ description: 이 문서는 Learning Manager 계정에 로그인하도록 SSO 인
 jcr-language: en_us
 title: SSO 인증을 사용하여 Learning Manager에 로그인
 contentowner: dvenkate
-source-git-commit: a186a600e632e9a564c4ff30d1897c2cdf0d5aac
+exl-id: ef5ab232-0a87-4f76-8dfd-b2497f360cbe
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 70%
-
+source-wordcount: '135'
+ht-degree: 68%
 ---
-
-
-
 # SSO 인증을 사용하여 Learning Manager에 로그인
 
 이 문서는 Learning Manager 계정에 로그인하도록 SSO 인증을 구성하는 데 도움이 됩니다.
@@ -38,4 +35,3 @@ SSO 인증을 구성하려면 다음 단계를 수행하십시오.
    Learning Manager에서 구성하는 SSO는 SAML 2.0을 지원해야 합니다.
 
    이제 SSO 인증을 사용하여 Learning Manager에 로그인할 수 있습니다.
-
