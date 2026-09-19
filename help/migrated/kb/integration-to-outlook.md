@@ -4,15 +4,12 @@ jcr-language: en_us
 title: Learning Manager에서 Outlook 일정 초대에 대한 학습자의 응답 보기
 contentowner: kuppan
 preview: true
-source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
+exl-id: 0df7284f-20c1-410d-b985-3d031744deaf
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 36%
-
+source-wordcount: '523'
+ht-degree: 43%
 ---
-
-
-
 # [!DNL Learning Manager]에서 Outlook 일정 초대에 대한 학습자의 응답 보기
 
 관리자와 강사가 일정 초대에 대한 학습자의 응답을 보는 방법에 대해 알아봅니다.
@@ -25,7 +22,7 @@ Learning Manager에서 교육 과정의 가상 강의/교실 세션에 등록한
 
 ## 초대-응답-추적 기능 사용 {#enablingtheinvitereplytrackingfeature}
 
-* 초대-응답-추적 기능을 활성화하려면 Adobe Learning Manager 지원에 문의하십시오.
+* 초대-응답-추적 기능을 사용하려면 Adobe Learning Manager 지원팀에 문의하십시오.
 * 계정에 대해 이 기능이 활성화되면, 작성자가 생성한 모든 향후 가상 강의/교실 세션에서 일정 초대에 대한 학습자의 응답을 기록할 수 있습니다.
 
 초대-응답-추적 기능이 활성화되기 전에 생성된 가상 강의/교실 세션에 학습자가 등록되어 있으면 일정 초대에 대한 학습자의 응답이 기록되지 않습니다.
@@ -34,7 +31,7 @@ Learning Manager에서 교육 과정의 가상 강의/교실 세션에 등록한
 
 가상 강의/교실 세션에 초대-응답-추적 기능이 활성화되어 있으면, 관리자는 다음과 같이 다른 권한과 함께 초대에 대한 학습자의 응답을 볼 수 있습니다.
 
-1. 왼쪽 탐색 패널에서 **[!UICONTROL 과정]**&#x200B;을 클릭하고 초대-응답-추적 기능의 활성화 후 생성된 과정을 확인합니다.
+1. 왼쪽 탐색 패널에서 **[!UICONTROL 교육 과정]**&#x200B;을 클릭하고 초대-응답-추적 기능의 활성화 후 생성된 교육 과정을 확인합니다.
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 출석 및 점수]**&#x200B;를 클릭합니다.
 1. 일정 초대에 대한 학습자의 이름과 응답을 포함한 아래 표를 표시하려면 [출석 및 점수] 페이지에서 **인스턴스** 및 **[!UICONTROL 모듈]**&#x200B;을 선택하십시오.
 1. **[!UICONTROL 초대]** 필터를 사용하여 모든 응답, 수락, 거절, 미정 및 전송 옵션을 기준으로 학습자를 볼 수 있습니다.
@@ -64,4 +61,3 @@ Learning Manager에서 교육 과정의 가상 강의/교실 세션에 등록한
    표시된 표의 모든 학습자에게 전자 메일을 보내려면 **[!UICONTROL 동작]** > **[!UICONTROL 모든 학습자에게 전자 메일 보내기]**&#x200B;를 클릭합니다.
 
    ![](assets/instructor-actions1.png)
-

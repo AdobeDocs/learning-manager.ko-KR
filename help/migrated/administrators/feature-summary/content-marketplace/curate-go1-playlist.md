@@ -2,14 +2,12 @@
 description: Adobe Learning Manager에서 Go1 플레이리스트를 만들고 학습 경로에 추가하는 방법을 알아봅니다. 이 안내서에서는 플레이리스트 통합을 위한 단계별 지침과 모범 사례를 다룹니다.
 jcr-language: en_us
 title: Adobe Learning Manager 학습 경로에 Go1 플레이리스트 큐레이션
-source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
+exl-id: ab590c9b-80f3-4603-a8bb-430d3bb960a1
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
-
 ---
-
-
 # 학습 경로에 Go1 과정 큐레이션
 
 관리자는 종종 여러 저장소 또는 카탈로그에서 강의를 큐레이션해야 하므로 최적의 옵션을 식별하기가 어렵습니다. 이는 수천 개의 코스를 이용할 수 있는 Go1에서는 특히 어렵습니다. 이를 단순화하기 위해 학습 경로 생성 플로우 내에서 직접 AI 기반 큐레이션 기능을 제공합니다. 이를 통해 책임자는 가장 관련성이 높은 강의를 빠르게 찾고 선택할 수 있습니다
@@ -44,8 +42,8 @@ Go1 강의로 학습 경로를 생성하려면
 
    * **[!UICONTROL Go1 AI 도우미]**&#x200B;를 사용하고 있습니다. 자세한 내용은 [Go1 AI 도우미](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#go1-ai-assistant)를 참조하세요.
    * **[!UICONTROL 라이브러리]**&#x200B;에서 **[!UICONTROL 재생 목록 만들기]**&#x200B;를 선택하고 다음 중 하나를 선택합니다.
-a. **[!UICONTROL AI로]**: AI를 사용하여 플레이리스트를 만듭니다. 자세한 내용은 이 [섹션](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai)을(를) 참조하세요.
-b. **[!UICONTROL 직접]**: 강의를 수동으로 추가하여 재생 목록을 만듭니다. 자세한 내용은 이 [섹션](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually)을(를) 참조하세요.
+     a. **[!UICONTROL AI로]**: AI를 사용하여 재생 목록을 만듭니다. 자세한 내용은 이 [섹션](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai)을(를) 참조하세요.
+     b. **[!UICONTROL 직접]**: 강의를 수동으로 추가하여 재생 목록을 만듭니다. 자세한 내용은 이 [섹션](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually)을(를) 참조하세요.
 
 ### Go1 AI Assistant
 
@@ -53,7 +51,7 @@ Adobe Learning Manager은 관리자가 쉽게 강의 큐레이션을 진행할 �
 
 AI로 플레이리스트를 만들려면 다음을 수행하십시오.
 
-1. **[!UICONTROL Go1 콘텐츠 허브]**&#x200B;에서 **AI와 채팅** 옵션을 선택합니다.
+1. **Go1 콘텐츠 허브**&#x200B;에서 **[!UICONTROL AI와 채팅]** 옵션을 선택합니다.
 
    ![](assets/select-chat-with-ai.png)
    _AI와 채팅 옵션을 표시하는 콘텐츠 허브 화면, 여기서 관리자는 AI 길잡이와 상호 작용하여 질문할 수 있습니다_

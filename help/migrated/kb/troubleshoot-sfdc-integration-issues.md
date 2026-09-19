@@ -3,14 +3,12 @@ jcr-language: en_us
 title: Adobe Learning Manager과의 Salesforce(SFDC) 통합 문제 해결
 description: 내보내기 실패, SFDC 사용자 정의 개체의 필드 권한 문제, 중요한 SFDC-ALM 호환성 정보 등을 포함하여 Adobe Learning Manager(ALM)과 관련된 일반적인 Salesforce(SFDC) 통합 문제를 해결합니다.
 contentowner: saghosh
-source-git-commit: cedb4acc89e7d972a4752e10c4fb6930c4633f6a
+exl-id: 65acb7f9-45c3-4dbb-a9db-053533890040
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
-
 # Adobe Learning Manager과의 Salesforce(SFDC) 통합 문제 해결
 
 ## SFDC 내보내기 실패 문제 해결(2~3시간 이상 내보내기 없음)
@@ -66,9 +64,9 @@ SFDC 내보내기가 **2~3시간**&#x200B;을 초과하여 성공적으로 완�
 
 - **SFDC 커넥터가 Salesforce**&#x200B;에서 새 개체 또는 필드를 만들지 않습니다.
 - **새 필드가 ALM**&#x200B;에 추가되고 SFDC에 표시되게 하려는 경우:
-   - SFDC에서 수동으로 **해당 사용자 지정 필드를 만듭니다**.
-   - 커넥터 구성의 **적절한 ALM 필드**&#x200B;에 SFDC 사용자 지정 필드를 **매핑**&#x200B;합니다.
-   - 새 필드에 **적절한 필드 수준 권한**&#x200B;이 있는지 확인하십시오(섹션 2 사용).
+  - SFDC에서 수동으로 **해당 사용자 지정 필드를 만듭니다**.
+  - 커넥터 구성의 **적절한 ALM 필드**&#x200B;에 SFDC 사용자 지정 필드를 **매핑**&#x200B;합니다.
+  - 새 필드에 **적절한 필드 수준 권한**&#x200B;이 있는지 확인하십시오(섹션 2 사용).
 
 ### 사용자 정의 도메인이 있는 ALM 계정의 콜백 URL
 

@@ -2,14 +2,12 @@
 title: Adobe Learning Manager 관리 계정 수명 주기
 description: 이 문서에서는 FedRAMP 규정 준수 및 모범 보안 사례를 충족하기 위해 Adobe Learning Manager(ALM)에서 최상위 관리 계정을 안전하게 관리하는 방법에 대한 포괄적인 지침을 제공합니다.
 jcr-language: en-us
-source-git-commit: db3ed4dc44da75b418e923999bdf3776bf81b11f
+exl-id: 79049f3d-8ebe-47e7-9895-9a7aaee504b3
+source-git-commit: 88298726a8cd4622e412200b3318e18890817ae8
 workflow-type: tm+mt
 source-wordcount: '2122'
 ht-degree: 0%
-
 ---
-
-
 # Adobe Learning Manager의 관리 계정 유형
 
 ## ALM 역할 매핑

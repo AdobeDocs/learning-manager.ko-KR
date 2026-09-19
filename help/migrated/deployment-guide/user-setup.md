@@ -4,15 +4,12 @@ jcr-language: en_us
 title: Learning Manager에서 사용자 설정
 contentowner: shhivkum
 preview: true
-source-git-commit: ac4432a2fda4be4ffde5e58c0f44e623b55703b5
+exl-id: 9cf893a5-9282-40fa-a12a-1d7078f0b98a
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 71%
-
 ---
-
-
-
 # Learning Manager에서 사용자 설정
 
 ## 내부 및 외부 사용자 {#internalandexternalusers}
@@ -203,4 +200,3 @@ Learning Manager에서 선택한 사용자 목록으로 사용자 정의 그룹�
 1. **[!UICONTROL **&#x200B;사용자 추가&#x200B;**&#x200B;필드에 사용자 이름 또는 사용자의 프로필을 입력하여 사용자 정의 사용자 그룹에 사용자를 추가합니다.]**
 1. 사용자 지정 그룹에 사용자를 더 추가하려면 **[!UICONTROL **&#x200B;사용자 추가&#x200B;**&#x200B;를 클릭하십시오.]**
 1. 모든 사용자를 추가한 후 **[!UICONTROL 저장]**&#x200B;을 클릭하여 사용자 지정 사용자 그룹을 저장합니다.
-
