@@ -39,7 +39,7 @@ Adobe Admin Console은 관리자 계정에 대해 세 가지 id 유형을 지원
 
 자세한 내용은 다음을 참조하십시오.
 
-* [ID 유형](https://helpx.adobe.com/enterprise/using/admin-console.html)
+* [ID 유형](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)
 * [사용자 인증 및 암호 보안](https://helpx.adobe.com/kr/enterprise/using/authentication-settings.html)
 
 ## 역할 할당 및 액세스 제어
@@ -159,7 +159,7 @@ Adobe Admin Console은 계층적 관리자 구조를 사용합니다. 시스템 
 * **최소 대기 액세스**: 일상적인 작업에 최상위 관리자 계정을 사용하지 마세요. 특별히 필요한 작업에 대해 전체 관리자 액세스 권한을 예약합니다.
 * **세션 보안**: Admin Console > 설정 > 고급 설정에서 최대 세션 수명 및 최대 유휴 시간을 구성하여 무인 세션의 노출을 제한합니다.
 
-자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/enterprise/using/admin-console.html)를 참조하십시오.
+자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)를 참조하십시오.
 
 ### 관리자가 관리하는 사용자 계정 관리
 
