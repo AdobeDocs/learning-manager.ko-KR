@@ -6,11 +6,9 @@ contentowner: saghosh
 preview: true
 source-git-commit: 9325abb9cda8c8a019c9d72c1944a8284f38f83e
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 70%
-
+source-wordcount: '231'
+ht-degree: 72%
 ---
-
 
 
 # 서식 있는 텍스트 편집기용 CSS 템플릿
