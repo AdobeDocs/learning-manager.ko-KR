@@ -3,13 +3,11 @@ description: Salesforce 커넥터와 Adobe Learning Manager을 통합하는 방�
 jcr-language: en_us
 title: Salesforce 커넥터
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+source-git-commit: abd49abdde8ba8d957cd2c9dc34b9407d8e27d79
 workflow-type: tm+mt
 source-wordcount: '2251'
-ht-degree: 5%
-
+ht-degree: 4%
 ---
-
 
 # Adobe Learning Manager용 Salesforce 커넥터
 
@@ -164,9 +162,9 @@ Adobe Learning Manager에서 학습 기록을 내보내기 전에 Salesforce에�
 
 Adobe은 필요한 사용자 정의 개체를 만드는 사전 제작된 패키지를 제공합니다.
 
-- [패키지 1](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPJ): 핵심 학습 개체 및 필드
-- [패키지 2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPT): 확장된 학습 분석 개체
-- [패키지 3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi): 추가 보고 및 통합 개체
+- [패키지 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS): 핵심 학습 개체 및 필드
+- [패키지 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciX): 확장된 학습 분석 개체
+- [패키지 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000Hcic): 추가 보고 및 통합 개체
 
 >[!IMPORTANT]
 >
@@ -363,7 +361,7 @@ Adobe Learning Manager 앱은 Adobe Learning Manager에서의 역할에 해당�
 
 **사용자 지정 프로필 만들기**
 
-1. &lbrace;0 **설정&rbrack;으로 이동하여**&#x200B;명의 사용자를 선택합니다. **&#x200B;**
+1. {0 **설정]으로 이동하여**&#x200B;명의 사용자를 선택합니다. ****
 2. **프로필**&#x200B;을 선택합니다.
 3. **새 프로필**&#x200B;을 클릭합니다.
 4. Adobe Learning Manager 사용자에 맞게 조정된 기존 프로필을 기반으로 사용자 정의 프로필을 만듭니다.
