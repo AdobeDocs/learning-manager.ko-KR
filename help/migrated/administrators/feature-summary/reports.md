@@ -4,13 +4,11 @@ jcr-language: en_us
 title: 보고서
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: 10d3de1a5a537bd6132f4d350ddd7a8612689bde
 workflow-type: tm+mt
 source-wordcount: '7677'
 ht-degree: 63%
-
 ---
-
 # 보고서 {#reports}
 
 Learning Manager 응용 프로그램에서 책임자 역할과 관련된 보고서에 관해 알아봅니다.
@@ -1018,7 +1016,7 @@ Adobe Learning Manager(ALM)의 기록 보고서는 학습 플랫폼 내에서 �
    *보고서에 대한 축*
 
 1. 드롭다운 옵션에서 보고서의 2차 **[!UICONTROL Y축]** 기준/범위를 선택합니다. 예를 들면 학습 프로그램 등록 옵션에서 상태 드롭다운에 있는 상태 중 하나 이상을 선택할 수 있습니다. 2차 범위 데이터는 선 그래프 형태로 표시됩니다.
-1. 드롭다운 옵션에서 보고서에 적합한 X&#x200B;**축** 기준을 선택합니다. X축을 날짜로 선택하면 X축을 일별, 월별, 분기별, 연도별 기준으로 정렬하는 옵션을 사용할 수 있습니다.
+1. 드롭다운 옵션에서 보고서에 적합한 X**축** 기준을 선택합니다. X축을 날짜로 선택하면 X축을 일별, 월별, 분기별, 연도별 기준으로 정렬하는 옵션을 사용할 수 있습니다.
 1. 시간 범위 섹션의 드롭다운에서 적절한 옵션을 선택합니다. 사용 가능한 옵션은 다음과 같습니다.
 
    * 마지막 1개월
