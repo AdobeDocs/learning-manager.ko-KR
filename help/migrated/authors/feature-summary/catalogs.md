@@ -8,9 +8,7 @@ source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 88%
-
 ---
-
 # 카탈로그
 
 Learning Manager의 카탈로그는 Learning Manager 계정의 학습자 역할을 위한 강의, 학습 프로그램 및 인증으로 구성됩니다.

@@ -7,10 +7,8 @@ exl-id: 6dbcd687-82e3-422f-8c8c-f7bf404f3332
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 74%
-
+ht-degree: 97%
 ---
-
 # 배지를 할당할 수 없음
 
 ## 문제
@@ -47,7 +45,7 @@ ht-degree: 74%
 
    ![](assets/remove-a-badge.png)
 
-1. 학습 개체에 배지를 다시 할당하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 학습 개체에 배지를 재할당하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    그러면 학습 개체에 등록된 모든 학습자에게 배지가 할당됩니다.
 
@@ -60,4 +58,4 @@ ht-degree: 74%
 
    ![](assets/remove-a-badge-cert.png)
 
-1. 인증에 배지를 다시 할당하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 인증에 배지를 재할당하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.

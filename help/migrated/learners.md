@@ -7,10 +7,8 @@ preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 88%
-
+ht-degree: 91%
 ---
-
 
 
 # 학습자

@@ -7,10 +7,8 @@ exl-id: 706cafe3-2650-4837-9dee-e381a4a711f9
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 55%
-
+ht-degree: 61%
 ---
-
 # 학습 프로그램 중단 문제
 
 ## 문제
@@ -29,7 +27,7 @@ ht-degree: 55%
 
 1. 책임자로 로그인하고 관련 학습 프로그램을 실행합니다.
 
-1. **[!UICONTROL 인스턴스]** > **C과정**&#x200B;을 클릭합니다. 페이지에 해당 학습 프로그램의 모든 강의가 나열됩니다. 중단된 인스턴스가 포함된 강의를 볼 수 있습니다.
+1. **[!UICONTROL 인스턴스]** > **C과정**&#x200B;을 클릭합니다. 페이지에 해당 학습 프로그램의 모든 강의가 나열됩니다. 어떤 강의에 중단된 인스턴스가 포함되어 있는지 확인할 수 있습니다.
 
    ![](assets/retired-instance.png)
 
