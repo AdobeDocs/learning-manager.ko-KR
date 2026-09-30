@@ -6,11 +6,9 @@ contentowner: saghosh
 exl-id: 5920b4e4-f552-4b89-9126-2f1bbf5c8e9b
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 90%
-
+source-wordcount: '206'
+ht-degree: 89%
 ---
-
 # 학습 프로그램을 생성하는 동안 카탈로그에서 특정 강의를 볼 수 없음
 
 ## 문제

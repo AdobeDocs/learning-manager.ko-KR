@@ -8,9 +8,7 @@ source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 83%
-
 ---
-
 # Learning Manager EU 도메인에 게시할 수 없음 {#unable-to-publish-to-learning-manager-eu-domain}
 
 ## 문제
