@@ -3,9 +3,9 @@ title: Adobe Learning Manager의 Experience Builder 지침 및 제한 사항
 description: Experience Builder 지침 및 제한 사항은 AI 기반 알고리즘을 사용하는 학습자에게 개인화된 강의 및 콘텐츠 제안을 제공합니다.
 jcr-language: en-us
 exl-id: 2eaeb2af-cd72-4400-9f6e-410c05acda55
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+source-git-commit: 1830489f446d0071604b0d8102d54d7ed800bc27
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '815'
 ht-degree: 0%
 ---
 # Experience Builder 지침 및 제한 사항
@@ -79,7 +79,7 @@ Experience Builder에서 최대 1000개의 페이지를 만들 수 있습니다.
 
 ### 면책 조항
 
-* 사용자 정의 코드는 향후 릴리스에서 예상대로 작동하지 않을 수 있으므로 조정이 필요합니다. 각 릴리스 후 코드를 업데이트할 준비를 하십시오.
+* 사용자 정의 HTML, CSS 및 JavaScript 사용자 정의가 지원되지만 플랫폼 업데이트에서는 사용자 정의 코드를 약간 조정해야 하는 경우가 있습니다. 정기적인 유지 관리의 일환으로 주요 릴리스 이후 사용자 정의를 테스트하는 것이 좋습니다.
 
 ## 일반 권장 사항
 

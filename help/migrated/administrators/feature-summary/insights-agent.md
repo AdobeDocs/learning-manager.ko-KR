@@ -2,15 +2,13 @@
 description: Insights 상담사는 관리자가 자연어를 사용하여 학습자 데이터를 쿼리할 수 있도록 해 주는 Adobe Learning Manager의 AI 기반 기능입니다.
 jcr-language: en_us
 title: Adobe Learning Manager의 Insights Agent (Beta)
-source-git-commit: ed7e51ce51aa57144b8e519cb24a95ffbc436504
+source-git-commit: a599b117a000c83105fd258c307fedd6a99b6f96
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2929'
 ht-degree: 1%
-
 ---
 
-
-# Insights 에이전트란?
+# Insights 에이전트란 무엇입니까?
 
 Insights Agent는 관리자가 자연어를 사용하여 학습 데이터를 쿼리할 수 있도록 해 주는 Adobe Learning Manager의 AI 기반 기능입니다. 보고서를 다운로드하고 스프레드시트를 조작하는 대신 &quot;계정에서 지난 3개월 동안 생성된 강의가 몇 개입니까?&quot;와 같은 질문을 입력합니다. Give me a month-on-month report.&quot;, and Insights Agent retrieve and present the data directly. 결과를 텍스트, 글머리 기호 또는 표로 보거나 CSV 파일로 다운로드할 수 있습니다.
 
@@ -28,7 +26,7 @@ Insights 에이전트를 사용하면 다음 작업을 수행할 수 있습니�
 
 ## Data Insights 에이전트가 지원하지 않는 기능
 
-다음 데이터 형식은 이 릴리스의 범위를 벗어납니다.
+다음 데이터 형식은 현재 Insights 에이전트 범위를 벗어납니다.
 
 - 피드백 및 설문 조사 데이터
 - 게임화 점수 및 배지
@@ -61,6 +59,7 @@ Adobe Learning Manager의 Insights 에이전트를 사용하면 일반 언어 �
 기본적으로 **Get Insights** 모드가 선택된 경우 도우미에 액세스할 때마다 모드를 조정할 필요 없이 학습 데이터 쿼리를 즉시 시작할 수 있습니다. 그러나 지침 질문을 위해 **학습** 모드로 전환한 경우 쿼리를 제출하기 전에 **인사이트 가져오기**&#x200B;를 다시 선택해야 합니다.
 
 1. Learning Manager에서 AI 도우미 아이콘을 선택하여 도우미 패널을 엽니다. **Get Insights** 옵션은 기본적으로 이미 선택되어 있습니다.
+
    ![](assets/ask-question.png)
 
 2. 텍스트 필드에 질문을 입력합니다. 일반 언어를 사용합니다. 예: **지난 3개월 동안 생성된 강의 수는 몇 개입니까?**
@@ -72,12 +71,15 @@ Adobe Learning Manager의 Insights 에이전트를 사용하면 일반 언어 �
 질문을 제출하면 Insights 에이전트가 요청을 처리하고 최대 네 개의 부분으로 구성된 응답을 반환합니다.
 
 1. **명확성(필요한 경우):** 질문에 &quot;학습 활동&quot;, &quot;성과&quot; 또는 &quot;지난 3개월 동안의 성과 데이터 제공&quot;과 같이 모호한 용어가 포함되어 있으면 도우미가 옵션 목록을 표시하고 계속하기 전에 하나를 선택하라는 메시지를 표시합니다. 원하는 옵션과 가장 잘 맞는 옵션을 선택합니다. 초기 질문 이후에는 추가 지침을 입력할 수 없습니다. 제공된 옵션 중에서 선택하는 것이 쿼리 인터페이스를 사용하여 새 쿼리를 시작할 때까지 사용할 수 있는 유일한 상호 작용입니다. 제공된 옵션에서 선택해야 명확하게 응답할 수 있습니다. 이 릴리스에서는 자유 텍스트 후속 작업을 사용할 수 없습니다.
+
    ![](assets/disambiguation.png)
 
 2. **방법:** **방법** 섹션은 에이전트가 데이터를 검색하는 데 수행한 단계를 설명합니다. 질문 아래에 스크롤 가능한 패널로 표시됩니다. 전체 접근 방식을 보려면 확장 아이콘을 선택합니다. 이 섹션을 검토하면 특히 복잡한 질의의 경우 로직이 사용자의 의도와 일치하는지 확인하는 데 도움이 됩니다. 예를 들어 &#39;지난 해에 등록한 모든 학습자&#39;를 요청하면 상담사는 모든 등록 기록이 아닌 각 학습자의 가장 최근 등록을 반환할 수 있습니다. **방법** 섹션은 에이전트가 데이터를 검색할 때 내린 결정에 대해 설명합니다. 로직이 의도와 일치하지 않으면 보다 구체적인 용어로 새 쿼리를 시작합니다.
+
    ![](assets/approach.png)
 
 3. **결과:** Insights 에이전트는 결과를 텍스트나 표로 생성합니다. 테이블 형식으로 가장 잘 해석되는 데이터 요소의 경우 Insights 에이전트는 테이블을 반환합니다. Insights 에이전트는 차트 또는 그래프를 생성하지 않습니다. 데이터를 시각화하려면 CSV를 다운로드하고 원하는 도구에서 여십시오. 일반 언어 요약이 결과에 포함되어 있습니다. 결과에 50개 이하의 행이 포함되어 있으면 요약에는 데이터에 대한 분석 통찰력이 포함됩니다. 결과에 50개가 넘는 행이 포함되어 있으면 요약에서 열 수준 통계를 제공합니다. 예를 들어, &quot;최근 1년 동안 생성된 5개 이상의 등록이 없는 강의는 무엇이며, 작성자는 누구입니까?&quot;
+
    ![](assets/results.png)
 
 응답에는 다음과 같은 요약이 포함됩니다.
@@ -95,11 +97,9 @@ Adobe Learning Manager의 Insights 에이전트를 사용하면 일반 언어 �
 >
 >요약의 형식은 데이터의 특성에 따라 다릅니다. 다음은 요약 응답의 한 예입니다. 실제 요약은 쿼리에 따라 다릅니다.
 
-
 >[!NOTE]
 >
 >Insights 상담사는 확률적입니다. 동일한 쿼리를 두 번 실행하면 응답 구문 또는 결과 순서가 약간 다를 수 있습니다.
-
 
 ### 보고서 다운로드
 
@@ -108,7 +108,8 @@ Adobe Learning Manager의 Insights 에이전트를 사용하면 일반 언어 �
 ## 새 쿼리 시작
 
 각 Insights 에이전트 세션은 한 번에 하나의 질문을 처리합니다. 결과를 검토한 후 **새 질문**&#x200B;을 선택하여 다른 질문을 합니다. 현재 쿼리를 취소하고 새로 시작하려는 경우 응답을 받기 전 등 언제든지 **새 채팅**&#x200B;을 선택할 수도 있습니다. 같은 세션에서 후속 질문을 입력하거나 상담사에게 반환된 결과를 구체화하거나 확장하도록 요청할 수 없습니다.
-![](assets/new-question.png)
+
+![](/help/migrated/administrators/feature-summary/assets/new-question.png)
 
 >[!TIP]
 >
@@ -117,7 +118,8 @@ Adobe Learning Manager의 Insights 에이전트를 사용하면 일반 언어 �
 ## 피드백 제공
 
 각 응답 후 thumbs-up 또는 thumbs-down 아이콘을 선택하여 결과를 평가합니다. 출력이 부정확한지, 이해하기 어려운지, 또는 반환하는 데 너무 오래 걸렸는지 여부도 지정할 수 있습니다. 이 피드백은 시간이 지남에 따라 상담사를 개선하는 데 도움이 됩니다.
-![](assets/feedback.png)
+
+![](/help/migrated/administrators/feature-summary/assets/feedback.png)
 
 ## 모범 사례
 
@@ -125,9 +127,11 @@ Adobe Learning Manager의 Insights 에이전트를 사용하면 일반 언어 �
 - 콘텐츠 및 학습자 그룹에 이름을 지정할 때 정확한 Adobe Learning Manager 용어를 사용하십시오. 쿼리 작성 안내서에는 사용할 올바른 용어가 나열됩니다.
 - 상담사가 명확한 질문을 하는 경우 다음 번에 원래 쿼리를 구체화하라는 신호로 처리합니다. 질문이 구체적일수록 더 적은 설명이 필요합니다.
 - 결과에 대한 작업을 수행하기 전에 **접근 방식** 섹션을 검토하여 상담사의 논리가 귀하의 의도와 일치하는지 확인하십시오.
-- **대기자 명단에 등록된 학습자를 포함할지 또는 제외할지 지정**. 기본적으로 등록 횟수 쿼리에는 활성 등록과 함께 대기자 명단에 있는 학습자가 포함됩니다. 활성 참여자만 필요한 경우 쿼리에 대기자 명단에 등록된 학습자를 명시적으로 제외합니다. 예: &quot;대기자 명단에 등록된 학습자를 제외하고 안전 교육 과정에 직접 등록된 학습자는 몇 명입니까?&quot; 상담사는 접근 방식 섹션에서 제외가 적용되었음을 공개할 것입니다. 이 지침이 없으면 등록 총합에는 아직 콘텐츠를 시작하지 않은 대기자 명단에 등록된 학습자의 상당수가 포함될 수 있습니다.
+- **대기자 명단에 등록된 학습자를 포함할지 여부를 지정하십시오.** 기본적으로 등록 횟수 쿼리는 활성, 확인된 등록이 있는 학습자만 반환합니다. 대기자 명단에 등록된 학습자는 제외되며, 강의 또는 학습 경로 페이지에서 사용할 수 있는 등록된 학습자 목록과 일치합니다. 대기자 명단에 등록된 학습자를 포함하려면 쿼리에 명시적으로 이라고 합니다. 예: &quot;대기자 명단에 등록된 학습자를 포함하여 얼마나 많은 학습자가 안전 교육 과정에 직접 등록됩니까?&quot; 접근법 섹션에는 대기자 명단에 등록된 학습자가 결과에 포함되었는지 여부가 표시됩니다.
+<!--
+- **Specify whether to include or exclude waitlisted learners**. By default, enrollment count queries include learners who are on a waitlist alongside active, confirmed enrollments. If you need only active participants, explicitly exclude waitlisted learners in your query. For example: "How many learners are directly enrolled in the Safety Training course, excluding waitlisted learners?" The agent will disclose in the Approach section that the exclusion was applied. Without this instruction, enrollment totals may include a significant proportion of waitlisted learners who have not yet started the content.
+-->
 - **직접 및 간접 등록 횟수**: 강의 또는 학습 경로에 대한 등록 또는 완료 데이터를 쿼리하면 Insights 상담사는 직접 등록(해당 강의 또는 학습 경로에 특별히 등록된 학습자)과 간접 등록(학습 경로 또는 인증의 일부로 동일한 콘텐츠에 액세스한 학습자)을 구분합니다. 직접 또는 간접 등록을 특별히 요청하면 상담사는 각 유형에 대해 올바른 수를 반환합니다. 쿼리에서 직접 또는 간접을 지정하지 않으면 에이전트는 결합된 카운트를 반환할 수 있습니다. 개수를 구분하려면 쿼리에 명시적으로 구분을 포함합니다. 예: &quot;직접 등록한 학습자와 안전 교육 과정에 간접적으로 등록한 학습자는 각각 몇 명입니까?&quot;
-
 
 ## Insights 상담사와 Report Builder의 차이점
 
@@ -176,6 +180,36 @@ Insights 에이전트는 쿼리를 Adobe Learning Manager의 데이터 모델과
 | **카탈로그 레이블** | 범주/태그 그룹 |
 
 Insights Agent는 대/소문자를 구분하지 않지만 정확한 용어 일치로 정확도가 향상됩니다.
+
+### 조직의 사용자 지정 용어를 사용하여 쿼리
+
+관리자가 **설정 > 일반**&#x200B;에서 제품 용어를 사용하여 표준 용어의 이름을 변경한 경우 Insights 에이전트는 위에 나열된 기본값 대신 조직의 사용자 지정 용어를 인식합니다. 예를 들어 조직에서 **과정**&#x200B;의 이름을 **장**(으)로 변경한 경우 &quot;지난달에 완료한 챕터 수는 몇 개입니까?&quot;라고 물을 수 있습니다. 그리고 Insights 에이전트는 질문을 이해하고 응답 및 열 머리글에서 **장**&#x200B;을 사용하여 결과를 레이블링합니다.
+
+쿼리 해석 방법, 접근 방식 설명, 결과 요약, 채팅에 표시되는 테이블 또는 열 헤더 등 Insights 상담사 채팅 창 내의 모든 영역에 사용자 정의 용어가 적용됩니다. **다운로드한 CSV 파일에 사용자 지정 용어가 반영되지 않습니다.** 내보낸 파일의 열 머리글 및 콘텐츠는 조직의 사용자 정의 방법과 관계없이 기본 Adobe Learning Manager 용어를 사용합니다.
+
+- Insights Agent는 제품 용어 CSV 파일에 구성된 대로 사용자 정의 용어의 단수 및 복수 형식을 모두 인식합니다.
+- 조직에서 사용자 정의한 후에도 쿼리에 기본 Adobe Learning Manager 용어를 사용할 수 있습니다. Insights 에이전트는 기본 용어를 인식하고 조직의 사용자 지정 용어를 사용하여 응답합니다. 예를 들어 조직에서 **과정**&#x200B;의 이름을 **장**(으)로 변경한 경우에도 &quot;지난달에 완료한 챕터는 몇 개입니까?&quot;라고 물을 수 있습니다. 를 입력합니다. Insights 에이전트는 질문을 이해하고 응답에서 조직의 사용자 지정 용어인 **장**&#x200B;을 사용하여 응답합니다.
+- 쿼리에 철자가 잘못되었거나 인식할 수 없는 용어가 포함되어 있는 경우 Insights 상담사는 명확한 질문을 하고 계정에서 사용할 수 있는 가장 가까운 일치 용어 또는 용어를 제안합니다.
+- 관리자가 사용자 정의 용어를 재설정하면 Insights 상담사는 이전에 사용자 정의한 용어를 더 이상 인식하지 못하고 기본 약관으로 돌아갑니다.
+
+>[!NOTE]
+>
+>사용자 정의 용어 지원은 소셜 학습, 작업 지원, 토론 포럼, 게임화 및 공지 등 Insights 에이전트가 현재 쿼리하지 않는 모듈 및 탭으로 확장되지 않습니다.
+
+<!--
+### Query using your organization's custom terminology
+
+If your administrator has renamed standard terms using **Product Terminology** in **Settings** > **General**, Insights Agent recognizes your organization's custom terms in place of the defaults listed above. For example, if your organization renamed **Module** to **Training**, you can ask "How many Trainings were completed last month?" and Insights Agent understands the question and labels the results using **Training** in the response and column headers.
+
+- Insights Agent recognizes both the singular and plural forms of a custom term, as configured in the Product Terminology CSV file.
+- You can still use the default Adobe Learning Manager term in your query even after your organization customizes it. Insights Agent recognizes the default term and responds using your organization's custom term.
+- If your query includes a misspelled or unrecognized term, Insights Agent asks a clarifying question and suggests the closest matching term available in your account.
+- If your administrator resets the custom terminology, Insights Agent no longer recognizes the previously customized terms and reverts to the default terms.
+
+>[!NOTE]
+>
+>Custom terminology support does not extend to modules and tabs that Insights Agent does not currently query, such as Social Learning, Job Aids, Discussion Forum, Gamification, and Announcements.
+-->
 
 ### 내 콘텐츠 연결
 
@@ -237,7 +271,7 @@ Insights Agent는 대/소문자를 구분하지 않지만 정확한 용어 일�
 
 **프로그램 및 강의 진행**
 
-- &quot;리더십 개발 학습 경로의 완료 상태 분석 - 완료됨, 진행 중 및 시작되지 않음 수를 표시합니다.&quot;
+- &quot;리더십 개발 학습 경로의 완료 상태 분석은 무엇입니까? 완료됨, 진행 중 및 시작되지 않음 수를 표시합니다.&quot;
 - &quot;지난달에 데이터 개인정보 보호 강의를 완료한 학습자는 몇 명입니까?&quot;
 
 **조직 보기**
@@ -260,4 +294,4 @@ Insights Agent는 대/소문자를 구분하지 않지만 정확한 용어 일�
 
 **라틴어 이외의 스크립트로 제출된 쿼리는 지원되지 않습니다.**
 
-Insights Agent는 프랑스어, 스페인어와 같은 영어 및 라틴 알파벳 언어로 작성된 쿼리를 지원합니다. 일본어, 중국어, 아랍어, 한국어, 힌디어 및 러시아어를 비롯한 라틴어가 아닌 스크립트를 사용하여 제출된 쿼리는 처리할 수 없으며 에이전트는 쿼리를 완료할 수 없음을 나타내는 메시지를 표시합니다. 이러한 언어 중 하나로 쿼리를 제출하면 새 쿼리를 시작하고 영어로 다시 구합니다.
+Insights Agent는 프랑스어, 스페인어와 같은 영어 및 라틴 알파벳 언어로 작성된 쿼리를 지원합니다. 일본어, 중국어, 아랍어, 한국어, 힌디어 및 러시아어를 비롯하여 라틴어가 아닌 스크립트를 사용하여 제출된 쿼리는 처리되지 않습니다. 상담사는 쿼리를 완료할 수 없음을 나타내는 메시지를 표시합니다. 이러한 언어 중 하나로 쿼리를 제출하면 새 쿼리를 시작하고 영어로 다시 구합니다.

@@ -2,17 +2,17 @@
 user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
-source-git-commit: 186c661ef9ee9d61a2ebc790dc4c6d2804d796fd
+nudge: true
+source-git-commit: bad20aa965e151ee4c3cc5be5e5faad008e33198
 workflow-type: tm+mt
-source-wordcount: '1686'
-ht-degree: 36%
-
+source-wordcount: '1786'
+ht-degree: 34%
 ---
 
-
-# Learning Manager 가이드 {#using}
+# Adobe Learning Manager 사용자 가이드 {#using}
 
 * [Adobe Learning Manager 사용자 가이드](user-guide.md)
+* {hide-from-toc}[Adobe Learning Manager 사용 안내서](user-guide-redesign.md)
 * 소개 {#introduction}
   * [새로운 기능 요약 2026년 8월](whats-new.md)
   * [새로운 기능 요약 2026년 4월](whats-new-april-2026.md)
@@ -114,7 +114,11 @@ ht-degree: 36%
   * [대체 및 동등](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
   * [학습 계획](administrators/feature-summary/learning-plans.md)
   * [Learning Manager 주문 및 청구 정보 관리](administrators/feature-summary/billing-management.md)
+  * [Adobe Learning Manager에서 시트 공유 및 계정 플랜](administrators/feature-summary/tiering-seat-sharing.md)
   * [작업 지원](administrators/feature-summary/job-aids.md)
+  * 가상 코치 {#virtualcoachadmin}
+    * [Virtual Coach 사용 및 청구 정보 관리](administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md)
+    * [Virtual Coach 보고서](administrators/feature-summary/virtual-coach/virtual-coach-reports.md)
   * [채널 만들기 (Beta)](administrators/feature-summary/create-channels.md)
   * [인증](administrators/feature-summary/certifications.md)
   * [인증서 만들기 및 사용자 정의](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
@@ -207,6 +211,15 @@ ht-degree: 36%
   * [강의 생성, 수정 및 게시](authors/feature-summary/courses.md)
   * [카탈로그](authors/feature-summary/catalogs.md)
   * {hide-from-toc}[적응형 과정](authors/feature-summary/adaptive-course-author.md)
+  * 가상 코치 {#virtual-coach}
+    * [가상 코치](authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+    * [가상 코치 역할을 위한 자료 수집](authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md)
+    * [가상 코치 디자인](authors/feature-summary/virtual-coach/role-play-design.md)
+    * 가상 코치 만들기 {#create-virtual-coach}
+      * [가상 코치 템플릿을 사용하여 역할 놀이 만들기](authors/feature-summary/virtual-coach/create-role-play-using-virtual-coach-template.md)
+      * [가상 코치 역할 재생 만들기 및 게시](authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md)
+    * [강의에 가상 코치 역할 놀이 추가](authors/feature-summary/virtual-coach/add-virtual-coach-role-play-to-course.md)
+    * [Virtual Coach FAQ](authors/feature-summary/virtual-coach/virtual-coach-faq.md)
   * [작업 지원](authors/feature-summary/job-aids.md)
   * [성적표](authors/feature-summary/alm-author-gradebook.md)
   * [iPad 및 Android 태블릿 사용자](authors/feature-summary/ipad-android-tablet-users.md)
@@ -276,6 +289,9 @@ ht-degree: 36%
   * [로그인](learners/feature-summary/user-login.md)
   * [프로필 설정](learners/feature-summary/settings.md)
   * [카탈로그](learners/feature-summary/catalogs.md)
+  * [가상 코치] {#virtualcoach}
+    * [Virtual Coach로 역할 놀이 연습](learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md)
+    * [Virtual Coach 성능 보고서 이해](learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md)
   * [원클릭 등록](learners/feature-summary/learner-one-click-enrollment.md)
   * [내가 저장함 위젯](learners/feature-summary/saved-by-me-widget.md)
   * [내 학습](learners/feature-summary/courses.md)
@@ -389,6 +405,7 @@ ht-degree: 36%
   * [Adobe Learning Manager에서 체험판 계정 만들기](/help/migrated/create-trial-account.md)
 * API 변경 사항 {#api-changes}
   * [증분 사용자 보고서(작업 API)](/help/migrated/incremental-user-report.md)
+  * [2026년 9월 릴리스의 API 변경 사항](/help/migrated/api-changes-sep-2026.md)
   * [2026년 8월 릴리스의 API 변경 사항](/help/migrated/api-changes-august-2026.md)
   * [2026년 4월 릴리스의 API 변경 사항](/help/migrated/api-changes-alm.md)
   * [2026년 5월 릴리스의 API 변경 사항](/help/migrated/api-changes-alm-may.md)

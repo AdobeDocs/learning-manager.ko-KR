@@ -3,9 +3,9 @@ description: Adobe Learning Manager의 AI 어시스턴트를 통해 학습 콘�
 jcr-language: en_us
 title: Adobe Learning Manager 학습자용 AI 도우미
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 81969b0557db985224f13c3e4ab41381316dad5d
+source-git-commit: bcd217fd6bb48aaf475eb29a5de1f67ae862826a
 workflow-type: tm+mt
-source-wordcount: '3241'
+source-wordcount: '3245'
 ht-degree: 0%
 ---
 # 학습자용 AI 지원
@@ -81,7 +81,7 @@ Adobe은 신뢰할 수 있는 서비스를 사용하여 학습 콘텐츠를 안�
 
 AI 어시스턴트는 내부 카탈로그 및 서드파티 콘텐츠 라이브러리의 콘텐츠만 사용합니다. 학습자의 쿼리에 대한 답변은 액세스 권한이 있는 카탈로그에서만 파생됩니다.
 
-다음 콘텐츠 원본은 지원되지 않습니다.
+다음 콘텐츠 소스는 현재 릴리스에서 지원되지 않습니다.
 
 - 공유 외부 카탈로그
 - 기본 카탈로그

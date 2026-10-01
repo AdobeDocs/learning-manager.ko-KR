@@ -3,13 +3,11 @@ description: Zoom 커넥터와 Adobe Learning Manager을 통합하는 방법 알
 jcr-language: en_us
 title: Zoom 커넥터
 contentowner: mmanuel
-source-git-commit: 481eed24a5ac72329228c8d27b625d443bd637ce
+source-git-commit: 289bd299abdf6ff25d6bbb7bc4dbcaaf057e591e
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 1%
-
+source-wordcount: '412'
+ht-degree: 2%
 ---
-
 
 # Adobe Learning Manager의 Zoom 커넥터
 
@@ -70,16 +68,15 @@ Adobe Learning Manager에서 Zoom 커넥터를 사용하려면 Zoom 서버-서�
 
 확대/축소에서 응용 프로그램을 만들 때 다음 범위가 선택되어 있는지 확인하십시오.
 
-```
-| Scope Description | Zoom Scope |
-|---|---|
-| View all user meetings | meeting:read:admin |
-| View and manage all user meetings | meeting:write:admin |
-| View report data | report:read:admin |
-| View all user information | user:read:admin |
-| Manage users | user:write:admin |
-| Add a meeting registrant | meeting:write:registrant:admin |
-| List all meeting registrants | meeting:read:list_registrants:admin |
-| Manage sub-account meetings | meeting:write:meeting:master |
-| View meeting participants report | report:read:list_meeting_participants:admin |
-```
+| 원하는 기능 | 이 키워드 검색 | 그런 다음 선택 |
+|---|---|---|
+| 모든 사용자 모임 보기 | 회의 | `meeting:read:meeting:admin, meeting:read:list_meetings:admin` |
+| 모든 사용자 회의 보기/관리 | 회의 | `meeting:update:meeting:admin, meeting:delete:meeting:admin, meeting:write:meeting:admin` |
+| 보고서 데이터 보기 | 보고서 | `report:read:meeting:admin, report:read:user:admin`(끝점과 일치하는 항목을 선택하십시오.) |
+| 모든 사용자 정보 보기 | 사용자 | `user:read:user:admin, user:read:list_users:admin` |
+| 사용자 관리 | 사용자 | `user:update:user:admin, user:write:user:admin` |
+| 모임 등록자 추가 | 등록자 | `meeting:write:registrant:admin` |
+| 모든 모임 등록자 나열 | 등록자 | `meeting:read:list_registrants:admin` |
+| 하위 거래처 회의 | 모임 + :master 찾기 | `meeting:write:meeting:master` |
+| 모임 참가자 보고서 | 참가자 | `report:read:list_meeting_participants:admin` |
+
