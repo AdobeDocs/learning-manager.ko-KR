@@ -6,11 +6,9 @@ contentowner: kuppan
 exl-id: 5fb10b4a-b927-4466-9e0a-e33d5938416c
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 76%
-
+source-wordcount: '648'
+ht-degree: 81%
 ---
-
 # 소셜 학습에 공유
 
 소셜 북마클릿을 사용하여 사용자의 온라인 학습을 소셜 웹에 즉시 공유하는 방법을 알아보십시오.
@@ -57,7 +55,7 @@ Learning Manager에 로그인하면 북마클릿이 자동으로 사용자의 �
 ## Internet Explorer {#internetexplorer}
 
 * 브라우저의 상단 오른쪽 모서리에서 설정 아이콘을 마우스 오른쪽 단추로 클릭합니다. 또는 즐겨찾기 모음 창에 대한 키보드의 **Alt + C**&#x200B;을(를) 사용하여 엽니다.
-* 브라우저에 즐겨찾기 모음을 표시하려면 **[!UICONTROL 즐겨찾기 모음]**&#x200B;을 클릭하십시오.
+* 브라우저에 즐겨찾기 모음이 표시되도록 하려면 **[!UICONTROL &#39;즐겨찾기 모음&#39;]**&#x200B;을 클릭합니다.
 
 ## Microsoft Edge {#microsoftedge}
 
@@ -82,7 +80,7 @@ Learning Manager에 로그인하면 북마클릿이 자동으로 사용자의 �
 ## Windows의 Microsoft Edge {#microsoftedgeinwindows}
 
 1. 즐겨찾기 모음이 표시되는지 확인합니다. 즐겨찾기 모음 > **새 폴더 만들기**&#x200B;를 마우스 오른쪽 버튼으로 클릭합니다.
-1. 원하는 즐겨찾기 모음 폴더에 URL을 추가하려면 **책갈피 허브** 아이콘 > **책갈피 아이콘**&#x200B;을 클릭하십시오.
+1. URL을 원하는 즐겨찾기 모음에 추가하려면 **북마크 허브** 아이콘 > **북마크 아이콘**&#x200B;을 클릭합니다.
 1. 원하는 온라인 페이지를 폴더에 저장한 다음 이름을 소셜에 공유로 변경합니다.
 1. 책갈피 허브 아이콘 > 소셜에 공유 > URL 편집 을 선택합니다.
 1. 링크 주소를 붙여넣고 입력 버튼을 클릭합니다.
