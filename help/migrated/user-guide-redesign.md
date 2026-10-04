@@ -356,7 +356,7 @@ Adobe Learning Manager을 구성하고 관리하는 데 필요한 스킬을 쌓�
 ALM을 사용하여 매력적인 학습 경험을 만들고, 관리하고, 제공하는 방법을 알아보십시오. 지금 개인 맞춤화된 데모를 신청하세요.
 
 <div>
-    <a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
+    <a href="https://business.adobe.com/kr/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
        target="_blank"
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
