@@ -5,9 +5,9 @@ title: Adobe Learning Manager 설명서 시작
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a21112
 contentowner: saghosh
 hide: true
-source-git-commit: 82722a54d6d273a04647ef0f2845aacd5aaba46e
+source-git-commit: eb83025fc9772cfc240b2253f2e6886bd74ee4f5
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1363'
 ht-degree: 1%
 ---
 
@@ -290,211 +290,68 @@ Adobe Learning Manager을 구성하고 관리하는 데 필요한 스킬을 쌓�
 
 새로운 기능을 탐색하고, 주요 기능을 탐색하고, 기술을 연마하세요.
 
-<div class="columns">
-    <!-- Check what's new -->
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Check what's new">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <img
-                        class="is-bordered-r-small"
-                        src="./help/assets/overview/whats-new-updated-new.png"
-                        alt="새로운 기능 확인"
-                        style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                </figure>
-            </div>
-            <div class="card-content is-padded-small"
-                 style="display: flex; flex-direction: column; flex-grow: 1;">
-                <p class="headline is-size-6 has-text-weight-bold">
-                    새로운 기능 확인
-                </p>
-                <p class="is-size-6">
-                    최신 기능 살펴보기<br>
-                    및 릴리스 업데이트입니다.
-                </p>
-                <p>
-                    <strong>
-                        <a href="/help/migrated/whats-new.md">
-                            자세히 알아보기
-                        </a>
-                    </strong>
-                </p>
-                <p>
-                    <strong>
-                        <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">
-                            콘텐츠 작성기(Beta)
-                        </a>
-                    </strong>
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- Explore AI -->
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Explore AI">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <img
-                        class="is-bordered-r-small"
-                        src="./help/assets/overview/explore-ai-new.png"
-                        alt="AI 살펴보기"
-                        style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                </figure>
-            </div>
-            <div class="card-content is-padded-small"
-                 style="display: flex; flex-direction: column; flex-grow: 1;">
-                <!-- Insights Agent -->
-                <p class="is-size-6">
-                    <strong>Insights 에이전트(Beta)</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/insights-agent.md">
-                        자세히 알아보기
-                    </a>
-                    &vert;
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">
-                        강의 시작
-                    </a>
-                </p>
-                <!-- Learning Path Agent -->
-                <p class="is-size-6">
-                    <strong>학습 경로 에이전트(Beta)</strong><br>
-                    <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">
-                        자세히 알아보기
-                    </a>
-                    &vert;
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">
-                        강의 시작
-                    </a>
-                </p>
-                <!-- Live Hub -->
-                <p class="is-size-6">
-                    <strong>라이브 허브(Beta)</strong><br>
-                    <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">
-                        자세히 알아보기
-                    </a>
-                    &vert;
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">
-                        강의 시작
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- Learning Experience -->
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Learning Experience">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <img
-                        class="is-bordered-r-small"
-                        src="./help/assets/overview/learning-experience-new.png"
-                        alt="학습 경험"
-                        style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                </figure>
-            </div>
-            <div class="card-content is-padded-small"
-                 style="display: flex; flex-direction: column; flex-grow: 1;">
-                <!-- Experience Builder -->
-                <p class="is-size-6">
-                    <strong>Experience Builder</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">
-                        자세히 알아보기
-                    </a>
-                    &vert;
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">
-                        강의 시작
-                    </a>
-                </p>
-                <!-- Report Builder -->
-                <p class="is-size-6">
-                    <strong>Report Builder</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">
-                        자세히 알아보기
-                    </a>
-                    &vert;
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">
-                        강의 시작
-                    </a>
-                </p>
-                <!-- Email Builder -->
-                <p class="is-size-6">
-                    <strong>전자 메일 작성기</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/email-builder.md">
-                        자세히 알아보기
-                    </a>
-                    &vert;
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">
-                        강의 시작
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--
 <table style="table-layout:fixed">
  <tbody>
-  
-  <tr style="border: 0;">
-   <td><img src="./help/assets/overview/whats-new-updated-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
-   
-   <p><strong>Check what's new</strong>
+
+<tr style="border: 0;">
+   <td><img src="./help/assets/overview/whats-new-updated-new.png" alt="새로운 기능 확인" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+
+<p><strong>새로운 기능 확인</strong>
     </p>
-    <p>Explore the latest features<br>and release updates.</p>
+    <p>최신 기능<br>과 릴리스 업데이트를 살펴보세요.</p>
                 <p>
                     <strong>
-                        <a href="/help/migrated/whats-new.md">Learn more</a>
+                        <a href="/help/migrated/whats-new.md">자세히 알아보기</a>
                     </strong>
                 </p>
                 <p>
                     <strong>
-                        <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">Content Composer (Beta)</a>
+                        <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">콘텐츠 컴포저(Beta)</a>
                     </strong>
     </p>
 
-   
-   </td>
-   <td><img src="./help/assets/overview/explore-ai-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
-   
-<p>
-                    <strong>Insights Agent (Beta)</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/insights-agent.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">Launch course</a>
-</p>
-<p>
-                    <strong>Learning Path Agent (Beta)</strong><br>
-                    <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">Launch course</a>
 
-</p>
+</td>
+   <td>&lt;img src="./help/assets/overview/explore-ai-new.png" alt="새로운 기능 확인" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
 
 <p>
-                    <strong>Live Hub (Beta)</strong><br>
-                    <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">Launch course</a>
+                    <strong>Insights 에이전트(Beta)</strong><br>
+                    <a href="/help/migrated/administrators/feature-summary/insights-agent.md">자세히 알아보기</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">과정 실행</a>
+</p>
+<p>
+                    <strong>학습 경로 에이전트(Beta)</strong><br>
+                    <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">자세히 알아보기</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">과정 실행</a>
 
 </p>
 
+<p>
+                    <strong>라이브 허브(Beta)</strong><br>
+                    <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">자세히 알아보기</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">과정 실행</a>
 
-                
-   
-   </td>
-   <td><img src="./help/assets/overview/learning-experience-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
+</p>
+
+
+
+
+</td>
+   <td>&lt;img src="./help/assets/overview/learning-experience-new.png" alt="새로운 기능 확인" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
    <p>
                     <strong>Experience Builder</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">Launch course</a>
+                    <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">자세히 알아보기</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">과정 실행</a>
     </p>
     <p>
                     <strong>Report Builder</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">Launch course</a>
+                    <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">자세히 알아보기</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">과정 실행</a>
     </p>
 <p>
-                    <strong>Email Builder</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/email-builder.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">Launch course</a>
+                    <strong>전자 메일 작성기</strong><br>
+                    <a href="/help/migrated/administrators/feature-summary/email-builder.md">자세히 알아보기</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">과정 실행</a>
     </p>
     </td>
   </tr>
-  
- </tbody>
+
+</tbody>
 </table>
--->
 
 ALM을 사용하여 매력적인 학습 경험을 만들고, 관리하고, 제공하는 방법을 알아보십시오. 지금 개인 맞춤화된 데모를 신청하세요.
 
