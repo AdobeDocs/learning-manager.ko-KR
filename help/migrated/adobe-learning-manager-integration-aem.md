@@ -6,14 +6,12 @@ contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
 source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
 workflow-type: tm+mt
-source-wordcount: '2207'
-ht-degree: 65%
-
+source-wordcount: '2277'
+ht-degree: 67%
 ---
-
 # AEM 사이트에 대한 Adobe Learning Manager 참조 사이트(ALM 참조 사이트) 패키지
 
-Adobe Learning Manager(ALM)는 Adobe Experience Manager(AEM) 사이트와 통합됩니다. 이렇게 하면 최소한의 코딩 노력으로 Adobe Learning Manager에 대한 자신의 웹사이트 및 반응형 모바일 인터페이스를 생성할 수 있습니다. 이 통합을 통해 사용자에 대해 사용자 정의된 학습 경험을 만들 수 있습니다.
+Adobe Learning Manager(ALM)는 Adobe Experience Manager(AEM) 사이트와 통합됩니다. 이렇게 하면 최소한의 코딩 노력으로 Adobe Learning Manager에 대한 자신의 웹사이트 및 반응형 모바일 인터페이스를 생성할 수 있습니다. 이 통합을 통해 사용자를 대상으로 사용자 정의된 학습 경험을 만들 수 있습니다.
 
 이러한 경험을 쌓기 위해 ALM은 AEM 사이트에 대한 Adobe Learning Manager 참조 사이트 패키지(ALM 참조 사이트 패키지)를 AEM 사이트 인스턴스에 설치할 수 있는 ZIP 파일의 형태로 제공합니다.
 
@@ -90,7 +88,7 @@ AEM 사이트 패키지를 설치한 후, 학습 포털을 AEM 사이트와 연�
 ## AEM에서 ALM 계정 구성
 
 1. AEM 인스턴스를 실행합니다.
-1. [설정] > [Cloud Service]를 클릭합니다.
+1. [설정] > [Cloud Services]를 클릭합니다.
 1. Adobe Learning Manager 구성을 클릭합니다.
 
    ![](assets/alm-configuration.png)
