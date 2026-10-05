@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager 릴리스 정보
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 33227dd7d4a811c0c9b983bc20facb671a9afd8f
+source-git-commit: 45d5507b118925f977db1425ef633184abcb98e7
 workflow-type: tm+mt
-source-wordcount: '35479'
+source-wordcount: '35230'
 ht-degree: 63%
 ---
 # Adobe Learning Manager 릴리스 정보
@@ -17,7 +17,7 @@ ht-degree: 63%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/kr/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -53,69 +53,6 @@ ht-degree: 63%
 * 기본 사항
 * 고급
 * 통합
-
-각 범주에서 전체 설정 목록 및 해당 세부 정보를 보려면 보고서를 생성하기 전에 나타나는 관리자 감사 추적 팝업에서 **설정 목록 다운로드** 링크를 선택할 수 있습니다.
-
-다음은 각 범주에서 사용할 수 있는 옵션입니다.
-
-기본 사항
-
-* 기본 정보
-* 강의 조정
-* 토론 게시판
-* 다중 시도
-* 스킬, 태그, 제품 및 역할 가시성
-* 고유 학습 개체 ID → 활성화
-* 필터 패널 표시
-* 기본 보기(학습자 역할) → 목록 보기
-* 강사 관리
-* 모듈 미리 보기
-* 강의/학습 경로/인증 가격 활성화
-* 다중 항목 SKU 장바구니 활성화
-* 플레이어 설정
-* 관리자가 완료 표시 가능
-* 사용자 자동 등록
-* 내부 사용자 자동 삭제(며칠 동안 시스템에 액세스하지 않은 경우)
-* 카탈로그 레이블 표시
-* 사용자 정의 준수 유형
-* 학습자가 자신의 점수 확인 가능
-* 다이제스트 전자 메일
-* 강의/학습 경로/인증/작업 지원 카드 아이콘 활성화
-* 바닥글 링크
-* 시간대 보고
-* Badgr 통합
-* 등급 표시
-* Player에서 별점 팝업 표시
-* 제품 용어
-* 모듈 버전 업데이트
-* 사용 중지(과정, 학습 경로 또는 인증)
-* 자동 사용 중지(과정, 학습 경로 또는 인증)
-* 검색 결과에 등록된 모든 강의 표시
-* 스킬 가져오기
-* 성적 증명서(학습자 가시성)
-* 삭제된 사용자 자동 제거
-* 점수
-* 대체 과정/경로
-* 외부 학습
-
-통합
-
-* 로그인 방법(내부 및 외부)
-* SSO(단일 인증) 구성
-* 데이터 소스 — (소스 + 설정 동기화)
-* 피어 정보 추가
-
-고급
-
-* 카탈로그 레이블 → 모든 카탈로그 레이블
-* 카탈로그 레이블 → 설정(값 액세스)
-* 콘텐츠 폴더
-* 강의실 위치 → 목록 및 편집기
-* 작성자 권한→ 강의실 위치(설정)
-* 강의실 위치 → 일괄 가져오기
-* 강의실 위치 → 위치 형식 마이그레이션
-* 휴일 달력
-* 보고서 - 설정(준수 및 그룹 성공 대시보드)
 
 이 보고서는 작업 API로도 생성할 수 있습니다. [관리자 감사 추적 보고서](/help/migrated/administrators/feature-summary/reports.md#adminaudittrailreport) 및 [관리자 감사 추적 보고서에 대한 작업 API](/help/migrated/api-changes-sep-2026.md#apiaudittrailreport)를 참조하십시오.
 
@@ -390,7 +327,7 @@ UI 로케일이 영어 이외의 언어로 설정된 경우 강의실 위치 페
 4. 왼쪽 탐색 패널에서 학습자로 이동합니다.
    ![](assets/instructor-send-email1.png)
 5. 학습자 목록에서 학습자를 선택합니다.
-6. 오른쪽 상단에는 **작업** 드롭다운 목록이 열려 더 많은 옵션(회색으로 표시된 옵션 포함)을 표시합니다. **모든 사용자에게 전자 메일 보내기**&#x200B;는 옵션 중 하나입니다.
+6. 오른쪽 상단에는 **작업** 드롭다운 목록이 열려 더 많은 옵션(회색으로 표시된 옵션 포함)을 표시합니다. **모든 사용자에게 전자 메일 보내기**는 옵션 중 하나입니다.
    ![](assets/instructor-send-email2.png)
 
 **삭제된 사용자 자동 제거:** 삭제된 사용자 자동 제거는 삭제에 필요한 최소 기간으로 1년으로 설정되었습니다. 이 기능은 &quot;일&quot;의 숫자로도 사용할 수 있도록 개선되었습니다. 관리자는 이제 고객 성공 관리자에게 연락하여 이 변경 사항을 요청하고 백엔드에서 해당 변경 사항을 변경할 수 있습니다.
@@ -763,7 +700,7 @@ Fluidic Player에 대한 자세한 내용은 이 [문서](/help/migrated/learner
 
 * 콘텐츠 모듈을 새 버전으로 업데이트한 후 강의를 완료한 학습자가 강의를 다시 방문할 때 흰색 화면이 표시되는 문제를 수정했습니다.
 
-또한 Adobe Learning Manager에 적용 예정인 변경 사항에 대한 자세한 내용은 이 [문서](https://experienceleague.adobe.com/ko/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)를 참조하세요.
+또한 Adobe Learning Manager에 적용 예정인 변경 사항에 대한 자세한 내용은 이 [문서](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)를 참조하세요.
 
 +++
 
@@ -2243,7 +2180,7 @@ Learning Manager 2020년 4월 릴리스는 다음 사항에 초점을 맞추었�
 
 학습자는 외부 인증서를 열고 pdf, 텍스트 또는 이미지 파일과 같은 에셋을 업로드할 수 있습니다.
 
-자세한 내용은 [***외부 인증서 에셋 업로드***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;를 참조하세요.**&#x200B;**
+자세한 내용은 [***외부 인증서 에셋 업로드***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;를 참조하세요.****
 
 ### 이번 릴리스에서 수정된 문제 {#issuesfixedinthisrelease}
 
@@ -2562,7 +2499,7 @@ Adobe Connect에서 고객은 Connect에서 이미 만든 기존 회의실을 �
 
 ### 새로운 기능 및 향상된 기능 {#Newandenhancedfeatures-5}
 
-**내부 및 외부 사용자에 대한 소셜 학습에서 범위 분리**&#x200B;책임자는 내부 및 외부 학습자에 대해 별도의 범위를 정의할 수 있습니다. 두 가지 새로운 내부 사용자와 외부 사용자용 섹션이 있습니다. 두 섹션 모두에서 학습자 그룹에 대한 범위를 정의할 수 있습니다. 내부 사용자에 대해 사용자 특성 값을 정의할 수 있습니다. 외부 사용자의 경우 학습자가 같은 소셜 공간을 공유할 수 있는 외부 프로필을 정의할 수 있습니다. 자세한 내용은 [***범위 설정***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)&#x200B;을 참조하십시오.  **소셜 보드의 소셜 제한 생성**&#x200B;모든 학습자의 보드 생성을 제한하고 보드를 효과적으로 중재하려면 관리자는 선택한 사용자 그룹에게 보드를 생성할 수 있는 권한을 부여할 수 있습니다. 관리자는 소셜 학습에 참여하는 모든 학습자가 아닌, 선택한 그룹만 보드를 생성할 수 있도록 제한할 수 있습니다. 자세한 내용은 [***보드 생성 권한***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)&#x200B;을 참조하십시오.  **학습자에게 비어있는 활성 필드만 표시**&#x200B;관리자는 값이 입력된 후에 활성 필드를 표시하거나 숨기는 것을 선택할 수 있습니다. 자세한 내용은 [***사용자 표시***](../administrators/feature-summary/add-users-user-groups.md#activefields)&#x200B;를 참조하십시오.  **내부 사용자가 지정된 비활성화 기간에 삭제됨**&#x200B;관리자가 학습자가 지정된 기간 동안 비활성화를 유지하는 경우 내부 학습자를 삭제하는 기간(일별로)을 설정할 수 있습니다. 자세한 내용은 ***[사용자 자동 삭제](../administrators/feature-summary/settings.md#autodelete)를 &#x200B;***.  **바닥글의 사용자 지정**&#x200B;관리자는 바닥글에 링크를 추가하고 사용자 지정할 수 있습니다. 링크는 다양한 로케일에 대해 사용자 정의될 수도 있습니다. 또한, 바닥글에 &#39;책임자에게 문의&#39; 링크를 추가하는 기존 방법을 **바닥글 링크** 섹션에서 확인할 수 있습니다. 자세한 내용은 [***바닥글 링크 사용자 정의***](../administrators/feature-summary/settings.md#footer)&#x200B;를 참조하십시오.
+**내부 및 외부 사용자에 대한 소셜 학습에서 범위 분리**&#x200B;책임자는 내부 및 외부 학습자에 대해 별도의 범위를 정의할 수 있습니다. 두 가지 새로운 내부 사용자와 외부 사용자용 섹션이 있습니다. 두 섹션 모두에서 학습자 그룹에 대한 범위를 정의할 수 있습니다. 내부 사용자에 대해 사용자 특성 값을 정의할 수 있습니다. 외부 사용자의 경우 학습자가 같은 소셜 공간을 공유할 수 있는 외부 프로필을 정의할 수 있습니다. 자세한 내용은 [***범위 설정***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)&#x200B;을 참조하십시오.  **소셜 보드의 소셜 제한 생성**&#x200B;모든 학습자의 보드 생성을 제한하고 보드를 효과적으로 중재하려면 관리자는 선택한 사용자 그룹에게 보드를 생성할 수 있는 권한을 부여할 수 있습니다. 관리자는 소셜 학습에 참여하는 모든 학습자가 아닌, 선택한 그룹만 보드를 생성할 수 있도록 제한할 수 있습니다. 자세한 내용은 [***보드 생성 권한***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)&#x200B;을 참조하십시오.  **학습자에게 비어있는 활성 필드만 표시**&#x200B;관리자는 값이 입력된 후에 활성 필드를 표시하거나 숨기는 것을 선택할 수 있습니다. 자세한 내용은 [***사용자 표시***](../administrators/feature-summary/add-users-user-groups.md#activefields)&#x200B;를 참조하십시오.  **내부 사용자가 지정된 비활성화 기간에 삭제됨**&#x200B;관리자가 학습자가 지정된 기간 동안 비활성화를 유지하는 경우 내부 학습자를 삭제하는 기간(일별로)을 설정할 수 있습니다. 자세한 내용은 ***[사용자 자동 삭제](../administrators/feature-summary/settings.md#autodelete)를 ***.  **바닥글의 사용자 지정**&#x200B;관리자는 바닥글에 링크를 추가하고 사용자 지정할 수 있습니다. 링크는 다양한 로케일에 대해 사용자 정의될 수도 있습니다. 또한, 바닥글에 &#39;책임자에게 문의&#39; 링크를 추가하는 기존 방법을 **바닥글 링크** 섹션에서 확인할 수 있습니다. 자세한 내용은 [***바닥글 링크 사용자 정의***](../administrators/feature-summary/settings.md#footer)&#x200B;를 참조하십시오.
 
 ### 이 릴리스의 알려진 문제 {#Knownissuesinthisrelease-2}
 
@@ -3247,7 +3184,7 @@ Fluidic Player의 개선 사항은 비디오에만 적용됩니다.
 
 ### 향상된 성능 {#enhancement}
 
-이 업데이트의 일부로 Learning Manager는 응용 프로그램 사용자에게 업데이트를 위한 끝점 <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) -->을(를) 제공합니다. 책임자 역할이라면 이 API 엔드포인트에 접근할 수 있습니다. 이 엔드포인트&#x200B;**&#x200B;** 사용하여 다음과 같은 Learning Manager 사용자 정보를 업데이트할 수 있습니다.
+이 업데이트의 일부로 Learning Manager는 응용 프로그램 사용자에게 업데이트를 위한 끝점 <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) -->을(를) 제공합니다. 책임자 역할이라면 이 API 엔드포인트에 접근할 수 있습니다. 이 엔드포인트**** 사용하여 다음과 같은 Learning Manager 사용자 정보를 업데이트할 수 있습니다.
 
 * 이름
 * 전자 메일
@@ -3757,7 +3694,7 @@ FTP를 사용한 CSV 자동 업로드 기능의 경우 관리자는 CSV 업로�
 
 **전자 메일 템플릿**
 
-* 외부 그룹을 나타내는 데 사용된 **파트너**&#x200B;라는 단어를&#x200B;**&#x200B;**&#x200B;**&#x200B;** 전자 메일 템플릿 제목과 본문에서 제거했습니다. 외부 그룹을 반드시 파트너라고 부르지는 않습니다.\
+* 외부 그룹을 나타내는 데 사용된 **파트너**&#x200B;라는 단어를&#x200B;******** 전자 메일 템플릿 제목과 본문에서 제거했습니다. 외부 그룹을 반드시 파트너라고 부르지는 않습니다.\
   **참고:** 기본 템플릿이 이미 수정된 경우에는 이 업데이트된 템플릿이 나타나지 않습니다. 업데이트된 템플릿을 보려면 **템플릿 미리 보기** 대화 상자에서 **을(를) 원본**&#x200B;으로 되돌리기를 클릭합니다.
 
 * **생성된 프로필(자가 등록)**&#x200B;과&#x200B;**생성된 프로필(외부 사용자/파트너)** 전자 메일 템플릿을 편집하면 관리자가 받은 전자 메일에 있는 URL을 클릭할 수 없습니다. 이 문제는 수정되었습니다.
