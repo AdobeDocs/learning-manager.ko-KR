@@ -6,11 +6,9 @@ contentowner: saghosh
 exl-id: 70c687ac-0ca6-4bc1-8c86-76943aeaf3e5
 source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 41%
-
+source-wordcount: '635'
+ht-degree: 42%
 ---
-
 # Microsoft Teams용 Adobe Learning Manager 앱
 
 ## 설정 방법
@@ -29,7 +27,7 @@ Azure 관리자는 ALM 앱에 필요한 권한을 승인해야 합니다. 그러
 
 관리 센터의 MS Teams 관리자는 모든 사용자에 대해 ALM 앱을 고정하고 이것을 전역 정책으로 허용해야 합니다. 회사의 특정 그룹만 ALM을 사용하는 경우, MS Teams 관리자는 반드시 사용자 지정 정책을 선택하고 이를 특정 그룹에만 적용해야 합니다.
 
-## 통합 책임자 역할이 팀 앱을 승인함
+## 통합 관리자 역할이 Teams 앱 승인
 
 아래 단계를 따르십시오.
 

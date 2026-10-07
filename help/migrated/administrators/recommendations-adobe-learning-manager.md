@@ -5,15 +5,13 @@ description: Adobe Learning Manager의 Recommendations.
 contentowner: saghosh
 source-git-commit: 78957f8dc3bba39c9bb53c6ac8f888d86e18fc95
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '412'
 ht-degree: 52%
-
 ---
-
 
 # 개요
 
-Adobe Learning Manager에 강의에 대해 새롭고 개선된 추천 시스템을 도입했습니다. 이 추천 기능은 AI 알고리즘과 제품, 역할, 레벨 등 사용자의 관심사를 활용해 개인화된 콘텐츠 추천을 제공한다.
+Adobe Learning Manager에 강의에 대한 새롭게 개선된 추천 시스템을 도입했습니다. 이 추천 기능은 AI 알고리즘과 제품, 역할, 레벨 등 사용자의 관심사를 활용해 개인화된 콘텐츠 추천을 제공한다.
 
 새로운 추천 시스템을 사용하면 학습자가 개인화된 추천을 받을 때 선택할 수 있는 사용자 정의 매개 변수를 생성할 수 있습니다. 이러한 추천은 학습자의 홈페이지 피드에 강의, 학습 경로 및 인증으로 표시됩니다.
 
