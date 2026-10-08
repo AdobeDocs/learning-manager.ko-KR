@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 새로운 기능 요약
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: c833d92533b7fbf5a87c980d8b5e088185d02ef5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3960'
 ht-degree: 1%
-
 ---
-
 # 새로운 기능 요약 {#new-features-summary}
 
 Adobe Learning Manager 2024년 3월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다.
@@ -266,7 +267,9 @@ L1 피드백 페이지에서 강의 등록 횟수가 많으면 학습자 목록�
 
 * 교육 보고서의 태그 및 스킬 열이 태그 및 스킬로 변경됩니다.
 * [게임화 감사 추적](administrators/feature-summary/reports.md#gamification-audit-trail) 보고서를 추가했습니다.
-* 계정에 스킬에 할당된 학습자가 280000명 이상 포함되어 있으면 스킬 학습자 보고서가 압축된 csv로 다운로드됩니다.계정에 250000명 미만의 학습자가 있으면 동일한 보고서가 CSV로 다운로드됩니다.관리자 페이지에서 **관리자** > **스킬** > **스킬** > **학습자**&#x200B;를 선택합니다. 보고서는 CSV로 다운로드됩니다.
+* 계정에 스킬에 할당된 학습자가 280000명 이상 포함되어 있으면 스킬 학습자 보고서가 압축된 csv로 다운로드됩니다.
+계정에 250000명 미만의 학습자가 있으면 동일한 보고서가 CSV로 다운로드됩니다.
+관리자 페이지에서 **관리자** > **스킬** > **스킬** > **학습자**&#x200B;를 선택합니다. 보고서는 CSV로 다운로드됩니다.
 * [세션 요약 보고서](administrators/feature-summary/reports.md#session-summary-report)에는 위치 정보와 위치 영역이라는 두 개의 새 열이 있습니다.
 
 ## 강의실 생성 변경 사항
@@ -281,7 +284,8 @@ L1 피드백 페이지에서 강의 등록 횟수가 많으면 학습자 목록�
 
 ## 유연한 학습 경로 변경
 
-의 모든 계정(이전 및 새 계정)은 유연한 학습 경로를 위해 학습자 앱의 등록 마감 시한, 등록 취소 마감 시한 및 인원 제한을 포함하여 시작됩니다.이제 학습자는 강의의 인스턴스를 선택하지 않고 유연한 학습 경로에 등록할 수 있습니다.
+의 모든 계정(이전 및 새 계정)은 유연한 학습 경로를 위해 학습자 앱의 등록 마감 시한, 등록 취소 마감 시한 및 인원 제한을 포함하여 시작됩니다.
+이제 학습자는 강의의 인스턴스를 선택하지 않고 유연한 학습 경로에 등록할 수 있습니다.
 
 ## 학습 계획에 대한 새로운 트리거
 
@@ -339,9 +343,9 @@ Adobe Learning Manager의 이전 릴리스에서는 다음과 같은 경우 학�
 Adobe Learning Manager 2024년 3월 릴리스의 새로운 변경 사항은 다음과 같습니다.
 
 * 세션 세부 정보 업데이트 및 세션 초대(학습자 및 강사용)
-   * 향후 세션의 경우 등록된 학습자 및 현재 강사에 대한 **세션 세부 정보 업데이트**, **세션 초대**&#x200B;에 대한 전자 메일은 더 이상 사용되지 않습니다. 지난 세션의 경우 등록된 학습자 및 현재 강사를 위한 **세션 세부 정보 업데이트** 및 **세션 초대**&#x200B;에 대한 전자 메일은 그대로 유지됩니다.
+  * 향후 세션의 경우 등록된 학습자 및 현재 강사에 대한 **세션 세부 정보 업데이트**, **세션 초대**&#x200B;에 대한 전자 메일은 더 이상 사용되지 않습니다. 지난 세션의 경우 등록된 학습자 및 현재 강사를 위한 **세션 세부 정보 업데이트** 및 **세션 초대**&#x200B;에 대한 전자 메일은 그대로 유지됩니다.
 * 알림 이메일 (관리자 및 학습자용)
-   * 이후 세션의 경우 **세션 미리 알림** 이메일만 전송됩니다.
+  * 이후 세션의 경우 **세션 미리 알림** 이메일만 전송됩니다.
 
 >[!NOTE]
 >
@@ -369,7 +373,8 @@ AEM 참조 사이트에서 학습자 액세스 토큰에 관리자 새로 고침
 * 3일 후 다시 알림
 * 일주일 후에 다시 알림
 
-Android: 푸시 알림을 클릭하면 **강의 개요** 페이지로 이동합니다.iOS: 푸시 알림을 클릭하면 앱의 홈 페이지로 이동합니다. 이는 iOS에서 알려진 제한 사항입니다.
+Android: 푸시 알림을 클릭하면 **강의 개요** 페이지로 이동합니다.
+iOS: 푸시 알림을 클릭하면 앱의 홈 페이지로 이동합니다. 이는 iOS에서 알려진 제한 사항입니다.
 
 ### Salesforce의 학습자 앱 체크리스트 변경 사항
 
@@ -452,8 +457,8 @@ learningObjectResource의 새 속성인 isExpiredSubmission은 리소스의 제�
 
 * GET /account API: 새 특성 **expireSubmissionDuration** X를 반환합니다. 여기서 X는 설정된 일 수입니다. 설정하지 않으면 0이 반환됩니다.
 * 리소스가 있는 GET /LO API에는 새 특성 **isExpiredSubmission**&quot;이(가) True 또는 False로 포함됩니다.
-   * 제출 서류가 만료되고 &quot;submissionUrl&quot;이 표시되지 않으면 True입니다.
-   * False이면 제출이 만료되지 않고 &quot;submissionUrl&quot;을 가져옵니다.
+  * 제출 서류가 만료되고 &quot;submissionUrl&quot;이 표시되지 않으면 True입니다.
+  * False이면 제출이 만료되지 않고 &quot;submissionUrl&quot;을 가져옵니다.
 
 ### 체크리스트의 API 변경 사항
 
@@ -486,27 +491,27 @@ learningObjectResource의 새 속성인 isExpiredSubmission은 리소스의 제�
 다음 경로는 사용되지 않습니다.
 
 * /learningObject
-   * 사용되지 않는 경로:
-      * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
-   * 기존 패스:
-      * enrollment.loInstance
-      * instance.loResources
+  * 사용되지 않는 경로:
+    * enrollment.loInstance.loResources.resources
+    * instances.loResources.resources
+  * 기존 패스:
+    * enrollment.loInstance
+    * instance.loResources
 * /learningObject/{id}
-   * 사용되지 않는 경로:
-      * enrollment.instances.subLoInstances.learningObject
-   * 기존 경로:
-      * enrollment.instances.subLoInstances
+  * 사용되지 않는 경로:
+    * enrollment.instances.subLoInstances.learningObject
+  * 기존 경로:
+    * enrollment.instances.subLoInstances
 * /등록
-   * 사용되지 않는 경로:
-      * loInstance.learningObject.등록
-   * 새 경로:
-      * loInstance.learningObject
+  * 사용되지 않는 경로:
+    * loInstance.learningObject.등록
+  * 새 경로:
+    * loInstance.learningObject
 * /learningObject/{id}
-   * 사용되지 않는 경로:
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * 새 경로:
-      * instance.subLoInstances
+  * 사용되지 않는 경로:
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+  * 새 경로:
+    * instance.subLoInstances
 
 ### 작업 API에 대한 로그인 액세스 및 사용자 감사 보고서 아카이브 변경 사항
 

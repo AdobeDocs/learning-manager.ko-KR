@@ -3,13 +3,14 @@ description: Adobe Learning Manager에서는 다중 SSO 구성을 통해 내부 
 title: SSO 다중 로그인
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 43%
-
 ---
-
 # SSO 다중 로그인 {#multiple-sso-logins}
 
 책임자는 내부 및 외부 사용자를 대상으로 여러 가지 로그인 방식을 구성할 수 있습니다. Adobe Learning Manager는 책임자가 필요와 사용 사례에 따라 로그인 방법을 구성할 수 있는 SSO 다중 로그인을 지원합니다.

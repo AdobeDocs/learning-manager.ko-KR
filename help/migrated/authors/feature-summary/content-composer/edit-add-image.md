@@ -2,13 +2,14 @@
 description: Content Composer에서 크기, 밝기 및 채도를 조정하거나 업로드, Adobe Stock 또는 AI로 대체하는 이미지 편집 방법을 살펴보세요.
 jcr-language: en_us
 title: 이미지 편집 또는 추가
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
-
 ---
-
 
 # 이미지 편집 또는 추가
 

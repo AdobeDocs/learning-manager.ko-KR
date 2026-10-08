@@ -1,13 +1,14 @@
 ---
 title: 라이브 허브에서 채팅 패널을 학습자로 사용
 description: 학습자가 비공개 메시지 전송을 포함하여 라이브 허브 세션 중에 채팅 패널에서 메시지에 액세스하고, 사용자 정의하고, 관리하는 방법에 대해 알아봅니다.
-source-git-commit: 907477a48c3d623ba4c79879d59afe44adf25fe3
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
-
 ---
-
 
 # 채팅 패널을 학습자로 사용
 

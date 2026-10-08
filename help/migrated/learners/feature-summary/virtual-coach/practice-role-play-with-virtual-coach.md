@@ -3,7 +3,10 @@ description: Virtual Coach 역할 수행 세션을 찾고, 시작하고, 완료�
 jcr-language: en_us
 title: Virtual Coach로 롤플레이 연습
 exl-id: e522ff4c-42db-4ebd-a806-17b595e3b877
-source-git-commit: 8bde6827835a7f8cd8cc28f3d2c4014527e4a96c
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%

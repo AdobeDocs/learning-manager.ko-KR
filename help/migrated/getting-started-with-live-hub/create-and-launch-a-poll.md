@@ -1,13 +1,14 @@
 ---
 title: Live Hub에서 투표 만들기 및 시작
 description: 수동 또는 AI로 폴링을 만들고, Live Hub 세션 중에 폴링을 실행하고, 응답을 모니터링하고, 학습자와 결과를 공유하는 방법을 알아봅니다.
-source-git-commit: f805b9963608584aebf624de287f348e33ffbdc8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1203'
 ht-degree: 0%
-
 ---
-
 
 # 투표 생성 및 실행
 

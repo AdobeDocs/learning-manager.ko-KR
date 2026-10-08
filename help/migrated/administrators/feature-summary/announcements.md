@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 공지
 description: 책임자가 정의한 사용자 그룹에 멀티미디어 메시지(텍스트, 이미지 또는 비디오)로 공지사항을 보낼 수 있습니다.
 exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 67%
-
 ---
-
 # 공지
 
 책임자가 정의한 사용자 그룹에 멀티미디어 메시지(텍스트, 이미지 또는 비디오)로 공지사항을 보낼 수 있습니다.

@@ -3,13 +3,14 @@ description: Adobe Learning Manager 2024년 11월 릴리스의 새로운 기능 
 jcr-language: en_us
 title: 새로운 기능 요약 2024년 11월
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 1%
-
 ---
-
 # 새로운 기능 요약 2024년 11월 {#new-features-summary}
 
 Adobe Learning Manager 2024년 11월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다.
@@ -527,8 +528,8 @@ curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --h
 
 **[!UICONTROL 학습 성적 증명서]** 보고서에는 두 개의 새 열이 포함됩니다.
 
-* **[!UICONTROL 모듈 ID]**: 각 모듈의 고유 식별자를 표시합니다. 이 새 열은 기존 **[!UICONTROL 모듈]** 열 뒤에 추가되었습니다.
-* **[!UICONTROL 강의 인스턴스 ID]**: 각 강의 인스턴스에 대한 고유 식별자를 표시합니다.이 새 열은 기존 **[!UICONTROL 인스턴스]** 열 뒤에 추가되었습니다.
+* **[!UICONTROL 식별자 ID]**: 각 모듈의 고유한 모듈을 표시합니다. 이 새 열은 기존 **[!UICONTROL 모듈]** 열 뒤에 추가되었습니다.
+* **[!UICONTROL 강의 식별자 ID]**: 각 강의 인스턴스에 대한 고유 인스턴스를 표시합니다.이 새 열은 기존 **[!UICONTROL 인스턴스]** 열 뒤에 추가되었습니다.
 * **[!UICONTROL 완료 설명]**: 이 열은 관리자가 사용자 완료를 표시할 때 입력한 설명을 캡처합니다. 이 새 열은 보고서 끝에 추가되었습니다.
 
 

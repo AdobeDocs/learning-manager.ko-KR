@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Learning Manager에서 AI 기반 검색
 description: Adobe Learning Manager의 AI 기반 검색에 대해 알아보기
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1221'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager의 고급 AI 검색
 
 ## 소개

@@ -3,13 +3,14 @@ description: 학습자 성적 증명서에 대해 알아보기
 jcr-language: en_us
 title: 학습자 성적 증명서 변경 사항
 exl-id: 295c4e1f-c3c7-4f97-83c3-1234f3d47546
-source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
-
 ---
-
 # 4월 릴리스의 학습자 성적 증명서 변경 사항
 
 ## 완료 방법 열

@@ -2,13 +2,14 @@
 description: 콘텐츠 컴포저에서 퀴즈 재시도, 시간 제한, 질문 순서, 순서 섞기 및 SCORM 점수 설정을 구성하는 방법에 대해 알아봅니다.
 jcr-language: en_us
 title: 퀴즈 설정 구성
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
-
 ---
-
 
 # 퀴즈 설정 구성
 

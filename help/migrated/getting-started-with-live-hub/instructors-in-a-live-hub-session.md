@@ -1,13 +1,14 @@
 ---
 title: 라이브 허브 세션에서 강사의 역할
 description: 세션 준비, 학습자 상호 작용 관리, 이후 결과 검토에 이르기까지 라이브 허브의 강사 워크플로우에 대해 알아봅니다.
-source-git-commit: bed5e19d010b24f328c0368c251d39be3dc29af2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
-
 ---
-
 
 # 라이브 허브 세션에서 강사의 역할
 

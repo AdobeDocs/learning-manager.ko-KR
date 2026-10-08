@@ -2,13 +2,14 @@
 description: 콘텐츠 컴포저에서 소스 파일을 업로드하고, AI 출력을 콘텐츠로 제한하고, 재질 변경 시 소스 파일을 업데이트하는 방법을 알아봅니다.
 jcr-language: en_us
 title: 소스 파일 관리
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
-
 ---
-
 
 # 소스 파일 관리
 
@@ -65,4 +66,4 @@ ht-degree: 0%
 
 ![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
 
-파일이 첨부되면 도구 모음의 파일 아이콘에 배지 수가 표시됩니다. 도우미가 업로드를 확인하고 **개요 생성** 바로 가기를 제공합니다. 선택하거나 상단 도구 모음에서 **윤곽선 생성**&#x200B;을 선택합니다.
+파일이 첨부되면 도구 모음의 파일 아이콘에 배지 수가 표시됩니다. 도우미가 업로드를 확인하고 **개요 생성** 단축키를 제공합니다. 선택하거나 상단 도구 모음에서 **윤곽선 생성**&#x200B;을 선택합니다.

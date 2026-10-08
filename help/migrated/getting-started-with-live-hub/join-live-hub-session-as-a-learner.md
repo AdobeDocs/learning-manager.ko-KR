@@ -1,13 +1,14 @@
 ---
 title: 학습자로 라이브 허브 세션 참가
 description: 학습자가 회의실에 들어가기 전에 오디오 및 카메라 설정 테스트를 포함하여 등록된 강의에서 라이브 허브 세션에 참여하는 방법을 알아봅니다.
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 4%
-
 ---
-
 
 # 학습자로 라이브 허브(Beta) 세션 참여
 

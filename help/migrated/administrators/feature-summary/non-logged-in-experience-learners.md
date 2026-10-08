@@ -2,13 +2,14 @@
 title: 학습자용 임시 방문 모드
 description: Adobe Learning Manager 기본 포털에서는 로그인하지 않고도 교육 사이트에 액세스할 수 있는 방식이 지원됩니다. 이 모드를 활성화하면 학습자가 교육 사이트를 찾아 액세스하고 제공되는 다양한 강의와 콘텐츠를 확인할 수 있습니다. 임시 방문 모드에서는 학습자가 포털에 로그인하지 않고도 강의 내용을 탐색할 수 있습니다.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 38%
-
 ---
-
 # 학습자용 임시 방문 모드
 
 Adobe Learning Manager 기본 포털에서는 로그인하지 않고도 교육 사이트에 액세스할 수 있는 방식이 지원됩니다. 이 모드를 활성화하면 학습자가 교육 사이트를 찾아 액세스하고 제공되는 다양한 강의와 콘텐츠를 확인할 수 있습니다.

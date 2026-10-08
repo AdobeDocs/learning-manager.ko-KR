@@ -3,7 +3,10 @@ title: Adobe Learning Manager 관리 계정 수명 주기
 description: 이 문서에서는 FedRAMP 규정 준수 및 모범 보안 사례를 충족하기 위해 Adobe Learning Manager(ALM)에서 최상위 관리 계정을 안전하게 관리하는 방법에 대한 포괄적인 지침을 제공합니다.
 jcr-language: en-us
 exl-id: 79049f3d-8ebe-47e7-9895-9a7aaee504b3
-source-git-commit: 88298726a8cd4622e412200b3318e18890817ae8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2122'
 ht-degree: 0%
@@ -234,7 +237,7 @@ Adobe Learning Manager은 다음과 같은 공유 책임 모델로 작동합니�
 * Adobe은 기본 ALM 플랫폼 및 인프라를 보호하는 역할을 합니다.
 * 고객은 ALM 계정 내에서 관리 액세스, 역할 할당 및 사용자 수명 주기 활동을 관리할 책임이 있습니다.
 
-Adobe Learning Manager 보안 지침에 대한 추가 정보는 [Adobe Learning Manager 보안 개요(PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=ko)에서 확인할 수 있습니다.
+Adobe Learning Manager 보안 지침에 대한 추가 정보는 [Adobe Learning Manager 보안 개요(PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)에서 확인할 수 있습니다.
 
 ## 문서 유지 관리
 

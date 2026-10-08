@@ -4,20 +4,21 @@ jcr-language: en_us
 title: 스킬 및 레벨
 contentowner: manochan
 exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
-source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 86%
-
+source-wordcount: '327'
+ht-degree: 94%
 ---
-
 # 스킬 및 레벨
 
 이 문서에서 학습자로 Learning Manager 스킬을 달성하는 방법을 알아보십시오.
 
 스킬 맵은 조직의 직원이 가진 스킬 세트, 지식, 특징을 그룹화한 것입니다. 이러한 스킬은 회사/조직이 직원의 기대 성과를 설정하거나 올리는 데 도움을 줍니다. 스킬을 통해 직원은 조직의 기대에 맞는 행동을 할 수 있습니다.
 
-Adobe Learning Manager에서는 스킬 위젯을 사용하여 스킬을 기반으로 학습자의 성과를 매핑할 수 있습니다. 학습자가 강의 수강을 완료하면 학습자 홈페이지에서 스킬을 클릭하여 각 스킬에 대한 자신의 순위를 알 수 있습니다.
+Adobe Learning Manager에서는 스킬 위젯을 사용하여 스킬을 기반으로 학습자의 성과를 매핑할 수 있습니다. 학습자는 강의 수료를 완료하면 학습자 홈페이지에서 각 스킬을 클릭하여 스킬 내 순위를 알 수 있습니다.
 
 ## 스킬 보기 {#viewskills}
 

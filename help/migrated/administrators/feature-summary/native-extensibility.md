@@ -2,13 +2,14 @@
 title: 기본 확장성
 description: 기본 버전의 Adobe Learning Manager에서 사용자 정의 경험을 설정하게 되면 덜 복잡한 경우에는 헤드리스를 사용할 수 없습니다.
 exl-id: 510bd00f-4f52-4705-817e-4ee73380ca90
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 51%
-
 ---
-
 # 기본 확장성
 
 기본 버전의 Adobe Learning Manager에서 사용자 정의 경험을 설정할 수 있으므로 덜 복잡한 경우에는 헤드리스를 사용하지 않아도 됩니다. 사용자 정의 앱을 만들고 학습자, 관리자, 책임자, 작성자 또는 강사 워크플로의 기본 버전에서 다양한 지점에 배치할 수 있습니다.

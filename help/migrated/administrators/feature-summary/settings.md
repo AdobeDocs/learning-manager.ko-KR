@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 설정
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: 2265b277aa58ab9273de704e9f79ed28fdcd64a4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3974'
 ht-degree: 74%
-
 ---
-
 # 설정
 
 책임자가 구성할 수 있는 Learning Manager 계정 설정에 관해 알아봅니다.

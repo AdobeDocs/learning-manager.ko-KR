@@ -1,13 +1,14 @@
 ---
 title: 강사로 라이브 허브(Beta) 세션 참여
 description: 강사가 예정된 시작 시간 전에 라이브 허브 세션에 참여하여 학습자가 도착하기 전에 회의실을 준비하고 설정을 구성하는 방법에 대해 알아봅니다.
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 2%
-
 ---
-
 
 # 강사로 라이브 허브(Beta) 세션 참여
 

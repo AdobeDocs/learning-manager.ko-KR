@@ -4,13 +4,14 @@ title: 학습자 홈페이지 사용자 정의
 description: 책임자는 학습자의 홈페이지를 사용자 정의하여 학습자에게 개인화된 최신 콘텐츠 기반으로 만들 수 있습니다.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 63%
-
 ---
-
 # 학습자 홈페이지 사용자 정의
 
 ## 개요 {#overview}
@@ -157,7 +158,7 @@ ht-degree: 63%
    <td>
     <p>조직에서 추천함</p></td>
    <td>
-    <p>활성화되면 이 위젯은 특정 사용자 그룹에 대한 교육을 추천합니다. 각 사용자 그룹은 하나 이상의 교육을 대상으로 할 수 있으며 대상 플랜은 시간대를 기준으로 합니다. <br></p>
+    <p>활성화되면 이 위젯은 특정 사용자 그룹에 대한 교육을 추천합니다. 각 사용자 그룹은 하나 이상의 교육을 대상으로 할 수 있으며 대상 플랜은 시간 프레임을 기반으로 합니다. <br></p>
     <ul>
      <li>
       <p>먼저 책임자는 <a href="announcements.md#recommendation">추천으로</a> 유형의 <b>공지를 만든</b> 다음 필수 교육을 선택하고 그룹을 사용합니다. 사용자 그룹에 속한 학습자는 추천 교육을 볼 수 있게 됩니다.</p></li>

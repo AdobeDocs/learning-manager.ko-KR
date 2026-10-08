@@ -3,13 +3,14 @@ description: 각 ALM 지원 커넥터에 대한 개요
 jcr-language: en_us
 title: Adobe Learning Manager의 커넥터 개요
 contentowner: mmanuel
-source-git-commit: 3750b1f8784209d9efcbf5aaae890c37365d7030
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1426'
 ht-degree: 6%
-
 ---
-
 
 # Adobe Learning Manager 커넥터
 
@@ -92,7 +93,7 @@ Box 커넥터는 Box의 클라우드 스토리지 플랫폼을 활용하여 외�
 
 ### Microsoft Teams 커넥터
 
-Microsoft Teams 커넥터는 Teams의 회의 기능과 직접 통합함으로써 Adobe Learning Manager을 포괄적인 가상 강의실 솔루션으로 변환합니다. 이 커넥터는 Microsoft 365 에코시스템을 사용하는 조직에 필수적입니다.
+Microsoft Teams 커넥터 Adobe Learning Manager은 Teams의 회의 기능과 직접 통합하여 포괄적인 가상 강의실 솔루션으로 통합됩니다. 이 커넥터는 Microsoft 365 에코시스템을 사용하는 조직에 필수적입니다.
 
 #### 주요 기능:
 
@@ -221,7 +222,7 @@ getAbstract 커넥터는 간결한 비즈니스 서적 요약과 전문적인 �
 
 ### Power BI 커넥터
 
-Power BI 커넥터는 학습 메트릭스를 Microsoft의 강력한 비즈니스 인텔리전스 플랫폼과 자동으로 동기화하여 학습 데이터를 실행 가능한 비즈니스 인사이트로 전환합니다.
+Microsoft의 강력한 비즈니스 인텔리전스 플랫폼과 메트릭을 자동으로 동기화하여 비즈니스 학습 데이터를 실행 가능한 인사이트로 통합합니다.
 
 #### 주요 기능:
 
@@ -251,7 +252,7 @@ Power BI 커넥터는 학습 메트릭스를 Microsoft의 강력한 비즈니스
 
 ### Adobe Commerce 커넥터
 
-Adobe Commerce 커넥터는 Adobe Learning Manager을 포괄적인 학습 상거래 플랫폼으로 변환하여 조직이 완전히 통합된 전자 상거래 경험을 통해 강의, 인증 및 교육 프로그램을 판매할 수 있도록 합니다.
+Adobe Commerce 커넥터 Adobe Learning Manager을 종합 학습 커머스 플랫폼으로 통합하여 조직이 완전히 통합된 전자상거래 경험을 통해 과정, 인증, 교육 등을 판매할 수 있도록 합니다.
 
 **주요 기능:**
 

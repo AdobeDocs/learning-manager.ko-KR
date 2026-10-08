@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 작업 지원
 description: 작업 지원은 그 어떤 등록이나 완료 기준 없이 학습자가 접근할 수 있는 교육 콘텐츠 저장소입니다. 학습자는 이러한 작업 지원을 참조하여 조직 내 활동이나 작업 수행을 지원받을 수 있습니다.
 exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
-source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 42%
-
 ---
-
 # 작업 지원
 
 **작업 지원**&#x200B;은(는) 등록이나 완료 조건 없이 학습자가 액세스할 수 있는 교육 콘텐츠 저장소입니다. 학습자는 이러한 작업 지원을 참조하여 조직 내 활동이나 작업 수행을 지원받을 수 있습니다.
@@ -31,7 +32,7 @@ ht-degree: 42%
    업로드에 비디오, pdf, pptx 및 docx 파일 형식이 지원됩니다. 프로젝트 zip 파일 또는 대화형 콘텐츠는 업로드할 수 없습니다.
 
 1. 작업 지원에 대한 지속 기간을 분 단위로 입력하십시오.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL &#39;저장&#39;]**&#x200B;을 클릭합니다.
 
    작업 지원이 게시됩니다.
 

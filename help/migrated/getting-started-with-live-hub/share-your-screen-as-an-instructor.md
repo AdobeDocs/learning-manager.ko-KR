@@ -1,13 +1,14 @@
 ---
 title: 라이브 허브의 강사로 화면 공유
 description: 강사가 자신의 화면을 공유하고, 분할 뷰를 사용하고, 공유 콘텐츠에 주석을 달고, 라이브 허브 세션 중에 학습자가 자신의 화면을 공유할 수 있도록 하는 방법을 알아봅니다.
-source-git-commit: 664d164cce2a045d1834b520a2bd43b651e02e7e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
-
 ---
-
 
 # 강사로 화면 공유
 

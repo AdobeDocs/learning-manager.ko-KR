@@ -2,13 +2,14 @@
 description: 콘텐츠 컴포저의 고급 테마 속성을 사용하여 머리글 및 텍스트 요소의 글꼴, 색상, 간격 및 레이아웃을 사용자 정의하는 방법을 살펴보세요.
 jcr-language: en_us
 title: 고급 테마 사용자 정의
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
-
 ---
-
 
 # 콘텐츠 컴포저의 고급 테마 사용자 정의
 

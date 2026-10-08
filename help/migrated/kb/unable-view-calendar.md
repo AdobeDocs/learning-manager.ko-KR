@@ -4,13 +4,14 @@ title: 달력을 확인할 수 없음
 description: 책임자가 외부 등록 프로필의 만료 날짜를 수정하려고 달력을 클릭했을 때 달력이 표시되지 않습니다.
 contentowner: saghosh
 exl-id: 1b7e5594-714a-4a1d-9b8f-d481c1b48cb5
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 88%
-
+source-wordcount: '171'
+ht-degree: 95%
 ---
-
 # 달력을 확인할 수 없음
 
 ## 문제

@@ -3,13 +3,14 @@ description: 자가 진행식 콘텐츠로 강의에 맞게 콘텐츠를 만드�
 jcr-language: en_us
 title: 콘텐츠 라이브러리
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 105f5b4331abaae38c1dc3bba14592e78ae28d51
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '6083'
 ht-degree: 33%
-
 ---
-
 # 콘텐츠 라이브러리
 
 자가 진행식 콘텐츠로 강의에 맞게 콘텐츠를 만드는 방법을 알아봅니다.
@@ -798,7 +799,7 @@ Adobe Learning Manager에서는 성공 및 완료에 따라 배지와 스킬을 
 
 자세한 내용은 이 [블로그](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/)를 확인하세요.
 
-### 강의를 완료한 학습자를 위한 콘텐츠 버전 제어
+### 강의를 완료한 학습자를 위한 콘텐츠 버전 컨트롤
 
 이제 Adobe Learning Manager은 작성자에게 콘텐츠 업데이트를 관리하는 더 명확한 옵션을 제공합니다. 작성자는 강의에서 이미 사용할 수 있는 콘텐츠를 업데이트할 수 있습니다. 새 버전이 추가되면 콘텐츠 옆에 버전 번호가 표시됩니다.
 

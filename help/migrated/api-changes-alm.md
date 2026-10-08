@@ -3,13 +3,14 @@ description: ALM의 API 변경 사항
 jcr-language: en_us
 title: 4월 릴리스의 API 변경 사항
 exl-id: 8c7cd33a-60c4-4bc2-8859-167536a90014
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4093'
+source-wordcount: '4106'
 ht-degree: 0%
-
 ---
-
 # 2026년 4월 릴리스의 API 변경 사항
 
 Adobe Learning Manager의 2026년 4월 릴리스에는 대체 및 대응 항목과 관련하여 공개 API가 중점적으로 개선되고, 콘텐츠의 시간 창을 통한 액세스, 콘텐츠 중심의 퀴즈 시도, 로그인하지 않은 경험, 작업 지원 처리가 도입되었습니다. 변경 사항은 보다 정밀한 통합을 가능케 하면서 대부분 이전 버전과 호환되도록 설계되었습니다.
@@ -83,8 +84,8 @@ GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit
 - isAlternateComplete가 ==는 경우:\
   오늘처럼 레코드를 LO의 __직접 완료__&#x200B;로 취급합니다.
 - isAlternateComplete가 == 경우:
-   - 레코드를 보고서의 __대체 완료__(예: &quot;완료 방법&quot; 열에 DIRECT와 ALTERNATE 값을 함께 포함)로 플래그 지정합니다.
-   - relationships.alternateCompletions.data[*].id를 사용하여 이 완료 권한을 부여한 __소스 LO__&#x200B;을(를) 캡처합니다(예: &quot;강의 B는 대체 강의 A를 통해 완료&quot;).
+  - 레코드를 보고서의 __대체 완료__(예: &quot;완료 방법&quot; 열에 DIRECT와 ALTERNATE 값을 함께 포함)로 플래그 지정합니다.
+  - relationships.alternateCompletions.data[*].id를 사용하여 이 완료 권한을 부여한 __소스 LO__&#x200B;을(를) 캡처합니다(예: &quot;강의 B는 대체 강의 A를 통해 완료&quot;).
 
 일반적인 사용 사례:
 
@@ -120,8 +121,8 @@ GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
   검토자가 학습자에게 남긴 자유 텍스트 댓글입니다. 예시는 다음과 같습니다.\
   &quot;checklistComment&quot;: &quot;탁월한 성능! 모든 안전 프로토콜이 올바르게 준수되었습니다.&quot;\
   이 특성은 _인 경우에만_&#x200B;채워집니다.
-   - showChecklistComment는 true이고,
-   - 체크리스트 구성에서 enable_reviewer_remarks를 사용하도록 설정했습니다.
+  - showChecklistComment는 true이고,
+  - 체크리스트 구성에서 enable_reviewer_remarks를 사용하도록 설정했습니다.
 - attributes.showChecklistComment\
   학습자에게 검토자 의견을 표시할지 여부를 나타내는 부울 플래그:\
   &quot;showChecklistComment&quot;: true\
@@ -171,17 +172,17 @@ GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
 ```
 
 - 이에 대한 응답으로:
-   - 기본 learningObject의 relationships.instances를 사용하여 포함된 관련 learningObjectInstance 항목을 찾습니다.
-   - 각 learningObjectInstance에서 relationships.loResources에 따라 learningObjectResource 항목을 찾습니다.
-   - 다음 위치에서 learningObjectResource 항목을 필터링합니다.
-      - attribute.resourceSubType == &quot;CHECKLIST&quot;(체크리스트 리소스의 경우),
-      - 선택 사항으로 attributes.showChecklistComment== true이면 학습자가 볼 수 있는 주석이 있는 체크리스트를 찾습니다.
+  - 기본 learningObject의 relationships.instances를 사용하여 포함된 관련 learningObjectInstance 항목을 찾습니다.
+  - 각 learningObjectInstance에서 relationships.loResources에 따라 learningObjectResource 항목을 찾습니다.
+  - 다음 위치에서 learningObjectResource 항목을 필터링합니다.
+    - attribute.resourceSubType == &quot;CHECKLIST&quot;(체크리스트 리소스의 경우),
+    - 선택 사항으로 attributes.showChecklistComment== true이면 학습자가 볼 수 있는 주석이 있는 체크리스트를 찾습니다.
 
 - 각 체크리스트 learningObjectResource에 대한 다음 리소스를 사용합니다.
-   - attributes.checklistComment(present 및 showChecklistComment가 true인 경우)
-   - attributes.checklistEvaluationStatus(예: &quot;PASSED&quot;)
-   - attributes.showReviewerNameToLearner
-   - relationships.checklistReviewed검토자를 식별하기 위한 (있는 경우).
+  - attributes.checklistComment(present 및 showChecklistComment가 true인 경우)
+  - attributes.checklistEvaluationStatus(예: &quot;PASSED&quot;)
+  - attributes.showReviewerNameToLearner
+  - relationships.checklistReviewed검토자를 식별하기 위한 (있는 경우).
 
 이 패턴을 통해 헤드리스 또는 사용자 정의 클라이언트는 Prime API에서 직접 상태, 필수/선택적 플래그 및 검토자 피드백을 포함한 포괄적인 체크리스트 경험을 렌더링할 수 있습니다.
 
@@ -189,14 +190,14 @@ GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
 
 - _보고 및 분석_
 체크리스트에서 학습자 성과를 추적하는 통합에는 다음이 포함될 수 있습니다.
-   - 검사 목록합격/불합격 또는 기타 상태 표시기에 대한 평가상태입니다.
-   - isChecklist필수 활동과 선택적 체크리스트 활동을 구분하려면 필수입니다.
-   - 피드백 검사 감사를 위해 체크리스트주석 및 showChecklist주석이 있는지 여부
+  - 검사 목록합격/불합격 또는 기타 상태 표시기에 대한 평가상태입니다.
+  - isChecklist필수 활동과 선택적 체크리스트 활동을 구분하려면 필수입니다.
+  - 피드백 검사 감사를 위해 체크리스트주석 및 showChecklist주석이 있는지 여부
 - _학습자 경험_
 UI 구현은 다음과 같습니다.
-   - 비고를 표시하기 전에 showChecklistComment를 존중합니다.
-   - showReviewerNameToLearner 및 checklistReviewedBy를 사용하여 검토자의 이름을 표시할지 또는 검토를 익명으로 유지할지 결정합니다.
-   - 댓글이 비활성화되거나 표시되지 않고 평가 상태 및 제출 정보가 표시되는 경우 우아하게 뒤로 넘어갑니다.
+  - 비고를 표시하기 전에 showChecklistComment를 존중합니다.
+  - showReviewerNameToLearner 및 checklistReviewedBy를 사용하여 검토자의 이름을 표시할지 또는 검토를 익명으로 유지할지 결정합니다.
+  - 댓글이 비활성화되거나 표시되지 않고 평가 상태 및 제출 정보가 표시되는 경우 우아하게 뒤로 넘어갑니다.
 
 ## 작업 지원에 대한 다국어 지원
 
@@ -221,21 +222,21 @@ GET /primeapi/v2/learningObjects/jobAid:{jobAidId}?include=instances.loResources
 다중 언어 작업 지원 사용:
 
 - _learningObject(유형: learningObject)_
-   - 클라이언트가 적절한 언어로 작업 지원 제목/설명을 표시할 수 있도록 여러 항목(예: en-US, fr-FR)이 있는 localizedMetadata를 포함합니다.
+  - 클라이언트가 적절한 언어로 작업 지원 제목/설명을 표시할 수 있도록 여러 항목(예: en-US, fr-FR)이 있는 localizedMetadata를 포함합니다.
 - _learningObjectInstance(유형: learningObjectInstance)_
-   - relationships.loResources를 통해 하나 이상의 learningObjectResource 항목을 참조합니다.
+  - relationships.loResources를 통해 하나 이상의 learningObjectResource 항목을 참조합니다.
 - _learningObjectResource(유형: learningObjectResource)_
-   - 공통 구성(컨텐츠 유형, 버전 등) 보유 다중 로케일의 localizedMetadata를 사용할 수 있습니다.
-   - relationships.resources를 통해 하나 이상의 리소스 엔터티에 연결합니다.
+  - 공통 구성(컨텐츠 유형, 버전 등) 보유 다중 로케일의 localizedMetadata를 사용할 수 있습니다.
+  - relationships.resources를 통해 하나 이상의 리소스 엔터티에 연결합니다.
 - _리소스(유형: 리소스)_
-   - *로케일당 1개*, 각 로케일은 고유 ID, 로케일, 이름 및 URL(location / downloadUrl)을 가집니다.
+  - *로케일당 1개*, 각 로케일은 고유 ID, 로케일, 이름 및 URL(location / downloadUrl)을 가집니다.
 
 다국어 작업 지원의 경우 일반적인 패턴은 다음과 같습니다.
 
 - en-US 및 fr-FR에 대한 localizedMetadata가 있는 learningObjectResource
 - relationships.resources.data 가리키기:
-   - 리소스(로케일 포함): &quot;en-US&quot;
-   - 로케일이 &quot;fr-FR&quot;인 리소스
+  - 리소스(로케일 포함): &quot;en-US&quot;
+  - 로케일이 &quot;fr-FR&quot;인 리소스
 
 클라이언트는 학습자의 로케일을 resource.attributes.locale 필드에 일치시켜 적절한 리소스를 선택할 수 있습니다.
 
@@ -261,8 +262,8 @@ jobAid:<jobAidId>_<version>_<localeCode>
 
 예:
 
-- 작업 지원:131032_2_en-US
-- 작업 지원:131032_2_fr_FR
+- jobAid:131032_2_en-US
+- jobAid:131032_2_fr_FR
 - 작업 지원:131032_2_es_ES
 
 시각 장애:
@@ -298,24 +299,24 @@ jobAid:131032_2_fr_FR
 
 이제 이전 ID 형식과 새 ID 형식이 모두 _이전 버전과 호환_&#x200B;됩니다.
 
-- _이전 ID 형식_(예: 작업 지원:131032_-1_-1_2_resource)
-   - 계속 작동합니다.
-   - 해당 레거시 식별자(일반적으로 원래 en-US 리소스)와 연결된 _처음 만든 리소스_&#x200B;를 반환합니다.
-- _새 ID 형식_(예: 작업 지원:131032_2_fr_FR)
-   - 해당 ID에 해당하는 _정확한 로캘별 리소스_&#x200B;를 반환합니다.
-   - 이를 통해 지역화된 작업 지원 변형의 정밀한 검색 및 조작이 가능합니다.
+- _이전 ID 형식_(예: jobAid:131032_-1_-1_2_resource)
+  - 계속 작동합니다.
+  - 해당 레거시 식별자(일반적으로 원래 en-US 리소스)과 연결된 _처음 만든 리소스_&#x200B;을(를) 반환합니다.
+- _새 ID 형식_(예: jobAid:131032_2_fr_FR)
+  - 해당 ID에 해당하는 _정확한 로캘별 리소스_&#x200B;를 반환합니다.
+  - 이를 통해 지역화된 작업 지원 변형의 정밀한 검색 및 조작이 가능합니다.
 
 현재 이전 리소스 ID를 저장하거나 참조하는 통합은 변경 없이 계속 작동할 수 있지만, 최신 구현은 로케일별 작업에 대한 새 ID 형식을 채택하는 것이 좋습니다.
 
 ### 통합 및 UX 고려 사항
 
 - _학습자/관리자 UI_
-   - learningObject.localizedMetadata 및 learningObjectResource.localizedMetadata를 사용하여 제목과 설명을 해당 언어로 표시합니다.
-   - resource.attributes.locale 을 사용하여 학습자 로케일에 맞는 URL (location / downloadUrl) 을 선택합니다.
-   - 학습자의 정확한 로케일을 사용할 수 없는 경우 대체 동작(예: en-US로 대체)을 구현합니다.
+  - learningObject.localizedMetadata 및 learningObjectResource.localizedMetadata를 사용하여 제목과 설명을 해당 언어로 표시합니다.
+  - resource.attributes.locale 을 사용하여 학습자 로케일에 맞는 URL (location / downloadUrl) 을 선택합니다.
+  - 학습자의 정확한 로케일을 사용할 수 없는 경우 대체 동작(예: en-US로 대체)을 구현합니다.
 - _API 및 저장소_
-   - 새 통합의 경우 _새로운 형식의 리소스 ID_(`jobAid:<jobAidId>_<version>_<localeCode>`)를 저장하여 모호하지 않은 로케일 특정 검색을 사용하도록 설정하십시오.
-   - 레거시 ID는 /resources/{resourceId}와 함께 사용할 수 있지만 로케일을 구분하지 않습니다.
+  - 새 통합의 경우 _새로운 형식의 리소스 ID_(`jobAid:<jobAidId>_<version>_<localeCode>`)를 저장하여 모호하지 않은 로케일 특정 검색을 사용하도록 설정하십시오.
+  - 레거시 ID는 /resources/{resourceId}와 함께 사용할 수 있지만 로케일을 구분하지 않습니다.
 
 ## 시작 모듈에 대한 시간 슬롯 제약 조건
 
@@ -361,7 +362,7 @@ jobAid:131032_2_fr_FR
 
 예:
 
-작업 지원:131032_2_fr_FR
+jobAid:131032_2_fr_FR
 
 구성 요소는 다음과 같습니다.
 
@@ -399,7 +400,7 @@ jobAid:131032_2_fr_FR
 2. 파일 형식 확인:
 시스템 요구 사항에 설명된 대로 지원되는 이미지 형식(예: png, jpg, jpeg, gif) 중 하나를 사용합니다.
    1. [*시스템 요구 사항*](/help/migrated/system-requirements.md)
-3. course.csv 업데이트: 새 배너 열에서 배너 이미지의 상대 경로 또는 식별자를 참조하십시오. 개념적 예:
+3. course.csv 업데이트: 새 배너 열에서 배너 이미지의 상대 경로 또는 식별자를 참조합니다. 개념적 예:
 
 ```
 id,courseName,courseCreationDate,state,author,thumbnailUrl,bannerUrl  
@@ -429,8 +430,8 @@ Adobe Learning Manager에서 통합 책임자는 course.csv를 포함하는 마�
 course.csv에서 처음으로 강의가 생성되고 배너 열이 채워지면 해당 배너가 즉시 설정됩니다.
 - _기존 강의(개선/수정)_
 동일한 과정 ID와 새 배너 값을 사용하여 마이그레이션을 다시 실행하는 경우:
-   - Learning Manager가 기존 과정을 찾습니다.
-   - 배너 이미지가 CSV에 지정된 새 이미지로 _업데이트_&#x200B;되었습니다.
+  - Learning Manager가 기존 과정을 찾습니다.
+  - 배너 이미지가 CSV에 지정된 새 이미지로 _업데이트_&#x200B;되었습니다.
 
 실제 열 이름 및 경로는 _다운로드된 CSV 사양_ 및 콘텐츠 리포지토리 레이아웃과 일치해야 합니다.
 
@@ -453,10 +454,10 @@ course.csv에서 처음으로 강의가 생성되고 배너 열이 채워지면 
 
 - 마이그레이션 중 학습 프로그램에서 강의 순서를 제어하려면 순서를 따르지 마십시오.
 - 이전 템플릿의 주문 열이 여전히 있는 경우:
-   - Learning Manager는 주문 시 이를 무시합니다.
-   - 시간이 경과함에 따라 CSV에서 안전하게 파일을 제거하여 마이그레이션 파일을 간소화할 수 있습니다.
+  - Learning Manager는 주문 시 이를 무시합니다.
+  - 시간이 경과함에 따라 CSV에서 안전하게 파일을 제거하여 마이그레이션 파일을 간소화할 수 있습니다.
 - 필수 매핑의 핵심은 다음과 같습니다.
-   - 학습 프로그램 ID ↔ 강의 ID(및 ID, learningProgramId, courseId 및 날짜와 같이 아직 문서화된 기타 열)
+  - 학습 프로그램 ID ↔ 강의 ID(및 ID, learningProgramId, courseId 및 날짜와 같이 아직 문서화된 기타 열)
 
 항상 Learning Manager 계정의 최신 [_CSV 사양_](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/migration-manual)을 참조하여(csv_specifications.zip을 통해) 현재 헤더 세트 및 요구 사항을 확인하십시오.
 
@@ -561,9 +562,9 @@ Adobe Learning Manager은 UG(사용자 그룹) 멤버십을 관리하기 위해 
 - [기본 URL(prod)](https://learningmanager.adobe.com/docs/primeapi/v2/)
 - 인증: `admin:write` 범위의 OAuth 2.0 액세스 토큰
 - 필수 헤더:
-   - 인증: Bearer &lt;access_token>
-   - Content-Type: application/json
-   - 수락: application/json
+  - 인증: Bearer &lt;access_token>
+  - Content-Type: application/json
+  - 수락: application/json
 
 일반적인 관리자 API 동작 및 범위는 다음을 참조하십시오.
 
@@ -592,7 +593,7 @@ __추가__&#x200B;와 __제거__ 모두 정확히 동일한 본문 모양을 사
 
 #### 데이터(필수)
 
-data는 이 배치에 대한 사용자 리소스 식별자 목록입니다.
+데이터는 이 배치에 대한 사용자 자원 식별자 목록입니다.
 
 - `type`은(는) &quot;user&quot;여야 합니다.
 - `id`은(는) ALM의 _숫자 사용자 ID_&#x200B;입니다(전자 메일이 아님, UUID 아님).
@@ -614,7 +615,7 @@ data는 이 배치에 대한 사용자 리소스 식별자 목록입니다.
 
 - `event_id` - 생성한 상관 관계 ID입니다.
 - `sourceSystem` - 업스트림 시스템의 이름입니다.
-- `batchId` - 일괄 처리 또는 작업 식별자입니다.
+- `batchId` - 일괄 처리 또는 작업 식별자.
 
 서비스는 이 개체를 Webhook 응답에서 변경되지 않은 상태로 반환하므로 콜백을 내부 작업에 일치시킬 수 있습니다.
 
@@ -707,4 +708,4 @@ ID 형식이 다음과 같은 값에서 변경되었습니다.
 
 `jobAid:<jobAidId>_<version>_<localeCode>`
 
-(예: 작업 지원:131032_2_fr_FR). 작업 지원 리소스 ID를 저장하거나 구문 분석하는 모든 시스템은 업데이트해야 하며 2026년 4월 릴리스로 업그레이드한 후 이러한 ID로 입력된 로컬 인덱스를 다시 작성해야 합니다.
+예: jobAid:131032_2_fr_FR. 작업 지원 리소스 ID를 저장하거나 구문 분석하는 모든 시스템은 업데이트해야 하며 2026년 4월 릴리스로 업그레이드한 후 이러한 ID로 입력된 로컬 인덱스를 다시 작성해야 합니다.

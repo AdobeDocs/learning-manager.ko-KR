@@ -1,13 +1,14 @@
 ---
 title: 채널 탐색 및 참여
 description: Adobe Learning Manager의 채널을 통해 제공되는 비디오 콘텐츠를 찾고, 구독하고, 보고, 좋아요를 누르고, 토론에 참여하는 방법에 대해 알아보십시오.
-source-git-commit: cb49d8e4159c7dc8650ef4c981d24f3507bfff93
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
-
 ---
-
 
 # 채널 탐색 및 참여(Beta)
 

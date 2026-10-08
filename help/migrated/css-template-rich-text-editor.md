@@ -4,7 +4,10 @@ title: 서식 있는 텍스트 편집기용 CSS 템플릿
 description: 서식 있는 텍스트 편집기용 CSS 템플릿
 contentowner: saghosh
 preview: true
-source-git-commit: 9325abb9cda8c8a019c9d72c1944a8284f38f83e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 72%

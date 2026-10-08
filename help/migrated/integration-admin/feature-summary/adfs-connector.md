@@ -3,13 +3,14 @@ description: ADFS 커넥터를 Adobe Learning Manager과 통합하는 방법 알
 jcr-language: en_us
 title: ADFS 커넥터
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 3%
-
 ---
-
 
 # Adobe Learning Manager의 ADFS 커넥터
 

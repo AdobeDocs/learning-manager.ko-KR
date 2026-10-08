@@ -2,13 +2,14 @@
 description: AI 출력은 다를 수 있으므로 공유 또는 게시 전에 Content Composer의 강의 편집기에서 AI가 생성한 강의 콘텐츠를 검토하는 방법을 알아보십시오.
 jcr-language: en_us
 title: 생성된 과정 검토
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
-
 ---
-
 
 # 생성된 과정 검토
 

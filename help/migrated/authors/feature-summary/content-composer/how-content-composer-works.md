@@ -2,13 +2,14 @@
 description: Content Composer는 Prompt, Brief, Outline, Course의 네 가지 단계를 거칩니다. 대화형 AI는 Adobe Learning Manager에 직접 게시하기 전에 검토하고 편집하는 콘텐츠를 생성하면서 각 단계를 안내합니다.
 jcr-language: en_us
 title: 콘텐츠 컴포저의 작동 방식
-source-git-commit: 90969a10aa9246a4c1cfd2e02641f79f5101f0cd
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
-
 ---
-
 
 # 콘텐츠 컴포저의 작동 방식
 

@@ -5,13 +5,14 @@ title: Learning Manager 배포 안내서 - 섹션 2
 contentowner: sanm
 preview: true
 exl-id: 46e59790-dbc9-4c13-ae63-7bbdba5157a1
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 63%
-
 ---
-
 # Learning Manager 배포 안내서 - 섹션 2
 
 ## 기술적 설정 {#technicalsetup}
@@ -74,7 +75,7 @@ Learning Manager를 사용하면 마법사의 단계적 안내에 따라 스프�
 
 마이그레이션 프로세스를 시작하기 전에 다음 선행 작업을 수행해야 합니다.
 
-* 기존 LMS에서 데이터와 콘텐츠를 추출하고 Learning Manager에서 정의된 파일 형식으로 데이터를 변환합니다.
+* 기존 LMS에서 데이터와 콘텐츠를 추출하고, Learning Manager에서 정의한 대로 데이터와 파일 형식을 변환에서 추출합니다.
 * FTP 및 BOX 커넥터를 사용하여 사용자를 가져옵니다. 통합 책임자는 마이그레이션 프로세스를 시작하기 전에 커넥터가 구성되었는지 확인해야 합니다.
 
 
@@ -119,10 +120,10 @@ Learning Manager를 사용하면 마법사의 단계적 안내에 따라 스프�
 <table> 
  <tbody> 
   <tr> 
-   <th width="7%" valign="top"><p><strong>아니요.</strong></p></th> 
+   <th width="7%" valign="top"><p><strong>번호</strong></p></th> 
    <th width="29%" valign="top"><p><strong>Excel 스프레드시트 이름</strong></p></th> 
    <th width="31%" valign="top"><p><strong>콘텐츠 설명</strong></p></th> 
-   <th width="31%" valign="top"><p><strong>노트</strong></p></th> 
+   <th width="31%" valign="top"><p><strong>비고</strong></p></th> 
   </tr> 
   <tr> 
    <td><p>1</p></td> 

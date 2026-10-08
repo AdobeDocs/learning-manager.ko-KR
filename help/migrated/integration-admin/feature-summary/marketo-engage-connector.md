@@ -3,13 +3,14 @@ description: Marketo Engage 커넥터와 Adobe Learning Manager을 통합하는 
 jcr-language: en_us
 title: Marketo Engage 커넥터
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 3%
-
+ht-degree: 4%
 ---
-
 
 # Adobe Learning Manager의 Marketo Engage 커넥터
 
@@ -33,9 +34,9 @@ Marketo Engage 커넥터를 사용하여 다음을 수행할 수 있습니다.
 - 학습 활동(등록, 완료, 스킬 성과)을 사용자 정의 개체로 Marketo에 내보냅니다.
 - 온디맨드로 내보내기를 예약하거나 트리거합니다.
 - 통합 보고서 지원:
-   - 사용자 보고서
-   - 학습 성적 증명서
-   - 사용자 스킬 보고서
+  - 사용자 보고서
+  - 학습 성적 증명서
+  - 사용자 스킬 보고서
 
 ## 사전 요구 사항
 

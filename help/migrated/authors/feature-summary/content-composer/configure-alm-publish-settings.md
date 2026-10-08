@@ -2,13 +2,14 @@
 description: Content Composer를 Adobe Learning Manager에 연결하고, 게시 세부 정보를 구성하고, 과정을 ALM 콘텐츠 라이브러리에 배포하는 방법에 대해 알아봅니다.
 jcr-language: en_us
 title: Adobe Learning Manager에 연결 및 게시
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager에 연결 및 게시
 

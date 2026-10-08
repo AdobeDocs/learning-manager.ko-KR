@@ -4,13 +4,14 @@ title: 작성자로 시작
 description: 시작 페이지를 사용하여 Adobe Learning Manager의 주요 작성 기능을 탐색합니다.
 contentowner: manochan
 exl-id: 9f6d4307-91c5-4c80-8e6d-aebfa6d4feaa
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 54%
-
+source-wordcount: '164'
+ht-degree: 52%
 ---
-
 # 작성자로 시작
 
 응용 프로그램의 주요 기능을 시작 페이지에서 알아볼 수 있습니다.

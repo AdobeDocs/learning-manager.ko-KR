@@ -1,13 +1,14 @@
 ---
 title: 라이브 허브의 화이트보드 정보
 description: 강사와 학습자가 라이브 허브 세션 중에 실시간 공유 화이트보드를 사용하여 드로잉하고, 주석을 달고, 공동 작업하는 방법을 알아봅니다.
-source-git-commit: d83ea719a3a7ecfa9fba64f12d249213850ba29a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
-
 ---
-
 
 # 화이트보드 정보
 

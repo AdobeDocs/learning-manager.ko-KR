@@ -3,13 +3,14 @@ title: Adobe Learning Manager- 보안 관리 안내서
 description: 이 안내서에서는 규정 준수 및 보안을 보장하기 위해 Adobe Learning Manager에서 관리 보안 및 액세스 제어를 관리하기 위한 보안 설정, 역할 및 모범 사례를 설명합니다.
 jcr-language: en-us
 exl-id: 67dd9334-9718-4b2a-841e-5d8bd5c42714
-source-git-commit: 5682c45a4e5789a3eede53faf7cb257cd9685759
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 0%
-
 ---
-
 # 관리 보안 설정 및 보안 관련 사항
 
 ## 보안에 영향을 미치는 관리 역할
@@ -168,7 +169,7 @@ Adobe Learning Manager의 관리 설정은 고객이 구성할 수 있으며 Ado
 
 Adobe Learning Manager의 보안 관행에 대한 추가 정보는 다음 웹 사이트에서 확인할 수 있습니다.
 
-**참조:** [Adobe Learning Manager 보안 개요(PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=ko)
+**참조:** [Adobe Learning Manager 보안 개요(PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
 
 ## 문서 유지 관리
 

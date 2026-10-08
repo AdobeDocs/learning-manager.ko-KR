@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 게임화
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1655'
 ht-degree: 68%
-
 ---
-
 # 게임화
 
 게임화는 게임이 아닌 컨텍스트에 게임적 사고 방식과 구조를 활용하여 학습하면서 점수를 획득하는 방식으로 사용자의 참여를 유도하는 방법입니다.
@@ -42,7 +43,7 @@ A sample illustration is provided below that shows all the tasks and points.
    브론즈, 실버, 골드, 플래티넘 레벨 목록과 각 레벨을 달성하는 데 필요한 점수가 담긴 페이지가 나타납니다. 작업 목록과 그에 해당하는 점수가 나타납니다.
 1. 각 작업 옆에 있는 &#39;편집&#39; 아이콘을 클릭하여 점수를 설정할 수 있습니다.
 1. 월/분기/일년에 특정 수의 강의를 완료하는 등 과제 발생 빈도를 수정합니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL &#39;저장&#39;]**&#x200B;을 클릭합니다.
 
 ![](assets/set-up-points.png)
 

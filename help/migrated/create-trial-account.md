@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Learning Manager에서 체험판, 샌드박스 또는 테스트 계정 설정
 description: Adobe Learning Manager에서 30일 무료 체험판 또는 샌드박스 계정을 만드는 방법을 알아봅니다. 간단한 단계에 따라 테스트 환경을 설정하고 빠르게 시작하십시오.
 exl-id: f8a2db1d-6a62-481a-9d04-0fb6377cda73
-source-git-commit: 4d5ced6d9677ddd568c6a6372e598b8e7bb4981d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '175'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager에서 체험판 계정 만들기
 
 Adobe Learning Manager에서 무료 30일 평가판 계정을 쉽게 설정하여 기능을 탐색하고 학습 워크플로우를 테스트할 수 있습니다. 이 안내서에서는 시작 위치, 등록 방법, 설정이 완료되면 계정 세부 사항을 찾는 방법에 대해 설명합니다.

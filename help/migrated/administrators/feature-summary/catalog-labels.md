@@ -4,7 +4,10 @@ title: 카탈로그 레이블
 description: 카탈로그 레이블에서는 특정 필드가 있는 학습 객체를 태그하고 하나 이상의 값을 적용할 수 있습니다. 활성화되면 관리자 및 작성자는 카탈로그 레이블 및 값을 설정하고 이를 학습 객체에 연결할 수 있습니다.
 contentowner: dvenkate
 exl-id: 966d163d-7878-44f4-afdc-38eb95996229
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 94%

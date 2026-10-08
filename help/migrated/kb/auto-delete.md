@@ -4,13 +4,14 @@ title: Learning Manager에서 사용자가 자동으로 삭제됨
 description: 책임자가 Learning Manager에서 사용자를 삭제하지 않았는데도 사용자가 삭제됩니다.
 contentowner: nluke
 exl-id: 9e293da3-bcbf-4798-b391-aef53ef8d946
-source-git-commit: dafb4c35d868e44c022a0d96919792b5a41f62b0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 69%
-
 ---
-
 # Learning Manager에서 사용자가 자동으로 삭제됨 {#user-gets-auto-deleted-in-learning-manager}
 
 ## 문제

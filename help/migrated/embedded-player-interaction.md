@@ -4,13 +4,14 @@ title: 포함된 플레이어 상호 작용 API 설명서
 description: 포함된 Adobe Learning Manager 플레이어에서 이벤트를 듣고 액션을 트리거하는 다양한 API에 대해 알아보십시오
 contentowner: chandrum
 exl-id: 4734ecc1-cc8a-40b0-8997-32a31ec661ec
-source-git-commit: 06fdb3aa12af664ba87bbb26b9926991763e3ce9
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 70%
-
 ---
-
 # 포함된 플레이어 상호 작용 API 설명서
 
 Adobe Learning Manager는 앱에 통합할 수 있는 라이브러리를 제공합니다. 이 라이브러리는 포함된 플레이어에서 이벤트를 수신하고 동작을 트리거하기 위한 다양한 API를 제공합니다.

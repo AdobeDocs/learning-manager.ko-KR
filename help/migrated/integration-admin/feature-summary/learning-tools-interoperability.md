@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 학습 도구 상호 운용성(LTI)
 description: LTI 통합 ALM에 대해 알아보기
 exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
-source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1993'
 ht-degree: 1%
-
 ---
-
 # LTI 통합
 
 ## LTI란 무엇입니까?
@@ -74,9 +75,9 @@ LTI 공급자인 Adobe Learning Manager에서는 카탈로그의 강의를 외�
 
 Adobe Learning Manager 관리자가 공유한 자격 증명을 사용하면 외부 LMS 관리자가 Adobe Learning Manager을 등록하고 자격 증명을 생성합니다. 이러한 자격 증명은 Adobe Learning Manager을 도구 공급자로 설정하기 위한 마지막 단계로 Adobe Learning Manager에 추가됩니다. 다음은 외부 LMS에서 생성한 자격 증명입니다.
 
-* **[!UICONTROL 발급자 또는 플랫폼 ID]**: 도구 공급자에게 LTI 시작 요청을 보내는 LMS 또는 플랫폼의 고유 식별자입니다.
-* **[!UICONTROL 클라이언트 ID]**: 권한 부여를 위해 LMS에서 LTI 도구에 할당한 고유 식별자입니다.
-* **[!UICONTROL 배포 ID]**: 여러 인스턴스를 관리하기 위해 특정 LTI 도구 배포를 LMS에 연결하는 식별자입니다.
+* **[!UICONTROL 발급자 또는 플랫폼 ID]**: LTI 시작 요청을 식별자 공급자에게 보내는 LMS 또는 플랫폼용 고유 도구입니다.
+* **[!UICONTROL 클라이언트 ID]**: 권한 부여를 위해 LMS에서 LTI 도구에 할당한 고유 식별자.
+* **[!UICONTROL 식별자 ID]**: 여러 인스턴스를 관리하기 위해 특정 LTI 도구 배포를 LMS에 연결하는 인스턴스입니다.
 * **[!UICONTROL 토큰 URL]**: LMS가 LTI 도구와의 상호 작용을 인증하고 승인하기 위해 액세스 토큰을 요청하는 끝점입니다.
 * **[!UICONTROL 인증 URL]**: LMS가 LTI 연결을 인증하고 시작하기 위해 사용자를 보내는 URL입니다.
 * **[!UICONTROL 공개 키 URL]**: LTI 도구에서 보안 토큰을 확인하고 보안 통신을 보장하기 위해 사용하는 공개 키를 제공하는 URL입니다.
@@ -120,7 +121,8 @@ Adobe Learning Manager에서 과정을 내보내려면 다음 단계를 따르�
 
 ## LTI 소비자로서의 Adobe Learning Manager - 관리 워크플로우
 
-LTI 소비자로서 Adobe Learning Manager을 사용하면 외부 LTI 공급자의 활동, 도구, 콘텐츠 및 위젯을 사용할 수 있습니다.Adobe Learning Manager을 LTI 소비자로 추가하려면 외부 LTI 공급자의 다음 자격 증명이 필요합니다.
+LTI 소비자로서 Adobe Learning Manager을 사용하면 외부 LTI 공급자의 활동, 도구, 콘텐츠 및 위젯을 사용할 수 있습니다.
+Adobe Learning Manager을 LTI 소비자로 추가하려면 외부 LTI 공급자의 다음 자격 증명이 필요합니다.
 
 * 가입자 로그인 URL
 * 대상 링크 URL
@@ -164,7 +166,8 @@ LTI 공급자는 Adobe Learning Manager에 강의를 추가할 수 있는 실행
 4. LTI 공급자에서 **[!UICONTROL 시작 링크]** 및 **[!UICONTROL 사용자 지정 매개 변수]**&#x200B;를 입력하십시오.
 5. **[!UICONTROL 도구 공급자]** 드롭다운 메뉴에서 [!UICONTROL LTI 공급자]를 선택합니다.
 6. **[!UICONTROL 폴더에 추가]** 옵션에서 **[!UICONTROL 공용]**&#x200B;을 검색하고 선택합니다. 그러면 모든 작성자가 강의를 사용할 수 있습니다.
-7. **[!UICONTROL 저장]**&#x200B;을 선택합니다.콘텐츠가 생성되면 강의를 생성할 때 이 콘텐츠를 추가할 수 있습니다.
+7. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+콘텐츠가 생성되면 강의를 생성할 때 이 콘텐츠를 추가할 수 있습니다.
 
 ### LTI 콘텐츠로 강의 생성 - 작성자 워크플로우
 

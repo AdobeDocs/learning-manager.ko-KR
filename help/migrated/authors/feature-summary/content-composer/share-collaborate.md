@@ -2,13 +2,14 @@
 description: 동료와 또는 직접 학습자와 검토를 위해 콘텐츠 작성기 강의를 공유하는 방법을 알아봅니다. 두 가지 공유 흐름, 액세스 제어 및 추적 관련 사항의 차이점을 이해합니다.
 jcr-language: en_us
 title: 콘텐츠 작성기 과정 공유 및 공동 작업
-source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
-
 ---
-
 
 # 콘텐츠 작성기 과정 공유 및 공동 작업
 

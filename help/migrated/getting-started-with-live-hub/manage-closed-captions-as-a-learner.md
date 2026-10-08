@@ -1,13 +1,14 @@
 ---
 title: Live Hub에서 학습자로 폐쇄 자막 관리
 description: 학습자가 라이브 허브 세션 중에 폐쇄 캡션을 표시하고 글꼴 크기와 캡션 스타일을 사용자 정의하는 방법을 알아봅니다.
-source-git-commit: ca4b34807ed6ede51e3445c2345a4430dea1e3d7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
-
 ---
-
 
 # 학습자로 폐쇄 자막 관리
 

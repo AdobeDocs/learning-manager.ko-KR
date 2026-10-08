@@ -2,13 +2,14 @@
 title: FedRAMP 인증 환경에서 기능 가용성
 description: 이 문서는 FedRAMP 인증 환경에서 지원되지 않는 기능에 대한 통찰력을 제공합니다
 jcr-language: en-us
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 2%
-
 ---
-
 
 # FedRAMP 인증 환경에서 기능 가용성
 

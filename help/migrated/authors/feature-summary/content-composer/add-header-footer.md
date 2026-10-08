@@ -2,13 +2,14 @@
 description: Content Composer 강의에 머리글과 바닥글을 추가하고, 로고를 업로드하고, 토글을 활성화하고, 캔버스에서 테마 변경 내용을 실시간으로 미리 보는 방법을 알아봅니다.
 jcr-language: en_us
 title: 머리글 및 바닥글 추가
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
-
 ---
-
 
 # 머리글 및 바닥글 추가
 

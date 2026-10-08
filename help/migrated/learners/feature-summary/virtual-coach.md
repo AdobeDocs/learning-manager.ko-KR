@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Learning Manager의 Virtual Coach
 description: Virtual Coach는 이론적 지식과 실제 응용 프로그램 사이의 중요한 간극을 좁히기 위해 설계된 Adobe Learning Manager 내의 혁신적인 기능입니다. 수동적인 학습방법, 동영상, 퀴즈, 읽기 자료에만 의존하기보다는 학습에 대한 만족도를 높일 수 있다. Virtual Coach는 학습자에게 이해도가 높은 대화를 연습하고 소프트 스킬을 학습할 수 있는 대화형 몰입형 환경을 제공합니다.
 contentowner: saghosh
-source-git-commit: e81a6ab40f996a2a6013cafe80fb377d51fbef13
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
-
 ---
-
 
 # 소개
 

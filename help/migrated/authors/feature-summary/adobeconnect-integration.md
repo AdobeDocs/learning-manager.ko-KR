@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Connect 통합
 description: 작성자는 강의 생성 절차 중 Adobe Connect로 가상 강의실 강의를 생성할 수 있습니다. Learning Manager 계정에서 Adobe Connect를 허용하려면 조직의 관리자에게 문의하십시오.
 exl-id: 3386ab89-fe13-42fc-9943-b7ff278ed7e9
-source-git-commit: a4ef66561570df00b4312a773b0c041df82114f7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 69%
-
 ---
-
 # Adobe Connect 통합
 
 작성자는 강의 생성 절차 중 Adobe Connect로 가상 강의실 강의를 생성할 수 있습니다. Learning Manager 계정에서 Adobe Connect를 허용하려면 조직의 관리자에게 문의하십시오.

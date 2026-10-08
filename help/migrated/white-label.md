@@ -4,13 +4,14 @@ title: Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 description: 흰색 레이블링은 앱 또는 서비스를 자신의 브랜드로 리브랜딩하고 원본 작성자인 것처럼 사용자 정의하는 관행입니다. Adobe Learning Manager에서는 모바일 앱에 흰색 레이블 지정을 적용하여 앱을 다시 브랜딩하고 사용자가 나만의 브랜드로 앱을 사용할 수 있도록 할 수 있습니다.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2184'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 
 이제 Adobe Learning Manager 모바일 앱에서 흰색 레이블 지정을 지원합니다. 즉, 이제 고유한 브랜딩으로 앱을 출시할 수 있습니다.
@@ -151,7 +152,7 @@ ALM은 다음 타임라인에 따라 업데이트된 흰색 레이블의 이진 
 
    <td>
 
-    <p>앱 아이콘(png). 이 아이콘은 앱에 표시됩니다. 이름 형식은 account-id_appIcon.png입니다. 앱 아이콘의 크기는 512 × 512픽셀입니다.<div>Apple은 앱 아이콘에서 Alpha 채널을 허용하지 않습니다. 따라서 제출하기 전에 에셋에서 Alpha 채널을 제거해야 합니다.</div></p>
+    <p>앱 아이콘(png). 이 아이콘은 앱에 표시됩니다. 이름 형식은 account-id_appIcon.png입니다. 앱 아이콘의 크기는 512 × 512픽셀입니다.<div>Apple에서는 앱 아이콘에 알파 채널을 사용할 수 없습니다. 따라서 제출하기 전에 에셋에서 알파 채널을 제거해야 합니다.</div></p>
 
    </td>
 
@@ -360,7 +361,7 @@ services.json 파일을 다운로드하려면 다음 단계를 따르십시오.
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
 
-AWS에서 SNS 서비스에 항목을 추가하려면 CSM 팀에 연락하고 JSON 파일을 공유하십시오. 사용자는 푸시 알림을 위해 SNS 서비스에 등록된 항목을 가져와야 하며, 이 경우 유효성 검사를 위해 위에서 생성한 인증서를 공유해야 합니다.
+CSM 팀에 연락하여 AWS에서 SNS 서비스에 항목을 추가하는 JSON 파일을 공유하십시오. 사용자는 푸시 알림을 위해 SNS 서비스에 등록된 항목을 가져와야 하며, 이 경우 유효성 검사를 위해 위에서 생성한 인증서를 공유해야 합니다.
 
 ## Firebase에서 프로젝트 만들기 {#create-project-in-firebase}
 

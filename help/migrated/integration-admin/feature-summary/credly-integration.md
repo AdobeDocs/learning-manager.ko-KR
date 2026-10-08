@@ -4,13 +4,14 @@ title: 신빙하
 description: 다양한 소셜 미디어 채널에서 플랫폼의 외부 배지를 관리하고 공유하기 위해 ALM과 신뢰할 수 있는 통합에 대해 알아봅니다.
 contentowner: chandrum
 exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
-source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '381'
 ht-degree: 0%
-
 ---
-
 # 신빙하
 
 [신뢰할 수 있는](https://info.credly.com/)은 학습자와 조직이 배지나 인증과 같은 전문적인 성과를 얻고, 공유하고, 확인할 수 있는 디지털 인증 플랫폼입니다. 학습자는 소셜 미디어 및 기타 장소에서 크레딧 프로필을 통해 배지를 관리하고 공유할 수 있습니다.

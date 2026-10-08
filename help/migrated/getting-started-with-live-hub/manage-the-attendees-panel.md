@@ -1,13 +1,14 @@
 ---
 title: 라이브 허브의 참석자 패널 관리
 description: 강사가 라이브 허브 세션 중에 참석자 패널을 보고, 참석자 설정을 구성하고, 개별 학습자를 관리하는 방법을 알아봅니다.
-source-git-commit: 6ac69b3622489f87a3022618ac6ff95f8c230866
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
-
 ---
-
 
 # 참석자 패널 관리
 

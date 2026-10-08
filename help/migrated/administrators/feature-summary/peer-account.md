@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 피어 계정
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 51%
-
 ---
-
 # 피어 계정
 
 이 문서에서 Learning Manager 피어 계정을 생성 및 관리하는 방법을 알아보십시오.
@@ -110,8 +111,8 @@ Adobe Learning Manager은 피어 계정을 통해 공유되거나 습득한 강�
 
 * 이제 Learning Manager는 피어 계정에서 강의를 공유하면 소스 계정에서 **실제 작성자 이름**&#x200B;을 확인하고 표시합니다.
 * 이 비헤이비어는 다음과 같은 경우에 적용됩니다.
-   * 새로 공유된 강의
-   * 이 개선 기능이 도입되기 전에 획득한 강의
+  * 새로 공유된 강의
+  * 이 개선 기능이 도입되기 전에 획득한 강의
 
 ### 소급 행동
 

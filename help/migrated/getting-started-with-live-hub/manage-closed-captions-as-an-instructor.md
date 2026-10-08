@@ -1,13 +1,14 @@
 ---
 title: 라이브 허브의 강사로 폐쇄 자막 관리
 description: 강사가 라이브 허브 세션 중에 폐쇄 캡션의 글꼴 크기와 캡션 스타일을 활성화, 표시 및 사용자 정의하는 방법을 알아봅니다.
-source-git-commit: a4ef66561570df00b4312a773b0c041df82114f7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
-
 ---
-
 
 # 강사로 폐쇄 자막 관리
 

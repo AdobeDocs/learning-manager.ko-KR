@@ -3,13 +3,14 @@ description: Adobe Learning Manager 2025년 5월 릴리스의 새로운 기능 �
 jcr-language: en_us
 title: 새로운 기능 요약
 exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
-source-git-commit: 51c59280cd44a025beda7d1183aafa6b7d6ebed4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2544'
 ht-degree: 0%
-
 ---
-
 # 새로운 기능 요약 2025년 5월
 
 Adobe Learning Manager의 이번 릴리스에서는 플랫폼을 간소화하고 기능을 향상시키기 위한 다양한 새로운 기능과 개선 사항을 소개합니다.

@@ -3,13 +3,14 @@ description: 이 문서에서 강사로 Learning Manager를 시작하는 방법�
 jcr-language: en_us
 title: 강사로 Learning Manager 시작하기
 exl-id: d0540886-3e0d-4a88-8f4e-040dd8a6bde0
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 93%
-
 ---
-
 # 강사로 Learning Manager 시작하기
 
 이 문서에서 강사로 Learning Manager를 시작하는 방법을 알아보십시오.

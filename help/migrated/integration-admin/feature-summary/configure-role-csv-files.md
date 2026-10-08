@@ -4,13 +4,14 @@ title: CSV 파일을 통해 사용자 정의 역할 관리
 description: 통합 책임자는 사용자 정의 역할의 수를 CSV를 통해 사용자의 계정에 일괄 추가하고 다양한 사용자에게 동일한 역할을 할당할 수 있습니다. 이 접근법을 통해 사용자 지정 역할의 프로세스가 자동화됩니다.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 78%
-
 ---
-
 # CSV 파일을 통해 사용자 정의 역할 관리
 
 통합 책임자는 사용자 정의 역할의 수를 CSV를 통해 사용자의 계정에 일괄 추가하고 다양한 사용자에게 동일한 역할을 할당할 수 있습니다. 이 접근법을 통해 사용자 지정 역할의 프로세스가 자동화됩니다.

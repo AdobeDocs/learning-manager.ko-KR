@@ -3,7 +3,10 @@ description: Virtual Coach의 정의, 작동 방식, 사용 주체, 그리고 Wo
 jcr-language: en_us
 title: 가상 코치
 exl-id: f876ff9a-69d0-4317-883e-5d4a947aba29
-source-git-commit: 9834c37f62d29c39b4889d851e9d39335ba73bb8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1637'
 ht-degree: 0%

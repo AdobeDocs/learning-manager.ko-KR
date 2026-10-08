@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 세션 학습자 관리
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 47%
-
 ---
-
 # 세션 학습자 관리
 
 이 문서에서 출석자 관리, 강의 관련 전자 메일 및 세션 알림 메시지 전송 방법을 알아보십시오.
@@ -123,8 +124,8 @@ QR 코드는 PDF으로 다운로드되고, 디지털 방식으로 공유되거�
 * 학습자들은 모바일 기기를 이용하여 QR코드를 스캔한다.
 * Adobe Learning Manager은 학습자 및 세션의 유효성을 검사합니다.
 * QR 코드 유형 기반:
-   * 학습자가 강의 인스턴스에 등록되어 있거나
-   * 세션에 대한 출석 및 완료 기록
+  * 학습자가 강의 인스턴스에 등록되어 있거나
+  * 세션에 대한 출석 및 완료 기록
 
 모든 업데이트는 학습자 기록, 성적 증명서 및 보고서에 자동으로 반영됩니다.
 
@@ -147,9 +148,9 @@ QR 코드는 PDF으로 다운로드되고, 디지털 방식으로 공유되거�
 * 학습자나 강사가 강의실이나 가상 강의실 세션에 등록되면 Learning Manager에서 일정 초대(ICS 파일)를 보냅니다.
 * 일정 초대에 포함된 사항:
 
-   * 세션 날짜 및 시간
-   * 세션 세부 정보
-   * 일정 설명에 있는 **직접 세션 참가 링크**
+  * 세션 날짜 및 시간
+  * 세션 세부 정보
+  * 일정 설명에 있는 **직접 세션 참가 링크**
 
   ![](assets/calendar-invite-session.png)
 

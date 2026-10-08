@@ -3,13 +3,14 @@ description: Adobe Learning Manager의 활성 필드 를 사용하여 사용자 
 jcr-language: en_us
 title: Adobe Learning Manager의 활성 필드 구성
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 0%
-
 ---
-
 # 활성 필드
 
 Adobe Learning Manager의 활성 필드는 관리자가 사용자를 효과적으로 구성하고 관리하는 데 도움이 되는 사용자 정의 사용자 속성입니다. 부서, 위치 또는 직책과 같은 사용자에 대한 추가 정보를 캡처할 수 있습니다. 책임자는 이 데이터를 사용하여 사용자 그룹을 만들고, 학습을 개인화하고, 보고서를 더욱 효과적으로 필터링할 수 있습니다.

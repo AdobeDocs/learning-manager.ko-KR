@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 학습자 및 관리자의 대리 로그인
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: b5bbb184fc86965255b0247195a50cc65a03cd1a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 56%
-
+source-wordcount: '518'
+ht-degree: 59%
 ---
-
 # 학습자 및 관리자의 대리 로그인 {#impersonation-of-learner-and-manager}
 
 대규모 조직의 고객 지원 담당자가 학습자의 문제를 해결하려면 대리 로그인 기능이 필요합니다.
@@ -88,7 +89,7 @@ ht-degree: 56%
 그렇습니다. 대리 로그인 상태에서 관리자의 로그인 액세스/방문 횟수는 각기 따로 산정됩니다.
 +++
 
-+++대리 로그인 제한 시간은 얼마입니까?
++++대리 로그인 제한 시간은 얼마입니까?  
 
 60분입니다. 대리 로그인 대상인 사용자가 60분 이내에 브라우저 창을 닫고 기본 URL로 이동하더라도 대리 로그인 활동이 계속되고 배너 메시지가 표시됩니다.
 +++

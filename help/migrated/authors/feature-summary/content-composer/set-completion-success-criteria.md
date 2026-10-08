@@ -2,13 +2,14 @@
 description: Content Composer의 완료 기준과 성공 기준의 차이, 각 기준을 구성하는 방법, Adobe Learning Manager에서 정확한 학습자 추적과 보고를 위해 구분이 중요한 이유를 알아봅니다.
 jcr-language: en_us
 title: 완료 및 성공 조건 설정
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
-
 ---
-
 
 # 완료 및 성공 조건 설정
 

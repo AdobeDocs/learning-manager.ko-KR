@@ -2,13 +2,14 @@
 description: Content Composer에서 작성을 처리하고 Adobe Learning Manager에서 게시 후의 전달, 추적 및 보고를 처리하는 방법을 살펴보세요.
 jcr-language: en_us
 title: Content Composer와 Adobe Learning Manager의 연동
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager Content Composer와 Adobe Learning Manager의 연동 방법
 

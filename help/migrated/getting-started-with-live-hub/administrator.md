@@ -1,13 +1,14 @@
 ---
 title: Live Hub 세션의 관리자 역할
 description: Adobe Learning Manager에서 라이브 허브 교육 세션을 구성하고 관리하기 위한 주요 관리자 기능에 대해 알아봅니다.
-source-git-commit: 6cff9a5a34a8d8c53a18ba4b6281b7ad29814cb5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 6%
-
 ---
-
 
 # Live Hub 세션의 관리자 역할
 

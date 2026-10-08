@@ -3,13 +3,14 @@ title: Adobe Learning Manager- 보안 설정 및 구성 관리
 description: 이 문서에서는 Adobe Learning Manager 관리 계정 유형, 보안 관련 설정, 권장 보안 기본값, API 기능, 내보내기 기능, 구성 비교 방법, 게시 방법 및 버전 내역에 대해 설명합니다. 특권 계정의 작동 방식, 보안 관련 사항, 플랫폼 전체에서 구성 관리가 지원되는 방식에 대한 자세한 지침을 제공합니다.
 jcr-language: en-us
 exl-id: a2e34104-c417-407f-af85-9f3f4b2a9fcb
-source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 0%
-
 ---
-
 # 보안 설정 및 구성 관리
 
 이 안내서에서는 Adobe Learning Manager(ALM)에 대한 FedRAMP 권장 사항(FRL-RSC-03 ~ FRL-RSC-08)에 대한 자세한 응답을 제공합니다. 보안 모범 사례, 권장 보안 기본값 및 권한 계정 설정 감사, 내보내기 및 관리를 위한 도구에 대해 간략히 설명합니다. 이 문서는 관리자 및 규정 준수 팀이 ALM 계정을 안전하게 구성하고 관리할 수 있도록 설계되었습니다.

@@ -4,13 +4,14 @@ title: Salesforce 패키지 설치
 description: Learning Manager에서는 Salesforce 앱 패키지를 제공합니다. SFDC에 Salesforce 앱 패키지를 설치하고 구성한 영업 직원은 SFDC 포털에서 교육 활동을 수행할 수 있습니다. 이 앱을 설치한 SFDC 사용자는 새로운 교육 과정을 탐구하고, 권장 사항을 확인하며, SFDC 포털에서 바로 이와 같은 컨텐츠를 확인할 수 있습니다. 또한 사용자는 책임자가 SFDC 포털의 앱에서 바로 보낸 발행인란 형식의 공지를 받습니다.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 64%
-
 ---
-
 # Salesforce 패키지 설치
 
 ## 개요
@@ -103,7 +104,7 @@ Captivate Prime 패키지를 설치하려면 먼저 Salesforce의 기존 패키�
 
 1. **데스크탑**&#x200B;과 **모바일**&#x200B;을(를) 모두 지원되는 채널로 선택합니다.
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL &#39;저장&#39;]**&#x200B;을 클릭합니다.
 1. 모바일 장치용 푸시 알림을 활성화하려면 다음 단계를 따르십시오.
 
    1. 휴대폰에 Salesforce 모바일 앱을 설치합니다.

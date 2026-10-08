@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Learning Manager의 소셜 학습
 contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
-source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3455'
 ht-degree: 76%
-
 ---
-
 # Learning Manager의 소셜 학습
 
 학습자로 소셜 학습을 사용하는 방법 알아보기
@@ -245,7 +246,8 @@ Learning Manager에서 비디오와 프레젠테이션 및 이미지와 같은 �
 
 ### 소셜 게시판 게시물에 사용자 태그 지정
 
-InDesign을 사용하여 게시물 또는 댓글의 특정 게시판 멤버에 태그를 지정할 수 @username. 태그는 해당 보드에 대한 액세스 권한이 있는 멤버로 제한됩니다.소셜 게시판의 사용자에 태그를 지정하려면
+InDesign을 사용하여 게시물 또는 댓글의 특정 게시판 멤버에 태그를 지정할 수 @username. 태그는 해당 보드에 대한 액세스 권한이 있는 멤버로 제한됩니다.
+소셜 게시판의 사용자에 태그를 지정하려면
 
 1. 학습자로 Adobe Learning Manager에 로그인합니다.
 2. 왼쪽 탐색 창에서 **[!UICONTROL 소셜 학습]**&#x200B;을 선택합니다.

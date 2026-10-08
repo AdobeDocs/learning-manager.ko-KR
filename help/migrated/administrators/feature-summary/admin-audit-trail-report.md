@@ -3,7 +3,10 @@ description: 관리자 감사 추적 보고서가 구성 변경 사항을 추적
 jcr-language: en_us
 title: 관리자 감사 추적 보고서
 exl-id: 71b2ee42-ef1c-47fb-95ad-c339562e227d
-source-git-commit: 500a467395fc8ada89cd6ea7e3783b73cc43045d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 0%

@@ -1,13 +1,14 @@
 ---
 title: 학습자로 소회의실에 참여하기
 description: Live Hub 브레이크아웃 세션 동안 학습자로 예상할 수 있는 사항에 대해 알아봅니다. 회의실 참여, 지침 보기, 그룹 공동 작업, 강사에게 도움 요청, 회의실 요약 보기 등이 있습니다.
-source-git-commit: 225b1f20930eb5acd8d6aa30d8448305b33adaa1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 0%
-
 ---
-
 
 # 브레이크아웃 세션 참가
 

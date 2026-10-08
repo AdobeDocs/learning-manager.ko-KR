@@ -3,13 +3,14 @@ description: 학습자용 AI 도우미(Beta)는 학습자가 할당된 학습 �
 jcr-language: en_us
 title: Adobe Learning Manager 학습자용 AI 도우미
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1995'
 ht-degree: 0%
-
 ---
-
 # 학습자용 AI 지원
 
 학습자용 AI 어시스턴트(베타)는 전체 강의를 탐색하지 않고도 할당된 학습 콘텐츠에서 답변을 빠르게 찾을 수 있도록 도와줍니다. 일반 언어로 질문을 하고 관련 강의 콘텐츠에 대한 소스 링크를 통해 정확하고 집중적인 응답을 받을 수 있습니다.

@@ -1,13 +1,14 @@
 ---
 title: Live Hub에서 설문 조사에 응답
 description: 학습자가 Live Hub 세션 중에 투표에 응답하고, 답변을 업데이트하고, 공유된 결과를 보는 방법에 대해 알아봅니다.
-source-git-commit: d83ea719a3a7ecfa9fba64f12d249213850ba29a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
-
 ---
-
 
 # 설문 조사에 응답
 

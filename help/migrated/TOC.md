@@ -3,7 +3,7 @@ user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
 nudge: true
-source-git-commit: bad20aa965e151ee4c3cc5be5e5faad008e33198
+source-git-commit: 29900b65ff6bf5b598bbba27d2691f75f544211f
 workflow-type: tm+mt
 source-wordcount: '1786'
 ht-degree: 34%
@@ -289,7 +289,7 @@ ht-degree: 34%
   * [로그인](learners/feature-summary/user-login.md)
   * [프로필 설정](learners/feature-summary/settings.md)
   * [카탈로그](learners/feature-summary/catalogs.md)
-  * [가상 코치] {#virtualcoach}
+  * 가상 코치 {#virtualcoach}
     * [Virtual Coach로 역할 놀이 연습](learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md)
     * [Virtual Coach 성능 보고서 이해](learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md)
   * [원클릭 등록](learners/feature-summary/learner-one-click-enrollment.md)

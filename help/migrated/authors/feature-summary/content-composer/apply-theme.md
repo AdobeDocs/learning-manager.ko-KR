@@ -2,13 +2,14 @@
 description: Content Composer에서 강의 테마를 적용하는 방법을 알아봅니다. 기본 및 사용자 정의 테마를 찾아보고, 이름으로 검색하고, 전체 과정을 즉시 적용할 수 있습니다.
 jcr-language: en_us
 title: 테마 적용
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
-
 ---
-
 
 # 테마 적용
 

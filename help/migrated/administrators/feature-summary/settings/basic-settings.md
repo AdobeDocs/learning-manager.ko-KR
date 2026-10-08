@@ -3,13 +3,14 @@ description: 기본 설정을 통해 조직의 구조 및 학습자 환경에 �
 jcr-language: en_us
 title: 기본 설정
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 170d567c555ba831ea84c75fe3fad2f216eec932
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '6386'
+source-wordcount: '6326'
 ht-degree: 4%
-
 ---
-
 # Adobe Learning Manager의 기본 설정
 
 ## 개요
@@ -204,7 +205,7 @@ Adobe Learning Manager의 토론 게시판 옵션을 사용하면 학습자가 �
 
 ### 고유 학습 개체 ID
 
-이 옵션을 사용하면 각 학습 객체(예: 강의, 학습 경로, 인증 또는 작업 지원)에 고유 식별자를 할당할 수 있습니다. 이렇게 하면 모든 학습 객체에 고유 ID가 지정되므로 외부 시스템을 추적, 보고, 통합하는 데 유용합니다.
+옵션을 사용하면 각 학습 객체(예: 강의, 학습 경로, 인증 또는 작업 지원)에 고유한 식별자를 할당할 수 있습니다. 이렇게 하면 모든 학습 객체에 고유 ID가 지정되므로 외부 시스템을 추적, 보고, 통합하는 데 유용합니다.
 
 활성화된 경우 학습 개체를 만들 때 작성자에게 학습 개체 ID를 추가하는 필드가 표시됩니다. 이에 따라 ID를 추가할 수 있습니다. 고유 ID는 학습 기록 저장소(LRS) 및 학습 관리 시스템(LMS)을 포함한 타사 시스템과의 통합에 적합합니다. 또한 고유 ID를 사용하여 사용자나 작성자가 특정 학습 객체를 쉽게 검색하고 학습자 성적 증명서를 통해 추적할 수 있습니다.
 

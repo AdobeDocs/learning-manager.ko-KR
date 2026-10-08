@@ -3,13 +3,14 @@ title: Adobe Learning Manager의 해당 항목 및 대체 항목
 description: ALM에서 원활한 학습 환경을 제공하고 동급 제품 및 대체 제품을 사용한 중복 교육을 없앱니다. 이 새로운 기능을 통해 관리자는 단방향(대체) 또는 양방향(등가물) 규칙을 구성할 수 있습니다. 여기서 한 교육을 완료하면 다른 교육에 대한 대체 완료가 자동으로 부여됩니다
 jcr-language: en-us
 exl-id: 6bdd6ba7-e5a6-462a-8385-66b955ef25fc
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3474'
 ht-degree: 0%
-
 ---
-
 # 대체 및 해당 항목
 
 ## 소개

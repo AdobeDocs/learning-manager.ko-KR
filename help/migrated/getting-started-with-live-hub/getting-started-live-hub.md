@@ -1,13 +1,14 @@
 ---
 title: 라이브 허브(베타) 시작하기
 description: Adobe Learning Manager의 라이브 허브를 통해 플랫폼 내에서 직접 강사 주도 라이브 교육 세션을 제공하는 방법을 살펴보세요.
-source-git-commit: d163afe818f4fc574fa4a809fce1f9eed5fd7ac6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 
 # 라이브 허브(베타) 시작하기
 

@@ -3,7 +3,10 @@ description: 과금 플랜이 계정에서 라이선스가 부여된 사용자�
 jcr-language: en_us
 title: 계층화 - 시트 공유
 exl-id: 42b4cba4-1e44-40d8-aa57-ce2a855be258
-source-git-commit: 34d4e6fb6583eed0dd3a46126c28284c58210078
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%

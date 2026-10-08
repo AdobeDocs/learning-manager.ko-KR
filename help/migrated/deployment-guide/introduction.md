@@ -5,13 +5,14 @@ description: Learning Manager는 교육 전문가가 조직의 요구 사항이�
 contentowner: shhivkum
 preview: true
 exl-id: 5d65fd64-446e-4398-957b-1fb2b19e646d
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3264'
 ht-degree: 76%
-
 ---
-
 # Learning Manager 배포 가이드
 
 ## 소개 {#introduction}
@@ -57,9 +58,9 @@ Learning Manager에 학습 개체를 추가하고 구현하려면 먼저 필수 
 * 왼쪽 창에서 **브랜딩**&#x200B;을 클릭합니다.
 * 브랜딩 페이지에서 수정하려는 옵션에 있는 **편집**&#x200B;을 클릭하여 다음 설정을 구성합니다.
 
-   * **조직 이름** : 여기에서 지정하는 값은 사이트의 각 페이지에 나타나는 배너의 이름입니다.
-   * **하위 도메인**: 이 값은 사이트의 URL을 결정합니다.
-   * **로고 스타일링**: 이 필드의 이미지가 각 페이지의 오른쪽 상단 모서리에 로고로 나타납니다. 여기에서 로고와 조직 이름 중 하나만 표시하도록 선택하거나 로고와 조직 이름 둘 다 표시하도록 선택할 수 있습니다.
+  * **조직 이름** : 여기에서 지정하는 값은 사이트의 각 페이지에 나타나는 배너의 이름입니다.
+  * **하위 도메인**: 이 값은 사이트의 URL을 결정합니다.
+  * **로고 스타일링**: 이 필드의 이미지가 각 페이지의 오른쪽 상단 모서리에 로고로 나타납니다. 여기에서 로고와 조직 이름 중 하나만 표시하도록 선택하거나 로고와 조직 이름 둘 다 표시하도록 선택할 수 있습니다.
 
 ![](assets/setting-the-themesforyoursite.png)
 

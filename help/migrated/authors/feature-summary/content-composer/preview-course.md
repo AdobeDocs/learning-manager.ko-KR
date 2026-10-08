@@ -2,13 +2,14 @@
 description: 적용된 테마, 구성 요소 및 퀴즈를 활성화한 상태로 Content Composer 강의를 학습자가 볼 때와 똑같이 미리 보는 방법을 알아봅니다.
 jcr-language: en_us
 title: 강의 미리 보기
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 0%
-
 ---
-
 
 # 강의 미리 보기
 

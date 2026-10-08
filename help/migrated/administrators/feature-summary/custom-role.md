@@ -4,13 +4,14 @@ title: 사용자 정의 역할
 description: 학습 경로 기능을 사용하면 사용자 정의 역할을 정의하고 사용자 집합에 특정 책임을 할당할 수 있습니다. 이 기능을 사용하면 개인의 기존 역할 범위 외부에서 권한을 지정할 수 있습니다.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: a45822a6aa320440243fd93855fff88766391372
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '5511'
 ht-degree: 24%
-
 ---
-
 # 사용자 정의 역할
 
 이 기능을 사용하면 사용자 정의 역할을 정의하고 사용자 집합에 특정 권한을 지정할 수 있습니다. 이 기능을 사용하면 개인의 기존 역할 범위 외부에서 권한을 지정할 수 있습니다.

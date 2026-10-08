@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 마이그레이션 문제 해결
 contentowner: jayakarr
 exl-id: b9f17644-f237-4701-86e9-8496db941920
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 81%
-
 ---
-
 # 마이그레이션 문제 해결
 
 이 문서에는 데이터와 콘텐츠를 기존 LMS에서 Learning Manager로 마이그레이션하는 동안 발생하는 일반적인 문제를 해결하는 기본적인 문제 해결 팁이 있습니다.

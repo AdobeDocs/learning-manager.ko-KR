@@ -3,13 +3,14 @@ description: Adobe Learning Manager의 Box 커넥터
 jcr-language: en_us
 title: Box 커넥터
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 1%
-
 ---
-
 
 # Adobe Learning Manager의 Box 커넥터
 
@@ -98,7 +99,7 @@ xAPI 소스 구성은 외부 학습 시스템과 Adobe Learning Manager의 활�
 1. Xapi 구성 섹션으로 이동합니다.
 2. 구성 목록에서 **새 구성 추가**&#x200B;를 선택합니다.
 3. **이름** 및 **원본 파일 이름**&#x200B;을 입력하십시오.
-   - 이름: 이 xAPI 소스에 대한 설명 식별자(예: LMS 통합 또는 외부 교육 시스템)
+   - 이름: 이 xAPI 소스에 대한 설명 식별자(예: LMS 통합 또는 외부 교육 시스템).
    - 소스 파일 이름: Box 폴더에 업로드될 정확한 파일 이름입니다(파일 확장자를 포함하여 정확히 일치해야 함).
 
    ![](assets/box-connector3.png)
@@ -174,6 +175,6 @@ xAPI 명령문을 수동으로 가져오려면 다음을 수행합니다.
    - **기간:** 처리에 필요한 총 시간
    - **가져오기 유형:** 가져오기가 예약되었는지 아니면 온디맨드로 예약되었는지 여부
    - **현재 상태:** 실시간 상태 정보
-      - **진행 중:** 가져오기가 현재 실행 중입니다.
-      - **완료됨:** 레코드 수가 포함된 완료 성공
-      - **실패:** 진단 정보에 오류가 발생했습니다.
+     - **진행 중:** 가져오기가 현재 실행 중입니다.
+     - **완료됨:** 레코드 수가 포함된 완료 성공
+     - **실패:** 진단 정보에 오류가 발생했습니다.

@@ -1,13 +1,14 @@
 ---
 title: 라이브 허브의 세션 대시보드 구성 요소
 description: 요약, 녹음, 인터랙션, 브레이크아웃, 참가자 활동, 보고서 등 라이브 허브의 세션 대시보드 섹션에 대해 알아봅니다.
-source-git-commit: ca4b34807ed6ede51e3445c2345a4430dea1e3d7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 0%
-
 ---
-
 
 # 세션 대시보드의 구성 요소
 

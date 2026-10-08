@@ -1,13 +1,14 @@
 ---
 title: 라이브 허브에 학습자로 화면 공유
 description: 강사가 허용하는 라이브 허브 세션 중에 학습자가 공유 콘텐츠를 보고 자신의 화면을 공유하는 방법을 알아봅니다.
-source-git-commit: 664d164cce2a045d1834b520a2bd43b651e02e7e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 
 # 학습자로 화면 공유
 

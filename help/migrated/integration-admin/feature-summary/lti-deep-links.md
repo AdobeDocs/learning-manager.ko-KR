@@ -3,7 +3,10 @@ description: linkedIn Learning 커넥터 를 Adobe Learning Manager과 통합하
 jcr-language: en_us
 title: ALM의 LTI 도구에 딥 링크 포함
 contentowner: mmanuel
-source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 0%

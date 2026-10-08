@@ -3,7 +3,10 @@ description: Zoom 커넥터와 Adobe Learning Manager을 통합하는 방법 알
 jcr-language: en_us
 title: Zoom 커넥터
 contentowner: mmanuel
-source-git-commit: 289bd299abdf6ff25d6bbb7bc4dbcaaf057e591e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 2%
