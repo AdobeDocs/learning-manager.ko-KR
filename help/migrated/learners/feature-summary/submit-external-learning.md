@@ -44,7 +44,7 @@ Adobe Learning Manager에서는 **외부 학습** 기능을 사용하여 워크�
 
 2. **외부 학습** 옵션을 선택합니다.
 
-3. **외부 학습 추가**를 선택합니다.
+3. **외부 학습 추가**&#x200B;를 선택합니다.
    ![](assets/submit-external-learning-request.png)
 
 
