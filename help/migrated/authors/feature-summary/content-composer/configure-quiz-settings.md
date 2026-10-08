@@ -2,13 +2,14 @@
 description: 콘텐츠 컴포저에서 퀴즈 재시도, 시간 제한, 질문 순서, 순서 섞기 및 SCORM 점수 설정을 구성하는 방법에 대해 알아봅니다.
 jcr-language: en_us
 title: 퀴즈 설정 구성
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
-
 ---
-
 
 # 퀴즈 설정 구성
 
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 ## 일반 섹션
 
-- **퀴즈 다시 시도**: 학습자가 퀴즈를 완료하기 위해 시도하는 횟수를 선택합니다. 예를 들어 **3**&#x200B;을(를) 선택하여 최대 3번 시도할 수 있습니다.
+- **퀴즈 다시 시도**: 학습자가 퀴즈를 완료하기 위해 시도하는 횟수를 선택합니다. 예를 들어 **3**을(를) 선택하여 최대 3번 시도할 수 있습니다.
   ![](../assets/28_quiz_retries_dropdown_options_updated.png)
 
 - **시간 제한(분)**: 토글을 선택하여 시간 제한을 활성화한 다음 지속 시간을 분 단위로 입력하십시오. 예를 들어 학습자가 퀴즈를 완료하는 데 60분을 제공하려면 **60**&#x200B;을 입력하세요.

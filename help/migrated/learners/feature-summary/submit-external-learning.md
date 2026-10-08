@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Learning Manager에서 외부 학습 제출
 description: 외부 학습을 사용하여 워크샵, 세미나, 인증 또는 온라인 과정과 같이 Adobe Learning Manager 외부에서 완료한 교육을 기록합니다. 관리자 검토를 위해 세부 정보를 제출하면 승인된 활동이 학습자 성적 증명서에 추가됩니다.
 contentowner: saghosh
-source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 2%
-
+source-wordcount: '604'
+ht-degree: 1%
 ---
-
 
 # 학습자로 외부 학습 제출
 
@@ -43,7 +44,7 @@ Adobe Learning Manager에서는 **외부 학습** 기능을 사용하여 워크�
 
 2. **외부 학습** 옵션을 선택합니다.
 
-3. **외부 학습 추가**&#x200B;를 선택합니다.
+3. **외부 학습 추가**를 선택합니다.
    ![](assets/submit-external-learning-request.png)
 
 

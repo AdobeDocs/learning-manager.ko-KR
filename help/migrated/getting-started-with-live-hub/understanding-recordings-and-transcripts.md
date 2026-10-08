@@ -1,13 +1,14 @@
 ---
 title: 라이브 허브의 녹음 및 대본 이해
 description: Live Hub 세션 레코딩, AI 생성 성적 증명서, 주제 및 요약이 강사와 학습자가 라이브 세션 이상으로 학습을 확장하는 데 어떻게 도움이 되는지 알아보십시오.
-source-git-commit: 552ecc22af6d59d80bda48a05ed8b950a500ee0a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
-
 ---
-
 
 # 녹음/녹화 내용 및 대본 이해
 

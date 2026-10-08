@@ -2,13 +2,14 @@
 description: Content Composer는 기존 문서에서 작업하거나, 주제 전문성을 변환하거나, 특정 잠재고객을 위해 AI 생성 콘텐츠를 미세 조정하는 등 구조화된 강의를 빠르게 만들어야 하는 작성자, L&D 관리자 및 관리자를 위해 설계되었습니다.
 jcr-language: en_us
 title: 콘텐츠 컴포저는 누구를 위한 것인가요
-source-git-commit: 7fffe3c9d7b001c5a75a27ffc54fcb4490caad63
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager Content Composer의 대상
 

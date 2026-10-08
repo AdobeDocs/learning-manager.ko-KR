@@ -4,13 +4,14 @@ title: 콘텐츠 마켓플레이스
 description: Learning Manager에서는 이제 교육을 탐색하고 구입할 수 있는 콘텐츠 마켓플레이스를 제공합니다. 광범위한 주제를 다루고 여러 형식으로 제공되는 70,000개 이상의 강의를 살펴보십시오. 다양한 역할에 맞고 학습 및 역량을 충족시키는 큐레이트된 플레이리스트에서 선택하십시오.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 10%
-
 ---
-
 # 콘텐츠 마켓플레이스
 
 학습 책임자는 양질의 콘텐츠를 소싱 및 업로드하는 데 종종 어려움을 겪습니다. Adobe Learning Manager의 콘텐츠 마켓플레이스는 신뢰할 수 있는 공급자의 프리미엄 과정에 대한 라이선스를 허용하여 이를 간소화하고 더 빠르고 확장 가능한 학습 전달을 활성화합니다. 콘텐츠 마켓플레이스를 사용하여 관리자는 공급자의 서드파티 강의를 찾아보고, 미리 보고, 라이선스를 부여할 수 있습니다.

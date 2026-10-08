@@ -4,13 +4,14 @@ title: 카탈로그
 description: 카탈로그는 강의, 학습 프로그램, 인증 등 학습 항목의 컬렉션입니다. 카탈로그를 사용하여 학습자에게 사용자 정의된 학습 집합에 대한 액세스를 제공하십시오. 새로운 카탈로그 생성 중 학습을 카탈로그에 연결할 수 있습니다.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: e8d279fd1c8ba0af01241c4041d016759966bdde
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3238'
 ht-degree: 63%
-
 ---
-
 # 카탈로그
 
 카탈로그는 강의, 학습 프로그램, 인증 등 학습 항목의 컬렉션입니다. 카탈로그를 사용하여 학습자에게 사용자 정의된 학습 집합에 대한 액세스를 제공하십시오. 새로운 카탈로그 생성 중 학습을 카탈로그에 연결할 수 있습니다.

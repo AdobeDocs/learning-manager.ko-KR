@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 사용자 제거
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 96bd0f559c38f7eefe4077fd9f61571663d748cd
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1442'
 ht-degree: 45%
-
 ---
-
 # 사용자 제거
 
 Learning Manager의 사용자 데이터 제거에 관해 자세히 알아봅니다.
@@ -259,7 +260,7 @@ Adobe Learning Manager을 통해 관리자는 플랫폼에서 이미 삭제된 �
 
 1. 관리자로 Adobe Learning Manager에 로그인합니다.
 2. **구성** 섹션 > **설정** > **기본 사항** 섹션 > **일반**&#x200B;으로 이동합니다.
-3. 페이지를 아래로 스크롤하여 **삭제된 사용자 자동 제거**&#x200B;합니다.
+3. 페이지를 아래로 스크롤하여 **삭제된 사용자 자동 제거**합니다.
    ![](assets/auto-purge1.png)
    *자동 제거 옵션*
    >[!NOTE]
@@ -271,10 +272,10 @@ Adobe Learning Manager을 통해 관리자는 플랫폼에서 이미 삭제된 �
    >[!NOTE]
    >
    >최소값은 1년이어야 합니다. 또한 1씩 늘릴 수도 있습니다. 단, 1.5년이나 2.5년과 같은 값은 입력할 수 없습니다. 기간으로 사용자 정의 값이 필요한 경우 고객 지원에 문의하십시오.
-7. **저장**&#x200B;을 선택합니다. ALM에 자세한 확인 메시지가 표시됩니다.
+7. **저장**을 선택합니다. ALM에 자세한 확인 메시지가 표시됩니다.
    ![](assets/auto-purge2.png)
    *기간 활성화 및 입력*
-8. **예**&#x200B;를 선택하여 설정을 확인하고 저장합니다.
+8. **예**를 선택하여 설정을 확인하고 저장합니다.
    ![](assets/auto-purge3.png)
    *확인 메시지*
 

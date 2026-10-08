@@ -2,13 +2,14 @@
 title: Adobe Learning Manager 다중 등록
 description: 계정 책임자의 주요 임무 중 하나는 여러 시간대에 걸쳐 다양한 VILT 세션 인스턴스를 생성하고 특정 사용자 그룹에 대한 세션을 만드는 것입니다.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 70%
-
 ---
-
 # Adobe Learning Manager 다중 등록
 
 Adobe Learning Manager에서 각 강의는 서로 다른 인스턴스를 보유할 수 있습니다. 계정 책임자의 주요 임무 중 하나는 여러 시간대에 걸쳐 다양한 VILT 세션 인스턴스를 생성하고 특정 사용자 그룹에 대한 세션을 만드는 것입니다.

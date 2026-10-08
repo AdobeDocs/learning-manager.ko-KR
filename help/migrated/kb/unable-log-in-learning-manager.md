@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Learning Manager에 로그인할 수 없음
 contentowner: saghosh
 exl-id: 2c347758-1982-40ce-9ac6-4ae889497add
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 72%
-
+source-wordcount: '306'
+ht-degree: 95%
 ---
-
 # Learning Manager에 로그인할 수 없음
 
 ## 문제
@@ -45,7 +46,7 @@ Adobe Learning Manager에 로그인하려고 하면 다음 오류 메시지가 �
 
 여전히 로그인할 수 없는 경우 계정 관리자에게 문의하십시오. 관리자가 계정에 등록된 학습자인지 확인할 수 있습니다.
 
-계정에 등록되어 있으나 여전히 로그인할 수 없는 경우 책임자는 로그인하려는 ID가 귀하의 Adobe ID과 동일한지 여부를 확인해야 합니다.
+계정에 등록되어 있으나 여전히 로그인할 수 없는 경우 관리자는 로그인 하려는 ID가 귀하의 Adobe ID와 동일한지 여부를 확인해야 합니다.
 
 Adobe ID과 계정의 Adobe Learning Manager ID가 다른 경우도 있습니다.
 

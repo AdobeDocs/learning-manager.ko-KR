@@ -1,13 +1,14 @@
 ---
 title: Live Hub에 대한 시스템 요구 사항
 description: 지원되는 브라우저, 운영 체제, 화면 해상도 및 하드웨어를 포함하여 Adobe Learning Manager에서 라이브 허브 세션을 구성하고 실행하기 위한 시스템 요구 사항입니다.
-source-git-commit: 577448e876bc7ba56c6191705c7c894fc5991770
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
-
 ---
-
 
 # 시스템 요구 사항
 

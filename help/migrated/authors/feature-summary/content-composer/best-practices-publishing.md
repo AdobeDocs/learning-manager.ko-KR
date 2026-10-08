@@ -2,13 +2,14 @@
 description: Content Composer에서 강의 생성(학습 목표 작성, 아웃라인 검토, AI 출력 제한, 구성 요소 사용)을 위한 모범 사례입니다.
 jcr-language: en_us
 title: Content Composer에서 ALM으로 게시하기 위한 모범 사례
-source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
-
 ---
-
 
 # Content Composer에서 ALM으로 게시하기 위한 모범 사례
 

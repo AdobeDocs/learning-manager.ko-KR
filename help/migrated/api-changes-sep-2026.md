@@ -2,7 +2,10 @@
 description: Adobe Learning Manager에서 개인화된 학습 경로를 나열하고, 검색하고, 등록하고, 삭제할 수 있는 공용 학습자 대상 API 엔드 포인트와 할당된 카탈로그를 통해 지정된 학습자가 하나 이상의 학습 개체에 직접 액세스할 수 있는지 확인하는 API 엔드 포인트.
 jcr-language: en_us
 title: 2026년 9월 API 변경 사항
-source-git-commit: 328d899c05384ff522f7f6413d2a451139f066ee
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 3%

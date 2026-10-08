@@ -1,15 +1,16 @@
 ---
 title: 이 릴리스(2023년 7월)의 새로운 기능
 description: Adobe Learning Manager의 새로운 기능과 개선 사항 알아보기
-hidefromtoc: true
+hidefromtoc: 'yes'
 exl-id: c6f192b6-f377-47b2-9151-516ac8179543
-source-git-commit: ebf4ea065ba799b957b8ce275fd1690f18b26556
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2091'
 ht-degree: 74%
-
 ---
-
 # 이 릴리스(2023년 7월)의 새로운 기능
 
 ## 향상된 권장 사항

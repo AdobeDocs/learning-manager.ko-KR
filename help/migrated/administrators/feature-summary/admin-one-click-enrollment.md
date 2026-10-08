@@ -3,13 +3,14 @@ description: 한 번의 클릭 등록을 통해 학습자는 관리자가 공유
 jcr-language: en_us
 title: Adobe Learning Manager에서 원클릭 등록 설정
 contentowner: mmanuel
-source-git-commit: 87971737d1d9838d8b29035b5b9bf718742da1eb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '379'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager에서 원클릭 등록 설정
 
@@ -30,10 +31,10 @@ ht-degree: 0%
 ## 모듈에 대한 딥 링크 생성
 
 1. 관리자 권한으로 Adobe Learning Manager에 로그인합니다.
-2. 왼쪽 탐색 창에서 **과정**&#x200B;을 선택합니다.
+2. 왼쪽 탐색 창에서 **과정**을 선택합니다.
    ![](assets/one-click-enroll1.png)
 3. 강의 선택
-4. **인스턴스**&#x200B;를 선택합니다.
+4. **인스턴스**를 선택합니다.
    ![](assets/one-click-enroll2.png)
 5. 모듈의 딥 링크를 복사할 인스턴스에서 **모듈** 섹션을 선택합니다. 모듈 세부 정보는 인스턴스 하단의 확장 섹션에 표시됩니다.
    ![](assets/one-click-enroll3.png)

@@ -3,13 +3,14 @@ description: Workday 커넥터와 Adobe Learning Manager을 통합하는 방법 
 jcr-language: en_us
 title: Workday 커넥터
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 1%
-
 ---
-
 
 # Adobe Learning Manager의 Workday 커넥터
 
@@ -50,7 +51,7 @@ Workday 커넥터를 구성하려면:
 3. 다음 연결 세부 정보를 입력합니다.
    - **연결 이름**: 연결할 이름입니다.
    - **호스트 Url**: Workday 관리자가 제공했습니다.
-   - **테넌트**: Workday 관리자의 내부 식별자입니다.
+   - **테넌트**: Workday 관리자의 내부 식별자.
    - **사용자 이름 및 암호**: Workday 관리자는 필요한 보안 권한을 가진 ISU(통합 시스템 사용자)를 만들고 통합 책임자와 공유합니다.
 
    ![](assets/workday-connector2.png)

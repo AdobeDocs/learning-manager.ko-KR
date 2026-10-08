@@ -4,13 +4,14 @@ title: 알림
 description: 알림 기능은 Adobe Learning Manager의 모든 사용자에게 적용됩니다. 그러나, 역할에 따라 각 사용자는 다양한 시나리오에 대한 각기 다른 알림을 받습니다.
 contentowner: manochan
 exl-id: 27eb3830-ff4f-44e6-9f63-096d9444378e
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 78%
-
 ---
-
 # 알림
 
 알림 기능은 Adobe Learning Manager의 모든 사용자에게 적용됩니다. 그러나, 역할에 따라 각 사용자는 다양한 시나리오에 대한 각기 다른 알림을 받습니다. 사용자에게 온 모든 경보 및 알림은 알림 팝업 대화 상자를 통해 표시됩니다.

@@ -2,7 +2,10 @@
 description: Insights 상담사는 관리자가 자연어를 사용하여 학습자 데이터를 쿼리할 수 있도록 해 주는 Adobe Learning Manager의 AI 기반 기능입니다.
 jcr-language: en_us
 title: Adobe Learning Manager의 Insights Agent (Beta)
-source-git-commit: a599b117a000c83105fd258c307fedd6a99b6f96
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2929'
 ht-degree: 1%

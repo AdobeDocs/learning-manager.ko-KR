@@ -4,13 +4,14 @@ title: Learning Manager의 xAPI
 description: 경험 API(xAPI)란 모든 유형의 학습 경험을 기록 및 추적하는 방식으로 학습 콘텐트 및 학습 시스템이 소통할 수 있는 e러닝 소프트웨어 사양입니다. 학습 경험은 LRS(학습 기록 저장소)에 기록됩니다. LRS는 LMS(기존 학습 관리 시스템) 내에 존재하거나 자체적으로 존재할 수 있습니다.
 contentowner: dvenkate
 preview: true
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 68%
-
 ---
-
 
 
 # Learning Manager의 xAPI
@@ -75,7 +76,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 이제 작성자는 강의 생성 시 xAPI 모듈을 선택하여 Learning Manager 외부의 사용자 경험을 모니터링할 수 있습니다. 예를 들어 이 기능을 사용하여 강의 수료에 사용된 타사 플랫폼의 사용자 활동을 평가할 수 있습니다.
 
-1. **[!UICONTROL 활동 모듈]**&#x200B;을 만드는 동안 **[!UICONTROL 유형]**&#x200B;옵션에서 팝업 메뉴를 사용하여 **[!UICONTROL xAPI 기반 모듈]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 활동 모듈]**&#x200B;을 만드는 동안 **[!UICONTROL 유형]**옵션에서 팝업 메뉴를 사용하여 **[!UICONTROL xAPI 기반 모듈]**&#x200B;을 선택합니다.
 
    ![](assets/xapimodulecreation.png)
 
@@ -97,7 +98,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 **참고 사항:**
 
-* Learning Manager는 현재 mbox만 식별자로 지원합니다. mboz_sha1, openid , 계정을 포함한 다른 식별자는 지원되지 않습니다.
+* Learning Manager는 현재 mbox만 식별자으로 지원합니다. mboz_sha1, openid , 식별자를 포함한 다른 계정은 지원되지 않습니다.
 
 * stateId 및 profileId는 Learning Manager에서 사용될 때 UUID입니다.
 * PUT 요청은 xAPI 에이전트/프로필, 활동/프로필 및 활동/상태에 대한 문서를 덮어쓰지 않습니다.

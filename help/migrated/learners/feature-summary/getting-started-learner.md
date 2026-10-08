@@ -4,13 +4,14 @@ title: 학습자로 시작하기
 description: 시작 페이지를 사용하여 Adobe Learning Manager의 주요 학습 경로를 탐색합니다.
 contentowner: manochan
 exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 79%
-
 ---
-
 # 학습자로 시작하기
 
 Learning Manager 학습자 앱 시작하기

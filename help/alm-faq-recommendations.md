@@ -2,13 +2,14 @@
 title: Adobe Learning Manager 관리 계정 수명 주기
 description: 이 문서에서는 FedRAMP 권장 사항에 맞게 조정된 Adobe Learning Manager(ALM)의 보안 계정 관리, 구성 및 규정 준수 기능에 대한 포괄적인 요약을 제공합니다.
 jcr-language: en-us
-source-git-commit: 06051e44c0a6bc8ae60e44272ba088f2f6ff281f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 보안 권장 사항
 
@@ -94,7 +95,7 @@ Adobe Learning Manager은 여러 메커니즘을 통해 보안 관련 구성 데
 
 * ALM 작업 API는 CSV 형식으로 사용자 보고서(역할 할당 포함)의 온디맨드 생성을 지원합니다. 이는 외부 규정 준수 또는 SIEM 도구에 의해 예약 및 소비될 수 있습니다.
 
-자세한 내용은 [Adobe Learning Manager- 응용 프로그램 개발자 설명서](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual)를 참조하십시오.
+자세한 내용은 [Adobe Learning Manager- 응용 프로그램 개발자 설명서](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)를 참조하십시오.
 
 ## Adobe Learning Manager에서 보안 관련 설정을 프로그래밍 방식으로 보고 조정할 수 있는 API를 제공합니까?
 
@@ -119,16 +120,16 @@ Adobe Learning Manager은 OAuth 2.0 인증을 사용하여 보안 관련 설정�
 ### 계정 구성 검색
 
 * `GET /account` — 다음과 같은 필드를 포함하여 계정 설정 데이터를 JSON 형식으로 포함하는 계정 수준 구성을 반환합니다.
-   * `complianceLabelDefaultID`
-   * `showComplianceLabel`
-   * `custom_injections`
+  * `complianceLabelDefaultID`
+  * `showComplianceLabel`
+  * `custom_injections`
 
 ### Adobe 사용자 관리 API(Admin Console 계층)
 
 * UMAPI(Adobe Admin Console 관리 API)는 사용자 작업에 프로그래밍 방식으로 액세스할 수 있도록 합니다.
-   * 사용자 프로비저닝
-   * 제품 권한 할당
-   * 조직 수준의 시스템 관리자 역할 할당
+  * 사용자 프로비저닝
+  * 제품 권한 할당
+  * 조직 수준의 시스템 관리자 역할 할당
 * UMAPI는 ALM REST API와 별개이며 Adobe 조직 수준에서 작동합니다. Admin Console 역할 할당 및 사용자 프로비저닝을 자동화하는 데 사용합니다.
 
 ## Adobe Learning Manager은 OSCAL, JSON 또는 YAML과 같이 컴퓨터가 읽을 수 있는 형식으로 보안 구성 지침(권장 기본값)을 게시합니까?
@@ -152,29 +153,29 @@ Adobe Learning Manager에서는 모든 제품 업데이트에 대해 공개적�
 
 * Adobe은 모든 Adobe Learning Manager 업데이트(예: *업데이트 100*, *업데이트 99*)에 대해 번호가 매겨진 릴리스 노트를 게시합니다.
 * **Experience League** 및 문서에 게시됨:
-   * 새로운 기능
-   * 기존 설정 변경
-   * API 추가 및 제거
-   * 커넥터 변경
-   * 사용되지 않는 기능
+  * 새로운 기능
+  * 기존 설정 변경
+  * API 추가 및 제거
+  * 커넥터 변경
+  * 사용되지 않는 기능
 * 각 릴리스 노트에는 **API 변경 내용**&#x200B;에 대한 전용 섹션이 포함되어 있으며, 해당 섹션은 다음과 같습니다.
-   * 새 끝점
-   * 수정된 응답 필드
-   * 사용 중단
-   * 이러한 기능은 보안 관련 구성 기능과 직접 관련이 있습니다.
+  * 새 끝점
+  * 수정된 응답 필드
+  * 사용 중단
+  * 이러한 기능은 보안 관련 구성 기능과 직접 관련이 있습니다.
 
 ### &quot;새로운 기능&quot; 페이지 — 릴리스별 기능 요약
 
 * 각 주요 릴리스에는 컨텍스트가 있는 새로운 보안 관련 기능을 문서화하는 전용 **&quot;새로운 기능&quot;** 페이지가 있습니다.
 * 문서화된 보안 관련 업데이트의 예는 다음과 같습니다.
-   * 사용자 정의 역할 권한 처리 변경 사항
-   * 사용자 정의 역할에 대해 CSV에서 생성한 권한 표시 기능 추가
-   * API 속도 제한 변경 사항
+  * 사용자 정의 역할 권한 처리 변경 사항
+  * 사용자 정의 역할에 대해 CSV에서 생성한 권한 표시 기능 추가
+  * API 속도 제한 변경 사항
 
 ### API 사용 중단 목록 - 제거된 API 기능의 권한 있는 레코드입니다.
 
 * Adobe은 각 지원이 중단된 릴리스 버전을 포함하여 사용되지 않고 제거된 ALM API 끝점을 모두 나열하는 전용 **API 사용 중단** 페이지를 유지 관리합니다.
 * 보안 관련 사용 중단 사례는 다음과 같습니다.
-   * `GET /users` 끝점의 정렬 및 재정의 동작을 변경합니다.
-   * 알림, 보고서 날짜 필터 요구 사항
+  * `GET /users` 끝점의 정렬 및 재정의 동작을 변경합니다.
+  * 알림, 보고서 날짜 필터 요구 사항
 

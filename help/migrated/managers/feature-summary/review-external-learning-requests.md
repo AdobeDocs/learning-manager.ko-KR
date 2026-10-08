@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Learning Manager에서 외부 학습 제출
 description: 관리자는 팀원이 제출한 외부 학습 요청을 검토하고 세부 정보와 완료 증명 정보를 확인한 다음 선택 사항으로 각 요청을 승인하거나 거부할 수 있습니다. 승인된 제출은 학습자 성적 증명서에 추가됩니다.
 contentowner: saghosh
-source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 1%
-
 ---
-
 
 # 관리자로서 외부 학습 요청 검토
 

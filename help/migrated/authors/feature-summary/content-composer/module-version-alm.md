@@ -2,13 +2,14 @@
 description: Content Composer가 Adobe Learning Manager에서 강의 업데이트를 처리하는 방법, 다시 게시를 통해 새 모듈 버전을 만드는 방법 및 ALM 작성자가 최신 버전을 사용하도록 기존 강의를 업데이트하는 방법에 대해 알아봅니다.
 jcr-language: en_us
 title: Adobe Learning Manager의 모듈 버전 관리
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager의 모듈 버전 관리
 

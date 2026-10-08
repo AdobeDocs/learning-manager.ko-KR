@@ -1,13 +1,14 @@
 ---
 title: 라이브 허브의 채팅 패널 정보
 description: 채팅 패널이 라이브 허브 세션 중에 강사와 학습자 간의 실시간 구조화된 커뮤니케이션을 가능하게 하는 방법에 대해 알아봅니다.
-source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
-
 ---
-
 
 # 채팅 패널 정보
 

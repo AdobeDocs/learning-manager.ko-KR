@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 보고서에 필터 추가 및 결합
 description: 단일 필터, AND/OR 논리 및 중첩된 필터 그룹을 사용하여 Adobe Learning Manager Report Builder에서 보고서 데이터를 제한합니다.
 contentowner: mmanuel
-source-git-commit: 8823a5481bc3b34266f7ec36a8f3c26cb923e1ce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 0%
-
 ---
-
 
 # 보고서에 필터 추가 및 결합
 
@@ -101,7 +102,7 @@ ht-degree: 0%
 4. **필터** 섹션에서 다음 필터를 선택합니다.
 
    * 등록 -상태 **이(가)**&#x200B;과(와) 같지 않습니다.
-   * &#x200B;+ 를 선택합니다.
+   * + 를 선택합니다.
    * 등록 진행 퍼센트를 검색합니다.
    * 필터를 선택합니다.
    * **그룹으로 추가**&#x200B;를 선택합니다.
@@ -112,7 +113,7 @@ ht-degree: 0%
 
    ![](assets/report-builder-0030.png)
 
-6. &#x200B;+ 를 선택합니다.
+6. + 를 선택합니다.
 7. **등록 지연**&#x200B;을 검색합니다.
 8. 필터를 선택합니다.
 9. **그룹으로 추가**&#x200B;를 선택합니다.

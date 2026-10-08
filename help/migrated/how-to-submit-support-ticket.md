@@ -3,20 +3,21 @@ jcr-language: en_us
 title: Experience League 지원 티켓을 제출하는 방법
 description: Experience League 시 지원 요청을 제출하는 방법 알아보기
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: aa9bf441507251c536cb6ee550fee0177e69cf6e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
-
 ---
-
 # Experience League에서 지원 티켓을 제출하는 방법
 
 이제 Adobe Learning Manager 지원 티켓을 제출하는 프로세스가 Experience League 지원 플랫폼과 직접 통합됩니다. 이 셀프서비스 포털은 최근에 권한이 부여된 고객을 위해 더 많은 개인화와 사용 편의성을 제공하도록 새롭게 디자인되었습니다. Experience League 지원 포털에 액세스하고 티켓을 로깅하는 방법에 대한 자세한 내용은 아래 안내서를 참조하십시오.
 
 지원 티켓을 제출하려면 승인된 지원 담당자만 사용할 수 있습니다. 지원 문의는 2025년 5월 11일까지 이메일을 통해 Adobe Learning Manager에 지원 티켓을 계속 제출하십시오. 이 날짜 이후에는 기존 이메일 채널 외에도 아래 설명된 Experience League 지원 포털을 통해 지원 티켓을 제출할 수 있습니다.
 
-1. 지원 포털에 액세스하려면 **[!UICONTROL Experience League]** 웹 사이트를 방문하여 페이지 상단에 있는 **[!UICONTROL 지원]** 탭을 선택하십시오. 또는 [직접 링크](https://experienceleague.adobe.com/home?lang=ko#support)를 방문할 수 있습니다.
+1. 지원 포털에 액세스하려면 **[!UICONTROL Experience League]** 웹 사이트를 방문하여 페이지 상단에 있는 **[!UICONTROL 지원]** 탭을 선택하십시오. 또는 [직접 링크](https://experienceleague.adobe.com/home#support)를 방문할 수 있습니다.
 
    ![](assets/support.png)
    _지원 홈페이지_

@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Learning Manager 주문 및 청구 정보 관리
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: 2f1ca19ec3b94f975bd78ed92b48621eec6d5a22
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2471'
 ht-degree: 53%
-
 ---
-
 
 # Learning Manager 주문 및 청구 정보 관리
 
@@ -44,7 +45,7 @@ Adobe에 Learning Manager 구독 및 청구에 대한 자세한 내용을 문의
 | 필드 | 설명 |
 |---|---|
 | **ECCID** | Adobe의 계정 참조 번호입니다. Adobe 지원 센터에 문의할 때 이 문구를 인용하십시오. |
-| **계정 ID** | 고유한 Adobe Learning Manager 계정 식별자입니다. |
+| **계정 ID** | 귀하의 고유한 Adobe Learning Manager 계정 식별자. |
 | **계정 이름** | Adobe Learning Manager 계정의 표시 이름입니다. |
 | **IMS 조직 ID** | 이 계정에 연결된 Adobe Admin Console 조직 아직 연결되지 않은 경우 비어 있습니다. |
 
@@ -97,7 +98,7 @@ Gen AI 기능이 활성화되기 전에 Adobe Learning Manager 계정이 Adobe A
 1. **[!UICONTROL 결제]**&#x200B;를 선택한 다음 **[!UICONTROL 구독]** 탭을 선택합니다.
 2. **계정 세부 정보** 카드에서 **[!UICONTROL IMS 조직 연결]**&#x200B;을 선택합니다.
 3. 로그인 창이 열립니다. Adobe 계정 자격 증명을 입력하고 목록에서 조직을 선택합니다. Adobe Learning Manager에서 로그인 시 Adobe Admin Console 조직의 시스템 관리자 역할이 유지되고 동일한 계정에서도 Adobe Learning Manager의 관리자 역할이 있는지 확인합니다.
-4. 두 검사를 모두 통과하면 링크가 설정됩니다. **IMS 조직 ID** 필드가 조직의 식별자로 업데이트되고 크레딧 잔액이 **라이선스** 섹션에 표시됩니다.
+4. 두 검사를 모두 통과하면 링크가 설정됩니다. **IMS 조직 ID** 필드가 조직의 식별자으로 업데이트되고 크레딧 잔액이 **라이선스** 섹션에 표시됩니다.
 5. 둘 중 하나라도 확인에 실패하면 오류 메시지가 표시됩니다. 위의 필수 구성 요소를 확인하고 다시 시도하십시오.
 
 ### 계정 연결 해제

@@ -4,13 +4,14 @@ title: Adobe Learning Manager에서 API 사용 중단
 description: Adobe Learning Manager의 API가 발전함에 따라 API는 주기적으로 재구성되거나 업그레이드됩니다. API가 발전하면 이전 API는 더 이상 사용되지 않으며 결국 제거됩니다. 이 페이지에는 더 이상 사용되지 않는 API 버전에서 보다 안정적이고 새로운 API 버전으로 마이그레이션할 때 알아야 하는 정보가 포함되어 있습니다.
 contentowner: saghosh
 exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 34%
-
 ---
-
 # Adobe Learning Manager에서 API 사용 중단 및 변경 사항
 
 ## Adobe Learning Manager 2024년 3월 릴리스의 API 중단
@@ -76,30 +77,30 @@ We want to enforce these restrictions on new accounts and maintain a whitelist o
 다음 경로는 사용되지 않습니다.
 
 * /learningObject
-   * 사용되지 않는 경로:
-      * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
-   * 새 패스:
-      * enrollment.loInstance.loResources
-      * instance.loResources
+  * 사용되지 않는 경로:
+    * enrollment.loInstance.loResources.resources
+    * instances.loResources.resources
+  * 새 패스:
+    * enrollment.loInstance.loResources
+    * instance.loResources
 
 * /learningObject/{id}
-   * 사용되지 않는 경로:
-      * enrollment.instances.subLoInstances.learningObject
-   * 새 경로:
-      * enrollment.instances.subLoInstances
+  * 사용되지 않는 경로:
+    * enrollment.instances.subLoInstances.learningObject
+  * 새 경로:
+    * enrollment.instances.subLoInstances
 
 * /등록
-   * 사용되지 않는 경로:
-      * loInstance.learningObject.등록
-   * 새 경로:
-      * loInstance.learningObject
+  * 사용되지 않는 경로:
+    * loInstance.learningObject.등록
+  * 새 경로:
+    * loInstance.learningObject
 
 * /learningObject/{id}
-   * 사용되지 않는 경로:
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * 새 경로:
-      * instance.subLoInstances
+  * 사용되지 않는 경로:
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+  * 새 경로:
+    * instance.subLoInstances
 
 <!--
 ### Instance summary count changes 

@@ -3,18 +3,19 @@ jcr-language: en_us
 title: 공지
 description: 책임자가 정의한 사용자 그룹에 멀티미디어 메시지(텍스트, 이미지 또는 비디오)로 공지사항을 보낼 수 있습니다.
 exl-id: 303cba0e-d654-41a6-87b4-a28bfc91d8c8
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 61%
-
+ht-degree: 84%
 ---
-
 # 공지
 
 책임자가 정의한 사용자 그룹에 멀티미디어 메시지(텍스트, 이미지 또는 비디오)로 공지사항을 보낼 수 있습니다.
 
-책임자는 학습자에게 이벤트 또는 활동 발생을 알리는 공지를 브로드캐스트할 수 있습니다. 공지가 특정 그룹이나 학습 객체 사용자에게 브로드캐스트되면 대상 그룹에 연결된 모든 학습자가 알림을 받습니다.
+관리자는 학습자에게 이벤트 또는 활동 안내 공지를 보낼 수 있습니다. 특정 그룹 또는 학습 객체 사용자에게 공지를 보내면, 대상 그룹과 관련된 모든 학습자가 알림을 받습니다.
 
 ## 공지 알림 {#announcementsnotification}
 

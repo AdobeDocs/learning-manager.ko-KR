@@ -2,13 +2,14 @@
 description: 프로젝트 이름을 설정하고 설명을 추가하고 강의를 할당 준비가 된 모듈로 보내는 방법을 포함하여 완료된 Content Composer 강의를 Adobe Learning Manager Content Library에 게시하는 방법을 알아봅니다.
 jcr-language: en_us
 title: Adobe Learning Manager에 게시
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 1%
-
 ---
-
 
 # 콘텐츠 컴포저에서 Adobe Learning Manager으로 과정 Publish
 
@@ -32,7 +33,7 @@ ht-degree: 1%
 
    - Adobe Learning Manager 계정과 연결된 **이메일** 주소를 입력하세요.
 
-   - **승인**&#x200B;을 선택하여 로그인하고 과정을 ALM 계정에 연결합니다.
+   - **승인**을 선택하여 로그인하고 과정을 ALM 계정에 연결합니다.
      ![](../assets/32_alm_connection_not_connected_authorize_updated.png)
 
    - 권한이 부여되면 **연결 해제**&#x200B;에서 **연결됨**(으)로 **상태** 필드 업데이트를 확인하십시오.

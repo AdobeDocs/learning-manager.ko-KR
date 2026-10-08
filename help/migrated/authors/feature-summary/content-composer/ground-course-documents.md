@@ -2,13 +2,14 @@
 description: AI 출력을 정책, 절차 또는 데크로만 제한하여 문서에서 Content Composer 과정을 생성하는 방법을 알아봅니다.
 jcr-language: en_us
 title: 내 문서에 코스 그라운드를 만듭니다.
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
-
 ---
-
 
 # 내 문서에 코스 그라운드를 만듭니다.
 

@@ -1,13 +1,14 @@
 ---
 title: 라이브 허브의 세션 대시보드 보기
 description: 강사가 라이브 허브 세션을 위해 세션 대시보드에 액세스하는 방법과 대시보드에서 제공하는 참여, 참여 및 성과 인사이트에 대해 알아보십시오.
-source-git-commit: 20213f093f66e1c81fde0b9f247d7eba55aa34cd
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
-
 ---
-
 
 # 세션 대시보드 보기
 

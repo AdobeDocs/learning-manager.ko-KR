@@ -4,13 +4,14 @@ title: 관리자
 description: 관리자 개요
 contentowner: manochan
 preview: true
-source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 91%
-
 ---
-
 
 
 # 관리자
@@ -35,5 +36,5 @@ ht-degree: 91%
 * [보고서](managers/feature-summary/reports.md)
 * [설정](managers/feature-summary/settings.md)
 * [사용자 로그인](managers/feature-summary/user-login.md)
-* [사용자 알림](managers/feature-summary/user-notifications.md) [&#128279;](managers/feature-summary/settings.md)
+* [사용자 알림](managers/feature-summary/user-notifications.md) [](managers/feature-summary/settings.md)
 * [학습 객체](managers/feature-summary/learning-objects.md)

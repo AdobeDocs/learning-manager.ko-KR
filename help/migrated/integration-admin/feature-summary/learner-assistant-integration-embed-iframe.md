@@ -2,13 +2,14 @@
 description: 설정, 구성 및 이벤트 처리를 포함하여 iframe을 사용하여 앱에 학습자 도우미를 포함하는 방법에 대해 알아봅니다
 jcr-language: en_us
 title: iFrame을 포함하여 학습자 도우미 통합
-source-git-commit: 1549a4592b7a930631dcff6b2e75ec3a3d4f5592
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 1%
-
+ht-degree: 2%
 ---
-
 
 # iframe을 사용한 학습자 도우미 포함
 
@@ -32,7 +33,7 @@ iFrame을 통해 포함되면 학습자 도우미는 다음을 포함한 모든 
 시작하기 전에 다음 사항이 있는지 확인하십시오.
 
 * 학습자 도우미가 활성화된 ALM 테넌트 관리자 설정 페이지에서 필요한 카탈로그를 구성합니다.
-* 학습자(또는 책임자) 세션 인증을 위한 유효한 accessToken입니다. 액세스 토큰을 생성하려면 [OAuth 2.0을 사용한 인증](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20) 페이지의 지침을 따르십시오. 이 페이지에는 인증에 필요한 단계와 계속하는 데 필요한 액세스 토큰을 생성하는 단계가 포함되어 있습니다.
+* 학습자(또는 책임자) 세션 인증을 위한 유효한 accessToken입니다. 액세스 토큰을 생성하려면 [OAuth 2.0을 사용한 인증](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20) 페이지의 지침을 따르십시오. 이 페이지에는 인증에 필요한 단계와 계속하는 데 필요한 액세스 토큰을 생성하는 단계가 포함되어 있습니다.
 * 응용 프로그램에 `<iframe>`을(를) 포함하고 브라우저의 postMessage API를 통해 응용 프로그램과 통신하는 기능입니다.
 * 응용 프로그램은 포함된 iFrame의 메시지를 수신하고 응답해야 하므로 상위 응용 프로그램의 프런트 엔드 코드 소유권입니다.
 

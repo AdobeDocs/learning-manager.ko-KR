@@ -4,13 +4,14 @@ title: Learning Manager의 API 속도 제한
 description: Adobe Learning Manager는 고객이 Learning Manager와 통합되는 응용 프로그램을 구축하거나 사용자 정의 사용자 경험 및 비즈니스에 도움이 되는 워크플로우에 대한 확장 프로그램을 구축할 수 있도록 도와주는 풍부한 REST API 제품군을 제공합니다.
 contentowner: saghosh
 preview: true
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1801'
 ht-degree: 80%
-
 ---
-
 
 
 # Learning Manager의 API 속도 제한

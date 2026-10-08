@@ -4,13 +4,14 @@ title: Adobe Connect 통합
 description: 작성자는 강의 생성 절차 중 Adobe Connect로 가상 강의실 강의를 생성할 수 있습니다. Learning Manager 계정에서 Adobe Connect를 허용하려면 조직의 관리자에게 문의하십시오.
 contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
-source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 57%
-
 ---
-
 # Adobe Connect 통합
 
 조직 관리자는 Adobe Connect 통합을 사용할 수 있도록 Learning Manager 계정 설정을 구성할 수 있습니다.
@@ -70,7 +71,7 @@ Adobe Learning Manager와 별도로 Adobe Connect를 구입해야 합니다.
 
 Adobe Learning Manager은 Connect에서 가상 강의실 세션을 설정하는 동안 Adobe Connect에서 세미나실 선택을 지원합니다. 이전에는 책임자가 회의실 유형만 선택할 수 있었습니다. 이 기능을 사용하면 유효한 세미나 라이선스를 보유한 책임자가 ALM 내에서 일회성 또는 대규모 이벤트(최대 1,500명 참석자)를 예약하고 관리할 수 있습니다.
 
-세미나 방에 대한 자세한 내용은 이 [문서](https://helpx.adobe.com/kr/adobe-connect/using/creating-seminars.html)를 참조하세요.
+세미나 방에 대한 자세한 내용은 이 [문서](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)를 참조하세요.
 
 ### 세션 분석에 대한 액세스 지원
 

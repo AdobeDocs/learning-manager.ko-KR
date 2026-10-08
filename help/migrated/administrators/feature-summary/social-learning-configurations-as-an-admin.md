@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 책임자로 소셜 학습 모니터링 및 중재
 contentowner: kuppan
 exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
-source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3793'
 ht-degree: 75%
-
 ---
-
 # 책임자로 소셜 학습 모니터링 및 중재
 
 책임자는 소셜 학습에서 수행된 활동을 활성화/비활성화하고 모니터링할 수 있습니다. 소셜 학습 기능이 활성화되면 학습자가 이를 확인하고 소셜 학습에 참여할 수 있습니다.

@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Adobe Learning Manager에서 사용자 추가
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 2%
-
 ---
-
 
 # Adobe Learning Manager에서 사용자 추가
 
@@ -38,7 +39,7 @@ Adobe Learning Manager 사용자는 할당된 역할에 따라 다양한 책임�
 
 ### 수동으로 내부 사용자 추가
 
-관리자는 이름, 이메일, 고유 식별자 및 관리자 이름을 제공하여 사용자를 수동으로 추가할 수 있습니다. Adobe Learning Manager의 고유 식별자는 관리자가 사용자를 만들 때 할당하는 필수 식별자입니다. 각 사용자에 대해 고유해야 하며 시스템 전체에서 일관된 참조 역할을 합니다.
+관리자는 이름, 이메일, 고유 식별자 및 관리자의 이름을 제공하여 사용자를 수동으로 추가할 수 있습니다. Adobe Learning Manager의 고유 식별자는 관리자가 식별자를 만들 때 할당하는 필수 사용자입니다. 각 사용자에 대해 고유해야 하며 시스템 전체에서 일관된 참조 역할을 합니다.
 
 >[!INFO]
 >
@@ -55,9 +56,10 @@ Adobe Learning Manager에 단일 사용자를 추가하려면 다음을 수행�
 4. **사용자 추가** 프롬프트에서 사용자의 **이름**, **전자 메일** 및 **프로필**(직책)을 입력합니다.
 
    ![](assets/add-a-user-prompt.png)
-   _새 사용자의 이름, 전자 메일, 고유 식별자 및 프로필을 입력할 필드_
+   _새 사용자의 이름, 전자 메일, 고유한 식별자 및 프로필을 입력할 필드_
 5. 사용자의 관리자를 검색하고 관리자 목록에서 이름을 선택합니다.
-6. **추가**&#x200B;를 선택합니다.사용자는 액세스할 로그인 URL이 포함된 시작 이메일을 받습니다.
+6. **추가**를 선택합니다.
+사용자는 액세스할 로그인 URL이 포함된 시작 이메일을 받습니다.
 
 
 ### 내부 사용자에 대한 자체 등록 허용
@@ -269,7 +271,7 @@ _외부 프로필의 등록 URL 복사_
 | 내부 사용자 | 외부 사용자 |
 |---|---|
 | Adobe ID 또는 SSO 자격 증명을 사용하여 로그인할 수 있습니다. | 모든 전자 메일 ID를 사용하여 로그인할 수 있습니다. |
-| 게임화를 사용할 수 있습니다. | 게임화를 사용할 수 있습니다. 책임자는 [게임화 설정](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/gamification)에서 외부 학습자에 대한 게임화를 활성화해야 합니다. |
+| 게임화를 사용할 수 있습니다. | 게임화를 사용할 수 있습니다. 책임자는 [게임화 설정](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)에서 외부 학습자에 대한 게임화를 활성화해야 합니다. |
 
 ### 외부 등록 프로필 일시 중지
 
@@ -343,7 +345,7 @@ _이전에 일시 중지된 외부 등록 프로필을 다시 시작하는 옵�
 
 ### 사용자 편집
 
-Adobe Learning Manager에서 **사용자 편집** 옵션을 사용하여 이름, 전자 메일 주소, 고유 식별자, 프로필 및 관리자 이름과 같은 사용자의 프로필 정보를 업데이트합니다. 관리자는 사용자 데이터가 정확하고 최신 상태를 유지하도록 이러한 변경 작업을 수행할 수 있습니다.
+Adobe Learning Manager에서 **사용자 편집** 옵션을 사용하여 이름, 전자 메일 주소, 고유한 식별자, 프로필 및 관리자 이름과 같은 사용자의 프로필 정보를 업데이트합니다. 관리자는 사용자 데이터가 정확하고 최신 상태를 유지하도록 이러한 변경 작업을 수행할 수 있습니다.
 
 사용자를 편집하려면 다음을 수행합니다.
 

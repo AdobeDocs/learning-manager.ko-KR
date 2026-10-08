@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 모바일 및 태블릿 학습자 앱
 contentowner: manochan
 exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 73%
-
 ---
-
 # 모바일 및 태블릿 학습자 앱
 
 이 문서에서 스마트폰 및 태블릿용 Learning Manager 학습자 앱을 다운로드하는 방법을 알아보십시오. 모바일 또는 태블릿에서 강의를 수료하는 방법을 알아보십시오.
@@ -217,7 +218,7 @@ QR 코드 스캔 기능을 사용하면 학습자는 학습 책임자가 생성�
 
 * 게시판을 만들거나 팔로우합니다.
 * 게시물에 URL을 복사합니다.
-* 게시물을 스토리로 추가하거나 게시물을 즐겨찾기로 추가하거나 상단에 고정하세요.
+* 게시물을 스토리로 추가하거나 게시물을 즐겨찾기나 핀으로 맨 위에 추가합니다.
 * 소셜 리더 게시판을 봅니다.
 
 소셜 학습은 사용자가 비공식 환경에서 아이디어와 의미 있는 인사이트를 공유하도록 장려하는 Learning Manager 모바일 앱의 플랫폼입니다. 이는 전통적인 학습 개념을 보충하는 방법입니다.
@@ -346,7 +347,7 @@ QR 코드 스캔 기능을 사용하면 학습자는 학습 책임자가 생성�
 * 게시판에서 댓글을 편집하거나 삭제합니다.
 * 권한에 따라 게시물을 편집하거나 삭제합니다.
 * 게시물이 개인 정보를 침해하거나 해당 내용이 부적절한 경우 게시물 남용을 신고하십시오. 게시물이 신고되면 게시판 책임자와 중재자에게 추가 조치를 위한 알림이 전송됩니다.
-* ![](assets/prime-like.png) 좋아요 또는 ![](assets/prime-dislike.png) 싫어요   게시물.
+* 게시물 ![](assets/prime-like.png)을(를) 좋아하거나 ![](assets/prime-dislike.png)을(를) 싫어합니다.
 * ![](assets/prime-like.png)을(를) 좋아하거나 ![](assets/prime-dislike.png)개의 댓글을 싫어하세요.
 
 ## 다른 게시판에 게시물 만들기 {#createapostinotherboards}

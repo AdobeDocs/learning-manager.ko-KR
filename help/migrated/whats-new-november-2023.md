@@ -2,13 +2,14 @@
 title: 이 릴리스의 새로운 기능
 description: Adobe Learning Manager 2023년 11월 릴리스의 새로운 기능 및 개선 사항에 대해 알아봅니다.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2372'
 ht-degree: 73%
-
 ---
-
 # 이 릴리스의 새로운 기능
 
 ## 개선된 사용자 인터페이스

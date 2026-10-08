@@ -4,13 +4,14 @@ title: L1 피드백 자동 팝업이 표시되지 않음
 description: '''L1 피드백 자동 팝업이 표시되지 않음'' 오류 해결 방법'
 contentowner: saghosh
 exl-id: 47edcd7f-e332-4a75-a025-fd07737d0b70
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 77%
-
 ---
-
 # L1 피드백 자동 팝업이 표시되지 않음
 
 ## 강의 효율성
@@ -33,7 +34,7 @@ ht-degree: 77%
 
 ## 해결 방법
 
-1. **강의** > **인스턴스** > **L1 피드백**&#x200B;에서 &quot;강의 완료 후 즉시 질문 표시&quot; 옵션이 활성화되어 있는지 확인합니다.
+1. **강의** > **인스턴스** > **L1 피드백**에서 &quot;강의 완료 후 즉시 질문 표시&quot; 옵션이 활성화되어 있는지 확인합니다.
    <!--![](assets/l1-feedback.png)-->
 1. 관리자의 경우 **설정 > 피드백**&#x200B;으로 이동합니다. 예정된 알림 메시지의 시간을 확인합니다. **강의 완료 후**&#x200B;로 예정되어 있는 경우 **강의 완료 시**&#x200B;로 변경합니다.
 1. 전자 메일 템플릿 **전자 메일 템플릿 > 알림 메시지 및 업데이트 > 강의에 대한 학습자 피드백 요청**&#x200B;을 활성화합니다. 해당 옵션이 비활성화되어있는 경우 활성화하고 테스트합니다.

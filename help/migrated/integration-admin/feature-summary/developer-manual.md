@@ -4,13 +4,14 @@ title: 응용 프로그램 개발자 설명서
 description: OAuth 2.0 인증, API 사용 시나리오 및 데이터 모델과 같은 필수 항목을 다루는 RESTful API를 사용하여 애플리케이션을 통합하고 사용자 정의하는 방법에 대해 알아봅니다. 강의 생성, 학습자 진행 추적, 스킬 매핑, 인증, 게임화 등의 기능으로 기업 애플리케이션을 개선하세요. 이 안내서는 개발자가 원활하고 효율적인 워크플로우를 만드는 데 도움이 되는 단계별 지침과 실제 예제를 제공합니다. Adobe Learning Manager의 기능을 활용하여 학습자 중심의 애플리케이션을 만들려는 개발자에게 적합합니다.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4415'
-ht-degree: 7%
-
+source-wordcount: '4577'
+ht-degree: 6%
 ---
-
 
 # Adobe Learning Manager 개발자 설명서
 
@@ -54,14 +55,14 @@ Adobe Learning Manager을 외부 애플리케이션과 통합하여 다용성을
    * **[!UICONTROL 설명]**: 응용 프로그램의 기능에 대한 간략한 설명입니다.
    * **[!UICONTROL 범위]**: 사용 가능한 6가지 옵션 중 하나를 선택하여 응용 프로그램의 범위를 정의합니다. 여기에 언급된 귀하의 선택에 따라 귀하의 애플리케이션에 대해 Learning Manager API 엔드포인트에 액세스할 수 있습니다. 예를 들어 학습자 역할 및 읽기 액세스 를 선택한 경우 귀하의 응용 프로그램에서는 모든 Learning Manager 학습자 API 엔드 포인트에 읽기 전용으로만 액세스할 수 있습니다.
 
-      * 관리자 역할 읽기/쓰기 액세스: 응용 프로그램이 관리자로 데이터에 액세스하거나 수정할 수 있습니다.
-      * 학습자 역할 읽기/쓰기 액세스: 응용 프로그램이 학습자의 데이터에 액세스하거나 수정할 수 있습니다.
-      * xAPI 읽기/쓰기 액세스: 응용 프로그램이 xAPI(Experience API) 문에 액세스하고 보낼 수 있도록 합니다.
+     * 관리자 역할 읽기/쓰기 액세스: 응용 프로그램이 관리자로 데이터에 액세스하거나 수정할 수 있습니다.
+     * 학습자 역할 읽기/쓰기 액세스: 응용 프로그램이 학습자의 데이터에 액세스하거나 수정할 수 있습니다.
+     * xAPI 읽기/쓰기 액세스: 응용 프로그램이 xAPI(Experience API) 문에 액세스하고 보낼 수 있도록 합니다.
 
    * **[!UICONTROL 이 계정에만 해당합니까?]**
 
-      * **[!UICONTROL 예]** - [예]를 선택하면 응용 프로그램이 다른 계정 관리자에게 표시되지 않습니다.
-      * **[!UICONTROL 아니요]** - [아니요]를 선택하면 다른 계정 관리자도 이 응용 프로그램에 액세스할 수 있지만 이 응용 프로그램에 액세스하려면 응용 프로그램 ID를 사용해야 합니다. 응용 프로그램 ID는 Learning Manager 응용 프로그램 편집 모드에서 생성 및 표시됩니다.
+     * **[!UICONTROL 예]** - [예]를 선택하면 응용 프로그램이 다른 계정 관리자에게 표시되지 않습니다.
+     * **[!UICONTROL 아니요]** - [아니요]를 선택하면 다른 계정 관리자도 이 응용 프로그램에 액세스할 수 있지만 이 응용 프로그램에 액세스하려면 응용 프로그램 ID를 사용해야 합니다. 응용 프로그램 ID는 Learning Manager 응용 프로그램 편집 모드에서 생성 및 표시됩니다.
 
      ![대체 텍스트](assets/register-an-app.png)
 
@@ -413,7 +414,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <td><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.subLOs.prerequisiteLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instances.loResources.resources.room</br><br>subLOs.instances.loResources.room</br><br>subLOs.supplementaryResources</br><br>subLOs.loInstance.loLRolloEnrollment resources.resources</br><br>subLOs.supplementaryLOs.instances.loResources.resources</br><br></br>
   </td>
   <td>
-  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instances.loResources.resources</br><br>supplementaryLOs.instances.loResources.resources</br><br>supplementaryResources</br><br>instances.badge</br><br>skill.skillLevel.badge</br><br>skill.skill</br><br>instances.loResources.room</br><br>prerequisiteLOs.enrollment</br><br>enrollment.loResourceGrades</br>
+  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instances.loResources.resources</br><br>supplementaryLOs.instances.loResources.resources</br><br>supplementaryResources</br><br>instances.badge</br><br>skill.skillLevel.badge</br><br>skill.skill</br><br>instances.loResources.room</br><br>prerequipmentLOs.enrollment</br><br>enrollment.loResourceGrades</br>
   </td>
   </tr>
   </table>

@@ -2,13 +2,14 @@
 description: Adobe Learning Manager Content Composer는 사전 교수 디자인 경험 없이 일반 언어 프롬프트를 강의, 평가 및 미디어를 포함하여 구조화된 게시 준비 과정으로 변환하는 AI 강의 제작 도구입니다.
 jcr-language: en_us
 title: 콘텐츠 컴포저란 무엇입니까?
-source-git-commit: 7fffe3c9d7b001c5a75a27ffc54fcb4490caad63
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager Content Composer 개요
 

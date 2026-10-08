@@ -1,13 +1,14 @@
 ---
 title: 라이브 허브에 강사 추가 및 관리
 description: 책임자가 라이브 허브에서 강사를 추가하고, 프로필을 만들고, 스킬과 언어를 정의하고, 활용률 및 가용성을 구성하는 방법에 대해 알아봅니다.
-source-git-commit: 259729710daebda869d93aa16b32c6c53db9103c
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 2%
-
 ---
-
 
 # 강사 추가 및 관리
 

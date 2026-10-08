@@ -3,13 +3,14 @@ description: Adobe Learning Manager의 getAbstract 커넥터
 jcr-language: en_us
 title: getAbstract 커넥터
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 1%
-
 ---
-
 
 # Adobe Learning Manager용 getAbstract 커넥터
 
@@ -162,7 +163,7 @@ getAbstract 커넥터를 구성하려면:
 
 - 지정된 동기화 날짜에 대해 올바른 사용자 피드 파일이 getAbstract FTP 폴더에 있어야 합니다.
 - 파일은 이름 지정 형식을 따라야 합니다.
-   - report_export_yyyy_MM_dd_HHmmss.xlsx 또는
-   - report_export_yyyy_MM_dd.xlsx
+  - report_export_yyyy_MM_dd_HHmmss.xlsx 또는
+  - report_export_yyyy_MM_dd.xlsx
 
-[샘플 getAbstract 사용자 피드 파일](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=ko)을 다운로드하여 형식을 파악하세요.
+[샘플 getAbstract 사용자 피드 파일](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=en)을 다운로드하여 형식을 파악하세요.

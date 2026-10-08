@@ -3,13 +3,14 @@ description: 이 문서에서 모든 학습 객체와 관련된 이벤트 전자
 jcr-language: en_us
 title: 전자 메일 템플릿
 exl-id: 3b17f889-52be-4073-ab91-7c76dd79f1d2
-source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 72%
-
 ---
-
 # 전자 메일 템플릿
 
 이 문서에서 모든 학습 객체와 관련된 이벤트 전자 메일 템플릿을 구성하는 방법을 알아봅니다.

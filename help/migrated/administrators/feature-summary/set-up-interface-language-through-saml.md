@@ -4,13 +4,14 @@ jcr-language: en_us
 title: SAML을 통해 인터페이스 언어 설정
 contentowner: chandrum
 exl-id: 726cb45e-1c37-42b1-924a-565c84c82852
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '782'
 ht-degree: 0%
-
 ---
-
 # SAML을 통해 인터페이스 언어 설정
 
 이제 Adobe Learning Manager(ALM)에서 언어에 대한 SAML 속성을 허용합니다. 그런 다음 이 속성이 사용자의 인터페이스 및 콘텐츠 언어 설정에 매핑되어 선호하는 언어로 LMS와 원활한 상호 작용을 보장합니다. 이러한 언어 설정의 구성은 SSO(Single Sign-On)용 SAML을 사용하는 IAM(Identity and Access Management) 플랫폼을 통해 관리됩니다. 이렇게 하면 SP(서비스 공급자) 시작 로그인과 IdP(신원 공급자) 시작 로그인을 모두 지원하여 사용자가 선택한 언어로 인터페이스와 콘텐츠를 볼 수 있습니다. 워크플로우는 다음과 같습니다.
@@ -75,9 +76,9 @@ ALM에서 SSO를 구성하려면 다음 단계를 따르십시오.
    * **[!UICONTROL SSO(Single Sign-On) 설정]** 드롭다운에서 **[!UICONTROL IDP 시작]**&#x200B;을 선택합니다.
    * **[!UICONTROL IDP 시작 인증 URL]**&#x200B;의 경우:
 
-      * 이전에 다운로드한 메타데이터 XML 파일을 엽니다.
-      * 위치 값을 검색하고 복사합니다.
-      * IDP 시작 인증 URL 필드에 이 값을 붙여넣습니다.
+     * 이전에 다운로드한 메타데이터 XML 파일을 엽니다.
+     * 위치 값을 검색하고 복사합니다.
+     * IDP 시작 인증 URL 필드에 이 값을 붙여넣습니다.
 
    * **[!UICONTROL 메타데이터 XML 파일]**&#x200B;의 경우: 이전에 다운로드한 .xml 파일을 업로드합니다.
 

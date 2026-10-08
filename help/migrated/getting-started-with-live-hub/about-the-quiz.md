@@ -1,13 +1,14 @@
 ---
 title: 라이브 허브의 퀴즈 기능 정보
 description: 강사가 라이브 허브 세션 중에 학습자의 이해를 실시간으로 평가하기 위한 여러 질문 퀴즈를 만들고 수행하는 방법을 알아봅니다.
-source-git-commit: 203b9dd661ddf9223d3e181c5887e6976ba8213e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 
 # 퀴즈 정보
 

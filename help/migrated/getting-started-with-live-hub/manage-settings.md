@@ -1,13 +1,14 @@
 ---
 title: 라이브 허브의 설정 관리
 description: 강사가 참여자 권한, 녹화, AI 도우미, 개인 정보를 포함하여 Live Hub의 회의실 설정에 액세스하고 구성하는 방법을 알아봅니다.
-source-git-commit: 8e0b7d983fc0736ae2890e6ec58e870bafc37fd0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
-
 ---
-
 
 # 회의실 설정 관리
 

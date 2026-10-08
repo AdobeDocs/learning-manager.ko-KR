@@ -1,18 +1,19 @@
 ---
-description: Content Composer 강의 테마를 JSON 파일로 내보내 앱 외부의 속성을 사용자 정의하거나, 다른 작성자와 공유하거나, 새 테마의 기반으로 사용하는 방법을 알아봅니다.
+description: Content Composer 강의 테마를 JSON 파일으로 내보내 앱 외부의 속성을 사용자 정의하거나, 다른 작성자와 공유하거나, 새 테마의 기반으로 사용하는 방법을 알아봅니다.
 jcr-language: en_us
 title: 테마 내보내기
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
-
 ---
-
 
 # 테마 내보내기
 
-테마를 JSON 파일로 내보내 콘텐츠 컴포저 외부에서 사용자 정의하거나 다른 작성자와 공유할 수 있습니다.
+테마를 JSON 파일으로 내보내 콘텐츠 컴포저 외부에서 테마를 사용자 정의하거나 다른 작성자와 공유합니다.
 
 1. 도구 모음에서 **테마**&#x200B;를 선택하여 **강의 테마** 패널을 엽니다.
 

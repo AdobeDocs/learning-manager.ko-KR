@@ -4,13 +4,14 @@ title: 대기자 및 출석자 관리
 description: 책임자는 출석과 강의 대기자를 관리할 수 있습니다.
 contentowner: manochan
 exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 72%
-
 ---
-
 # 대기자 및 출석자 관리
 
 책임자는 출석과 강의 대기자를 관리할 수 있습니다.

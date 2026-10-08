@@ -3,13 +3,14 @@ description: 학습자를 위한 L1 피드백 양식 만들기에 대해 자세�
 jcr-language: en_us
 title: L1 피드백 양식
 exl-id: 4e8ed747-898e-43e1-91af-869aa93112bc
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 0%
-
 ---
-
 # L1 피드백 양식
 
 >[!IMPORTANT]

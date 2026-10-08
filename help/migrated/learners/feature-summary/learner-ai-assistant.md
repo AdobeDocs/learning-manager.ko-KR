@@ -3,7 +3,10 @@ description: Adobe Learning Manager의 AI 어시스턴트를 통해 학습 콘�
 jcr-language: en_us
 title: Adobe Learning Manager 학습자용 AI 도우미
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: bcd217fd6bb48aaf475eb29a5de1f67ae862826a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3245'
 ht-degree: 0%
@@ -354,7 +357,7 @@ Adobe Learning Manager의 학습 도우미는 기본 Adobe Learning Manager 콘�
 
 >[!IMPORTANT]
 >
->책임자는 전제 조건으로 학습자 도우미에 필요한 카탈로그를 추가해야 합니다. 자세한 내용은 [AI 도우미 액세스 구성](https://experienceleague.adobe.com/ko/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)을 참조하십시오.
+>책임자는 전제 조건으로 학습자 도우미에 필요한 카탈로그를 추가해야 합니다. 자세한 내용은 [AI 도우미 액세스 구성](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)을 참조하십시오.
 
 
 책임자가 Go1 또는 LinkedIn Learning 카탈로그를 Adobe Learning Manager에 추가하면 카탈로그 콘텐츠가 예약된 수집 프로세스를 거칩니다. 수집이 완료되면 해당 카탈로그의 학습 객체를 Learning Assistant가 쿼리할 수 있습니다.

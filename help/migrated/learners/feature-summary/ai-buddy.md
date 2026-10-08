@@ -3,13 +3,14 @@ description: 학습자용 AI 도우미(Beta)는 학습자가 할당된 학습 �
 jcr-language: en_us
 title: Adobe Learning Manager 학습자용 AI 도우미
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1995'
 ht-degree: 0%
-
 ---
-
 # 학습자용 AI 지원
 
 학습자용 AI 어시스턴트(베타)는 전체 강의를 탐색하지 않고도 할당된 학습 콘텐츠에서 답변을 빠르게 찾을 수 있도록 도와줍니다. 일반 언어로 질문을 하고 관련 강의 콘텐츠에 대한 소스 링크를 통해 정확하고 집중적인 응답을 받을 수 있습니다.
@@ -159,13 +160,13 @@ AI 어시스턴트를 구성하기 전에, 관리자 자격 증명이 있는지 
 
 1. 관리자 권한으로 Adobe Learning Manager에 로그인합니다.
 
-2. 홈 페이지에서 **설정**&#x200B;을 선택합니다.
+2. 홈 페이지에서 **설정**을 선택합니다.
    ![왼쪽 창에 설정 옵션이 있는 관리자 콘솔](assets/settings-menu.png)
 
-3. **설정** 메뉴에서 **학습자 AI 도우미(Beta)**&#x200B;를 선택합니다.
+3. **설정** 메뉴에서 **학습자 AI 도우미(Beta)**를 선택합니다.
    ![관리자 콘솔이 왼쪽 창에 학습자 AI 도우미 옵션을 표시합니다](assets/learner-assistant-ai-beta.png)
 
-4. 토글 스위치를 선택하여 **학습자 AI 도우미(Beta)**&#x200B;를 활성화합니다.
+4. 토글 스위치를 선택하여 **학습자 AI 도우미(Beta)**를 활성화합니다.
    ![관리자 콘솔이 학습자 AI 길잡이에 대해 활성화된 토글을 표시합니다](assets/learner-assistant-toggle.png)
 
 5. **적격 사용자 그룹** 옵션에서 하나 이상의 사용자 그룹을 선택합니다.
@@ -188,10 +189,10 @@ AI Assistant를 실행하려면
 
 1. 학습자로 Adobe Learning Manager에 로그인합니다.
 
-2. 홈 페이지에서 **AI 길잡이에 문의**&#x200B;를 선택합니다.
+2. 홈 페이지에서 **AI 길잡이에 문의**를 선택합니다.
    ![학습자 홈 페이지에 AI 도우미에게 학습자 AI 도우미 패널을 선택하여 열도록 요청합니다](assets/ask-ai-assistant.png)가 표시됩니다.
 
-3. **학습자 AI 도우미** 화면이 나타나면 **시작하기**&#x200B;를 선택합니다.
+3. **학습자 AI 도우미** 화면이 나타나면 **시작하기**를 선택합니다.
    ![시작하기 를 선택하여 학습자 도우미를 시작합니다](assets/get-started-learner-assistant.png)
 
 >[!NOTE]

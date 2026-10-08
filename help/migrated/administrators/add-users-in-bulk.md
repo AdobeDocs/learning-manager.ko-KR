@@ -4,18 +4,19 @@ title: 사용자 일괄 추가
 description: 한 번에 여러 사용자를 추가하는 방법을 알아봅니다.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: 96602899dd76eae14a6b7e1808d529756657e7b8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 23%
-
+source-wordcount: '369'
+ht-degree: 37%
 ---
-
 # 사용자 일괄 추가
 
 >[!INFO]
 >
->이 교육에서는 CSV를 통해 사용자를 일괄 추가하는 방법을 알아봅니다.<br><br>[![단추](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+>이 교육에서는 CSV를 통해 사용자를 일괄 추가하는 방법을 배웁니다.<br><br>[![버튼](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
 교육을 시작할 수 없는 경우 <almacademy@adobe.com>에 작성하세요.
 
@@ -29,9 +30,9 @@ ht-degree: 23%
 
 1. 파일을 가져오고 난 다음, 처음 .csv 파일을 업로드할 때 .csv 파일의 콘텐트를 응용 프로그램 레이블과 매핑합니다.
 
-   이후 업로드하는 모든 파일에는 이전 레이블 설정이 적용됩니다. 데이터 매핑을 완료한 후 **[!UICONTROL 저장]**&#x200B;을 클릭하고 **[!UICONTROL 추가]**&#x200B;를 클릭하여 매핑한 .csv 파일을 업로드합니다.
+   이후 업로드하는 모든 파일에는 이전 레이블 설정이 적용됩니다. 데이터 매핑을 완료한 다음 **[!UICONTROL &#39;저장&#39;]**&#x200B;을 클릭하고 **[!UICONTROL &#39;추가&#39;]**&#x200B;를 클릭하여 매핑한 .csv 파일을 업로드합니다.
 
-1. 데이터 매핑을 완료한 후 **[!UICONTROL 저장]**&#x200B;을 클릭하고 **[!UICONTROL 추가]**&#x200B;를 클릭하여 매핑한 .csv 파일을 업로드합니다.
+1. 데이터 매핑을 완료한 다음 **[!UICONTROL &#39;저장&#39;]**&#x200B;을 클릭하고 **[!UICONTROL &#39;추가&#39;]**&#x200B;를 클릭하여 매핑한 .csv 파일을 업로드합니다.
 
 ## 필수 필드로 CSV 업로드 {#csvuploadwithmandatoryfields}
 

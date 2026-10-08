@@ -4,13 +4,14 @@ title: 관리자를 위한 자주 묻는 질문(FAQ)
 description: Adobe Learning Manager 관리자를 위한 자주 묻는 질문
 contentowner: admin
 exl-id: 4f684d4c-c700-4907-95cd-879df3167c1d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 85%
-
 ---
-
 # 관리자를 위한 자주 묻는 질문(FAQ)
 
 +++관리자는 어떻게 강의에 접속합니까?

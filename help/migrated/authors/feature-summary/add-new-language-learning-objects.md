@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 다른 로케일로 학습 객체 추가
 contentowner: shhivkum
 exl-id: 566ecf70-31ba-423d-a61f-1fe3b7cce531
-source-git-commit: 9b983d6b3b8526e7d92c74b504403bd76180993b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 28%
-
 ---
-
 # 다른 로케일로 학습 객체 추가
 
 이 주제에서 다른 언어로 강의, 인증 및 학습 계획을 추가하는 방법을 알아보십시오.
@@ -60,7 +61,7 @@ Learning Manager를 통해 여러 언어로 학습 개체를 생성할 수 있�
    >강의실 모듈의 절차도 동일합니다.
 
    ![](assets/vc-page.png)
-VC 모듈용 새 언어 추가
+   VC 모듈용 새 언어 추가
 
 7. 각 언어 탭에 **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]**&#x200B;을 입력하고 **[!UICONTROL 추가]**&#x200B;를 선택합니다.
 8. 강의에 필요한 세부 정보를 입력하고 강의를 게시합니다.

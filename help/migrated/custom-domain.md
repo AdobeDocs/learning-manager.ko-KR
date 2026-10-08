@@ -4,13 +4,14 @@ title: 사용자 정의 도메인 지원
 description: 사용자 정의 도메인은 Learning Manager의 Azure 인스턴스에서 지원되지 않습니다.
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: a09c81a6dacbfc4bb55db39e64820ba87ce53d09
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 66%
-
+source-wordcount: '457'
+ht-degree: 78%
 ---
-
 # 사용자 정의 도메인 지원
 
 사용자 정의 도메인은 Learning Manager의 Azure 인스턴스에서 지원되지 않습니다.
@@ -21,17 +22,17 @@ ht-degree: 66%
 
 이렇게 하면 고객은 로그인 및 액세스 환경을 화이트 레이블링할 수 있어 사용자는 Adobe 또는 Adobe Learning Manager의 존재를 보지 못합니다.
 
-예를 들어, 사용자가 Adobe 도메인에 있는 것과 동일한 환경을 얻을 수 있도록 도메인을 사용자 정의하려는 경우. ABC Inc에서 고객을 교육하려면 `abc.com/mylearning`이(가) 아닌 `learningmanager.adobe.com/abc-inc/mylearning`이라는 도메인에 로그인해야 합니다.
+예를 들어, 사용자가 Adobe 도메인에 있는 것과 동일한 환경을 얻을 수 있도록 도메인을 사용자 정의하려는 경우. ABC Inc에서 고객을 교육하려면 `learningmanager.adobe.com/abc-inc/mylearning`이(가) 아닌 `abc.com/mylearning`이라는 도메인에 로그인해야 합니다.
 
 >[!NOTE]
 >
->전제 조건으로 도메인을 등록해야 합니다. 그러면 Adobe이 URL을 사용자 정의하는 과정을 안내합니다.
+>전제 조건으로 도메인에 등록해야 하며 Adobe에서 URL 사용자 정의를 안내합니다.
 
 
-사용자 정의 도메인 기능은 추가 비용으로 사용할 수 있습니다. 자세한 내용은 고객 성공 관리자에게 문의하십시오.
+사용자 정의 도메인 기능은 추가 비용을 내고 사용할 수 있습니다. 자세한 내용은 고객 성공 관리자에게 문의하십시오.
 
 * 학습자 역할의 경우 도메인이 `https://cdn.<customer_custom_domain>/`(예: `https://cdn.elearningstage1.cpdomaintest.in/`)으로 시작합니다.
-* 다른 모든 역할의 경우 도메인이 `https://<customer_custom_domain>/`(으)로 시작합니다. For example, `https://elearningstage1.cpdomaintest.in/`
+* 다른 모든 역할의 경우 도메인이 `https://<customer_custom_domain>/`(으)로 시작합니다. 예: `https://elearningstage1.cpdomaintest.in/`
 * 실제 로그인 URL은 `https://<customer_custom_domain>/acapindex` 또는 `https://<customer_custom_domain>/login`입니다.
 
 >[!NOTE]

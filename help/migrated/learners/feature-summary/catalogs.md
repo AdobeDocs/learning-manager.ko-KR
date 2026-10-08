@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 카탈로그
 contentowner: manochan
 exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
-source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 26%
-
 ---
-
 # 카탈로그
 
 Learning Manager 카탈로그에서 사용 가능한 학습 객체를 확인하는 방법 알아보기

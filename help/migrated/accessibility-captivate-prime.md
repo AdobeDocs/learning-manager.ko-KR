@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Learning Manager의 접근성
 description: 이 문서에서는 장애를 가진 학습자를 위해 Learning Manager 학습 관리 시스템에서 제공하는 접근성 지원을 간략하게 설명합니다. 또한 사용자에게 플랫폼의 탐색 옵션과 접근성 기능도 제공합니다.
 contentowner: saghosh
-source-git-commit: c4d06af2eee167677fef050a3f2885dfd4c91446
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 71%
-
+source-wordcount: '959'
+ht-degree: 78%
 ---
-
 
 # Adobe Learning Manager의 접근성
 
@@ -200,8 +201,8 @@ Learning Manager 학습자 역할은 다음을 포함하지만 이에 제한되�
 
 자세한 내용:
 
-* [학습자용 접근성 적합성 보고서](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
-* [모든 역할에 대한 접근성 적합성 보고서](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
+* [학습자용 접근 적합성 보고서](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
+* [모든 역할용 접근 적합성 보고서](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
 
 ## Learning Manager 최상위 워크플로우(학습자 역할) {#captivateprimetopworkflowslearnerrole}
 
@@ -219,10 +220,10 @@ Learning Manager 학습자 역할은 다음을 포함하지만 이에 제한되�
 
 ## Adobe Learning Manager에서 교육 이용 {#consumeatraininginadobecaptivateprime}
 
-1. 교육이 식별되면 `kbd Tab` 또는 `kbd Shift + Tab`을(를) 사용하여 등록/시작 단추로 이동합니다. 단추 상태는 해당 교육의 등록 상태에 따라 달라집니다.
+1. 교육이 식별되면 `kbd Tab` 또는 `kbd Shift + Tab`을(를) 사용하여 등록/시작 단추로 이동합니다. 버튼 상태는 해당 교육의 등록 상태에 따라 다릅니다.
 
 1. `kbd ENTER`을(를) 눌러 교육을 시작합니다.
-1. 콘텐츠 유형에 관계없이 나타나는 컨트롤은 다음과 같습니다.
+1. 다음은 콘텐츠 유형에 관계없이 표시되는 제어 항목입니다.
 
    * 목차
    * 노트

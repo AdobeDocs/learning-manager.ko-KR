@@ -1,13 +1,14 @@
 ---
 title: Live Hub에서 퀴즈 만들기 및 관리
 description: 강사가 라이브 허브 세션에서 점수를 부여하여 여러 질문 퀴즈를 생성, 편집, 시작 및 관리하고 결과를 학습자와 공유하는 방법을 알아봅니다.
-source-git-commit: 40728879f022d9504f6a0013c8da86365afc7709
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%
-
 ---
-
 
 # 퀴즈 만들기 및 관리
 

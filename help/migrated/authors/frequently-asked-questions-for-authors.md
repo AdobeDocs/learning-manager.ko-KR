@@ -4,13 +4,14 @@ title: 작성자를 위한 자주 묻는 질문(FAQ)
 description: Adobe Learning Manager 작성자를 위한 자주 묻는 질문
 contentowner: admin
 exl-id: 11abbf52-e381-46be-8b33-30abe62b8015
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 77%
-
 ---
-
 # 작성자를 위한 자주 묻는 질문(FAQ)
 
 <table>
@@ -43,16 +44,16 @@ ht-degree: 77%
 
 자세한 내용은 [Adobe Learning Manager: Adobe Captivate 9의 Publish 모듈](http://primehelp.adobe.com/kr/publish-modules-from-adobe-captivate9/)비디오를 참조하십시오.
 
-자세한 절차는 Adobe Captivate 9 [도움말 내용](http://helpx.adobe.com/kr/captivate/using/publish-project-to-captivate-prime.html)을 참조할 수도 있습니다.
+자세한 절차는 Adobe Captivate 9 [도움말 내용](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html)을 참조할 수도 있습니다.
 
 참고\
-Adobe Captivate 9 [도움말 내용](http://helpx.adobe.com/kr/captivate/using/publish-project-to-captivate-prime.html)은(는) Learning Manager 도움말 응용 프로그램의 외부에 있습니다.
+Adobe Captivate 9 [도움말 내용](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html)은(는) Learning Manager 도움말 응용 프로그램의 외부에 있습니다.
 
 +++
 
 +++Learning Manager에서 강의 모듈을 선택하려면 어떻게 해야 합니까?
 
-강의 모듈을 선택하는 방법을 알아보려면 [여기](https://helpx.adobe.com/content/help/kr/captivate-prime/authors/how-to-choose-modules.html)를 클릭하십시오.
+강의 모듈을 선택하는 방법을 알아보려면 [여기](https://helpx.adobe.com/content/help/en/captivate-prime/authors/how-to-choose-modules.html)를 클릭하십시오.
 
 +++
 
@@ -163,7 +164,7 @@ Adobe Captivate 9 [도움말 내용](http://helpx.adobe.com/kr/captivate/using/p
 
 +++필터링하여 특정 강의의 세트를 보려면 어떻게 해야 합니까?
 
-강의를 필터링하려면 상태 옵션의 강의 필터를 사용합니다. 자세한 내용은 [강의를 검색하려면 어떻게 해야 합니까?](https://helpx.adobe.com/content/help/kr/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)를 확인하십시오.
+강의를 필터링하려면 상태 옵션의 강의 필터를 사용합니다. 자세한 내용은 [강의를 검색하려면 어떻게 해야 합니까?](https://helpx.adobe.com/content/help/en/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)를 확인하십시오.
 
 +++
 

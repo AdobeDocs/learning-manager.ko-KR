@@ -1,13 +1,14 @@
 ---
 title: Live Hub 세션에 학습자로 참여
 description: 학습자가 라이브 허브 세션에 참여하여 채팅, 투표, 퀴즈 및 회의실을 사용하여 참여하는 방법과 이후에 녹화를 검토하는 방법을 알아봅니다.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
-
 ---
-
 
 # Live Hub 세션에 학습자로 참여
 

@@ -4,13 +4,14 @@ title: Webhook
 description: 강의 등록, 강의 생성 및 기타 정보와 같은 실시간 정보를 특정 URL로 전송하는 Webhook에 대해 알아봅니다.
 contentowner: chandrum
 exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1648'
 ht-degree: 0%
-
 ---
-
 # Webhook
 
 ## 소개
@@ -287,7 +288,7 @@ Adobe Learning Manager에서는 **학습 경로(학습 프로그램)**&#x200B;�
 
 재할당, 알림 또는 인증 및 배지 재계산과 같은 **다운스트림 워크플로 트리거**.
 
-학습자 및 학습 경로 식별자와 함께 eventId, timestamp 및 eventInfo를 기록하여 **감사 추적을 유지**&#x200B;합니다.
+**이벤트 ID, 타임스탬프, 이벤트 정보를 학습자 및 학습 경로 식별자와 함께 기록하여 감사 추적을 유지**&#x200B;합니다.
 
 Webhook 처리기는 최소한 다음 작업을 수행해야 합니다.
 

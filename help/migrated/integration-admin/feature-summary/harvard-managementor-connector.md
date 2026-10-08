@@ -3,13 +3,14 @@ description: Harvard ManageMentor를 Adobe Learning Manager과 통합하는 방�
 jcr-language: en_us
 title: Harvard ManageMentor 커넥터
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager의 Harvard ManageMentor 커넥터
 
@@ -144,5 +145,5 @@ Harvard ManageMentor 커넥터를 설정한 후 Adobe Learning Manager에서 연
 
 **샘플 파일**
 
-- [Harvard ManageMentor 커넥터의 과정 메타데이터 파일](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=ko)
-- [Harvard ManageMentor 커넥터의 사용자 피드 파일](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=ko)
+- [Harvard ManageMentor 커넥터의 과정 메타데이터 파일](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=en)
+- [Harvard ManageMentor 커넥터의 사용자 피드 파일](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=en)

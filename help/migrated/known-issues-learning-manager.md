@@ -4,13 +4,14 @@ title: Learning Manager의 알려진 문제
 description: 다음은 각 Learning Manager 업데이트에 대한 알려진 문제의 모음집입니다. 이 목록은 누적되며 이전 업데이트의 알려진 문제를 포함합니다.
 contentowner: saghosh
 preview: true
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 62%
-
 ---
-
 
 
 # Learning Manager의 알려진 문제
@@ -51,7 +52,7 @@ ht-degree: 62%
   </tr> 
   <tr> 
    <td><p>37</p></td> 
-   <td><p>Internet Explorer v11.1478.10586.0으로 특정 학습 객체 몇 가지에 접근하면 Learning Manager와 충돌하였습니다.</p></td> 
+   <td><p>Internet Explorer v11.1478.10586.0으로 특정 학습 객체 몇 가지에 접근하면 Learning Manager가 충돌 상태가 될 수 있습니다.</p></td> 
   </tr> 
  </tbody>
 </table>

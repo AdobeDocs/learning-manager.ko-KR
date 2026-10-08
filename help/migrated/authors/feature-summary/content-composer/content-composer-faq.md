@@ -2,13 +2,14 @@
 description: 개요 편집, 퀴즈 동작, Captivate 호환성, 게시 및 검토용으로 공유에 대해 일반적인 Content Composer 질문에 대한 답변을 찾아보십시오.
 jcr-language: en_us
 title: Adobe Learning Manager Content Composer FAQ
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager Content Composer FAQ
 

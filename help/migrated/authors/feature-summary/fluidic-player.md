@@ -4,13 +4,14 @@ title: 학습자로 미리 보기
 description: Fluidic Player는 끊김 없는 혼합 학습 경험을 제공하는 학습자용 콘텐츠 수료 플랫폼입니다. 이 플레이어에서는 지원되는 모든 형식을 끊임없이 플레이할 수 있습니다. 작성자 및 책임자는 플레이어를 사용하여 콘텐트를 미리 보기할 수 있습니다.
 contentowner: manochan
 exl-id: 68d43f50-f2ad-4c7e-8e5b-62ddd8097770
-source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 68%
-
 ---
-
 # 학습자로 미리 보기
 
 ## Fluidic Player {#fluidicplayer}

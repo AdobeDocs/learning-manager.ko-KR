@@ -1,13 +1,14 @@
 ---
 title: Live Hub에서 참가자가 손을 올리고 반응을 관리합니다.
 description: 강사가 학습자의 반응을 보고 라이브 허브 세션을 구성하기 위해 한 손 또는 모든 손을 내리는 방법을 알아봅니다.
-source-git-commit: 6d62c8aaf23db075cdf2a97aeaf3053742145313
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
-
 ---
-
 
 # 참가자의 손을 들어 반응 관리
 

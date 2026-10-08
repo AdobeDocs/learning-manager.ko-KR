@@ -3,7 +3,10 @@ description: AI 어시스턴트를 사용하여 가상 코치 롤플레이를 �
 jcr-language: en_us
 title: 가상 코치 역할을 위한 자료 수집
 exl-id: 1a119554-af8d-445a-9c19-010dafd3e7ab
-source-git-commit: 8bde6827835a7f8cd8cc28f3d2c4014527e4a96c
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%

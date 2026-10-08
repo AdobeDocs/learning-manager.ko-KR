@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 태그
 contentowner: dvenkate
 exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 71%
-
 ---
-
 # 태그
 
 이제 책임자는 Learning Manager에서 태그를 관리할 수 있습니다. 더 나은 태그 및 관리 가능한 데이터베이스를 사용하면 학습자가 더 나은 검색을 수행하고 적절한 검색 결과를 신속하게 얻는 데 도움이 됩니다. 이 기능을 사용하면 중복, 잘못된 철자 및 관련 없는 태그를 관리할 수 있습니다. 또한, 태그를 추가, 편집, 삭제, 확장 및 교체할 수 있습니다.
@@ -40,7 +41,7 @@ ht-degree: 71%
 
 1. 한 번에 하나의 태그만 편집할 수 있습니다. 태그를 편집하려면 다음 단계를 따르십시오.
 
-   * 편집할 태그를 선택하고 > **[!UICONTROL 작업]**&#x200B;드롭다운 메뉴를 열고 > **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
+   * 편집할 태그를 선택하고 > **[!UICONTROL 작업]**드롭다운 메뉴를 열고 > **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
    **[!UICONTROL 태그 편집]** 대화 상자가 나타납니다. 새 태그 이름을 입력하고 **[!UICONTROL &#39;확인&#39;]**&#x200B;을 클릭합니다.
 

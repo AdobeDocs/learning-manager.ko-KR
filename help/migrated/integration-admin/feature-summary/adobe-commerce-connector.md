@@ -3,13 +3,14 @@ description: Adobe Commerce 커넥터 통합 방법 알아보기
 jcr-language: en_us
 title: Adobe Commerce 커넥터
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 4%
-
 ---
-
 
 # Adobe Learning Manager의 Adobe Commerce 커넥터
 
@@ -27,8 +28,8 @@ Adobe Learning Manager은 B2B 및 B2C 고객을 위해 다중 채널 상거래 �
 
 Adobe Commerce 커넥터를 설정하기 전에 다음 사항을 확인하십시오.
 
-- [RabbitMQ](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/start/overview) 또는 기타 메시징 브로커를 사용하도록 설정하십시오.
-- [CRON](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/start/overview#cron_consumers_runner) 작업을 활성화합니다.
+- [RabbitMQ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/overview) 또는 기타 메시징 브로커를 사용하도록 설정하십시오.
+- [CRON](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/overview#cron_consumers_runner) 작업을 활성화합니다.
 
 이 기능을 활성화하려면 다음 파일을 편집하십시오.
 
@@ -41,9 +42,9 @@ Adobe Commerce 커넥터를 설정하기 전에 다음 사항을 확인하십시
 - 사용자 정의 모듈을 사용하여 옵션 제한을 재정의합니다. 이 단계는 선택 사항이지만 대규모 데이터 세트에는 권장됩니다.
 - 모든 **비동기 API**&#x200B;를 사용하도록 설정합니다. 대규모 교육 데이터 세트는 비동기적으로 내보내집니다. Learning Manager에서 Adobe Commerce API를 호출하면 요청은 상거래 측에서 제품을 생성하는 소비자가 대기열에 추가되어 처리됩니다. 비동기 처리는 Adobe Commerce에서 기본적으로 사용할 수 없으므로 활성화해야 합니다.
 - Adobe Commerce의 결제 성공 페이지에서 Learning Manager에 **반환 링크**&#x200B;를 추가합니다.
-   - 이 [반환 URL](https://learningmanager.adobe.com/app/learner#/postPayment) 사용:
-- **인덱싱**&#x200B;을 **저장 시**&#x200B;에서 **예약**(으)로 변경합니다. 자세한 내용은 [기술 자료](https://experienceleague.adobe.com/ko/support?support-tab=home#home)를 참조하세요.
-- 필요한 **패치**&#x200B;를 적용합니다. 지침은 [패치 적용 설명서](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/start/overview)를 참조하십시오.
+  - 이 [반환 URL](https://learningmanager.adobe.com/app/learner#/postPayment) 사용:
+- **인덱싱**&#x200B;을 **저장 시**&#x200B;에서 **예약**(으)로 변경합니다. 자세한 내용은 [기술 자료](https://experienceleague.adobe.com/en/support?support-tab=home#home)를 참조하세요.
+- 필요한 **패치**&#x200B;를 적용합니다. 지침은 [패치 적용 설명서](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/overview)를 참조하십시오.
 - 클라우드 인프라(스테이징 및 프로덕션)에서 Adobe Commerce에 대해 **Fastly**&#x200B;를 구성하십시오. 자세한 내용은 [Fastly 설정](https://devdocs.magento.com/cloud/cdn/configure-fastly.html)을 참조하세요.
 
 ## 커넥터 구성

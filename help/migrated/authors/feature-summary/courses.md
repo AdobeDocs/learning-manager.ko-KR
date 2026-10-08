@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 강의 생성, 수정 및 게시
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 69b71c03b9efa8726d939b53a185d5efb8eb9cca
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '10239'
 ht-degree: 56%
-
 ---
-
 # 강의 생성, 수정 및 게시
 
 Learning Manager 강의, 인증, 학습 프로그램을 생성하는 방법을 알아보려면 이 문서를 읽어 보십시오.
@@ -795,7 +796,7 @@ Adobe Learning Manager은 작성자에게 여러 콘텐츠 모듈로 구성된 �
 체크리스트 주석을 사용하면 작성자가 체크리스트 기반 평가 중에 **상황에 맞는 피드백**&#x200B;을 사용할 수 있습니다.\
 활성화되면 검토자(강사 또는 관리자)가 평가 결과를 점수 또는 합격/불합격 상태 이상으로 설명하는 주석을 추가할 수 있습니다.
 
-이 기능은 순수한 평가 도구의 체크리스트를 **피드백 기반 학습 메커니즘**&#x200B;으로 변환하여 학습자 이해, 투명도 및 후속 작업을 개선합니다.
+학습자 이해, 투명성 및 후속 작업을 향상하는 **피드백 기반 학습 도구로 평가되는 이 변환 0 메커니즘입니다.**
 
 이를 통해 작성자는 다음을 수행할 수 있습니다.
 
@@ -1240,7 +1241,7 @@ Adobe Captivate 및 Adobe Presenter 소프트웨어에서 &#39;게시&#39; 메�
 1. Adobe 자격 증명으로 로그인합니다. Adobe ID가 없다면 **[!UICONTROL 계정 만들기]**&#x200B;를 클릭합니다. 인증을 하면 모듈 게시 페이지로 이동합니다.
 1. 모듈에 대한 기본 정보를 입력한 다음 &#39;게시&#39;를 클릭합니다.
 
-Learning Manager 모듈 페이지에 게시된 모듈이 표시됩니다. 자세한 내용은 [Adobe Learning Manager에 프로젝트 게시](https://helpx.adobe.com/kr/captivate/classic/publish-project-to-captivate-prime.html)를 참조하십시오.
+Learning Manager 모듈 페이지에 게시된 모듈이 표시됩니다. 자세한 내용은 [Adobe Learning Manager에 프로젝트 게시](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)를 참조하십시오.
 
 ## 강의 효과 {#courseeffectiveness}
 

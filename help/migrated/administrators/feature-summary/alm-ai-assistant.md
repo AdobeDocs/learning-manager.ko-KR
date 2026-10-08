@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Learning Manager의 Admin AI Assistant (Beta)
 description: Adobe Learning Manager Admin AI Assistant(Beta)에 대해 자세히 알아보기
 exl-id: af3d935b-c158-4a8e-9282-62251d29249c
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 1%
-
 ---
-
 # Adobe Learning Manager의 Admin AI Assistant (Beta)
 
 ## 소개
@@ -86,19 +87,19 @@ Admin AI Assistant(Beta)를 사용하려면
 다음은 관리자가 Admin AI Assistant(Beta)를 효과적으로 활용하는 데 사용할 수 있는 몇 가지 프롬프트 예시입니다.
 
 * **사용자에게 강의 할당**
-   * **프롬프트**: &quot;사용자에게 강의를 할당하려면 어떻게 해야 합니까?&quot;
+  * **프롬프트**: &quot;사용자에게 강의를 할당하려면 어떻게 해야 합니까?&quot;
 
   ![](assets/prompt-1.png)
   _사용자에게 강의를 할당하려면 어떻게 해야 합니까?_ 프롬프트에 대한 응답
 
 * **최신 등록 보고서**
-   * **확인**: 최신 등록 보고서를 표시합니다.
+  * **확인**: 최신 등록 보고서를 표시합니다.
 
   ![](assets/prompt-2.png)
   _최신 등록 보고서 표시 프롬프트에 대한 응답_
 
 * **사용자 삭제**
-   * **프롬프트**: &quot;사용자를 삭제하려면 어떻게 해야 합니까?&quot;
+  * **프롬프트**: &quot;사용자를 삭제하려면 어떻게 해야 합니까?&quot;
 
   ![](assets/prompt-3.png)
   _사용자를 삭제하는 방법에 대한 응답_

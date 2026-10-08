@@ -3,13 +3,14 @@ description: 관리자로 Learning Manager를 시작합니다.
 jcr-language: en_us
 title: 관리자로 시작하기
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 90%
-
 ---
-
 
 # 관리자로 시작하기
 

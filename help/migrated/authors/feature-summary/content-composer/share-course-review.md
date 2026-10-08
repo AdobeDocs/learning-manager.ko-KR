@@ -3,13 +3,14 @@ description: 검토용으로 Content Composer 프로젝트를 공유하는 방�
 jcr-language: en_us
 title: 검토할 프로젝트 공유
 hide: true
-source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
-
 ---
-
 
 # 검토용으로 프로젝트 공유
 

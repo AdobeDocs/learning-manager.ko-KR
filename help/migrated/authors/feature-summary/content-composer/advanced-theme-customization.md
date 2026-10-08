@@ -2,13 +2,14 @@
 description: 콘텐츠 컴포저의 고급 테마 속성을 사용하여 머리글 및 텍스트 요소의 글꼴, 색상, 간격 및 레이아웃을 사용자 정의하는 방법을 살펴보세요.
 jcr-language: en_us
 title: 고급 테마 사용자 정의
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
-
 ---
-
 
 # 콘텐츠 컴포저의 고급 테마 사용자 정의
 
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 고급 테마 속성을 사용하여 강의 이름, 주제 이름, 블록 제목, 부제목, 캡션, 단락 등 개별 요소를 보다 세부적으로 제어할 수 있습니다.
 
-1. **테마**&#x200B;를 선택하고 적용된 테마 위로 마우스를 가져간 다음 **편집**&#x200B;을 선택하고 **고급**&#x200B;을 선택합니다.
+1. **테마**&#x200B;를 선택하고 적용된 테마 위로 마우스를 가져간 다음 **편집**&#x200B;을 선택하고 **고급**을 선택합니다.
    ![테마 편집 패널의 고급 단추](../assets/41_edit_theme_advanced_button_updated.png)
 
 2. 글꼴 속성 패널에서 강의의 **글꼴 페어링**&#x200B;을 설정합니다.

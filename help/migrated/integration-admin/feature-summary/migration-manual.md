@@ -3,13 +3,14 @@ description: 기존 LMS를 Adobe Learning Manager LMS로 마이그레이션하�
 jcr-language: en_us
 title: 마이그레이션 설명서
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 56ecd41e891d06f61ae7178280b85d6ffe918738
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '8322'
+source-wordcount: '8327'
 ht-degree: 39%
-
 ---
-
 # 마이그레이션 설명서
 
 기존 LMS를 Learning Manager LMS로 마이그레이션하려는 통합 책임자를 위한 참조 설명서
@@ -783,11 +784,11 @@ GET /bulkimport/runStatus
 
 **매개 변수**
 
-* **migrationProjectId**: (필수). 마이그레이션 프로젝트의 고유 식별자입니다. 마이그레이션 프로젝트는 기존 LMS(교육 관리 시스템)에서 Adobe Learning Manager으로 데이터와 콘텐츠를 전송하는 데 사용됩니다. 각 마이그레이션 프로젝트는 마이그레이션 작업 단위의 작은 스프린트인 다중 스프린트로 구성될 수 있습니다.
+* **migrationProjectId**: (필수). 마이그레이션 프로젝트의 고유 식별자. 마이그레이션 프로젝트는 기존 LMS(교육 관리 시스템)에서 Adobe Learning Manager으로 데이터와 콘텐츠를 전송하는 데 사용됩니다. 각 마이그레이션 프로젝트는 마이그레이션 작업 단위의 작은 스프린트인 다중 스프린트로 구성될 수 있습니다.
 
-* **sprintId**: (필수). 마이그레이션 프로젝트 내 스프린트의 고유 식별자입니다. 스프린트는 기존 LMS에서 Adobe Learning Manager으로 마이그레이션할 특정 학습 항목(예: 강의, 모듈, 학습자 기록)이 포함된 마이그레이션 작업의 하위 집합입니다. 각 스프린트는 독립적으로 실행될 수 있어 단계적인 마이그레이션이 가능합니다.
+* **sprintId**: (필수). 마이그레이션 프로젝트 내의 스프린트에 대한 고유 식별자. 스프린트는 기존 LMS에서 Adobe Learning Manager으로 마이그레이션할 특정 학습 항목(예: 강의, 모듈, 학습자 기록)이 포함된 마이그레이션 작업의 하위 집합입니다. 각 스프린트는 독립적으로 실행될 수 있어 단계적인 마이그레이션이 가능합니다.
 
-* **sprintRunId**:(필수). 마이그레이션 프로젝트 내에서 특정 스프린트의 실행을 추적하는 데 사용되는 고유 식별자입니다. 스프린트에 정의된 항목의 실제 마이그레이션 프로세스와 연결됩니다. sprintRunId는 마이그레이션 작업을 모니터링, 문제 해결 및 관리하는 데 유용합니다.
+* **sprintRunId**:(필수). 마이그레이션 프로젝트 내에서 특정 스프린트의 실행을 추적하는 데 사용되는 고유한 식별자. 스프린트에 정의된 항목의 실제 마이그레이션 프로세스와 연결됩니다. sprintRunId는 마이그레이션 작업을 모니터링, 문제 해결 및 관리하는 데 유용합니다.
 
 **응답**
 
@@ -862,7 +863,7 @@ curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/prim
 
 3-learning_program_enrollment.xlsx-에는 retrofit_learning_program_enrollment.csv 파일에 필요한 메타 데이터에 대한 설명이 포함되어 있습니다.
 
-4-user_course_grades.xlsx-retrofit_user_course_grades.csv 파일에 필요한 메타데이터의 설명이 포함되어 있습니다.
+4-user_course_grades.xlsx-에는 retrofit_user_course_grades.csv 파일에 필요한 메타 데이터에 대한 설명이 포함되어 있습니다.
 [csv-specifications.zip](assets/csv-specifications.zip)
 
 >[!NOTE]
@@ -938,7 +939,7 @@ VILT 세션 마이그레이션과 관련된 4개의 CSV 파일:
 
 [여기](assets/csv-and-xlsx-migration-files.zip)에서 위의 파일을 다운로드합니다.
 
-4개의 CSV 파일 모두 `almCourseID`을(를) 참조 강의에, `almModuleID`을(를) 참조 모듈에 허용합니다. 이러한 ID는 강의 또는 모듈을 생성할 때 ALM이 할당한 고유 식별자입니다.
+4개의 CSV 파일 모두 `almCourseID`을(를) 참조 강의에, `almModuleID`을(를) 참조 모듈에 허용합니다. 이러한 ID는 강의 또는 식별자 생성 시 ALM이 할당한 고유 모듈입니다.
 
 ### 강의 및 학습 경로 인스턴스 시작 날짜 설정
 
@@ -1193,7 +1194,7 @@ LTI 모듈 버전을 생성할 때:
 
 #### 먼저 폴더 계층 구조를 계획합니다
 
-CSV를 준비하기 전에 소스 시스템의 폴더 또는 범주 구조를 Adobe Learning Manager의 3단계 계층 구조에 매핑하십시오. Adobe Learning Manager은 최대 세 가지 레벨(레벨 1 → 레벨 2 → 레벨 3)의 깊이를 지원합니다. 소스 시스템의 중첩 수준이 더 깊은 경우에는 마이그레이션하기 전에 세 가지 수준으로 병합하십시오.
+CSV를 준비하기 전에 소스 시스템의 폴더 또는 범주 구조를 Adobe Learning Manager의 3단계 계층 구조에 매핑하십시오. Adobe Learning Manager은 최대 깊이를 세 가지 수준(수준 1 → 수준 2 → 수준 3)으로 지원합니다. 소스 시스템의 중첩 수준이 더 깊은 경우에는 마이그레이션하기 전에 세 가지 수준으로 병합하십시오.
 
 >[!NOTE]
 >
@@ -1207,7 +1208,7 @@ CSV를 준비하기 전에 소스 시스템의 폴더 또는 범주 구조를 Ad
 
 | 열 | 필수 | 설명 |
 | --- | --- | --- |
-| `id` | 예 | 이 폴더에 할당한 고유 식별자입니다. 이는 자신의 참조 ID입니다. 예를 들어 소스 시스템의 범주 ID가 이에 해당합니다. 파일 내에서 상위 및 하위 폴더를 연결하고 마이그레이션을 안전하게 다시 실행할 수 있도록 하는 데 사용됩니다. |
+| `id` | 예 | 이 폴더에 할당한 고유 식별자. 이는 자신의 참조 ID입니다. 예를 들어 소스 시스템의 범주 ID가 이에 해당합니다. 파일 내에서 상위 및 하위 폴더를 연결하고 마이그레이션을 안전하게 다시 실행할 수 있도록 하는 데 사용됩니다. |
 | `name` | 예 | 폴더의 표시 이름입니다. 최대 63자. 슬래시(`/`)를 포함할 수 없습니다. 상위 항목이 동일한 폴더 간에 고유해야 합니다. |
 | `description` | 아니오 | 폴더에 대한 선택적 설명입니다. 최대 2,046자. |
 | `parentExternalId` | 아니오 | 상위 폴더의 `id`입니다. 레벨 1(루트) 폴더는 비워 둡니다. 수준 2 폴더의 경우 수준 1 부모의 `id`을(를) 입력합니다. 수준 3 폴더의 경우 수준 2 부모의 `id`을(를) 입력합니다. |
@@ -1234,7 +1235,7 @@ folder_005,Compliance,,folder_004,CREATE_FOLDER
 **유효성 검사 규칙:**
 
 * 폴더는 자체 조상이 될 수 없습니다. 순환 참조는 허용되지 않습니다.
-* 최대 폴더 깊이는 3 수준(수준 1 → 수준 2 → 수준 3)입니다.
+* 최대 폴더 깊이는 레벨 3개(레벨 1 → 레벨 2 → 레벨 3)입니다.
 * 상위 폴더가 같은 두 폴더는 이름이 같을 수 없습니다.
 * `parentExternalId`은(는) 동일한 CSV 파일의 다른 행을 참조하거나 이미 계정에 있는 기존 폴더를 참조해야 합니다
 * 상위 폴더는 파일에서 하위 폴더 앞에 표시되어야 합니다

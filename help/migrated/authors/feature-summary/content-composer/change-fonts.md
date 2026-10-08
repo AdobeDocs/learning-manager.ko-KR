@@ -2,13 +2,14 @@
 description: 테마를 편집한 다음 변경 내용을 저장하거나 새 사용자 정의 테마를 만들어 콘텐츠 컴포저에서 제목 및 본문 글꼴을 변경하는 방법을 알아봅니다.
 jcr-language: en_us
 title: 글꼴 변경
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
-
 ---
-
 
 # 글꼴 변경
 

@@ -4,13 +4,14 @@ title: Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 description: 흰색 레이블링은 앱 또는 서비스를 자신의 브랜드로 리브랜딩하고 원본 작성자인 것처럼 사용자 정의하는 관행입니다. Adobe Learning Manager에서는 모바일 앱에 흰색 레이블 지정을 적용하여 앱을 다시 브랜딩하고 사용자가 나만의 브랜드로 앱을 사용할 수 있도록 할 수 있습니다.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2184'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager 모바일 앱의 흰색 레이블 지정
 
 이제 Adobe Learning Manager 모바일 앱에서 흰색 레이블 지정을 지원합니다. 즉, 이제 고유한 브랜딩으로 앱을 출시할 수 있습니다.
@@ -45,214 +46,110 @@ ALM은 다음 타임라인에 따라 업데이트된 흰색 레이블의 이진 
 
 ### 필드
 
-<table>
-
- <tbody>
-
-  <tr>
-
-   <td>
-
-    <p>계정 ID</p>
-
-   </td>
-
-   <td>
-
-    <p>계정의 ID입니다. 흰색 레이블이 지정된 앱은 다른 계정에 속하는 학습자는 액세스할 수 없습니다.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>추가 계정 ID</p>
-
-   </td>
-
-   <td>
-
-    <p>원하는 경우 여러 계정(하위 도메인)을 추가합니다. 하위 도메인을 공백 없이 쉼표로 구분된 하위 도메인으로 추가합니다. 예를 들어 acc01,acc02,acc03 등이 있습니다.<br> <b>참고:</b> 하위 도메인을 지정할 때 계정 ID를 추가해야 합니다.</br> </p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>앱 이름</p></td>
-
-   <td>
-
-    <p>앱에 사용할 이름입니다.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>앱 짧은 이름</p>
-
-   </td>
-
-   <td>
-
-    <p>앱 이름이 긴 경우 디바이스에 표시되는 짧은 이름을 앱에 지정합니다.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>내부 앱 이름</p></td>
-
-   <td>
-
-    <p>OS가 앱을 식별하는 데 사용되는 이름입니다. 일반적으로 사용되는 형식은 com.company-name.product-name입니다.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>내부 앱 이름-iOS</p>
-
-   </td>
-
-   <td>
-
-    <p>사용자가 iOS을 사용하는 경우 앱의 이름을 다르게 지정합니다. iOS과 Android 모두에 동일한 이름을 사용하는 것이 좋습니다.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>앱 아이콘</p>
-
-   </td>
-
-   <td>
-
-    <p>앱 아이콘(png). 이 아이콘은 앱에 표시됩니다. 이름 형식은 account-id_appIcon.png입니다. 앱 아이콘의 크기는 512 × 512픽셀입니다.<div>Apple은 앱 아이콘에서 Alpha 채널을 허용하지 않습니다. 따라서 제출하기 전에 에셋에서 Alpha 채널을 제거해야 합니다.</div></p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>앱 시작 화면</p></td>
-
-   <td>
-
-    <p>앱의 시작 화면에 사용자가 앱을 실행할 때 표시되는 이미지(png)를 제공합니다. 이름을 지정할 형식은 account-id_splashIcon.png입니다. 정사각형 기반 스플래시 화면의 크기는 1052 × 1052 픽셀이며 원형 기반 스플래시 화면은 768 x 768 픽셀입니다.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>클라이언트 ID 및 클라이언트 암호</p>
-
-   </td>
-
-   <td>
-
-    <p>앱을 등록하는 동안 계정의 통합 관리자가 세부 정보를 제공합니다. 통합 책임자는 다음을 사용해야 합니다.<ul><li>학습자:읽기,학습자:역할로 쓰기</li><li>내부 앱 name://redirect 리디렉션 URL</li></ul></p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>계정 로고</p>
-
-   </td>
-
-   <td>
-
-    <p>조직의 로고를 호스팅하는 URL입니다. 계정 로고로 cpcontents 링크를 제공합니다. URL은 웹으로 인코딩해야 합니다.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>앱의 앱 스토어 ID(iOS)</p>
-
-   </td>
-
-   <td>
-
-    <p>강제 업데이트를 구현하는 데 필요한 ID입니다. 앱을 업데이트하려면 학습자가 App Store로 리디렉션되어야 함을 앱이 알아야 합니다.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>앱의 Google play 스토어 id(Android)</p>
-
-   </td>
-
-   <td>
-
-    <p>강제 업데이트를 구현하는 데 필요한 ID입니다.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>딥 링크용 호스트 이름</p>
-
-   </td>
-
-   <td>
-
-    <p>딥 링크를 호스팅하려면 learningmanager를 사용합니다. 다른 호스트 이름 URL을 딥 링크로 사용하려면 호스트의 URL을 제공합니다. 예: learningmanager.adobe.com.</p>
-
-   </td>
-
-  </tr>
-
- </tbody>
-
+<table>
+ <tbody>
+  <tr>
+   <td>
+    <p>계정 ID</p>
+   </td>
+   <td>
+    <p>계정의 ID입니다. 흰색 레이블이 지정된 앱은 다른 계정에 속하는 학습자는 액세스할 수 없습니다.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>추가 계정 ID</p>
+   </td>
+   <td>
+    <p>원하는 경우 여러 계정(하위 도메인)을 추가합니다. 하위 도메인을 공백 없이 쉼표로 구분된 하위 도메인으로 추가합니다. 예를 들어 acc01,acc02,acc03 등이 있습니다.<br> <b>참고:</b> 하위 도메인을 지정할 때 계정 ID를 추가해야 합니다.</br> </p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>앱 이름</p></td>
+   <td>
+    <p>앱에 사용할 이름입니다.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>앱 짧은 이름</p>
+   </td>
+   <td>
+    <p>앱 이름이 긴 경우 디바이스에 표시되는 짧은 이름을 앱에 지정합니다.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>내부 앱 이름</p></td>
+   <td>
+    <p>OS가 앱을 식별하는 데 사용되는 이름입니다. 일반적으로 사용되는 형식은 com.company-name.product-name입니다.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>내부 앱 이름-iOS</p>
+   </td>
+   <td>
+    <p>사용자가 iOS을 사용하는 경우 앱의 이름을 다르게 지정합니다. iOS과 Android 모두에 동일한 이름을 사용하는 것이 좋습니다.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>앱 아이콘</p>
+   </td>
+   <td>
+    <p>앱 아이콘(png). 이 아이콘은 앱에 표시됩니다. 이름 형식은 account-id_appIcon.png입니다. 앱 아이콘의 크기는 512 × 512픽셀입니다.<div>Apple에서는 앱 아이콘에 알파 채널을 사용할 수 없습니다. 따라서 제출하기 전에 에셋에서 알파 채널을 제거해야 합니다.</div></p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>앱 시작 화면</p></td>
+   <td>
+    <p>앱의 시작 화면에 사용자가 앱을 실행할 때 표시되는 이미지(png)를 제공합니다. 이름을 지정할 형식은 account-id_splashIcon.png입니다. 정사각형 기반 스플래시 화면의 크기는 1052 × 1052 픽셀이며 원형 기반 스플래시 화면은 768 x 768 픽셀입니다.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>클라이언트 ID 및 클라이언트 암호</p>
+   </td>
+   <td>
+    <p>앱을 등록하는 동안 계정의 통합 관리자가 세부 정보를 제공합니다. 통합 책임자는 다음을 사용해야 합니다.<ul><li>학습자:읽기,학습자:역할로 쓰기</li><li>내부 앱 name://redirect 리디렉션 URL</li></ul></p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>계정 로고</p>
+   </td>
+   <td>
+    <p>조직의 로고를 호스팅하는 URL입니다. 계정 로고로 cpcontents 링크를 제공합니다. URL은 웹으로 인코딩해야 합니다.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>앱의 앱 스토어 ID(iOS)</p>
+   </td>
+   <td>
+    <p>강제 업데이트를 구현하는 데 필요한 ID입니다. 앱을 업데이트하려면 학습자가 App Store로 리디렉션되어야 함을 앱이 알아야 합니다.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>앱의 Google play 스토어 id(Android)</p>
+   </td>
+   <td>
+    <p>강제 업데이트를 구현하는 데 필요한 ID입니다.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>딥 링크용 호스트 이름</p>
+   </td>
+   <td>
+    <p>딥 링크를 호스팅하려면 learningmanager를 사용합니다. 다른 호스트 이름 URL을 딥 링크로 사용하려면 호스트의 URL을 제공합니다. 예: learningmanager.adobe.com.</p>
+   </td>
+  </tr>
+ </tbody>
 </table>
 
 >[!NOTE]
@@ -360,7 +257,7 @@ services.json 파일을 다운로드하려면 다음 단계를 따르십시오.
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
 
-AWS에서 SNS 서비스에 항목을 추가하려면 CSM 팀에 연락하고 JSON 파일을 공유하십시오. 사용자는 푸시 알림을 위해 SNS 서비스에 등록된 항목을 가져와야 하며, 이 경우 유효성 검사를 위해 위에서 생성한 인증서를 공유해야 합니다.
+CSM 팀에 연락하여 AWS에서 SNS 서비스에 항목을 추가하는 JSON 파일을 공유하십시오. 사용자는 푸시 알림을 위해 SNS 서비스에 등록된 항목을 가져와야 하며, 이 경우 유효성 검사를 위해 위에서 생성한 인증서를 공유해야 합니다.
 
 ## Firebase에서 프로젝트 만들기 {#create-project-in-firebase}
 
@@ -372,7 +269,7 @@ Firebase에서 [프로젝트를 추가](https://learn.microsoft.com/en-us/xamari
 
 ### iOS
 
-[Firebase에 &#x200B;](https://firebase.google.com/docs/ios/setup) 프로젝트를 추가하고 ***GoogleService-Info.plist*** 파일을 검색합니다.
+[Firebase에 ](https://firebase.google.com/docs/ios/setup) 프로젝트를 추가하고 ***GoogleService-Info.plist*** 파일을 검색합니다.
 
 >[!IMPORTANT]
 >

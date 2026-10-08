@@ -1,13 +1,14 @@
 ---
 title: 라이브 허브 세션에서 작성자의 역할
 description: 작성자가 Adobe Learning Manager에서 강사 주도 라이브 교육용으로 라이브 허브를 사용하는 가상 강의실 강의를 생성, 구성 및 게시할 때 수행하는 작업에 대해 알아봅니다.
-source-git-commit: 9c6d29b7ed2741069378bc016a765a4427191143
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
-
 ---
-
 
 # 라이브 허브 세션에서 작성자의 역할
 

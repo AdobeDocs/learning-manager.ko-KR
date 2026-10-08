@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Microsoft Teams 커넥터
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 368017670470b818ce2a77c5498ee069036da3eb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 51%
-
 ---
-
 # Adobe Learning Manager의 Microsoft Teams 커넥터
 
 ## 소개

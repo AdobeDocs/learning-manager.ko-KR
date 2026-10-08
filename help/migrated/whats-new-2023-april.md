@@ -1,15 +1,16 @@
 ---
 title: 이 릴리스(2023년 4월)의 새로운 기능
 description: Adobe Learning Manager의 새로운 기능과 개선 사항 알아보기
-hidefromtoc: true
+hidefromtoc: 'yes'
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3234'
 ht-degree: 70%
-
 ---
-
 # 이 릴리스(2023년 4월)의 새로운 기능
 
 ## Microsoft Teams용 Adobe Learning Manager 앱
@@ -184,7 +185,7 @@ QR 코드 기반 워크플로우 개선 사항으로, 이 릴리스 이전에 �
 
 * 큰따옴표(&quot;...&quot;)를 사용하여 정확한 구문 또는 단어가 포함된 강의를 검색합니다. 예를 들어 &quot;데이터 과학&quot;을 입력하면 데이터 과학이라는 어구로 시작하는 강의가 반환됩니다.
 * 특정 어구 또는 단어가 포함된 결과만 표시하도록 하려면 + 연산자를 사용하십시오. 예를들어, 컴퓨터 프로그래밍 +python은 &quot;python&quot;이라는 단어가 포함된 컴퓨터 프로그래밍 과정만 표시합니다.
-* &#x200B;- 연산자를 사용하여 특정 구문 또는 단어가 포함되지 않은 결과만 표시되도록 합니다. 예를들어 컴퓨터 프로그래밍 -python은 &quot;python&quot;이라는 단어가 포함된 것을 제외한 모든 컴퓨터 프로그래밍 과정을 표시합니다.
+* - 연산자를 사용하여 특정 구문 또는 단어가 포함되지 않은 결과만 표시되도록 합니다. 예를들어 컴퓨터 프로그래밍 -python은 &quot;python&quot;이라는 단어가 포함된 것을 제외한 모든 컴퓨터 프로그래밍 과정을 표시합니다.
 
 ### 학습 객체에 대해 충돌하는 팝업
 

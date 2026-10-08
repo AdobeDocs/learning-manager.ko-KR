@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Connect 통합
 description: 회사가 Adobe Connect와 Learning Manager 계정을 통합한 경우 학습자는 Adobe Connect를 통해 가상 강의실 강의를 수료할 수 있습니다. Adobe Connect를 사용할 수 없다면 회사의 책임자에게 문의하십시오.
 exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
-source-git-commit: 7babb0c2c656063871be5ae054c5d9f13423abba
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 78%
-
 ---
-
 # Adobe Connect 통합
 
 회사가 Adobe Connect와 Learning Manager 계정을 통합한 경우 학습자는 Adobe Connect를 통해 가상 강의실 강의를 수료할 수 있습니다. Adobe Connect를 사용할 수 없다면 회사의 책임자에게 문의하십시오.

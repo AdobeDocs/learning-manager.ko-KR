@@ -4,13 +4,14 @@ jcr-language: en_us
 title: HAR 파일 생성
 contentowner: dvenkate
 exl-id: 99fe78e8-b5e7-40a7-b9a5-efc2382de993
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 57%
-
+source-wordcount: '161'
+ht-degree: 72%
 ---
-
 # HAR 파일 생성
 
 Google Chrome에서 HAR 파일을 생성하는 방법을 알려면 읽어 보십시오.
@@ -19,7 +20,7 @@ HAR 파일을 생성하려면 다음 절차를 수행하십시오.
 
 1. Google Chrome 창을 열고 새 탭을 엽니다.
 1. 페이지에 대한 개발자 도구를 열고 마우스 오른쪽 단추 > [검사]를 클릭합니다.
-1. **[!UICONTROL Network]** 탭을 엽니다. 빨간색 기록 버튼이 활성화되어 있는지 확인합니다. **[!UICONTROL 로그 유지]** 확인란을 선택합니다.
+1. **[!UICONTROL Network]** 탭을 엽니다. 빨간색 기록 단추가 활성 상태인지 확인하십시오. **[!UICONTROL Preserve Log]** 확인란을 선택합니다.
 
    ![](assets/preserve-log-checkbox.png)
 
@@ -34,4 +35,4 @@ HAR 파일을 생성하려면 다음 절차를 수행하십시오.
 
    *모든 HAR 파일 복사*
 
-1. 복사된 콘텐츠를 메모장 파일에 붙여 넣습니다. 데스크톱에 **logs.har**(으)로 저장하고 Adobe에 전자 메일로 보냅니다.
+1. 복사된 콘텐츠를 메모장 파일에 붙여 넣습니다. 데스크톱에 **logs.har**&#x200B;로 저장하고 이메일로 Adobe에 보냅니다.
