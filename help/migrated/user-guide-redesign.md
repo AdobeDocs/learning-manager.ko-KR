@@ -2,15 +2,15 @@
 description: 콘텐츠 제작에서 라이브 및 온디맨드 경험에 이르기까지 Adobe Learning Manager은 브랜드 학원, 적응형 여정 및 AI 에이전트를 결합하여 성과를 창출하는 맞춤형 학습을 제공합니다.
 jcr-language: en_us
 title: Adobe Learning Manager 설명서 시작
-exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a21112
+exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a211121
 contentowner: saghosh
 hide: true
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 1d3ece3eefea47e3f4da30579941f9069d2b4431
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1292'
 ht-degree: 1%
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 1%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/administrators/feature-summary/getting-started-admin.md" target="_blank" rel="referrer" title="책임자">책임자</a>
+                        <b><a href="/help/migrated/administrators/feature-summary/getting-started-admin.md" target="_blank" rel="referrer" title="책임자">책임자</a></b>
                     </p>
                     <p class="is-size-6">계정, 사용자, 액세스 및 학습 경로를 구성합니다.</p>
                 </div>
@@ -59,7 +59,7 @@ ht-degree: 1%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/authors/feature-summary/getting-started-author.md" target="_blank" rel="referrer" title="작성자">작성자</a>
+                        <b><a href="/help/migrated/authors/feature-summary/getting-started-author.md" target="_blank" rel="referrer" title="작성자">작성자</a></b>
                     </p>
                     <p class="is-size-6">강의, 인증, 콘텐츠 및 학습 경로를 생성합니다.</p>
                 </div>
@@ -82,7 +82,7 @@ ht-degree: 1%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/learners/feature-summary/getting-started-learner.md" target="_blank" rel="referrer" title="Prime에서">학습자</a>
+                        <b><a href="/help/migrated/learners/feature-summary/getting-started-learner.md" target="_blank" rel="referrer" title="Prime에서">학습자</a></b>
                     </p>
                     <p class="is-size-6">할당된 학습 내용을 탐색하고, 수강하고, 추적합니다.</p>
                 </div>
@@ -105,7 +105,7 @@ ht-degree: 1%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/managers/feature-summary/getting-started-manager.md" target="_blank" rel="referrer" title="관리자">관리자</a>
+                        <b><a href="/help/migrated/managers/feature-summary/getting-started-manager.md" target="_blank" rel="referrer" title="관리자">관리자</a></b>
                     </p>
                     <p class="is-size-6">학습을 할당하고 팀 진행률을 모니터링합니다.</p>
                 </div>
@@ -128,7 +128,7 @@ ht-degree: 1%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/integration-admin/feature-summary/connectors.md" target="_blank" rel="referrer" title="통합 관리자">통합 관리자</a>
+                        <b><a href="/help/migrated/integration-admin/feature-summary/connectors.md" target="_blank" rel="referrer" title="통합 관리자">통합 관리자</a></b>
                     </p>
                     <p class="is-size-6">시스템, API, 데이터 및 워크플로우를 연결합니다.</p>
                 </div>
@@ -150,10 +150,10 @@ Adobe Learning Manager을 구성하고 관리하는 데 필요한 스킬을 쌓�
 <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" title="강의 및 콘텐츠 관리" target="_blank" rel="referrer">
+                    <b><a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" title="강의 및 콘텐츠 관리" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-course-new.png" alt="강의 및 콘텐츠 관리"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
+                    </a></b>
                 </figure>
             </div>
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
@@ -278,16 +278,20 @@ Adobe Learning Manager을 구성하고 관리하는 데 필요한 스킬을 쌓�
 
 주요 기능에 대한 집중 강의를 선택하거나 안내 학습 경로를 따릅니다. 아카데미 링크는 새 탭에서 열리며, 로그인해야 할 수 있습니다.
 
+[**ALM 아카데미 살펴보기**](https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner)
+
+<!--
 <div style="margin-top: 1rem;">
     <a href="https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner"
        target="_blank"
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">
-            ALM 아카데미 살펴보기
+            Explore ALM Academy
         </span>
     </a>
 </div>
+-->
 
 ## Adobe Learning Manager 살펴보기
 
@@ -299,36 +303,31 @@ Adobe Learning Manager을 구성하고 관리하는 데 필요한 스킬을 쌓�
 <tr style="border: 0;">
    <td><img src="./help/assets/overview/whats-new-updated-new.png" alt="새로운 기능 확인" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
 
-<p><strong>새로운 기능 확인</strong>
+<p><strong>Adobe Learning Manager의 새로운 기능</strong>
     </p>
-    <p>최신 기능<br>과 릴리스 업데이트를 살펴보세요.</p>
+    <p>2026년 8월 릴리스의 최신 기능 및 업데이트를 살펴보십시오.</p>
                 <p>
-                    <strong>
-                        <a href="/help/migrated/whats-new.md">자세히 알아보기</a>
-                    </strong>
+                    <a href="/help/migrated/whats-new.md">새로운 기능 요약</a>
                 </p>
                 <p>
-                    <strong>
-                        <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">콘텐츠 컴포저(Beta)</a>
-                    </strong>
+                    <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">콘텐츠 컴포저(베타)</a>
     </p>
 
 
 </td>
-   <td>&lt;img src="./help/assets/overview/explore-ai-new.png" alt="새로운 기능 확인" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
+   <td><img src="./help/assets/overview/explore-ai-new.png" alt="새로운 기능 확인" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+   <p><strong>AI 기능</strong></p>
 
 <p>
-                    <strong>Insights 에이전트(Beta)</strong><br>
+                    Insights 에이전트(Beta)<br>
                     <a href="/help/migrated/administrators/feature-summary/insights-agent.md">자세히 알아보기</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">과정 실행</a>
 </p>
 <p>
-                    <strong>학습 경로 에이전트(Beta)</strong><br>
+                    학습 경로 상담사(Beta)<br>
                     <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">자세히 알아보기</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">과정 실행</a>
-
 </p>
-
 <p>
-                    <strong>라이브 허브(Beta)</strong><br>
+                    라이브 허브(베타)<br>
                     <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">자세히 알아보기</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">과정 실행</a>
 
 </p>
@@ -337,17 +336,19 @@ Adobe Learning Manager을 구성하고 관리하는 데 필요한 스킬을 쌓�
 
 
 </td>
-   <td>&lt;img src="./help/assets/overview/learning-experience-new.png" alt="새로운 기능 확인" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
+   <td><img src="./help/assets/overview/learning-experience-new.png" alt="새로운 기능 확인" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+   <p><strong>관리 도구</strong>
+    </p>
    <p>
-                    <strong>Experience Builder</strong><br>
+                    Experience Builder<br>
                     <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">자세히 알아보기</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">과정 실행</a>
     </p>
     <p>
-                    <strong>Report Builder</strong><br>
+                    보고서 작성기<br>
                     <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">자세히 알아보기</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">과정 실행</a>
     </p>
 <p>
-                    <strong>전자 메일 작성기</strong><br>
+                    Email Builder<br>
                     <a href="/help/migrated/administrators/feature-summary/email-builder.md">자세히 알아보기</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">과정 실행</a>
     </p>
     </td>
@@ -358,16 +359,20 @@ Adobe Learning Manager을 구성하고 관리하는 데 필요한 스킬을 쌓�
 
 ALM을 사용하여 매력적인 학습 경험을 만들고, 관리하고, 제공하는 방법을 알아보십시오. 지금 개인 맞춤화된 데모를 신청하세요.
 
+[**등록**](https://business.adobe.com/kr/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal)
+
+<!--
 <div>
     <a href="https://business.adobe.com/kr/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
        target="_blank"
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">
-            회원가입
+            <strong>Sign up</strong>
         </span>
     </a>
 </div>
+-->
 
 ## 추가 리소스 {#additional-resources}
 
