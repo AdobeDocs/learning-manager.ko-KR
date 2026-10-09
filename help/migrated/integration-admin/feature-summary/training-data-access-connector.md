@@ -84,7 +84,7 @@ Adobe Learning Manager을 데이터 스토리지 및 검색 시스템과 통합�
 2. **기본 URL**, **CDN URL**, **클라이언트 ID**, **클라이언트 암호** 및 **관리자 새로 고침 토큰**&#x200B;을 사용하여 AEM에서 구성을 만드십시오.
 3. AEM 구성 요소를 사용하여 사이트를 빌드합니다.
 4. 학습자용 Publish 사이트
-5. 전체 설정에 대한 자세한 내용은 [이 문서](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) 및 [이 문서](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager)를 참조하세요.
+5. 전체 설정에 대한 자세한 내용은 [이 문서](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) 및 [이 문서](https://experienceleague.adobe.com/ko/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager)를 참조하세요.
 
 ### 학습자 경험
 

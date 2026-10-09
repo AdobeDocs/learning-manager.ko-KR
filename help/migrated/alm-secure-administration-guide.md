@@ -52,7 +52,7 @@ Adobe Learning Manager은 RBAC(역할 기반 액세스 제어) 모델을 사용�
 >
 >로그인 방법이 내부 사용자용 Adobe ID으로 설정된 경우 조직은 다단계 인증을 시행하거나, 암호 복잡성을 제어하거나, 사용자가 나갔을 때 즉시 액세스를 취소할 수 있는 기능을 상실합니다. 이는 무단 액세스의 위험을 크게 증가시킵니다.
 
-자세한 내용은 [사용자 지정 역할](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)을 참조하세요.
+자세한 내용은 [사용자 지정 역할](https://experienceleague.adobe.com/ko/docs/learning-manager/using/admin/custom-role)을 참조하세요.
 
 ### Multi-Factor Authentication(MFA)
 
