@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 불쾌감을 주는 콘텐츠 신고
 
-공유 Content Composer 강의를 검토하는 동안 Adobe의 [사용 약관](https://www.adobe.com/legal/terms.html)을 위반하는 콘텐츠가 발생한 경우 이를 신고할 수 있습니다.
+공유 Content Composer 강의를 검토하는 동안 Adobe의 [사용 약관](https://www.adobe.com/kr/legal/terms.html)을 위반하는 콘텐츠가 발생한 경우 이를 신고할 수 있습니다.
 
 오른쪽 상단에서 **보고서**&#x200B;를 선택하고 양식을 작성합니다. 또는 [abuse@adobe.com](mailto:abuse@adobe.com)(으)로 이메일을 통해 오용 사례를 신고할 수 있습니다. 
 

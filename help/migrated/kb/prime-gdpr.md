@@ -38,7 +38,7 @@ GDPR은 EU 규정이지만 EU 거주자가 될 수 있는 모든 사용자의 �
 
 GDPR에 따라 기업에서 EU 거주자에게 제품 또는 서비스를 제공하고 개인정보를 수집, 추적 및 모니터링하는 방법과 이유를 결정하는 경우 [데이터 컨트롤러](https://gdpr-info.eu/art-24-gdpr/)로 간주됩니다. Adobe Learning Manager 고객의 경우 이러한 활동 중 하나를 수행한다면 데이터 컨트롤러로 간주됩니다.
 
-컨트롤러 대신 데이터를 처리하는 비즈니스는 [데이터 프로세서](https://gdpr-info.eu/art-28-gdpr/)로 간주됩니다. 클라우드에서 호스팅되는 LMS Adobe Learning Manager의 공급업체로서 Adobe는 데이터 프로세서의 역할을 수행합니다. [GDPR 및 비즈니스](https://www.adobe.com/privacy/general-data-protection-regulation.html)에 대한 자세한 내용은 다음과 같습니다.
+컨트롤러 대신 데이터를 처리하는 비즈니스는 [데이터 프로세서](https://gdpr-info.eu/art-28-gdpr/)로 간주됩니다. 클라우드에서 호스팅되는 LMS Adobe Learning Manager의 공급업체로서 Adobe는 데이터 프로세서의 역할을 수행합니다. [GDPR 및 비즈니스](https://www.adobe.com/kr/privacy/general-data-protection-regulation.html)에 대한 자세한 내용은 다음과 같습니다.
 
 +++
 
