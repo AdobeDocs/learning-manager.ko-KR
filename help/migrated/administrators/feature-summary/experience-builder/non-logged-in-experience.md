@@ -3,13 +3,11 @@ description: Experience Builder에서 주요 기능, 지원되는 위젯, 필수
 jcr-language: en_us
 title: Experience Builder에서 로그인하지 않은 페이지 구성 및 관리
 exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
-source-git-commit: 2f9e931523da6e3e1ed2cf60f1ad05f5caf3cc1b
+source-git-commit: 1098caed370839d7adad2abf564e8f6ed137d10b
 workflow-type: tm+mt
-source-wordcount: '6058'
+source-wordcount: '6051'
 ht-degree: 1%
-
 ---
-
 
 # Experience Builder에 로그인하지 않은 환경
 
@@ -175,7 +173,7 @@ GET /primeapi/v2/learningObjects/{loId}?enforcedFields[learningObject]=products,
 
 위치:
 
-- loId는 학습 개체 ID(예: 강의:12345)입니다.
+- loId는 학습 개체 ID(예: course:12345)입니다.
 - enforcedFields[learningObject]는 해당 LO에 대한 제품 및 역할을 명시적으로 포함하도록 API에 지시합니다.
 
 이는 enforcedFields를 통해 요청된 경우 LO의 제품 및 역할 연결이 응답에 있는지 확인함으로써 충족됩니다. 그런 다음 응답에는 Experience Builder 및 기타 소비자에 대한 권장 제품(rec_products) 및 역할(rec_roles)을 계산하거나 표시하는 데 필요한 제품 및 역할 메타데이터가 속성에 포함됩니다.
@@ -356,15 +354,16 @@ TDA를 활성화하면 로그인하지 않은 계정 JSON이 생성되거나 업
 
 1. **TDA 커넥터 다시 사용(간단하고 셀프서비스에 친숙한)**
 
-Experience Builder M45 Wiki는 로그인하지 않은 기존 기본 사용자가 TDA 연결을 삭제하고 다시 활성화해야 새 도메인이 자동으로 허용 목록에 추가됩니다. 이렇게 하면 다음 두 가지 사항이 충족됩니다.
-1. 로그인하지 않은 계정 JSON이 다시 생성됩니다.
-2. 허용 목록에 있는 도메인이 로그인하지 않은 새 CDN 도메인과 사용자 정의 도메인을 포함하도록 업데이트됩니다.
+   새 도메인이 자동으로 허용 목록에 추가되도록 기존 기본 임시 방문 사용자는 TDA 연결을 삭제하고 다시 활성화해야 합니다. 이렇게 하면 다음 두 가지 사항이 충족됩니다.
 
-이는 계정 수가 적고 일시적으로 커넥터를 비활성화하고 다시 활성화하는 것을 허용할 수 있는 경우에 권장됩니다.
+   * 로그인하지 않은 계정 JSON이 다시 생성됩니다.
+   * 허용 목록에 있는 도메인이 로그인하지 않은 새 CDN 도메인과 사용자 정의 도메인을 포함하도록 업데이트됩니다.
 
-1. **도메인이 실제로 허용 목록에 있는지 확인**
+   이는 계정 수가 적고 일시적으로 커넥터를 비활성화하고 다시 활성화하는 것을 허용할 수 있는 경우에 권장됩니다.
 
-허용 목록이 표시되면 사용자 지정 도메인에서 로그인하지 않은 사이트를 열고 브라우저 네트워크 호출을 검사합니다.
+2. **도메인이 실제로 허용 목록에 있는지 확인**
+
+   허용 목록이 표시되면 사용자 지정 도메인에서 로그인하지 않은 사이트를 열고 브라우저 네트워크 호출을 검사합니다.
 
 보고 싶은 항목:
 
@@ -532,7 +531,7 @@ GET /primeapi/v2/learningObjects/{loId}?enforcedFields[learningObject]=products,
 변경 사항은 로그인하지 않은 검색 및 목록 API에서 LO **간단한 설명**&#x200B;에 대한 지원을 도입합니다.
 
 - **과정**&#x200B;의 경우 기존 UI 의미 체계:
-   - 로그인된 카드에는 &quot;간략한 설명&quot;(140자 필드)이 표시되고 그렇지 않으면 긴 &quot;상세 개요&quot;로 표시됩니다.
+  - 로그인된 카드에는 &quot;간략한 설명&quot;(140자 필드)이 표시되고 그렇지 않으면 긴 &quot;상세 개요&quot;로 표시됩니다.
 - **학습 경로**&#x200B;에 대해 로그인한 UI는 정의된 경우 &quot;혜택&quot; 필드를 간단한 설명으로 사용하고 그렇지 않은 경우 개요로 돌아갑니다.
 - **인증**&#x200B;의 경우 간단한 &quot;설명&quot;이 사용되며 대체(fallback)로 더 긴 &quot;인증 개요&quot;가 사용됩니다.
 - **작업 지원**&#x200B;의 경우 기본 설명 필드가 사용됩니다.
