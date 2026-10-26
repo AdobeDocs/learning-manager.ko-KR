@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 73a8cf0f76178c9fa766d56e49fc9d02ce8d5387
 workflow-type: tm+mt
-source-wordcount: '35230'
+source-wordcount: '35301'
 ht-degree: 63%
 ---
 # Adobe Learning Manager 릴리스 정보
@@ -70,6 +70,10 @@ Insights 에이전트에 대해 두 가지 개선 사항이 적용되었습니�
 * **기본적으로 대기자 명단에 있는 학습자를 제외한 강의 등록:** 필터가 없는 직접 및 간접 등록 쿼리의 경우, 직접 등록된 등록에는 대기자 명단에 있고 적극적으로 참여하지 않더라도 대기 중인 학습자가 포함됩니다. 기본적으로 [접근 방식] 패널에는 대기자 명단에 등록된 학습자가 포함되어 있다는 메시지가 표시되지 않습니다. 대기자 명단에 등록된 학습자는 책임자가 명시적으로 제외를 요청한 경우에만 제외되며, 이 경우 적용된 규칙이 공개됩니다.
 
 [자세히 알아보기](/help/migrated/administrators/feature-summary/insights-agent.md)
+
+### 사용자 정의 인증서 - 인증서 Designer
+
+인증서 디자인에 배지가 추가되면 인증서 생성 시스템에서는 텍스트 기반 배지 필드만 지원했습니다. 그 결과 생성된 PDF에서 학습자의 배지 이미지가 누락되거나 잘못 표시되었습니다. 이 수정 사항을 적용하면, 시스템은 이제 배지 이미지 자리 표시자를 인식하고 이를 학습자의 획득한 배지 이미지로 대체하면서, 인증서 디자이너에서 구성된 위치와 크기를 유지합니다.
 
 ## API
 
