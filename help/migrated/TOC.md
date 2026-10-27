@@ -3,9 +3,9 @@ user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
 nudge: true
-source-git-commit: 29900b65ff6bf5b598bbba27d2691f75f544211f
+source-git-commit: add4cde9d61b2ad004f8092a1ad7172a8da997fe
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1791'
 ht-degree: 34%
 ---
 
@@ -188,6 +188,7 @@ ht-degree: 34%
   * [로그인하지 않은 API](integration-admin/feature-summary/non-logged-in-apis.md)
   * Webhook {#webhooks}
     * [Webhook](/help/migrated/integration-admin/feature-summary/webhooks.md)
+    * [Webhook을 사용한 Go1 완료 추적](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
     * [Webhook 사용 안내서](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
   * [신빙하](integration-admin/feature-summary/credly-integration.md)
   * [학습 도구 상호 운용성](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)

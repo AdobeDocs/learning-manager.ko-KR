@@ -7,10 +7,10 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 73a8cf0f76178c9fa766d56e49fc9d02ce8d5387
+source-git-commit: d3f02c23826e56305a160eab428a50406a837184
 workflow-type: tm+mt
-source-wordcount: '35301'
-ht-degree: 63%
+source-wordcount: '35530'
+ht-degree: 62%
 ---
 # Adobe Learning Manager 릴리스 정보
 
@@ -26,6 +26,22 @@ ht-degree: 63%
 </table>
 
 -->
+
++++업데이트 113: Adobe Learning Manager 2026년 10월 27일 릴리스
+
+## 이번 릴리스의 개선 사항
+
+**Go1 통합:** Adobe Learning Manager의 Go1 통합이 개선되어 강의 완료 추적을 보다 안정적으로 수행할 수 있습니다. 이제 학습자의 Go1 완료는 완료 후 바로 강의 플레이어를 떠나더라도 정확하게 기록됩니다. 이 수정 사항은 학습자 성적 증명서와 책임자 보고서를 최신 상태로 유지하게 해줍니다. 구성이 필요하지 않으며 기존 Go1 강의는 기존과 동일하게 계속 작동합니다. [자세히 알아보기](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
+
+## 수정된 버그
+
+**모바일 장치:** iOS Safari를 사용하는 iPhone에서 카탈로그 또는 검색 CTA에서 세로 방향으로 강의를 시작하면 &quot;장치를 회전하십시오&quot;라는 메시지가 표시됩니다. 풍경으로 회전해도 프롬프트가 남아 코스가 시작되지 않았다. 이 문제는 수정되었으며, 이제 플레이어가 회전 시 복구되어 예상대로 과정을 시작합니다.
+
+**학습자:** 학습자가 파일 제출 모듈에서 Excel, PowerPoint, 비디오, ZIP 및 기타 파일 형식을 제출할 수 없으며 일반적인 오류를 받았습니다. 이 문제는 수정되었으며 이제 학습자는 예상대로 이러한 파일 유형을 업로드하고 제출할 수 있습니다.
+
+**전자 메일 템플릿:** 세션 템플릿이 전역 레이아웃에서 연결 해제되었을 때 일정 초대 전자 메일에 빈 본문 및 빈 .ics 이벤트 설명이 표시되었습니다. 이 문제는 수정되었으며 이제 연결되지 않은 템플릿은 구성된 세션 세부 정보와 레이아웃 내용을 예상한 대로 이메일 및 일정 이벤트 설명에 모두 표시합니다.
+
++++
 
 +++업데이트 112: Adobe Learning Manager 2026년 9월 30일 릴리스
 
