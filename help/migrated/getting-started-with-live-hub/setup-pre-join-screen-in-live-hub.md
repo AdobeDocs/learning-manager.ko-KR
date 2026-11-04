@@ -4,7 +4,7 @@ description: Live Hub 사전 참가 화면의 작동 방법, 브라우저 권한
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 2e198c9edfedc804db6a52b79b50372fb4875203
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Adobe Learning Manager의 라이브 허브 세션은 강사와 학습자가 가�
 ![브라우저 사용 권한 확인 허용](assets/allow-browser-permissions-prompt.png)
 *브라우저에서 마이크 및 카메라 액세스를 요청하는 메시지가 표시되면 허용을 선택합니다.*
 
-### 오디오 컨트롤 구성
+### 오디오 컨트롤 구성 {#audio-controls}
 
 마이크와 스피커가 자동으로 선택됩니다. 사전 조인 화면에서 오디오 컨트롤을 사용하여 작동하는지 확인하거나 다른 장치로 전환할 수 있습니다.
 

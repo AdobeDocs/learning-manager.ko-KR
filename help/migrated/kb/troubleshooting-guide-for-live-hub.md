@@ -4,7 +4,7 @@ description: Live Hub 세션 중에 발생할 수 있는 일반적인 오류 메
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: a39f411869dfc8dc88236a391a4681bed8cf8620
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 Live Hub 세션 중에 강사에게 오류 메시지나 알림이 발생하여 특정 작업이 예상대로 완료되지 못할 수 있습니다. 이 문서에서는 일반적인 강사 대상 오류, 가능한 원인 및 이러한 오류를 해결하기 위해 취할 수 있는 단계에 대해 설명합니다.
 
-## 연결 문제
+## 연결 문제 {#connection-issues}
 
 | 오류 메시지 | 시나리오 | 오류를 극복하기 위한 제안 사항 |
 |---|---|---|
@@ -61,7 +61,7 @@ Live Hub 세션 중에 강사에게 오류 메시지나 알림이 발생하여 �
 | &quot;FileName.pdf&quot;가 1MB 제한을 초과합니다. | 강사가 1MB 파일 크기 제한을 초과하는 PDF 파일을 업로드합니다. | PDF 파일 크기를 1MB 미만으로 압축 또는 줄인 다음 다시 업로드합니다. |
 | &quot;FileName.pptx&quot;가 3MB 제한을 초과합니다. | 강사가 3MB 파일 크기 제한을 초과하는 PPT 파일을 업로드합니다. | PPT 파일 크기를 3MB 미만으로 압축 또는 줄인 다음 다시 업로드합니다. |
 
-## 브레이크아웃 세션 문제
+## 브레이크아웃 세션 문제 {#breakout-issues}
 
 아래 메시지는 강사가 브레이크아웃 세션을 시작하려고 할 때 표시될 수 있습니다.
 
