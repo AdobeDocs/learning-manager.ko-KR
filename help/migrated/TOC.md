@@ -3,9 +3,9 @@ user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
 nudge: true
-source-git-commit: add4cde9d61b2ad004f8092a1ad7172a8da997fe
+source-git-commit: c54a70f69868320e43d99a1fb2e4def5009f1d5c
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1796'
 ht-degree: 34%
 ---
 
@@ -14,7 +14,8 @@ ht-degree: 34%
 * [Adobe Learning Manager 사용자 가이드](user-guide.md)
 * {hide-from-toc}[Adobe Learning Manager 사용 안내서](user-guide-redesign.md)
 * 소개 {#introduction}
-  * [새로운 기능 요약 2026년 8월](whats-new.md)
+  * [새로운 기능 요약 2026년 12월](whats-new.md)
+  * [새로운 기능 요약 2026년 8월](whats-new-aug-2026.md)
   * [새로운 기능 요약 2026년 4월](whats-new-april-2026.md)
   * [새로운 기능 요약 2025년 10월](/help/migrated/whats-new-october-2025.md)
   * [새로운 기능 요약 2025년 5월](/help/migrated/whats-new-may-2025.md)
