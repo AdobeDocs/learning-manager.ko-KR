@@ -6,7 +6,7 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 413b0a29bcacbf1d523990dd7d96fdbb9fad3907
+source-git-commit: 054b295163bb0312f07aa82b2a21c7e55b5fbc1d
 workflow-type: tm+mt
 source-wordcount: '4684'
 ht-degree: 0%
@@ -258,7 +258,6 @@ Adobe Workfront에서 취소된 세션은 수동 단계 없이 마이그레이�
 
 이제 관리자는 공공 아카데미에 나타나는 특정 카탈로그를 선택할 수 있습니다. 해당 카탈로그만 익명 방문자가 검색하고 검색 엔진과 AI 비서가 인덱싱할 수 있으므로 테스트 과정 또는 내부 콘텐츠는 비공개로 유지됩니다.
  
-
 ### 검색 엔진 및 AI 도우미(Beta)에서 찾을 수 있음
 
 이제 Adobe Learning Manager은 Google과 같은 검색 엔진과 ChatGPT, Claude, Gemini와 같은 AI 도우미를 통해 공공 아카데미를 발견하게 할 수 있습니다. 그러면 사용자의 아카데미가 지정한 검색 결과 및 AI 생성 답변에 강의가 표시됩니다.
@@ -402,7 +401,7 @@ Live Hub의 접근성 수정을 통해 보조 기술 및 키보드 탐색 사용
 
 등록 API는 이제 학습자 앱에서 다중 등록 인스턴스를 지원합니다. 선택적 `includeMultiInstanceEnrollments=true` 매개 변수를 `GET /enrollments`에 추가하여 포함하십시오. 기본값은 `false`이므로 헤드리스 구현을 포함한 기존 통합은 변경되지 않고 계속 작동합니다.
 
-### 학습 과정 등록의 마지막 액세스 날짜
+### 학습 경로 등록에 대한 마지막 액세스 날짜
 
 이제 마지막 액세스 날짜와 같은 사용자 정의 메타데이터를 학습 경로 등록에 저장하고 API를 통해 설정하고 읽을 수 있습니다. 이렇게 하면 할당한 학습 경로에 대한 시간 바운드 액세스를 추적할 수 있습니다.
 
