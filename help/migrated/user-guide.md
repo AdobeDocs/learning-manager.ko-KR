@@ -6,10 +6,10 @@ exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 6ab6944dd7ecdce7f7185da9f36bd88cbfc288b9
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 29%
+source-wordcount: '150'
+ht-degree: 30%
 ---
 # Adobe Learning Manager 사용자 가이드 시작
 
@@ -53,7 +53,7 @@ Adobe Learning Manager(이전의 Adobe Captivate Prime)의 최신 제공 기능�
     <img alt="라이브 허브 시작하기" src="assets/getting-started-live-hub.png" width="150">
     </a>
     <div style="margin-top:12px; line-height:1.4;">
-    <a href="../migrated/getting-started-with-live-hub/getting-started-live-hub.md"><strong>Live Hub(Beta) 시작하기</strong></a>
+    <a href="../migrated/getting-started-with-live-hub/getting-started-live-hub.md"><strong>라이브 허브 시작</strong></a>
     </div>
    </td>
   </tr>

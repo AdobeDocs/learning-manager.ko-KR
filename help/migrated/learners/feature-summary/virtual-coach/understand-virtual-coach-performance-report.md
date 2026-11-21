@@ -6,9 +6,9 @@ exl-id: 57607597-3949-4787-b71d-39c80d22a1ae
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 0723ac982ace844ac74b1b9ffbaa66b6520231f7
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1351'
 ht-degree: 0%
 ---
 
@@ -17,6 +17,41 @@ ht-degree: 0%
 Virtual Coach 보고서 카드에서는 다룬 주제, 커뮤니케이션 방법, 다음 시도 전에 개선할 특정 영역 등을 포함하여 역할 수행에 대한 수행 방식을 보여줍니다.
 
 완료된 모든 세션에서는 보고서가 자동으로 생성됩니다. **분석 보기**&#x200B;를 선택하여 세션 직후에 액세스하거나 **내 학습**&#x200B;의 세션 기록에서 언제든지 다시 돌아갑니다. 보고서를 PDF으로 다운로드하여 자신의 기록을 보관하거나 관리자와 공유할 수도 있습니다.
+
+## Virtual Coach 세션 분석 다운로드
+
+Adobe Learning Manager에서 Virtual Coach 세션 분석을 서명된 PDF으로 다운로드하고 관리자 또는 강사와 공유합니다.
+
+Virtual Coach 세션을 마치면 Adobe Learning Manager에서 성능 분석을 생성합니다. 플레이어를 닫고 세션을 다시 시작한 다음 분석을 서명된 PDF으로 다운로드한 후에 다시 볼 수 있습니다.
+
+1. 가상 코치 세션이 포함된 강의 또는 작업 지원을 엽니다.
+
+1. **세션 분석**&#x200B;을 선택합니다.
+
+   ![가상 코치 세션에 대한 세션 분석 옵션](assets/vc-enhancements-image1.png "세션 분석")
+
+1. 분석을 검토합니다. 분석을 생성하는 데 시간이 걸릴 수 있습니다.
+
+1. **다운로드**&#x200B;를 선택하여 서명한 분석 PDF을 저장합니다.
+
+성과를 증거로 관리자 또는 강사와 PDF을 공유합니다. 파일에는 C2PA 서명이 포함되어 있습니다. 자세한 내용은 [세션 분석 PDF의 C2PA 서명 정보](#c2pa-signatures)를 참조하세요.
+
+### 세션 분석 PDF의 C2PA 서명 정보 {#c2pa-signatures}
+
+AI가 가상 코치 세션 분석을 생성합니다. 다른 사람이 다운로드한 사본을 신뢰할 수 있도록 Learning Manager는 [C2PA](https://c2pa.org/) 서명으로 PDF에 서명합니다.
+
+C2PA는 콘텐츠 진정성을 위한 개방형 산업 표준입니다. Adobe Learning Manager은 다른 Adobe 제품이 사용하는 것과 동일한 Adobe 서명 서비스를 사용합니다.
+
+#### 서명의 내용
+
+서명은 PDF에 포함된 암호로 서명된 매니페스트입니다. 다음과 같은 항목이 기록됩니다.
+
+* Adobe Learning Manager이 분석을 생성했습니다
+* 분석은 특정 날짜에 생성되었습니다.
+
+#### 서명이 중요한 이유
+
+관리자 또는 강사와 PDF을 공유하면 서명은 파일이 진짜이며 다운로드 후 편집되지 않았다는 증거를 제공합니다.
 
 ## 전체 점수 계산 방법
 

@@ -3,10 +3,10 @@ user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
 nudge: true
-source-git-commit: c54a70f69868320e43d99a1fb2e4def5009f1d5c
+source-git-commit: 62986d83f3630e676464f88f345960d9d0b49d08
 workflow-type: tm+mt
-source-wordcount: '1796'
-ht-degree: 34%
+source-wordcount: '1953'
+ht-degree: 31%
 ---
 
 # Adobe Learning Manager 사용자 가이드 {#using}
@@ -41,6 +41,7 @@ ht-degree: 34%
   * [Adobe Learning Manager에서 API 사용 중단 및 변경 사항](api-deprecations-list.md)
   * [Adobe Learning Manager 추천](recommendations-adobe-learning-manager.md)
   * [Adobe Learning Manager의 화이트레이블 지정](white-label.md)
+  * [토론 게시판 전자 메일 요약(강사 알림)](/help/migrated/discussion-board-instructor-notifications.md)
 * 릴리스의 기능 가용성 {#feature-availability}
   * [기능 가용성: 2026년 8월 릴리스](/help/migrated/feature-availability-aug-2026.md)
 * 시작하기 {#get-started}
@@ -50,21 +51,27 @@ ht-degree: 34%
   * [학습자로 시작하기](learners/feature-summary/getting-started-learner.md)
   * [관리자로 시작하기](managers/feature-summary/getting-started-manager.md)
   * [강사로 Learning Manager 시작하기](instructors/feature-summary/getting-started.md)
-  * [라이브 허브(베타) 시작하기](./getting-started-with-live-hub/getting-started-live-hub.md)
+  * [라이브 허브 시작하기](./getting-started-with-live-hub/getting-started-live-hub.md)
 * 책임자 {#admin}
   * 학습의 AI (Beta) {#ai-in-learning}
-    * [라이브 허브(베타) 활성화](./administrators/feature-summary/enable-live-hub.md)
+    * [라이브 허브 활성화](./administrators/feature-summary/enable-live-hub.md)
   * [Adobe Learning Manager의 Admin AI Assistant (Beta)](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
   * [Adobe Learning Manager의 Insights Agent (Beta)](/help/migrated/administrators/feature-summary/insights-agent.md)
+  * [ALM MCP 서버 소개](/help/migrated/administrators/feature-summary/intro-alm-mcp.md)
+  * [MCP 서버 구성](/help/migrated/administrators/feature-summary/configure-mcp-admin.md)
+  * [기업 AI 클라이언트에 ALM 추가](/help/migrated/administrators/feature-summary/add-alm-to-ai-client.md)
   * [Learning Manager의 관리자로](administrators/feature-summary/user-login.md)
   * 사용자 관리 {#user-management}
     * [Adobe Learning Manager에서 사용자 추가](administrators/feature-summary/add-users-user-groups.md)
     * [Adobe Learning Manager의 사용자 그룹](/help/migrated/administrators/feature-summary/user-group.md)
     * [활성 필드](/help/migrated/administrators/feature-summary/active-fields.md)
+  * [안전한 시험 브라우저 활성화](./administrators/feature-summary/safe-exam-browser.md)
   * [강의실 위치 추가](administrators/feature-summary/classroom.md)
   * [강의 인스턴스 및 학습 경로 만들기](administrators/feature-summary/courses.md)
+  * [그룹(팀) 제출 및 루브릭 기반 평가](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
   * [모듈 액세스 시간 제어](/help/migrated/administrators/feature-summary/module-access-time-control.md)
   * [휴일 관리](./getting-started-with-live-hub/manage-holidays.md)
+  * [관리자 브랜딩: 홈페이지 PLP 및 VC 스트립 재배치](/help/migrated/administrators/feature-summary/admin-branding-repositioning.md)
   * Adobe Learning Manager의 Experience Builder {#experience-builder}
     * [개요](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
     * [Experience Builder의 핵심 구성 요소](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
@@ -82,6 +89,7 @@ ht-degree: 34%
       * [Experience Builder 사용자 정의](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
     * [Experience Builder 지침 및 제한 사항](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
     * [Experience Builder에 로그인하지 않은 경험](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-experience.md)
+    * [자가 등록을 위해 로그인하지 않은 메뉴 URL 사용](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
   * 설정 {#settings}
     * [개요](/help/migrated/administrators/feature-summary/settings/settings-overview.md)
     * [기본 설정](/help/migrated/administrators/feature-summary/settings/basic-settings.md)
@@ -107,6 +115,7 @@ ht-degree: 34%
     * [Report Builder에서 추세 보고서 작성](administrators/feature-summary/build-trend-report-in-report-builder.md)
     * [보고서 다운로드, 공유 및 구독](administrators/feature-summary/download-share-subscribe-report.md)
     * [Report Builder에서 보고서 복제 및 재사용](administrators/feature-summary/duplicate-reuse-report-in-report-builder.md)
+    * [Report Builder의 시각화](administrators/feature-summary/report-builder-visualization.md)
     * [자주 묻는 질문](administrators/feature-summary/faq-report-builder.md)
     * [Report Builder 제한 사항](administrators/feature-summary/limitations-report-builder.md)
   * [그룹 성공 대시보드](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
@@ -120,7 +129,7 @@ ht-degree: 34%
   * 가상 코치 {#virtualcoachadmin}
     * [Virtual Coach 사용 및 청구 정보 관리](administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md)
     * [Virtual Coach 보고서](administrators/feature-summary/virtual-coach/virtual-coach-reports.md)
-  * [채널 만들기 (Beta)](administrators/feature-summary/create-channels.md)
+  * [채널 만들기](administrators/feature-summary/create-channels.md)
   * [인증](administrators/feature-summary/certifications.md)
   * [인증서 만들기 및 사용자 정의](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
   * [카탈로그](administrators/feature-summary/catalogs.md)
@@ -144,7 +153,7 @@ ht-degree: 34%
   * [Fluidic Player](administrators/feature-summary/fluidic-player.md)
   * [공지](administrators/feature-summary/announcements.md)
   * [이메일 템플릿](administrators/feature-summary/email-templates.md)
-  * [이메일 빌더](administrators/feature-summary/email-builder.md)
+  * [전자 메일 작성기](administrators/feature-summary/email-builder.md)
   * [Adobe Connect 통합](administrators/feature-summary/adobeconnect-integration.md)
   * [설정](administrators/feature-summary/settings.md)
   * [알림](administrators/feature-summary/user-notifications.md)
@@ -165,9 +174,12 @@ ht-degree: 34%
   * [학습 프로그램](administrators/feature-summary/learning-programs.md)
   * [제품 용어](administrators/feature-summary/product-terminology.md)
 * 통합 책임자 {#integration}
+  * [ALM MCP 서버 구성](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
   * [응용 프로그램 개발자 설명서](/help/migrated/integration-admin/feature-summary/developer-manual.md)
   * [iFrame을 사용한 학습자 도우미 통합](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md)
   * [마이그레이션 설명서](integration-admin/feature-summary/migration-manual.md)
+  * [ALM-Workfront 취소/업데이트 트리거](integration-admin/feature-summary/alm-workfront-cancellation.md)
+  * [Adobe Connect 기록 보기를 통해 출석 추적](integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
   * Learning Manager 커넥터 {#connectors}
     * [커넥터 개요](integration-admin/feature-summary/connectors.md)
     * [ADFS 커넥터](integration-admin/feature-summary/adfs-connector.md)
@@ -189,14 +201,17 @@ ht-degree: 34%
   * [로그인하지 않은 API](integration-admin/feature-summary/non-logged-in-apis.md)
   * Webhook {#webhooks}
     * [Webhook](/help/migrated/integration-admin/feature-summary/webhooks.md)
-    * [Webhook을 사용한 Go1 완료 추적](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
     * [Webhook 사용 안내서](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
+    * [강사의 LO 인스턴스 편집에 대한 Webhook 이벤트](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+    * [Webhook을 사용한 Go1 완료 추적](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
   * [신빙하](integration-admin/feature-summary/credly-integration.md)
   * [학습 도구 상호 운용성](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
   * [LTI 딥 링크](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)
+  * [NRPS에 대한 LTI 지원](/help/migrated/integration-admin/feature-summary/lti-support-for-nrps.md)
   * AEM Sites {#aem-sites}
     * [AEM Sites에 대한 ALM 참조 사이트 패키지](/help/migrated/adobe-learning-manager-integration-aem.md)
     * [AEM으로 Learning Manager 통합](integrate-aem-learning-manager.md)
+    * [AEM assets 통합](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
   * [Learning Manager에서 Salesforce 패키지 설치](integration-admin/feature-summary/install-salesforce-package.md)
   * 배포 안내서 {#deployment-guide}
     * [소개](/help/migrated/deployment-guide/introduction.md)
@@ -211,8 +226,11 @@ ht-degree: 34%
   * [사용자 로그인](authors/feature-summary/user-login.md)
   * [콘텐츠 라이브러리](authors/feature-summary/content-library.md)
   * [강의 생성, 수정 및 게시](authors/feature-summary/courses.md)
+  * [안전한 시험 브라우저로 강의 생성](./authors/feature-summary/create-a-course-with-safe-exam-browser.md)
+  * [학습 경로 만들기](/help/migrated/authors/feature-summary/create-learning-path.md)
   * [카탈로그](authors/feature-summary/catalogs.md)
   * {hide-from-toc}[적응형 과정](authors/feature-summary/adaptive-course-author.md)
+  * {hide-from-toc}[적응형 과정에 대한 다중 등록](authors/feature-summary/multi-enrollment-for-adaptive-courses.md)
   * 가상 코치 {#virtual-coach}
     * [가상 코치](authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
     * [가상 코치 역할을 위한 자료 수집](authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md)
@@ -229,6 +247,7 @@ ht-degree: 34%
   * [다른 로케일로 학습 객체 추가](authors/feature-summary/add-new-language-learning-objects.md)
   * [사용자 알림](authors/feature-summary/user-notifications.md)
   * [이메일 템플릿](authors/feature-summary/email-templates-author.md)
+  * [Email Builder에서 강의 및 인스턴스 이메일 사용자 정의](authors/feature-summary/customize-course-instance-emails.md)
   * [강의 모듈 선택 방법](authors/how-to-choose-modules.md)
   * [학습자로 미리 보기](authors/feature-summary/fluidic-player.md)
   * Adobe Learning Manager Content Composer (Beta) {#alm-content-composer}
@@ -285,8 +304,10 @@ ht-degree: 34%
       * [테마 JSON 속성 참조](authors/feature-summary/content-composer/theme-json-reference.md)
   * [설정](authors/feature-summary/settings.md)
 * 강사 {#instructor}
-  * [모듈](instructors/feature-summary/modules.md)
+  * [모듈](/help/migrated/instructors/feature-summary/modules.md)
+  * [팀 제출 평가 및 제출 취소](/help/migrated/instructors/feature-summary/learners.md)
   * [세션 학습자 관리](instructors/feature-summary/learners.md)
+  * [세션 초대 다시 보내기](instructors/feature-summary/resend-session-invite.md)
 * Prime에서 {#learner}
   * [로그인](learners/feature-summary/user-login.md)
   * [프로필 설정](learners/feature-summary/settings.md)
@@ -297,15 +318,18 @@ ht-degree: 34%
   * [원클릭 등록](learners/feature-summary/learner-one-click-enrollment.md)
   * [내가 저장함 위젯](learners/feature-summary/saved-by-me-widget.md)
   * [내 학습](learners/feature-summary/courses.md)
+  * [안전한 시험 브라우저에서 퀴즈 실행](./learners/feature-summary/launch-safe-exam-browser.md)
+  * [학습자 준수 위젯에 표시할 다중 등록 강의](learners/feature-summary/multi-enrolled-learner-compliance-widget.md)
   * {hide-from-toc}[적응형 과정](learners/feature-summary/adaptive-course-learner.md)
   * [Fluidic Player](learners/feature-summary/fluidic-player.md)
   * [학습 프로그램](learners/feature-summary/learning-programs.md)
   * [인증](learners/feature-summary/certifications.md)
   * [작업 지원](learners/feature-summary/job-aids.md)
-  * [채널 탐색 및 참여(Beta)](learners/feature-summary/discover-and-engage-with-channels.md)
+  * [채널 탐색 및 참여](learners/feature-summary/discover-and-engage-with-channels.md)
   * [ALM의 복수 품목 카트](learners/feature-summary/multi-item-cart.md)
   * [학습자용 성적 증명서](learners/feature-summary/alm-learner-gradebook.md)
   * [외부 학습 기록 제출](learners/feature-summary/submit-external-learning.md)
+  * [팀으로 과제 제출](learners/feature-summary/submit-assignment-as-team.md)
   * [배지](learners/feature-summary/badges.md)
   * [스킬 및 레벨](learners/feature-summary/skills-levels.md)
   * [게임화](learners/feature-summary/gamification.md)
@@ -313,6 +337,10 @@ ht-degree: 34%
   * [공지](learners/feature-summary/announcements.md)
   * [대기자 및 출석자 관리](learners/feature-summary/waitlist-attendance-management.md)
   * [학습자용 AI 지원](learners/feature-summary/learner-ai-assistant.md)
+  * [AI 클라이언트를 ALM에 연결](learners/feature-summary/connect-ai-client-to-alm-learner.md)
+  * [클로드에 ALM 추가](learners/feature-summary/add-alm-to-claude-learner.md)
+  * [학습자 도구 참조](learners/feature-summary/learner-tools-reference.md)
+  * [학습자를 위한 샘플 프롬프트](learners/feature-summary/sample-prompts-for-learners.md)
   * [Adobe Learning Manager의 학습 경로 상담사(Beta)](learners/feature-summary/learning-path-agent.md)
   * [Adobe Learning Manager에서 AI 기반 검색](/help/migrated/learners/feature-summary/advanced-search.md)
   * [Salesforce용 Learning Manager 앱](learners/feature-summary/sfdc-app.md)
@@ -333,7 +361,7 @@ ht-degree: 34%
   * [학습자 성적 증명서](managers/feature-summary/learner-transcripts.md)
   * [설정](managers/feature-summary/settings.md)
   * [iPad 및 Android 태블릿 사용자](managers/feature-summary/ipad-android-tablet-users.md)
-* 라이브 허브(베타)를 사용한 작업 {#work-with-live-hub}
+* 라이브 허브를 사용하여 작업 {#work-with-live-hub}
   * [시스템 요구 사항](./getting-started-with-live-hub/system-requirements-for-live-hub.md)
   * 라이브 허브에서의 역할 {#roles-in-live-hub}
     * [책임자](../migrated/getting-started-with-live-hub/administrator.md)
@@ -394,19 +422,20 @@ ht-degree: 34%
       * [세션 대시보드 보기](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [세션 대시보드의 구성 요소](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
   * [모범 사례](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
-  * [학습자로 모바일의 라이브 허브(베타) 사용](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
+  * [모바일의 라이브 허브를 학습자로 사용](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * 자주 묻는 질문 {#faq}
   * [관리자를 위한 자주 묻는 질문(FAQ)](administrators/frequently-asked-questions-for-administrators.md)
   * [작성자를 위한 자주 묻는 질문(FAQ)](authors/frequently-asked-questions-for-authors.md)
   * [강사를 위한 자주 묻는 질문](instructors/frequently-asked-questions-for-instructors.md)
   * [관리자를 위한 자주 묻는 질문(FAQ)](managers/frequently-asked-questions-for-managers.md)
   * [학습자를 위한 자주 묻는 질문(FAQ)](learners/frequently-asked-questions-for-learners.md)
-  * [라이브 허브(베타) 세션에 대해 자주 묻는 질문](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
+  * [라이브 허브 세션에 대해 자주 묻는 질문](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
   * [새로운 Experience 리그 공지 사항](/help/migrated/new-experience-league-announcement.md)
   * [Experience League에서 지원 티켓을 제출하는 방법](/help/migrated/how-to-submit-support-ticket.md)
   * [Adobe Learning Manager에서 체험판 계정 만들기](/help/migrated/create-trial-account.md)
 * API 변경 사항 {#api-changes}
   * [증분 사용자 보고서(작업 API)](/help/migrated/incremental-user-report.md)
+  * [2026년 12월 릴리스의 API 변경 사항](/help/migrated/api-changes-dec-2026.md)
   * [2026년 9월 릴리스의 API 변경 사항](/help/migrated/api-changes-sep-2026.md)
   * [2026년 8월 릴리스의 API 변경 사항](/help/migrated/api-changes-august-2026.md)
   * [2026년 4월 릴리스의 API 변경 사항](/help/migrated/api-changes-alm.md)

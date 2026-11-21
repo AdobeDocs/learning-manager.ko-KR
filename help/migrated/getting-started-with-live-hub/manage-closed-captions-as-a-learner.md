@@ -4,15 +4,19 @@ description: 학습자가 라이브 허브 세션 중에 폐쇄 캡션을 표시
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '290'
 ht-degree: 0%
 ---
 
 # 학습자로 폐쇄 자막 관리
 
 폐쇄 캡션은 음성 콘텐츠를 화면 텍스트로 표시하므로 시끄러운 환경에 있거나 오디오와 함께 읽기를 선호하는 경우 라이브 허브 세션을 쉽게 따라 할 수 있습니다. 컨트롤 막대의 폐쇄 캡션(CC) 버튼에서 자체 캡션을 제어합니다. 이 안내서에서는 학습자로 캡션을 표시, 조정 및 숨기는 방법에 대해 설명합니다.
+
+>[!NOTE]
+>
+>강사가 세션에 대해 선택한 언어로 캡션이 표시됩니다.
 
 ## 폐쇄 캡션 표시
 

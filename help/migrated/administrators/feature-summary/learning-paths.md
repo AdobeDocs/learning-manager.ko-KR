@@ -7,10 +7,10 @@ exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 463f53a7b0a6ca5a9ee8d2926ffe341acc29c91c
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 61%
+source-wordcount: '1483'
+ht-degree: 59%
 ---
 # 학습 경로
 
@@ -78,9 +78,9 @@ ht-degree: 61%
 
 학습 경로에 강의를 추가하려면 **[!UICONTROL 강의 또는 학습 경로 추가]**&#x200B;를 클릭합니다.
 
-화면에 나타난 대화 상자에서 학습 경로에 추가할 교육을 선택합니다.
+표시되는 창에서 학습 경로에 추가할 교육을 선택합니다. 각 항목에는 이름, 유형(강의 또는 학습 경로), 게시 상태 및 강의 형식(예: 자가 진행식, 가상, 강의실 또는 혼합)이 표시됩니다.
 
-![](assets/choose-training.png)
+![](assets/LP_4.png)
 
 *학습 경로에 교육 추가*
 
