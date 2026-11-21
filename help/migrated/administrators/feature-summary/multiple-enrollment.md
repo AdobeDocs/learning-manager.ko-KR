@@ -5,7 +5,7 @@ exl-id: c430545d-b48e-432d-a278-658c9281818f
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 370f9abfd6ba47ad1364452ac4314b1ee6392a65
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 70%
@@ -90,3 +90,5 @@ Adobe Learning Manager의 다중 등록 기능을 사용하면 책임자가 이�
 ## 보고
 
 동일한 강의의 두 인스턴스에 등록된 학습자의 경우 각 강의 인스턴스에 대해 두 개의 행이 생성됩니다. 또한 보고서에는 인스턴스의 진행률이 표시됩니다.
+
+

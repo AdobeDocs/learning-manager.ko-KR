@@ -1,16 +1,16 @@
 ---
-title: Adobe Learning Manager에서 라이브 허브(Beta) 활성화
+title: Adobe Learning Manager에서 라이브 허브 활성화
 description: 책임자가 계정에 대해 라이브 허브를 활성화하고 이를 기본 가상 강의실 공급자로 설정한 다음 AI 기반 라이브 허브 도우미를 켜는 방법에 대해 알아봅니다.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 7f444eeaf1c3ca10df7ab4f8452b9c89747436a3
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '508'
 ht-degree: 0%
 ---
 
-# Adobe Learning Manager에서 라이브 허브(Beta) 활성화
+# Adobe Learning Manager에서 라이브 허브 활성화
 
 관리자는 Adobe Learning Manager 계정에 대해 라이브 허브 를 활성화하고 라이브 세션 중에 강사를 지원하도록 AI 기반 도우미를 구성할 수 있습니다. Live Hub가 활성화되면 작성자는 Live Hub 가상 교육 도구를 사용하여 강의에 대한 가상 강의실 모듈을 만들고 관리할 수 있습니다.
 

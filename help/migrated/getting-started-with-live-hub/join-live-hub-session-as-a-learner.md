@@ -4,13 +4,13 @@ description: 학습자가 회의실에 들어가기 전에 오디오 및 카메�
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '137'
 ht-degree: 4%
 ---
 
-# 학습자로 라이브 허브(Beta) 세션 참여
+# 학습자로 라이브 허브 세션 참가
 
 학습자는 등록된 강의에서 직접 Live Hub 세션에 참여합니다. 가입하면 채팅, 설문 조사, 퀴즈, 화이트보드, 소회의실 등을 통해 실시간 훈련에 참여합니다.
 

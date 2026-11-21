@@ -5,10 +5,10 @@ title: Adobe Learning Manager의 Insights Agent (Beta)
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 2377d632f2bc41f5c33e5880c1cbc2baa071d5da
 workflow-type: tm+mt
-source-wordcount: '2929'
-ht-degree: 1%
+source-wordcount: '4257'
+ht-degree: 0%
 ---
 
 # Insights 에이전트란 무엇입니까?
@@ -21,9 +21,9 @@ Insights Agent는 데이터 질문과 답변 얻기 사이의 단계를 줄이�
 
 Insights 에이전트를 사용하면 다음 작업을 수행할 수 있습니다.
 
-- 지역, 부서 또는 사용자 그룹별 완료 및 준수 측정 단위 확인
-- 강의 또는 학습 경로 간의 등록 추세 분석
-- 특정 강의 또는 학습 경로에 대한 진행률 데이터 보기
+* 지역, 부서 또는 사용자 그룹별 완료 및 준수 측정 단위 확인
+* 강의 또는 학습 경로 간의 등록 추세 분석
+* 특정 강의 또는 학습 경로에 대한 진행률 데이터 보기
 
 모든 쿼리는 형식이 지정된 테이블이나 다운로드 가능한 CSV 파일을 반환하며 결과가 계산된 방식에 대한 일반적인 언어 설명을 제공합니다.
 
@@ -31,9 +31,9 @@ Insights 에이전트를 사용하면 다음 작업을 수행할 수 있습니�
 
 다음 데이터 형식은 현재 Insights 에이전트 범위를 벗어납니다.
 
-- 피드백 및 설문 조사 데이터
-- 게임화 점수 및 배지
-- 감사 기록 및 변경 로그
+* 피드백 및 설문 조사 데이터
+* 게임화 점수 및 배지
+* 감사 기록 및 변경 로그
 
 이러한 데이터 형식을 참조하는 쿼리는 결과를 반환하지 않습니다. 예를 들어, &quot;지난 분기에 수여된 게임화 점수는 몇 점입니까?&quot; 또는 &#39;어떤 학습자가 준수 배지를 획득했습니까?&#39;를 추가함 은(는) 오류 또는 불완전한 데이터를 반환합니다.
 
@@ -298,3 +298,127 @@ If your administrator has renamed standard terms using **Product Terminology** i
 **라틴어 이외의 스크립트로 제출된 쿼리는 지원되지 않습니다.**
 
 Insights Agent는 프랑스어, 스페인어와 같은 영어 및 라틴 알파벳 언어로 작성된 쿼리를 지원합니다. 일본어, 중국어, 아랍어, 한국어, 힌디어 및 러시아어를 비롯하여 라틴어가 아닌 스크립트를 사용하여 제출된 쿼리는 처리되지 않습니다. 상담사는 쿼리를 완료할 수 없음을 나타내는 메시지를 표시합니다. 이러한 언어 중 하나로 쿼리를 제출하면 새 쿼리를 시작하고 영어로 다시 구합니다.
+
+## Insights 상담사 답변으로 보고서 만들기
+
+Adobe Learning Manager에서 Insights 상담사에게 일반 언어로 질문을 하고 Report Builder에서 보고서로 답변을 열 수 있습니다. 그러면 보고서를 편집하고 다시 사용할 수 있으므로 처음부터 다시 작성할 필요가 없습니다.
+
+## Insights 에이전트와 Report Builder 통합이란 무엇입니까?
+
+Insights 상담사와 Report Builder은 Adobe Learning Manager에서 동일한 데이터에 연결하는 두 가지 방법입니다. 둘 다 동일한 데이터 플랫폼에서 실행됩니다.
+
+* **Insights 에이전트**&#x200B;를 사용하면 자연어로 질문할 수 있습니다.
+* **Report Builder**&#x200B;를 사용하면 데이터 집합, 열, 집계 및 필터를 선택하여 보고서를 빌드할 수 있습니다. 이 템플릿을 사용하여 반복 보고서를 생성하고, 보고서를 구독하고, 기존 보고서를 편집할 수도 있습니다.
+
+이 통합은 두 가지를 연결합니다. 질문으로 시작하여 답변을 검토하고 Report Builder에서 엽니다. 여기에서 보고서를 수정하고 다른 보고서와 마찬가지로 보고서를 사용하여 계속 작업할 수 있습니다. 현재 관리자는 이 통합을 사용할 수 있습니다.
+
+모든 Insights 상담사의 답변이 보고서가 될 수 있는 것은 아닙니다. Insights 상담사는 보고서가 상담사의 응답 의도와 질문을 유지하는 경우에만 Report Builder에서 답변을 엽니다.
+
+## 통합 작동 방식
+
+질문을 하면 Insights 에이전트가 데이터 쿼리를 생성하고 해당 결과를 검색합니다. 쿼리를 Report Builder 구문으로 변환할 수 있는 경우 Adobe Learning Manager에서는 생성된 쿼리를 기반으로 초안 Report Builder 보고서를 만듭니다.
+
+Insights 에이전트:
+
+1. 질문에서 쿼리를 생성합니다.
+1. 생성된 쿼리를 Report Builder 데이터 집합 및 필드에 매핑합니다.
+1. 초안 보고서를 생성합니다.
+1. 상담사의 응답 및 원래 질문에 대해 보고서의 유효성을 검사합니다.
+1. 검토를 위해 보고서를 Report Builder으로 엽니다.
+
+## Insights 상담사 답변으로 보고서 만들기
+
+1. **Insights 에이전트**&#x200B;를 시작합니다.
+
+1. 일반 언어로 질문을 입력합니다. 대답을 기다리세요. Insights 에이전트는 백그라운드에서 보고서를 준비하므로 대화가 중단 없이 계속됩니다.
+
+   ![Insights 상담사가 질문에 대한 답변](assets/Insights-Agent-Integration-with-Report-Builder-image1.png "Insights 상담사의 답변")
+
+1. Insights 상담사가 응답을 모호하게 하거나 응답을 생성한 방식에 대한 접근 방식을 제공한 후 생성된 응답을 검토합니다.
+
+1. **Report Builder에서 편집**&#x200B;을 선택합니다.
+
+   ![Report Builder에서 편집 옵션](assets/Insights-Agent-Integration-with-Report-Builder-image2.png "Report Builder에서 편집")
+
+   Report Builder은 열과 함께 생성된 보고서를 열고 필요한 경우 그룹화 기준 또는 집계 함수를 자동으로 적용합니다. 보고서의 이름 및 설명도 자동으로 생성됩니다.
+
+   >[!NOTE]
+   >
+   >**Report Builder에서 편집** 옵션은 Insights 에이전트가 질문에 대한 데이터를 찾지 못하는 경우에도 나타납니다. 보고서를 만들고 나중에 수정할 수 있습니다. 보고서를 만든 후에 데이터가 나타날 수 있으므로 일치하는 데이터가 있을 때까지 보고서는 비어 있습니다.
+
+   ![생성된 보고서가 Report Builder에서 열림](assets/Insights-Agent-Integration-with-Report-Builder-image3.png "생성된 보고서")
+
+1. 생성된 보고서를 검토합니다. Report Builder은 답변의 필드를 해당 필드(예: 강의 이름 및 설명)에 매핑합니다. Insights 에이전트가 질문의 일부를 변환할 수 없는 경우 보고서에는 이러한 항목이 보고서 옆에 공백으로 나열됩니다.
+
+1. 필요한 경우 보고서를 편집합니다. 예를 들어, 열, 집계 또는 필터를 추가하거나 변경합니다.
+
+1. 보고서를 저장합니다. **보고서 저장**&#x200B;을 선택합니다.
+
+보고서는 변환된 필드와 일치하는 데이터가 있는 Report Builder으로 열립니다. 이제 다른 보고서처럼 편집하고 관리할 수 있습니다.
+
+## 생성된 보고서 편집
+
+Report Builder에서 보고서를 연 후 다음을 수행할 수 있습니다.
+
+* 열을 추가하거나 제거합니다.
+* 필터를 업데이트합니다.
+* 집계를 수정합니다.
+* 정렬을 변경합니다.
+* 보고서를 저장합니다.
+* 보고서를 공유합니다.
+* 시각화를 추가합니다.
+* 대시보드를 만듭니다.
+
+## Insights 에이전트가 답변을 보고서로 변환하는 방법
+
+Insights 에이전트와 Report Builder은 다르게 설계되었습니다. 따라서 Insights 에이전트의 답변에는 Report Builder이 완전히 나타낼 수 없는 데이터가 포함될 수 있습니다. 이 문제를 처리하기 위해 Insights 에이전트는 각 대답을 단계별로 변환합니다.
+
+| 스테이지 | 조치 사항 |
+|---|---|
+| 쿼리 | Insights 상담사는 질문에 답변하는 쿼리를 처리합니다. Report Builder은 동일한 쿼리에서 동시에 시작되므로 대화가 차단되지 않습니다. |
+| 필드 매핑 | 쿼리가 Report Builder 데이터 세트 및 필드에 매핑됩니다. 작업 보고서는 해당 매핑으로 작성됩니다. |
+| AI 초안 | AI가 보고서를 작성하고 확인합니다. |
+| 검토 | 보고서는 작업 질의 및 원래 질문에 대해 확인됩니다. 유효성 검사가 동시에 실행됩니다. |
+| 교정 | 검증 결과 오류가 발견되면 자동으로 수정됩니다. |
+| 간격 목록 | Report Builder 필드에서 표현할 수 없는 질문 부분이 보고서 옆에 나열됩니다. |
+
+## Report Builder에서 답변을 열 수 있는지 여부를 Insights 에이전트가 결정하는 방법
+
+Insights Agent는 두 가지 규칙, 즉 상담사의 응답 의도와 질문을 유지하고 변환할 수 없는 사항에 대해 솔직하게 설명합니다.
+
+* **의도 유지** Insights Agent를 사용하면 보고서에 Insights Agent 응답의 핵심이 여전히 반영되어 있는 경우에만 Report Builder에서 답변을 열 수 있습니다. 변환 의도가 손실되면 Report Builder으로 이동할 수 없습니다.
+* **간격을 공개합니다.** 질문의 일부가 Report Builder으로 표시되지 않는 경우 Insights 상담사는 이를 자동으로 삭제하지 않습니다. 보고서 옆에 가장 눈에 띄는 부분을 간격으로 나열하려고 합니다. 위험해 보이는 내용이 있는 경우 보고서를 계속 사용할 수 있으므로 직접 검토할 수 있습니다.
+
+Insights 상담사는 누락된 필드 또는 계산이 해당 의도에 따라 질문의 핵심인지 여부를 결정합니다.
+
+>[!NOTE]
+>
+>Insights Agent는 주로 자체 응답에 대해 변환을 확인하고 사용자의 질문에 대해 2차적으로만 확인합니다. 응답이 질문에 완전히 답변하지 못하는 경우에도 Report Builder 상태의 보고서로 변환할 수 있습니다. 보고서를 사용하기 전에 검토하십시오.
+
+| 상황 | 결과 |
+|---|---|
+| Report Builder에게 Insights 상담사 응답의 모든 부분에 대한 필드가 있습니다. | 보고서가 만들어지고 검토할 준비가 되었습니다. |
+| Insights 상담사 응답의 일부를 Report Builder으로 표시할 수 없습니다. | 부품이 간격(gap)으로 나열됩니다. 보고서는 계속 검토할 수 있습니다. |
+| 응답의 필드는 Report Builder에서 사용할 수 없으며 응답의 소수입니다. | 보고서를 Report Builder으로 열 수 있습니다. 필드가 공백으로 나열됩니다. |
+| 응답의 필드는 Report Builder에서 사용할 수 없으며 응답의 중심입니다. | Report Builder에서 응답을 열 수 없습니다. (예: 스킬 이름 또는 스킬 ID) |
+| 응답에서 Report Builder이 지원하지 않는 계산된 필드를 사용합니다. 계산은 새 필드를 생성하는 복합 계산이나 기존 Report Builder 필드 위에 빌드되는 합산 계산의 두 가지 유형 중 하나일 수 있습니다. 첫 번째 형식은 변환할 수 없지만 두 번째 형식은 변환할 수 있습니다. | 계산이 간격으로 나열됩니다. 응답의 핵심인 경우 Report Builder에서 응답을 열 수 없습니다. |
+| 응답은 복잡합니다(예: 여러 개의 조인된 쿼리). | 변환된 보고서의 정확도가 떨어질 수 있습니다. 응답의 의도가 여전히 반영된 경우, 확인할 수 있도록 열립니다. |
+| Insights 에이전트가 귀하의 질문에 대한 데이터를 찾지 못했습니다. | **Report Builder에서 편집** 옵션이 계속 표시됩니다. 보고서를 만들고 나중에 수정할 수 있습니다. 이 보고서는 일치하는 데이터를 사용할 수 있게 될 때 데이터를 표시합니다. |
+
+## 보고서 변환 문제 해결
+
+| 문제 | 솔루션 |
+|---|---|
+| Report Builder에서 답변을 열 수 없습니다. | 질문의 핵심인 필드나 계산은 Report Builder에서 사용할 수 없습니다. 해당 필드나 계산 없이 질문을 다시 구독한 다음 다시 질문합니다. |
+| 보고서의 열이 답변보다 적습니다. | 보고서 옆에 나열된 간격을 확인합니다. 여기에 나열된 항목을 변환할 수 없습니다. |
+| 보고서가 복잡한 질문에서 예상한 것과 일치하지 않습니다. | 원래 질문과 대조하여 보고서를 검토합니다. 질문을 더 작은 질문으로 나누고 각 대답을 별도로 변환합니다. |
+| Insights 에이전트가 데이터를 찾지 못했으나 **Report Builder에서 편집**&#x200B;을 사용할 수 있습니다. | 이것은 예상된 일입니다. 보고서를 만들고 Report Builder에서 수정한 다음 새 데이터를 사용할 수 있을 때 다시 확인할 수 있습니다. |
+| 보고서가 Report Builder에서 빈 상태로 열립니다. | 질문에 일치하는 데이터가 아직 없습니다. 보고서를 수정하거나 새 데이터를 사용할 수 있으면 보고서를 다시 엽니다. |
+
+### 연관 검색
+
+* [Report Builder으로 보고서 만들기](/help/migrated/administrators/feature-summary/alm-create-report.md)
+* [Report Builder 보고서에서 대시보드 만들기 및 차트로 보고서 데이터 시각화](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
+* [보고용 Insights 에이전트 사용](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insight-agent-answer)
+* [보고서 공유 및 구독](/help/migrated/administrators/feature-summary/download-share-subscribe-report.md)
+* 차트로 보고서 데이터 시각화

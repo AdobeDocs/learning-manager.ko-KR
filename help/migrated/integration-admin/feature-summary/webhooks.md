@@ -7,7 +7,7 @@ exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 5e4f890c4f9855adb1926399e4391384b3317a45
 workflow-type: tm+mt
 source-wordcount: '1648'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Webhook은 관련 정보를 JSON 형식으로 전송합니다. 다음은 Adobe L
 }
 ```
 
-## Webhook 생성 및 관리 - 통합 관리자
+## Webhook 생성 및 관리 - 통합 관리자 {#create-manage-webhooks}
 
 Adobe Learning Manager에서 Webhooks 통합을 만들려면 아래 단계를 따르십시오.
 

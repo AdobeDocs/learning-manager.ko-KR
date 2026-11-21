@@ -1,16 +1,16 @@
 ---
-title: 라이브 허브(Beta) 세션에 대한 모범 사례
+title: 라이브 허브 세션에 대한 모범 사례
 description: 작성자, 책임자, 강사 및 학습자를 위해 Adobe Learning Manager의 라이브 허브 세션을 준비, 실행 및 후속 조치를 취하려면 다음 모범 사례를 따르십시오.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
 workflow-type: tm+mt
-source-wordcount: '1885'
+source-wordcount: '1883'
 ht-degree: 0%
 ---
 
-# 라이브 허브(Beta) 세션에 대한 모범 사례
+# 라이브 허브 세션에 대한 모범 사례
 
 Adobe Learning Manager의 라이브 허브 과정은 실시간 교육을 위해 강사와 학습자가 한데 모여 채팅, 설문 조사, 퀴즈, 화이트보드, 회의실, 녹화, 분석 등의 대화형 기능을 제공합니다. 이 안내서는 책임자와 작성자, 강사가 원활하고 매력적이며 효과적인 학습 환경을 만들기 위해 채택할 수 있는 사례에 중점을 둡니다.
 

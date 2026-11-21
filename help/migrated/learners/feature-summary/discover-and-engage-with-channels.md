@@ -4,17 +4,13 @@ description: Adobe Learning Manager의 채널을 통해 제공되는 비디오 �
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 0188bf3d942d5f1ebb1de8f472cb4a65fdef5a15
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 0%
+source-wordcount: '653'
+ht-degree: 1%
 ---
 
-# 채널 탐색 및 참여(Beta)
-
->[!IMPORTANT]
->
->Beta 기능에는 결함이 있을 수 있으며 어떠한 종류의 보증 없이 &quot;있는 그대로&quot; 제공됩니다. 베타 기능을 일반적으로 사용할 수 있도록 설정할지 여부는 Adobe에게 재량권이 있습니다. Adobe은 베타 기능을 유지, 수정, 업데이트, 변경, 수정 또는 기타 지원(Adobe 지원 서비스 등을 통해)할 의무가 없습니다. Beta 기능이 일반적으로 지원될 경우 해당 비용을 포함한 추가 약관이 적용될 수 있습니다. Beta 기능은 중단을 포함하여 예고 없이 변경될 수 있습니다. 고객은 주의해야 하며, Beta 기능의 중단되지 않거나 오류가 없는 기능 또는 성능에 어떤 방법으로도 의존하지 않는 것이 좋습니다. 따라서 베타 기능의 사용은 전적으로 고객 책임입니다. 기능의 발전에 따라 제품 기능 및 관련 설명서가 변경될 수 있습니다. 이 설명서는 현재 베타 경험을 반영하며 최종 또는 전체 제품 설명서로 간주해서는 안 됩니다.
+# 채널 탐색 및 참여
 
 채널은 학습자가 Adobe Learning Manager 내의 웹 및 클라우드 컨플루언스 페이지에서 선별된 비디오 기반의 비공식 학습 콘텐츠를 발견하고 액세스하는 데 도움을 줍니다. 관리자는 기록된 지식 공유 및 지식 전송 세션을 호스팅하는 엔터프라이즈 웹 페이지나 클라우드 연결 페이지에 연결하여 채널을 만들 수 있습니다.
 

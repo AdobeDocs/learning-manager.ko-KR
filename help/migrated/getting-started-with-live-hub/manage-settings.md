@@ -4,9 +4,9 @@ description: 강사가 참여자 권한, 녹화, AI 도우미, 개인 정보를 
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '584'
 ht-degree: 0%
 ---
 
@@ -31,9 +31,11 @@ ht-degree: 0%
 
    1. **녹음**: 참가자 비디오 피드, 투표, 채팅 기록을 포함하여 녹음에서 캡처할 내용을 선택합니다.
 
+   1. **캡션**: 세션 중에 캡션이 생성되는 언어를 선택합니다.
+
    1. **AI**: Q&amp;A 도우미, 설문 조사 도우미, 브레이크아웃 모니터링 에이전트 및 녹음 항목 생성을 포함하여 세션의 AI 도우미를 켜거나 끕니다.
 
-   1. **개인 정보**: 아직 세션에 참여하지 않은 등록된 참가자를 표시하거나 숨깁니다.
+   1. **개인 정보**: 아직 세션에 참여하지 않은 등록된 참가자를 표시하거나 숨깁니다.왼쪽 패널에서 관련 탭을 선택합니다.
 
 1. 필요한 설정을 변경합니다.
 
@@ -94,6 +96,12 @@ ht-degree: 0%
 <td>기록에 채팅 기록을 추가합니다.</td>
 </tr>
 <tr>
+<tr>
+<td><p><strong>캡션</strong></p>
+<p><strong>기본값</strong>: 영어</p></td>
+<td>캡션 표시 언어</td>
+<td>모든 참가자에 대해 캡션이 생성되는 언어를 설정합니다. 캡션은 번역되지 않으므로 선택한 언어는 강사가 말하는 언어와 일치해야 합니다.</td>
+</tr>
 <td rowspan="4"><p><strong>AI</strong></p>
 <p><strong>기본값</strong>: 관리자가 모든 AI 도우미를 활성화한 경우 활성화됩니다.</p></td>
 <td>Q&amp;A 도우미 및 대답 생성 활성화</td>
