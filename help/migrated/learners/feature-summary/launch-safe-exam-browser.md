@@ -41,5 +41,5 @@ SEB(Safe Exam Browser)는 온라인 평가를 위한 제어 환경을 제공하�
    >[!NOTE]
    >
    > SEB(Safe Exam Browser)를 통해 Adobe Learning Manager에 로그인하면 SEB가 필요한 할당 및 미시도 퀴즈에 액세스할 수 있습니다. 다른 학습 콘텐츠에는 액세스할 수 없습니다.
-1. **SEB 종료**를 선택합니다.
+1. **SEB 종료**&#x200B;를 선택합니다.
 계정에 대해 구성된 페이지로 리디렉션됩니다.
