@@ -428,5 +428,5 @@ Adobe Experience Manager Assets에서 원본 에셋이 삭제되었습니다. [�
 **관련 링크:**
 
 * [콘텐츠 라이브러리에서 콘텐츠 관리](/help/migrated/authors/feature-summary/content-library.md)
-* [Adobe Admin Console 설명서](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
-* [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/overview)
+* [Adobe Admin Console 설명서](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
+* [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/overview)
