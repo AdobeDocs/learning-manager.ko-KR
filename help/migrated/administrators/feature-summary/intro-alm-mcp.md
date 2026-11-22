@@ -3,9 +3,9 @@ description: 학습자가 Claude, ChatGPT Enterprise 및 사용자 정의 상담
 jcr-language: en_us
 title: Adobe Learning Manager 모델 컨텍스트 프로토콜 서버
 exl-id: 8d0a25a6-1301-4f68-8db7-e3b1d3ff6537
-source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
+source-git-commit: f6dc1e97076edf812862b80a6ed5931989c660da
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '684'
 ht-degree: 0%
 ---
 
@@ -33,7 +33,7 @@ AI 클라이언트는 MCP 서버를 호출하여 각 요청을 일치하는 학�
 
 고객 및 파트너 교육은 MCP 서버의 주요 사용입니다. 자체 기업 AI 에이전트를 구축하는 조직은 해당 에이전트를 Adobe Learning Manager 학습자 도구에 연결할 수 있습니다. 그런 다음 고객과 파트너는 별도의 학습 도우미로 이동하지 않고도 이미 사용하는 도우미에서 학습합니다.
 
-예를 들어 Acme Inc.는 자체 엔터프라이즈 AI 어시스턴트를 구축합니다. Acme Inc. 파트너가 Lenovo의 환경에 방문하여 Lenovo 제품에 대해 알아봅니다. Acme의 도우미는 MCP 서버를 통해 Adobe Learning Manager 계정에 연결하고 학습 관련 응답을 반환하므로 파트너가 Acme 경험을 떠나지 않습니다.
+예를 들어 Acme Inc.는 자체 엔터프라이즈 AI 어시스턴트를 구축합니다. Acme Inc. 파트너가 Tech Corp의 환경을 방문하여 Tech Corp 제품에 대해 알아봅니다. Acme의 도우미는 MCP 서버를 통해 Adobe Learning Manager 계정에 연결하고 학습 관련 응답을 반환하므로 파트너가 Acme 경험을 떠나지 않습니다.
 
 이 접근 방식을 통해 조직은 다음을 수행할 수 있습니다.
 
