@@ -6,10 +6,10 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 9f214ebfdf686375a53896b186deac31bbe1658c
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '4884'
-ht-degree: 1%
+source-wordcount: '4846'
+ht-degree: 2%
 ---
 
 >[!IMPORTANT]
@@ -70,6 +70,8 @@ Report Builder에서 지원하는 차트 유형은 다음과 같습니다.
 
 강사는 새로운 **팀 관리** 페이지에서 팀을 관리하고 팀 제출 페이지에서 작업을 검토합니다. 강사는 팀원이 나갔을 때와 같이 변경이 필요한 경우, 승인된 제출을 제출 취소하여 팀의 잠금을 해제할 수 있습니다. 한 팀은 최대 100명의 멤버를 보유합니다. 학습자는 팀, 멤버 및 평가 결과를 볼 수 있습니다. 강의를 게시한 후에는 팀 모듈을 추가하거나 삭제할 수 없습니다.
 
+[자세히 알아보기](/help/migrated/learners/feature-summary/submit-assignment-as-team.md)
+
 ### 루브릭 기반 평가(평가 계획)
 
 작성자는 이제 파일 제출 모듈에 대해 평가 계획이라는 루브릭을 정의할 수 있습니다. 루브릭은 채점된 선택지로 객관적인 질문을, 서면검토로 주관적인 질문을 지원한다.
@@ -80,6 +82,8 @@ Report Builder에서 지원하는 차트 유형은 다음과 같습니다.
 * 채점이 전체 점수 하나인지 각 기준에 대한 점수인지 여부
 
 각 질문은 필요에 따라 표시할 수 있으며 검토자의 의견을 들을 수 있도록 구성할 수 있습니다. 루브릭 기반 평가는 최대 100개의 질문을 포함하며 작성자는 각 로케일에 대해 질문을 별도로 입력합니다. 강의를 게시한 후에는 질문 텍스트만 변경할 수 있습니다.
+
+[자세히 알아보기](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
 
 ### 강사 승인 또는 자동 완료
 
@@ -123,25 +127,37 @@ Virtual Coach는 9개의 언어를 지원하며, 개별 작업 지원으로 사�
 
 학습자 도우미 답변에서는 이제 강의 자체와 함께 소스 강의가 포함된 학습 경로를 인용합니다. 학습자는 인용에서 강의 개요 또는 학습 경로 페이지를 엽니다. 작업 지원에서 받은 답변에는 다운로드 링크가 포함됩니다. 그러면 학습자가 질문에 답변하는 교육을 찾을 수 있습니다.
 
+[자세히 알아보기](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations)
+
 ## AI 어시스턴트 구성
 
 관리자 도우미에서는 Insights 에이전트와 Knowledge Agent라는 두 개의 에이전트를 제공합니다. 개별적으로 구성할 수 있습니다. 학습자 도우미에서는 지식 상담사, 대답 상담사, 학습 경로 상담사의 세 가지 상담사를 제공합니다. 카탈로그 구성과 함께 구성할 수 있습니다.
+
+[자세히 알아보기](/help/migrated/learners/feature-summary/learner-ai-assistant.md#configure-la-agents)
 
 ## 강사가 학습 개체 인스턴스를 편집할 수 있는 Webhook
 
 이제 학습 개체 인스턴스 수정 Webhook는 강사가 가상 강의실 세션을 편집하고 책임자와 작성자가 변경하면 트리거됩니다. 세션 시간, 장소 및 등록 제한과 같은 변경 사항이 이를 트리거합니다. 그러면 헤드리스 고객은 공개 API를 통해 세션 세부 정보를 검색하고 업데이트를 학습자에게 전달할 수 있습니다.
 
+[자세히 알아보기](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+
 ## 준수 위젯에 다중 등록된 강의
 
 이제 준수 위젯에 학습자가 완료해야 하는 다중 등록 강의의 모든 인스턴스가 나열됩니다. 각 항목은 인스턴스 이름을 표시합니다. 하나의 인스턴스에 기한이 있는 경우 기한이 없는 인스턴스는 숨겨집니다. 공용 API의 등록 엔드포인트는 선택적 매개 변수를 통해 동일한 동작을 지원합니다.
+
+[자세히 알아보기](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
 
 ## 가상 강의실 세션 초대 다시 보내기
 
 강의 편집 권한이 있는 관리자는 이제 인스턴스 페이지에서 세션 초대를 재보낼 수 있습니다. **재전송**&#x200B;을 선택하고 학습자를 검색한 후 보내십시오. 이 옵션은 현재 및 향후의 가상 강의실 세션에 사용할 수 있습니다. 여러 인스턴스에 있는 학습자의 경우 선택한 인스턴스로만 초대가 이동합니다. 세션에 등록되지 않은 학습자는 경고와 함께 건너뜁니다.
 
+[자세히 알아보기](/help/migrated/instructors/feature-summary/resend-session-invite.md)
+
 ## Adobe Connect 레코딩 보기에서 자동 출석
 
 이제 Adobe Learning Manager은 학습자가 누락된 가상 교실 세션 기록을 재생할 때 출석을 표시합니다. 예약된 통합은 Adobe Connect에서 뷰어 데이터를 가져와 재생 시간과 계정에 대해 설정된 완료 조건을 비교합니다. 책임자가 통합 책임자 앱에서 일정을 설정합니다. Adobe Learning Manager은 출석을 결정할 때 실제 시청 시간만 고려하므로 녹화를 건너뛰는 것은 완료 기준에 포함되지 않습니다.
+
+[자세히 알아보기](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
 
 ## 강의 및 인스턴스용 Email Builder
 
@@ -160,8 +176,6 @@ Email Builder를 사용하여 다음을 수행할 수 있습니다.
 배너 및 서명 설정이 이동되었습니다. 이전에는 이러한 설정이 별도의 **설정** 탭에 나타났습니다. 해당 탭이 제거되고 **배너** 및 **서명**&#x200B;이 이제 **전역 레이아웃**&#x200B;에 나타납니다.
 
 Email Builder를 사용하면 제목 변수를 사용하여 이메일 제목을 추가할 수 있습니다.
-
-[자세히 알아보기](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
 
 ### Email Builder 계층 구조의 작동 방식
 
@@ -202,17 +216,25 @@ Email Builder는 계층 구조를 사용합니다. 각 수준은 상위 수준�
 
 계정에 대해 Email Builder가 이미 활성화된 경우 새 변경 사항이 자동으로 수신되며 별도의 조치를 취할 필요가 없습니다. 기존 이메일 기능은 Email Builder 마이그레이션 작업과 별개로 계속 작동합니다.
 
+[자세히 알아보기](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+
 ## 학습 도구 상호 운용성의 사용자 정의 학습자 속성
 
 이제 Adobe Learning Manager은 학습 도구 상호 운용성의 선택 사항인 이름 및 역할 프로비저닝 서비스 끝점을 통해 사용자 정의 학습자 속성을 읽습니다. 또한 실행 요청에서도 읽습니다. 국가 또는 구/군/시 등의 속성은 그룹화 가능한 프로필 필드에 저장됩니다. Adobe Learning Manager에서 매개 변수를 인식하려면 시작 매개 변수에 접두어가 필요합니다. Moodle과 같은 일부 학습 시스템은 이 끝점을 지원하지 않습니다.
+
+[자세히 알아보기](/help/migrated/integration-admin/feature-summary/lti-support-for-nrps.md)
 
 ## 토론 게시판 강사 알림
 
 이제 헤드리스 고객은 강사와 코호트 관리자에게 토론 게시판 활동 다이제스트를 보낼 수 있습니다. API를 사용하여 보드에 가입자를 추가합니다. 새 게시물, 댓글 및 답글을 사용자가 설정한 간격 동안 하나의 이메일로 수신합니다. 좋아요 및 싫어요 는 포함되지 않습니다. API를 통해 기능을 켤 수 있습니다.
 
+[자세히 알아보기](/help/migrated/discussion-board-instructor-notifications.md)
+
 ## 관리자 카탈로그 검색의 관련성 순위
 
 관리자 보기의 카탈로그 검색은 다른 곳의 학습자 및 관리자 검색과 동일한 검색 서비스를 사용하여 관련성을 기준으로 결과를 정렬합니다. 특정 날짜가 있는 카탈로그 이름과 같은 정확한 일치 항목이 먼저 나타나고 그 뒤에 부분 일치 항목이 나타납니다. 입력하는 동안 제안 목록은 동일한 순서를 따릅니다.
+
+[자세히 알아보기](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
 
 ## Adobe Workfront에서의 세션 취소 동기화
 
@@ -224,6 +246,8 @@ Adobe Workfront에서 취소된 세션은 수동 단계 없이 마이그레이�
 * 상태를 활성으로 설정하면 세션이 다시 활성화되며 해당 세부 정보를 업데이트하거나 다시 취소할 수 있습니다.
 
 세션 업데이트는 이전과 동일하게 계속 작동합니다.
+
+[자세히 알아보기](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
 
 ## 이름에 대한 문자 제한
 
@@ -253,9 +277,13 @@ Adobe Workfront에서 취소된 세션은 수동 단계 없이 마이그레이�
 
 전체 이름을 보려면 단축된 이름 위에 마우스를 올려놓습니다.
 
+[자세히 알아보기](/help/migrated/deployment-guide/user-setup.md#character-limit-username)
+
 ## 강의 및 학습 경로에 대한 배지 정보
 
 작성자가 강의 또는 학습 경로를 추가하면 창에서 기존 강의와 학습 경로가 배지 정보와 함께 나열됩니다. 창에는 이름, 유형(강의 또는 학습 경로), 게시 상태 및 강의 형식(예: 자가 진행식, 가상, 강의실 또는 혼합)이 표시됩니다.
+
+[자세히 알아보기](/help/migrated/authors/feature-summary/create-learning-path.md)
 
 ## 임시 방문 기능 개선 사항
 
@@ -292,9 +320,15 @@ Adobe Workfront에서 취소된 세션은 수동 단계 없이 마이그레이�
 >
 >기본 Adobe Learning Manager에서 AI 및 검색 기능을 사용하려면 사용자 정의 도메인이 필요합니다. 헤드리스 배포는 설치의 일부를 자체 환경에 구현해야 합니다.
 
+>[!NOTE]
+>
+>이 기능에 대한 설명서는 곧 제공될 예정입니다.
+
 ## 학습 경로에 액세스할 수 없도록 하지 않고 강의 취소
 
 중단된 강의 또는 중첩된 학습 경로는 신규 등록을 위해 열려 있는 상위 레벨 학습 개체에서 제거됩니다. 강의를 중단해도 더 이상 학습 경로에 액세스할 수 없습니다.
+
+[자세히 알아보기](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
 
 ## 자체 등록 프로필에 대한 로그인하지 않은 페이지 URL
 
@@ -302,22 +336,15 @@ Adobe Workfront에서 취소된 세션은 수동 단계 없이 마이그레이�
 
 사용자가 해당 URL을 통해 도달한 페이지에서 **등록**&#x200B;을 선택하면 URL이 속한 프로필에 추가됩니다. 이렇게 하면 별도의 에이전시 또는 파트너 회사와 같은 다른 조직의 사용자가 별도의 프로필에 있게 됩니다.
 
+[자세히 알아보기](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
+
 ## 학습 경로 등록을 위한 마지막 액세스 날짜 저장
 
 이제 Adobe Learning Manager에서 마지막 액세스 날짜와 같은 사용자 정의 메타데이터를 학습 과정 등록에 첨부할 수 있습니다. API를 통해 설정하고 읽으며, 이를 통해 할당한 학습 경로에 대한 시간 바인딩된 액세스를 추적할 수 있습니다.
 
 강의 등록은 학습자가 강의에 액세스할 수 있는 기간을 제어하는 API를 통한 마지막 액세스 날짜를 이미 지원합니다. 이제 학습 경로 등록에서는 일반 메타데이터 필드가 제공되므로 마지막 액세스 날짜 또는 추적할 다른 값을 저장할 수 있습니다.
 
-## 작업 API를 사용하여 Report Builder 보고서 내보내기
-
-이 Adobe Learning Manager 릴리스에서는 새 작업 API 작업 유형 `generateCustomReport`을(를) 추가합니다. Report Builder에서 만든 보고서를 자동으로 내보내려면 보고서 ID를 전달합니다.
-
-이제 Report Builder의 새로운 L2 퀴즈 데이터 집합과 결합하여 다음을 수행할 수 있습니다.
-
-* 강의당 한 번씩 `generateQuizReport`을(를) 실행하는 대신 단일 보고서에서 여러 강의와 모듈에 걸쳐 질문 수준(L2) 퀴즈 데이터를 내보냅니다.
-* 데이터 웨어하우스 또는 비즈니스 인텔리전스 도구로의 일일 증분 내보내기와 같은 반복 내보내기를 자동화합니다.
-
-`generateQuizReport`을(를) 포함한 기존 작업 유형이 변경되지 않았습니다.
+[자세히 알아보기](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
 
 ## 다운로드한 보고서의 열 머리글이 변경됨
 
@@ -329,7 +356,7 @@ Adobe Workfront에서 취소된 세션은 수동 단계 없이 마이그레이�
 
 Live Hub는 이제 Ultimate 고객이 사용할 수 있으며 Prime 고객은 Beta로 유지됩니다.
 
-[자세히 알아보기](./administrators/feature-summary/billing-management.md#view-your-live-hub-usage)
+[자세히 알아보기](./administrators/feature-summary/billing-management.md#view-usage-details-viewusagedetails)
 
 ## 라이브 허브의 폐쇄 자막 다국어 지원
 
@@ -360,7 +387,7 @@ Live Hub는 이제 Ultimate 고객이 사용할 수 있으며 Prime 고객은 Be
 
 이를 통해 조직은 동일한 플랫폼 내에서 대규모 교육 세션을 실행할 수 있습니다. 이때 필요한 대상 인원으로 설정할 수 있습니다.
 
-[자세히 알아보기](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session)
+[자세히 알아보기](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
 
 ## 채널
 
@@ -427,13 +454,19 @@ Live Hub의 접근성 수정을 통해 보조 기술 및 키보드 탐색 사용
 
 새 끝점, 매개 변수 또는 응답 특성이 추가되지 않으므로 기존 통합이 변경 없이 작동합니다.
 
+[자세히 알아보기](/help/migrated/api-changes-dec-2026.md#bookmark-api-ordering-retired-content)
+
 ### 토론 게시판 강사 알림용 API
 
 이 릴리스에는 토론 게시판 강사 알림을 지원하는 새로운 API가 포함되어 있습니다. 강사 및 코호트 관리자를 토론 게시판에 구독하고 다이제스트 전자 메일에 나타나는 활동을 제어하는 데 사용합니다.
 
+[자세히 알아보기](/help/migrated/api-changes-dec-2026.md#api-discussion-board-instructors)
+
 ### 학습자 앱에서 다중 등록 인스턴스에 대한 API 지원
 
 등록 API는 이제 학습자 앱에서 다중 등록 인스턴스를 지원합니다. 선택적 `includeMultiInstanceEnrollments=true` 매개 변수를 `GET /enrollments`에 추가하여 포함하십시오. 기본값은 `false`이므로 헤드리스 구현을 포함한 기존 통합은 변경되지 않고 계속 작동합니다.
+
+[자세히 알아보기](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
 
 ### 학습 과정 등록의 마지막 액세스 날짜
 
@@ -444,11 +477,15 @@ Live Hub의 접근성 수정을 통해 보조 기술 및 키보드 탐색 사용
 
 메타데이터는 사용자의 추적을 위한 것입니다. 액세스를 제어하지 않으며 경로의 강의에 적용되지 않습니다.
 
+[자세히 알아보기](/help/migrated/api-changes-dec-2026.md#api-last-access-date-lp-enrollment)
+
 ### Report Builder 내보내기의 작업 API 작업 유형
 
 작업 API에 보고서 ID를 전달할 때 저장된 모든 Report Builder 보고서를 내보내는 새 작업 유형 `generateCustomReport`이(가) 있습니다. 새로운 L2 퀴즈 데이터 세트를 사용하면 하나의 보고서에서 여러 강의에 걸쳐 질문 수준 퀴즈 데이터를 내보내고 반복 내보내기를 자동화할 수 있습니다.
 
 `generateQuizReport`을(를) 포함한 기존 작업 유형이 변경되지 않았습니다.
+
+[자세히 알아보기](/help/migrated/api-changes-dec-2026.md#api-job-report-builder-exports)
 
 ### Zoom 커넥터용 API
 

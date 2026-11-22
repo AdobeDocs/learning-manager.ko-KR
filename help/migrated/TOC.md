@@ -3,9 +3,9 @@ user-guide-title: Adobe Learning Manager 안내서
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 설명서
 nudge: true
-source-git-commit: 62986d83f3630e676464f88f345960d9d0b49d08
+source-git-commit: b41600793d54a08999e5e4aacf29840dd4365b33
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1946'
 ht-degree: 31%
 ---
 
@@ -305,7 +305,6 @@ ht-degree: 31%
   * [설정](authors/feature-summary/settings.md)
 * 강사 {#instructor}
   * [모듈](/help/migrated/instructors/feature-summary/modules.md)
-  * [팀 제출 평가 및 제출 취소](/help/migrated/instructors/feature-summary/learners.md)
   * [세션 학습자 관리](instructors/feature-summary/learners.md)
   * [세션 초대 다시 보내기](instructors/feature-summary/resend-session-invite.md)
 * Prime에서 {#learner}
@@ -443,7 +442,7 @@ ht-degree: 31%
 * 변경 내용 보고 {#reporting-changes}
   * [2026년 8월 릴리스의 변경 사항 보고](/help/migrated/reporting-changes-august-2026.md)
 * 기술 자료 {#knowledge-base}
-  * [라이브 허브(베타) 문제 해결 가이드](./kb/troubleshooting-guide-for-live-hub.md)
+  * [라이브 허브 문제 해결 가이드](./kb/troubleshooting-guide-for-live-hub.md)
   * [Learning Manager에 로그인할 수 없음](kb/unable-log-in-learning-manager.md)
   * [학습 요약이 현재 데이터에 표시되지 않음](kb/learning-summary-not-display-data.md)
   * [CSV를 업로드할 수 없음](kb/unable-to-upload-csv.md)

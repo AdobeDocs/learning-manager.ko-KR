@@ -1,9 +1,9 @@
 ---
 title: 안전한 시험 브라우저로 강의 생성
 description: 안전한 시험 브라우저 모드로 퀴즈를 만들고 Adobe Learning Manager에서 자가 진행식 모듈로 강의에 추가하여 제한된 평가 환경을 제공합니다.
-source-git-commit: 6629e193116a8c2de12606277986811b20bbdf90
+source-git-commit: 8f23f95cd81e5b64932281c990d27be0c390850b
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 책임자가 이 옵션을 활성화하면 강의 퀴즈 모듈에 대한 SEB(Safe Exam Browser) 요구 사항을 활성화하거나 비활성화할 수 있습니다. 책임자가 이 옵션을 비활성화하면 퀴즈에 SEB가 필수 사항이 되며 이 요구 사항을 변경할 수 없습니다.
+   > 책임자가 이 옵션을 활성화하면 강의 퀴즈 모듈에 대한 SEB(Safe Exam Browser) 요구 사항을 활성화하거나 비활성화할 수 있습니다. 책임자가 이 옵션을 비활성화하면 퀴즈에 SEB가 필수 사항이 되며 이 요구 사항을 변경할 수 없습니다. 자세한 내용은 [안전 검사 브라우저 통합 사용](../../administrators/feature-summary/safe-exam-browser.md#enable-safe-exam-browser-integration)을 참조하십시오.
 
 1. **Publish**&#x200B;을 선택합니다.
 
@@ -68,3 +68,5 @@ ht-degree: 0%
 1. **저장** > **Publish**&#x200B;을 선택합니다.
 
    이제 강의에 학습자가 안전 시험 브라우저를 사용해야 하는 평가가 포함됩니다.
+
+[안전한 시험 브라우저에서 퀴즈 시작](../../learners/feature-summary/launch-safe-exam-browser.md)을 보고 학습자가 안전한 시험 브라우저를 사용하여 퀴즈에 액세스하고 응시하는 방법을 알아보십시오.

@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 078d9e7c6d0422027818541965135865cc761c20
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '39568'
+source-wordcount: '39615'
 ht-degree: 56%
 ---
 # Adobe Learning Manager 릴리스 정보
@@ -37,25 +37,41 @@ Adobe Learning Manager 2026년 12월 릴리스에는 Report Builder 차트와 �
 
 ## 이 릴리스의 기능
 
-**Report Builder 차트 및 대시보드:** 관리자는 이제 Report Builder에서 보고서 데이터를 시각화할 수 있습니다. 보고서 열에서 큰 숫자, 선, 가로 막대 및 원형 차트 및 피벗 테이블을 생성하고 각 차트에서 합계 및 필터링을 수행합니다. 보고서 대시보드에는 하나의 보고서에서 빌드된 차트가 포함됩니다. 사용자 정의 대시보드는 여러 보고서의 차트를 결합하고 최대 20개의 위젯을 지원합니다. 보고서를 공유하면 보고서에 속한 차트가 공유됩니다. 대시보드를 내보낼 수 없습니다. [자세히 알아보기](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
+**Report Builder 차트 및 대시보드:** 관리자는 이제 Report Builder에서 보고서 데이터를 시각화할 수 있습니다. 보고서 열에서 큰 숫자, 선, 가로 막대 및 원형 차트 및 피벗 테이블을 생성하고 각 차트에서 합계 및 필터링을 수행합니다. 보고서 대시보드에는 하나의 보고서에서 빌드된 차트가 포함됩니다. 사용자 정의 대시보드는 여러 보고서의 차트를 결합하고 최대 20개의 위젯을 지원합니다. 보고서를 공유하면 보고서에 속한 차트가 공유됩니다. 대시보드를 내보낼 수 없습니다.
 
-**Report Builder의 Insights 에이전트 보고서:** 관리자는 Insights 에이전트 답변을 열고, 검토하고, 편집하고, Report Builder 보고서로 저장한 다음 구독과 같은 Report Builder 기능을 사용할 수 있습니다. 질문의 일부를 Report Builder 필드로 표시할 수 없는 경우 보고서에는 해당 부분이 간격으로 나열됩니다.[자세히 알아보기](/help/migrated/administrators/feature-summary/insights-agent.md##create-report-insights-agent)
+[자세히 알아보기](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
 
-**Adobe Experience Manager Assets 통합:** 작성자는 Adobe Learning Manager을 종료하지 않고도 Experience Manager Assets에서 승인된 학습 콘텐츠와 이미지 에셋을 검색하고 선택할 수 있습니다. 디지털 에셋 관리자에서 에셋이 변경되면 해당 에셋을 사용하는 강의로 업데이트가 흐를 수 있습니다. 작성자는 Experience Manager Assets에서 이미 액세스 권한이 있는 에셋만 볼 수 있습니다.[자세히 알아보기](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
+**Report Builder의 Insights 에이전트 보고서:** 관리자는 Insights 에이전트 답변을 열고, 검토하고, 편집하고, Report Builder 보고서로 저장한 다음 구독과 같은 Report Builder 기능을 사용할 수 있습니다. 질문의 일부를 Report Builder 필드로 표시할 수 없는 경우 보고서에는 해당 부분이 간격으로 나열됩니다.
+
+[자세히 알아보기](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insights-agent)
+
+**Adobe Experience Manager Assets 통합:** 작성자는 Adobe Learning Manager을 종료하지 않고도 Experience Manager Assets에서 승인된 학습 콘텐츠와 이미지 에셋을 검색하고 선택할 수 있습니다. 디지털 에셋 관리자에서 에셋이 변경되면 해당 에셋을 사용하는 강의로 업데이트가 흐를 수 있습니다. 작성자는 Experience Manager Assets에서 이미 액세스 권한이 있는 에셋만 볼 수 있습니다.
+
+[자세히 알아보기](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
 
 **파일 제출 개선 사항:** 파일 제출 모듈은 이제 다음을 지원합니다.
 
 * **팀 제출:** 강사가 최대 100명의 구성원으로 팀을 만듭니다. 팀별로 1개의 파일을 제출하고 강사의 평가는 모든 구성원에게 적용됩니다. 강사는 새로운 **팀 관리** 페이지에서 팀을 관리합니다.
+
+  [자세히 알아보기](/help/migrated/learners/feature-summary/submit-assignment-as-team.md)
+
 * **평가 계획 평가:** 작성자는 옵션을 채점한 객관적인 질문과 검토서를 작성한 주관적인 질문으로 평가 계획을 정의합니다. 평가 계획은 최대 100개의 질문을 포함합니다.
+
 * **강사 승인 또는 자동 완료:** 작성자는 제출에 강사 승인이 필요한지 또는 자동으로 완료되는지를 선택합니다. 이 설정은 평가 계획과는 별개입니다.
 
-[자세히 알아보기]
+[자세히 알아보기](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
 
-**학습자 도우미용 모델 컨텍스트 프로토콜 서버:** 학습자는 MCP(모델 컨텍스트 프로토콜) 서버를 통해 ChatGPT, Claude 및 사용자 지정 에이전트와 같이 이미 사용하는 도구에서 Learning Manager에 액세스할 수 있습니다. 책임자는 통합 책임자 앱에서 서버를 구성합니다. 검색, 등록 목록 작성, 학습 객체 가져오기, 사용자 프로필 가져오기, 학습 컨텐츠 질문에 대한 답변 및 개인화된 학습 경로 기능 가져오기를 제공합니다. [자세히 알아보기](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
+**학습자 도우미용 모델 컨텍스트 프로토콜 서버:** 학습자는 MCP(모델 컨텍스트 프로토콜) 서버를 통해 ChatGPT, Claude 및 사용자 지정 에이전트와 같이 이미 사용하는 도구에서 Learning Manager에 액세스할 수 있습니다. 책임자는 통합 책임자 앱에서 서버를 구성합니다. 검색, 등록 목록 작성, 학습 객체 가져오기, 사용자 프로필 가져오기, 학습 컨텐츠 질문에 대한 답변 및 개인화된 학습 경로 기능 가져오기를 제공합니다.
 
-**강의 및 인스턴스용 전자 메일 작성기:** 이제 전체 전자 메일 작성기 환경을 강의 수준 및 인스턴스 수준 전자 메일에 사용할 수 있습니다. 책임자는 계정 레이아웃 및 템플릿을 정의하고, 작성자는 레이아웃과 형식을 상속하면서 강의 및 인스턴스 이메일을 사용자 정의합니다. 템플릿은 가장 가까운 레이아웃에 연결되어 있으며 사용자가 템플릿의 연결을 해제하여 개별적으로 편집할 수 있습니다. **배너** 및 **서명** 설정이 제거된 **설정** 탭에서 **전역 레이아웃**(으)로 이동했습니다. 계정에 대해 Email Builder가 이미 활성화된 경우 이러한 변경 사항이 자동으로 수신됩니다. [자세히 알아보기](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+[자세히 알아보기](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
 
-**퀴즈를 위한 안전한 시험 브라우저 통합:** 관리자는 계정 수준에서 통합을 활성화하고 안전한 시험 브라우저 구성 파일(.seb)을 업로드하여 평가 제한을 정의할 수 있습니다. 작성자는 안전한 시험 브라우저가 필요한 퀴즈를 선택합니다. 이러한 퀴즈를 진행한 학습자에게는 안전 시험 브라우저를 시작하거나 다운로드하라는 메시지가 표시됩니다. [자세히 알아보기](/help/migrated/administrators/feature-summary/safe-exam-browser.md)
+**강의 및 인스턴스용 전자 메일 작성기:** 이제 전체 전자 메일 작성기 환경을 강의 수준 및 인스턴스 수준 전자 메일에 사용할 수 있습니다. 책임자는 계정 레이아웃 및 템플릿을 정의하고, 작성자는 레이아웃과 형식을 상속하면서 강의 및 인스턴스 이메일을 사용자 정의합니다. 템플릿은 가장 가까운 레이아웃에 연결되어 있으며 사용자가 템플릿의 연결을 해제하여 개별적으로 편집할 수 있습니다. **배너** 및 **서명** 설정이 제거된 **설정** 탭에서 **전역 레이아웃**(으)로 이동했습니다. 계정에 대해 Email Builder가 이미 활성화된 경우 이러한 변경 사항이 자동으로 수신됩니다.
+
+[자세히 알아보기](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+
+**퀴즈를 위한 안전한 시험 브라우저 통합:** 관리자는 계정 수준에서 통합을 활성화하고 안전한 시험 브라우저 구성 파일(.seb)을 업로드하여 평가 제한을 정의할 수 있습니다. 작성자는 안전한 시험 브라우저가 필요한 퀴즈를 선택합니다. 이러한 퀴즈를 진행한 학습자에게는 안전 시험 브라우저를 시작하거나 다운로드하라는 메시지가 표시됩니다.
+
+[자세히 알아보기](/help/migrated/administrators/feature-summary/safe-exam-browser.md)
 
 **로그인하지 않는 개선 사항:** 이제 Learning Manager에서 사용자가 로그인하지 않고도 학습 콘텐츠에 대한 액세스를 제어할 수 있습니다.
 
@@ -67,66 +83,129 @@ Adobe Learning Manager 2026년 12월 릴리스에는 Report Builder 차트와 �
 >
 >이 기능에 대한 설명서는 곧 제공될 예정입니다.
 
-**가상 코치:** 가상 코치는 AI로 구동되는 역할 수행 및 코칭 솔루션으로, 학습자가 사실적인 직장 대화를 연습할 수 있도록 합니다. 9개 언어를 지원하며, 개별 작업 지원으로 사용하거나 강의에 내장할 수 있습니다. [자세히 알아보기](../authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+**가상 코치:** 가상 코치는 AI로 구동되는 역할 수행 및 코칭 솔루션으로, 학습자가 사실적인 직장 대화를 연습할 수 있도록 합니다. 9개 언어를 지원하며, 개별 작업 지원으로 사용하거나 강의에 내장할 수 있습니다.
 
-**Live Hub:** Live Hub는 이제 Ultimate 고객이 사용할 수 있으며 Prime 고객의 경우 Beta로 유지됩니다. [자세히 알아보기](../administrators/feature-summary/billing-management.md)
+[자세히 알아보기](../authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
-**Live Hub에서 최대 5,000명의 참석자 지원**: 작성자는 이제 가상 강의실 모듈을 추가할 때 최대 5,000명의 참석자 용량을 선택할 수 있습니다. 대규모 세션의 경우 카메라 액세스, 화면 공유 및 화이트보드 기능은 강사로 제한됩니다. 이 세션에서는 소회의실을 사용할 수 없습니다. [자세히 알아보기](../getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+**Live Hub:** Live Hub는 이제 Ultimate 고객이 사용할 수 있으며 Prime 고객의 경우 Beta로 유지됩니다.
 
-**Live Hub의 다국어 폐쇄 캡션**: 이제 강사가 **회의실 설정**&#x200B;에서 폐쇄 캡션 언어를 선택할 수 있습니다. 모든 참가자는 강사가 선택한 언어로 캡션을 봅니다. [자세히 알아보기](../getting-started-with-live-hub/closed-captions-in-live-hub.md)
+[자세히 알아보기](../administrators/feature-summary/billing-management.md)
 
-**그룹 등록 예약 및 대기자 명단 관리:** 작성자는 강의실 및 가상 강의실 강의의 좌석을 특정 사용자 그룹에 할당하고, 해당 그룹과 다른 모든 학습자에 대해 별도의 등록 공개 날짜를 설정하고, 종료 날짜가 있는 자동 대기자 명단 승격을 켤 수 있습니다. [자세히 알아보기](../authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
+**Live Hub에서 최대 5,000명의 참석자 지원**: 작성자는 이제 가상 강의실 모듈을 추가할 때 최대 5,000명의 참석자 용량을 선택할 수 있습니다. 대규모 세션의 경우 카메라 액세스, 화면 공유 및 화이트보드 기능은 강사로 제한됩니다. 이 세션에서는 소회의실을 사용할 수 없습니다.
 
-**여러 확대/축소 연결 지원:** 통합 관리자는 단일 계정에서 여러 확대/축소 연결을 구성하고 이를 특정 역할 또는 사용자 그룹에 할당할 수 있습니다. 작성자는 세션을 만들거나 편집할 때 사용할 수 있는 연결 중에서 선택합니다. [자세히 알아보기](../integration-admin/feature-summary/zoom-connector.md)
+[자세히 알아보기](../getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
 
-**채널:** 채널은 일반적으로 모든 고객이 사용할 수 있습니다. [자세히 알아보기](../administrators/feature-summary/create-channels.md)
+**Live Hub의 다국어 폐쇄 캡션**: 이제 강사가 **회의실 설정**&#x200B;에서 폐쇄 캡션 언어를 선택할 수 있습니다. 모든 참가자는 강사가 선택한 언어로 캡션을 봅니다.
+
+[자세히 알아보기](../getting-started-with-live-hub/closed-captions-in-live-hub.md)
+
+**그룹 등록 예약 및 대기자 명단 관리:** 작성자는 강의실 및 가상 강의실 강의의 좌석을 특정 사용자 그룹에 할당하고, 해당 그룹과 다른 모든 학습자에 대해 별도의 등록 공개 날짜를 설정하고, 종료 날짜가 있는 자동 대기자 명단 승격을 켤 수 있습니다.
+
+[자세히 알아보기](../authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
+
+**여러 확대/축소 연결 지원:** 통합 관리자는 단일 계정에서 여러 확대/축소 연결을 구성하고 이를 특정 역할 또는 사용자 그룹에 할당할 수 있습니다. 작성자는 세션을 만들거나 편집할 때 사용할 수 있는 연결 중에서 선택합니다.
+
+[자세히 알아보기](../integration-admin/feature-summary/zoom-connector.md)
+
+**채널:** 채널은 일반적으로 모든 고객이 사용할 수 있습니다.
+
+[자세히 알아보기](../administrators/feature-summary/create-channels.md)
 
 ## 이번 릴리스의 개선 사항
 
-**개인 맞춤화된 학습 경로 편집 및 브랜딩 스트립:** 학습자는 한 번에 제안된 주제나 강의를 제거할 수 있습니다. 관리자는 **브랜딩** 페이지를 통해 학습자 홈 페이지에서 개인화된 학습 경로 스트립의 위치를 변경할 수 있습니다. [자세히 알아보기](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
+**개인 맞춤화된 학습 경로 편집 및 브랜딩 스트립:** 학습자는 한 번에 제안된 주제나 강의를 제거할 수 있습니다. 관리자는 **브랜딩** 페이지를 통해 학습자 홈 페이지에서 개인화된 학습 경로 스트립의 위치를 변경할 수 있습니다.
 
-**학습자 도우미의 학습 경로 인용:** 답변에서는 이제 강의와 함께 소스 강의가 포함된 학습 경로를 인용합니다. 작업 지원에서 받은 답변에는 다운로드 링크가 포함됩니다. [자세히 알아보기](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations)
+[자세히 알아보기](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
 
-**AI 도우미 구성:** 관리자 도우미는 Insights 에이전트와 Knowledge 에이전트라는 두 개의 에이전트를 제공합니다. 학습자 도우미에서는 지식 상담사, 대답 상담사, 학습 경로 상담사의 세 가지 상담사를 제공합니다. 각 에이전트를 개별적으로 구성할 수 있습니다. [자세히 알아보기](/help/migrated/learners/feature-summary/learner-ai-assistant.md)
+**학습자 도우미의 학습 경로 인용:** 답변에서는 이제 강의와 함께 소스 강의가 포함된 학습 경로를 인용합니다. 작업 지원에서 받은 답변에는 다운로드 링크가 포함됩니다.
 
-**가상 강의실 세션 초대 다시 보내기:** 강의 편집 권한이 있는 관리자는 인스턴스 페이지에서 세션 초대를 다시 보낼 수 있습니다. 이 옵션은 현재 및 이후 세션에 사용할 수 있습니다. [자세히 알아보기](/help/migrated/instructors/feature-summary/resend-session-invite.md)
+[자세히 알아보기](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations)
 
-**Adobe Connect 기록 보기에서 자동 출석:** Learning Manager는 학습자가 누락된 가상 강의실 세션 기록을 재생할 때 출석을 표시합니다. 예약된 통합은 실제 보기 시간과 계정에 대해 설정된 완료 기준을 비교합니다. [자세히 알아보기](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
+**AI 도우미 구성:** 관리자 도우미는 Insights 에이전트와 Knowledge 에이전트라는 두 개의 에이전트를 제공합니다. 학습자 도우미에서는 지식 상담사, 대답 상담사, 학습 경로 상담사의 세 가지 상담사를 제공합니다. 각 에이전트를 개별적으로 구성할 수 있습니다.
+
+[자세히 알아보기](/help/migrated/learners/feature-summary/learner-ai-assistant.md#configure-la-agents)
+
+**가상 강의실 세션 초대 다시 보내기:** 강의 편집 권한이 있는 관리자는 인스턴스 페이지에서 세션 초대를 다시 보낼 수 있습니다. 이 옵션은 현재 및 이후 세션에 사용할 수 있습니다.
+
+[자세히 알아보기](/help/migrated/instructors/feature-summary/resend-session-invite.md)
+
+**Adobe Connect 기록 보기에서 자동 출석:** Learning Manager는 학습자가 누락된 가상 강의실 세션 기록을 재생할 때 출석을 표시합니다. 예약된 통합은 실제 보기 시간과 계정에 대해 설정된 완료 기준을 비교합니다.
+
+[자세히 알아보기](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
 
 **다운로드된 Report Builder 보고서의 열 머리글 변경 사항:** 이제 다운로드된 Report Builder 보고서의 기본 열 머리글에 데이터 집합 이름이 포함됩니다. 예를 들어 학습 개체 데이터 집합의 **이름**&#x200B;은 **학습 개체 - 이름**(으)로 나타납니다. 집계된 열의 경우 머리글에는 **학습 개체 수 - ID**&#x200B;와 같은 기능도 포함됩니다. **별칭** 필드에서 사용자 지정 이름을 사용하는 머리글은 변경되지 않습니다.
 
-**준수 위젯에 다중 등록된 강의:** 준수 위젯은 학습자가 완료해야 하는 다중 등록 강의의 모든 인스턴스를 나열합니다. 하나의 인스턴스에 기한이 있는 경우 기한이 없는 인스턴스는 숨겨집니다. [자세히 알아보기](/help/migrated/learners/feature-summary/multi-enrolled-learner-compliance-widget.md)
+**준수 위젯에 다중 등록된 강의:** 준수 위젯은 학습자가 완료해야 하는 다중 등록 강의의 모든 인스턴스를 나열합니다. 하나의 인스턴스에 기한이 있는 경우 기한이 없는 인스턴스는 숨겨집니다.
 
-**관리자 카탈로그 검색의 관련성 순위:** 관리자 보기의 카탈로그 검색은 관련성별로 결과를 정렬합니다. 정확한 일치가 먼저 나타나고 그 뒤에 부분 일치가 나타납니다. [자세히 알아보기](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
+[자세히 알아보기](/help/migrated/learners/feature-summary/multi-enrolled-learner-compliance-widget.md)
 
-**학습 경로를 액세스할 수 없게 하지 않고 강의 중단:** 중단된 강의나 중첩된 학습 경로가 신규 등록을 위해 열린 상위 수준의 학습 개체에서 제거됩니다.  [자세히 알아보기](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
+**관리자 카탈로그 검색의 관련성 순위:** 관리자 보기의 카탈로그 검색은 관련성별로 결과를 정렬합니다. 정확한 일치가 먼저 나타나고 그 뒤에 부분 일치가 나타납니다.
 
-Adobe Workfront에서 **세션 취소 동기화:** Adobe Workfront에서 취소된 세션은 마이그레이션을 통해 Learning Manager로 이월됩니다. 마이그레이션은 **활성** 또는 **취소됨**&#x200B;을 수락하는 선택적 **상태** 열을 추가합니다. [자세히 알아보기](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
+[자세히 알아보기](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
 
-**이름에 대한 문자 제한:** 이제 이름 필드에는 최대 63자까지 255자를 사용할 수 있습니다. 이 제한은 CSV 가져오기, 자체 등록 및 외부 사용자로 인터페이스에 추가된 사용자에게 적용됩니다. 기존 사용자는 영향을 받지 않습니다. 표 셀, 드롭다운 목록 항목 및 검색 결과에서 긴 이름이 짧아집니다. 전체 내용을 보려면 단축된 이름 위에 마우스를 댑니다. [자세히 알아보기](/help/migrated/deployment-guide/user-setup.md#character-limit-username)
+**학습 경로를 액세스할 수 없게 하지 않고 강의 중단:** 중단된 강의나 중첩된 학습 경로가 신규 등록을 위해 열린 상위 수준의 학습 개체에서 제거됩니다.
+
+[자세히 알아보기](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
+
+Adobe Workfront에서 **세션 취소 동기화:** Adobe Workfront에서 취소된 세션은 마이그레이션을 통해 Learning Manager로 이월됩니다. 마이그레이션은 **활성** 또는 **취소됨**&#x200B;을 수락하는 선택적 **상태** 열을 추가합니다.
+
+[자세히 알아보기](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
+
+**이름에 대한 문자 제한:** 이제 이름 필드에는 최대 63자까지 255자를 사용할 수 있습니다. 이 제한은 CSV 가져오기, 자체 등록 및 외부 사용자로 인터페이스에 추가된 사용자에게 적용됩니다. 기존 사용자는 영향을 받지 않습니다. 표 셀, 드롭다운 목록 항목 및 검색 결과에서 긴 이름이 짧아집니다. 전체 내용을 보려면 단축된 이름 위에 마우스를 댑니다.
+
+[자세히 알아보기](/help/migrated/deployment-guide/user-setup.md#character-limit-username)
 
 **지역화된 Live Hub 인터페이스 및 녹음 플레이어**: 이제 Live Hub는 동일한 18개 언어를 지원하는 Adobe Learning Manager에 대해 선택한 언어로 인터페이스를 표시합니다. 레코딩 플레이어는 강의 언어를 기반으로 현지화됩니다.
 
-**강의 및 학습 경로에 대한 배지 정보:** 작성자가 강의 또는 학습 경로를 추가하면 창에서 배지 정보, 게시 상태 및 강의 형식과 함께 기존 강의 및 학습 경로가 나열됩니다. [자세히 알아보기](/help/migrated/authors/feature-summary/create-learning-path.md)
+**강의 및 학습 경로에 대한 배지 정보:** 작성자가 강의 또는 학습 경로를 추가하면 창에서 배지 정보, 게시 상태 및 강의 형식과 함께 기존 강의 및 학습 경로가 나열됩니다.
 
-**자체 등록 프로필에 대한 로그인하지 않은 페이지 URL:** 각 자체 등록 프로필에는 Experience Builder에서 빌드된 공유 가능한 로그인하지 않은 메뉴 URL이 있을 수 있습니다. 해당 URL에서 **등록**&#x200B;을 선택한 사용자는 해당 URL이 속한 프로필에 추가됩니다. [자세히 알아보기](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
+[자세히 알아보기](/help/migrated/authors/feature-summary/create-learning-path.md)
+
+**자체 등록 프로필에 대한 로그인하지 않은 페이지 URL:** 각 자체 등록 프로필에는 Experience Builder에서 빌드된 공유 가능한 로그인하지 않은 메뉴 URL이 있을 수 있습니다. 해당 URL에서 **등록**&#x200B;을 선택한 사용자는 해당 URL이 속한 프로필에 추가됩니다.
+
+[자세히 알아보기](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
 
 **Learning Tools 상호 운용성의 사용자 정의 학습자 특성:** Learning Manager는 선택적 이름 및 역할 프로비저닝 서비스 끝점과 시작 요청을 통해 사용자 정의 학습자 특성을 읽습니다. Moodle과 같은 일부 학습 시스템은 이 끝점을 지원하지 않습니다.
 
-**토론 게시판 강사 알림:** 헤드리스 고객은 강사와 코호트 관리자에게 API를 통해 토론 게시판 활동 다이제스트를 보낼 수 있습니다. [자세히 알아보기](/help/migrated/discussion-board-instructor-notifications.md)
+[자세히 알아보기](/help/migrated/integration-admin/feature-summary/lti-support-for-nrps.md)
 
-**강사가 학습 개체 인스턴스를 편집할 때 사용하는 Webhook:** 이제 강사가 가상 강의실 세션을 편집할 때도 학습 개체 인스턴스 수정 Webhook이 트리거됩니다. [자세히 알아보기](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+**토론 게시판 강사 알림:** 헤드리스 고객은 강사와 코호트 관리자에게 API를 통해 토론 게시판 활동 다이제스트를 보낼 수 있습니다.
 
-**학습 경로 등록에 대한 마지막 액세스 날짜:** API를 통해 학습 경로 등록에 마지막 액세스 날짜와 같은 사용자 지정 메타데이터를 첨부할 수 있습니다. [자세히 알아보기](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
+[자세히 알아보기](/help/migrated/discussion-board-instructor-notifications.md)
+
+**강사가 학습 개체 인스턴스를 편집할 때 사용하는 Webhook:** 이제 강사가 가상 강의실 세션을 편집할 때도 학습 개체 인스턴스 수정 Webhook이 트리거됩니다.
+
+[자세히 알아보기](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+
+**학습 경로 등록에 대한 마지막 액세스 날짜:** API를 통해 학습 경로 등록에 마지막 액세스 날짜와 같은 사용자 지정 메타데이터를 첨부할 수 있습니다.
+
+[자세히 알아보기](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
 
 ## API 변경 사항
 
 * **책갈피 API 순서 지정 및 중단된 콘텐츠 처리:** 이제 책갈피가 가장 먼저 반환되고 중단된 학습 개체에 대한 책갈피는 더 이상 반환되지 않습니다. 끝점, 매개 변수 또는 응답 특성이 추가되지 않습니다.
+
+  [자세히 알아보기](/help/migrated/api-changes-dec-2026.md#bookmark-api-ordering-retired-content)
+
 * 토론 게시판 강사 알림용 **API:** 새로운 API는 강사와 코호트 관리자를 토론 게시판에 구독하고 다이제스트 전자 메일에 나타나는 활동을 제어합니다.
+
+  [자세히 알아보기](/help/migrated/api-changes-dec-2026.md#api-discussion-board-instructors)
+
 * 학습자 앱에서 다중 등록 인스턴스에 대한 **API 지원:** 선택적 `includeMultiInstanceEnrollments=true` 매개 변수를 `GET /enrollments`에 추가하여 다중 등록 인스턴스를 포함하십시오. 기본값은 `false`입니다.
+
+  [자세히 알아보기](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
+
 * 학습 경로 등록에 대한 **마지막 액세스 날짜:** 관리자 토큰을 사용하여 학습 경로 등록에 사용자 지정 메타데이터를 설정합니다. 책임자 또는 학습자 토큰으로 읽습니다.
+
+  [자세히 알아보기](/help/migrated/api-changes-dec-2026.md#api-last-access-date-lp-enrollment)
+
 * **Report Builder 내보내기에 대한 작업 API 작업 유형:** 새 `generateCustomReport` 작업 유형은 저장된 Report Builder 보고서를 보고서 ID별로 내보냅니다. `generateQuizReport`을(를) 포함한 기존 작업 유형이 변경되지 않았습니다.
-* Zoom 커넥터용 **API:** 새 API는 Zoom 연결을 검색 및 관리하고, Zoom 자격 증명을 저장하고, 연결을 사용할 수 있는 사용자 그룹 및 사용자 지정 역할을 설정합니다. API는 세션 기반 인증을 사용하며 통합 책임자 로그인이 필요합니다. [자세히 알아보기](../api-changes-dec-2026.md#apis-to-create-and-manage-the-zoom-connector)
+
+  [자세히 알아보기](/help/migrated/api-changes-dec-2026.md#api-job-report-builder-exports)
+
+* Zoom 커넥터용 **API:** 새 API는 Zoom 연결을 검색 및 관리하고, Zoom 자격 증명을 저장하고, 연결을 사용할 수 있는 사용자 그룹 및 사용자 지정 역할을 설정합니다. API는 세션 기반 인증을 사용하며 통합 책임자 로그인이 필요합니다.
+
+  [자세히 알아보기](../api-changes-dec-2026.md#apis-to-create-and-manage-the-zoom-connector)
 
 ## 이 릴리스의 변경 내용 깨뜨리기
 

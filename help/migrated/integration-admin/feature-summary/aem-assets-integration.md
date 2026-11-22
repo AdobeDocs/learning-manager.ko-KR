@@ -3,9 +3,9 @@ description: Adobe Experience Manager Assets에서 Adobe Learning Manager으로 
 jcr-language: en_us
 title: AEM Assets 통합
 exl-id: cd33c0f2-59df-4f35-a7d9-d7bff6b9ffba
-source-git-commit: 3c0f45721777421361401cf836a21b88cee3a259
+source-git-commit: f6dc1e97076edf812862b80a6ed5931989c660da
 workflow-type: tm+mt
-source-wordcount: '3405'
+source-wordcount: '3447'
 ht-degree: 0%
 ---
 
@@ -424,3 +424,9 @@ Adobe Experience Manager Assets에서 원본 에셋이 삭제되었습니다. [�
 **Q. ALM이 공개 미리 보기 링크를 생성합니까?**
 
 **A.** 예, SCORM 1.2, SCORM 2004 및 HTML 파일에만 해당됩니다. 통합 책임자가 공개 미리 보기 기능을 활성화했을 때만 가능합니다.
+
+**관련 링크:**
+
+* [콘텐츠 라이브러리에서 콘텐츠 관리](/help/migrated/authors/feature-summary/content-library.md)
+* [Adobe Admin Console 설명서](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
+* [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/overview)

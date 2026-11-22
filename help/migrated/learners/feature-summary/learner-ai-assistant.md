@@ -6,7 +6,7 @@ exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 2fc477a745fef442f52027e4e6a03a290655d1f5
+source-git-commit: ce2797523093c4c3b3c390386119c8ed679acdc0
 workflow-type: tm+mt
 source-wordcount: '3457'
 ht-degree: 0%
@@ -59,7 +59,7 @@ AI Assistant를 사용하여 전체 강의를 살펴보지 않고도 할당된 �
 
 학습 경로가 질문과 관련이 있는지, 카탈로그에서 학습자에게 표시되는지 확인합니다. 학습자 도우미에는 학습자에게 숨겨진 내용이 표시되지 않습니다.
 
-## 학습자 도우미 에이전트 구성
+## 학습자 도우미 에이전트 구성 {#configure-la-agents}
 
 개별 학습자 도우미 에이전트를 설정하거나 해제하여 학습자가 Adobe Learning Manager에서 사용할 수 있는 AI 기능을 제어합니다.
 

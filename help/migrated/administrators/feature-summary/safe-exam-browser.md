@@ -1,9 +1,9 @@
 ---
 title: 안전한 시험 브라우저
 description: 작성자가 기본 퀴즈에 안전한 브라우저 환경을 요구할 수 있도록 Adobe Learning Manager의 계정 수준에서 안전한 시험 브라우저 통합을 활성화합니다.
-source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
+source-git-commit: 8f23f95cd81e5b64932281c990d27be0c390850b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '321'
 ht-degree: 1%
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## 안전한 시험 브라우저 통합 활성화
 
-작성자가 퀴즈를 구성할 때 옵션을 사용할 수 있도록 안전한 시험 브라우저 통합을 활성화합니다. 시작하기 전에 계정에 대한 안전 검사 브라우저 파일이 있는지 확인하십시오.
+작성자가 퀴즈를 구성할 때 옵션을 사용할 수 있도록 안전한 시험 브라우저 통합을 구성합니다. 시작하기 전에 계정에 대한 안전 검사 브라우저 파일이 있는지 확인하십시오.
 
 안전한 시험 브라우저 통합을 활성화하려면 다음을 수행합니다.
 
@@ -36,6 +36,8 @@ ht-degree: 1%
 1. **저장**&#x200B;을 선택합니다.
 
    작성자는 이제 지원되는 퀴즈를 구성할 때 안전 시험 브라우저 를 사용할 수 있습니다.
+
+**작성자**(으)로 안전 시험 브라우저를 구성하는 방법에 대한 자세한 내용은 [SEB로 강의 생성](../../authors/feature-summary/create-a-course-with-safe-exam-browser.md)을 참조하십시오.
 
 ### macOS용 .seb 파일 구성 {#configure-the-seb-file-for-macos}
 

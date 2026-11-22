@@ -7,9 +7,9 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 971f5a08a1493d5ae02deaa161a965865c107b64
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '12332'
+source-wordcount: '12311'
 ht-degree: 47%
 ---
 # 강의 생성, 수정 및 게시
@@ -169,7 +169,7 @@ Learning Manager 강의, 인증, 학습 프로그램을 생성하는 방법을 �
 
 1. 팀 기반 옵션을 선택합니다. 개별 옵션은 단일 학습자를 위한 이전 파일 제출 모듈입니다.
 
-   ![파일 제출 모듈에 대한 팀 기반 옵션](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "팀 기반 옵션")
+   ![](assets/Group-Team-submission-and-rubric-based-assessments-image4.png)
 
 1. 강사 또는 강사를 선택합니다.
 
@@ -189,9 +189,9 @@ Learning Manager 강의, 인증, 학습 프로그램을 생성하는 방법을 �
 1. 점수 매기기 방법 선택:
 
    * 강사가 하나의 전체 점수를 입력할 수 있도록 수동 채점 을 선택합니다.
-   * 각 평가 계획 옵션의 점수로부터 점수를 계산하려면 기준 기반 점수를 선택합니다. 이 방법은 평가 계획이 필요합니다.
+   * 각 평가 계획 옵션의 점수로부터 점수를 계산하려면 기준 기반 점수를 선택합니다. 이 방법을 사용하려면 평가 계획이 필요합니다.
 
-     ![팀 기반 파일 제출 모듈에 대한 검토 및 점수 옵션](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+     ![](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
 
 >[!CAUTION]
 >
@@ -205,7 +205,7 @@ Learning Manager 강의, 인증, 학습 프로그램을 생성하는 방법을 �
 
 #### 평가 계획 켜기
 
-1. 평가 계획 켜기.
+1. 평가 계획을 켭니다.
 
 1. 역량에 대한 설명을 입력합니다.
 
