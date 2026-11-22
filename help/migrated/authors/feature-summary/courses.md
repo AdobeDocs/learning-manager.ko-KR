@@ -7,9 +7,9 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 971f5a08a1493d5ae02deaa161a965865c107b64
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '12332'
+source-wordcount: '12311'
 ht-degree: 47%
 ---
 # 강의 생성, 수정 및 게시
@@ -169,7 +169,7 @@ Learning Manager 강의, 인증, 학습 프로그램을 생성하는 방법을 �
 
 1. 팀 기반 옵션을 선택합니다. 개별 옵션은 단일 학습자를 위한 이전 파일 제출 모듈입니다.
 
-   ![파일 제출 모듈에 대한 팀 기반 옵션](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "팀 기반 옵션")
+   ![](assets/Group-Team-submission-and-rubric-based-assessments-image4.png)
 
 1. 강사 또는 강사를 선택합니다.
 
@@ -189,9 +189,9 @@ Learning Manager 강의, 인증, 학습 프로그램을 생성하는 방법을 �
 1. 점수 매기기 방법 선택:
 
    * 강사가 하나의 전체 점수를 입력할 수 있도록 수동 채점 을 선택합니다.
-   * 각 평가 계획 옵션의 점수로부터 점수를 계산하려면 기준 기반 점수를 선택합니다. 이 방법은 평가 계획이 필요합니다.
+   * 각 평가 계획 옵션의 점수로부터 점수를 계산하려면 기준 기반 점수를 선택합니다. 이 방법을 사용하려면 평가 계획이 필요합니다.
 
-     ![팀 기반 파일 제출 모듈에 대한 검토 및 점수 옵션](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+     ![](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
 
 >[!CAUTION]
 >
@@ -205,7 +205,7 @@ Learning Manager 강의, 인증, 학습 프로그램을 생성하는 방법을 �
 
 #### 평가 계획 켜기
 
-1. 평가 계획 켜기.
+1. 평가 계획을 켭니다.
 
 1. 역량에 대한 설명을 입력합니다.
 
@@ -440,7 +440,7 @@ Adobe Learning Manager에서 인스턴스가 시작되기 전에 등록된 학�
 
 1. **과정 개요** 페이지에서 **자동 대기자 명단 승인 허용**&#x200B;을 사용하도록 설정합니다.
 1. (선택 사항)**자동 승격 잘라내기** 선택기에서 날짜를 선택합니다.
-1. **저장**&#x200B;을 선택합니다.
+1. **저장**을 선택합니다.
 컷오프 후 자동 프로모션이 중지됩니다.
 
 >[!NOTE]
@@ -1497,7 +1497,7 @@ Adobe Captivate 및 Adobe Presenter 소프트웨어에서 &#39;게시&#39; 메�
 1. Adobe 자격 증명으로 로그인합니다. Adobe ID가 없다면 **[!UICONTROL 계정 만들기]**&#x200B;를 클릭합니다. 인증을 하면 모듈 게시 페이지로 이동합니다.
 1. 모듈에 대한 기본 정보를 입력한 다음 &#39;게시&#39;를 클릭합니다.
 
-Learning Manager 모듈 페이지에 게시된 모듈이 표시됩니다. 자세한 내용은 [Adobe Learning Manager에 프로젝트 게시](https://helpx.adobe.com/kr/captivate/classic/publish-project-to-captivate-prime.html)를 참조하십시오.
+Learning Manager 모듈 페이지에 게시된 모듈이 표시됩니다. 자세한 내용은 [Adobe Learning Manager에 프로젝트 게시](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)를 참조하십시오.
 
 ## 강의 효과 {#courseeffectiveness}
 

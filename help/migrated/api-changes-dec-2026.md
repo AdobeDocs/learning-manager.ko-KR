@@ -3,7 +3,7 @@ description: 게시판 구독 설정 및 구독자 API를 사용하여 다이제
 jcr-language: en_us
 title: 2026년 11월 API 변경 사항
 exl-id: 9b2d3856-810c-4352-bf18-667f698d4d70
-source-git-commit: d1399781294a58f6ede8461878c979bd8b5edb34
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
 source-wordcount: '5724'
 ht-degree: 4%
@@ -11,7 +11,7 @@ ht-degree: 4%
 
 # 2026년 12월 API 변경 사항
 
-## 토론 게시판 강사 알림용 API
+## 토론 게시판 강사 알림용 API {#api-discussion-board-instructors}
 
 이 문서에서는 토론 게시판 강사 알림을 지원하는 새로운 API에 대해 설명합니다. 강사와 코호트 관리자를 토론 게시판에 구독하고 다이제스트 전자 메일에 나타나는 활동을 제어하는 데 사용합니다.
 
@@ -585,7 +585,7 @@ curl -X DELETE \
 | 401 | 요청에 올바른 자격 증명이 없거나 잘못된 자격 증명으로 인해 액세스가 거부되었습니다. |
 | 404 | 게시판 또는 구독과 같은 요청된 리소스를 찾을 수 없습니다. |
 
-## 책갈피 API 순서 지정 및 중단된 콘텐츠 처리
+## 책갈피 API 순서 지정 및 중단된 콘텐츠 처리 {#bookmark-api-ordering-retired-content}
 
 ### API의 목적
 
@@ -721,7 +721,7 @@ Authorization: oauth <access-token>
 3. 해결 방법으로 추가한 클라이언트측 정렬 또는 폐기된 콘텐츠 필터링을 제거합니다.
 4. 응답의 항목 수를 사용하여 책갈피의 개수를 표시합니다. 중단된 학습 객체에 대한 책갈피는 더 이상 포함되지 않습니다.
 
-### 학습자 앱의 학습자 준수 위젯에 다중 등록된 인스턴스에 대한 API 지원
+### 학습자 앱의 학습자 준수 위젯에 다중 등록된 인스턴스에 대한 API 지원 {#api-multienrolled-instances-lc-widget}
 
 공개 API는 기존 등록 끝점에서 선택적 쿼리 매개 변수를 통해 이 동작을 지원합니다. 매개 변수를 생략하면 API는 이전과 동일한 결과를 반환하므로 헤드리스 구현을 비롯한 기존 통합은 변경되지 않고 계속 작동합니다.
 
@@ -743,25 +743,25 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 **응답 본문**
 
-&lbrace;
+{
 
-&quot;links&quot;: &lbrace;
+&quot;links&quot;: {
 
 &quot;self&quot;: &quot;[https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10&amp;filter.loTypes=course&amp;sort=dateEnrolled&amp;includeHierarchicalEnrollments=false&amp;includeMultiInstanceEnrollments=true](https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page%5blimit%5d=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true)&quot;,
 
 &quot;next&quot;: &quot;[https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10&amp;filter.loTypes=course&amp;sort=dateEnrolled&amp;includeHierarchicalEnrollments=false&amp;includeMultiInstanceEnrollments=true&amp;page\[cursor\]=eyJjb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjEwLCJsZWFybmluZ1Byb2dyYw0iOjAsImNlcnRpRpRpRpRpRp pb24iOjB9](https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page%5blimit%5d=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true&page%5bcursor%5d=eyJjb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjEwLCJsZWFybmluZ1Byb2dyYW0iOjAsImNlcnRpZmljYXRpb24iOjB9)&quot;
 
-&rbrace;,
+},
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:15067_30122_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;completionDeadline&quot;: &quot;2026-02-24T10:50:45.000Z&quot;,
 
@@ -775,73 +775,73 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relationships&quot;: &lbrace;
+&quot;relationships&quot;: {
 
-&quot;learner&quot;: &lbrace;
+&quot;learner&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:15067&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:15067_30122&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:15067_30122_41715_1_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:1108800_1997400_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;enrollmentSource&quot;: &quot;SELF_ENROLL&quot;,
 
@@ -853,73 +853,73 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relationships&quot;: &lbrace;
+&quot;relationships&quot;: {
 
-&quot;learner&quot;: &lbrace;
+&quot;learner&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:1108800&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:1108800_1997400&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:1108800_1997400_2174574_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2027668_3707328_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -931,73 +931,73 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relationships&quot;: &lbrace;
+&quot;relationships&quot;: {
 
-&quot;learner&quot;: &lbrace;
+&quot;learner&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2027668&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2027668_3707328&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2027668_3707328_2665897_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2030067_3709862_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -1009,73 +1009,73 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relationships&quot;: &lbrace;
+&quot;relationships&quot;: {
 
-&quot;learner&quot;: &lbrace;
+&quot;learner&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2030067&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2030067_3709862&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2030067_3709862_2668467_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:3081896_5749155_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -1087,81 +1087,81 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relationships&quot;: &lbrace;
+&quot;relationships&quot;: {
 
-&quot;learner&quot;: &lbrace;
+&quot;learner&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:3081896&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:3081896_5749155&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:3081896_5749155_3737554_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:3081896_5749155_3737555_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2037893_3717940_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -1173,73 +1173,73 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relationships&quot;: &lbrace;
+&quot;relationships&quot;: {
 
-&quot;learner&quot;: &lbrace;
+&quot;learner&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2037893&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2037893_3717940&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2037893_3717940_3676856_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:3049434_5713130_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;completionDeadline&quot;: &quot;2020-05-05T18:29:59.000Z&quot;,
 
@@ -1253,73 +1253,73 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relationships&quot;: &lbrace;
+&quot;relationships&quot;: {
 
-&quot;learner&quot;: &lbrace;
+&quot;learner&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:3049434&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:3049434_5713130&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:3049434_5713130_3693595_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2001397_3679403_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -1331,73 +1331,73 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relationships&quot;: &lbrace;
+&quot;relationships&quot;: {
 
-&quot;learner&quot;: &lbrace;
+&quot;learner&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2001397&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2001397_3679403&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2001397_3679403_2635974_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2037862_3717900_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -1409,73 +1409,73 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relationships&quot;: &lbrace;
+&quot;relationships&quot;: {
 
-&quot;learner&quot;: &lbrace;
+&quot;learner&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2037862&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2037862_3717900&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2037862_3717900_3676816_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2037837_3717863_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;completionDeadline&quot;: &quot;2020-02-29T18:29:59.000Z&quot;,
 
@@ -1489,71 +1489,71 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 &quot;state&quot;: &quot;OTHER&quot;
 
-&rbrace;,
+},
 
-&quot;relationships&quot;: &lbrace;
+&quot;relationships&quot;: {
 
-&quot;learner&quot;: &lbrace;
+&quot;learner&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2037837&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2037837_3717863&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2037837_3717863_3597363_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-## 학습 과정 등록의 마지막 액세스 날짜 {#last-access-date-lp-enrollment}
+## 학습 과정 등록의 마지막 액세스 날짜 {#api-last-access-date-lp-enrollment}
 
 Adobe Learning Manager에서는 학습 경로 등록에 마지막 액세스 날짜와 같은 사용자 정의 메타데이터를 저장할 수 있습니다. API를 통해 메타데이터를 설정하고 읽습니다. 이렇게 하면 할당한 학습 경로에 대한 시간 바운드 액세스를 추적할 수 있습니다.
 
@@ -1638,7 +1638,7 @@ POST /primeapi/v2/users/{userId}/enrollments?loId=<lpId>&loInstanceId=<instanceI
 * **포털에 값 표시:** 위 테이블에서 토큰 유형에 대한 GET 요청을 보내고 응답에서 `metadata` 개체를 읽습니다.
 * **상거래 플랫폼과 같은 외부 시스템에서 값을 업데이트하십시오.** 관리자 토큰으로 PATCH 요청을 보냅니다.
 
-## 작업 API: generateCustomReport를 사용하여 Report Builder 보고서 내보내기
+## 작업 API: generateCustomReport를 사용하여 Report Builder 보고서 내보내기 {#api-job-report-builder-exports}
 
 Adobe Learning Manager 2026년 12월 릴리스에서는 새 작업 유형 `generateCustomReport`을(를) 작업 API에 추가합니다. 보고서 ID를 전달하여 Report Builder에서 만든 모든 보고서를 자동화된 방식으로 내보낼 수 있습니다.
 
