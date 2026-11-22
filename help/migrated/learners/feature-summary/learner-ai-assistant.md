@@ -6,7 +6,7 @@ exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 2fc477a745fef442f52027e4e6a03a290655d1f5
+source-git-commit: ce2797523093c4c3b3c390386119c8ed679acdc0
 workflow-type: tm+mt
 source-wordcount: '3457'
 ht-degree: 0%
@@ -59,7 +59,7 @@ AI Assistant를 사용하여 전체 강의를 살펴보지 않고도 할당된 �
 
 학습 경로가 질문과 관련이 있는지, 카탈로그에서 학습자에게 표시되는지 확인합니다. 학습자 도우미에는 학습자에게 숨겨진 내용이 표시되지 않습니다.
 
-## 학습자 도우미 에이전트 구성
+## 학습자 도우미 에이전트 구성 {#configure-la-agents}
 
 개별 학습자 도우미 에이전트를 설정하거나 해제하여 학습자가 Adobe Learning Manager에서 사용할 수 있는 AI 기능을 제어합니다.
 
@@ -381,7 +381,7 @@ Adobe Learning Manager의 학습 도우미는 기본 Adobe Learning Manager 콘�
 
 >[!IMPORTANT]
 >
->책임자는 전제 조건으로 학습자 도우미에 필요한 카탈로그를 추가해야 합니다. 자세한 내용은 [AI 도우미 액세스 구성](https://experienceleague.adobe.com/ko/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)을 참조하십시오.
+>책임자는 전제 조건으로 학습자 도우미에 필요한 카탈로그를 추가해야 합니다. 자세한 내용은 [AI 도우미 액세스 구성](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)을 참조하십시오.
 
 
 책임자가 Go1 또는 LinkedIn Learning 카탈로그를 Adobe Learning Manager에 추가하면 카탈로그 콘텐츠가 예약된 수집 프로세스를 거칩니다. 수집이 완료되면 해당 카탈로그의 학습 객체를 Learning Assistant가 쿼리할 수 있습니다.

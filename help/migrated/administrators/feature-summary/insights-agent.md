@@ -5,9 +5,9 @@ title: Adobe Learning Manager의 Insights Agent (Beta)
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 2377d632f2bc41f5c33e5880c1cbc2baa071d5da
+source-git-commit: ce2797523093c4c3b3c390386119c8ed679acdc0
 workflow-type: tm+mt
-source-wordcount: '4257'
+source-wordcount: '4259'
 ht-degree: 0%
 ---
 
@@ -55,7 +55,7 @@ Insights 에이전트를 사용하면 다음 작업을 수행할 수 있습니�
 
 Adobe Learning Manager의 Insights 에이전트를 사용하면 일반 언어 질문으로 학습 데이터를 쿼리하고 결과를 텍스트, 테이블 또는 다운로드 가능한 CSV 파일로 얻을 수 있습니다.
 
-관리자는 Learning Manager의 AI 어시스턴트 패널에서 인사이트 에이전트를 사용할 수 있습니다. 패널 크기 조정 가능 결과를 읽기 쉽게 하기 위해 확장할 수 있습니다. 기본적으로 패널을 열면 **Get Insights** 모드가 선택됩니다. 제품 사용 방법에 대한 지침 질문에도 별도의 **학습** 모드를 사용할 수 있습니다. **학습** 모드는 Learning Manager 사용 방법에 대한 유익한 질문에 답합니다. 예를 들면 &quot;학습 경로를 생성하려면 어떻게 해야 합니까?&quot;와 같습니다. 학습자 데이터를 쿼리하지 않습니다.
+관리자는 Learning Manager의 AI 어시스턴트 패널에서 인사이트 에이전트를 사용할 수 있습니다. 패널 크기 조정 가능 결과를 읽기 쉽게 하기 위해 확장할 수 있습니다. 기본적으로 패널을 열면 **Get Insights** 모드가 선택됩니다. 제품 사용 방법에 대한 지침 질문에도 별도의 **학습** 모드를 사용할 수 있습니다. **학습** 모드는 Learning Manager 사용 방법에 대한 유익한 질문에 답합니다. 예를 들면 &quot;학습 경로를 생성하려면 어떻게 해야 합니까?&quot;와 같습니다. 학습자 데이터를 쿼리하지 않습니다. [자세히 알아보기](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insights-agent)
 
 ### 질문하기
 
@@ -299,7 +299,7 @@ If your administrator has renamed standard terms using **Product Terminology** i
 
 Insights Agent는 프랑스어, 스페인어와 같은 영어 및 라틴 알파벳 언어로 작성된 쿼리를 지원합니다. 일본어, 중국어, 아랍어, 한국어, 힌디어 및 러시아어를 비롯하여 라틴어가 아닌 스크립트를 사용하여 제출된 쿼리는 처리되지 않습니다. 상담사는 쿼리를 완료할 수 없음을 나타내는 메시지를 표시합니다. 이러한 언어 중 하나로 쿼리를 제출하면 새 쿼리를 시작하고 영어로 다시 구합니다.
 
-## Insights 상담사 답변으로 보고서 만들기
+## Insights 상담사 답변으로 보고서 만들기 {#create-report-insights-agent}
 
 Adobe Learning Manager에서 Insights 상담사에게 일반 언어로 질문을 하고 Report Builder에서 보고서로 답변을 열 수 있습니다. 그러면 보고서를 편집하고 다시 사용할 수 있으므로 처음부터 다시 작성할 필요가 없습니다.
 
