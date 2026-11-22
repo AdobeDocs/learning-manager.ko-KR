@@ -203,7 +203,7 @@ ht-degree: 31%
     * [Webhook](/help/migrated/integration-admin/feature-summary/webhooks.md)
     * [Webhook 사용 안내서](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
     * [강사의 LO 인스턴스 편집에 대한 Webhook 이벤트](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
-    * Webhook을 사용한 [Go1 완료 추적](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
+    * [Webhook을 사용한 Go1 완료 추적](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
   * [신빙하](integration-admin/feature-summary/credly-integration.md)
   * [학습 도구 상호 운용성](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
   * [LTI 딥 링크](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)
