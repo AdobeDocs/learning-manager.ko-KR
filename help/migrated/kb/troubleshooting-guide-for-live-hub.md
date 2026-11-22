@@ -1,16 +1,16 @@
 ---
-title: 라이브 허브(베타) 문제 해결 가이드
+title: 라이브 허브 문제 해결 가이드
 description: Live Hub 세션 중에 발생할 수 있는 일반적인 오류 메시지 및 알림, 그 원인, 해결 단계.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: a39f411869dfc8dc88236a391a4681bed8cf8620
+source-git-commit: bf1aebd9c505dd632c5f31a3bc71e03462ec5e16
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1070'
 ht-degree: 2%
 ---
 
-# 라이브 허브(베타) 문제 해결 가이드
+# 라이브 허브 문제 해결 가이드
 
 Live Hub 세션 중에 강사에게 오류 메시지나 알림이 발생하여 특정 작업이 예상대로 완료되지 못할 수 있습니다. 이 문서에서는 일반적인 강사 대상 오류, 가능한 원인 및 이러한 오류를 해결하기 위해 취할 수 있는 단계에 대해 설명합니다.
 

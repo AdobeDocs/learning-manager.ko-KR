@@ -4,9 +4,9 @@ description: 관리자, 작성자, 강사 및 학습자를 위해 역할별로 �
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
+source-git-commit: bf1aebd9c505dd632c5f31a3bc71e03462ec5e16
 workflow-type: tm+mt
-source-wordcount: '4471'
+source-wordcount: '4470'
 ht-degree: 0%
 ---
 
@@ -54,7 +54,8 @@ Live Hub에는 교육 워크플로우의 다른 부분을 담당하는 관리자
 
 +++내 계정에서 라이브 허브를 사용할 수 있습니까?
 
-라이브 허브(Beta)는 2026년 8월부터 사용할 수 있습니다. 관리자는 Adobe Learning Manager 계정에 대해 라이브 허브 를 활성화하거나 비활성화할 수 있습니다. 라이브 허브가 활성화되어 있으면 작성자는 가상 강의실 모듈을 만들 때 라이브 교육 공급자로 라이브 허브를 선택할 수 있습니다. 라이브 허브 옵션을 사용할 수 없는 경우 관리자에게 문의하여 계정에 이 기능을 활성화하십시오.
+라이브 허브는 2026년 8월부터 사용할 수 있습니다. 관리자는 Adobe Learning Manager 계정에 대해 라이브 허브 를 활성화하거나 비활성화할 수 있습니다. 라이브 허브가 활성화되어 있으면 작성자는 가상 강의실 모듈을 만들 때 라이브 교육 공급자로 라이브 허브를 선택할 수 있습니다. 라이브 허브 옵션을 사용할 수 없는 경우 관리자에게 문의하여 계정에 이 기능을 활성화하십시오.
+
 
 +++
 
