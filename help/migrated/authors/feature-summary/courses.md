@@ -7,7 +7,7 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: f752ede2a7b2980bad014fcbcaa2d7028d695321
 workflow-type: tm+mt
 source-wordcount: '12311'
 ht-degree: 47%
@@ -312,7 +312,7 @@ Learning Manager 강의, 인증, 학습 프로그램을 생성하는 방법을 �
 * 모듈이 평가인 경우 다중 시도 설정에 **가장 높음**&#x200B;을 사용하면 학습자가 다시 시도할 수 있습니다. 최상의 성능보다는 현재 지식 수준을 캡처하려는 경우 **최신**&#x200B;을 사용하십시오.
 * 저장하기 전에 **총 가중치** 표시기가 정확히 100%로 표시되는지 확인합니다.
 
-## Adobe Learning Manager에서 자동 팀 생성 설정
+## Adobe Learning Manager에서 자동 팀 생성 설정 {#enable-automatic-team-formation}
 
 Adobe Learning Manager에서 인스턴스가 시작되기 전에 등록된 학습자를 팀으로 구분하도록 강의에 대한 자동 팀 생성 규칙을 설정합니다.
 
