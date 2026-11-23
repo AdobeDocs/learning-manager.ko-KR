@@ -7,7 +7,7 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: f752ede2a7b2980bad014fcbcaa2d7028d695321
 workflow-type: tm+mt
 source-wordcount: '12311'
 ht-degree: 47%
@@ -312,7 +312,7 @@ Learning Manager 강의, 인증, 학습 프로그램을 생성하는 방법을 �
 * 모듈이 평가인 경우 다중 시도 설정에 **가장 높음**&#x200B;을 사용하면 학습자가 다시 시도할 수 있습니다. 최상의 성능보다는 현재 지식 수준을 캡처하려는 경우 **최신**&#x200B;을 사용하십시오.
 * 저장하기 전에 **총 가중치** 표시기가 정확히 100%로 표시되는지 확인합니다.
 
-## Adobe Learning Manager에서 자동 팀 생성 설정
+## Adobe Learning Manager에서 자동 팀 생성 설정 {#enable-automatic-team-formation}
 
 Adobe Learning Manager에서 인스턴스가 시작되기 전에 등록된 학습자를 팀으로 구분하도록 강의에 대한 자동 팀 생성 규칙을 설정합니다.
 
@@ -440,7 +440,7 @@ Adobe Learning Manager에서 인스턴스가 시작되기 전에 등록된 학�
 
 1. **과정 개요** 페이지에서 **자동 대기자 명단 승인 허용**&#x200B;을 사용하도록 설정합니다.
 1. (선택 사항)**자동 승격 잘라내기** 선택기에서 날짜를 선택합니다.
-1. **저장**&#x200B;을 선택합니다.
+1. **저장**을 선택합니다.
 컷오프 후 자동 프로모션이 중지됩니다.
 
 >[!NOTE]
@@ -1497,7 +1497,7 @@ Adobe Captivate 및 Adobe Presenter 소프트웨어에서 &#39;게시&#39; 메�
 1. Adobe 자격 증명으로 로그인합니다. Adobe ID가 없다면 **[!UICONTROL 계정 만들기]**&#x200B;를 클릭합니다. 인증을 하면 모듈 게시 페이지로 이동합니다.
 1. 모듈에 대한 기본 정보를 입력한 다음 &#39;게시&#39;를 클릭합니다.
 
-Learning Manager 모듈 페이지에 게시된 모듈이 표시됩니다. 자세한 내용은 [Adobe Learning Manager에 프로젝트 게시](https://helpx.adobe.com/kr/captivate/classic/publish-project-to-captivate-prime.html)를 참조하십시오.
+Learning Manager 모듈 페이지에 게시된 모듈이 표시됩니다. 자세한 내용은 [Adobe Learning Manager에 프로젝트 게시](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)를 참조하십시오.
 
 ## 강의 효과 {#courseeffectiveness}
 
