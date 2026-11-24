@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Report Builder에서 사용 가능한 데이터 집합
 description: Adobe Learning Manager Report Builder에서 사용할 수 있는 데이터 세트, 필드 및 파생 필드에 대한 참조 가이드입니다.
 contentowner: mmanuel
-source-git-commit: e360008c41c1d72de660295f4789d729177d1fdb
+source-git-commit: 3cb434b8a4eeebab140981b71da72fad380ded24
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 29%
+source-wordcount: '1493'
+ht-degree: 31%
 ---
 
 # Report Builder에서 사용 가능한 데이터 집합
@@ -59,7 +59,7 @@ Report Builder은 사용 가능한 모든 열을 이름이 지정된 관련 필�
 * 사용자 완료율 %
 * 사용자 규정 준수율 %
 
-### 사용자 정의 필드 후 L2 퀴즈(사용자)
+### L2 퀴즈
 
 * 시도 횟수
 * 과정 ID
@@ -108,6 +108,7 @@ Report Builder은 사용 가능한 모든 열을 이름이 지정된 관련 필�
 * 태그
 * 유형
 * 고유 ID
+* 인증서 유효 기간(개월)
 
 ### 학습 객체 인스턴스
 
@@ -170,6 +171,8 @@ Report Builder은 사용 가능한 모든 열을 이름이 지정된 관련 필�
 * 사용자 최고 점수
 * 사용자 ID
 * 사용자 최신 점수
+* 최초 등록 여부
+* 메타데이터
 
 ### 성적 증명서(모듈)
 
@@ -189,6 +192,7 @@ Report Builder은 사용 가능한 모든 열을 이름이 지정된 관련 필�
 * 사용자 ID
 * 사용자 최신 점수
 * 사용자 이름
+* 모듈 성공 상태
 
 ### 사용자
 
@@ -229,6 +233,7 @@ Report Builder은 사용 가능한 모든 열을 이름이 지정된 관련 필�
 * 멤버 수
 * 이름
 * 상태
+* 멤버 수
 
 ### 사용자 그룹(활성 필드)
 
@@ -237,6 +242,7 @@ Report Builder은 사용 가능한 모든 열을 이름이 지정된 관련 필�
 * 멤버 수
 * 이름
 * 상태
+* 멤버 수
 
 ### 사용자 그룹(사용자 정의)
 
@@ -261,6 +267,7 @@ Report Builder은 사용 가능한 모든 열을 이름이 지정된 관련 필�
 * 소유자 이름
 * 소유자 고유 ID
 * 상태
+* 설명
 
 ### 사용자 그룹(기본 제공)
 
@@ -270,6 +277,7 @@ Report Builder은 사용 가능한 모든 열을 이름이 지정된 관련 필�
 * 멤버 수
 * 이름
 * 상태
+* 설명
 
 ### 사용자 그룹(팀)
 
@@ -285,6 +293,8 @@ Report Builder은 사용 가능한 모든 열을 이름이 지정된 관련 필�
 * 소유자 상태
 * 소유자 고유 ID
 * 상태
+* 설명
+* 멤버 수
 
 ## 데이터 세트가 함께 결합하는 방법
 

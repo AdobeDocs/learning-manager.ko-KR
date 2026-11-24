@@ -7,7 +7,7 @@ exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: f7df2fe74d9f4d57c0ed0c127f09400cef543508
+source-git-commit: 53804a4311b741e87f06d497a866552995a521b2
 workflow-type: tm+mt
 source-wordcount: '3562'
 ht-degree: 37%
@@ -266,7 +266,7 @@ Gen AI 기능이 활성화되기 전에 Adobe Learning Manager 계정이 Adobe A
 - 보드, 게시물 또는 댓글을 작성하여 소셜 학습에 참여
 - 외부 인증서 제출 승인 또는 강의실/가상 강의실 세션 출석으로 완료 달성
 
-## 사용 세부 정보 보기 {#viewusagedetails}
+## 사용 세부 정보 보기 {#view-usage-details}
 
 1. 월간 활성 사용자의 수를 보려면 **[!UICONTROL 사용 세부 정보 보기]**&#x200B;를 클릭합니다.
 

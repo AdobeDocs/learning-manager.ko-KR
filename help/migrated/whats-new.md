@@ -6,9 +6,9 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: b05fc0d33acf0b594a64f3ad4aa9a5c8e570ab30
 workflow-type: tm+mt
-source-wordcount: '4846'
+source-wordcount: '4748'
 ht-degree: 2%
 ---
 
@@ -121,7 +121,7 @@ Adobe Learning Manager은 이제 학습자가 직장에서 직면하기 전에 �
 
 Virtual Coach는 9개의 언어를 지원하며, 개별 작업 지원으로 사용하거나 강의에 내장할 수 있습니다.
 
-[자세히 알아보기](../migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+[자세히 알아보기](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
 ## 학습자 도우미의 학습 경로 인용
 
@@ -161,7 +161,7 @@ Virtual Coach는 9개의 언어를 지원하며, 개별 작업 지원으로 사�
 
 ## 강의 및 인스턴스용 Email Builder
 
-Adobe Learning Manager의 Email Builder를 사용하면 책임자와 작성자가 브랜디드 학습자 커뮤니케이션 템플릿을 만들 수 있습니다. ALM의 2026년 12월 릴리스에서는 강의 레벨 및 인스턴스 레벨 이메일에서 전체 Email Builder 환경을 사용할 수 있습니다. 작성자는 관리자가 정의한 레이아웃과 서식을 상속하면서 이러한 전자 메일을 사용자 정의할 수 있습니다.
+Adobe Learning Manager의 Email Builder를 사용하면 책임자와 작성자는 브랜드화된 학습자 커뮤니케이션 템플릿을 만들 수 있습니다. ALM의 2026년 12월 릴리스에서는 강의 레벨 및 인스턴스 레벨 이메일에서 전체 Email Builder 환경을 사용할 수 있습니다. 작성자는 책임자가 정의한 레이아웃과 서식을 그대로 유지하면서 이 전자 메일을 사용자 정의할 수 있습니다.
 
 Email Builder를 사용하여 다음을 수행할 수 있습니다.
 
@@ -208,7 +208,7 @@ Email Builder는 계층 구조를 사용합니다. 각 수준은 상위 수준�
 
 레이아웃 상속은 사용 가능한 마스터 레이아웃에 따라 달라집니다. 둘 다 있는 경우 인스턴스 수준 전자 메일은 강의 수준 템플릿을 재정의합니다.
 
-### 관리자와 작성자가 작업을 공유하는 방법
+### 책임자 및 작성자가 작업을 공유하는 방법
 
 관리자는 계정 레이아웃을 만들고, 계정 템플릿을 만들고, 브랜딩을 게시합니다. 그러면 작성자는 레이아웃을 상속하고 강의 이메일을 사용자 정의하며 템플릿을 저장하고 강의를 게시합니다. 작성자는 코호트가 강의 인스턴스를 통해 관리하는 다른 메시지가 필요한 경우 인스턴스 수준 템플릿을 사용합니다.
 
@@ -305,7 +305,6 @@ Adobe Workfront에서 취소된 세션은 수동 단계 없이 마이그레이�
 
 이제 관리자는 공공 아카데미에 나타나는 특정 카탈로그를 선택할 수 있습니다. 해당 카탈로그만 익명 방문자가 검색하고 검색 엔진과 AI 비서가 인덱싱할 수 있으므로 테스트 과정 또는 내부 콘텐츠는 비공개로 유지됩니다.
  
-
 ### 검색 엔진 및 AI 도우미(Beta)에서 찾을 수 있음
 
 이제 Adobe Learning Manager은 Google과 같은 검색 엔진과 ChatGPT, Claude, Gemini와 같은 AI 도우미를 통해 공공 아카데미를 발견하게 할 수 있습니다. 그러면 사용자의 아카데미가 지정한 검색 결과 및 AI 생성 답변에 강의가 표시됩니다.
@@ -338,14 +337,6 @@ Adobe Workfront에서 취소된 세션은 수동 단계 없이 마이그레이�
 
 [자세히 알아보기](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
 
-## 학습 경로 등록을 위한 마지막 액세스 날짜 저장
-
-이제 Adobe Learning Manager에서 마지막 액세스 날짜와 같은 사용자 정의 메타데이터를 학습 과정 등록에 첨부할 수 있습니다. API를 통해 설정하고 읽으며, 이를 통해 할당한 학습 경로에 대한 시간 바인딩된 액세스를 추적할 수 있습니다.
-
-강의 등록은 학습자가 강의에 액세스할 수 있는 기간을 제어하는 API를 통한 마지막 액세스 날짜를 이미 지원합니다. 이제 학습 경로 등록에서는 일반 메타데이터 필드가 제공되므로 마지막 액세스 날짜 또는 추적할 다른 값을 저장할 수 있습니다.
-
-[자세히 알아보기](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
-
 ## 다운로드한 보고서의 열 머리글이 변경됨
 
 이제 Report Builder에 다운로드된 보고서의 기본 열 머리글에 데이터 집합 이름이 포함되므로 학습 개체 데이터 집합의 이름이 **이름** 대신 **학습 개체 - 이름**(으)로 표시됩니다. 집계된 열의 경우 머리글에는 &quot;**학습 개체 수 - ID**&quot;과 같은 함수도 포함됩니다. 열의 **별칭** 필드에 사용자 지정 이름을 입력하면 해당 별칭이 머리글로 사용되고 변경되지 않습니다.
@@ -356,7 +347,7 @@ Adobe Workfront에서 취소된 세션은 수동 단계 없이 마이그레이�
 
 Live Hub는 이제 Ultimate 고객이 사용할 수 있으며 Prime 고객은 Beta로 유지됩니다.
 
-[자세히 알아보기](./administrators/feature-summary/billing-management.md#view-usage-details-viewusagedetails)
+[자세히 알아보기](./administrators/feature-summary/billing-management.md#view-live-hub-usage)
 
 ## 라이브 허브의 폐쇄 자막 다국어 지원
 
@@ -387,7 +378,7 @@ Live Hub는 이제 Ultimate 고객이 사용할 수 있으며 Prime 고객은 Be
 
 이를 통해 조직은 동일한 플랫폼 내에서 대규모 교육 세션을 실행할 수 있습니다. 이때 필요한 대상 인원으로 설정할 수 있습니다.
 
-[자세히 알아보기](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+[자세히 알아보기](./getting-started-with-live-hub/create-a-live-hub-session.md#create-large-session)
 
 ## 채널
 
