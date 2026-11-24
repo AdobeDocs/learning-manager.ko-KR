@@ -238,7 +238,7 @@ Claude 및 ChatGPT는 이러한 기능을 자동으로 검색합니다. 직접 �
 | 인증 URL | [https://\[alm-host\]/oauth/o/authorize](https://[alm-host]/oauth/o/authorize) |
 | 토큰 URL | [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token) |
 | URL 새로 고침 | [https://\[alm-host\]/oauth/token/refresh](https://[alm-host]/oauth/token/refresh) |
-| 인증 서버 기반 | [https://\[alm-host](https://[alm-host)\] |
+| 인증 서버 기반 | &lbrack;https://\[alm-host](https://[alm-host)\] |
 | 리소스 | [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp) |
 | 범위 | 학습자:write |
 
