@@ -6,10 +6,10 @@ exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 7d6fa2ad2d13520f97c81108ed545e6b7060ff3b
+source-git-commit: be7170bc8e384e0084eaa62b6f31ac0332bac6b5
 workflow-type: tm+mt
-source-wordcount: '7201'
-ht-degree: 3%
+source-wordcount: '7194'
+ht-degree: 4%
 ---
 # Adobe Learning Manager의 기본 설정
 
@@ -402,15 +402,13 @@ Adobe Learning Manager에는 강의, 학습 경로 또는 작업 지원과 같�
 >
 >반복 인증 및 관리자 승인 과정과 같은 특정 유형의 교육은 구매할 수 없습니다.
 
-## Adobe Learning Manager에서 자동 팀 구성 켜기
+### 팀 기반 제출을 위한 자동 팀 구성 {#enable-auto-team-formation}
 
 관리자 설정에서 자동 팀 구성을 켜면 각 강의 인스턴스가 시작되기 전에 Adobe Learning Manager에서 등록한 학습자를 팀으로 그룹화할 수 있습니다.
 
 이 설정은 선택 사항입니다. 팀 제출물은 없이 작동하며 강사는 수동으로 팀을 만들 수 있습니다.
 
 이 계정 설정을 켜면 Adobe Learning Manager은 각 강의 인스턴스가 시작되기 전 일정 기간 동안 등록된 학습자를 팀으로 자동 그룹화합니다. 이 설정은 기본적으로 꺼져 있습니다. 작성자는 강의의 일정을 조정할 수 있으며 강사는 수동으로 팀을 만들 수 있습니다.
-
-### 자동 팀 구성 켜기
 
 1. 관리자 앱에서 **설정** > **일반**&#x200B;을 선택합니다.
 
@@ -430,7 +428,7 @@ Adobe Learning Manager에는 강의, 학습 경로 또는 작업 지원과 같�
 
 설정은 팀 기반 파일 제출 모듈 및 인스턴스 시작 날짜가 있는 강의에만 작동합니다.
 
-## 변경 사항이 강의에 미치는 영향
+#### 변경 사항이 강의에 미치는 영향
 
 이 설정을 변경하면 저장 후 생성한 강의에만 변경 사항이 적용됩니다. 이미 존재하는 강의는 자동 팀 구성이 설정되었는지 또는 해제되었는지 여부와 관계없이 함께 게시된 구성을 유지하고 일정을 유지합니다. 예를 들어 3월에 설정을 켜면 2월에 만든 과정은 받지 못하고 3월 이후에 만든 과정은 받습니다.
 
