@@ -7,10 +7,10 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: 3b08fa3d0954da4352dabd7ef855f446817fda84
 workflow-type: tm+mt
-source-wordcount: '39615'
-ht-degree: 56%
+source-wordcount: '40345'
+ht-degree: 55%
 ---
 # Adobe Learning Manager 릴리스 정보
 
@@ -20,7 +20,7 @@ ht-degree: 56%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/kr/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -316,6 +316,46 @@ UI 로케일이 영어 이외의 언어로 설정된 경우 강의실 위치 페
 이 동작은 책임자 프로필 > 설정 > 강의실 위치에서 강의실 위치를 내보내는 동안 발생합니다. 파일 내의 위치 데이터가 올바르게 반환되지만 열 헤더는 관리자가 선택한 UI 로케일과 일치하도록 변환되지 않습니다. 따라서 영어 이외의 로케일로 작업하는 책임자는 지역화된 환경에서 영어 열 이름을 볼 수 있습니다.
 
 머리글 행만 영향을 받고 내보낸 파일의 기본 위치 데이터는 영향을 받지 않습니다. 이 릴리스에는 수정 사항이 없으며 향후 릴리스에 대해 문제를 평가하고 있습니다.
+
+**강사가 모듈 간 가상 강의실에 참여할 수 없습니다.**
+강사가 할당된 강의 모듈의 예약된 시간을 초과하는 강의실에 들어가려고 하면 가상 강의실에 참여할 수 없습니다.
+
+Adobe Learning Manager은 과정 내의 모든 모듈에 단일 가상 강의실을 사용합니다. 강사가 룸을 시작하면 세션은 해당 강사의 조인 URL에 연결된 모듈과 연결됩니다. 이후의 모든 조인 요청은 룸과 연결된 활성 모듈과 일치해야 합니다. 다른 강사가 다른 모듈이 활성화된 상태에서 다른 모듈의 가입 링크를 사용하여 가입하려고 하면 해당 강의실에 대한 액세스가 거부됩니다. 한 번에 하나의 모듈만 공유 룸에서 활성화할 수 있습니다.
+
+이 동작은 현재 릴리스에서 예상됩니다. 활성 모듈과 관계없이 강의 강사가 강의실에 참여할 수 있도록 개선한 내용은 향후 릴리스에서 확인할 예정입니다.
+
+**마이크와 스피커가 macOS에서 다를 때 오디오가 중단됩니다.**
+선택한 마이크와 스피커가 다른 디바이스인 경우 macOS의 가상 강의실 세션 중에 오디오가 간헐적으로 중단되거나 사운드가 왜곡될 수 있습니다. 이 동작은 마이크의 AirPods 및 재생용 내장 스피커와 같이 오디오 입력 및 출력에 다른 장치를 사용하는 경우 발생할 수 있습니다. 각 장치에 고유한 오디오 지연이 도입되므로 에코 제거의 효과가 줄어들고 배경 노이즈 억제가 음성 부분을 노이즈로 오인할 수 있습니다. 이로 인해 오디오가 잠시 중단될 수 있습니다. 이 문제는 마이크가 더 멀리 있는 경우와 같이 스피커의 음성이 낮은 볼륨으로 캡처될 때 더 두드러집니다.
+
+이는 알려진 플랫폼 제한이며 Adobe Learning Manager에만 국한되지 않습니다. 다른 회의 응용 프로그램에서도 유사한 동작이 발견되었습니다. 이 릴리스에는 수정 사항이 없으며 향후 릴리스에 대해 문제를 평가하고 있습니다.
+
+이 비헤이비어를 방지하려면 마이크와 스피커 모두에 동일한 장치를 사용합니다.
+
+**공유 비디오가 포커스를 잃은 후 Chrome에서 멈춤**
+강사가 비디오를 재생하는 Chrome 창을 공유한 다음 포커스를 전환하면 참석자가 공유 콘텐츠가 정지하거나 검은색 화면을 표시하는 것을 볼 수 있습니다. 강사를 위해 비디오가 로컬로 계속 재생되지만 공유 창의 포커스가 맞지 않는 동안에는 원격 참석자가 콘텐츠 업데이트를 볼 수 없습니다. 동작은 운영 체제에 따라 다릅니다.
+
+* Windows에서 참석자에게 검은색 화면이 표시됩니다.
+* macOS에서 참석자는 마지막으로 표시된 비디오 프레임을 볼 수 있습니다.
+
+포커스가 공유 브라우저 창으로 돌아가면 참석자에 대한 비디오 재생이 일반적으로 다시 시작됩니다.
+
+이는 브라우저 및 운영 체제 제한이며 Adobe Learning Manager에만 국한되지 않습니다. 이 릴리스에 사용할 수 있는 제품별 수정 사항이 없습니다.
+
+비디오 콘텐츠를 표시하는 동안 공유 브라우저 창에 포커스를 유지합니다. 재생 중에 가상 교실 창으로 다시 전환하지 마십시오.
+
+**학습자는 직접 URL을 사용하여 허용된 15분 동안 Live Hub 세션에 참여할 수 있습니다.**
+Adobe Learning Manager에서 학습자는 예약된 시작 시간으로부터 15분 이내에만 포털을 통해 라이브 허브 세션에 참여할 수 있습니다. 그러나 강사가 공유한 세션과 같은 직접 세션 URL을 가진 학습자는 Adobe Learning Manager에 로그인되어 있으면 더 빨리 세션에 참여할 수 있습니다. 이는 알려진 제한 사항이며 향후 릴리스에서 해결될 수 있습니다.
+
+**강사가 이미 사용 중인 모듈에 참여할 수 없습니다.**
+강사가 동일한 가상 강의실을 사용하는 두 개의 강의 모듈을 동시에 실행하려고 하면 첫 번째 강사만 정상적으로 강의실에 입장할 수 있습니다.
+
+Adobe Learning Manager은 강의 인스턴스에 단일 공유 가상 강의실을 사용합니다. 첫 번째 강사가 강의실에 참여하면 강의실이 해당 강사 모듈과 연결됩니다. 추가 조인 요청은 활성 모듈에 대해 검증됩니다. 다른 강사가 다른 모듈 링크를 사용하여 참가를 시도하면 액세스가 거부됩니다. 따라서 강의식 세션 동시 실행은 룸을 공유하는 별도의 모듈을 사용하여 동일한 강의 인스턴스 내에서 수행할 수 없습니다.
+
+이 동작은 현재 릴리스에서 예상되며 기존 회의실 아키텍처와 일치합니다. 이 기능은 고객 피드백을 기반으로 향후 개선을 위해 검토 중입니다.
+
+**iPad의 Firefox에서 전체 화면 모드가 작동하지 않습니다.**
+참가자가 iPad에서 Firefox 브라우저를 사용하여 라이브 허브 세션에 액세스하면 전체 화면 버튼을 선택해도 세션이 전체 화면 모드로 전환되지 않습니다. 세션은 화면을 채우도록 확장되지 않고 표준 브라우저 뷰에 남아 있습니다.
+이는 iPad의 Firefox에 대한 알려진 브라우저 제한 사항입니다. 이 브라우저 및 장치 조합에서는 전체 화면 기능을 사용할 수 없습니다. 이는 알려진 제한 사항이며 향후 릴리스에서 해결될 수 있습니다.
 
 **Live Hub에서 캡션 품질 제한**
 
@@ -656,7 +696,7 @@ UI 로케일이 영어 이외의 언어로 설정된 경우 강의실 위치 페
 4. 왼쪽 탐색 패널에서 학습자로 이동합니다.
    ![](assets/instructor-send-email1.png)
 5. 학습자 목록에서 학습자를 선택합니다.
-6. 오른쪽 상단에는 **작업** 드롭다운 목록이 열려 더 많은 옵션(회색으로 표시된 옵션 포함)을 표시합니다. **모든 사용자에게 전자 메일 보내기**&#x200B;는 옵션 중 하나입니다.
+6. 오른쪽 상단에는 **작업** 드롭다운 목록이 열려 더 많은 옵션(회색으로 표시된 옵션 포함)을 표시합니다. **모든 사용자에게 전자 메일 보내기**는 옵션 중 하나입니다.
    ![](assets/instructor-send-email2.png)
 
 **삭제된 사용자 자동 제거:** 삭제된 사용자 자동 제거는 삭제에 필요한 최소 기간으로 1년으로 설정되었습니다. 이 기능은 &quot;일&quot;의 숫자로도 사용할 수 있도록 개선되었습니다. 관리자는 이제 고객 성공 관리자에게 연락하여 이 변경 사항을 요청하고 백엔드에서 해당 변경 사항을 변경할 수 있습니다.
@@ -1029,7 +1069,7 @@ Fluidic Player에 대한 자세한 내용은 이 [문서](/help/migrated/learner
 
 * 콘텐츠 모듈을 새 버전으로 업데이트한 후 강의를 완료한 학습자가 강의를 다시 방문할 때 흰색 화면이 표시되는 문제를 수정했습니다.
 
-또한 Adobe Learning Manager에 적용 예정인 변경 사항에 대한 자세한 내용은 이 [문서](https://experienceleague.adobe.com/ko/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)를 참조하세요.
+또한 Adobe Learning Manager에 적용 예정인 변경 사항에 대한 자세한 내용은 이 [문서](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)를 참조하세요.
 
 +++
 
@@ -2509,7 +2549,7 @@ Learning Manager 2020년 4월 릴리스는 다음 사항에 초점을 맞추었�
 
 학습자는 외부 인증서를 열고 pdf, 텍스트 또는 이미지 파일과 같은 에셋을 업로드할 수 있습니다.
 
-자세한 내용은 [***외부 인증서 에셋 업로드***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;를 참조하세요.**&#x200B;**
+자세한 내용은 [***외부 인증서 에셋 업로드***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;를 참조하세요.****
 
 ### 이번 릴리스에서 수정된 문제 {#issuesfixedinthisrelease}
 
@@ -2828,7 +2868,7 @@ Adobe Connect에서 고객은 Connect에서 이미 만든 기존 회의실을 �
 
 ### 새로운 기능 및 향상된 기능 {#Newandenhancedfeatures-5}
 
-**내부 및 외부 사용자에 대한 소셜 학습에서 범위 분리**&#x200B;책임자는 내부 및 외부 학습자에 대해 별도의 범위를 정의할 수 있습니다. 두 가지 새로운 내부 사용자와 외부 사용자용 섹션이 있습니다. 두 섹션 모두에서 학습자 그룹에 대한 범위를 정의할 수 있습니다. 내부 사용자에 대해 사용자 특성 값을 정의할 수 있습니다. 외부 사용자의 경우 학습자가 같은 소셜 공간을 공유할 수 있는 외부 프로필을 정의할 수 있습니다. 자세한 내용은 [***범위 설정***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)&#x200B;을 참조하십시오.  **소셜 보드의 소셜 제한 생성**&#x200B;모든 학습자의 보드 생성을 제한하고 보드를 효과적으로 중재하려면 관리자는 선택한 사용자 그룹에게 보드를 생성할 수 있는 권한을 부여할 수 있습니다. 관리자는 소셜 학습에 참여하는 모든 학습자가 아닌, 선택한 그룹만 보드를 생성할 수 있도록 제한할 수 있습니다. 자세한 내용은 [***보드 생성 권한***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)&#x200B;을 참조하십시오.  **학습자에게 비어있는 활성 필드만 표시**&#x200B;관리자는 값이 입력된 후에 활성 필드를 표시하거나 숨기는 것을 선택할 수 있습니다. 자세한 내용은 [***사용자 표시***](../administrators/feature-summary/add-users-user-groups.md#activefields)&#x200B;를 참조하십시오.  **내부 사용자가 지정된 비활성화 기간에 삭제됨**&#x200B;관리자가 학습자가 지정된 기간 동안 비활성화를 유지하는 경우 내부 학습자를 삭제하는 기간(일별로)을 설정할 수 있습니다. 자세한 내용은 ***[사용자 자동 삭제](../administrators/feature-summary/settings.md#autodelete)를 &#x200B;***.  **바닥글의 사용자 지정**&#x200B;관리자는 바닥글에 링크를 추가하고 사용자 지정할 수 있습니다. 링크는 다양한 로케일에 대해 사용자 정의될 수도 있습니다. 또한, 바닥글에 &#39;책임자에게 문의&#39; 링크를 추가하는 기존 방법을 **바닥글 링크** 섹션에서 확인할 수 있습니다. 자세한 내용은 [***바닥글 링크 사용자 정의***](../administrators/feature-summary/settings.md#footer)&#x200B;를 참조하십시오.
+**내부 및 외부 사용자에 대한 소셜 학습에서 범위 분리**&#x200B;책임자는 내부 및 외부 학습자에 대해 별도의 범위를 정의할 수 있습니다. 두 가지 새로운 내부 사용자와 외부 사용자용 섹션이 있습니다. 두 섹션 모두에서 학습자 그룹에 대한 범위를 정의할 수 있습니다. 내부 사용자에 대해 사용자 특성 값을 정의할 수 있습니다. 외부 사용자의 경우 학습자가 같은 소셜 공간을 공유할 수 있는 외부 프로필을 정의할 수 있습니다. 자세한 내용은 [***범위 설정***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)&#x200B;을 참조하십시오.  **소셜 보드의 소셜 제한 생성**&#x200B;모든 학습자의 보드 생성을 제한하고 보드를 효과적으로 중재하려면 관리자는 선택한 사용자 그룹에게 보드를 생성할 수 있는 권한을 부여할 수 있습니다. 관리자는 소셜 학습에 참여하는 모든 학습자가 아닌, 선택한 그룹만 보드를 생성할 수 있도록 제한할 수 있습니다. 자세한 내용은 [***보드 생성 권한***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)&#x200B;을 참조하십시오.  **학습자에게 비어있는 활성 필드만 표시**&#x200B;관리자는 값이 입력된 후에 활성 필드를 표시하거나 숨기는 것을 선택할 수 있습니다. 자세한 내용은 [***사용자 표시***](../administrators/feature-summary/add-users-user-groups.md#activefields)&#x200B;를 참조하십시오.  **내부 사용자가 지정된 비활성화 기간에 삭제됨**&#x200B;관리자가 학습자가 지정된 기간 동안 비활성화를 유지하는 경우 내부 학습자를 삭제하는 기간(일별로)을 설정할 수 있습니다. 자세한 내용은 ***[사용자 자동 삭제](../administrators/feature-summary/settings.md#autodelete)를 ***.  **바닥글의 사용자 지정**&#x200B;관리자는 바닥글에 링크를 추가하고 사용자 지정할 수 있습니다. 링크는 다양한 로케일에 대해 사용자 정의될 수도 있습니다. 또한, 바닥글에 &#39;책임자에게 문의&#39; 링크를 추가하는 기존 방법을 **바닥글 링크** 섹션에서 확인할 수 있습니다. 자세한 내용은 [***바닥글 링크 사용자 정의***](../administrators/feature-summary/settings.md#footer)&#x200B;를 참조하십시오.
 
 ### 이 릴리스의 알려진 문제 {#Knownissuesinthisrelease-2}
 
@@ -3513,7 +3553,7 @@ Fluidic Player의 개선 사항은 비디오에만 적용됩니다.
 
 ### 향상된 성능 {#enhancement}
 
-이 업데이트의 일부로 Learning Manager는 응용 프로그램 사용자에게 업데이트를 위한 끝점 <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) -->을(를) 제공합니다. 책임자 역할이라면 이 API 엔드포인트에 접근할 수 있습니다. 이 엔드포인트&#x200B;**&#x200B;** 사용하여 다음과 같은 Learning Manager 사용자 정보를 업데이트할 수 있습니다.
+이 업데이트의 일부로 Learning Manager는 응용 프로그램 사용자에게 업데이트를 위한 끝점 <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) -->을(를) 제공합니다. 책임자 역할이라면 이 API 엔드포인트에 접근할 수 있습니다. 이 엔드포인트**** 사용하여 다음과 같은 Learning Manager 사용자 정보를 업데이트할 수 있습니다.
 
 * 이름
 * 전자 메일
@@ -4023,7 +4063,7 @@ FTP를 사용한 CSV 자동 업로드 기능의 경우 관리자는 CSV 업로�
 
 **전자 메일 템플릿**
 
-* 외부 그룹을 나타내는 데 사용된 **파트너**&#x200B;라는 단어를&#x200B;**&#x200B;**&#x200B;**&#x200B;** 전자 메일 템플릿 제목과 본문에서 제거했습니다. 외부 그룹을 반드시 파트너라고 부르지는 않습니다.\
+* 외부 그룹을 나타내는 데 사용된 **파트너**&#x200B;라는 단어를&#x200B;******** 전자 메일 템플릿 제목과 본문에서 제거했습니다. 외부 그룹을 반드시 파트너라고 부르지는 않습니다.\
   **참고:** 기본 템플릿이 이미 수정된 경우에는 이 업데이트된 템플릿이 나타나지 않습니다. 업데이트된 템플릿을 보려면 **템플릿 미리 보기** 대화 상자에서 **을(를) 원본**&#x200B;으로 되돌리기를 클릭합니다.
 
 * **생성된 프로필(자가 등록)**&#x200B;과&#x200B;**생성된 프로필(외부 사용자/파트너)** 전자 메일 템플릿을 편집하면 관리자가 받은 전자 메일에 있는 URL을 클릭할 수 없습니다. 이 문제는 수정되었습니다.
