@@ -3,9 +3,9 @@ description: AI 도우미가 학습자의 교육에 안전하게 도달할 수 �
 jcr-language: en_us
 title: Adobe Learning Manager MCP 서버 구성
 exl-id: b5d2c08e-a11e-4f55-9ba5-a652a9575678
-source-git-commit: 89aa1b5ab02eed8a61507ab162fcbbd384e6c5fc
+source-git-commit: 47770f784e9f88684c19d6c72cf08b1f36e859fe
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2089'
 ht-degree: 1%
 ---
 
@@ -182,30 +182,30 @@ MCP 서버는 다음과 같은 도구를 제공합니다. 모두 로그인한 �
 </thead>
 <tbody>
 <tr>
-<td>search_learning_itemsread-only</td>
+<td>search_learning_item</td>
 <td>카탈로그에서 강의, 학습 경로, 인증, 작업 지원, 배지, 스킬, 카탈로그 및 태그를 검색합니다. 필터: 유형, 학습자 상태, 스킬, 태그, 카탈로그, 전달 형식, 가격 및 언어. 페이지당 최대 10개의 결과를 반환합니다.</td>
 <td>"파이썬 초급 과정"<br />
 "프랑스어 무료 강의실 교육"</td>
 </tr>
 <tr>
-<td>list_my_learning_enrollmentsread-only</td>
+<td>list_my_learning_enrollments</td>
 <td>학습자의 등록됨, 진행 중 및 완료한 학습 목록과 상태, 진행률 및 기한이 표시됩니다. 가장 최근에 등록된 첫 번째 멤버입니다.</td>
 <td>"내가 등록한 항목"<br />
 "기한이 얼마 남았어요?"<br />
 '내 완료된 교육'</td>
 </tr>
 <tr>
-<td>get_learning_objectread-only</td>
+<td>get_learning_object</td>
 <td>필요한 경우 인스턴스, 스킬 및 하위 항목을 포함하여 ID별로 강의, 학습 경로, 인증 또는 작업 지원에 대한 전체 세부 정보를 가져옵니다.</td>
 <td>"두 번째 코스에 대해 자세히 알아보기"</td>
 </tr>
 <tr>
-<td>get_my_learning_profileread-only</td>
+<td>get_my_learning_profile</td>
 <td>계정 및 관리자를 포함한 학습자의 ALM 프로필을 가져옵니다.</td>
 <td>"ALM의 관리자는 누구입니까?"</td>
 </tr>
 <tr>
-<td>answer_learning_content_questionuses AI 크레딧</td>
+<td>answer_learning_content_question</td>
 <td>인용문이 있는 강의 콘텐츠를 기반으로 하는 ALM 학습 도우미를 사용하여 강의 주제에 대한 질문에 답변합니다. 도우미가 후속 질문에 사용하는 대화 ID를 반환합니다.</td>
 <td>"내 네트워킹 과정에서 다룬 TCP와 UDP 설명"</td>
 </tr>
@@ -238,7 +238,7 @@ Claude 및 ChatGPT는 이러한 기능을 자동으로 검색합니다. 직접 �
 | 인증 URL | [https://\[alm-host\]/oauth/o/authorize](https://[alm-host]/oauth/o/authorize) |
 | 토큰 URL | [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token) |
 | URL 새로 고침 | [https://\[alm-host\]/oauth/token/refresh](https://[alm-host]/oauth/token/refresh) |
-| 인증 서버 기반 | &lbrack;https://\[alm-host](https://[alm-host)\] |
+| 인증 서버 기반 | [https://\[alm-host\]](https://[alm-host]) |
 | 리소스 | [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp) |
 | 범위 | 학습자:write |
 

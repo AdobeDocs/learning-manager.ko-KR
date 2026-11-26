@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 3b08fa3d0954da4352dabd7ef855f446817fda84
+source-git-commit: ba51f210cd63e074c009aa167173cfee35a44fe1
 workflow-type: tm+mt
-source-wordcount: '40345'
+source-wordcount: '40347'
 ht-degree: 55%
 ---
 # Adobe Learning Manager 릴리스 정보
@@ -355,6 +355,7 @@ Adobe Learning Manager은 강의 인스턴스에 단일 공유 가상 강의실�
 
 **iPad의 Firefox에서 전체 화면 모드가 작동하지 않습니다.**
 참가자가 iPad에서 Firefox 브라우저를 사용하여 라이브 허브 세션에 액세스하면 전체 화면 버튼을 선택해도 세션이 전체 화면 모드로 전환되지 않습니다. 세션은 화면을 채우도록 확장되지 않고 표준 브라우저 뷰에 남아 있습니다.
+
 이는 iPad의 Firefox에 대한 알려진 브라우저 제한 사항입니다. 이 브라우저 및 장치 조합에서는 전체 화면 기능을 사용할 수 없습니다. 이는 알려진 제한 사항이며 향후 릴리스에서 해결될 수 있습니다.
 
 **Live Hub에서 캡션 품질 제한**
