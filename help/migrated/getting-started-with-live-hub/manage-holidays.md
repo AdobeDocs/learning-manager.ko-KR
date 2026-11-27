@@ -4,7 +4,7 @@ description: 책임자가 라이브 허브 세션의 강사 가용성에 영향�
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: d0b166a48876f5dcb7268c9c956d624cff55fae1
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 7%
@@ -58,7 +58,7 @@ ht-degree: 7%
 
 1. **저장**&#x200B;을 선택합니다. 휴일이 목록에 추가됩니다.
 
-### 대량으로 휴일 추가
+### 대량으로 휴일 추가 {#holidays-in-bulk}
 
 CSV 파일을 사용하여 한 번에 여러 휴일을 추가합니다.
 
